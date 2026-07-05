@@ -1,36 +1,23 @@
-/* @author raghav 
-this file will contain the schema for the user collection in MongoDB. It will define the structure of the user document and the data types of each field. It will also define any validation rules for the fields.
-*/
-
-
-import mongoose from 'mongoose'
+import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
+
+    // =====================================
+    // Authentication
+    // =====================================
+
     userName: {
         type: String,
         required: true,
-        unique: true
-    },
-
-    firstName: {
-        type: String,
-        required: true
-    },
-
-    lastName: {
-        type: String,
-        required: true
+        unique: true,
+        trim: true
     },
 
     email: {
         type: String,
         required: true,
-        unique: true
-    },
-
-    mailVerified: {
-        type: Boolean,
-        default: false
+        unique: true,
+        lowercase: true
     },
 
     phone: {
@@ -39,17 +26,118 @@ const userSchema = new mongoose.Schema({
         unique: true
     },
 
-    phoneVerified: {
-        type: Boolean,
-        default: false
-    },
-
     password: {
         type: String,
-        required: true
+        required: true,
+        select: false
+    },
+
+
+
+    // =====================================
+    // Basic Profile
+    // =====================================
+
+    profile: {
+
+        avatar: {
+            type: String,
+            default: ""
+        },
+
+        displayName: {
+            type: String,
+            default: ""
+        },
+
+        bio: {
+            type: String,
+            maxlength: 300,
+            default: ""
+        }
+
+    },
+
+    // =====================================
+    // Career
+    // =====================================
+
+    career: {
+
+        targetRole: {
+            type: String,
+            default: ""
+        },
+
+        experience: [
+            {
+                company: String,
+
+                jobTitle: String,
+
+                startDate: Date,
+
+                endDate: Date,
+
+                currentlyWorking: {
+                    type: Boolean,
+                    default: false
+                }
+            }
+        ],
+
+        education: [
+            {
+                institute: String,
+
+                degree: String,
+
+                startDate: Date,
+
+                endDate: Date,
+
+                currentlyStudying: {
+                    type: Boolean,
+                    default: false
+                }
+            }
+        ],
+
+        skills: [
+            {
+                type: String
+            }
+        ]
+
+    },
+
+    // =====================================
+    // Social Links
+    // =====================================
+
+    socialLinks: {
+
+        github: String,
+
+        linkedIn: String,
+
+        portfolio: String
+
+    },
+
+    // =====================================
+    // System
+    // =====================================
+
+    profileCompleted: {
+        type: Boolean,
+        default: false
     }
-    
 
-}, { timestamps: true, versionKey: false })
+},
+{
+    timestamps: true,
+    versionKey: false
+});
 
-export default mongoose.model('User', userSchema)
+export default mongoose.model("User", userSchema);

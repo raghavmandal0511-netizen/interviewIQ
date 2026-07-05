@@ -1,10 +1,10 @@
-import user from "../database/userSchema.js";
+import user from '../../database/models/user/user.model.js'
 
 const authRegisterMiddleware = async (req, res, next) => {
     try {
-              
+
         const { userName, firstName, lastName, email, phone, password } = req.body;
-           
+
             
         //  all field is empty or not check
         if (!userName || !firstName || !lastName || !email || !phone || !password) {

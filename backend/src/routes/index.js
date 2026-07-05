@@ -1,6 +1,6 @@
     import {Router} from 'express';
-    import registerRoute from './authRoute/userAuthRoutes.js';
-    import loginRoute from './authRoute/userAuthRoutes.js';
+    import registerRoute from '../modules/auth/auth.routes.js';
+    import {loginRoute} from '../modules/auth/auth.routes.js';
 
 
     const router = Router();

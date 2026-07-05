@@ -1,4 +1,4 @@
-import user from '../database/userSchema.js'
+import user from '../../database/models/user/user.model.js'
 import bycrpt from 'bcrypt'
 import jwt from 'jsonwebtoken'
 

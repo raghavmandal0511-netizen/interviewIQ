@@ -1,8 +1,8 @@
 import {Router} from 'express';
-import userCreateByRegister from '../../controller/authUserController.js';
-import {userLogin} from '../../controller/authUserController.js';
-import authRegisterMiddleware from '../../middleware/authUserMiddleware.js';
-import {authLogginMiddleware} from '../../middleware/authUserMiddleware.js';
+import userCreateByRegister from './auth.controllers.js';
+import {userLogin} from './auth.controllers.js';
+import authRegisterMiddleware from '../../middleware/auth.middleware/auth.middleware.js';
+import {authLogginMiddleware} from '../../middleware/auth.middleware/auth.middleware.js';
 
 const router = Router();
 

@@ -1,0 +1,4287 @@
+[
+  {
+    "userName": "robertwilliams1",
+    "email": "robertwilliams1@example.com",
+    "phone": "+15555994027",
+    "password": "password123",
+    "profile": {
+      "displayName": "Robert Williams",
+      "bio": "Hi, I am Robert, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Kubernetes",
+        "Jest",
+        "Node.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/robertwilliams1",
+      "linkedIn": "https://linkedin.com/in/robertwilliams1"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidrodriguez2",
+    "email": "davidrodriguez2@example.com",
+    "phone": "+15555921445",
+    "password": "password123",
+    "profile": {
+      "displayName": "David Rodriguez",
+      "bio": "Hi, I am David, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "Docker",
+        "Java",
+        "Go",
+        "AWS",
+        "HTML",
+        "Git",
+        "JavaScript"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-08-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidrodriguez2",
+      "linkedIn": "https://linkedin.com/in/davidrodriguez2"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "danieltaylor3",
+    "email": "danieltaylor3@example.com",
+    "phone": "+15558801977",
+    "password": "password123",
+    "profile": {
+      "displayName": "Daniel Taylor",
+      "bio": "Hi, I am Daniel, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "GraphQL",
+        "PostgreSQL",
+        "HTML"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/danieltaylor3",
+      "linkedIn": "https://linkedin.com/in/danieltaylor3"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jessicalee4",
+    "email": "jessicalee4@example.com",
+    "phone": "+15555385894",
+    "password": "password123",
+    "profile": {
+      "displayName": "Jessica Lee",
+      "bio": "Hi, I am Jessica, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "Figma"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jessicalee4",
+      "linkedIn": "https://linkedin.com/in/jessicalee4"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nancymiller5",
+    "email": "nancymiller5@example.com",
+    "phone": "+15558688296",
+    "password": "password123",
+    "profile": {
+      "displayName": "Nancy Miller",
+      "bio": "Hi, I am Nancy, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Angular",
+        "Jest",
+        "Node.js",
+        "Java"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2023-06-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nancymiller5",
+      "linkedIn": "https://linkedin.com/in/nancymiller5"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "matthewlopez6",
+    "email": "matthewlopez6@example.com",
+    "phone": "+15550276732",
+    "password": "password123",
+    "profile": {
+      "displayName": "Matthew Lopez",
+      "bio": "Hi, I am Matthew, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "Docker",
+        "Node.js",
+        "PostgreSQL",
+        "C++"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/matthewlopez6",
+      "linkedIn": "https://linkedin.com/in/matthewlopez6"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "richardbrown7",
+    "email": "richardbrown7@example.com",
+    "phone": "+15558670446",
+    "password": "password123",
+    "profile": {
+      "displayName": "Richard Brown",
+      "bio": "Hi, I am Richard, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Systems Architect",
+      "skills": [
+        "Kubernetes",
+        "HTML",
+        "Git",
+        "Vue.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-02-28T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/richardbrown7",
+      "linkedIn": "https://linkedin.com/in/richardbrown7"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jamessmith8",
+    "email": "jamessmith8@example.com",
+    "phone": "+15559403905",
+    "password": "password123",
+    "profile": {
+      "displayName": "James Smith",
+      "bio": "Hi, I am James, a passionate DevOps Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Systems Architect",
+      "skills": [
+        "Redis",
+        "C++",
+        "GraphQL",
+        "CSS",
+        "Vue.js",
+        "Jest",
+        "Git"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-04-30T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jamessmith8",
+      "linkedIn": "https://linkedin.com/in/jamessmith8"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "anthonywilson9",
+    "email": "anthonywilson9@example.com",
+    "phone": "+15552454467",
+    "password": "password123",
+    "profile": {
+      "displayName": "Anthony Wilson",
+      "bio": "Hi, I am Anthony, a passionate QA Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "Angular",
+        "MongoDB",
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "C++"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-10-31T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/anthonywilson9",
+      "linkedIn": "https://linkedin.com/in/anthonywilson9"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "marygonzalez10",
+    "email": "marygonzalez10@example.com",
+    "phone": "+15554171156",
+    "password": "password123",
+    "profile": {
+      "displayName": "Mary Gonzalez",
+      "bio": "Hi, I am Mary, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "C++",
+        "Go",
+        "Kubernetes",
+        "Java",
+        "Python"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Systems Architect",
+          "startDate": "2020-08-31T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/marygonzalez10",
+      "linkedIn": "https://linkedin.com/in/marygonzalez10"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "patriciarodriguez11",
+    "email": "patriciarodriguez11@example.com",
+    "phone": "+15558831276",
+    "password": "password123",
+    "profile": {
+      "displayName": "Patricia Rodriguez",
+      "bio": "Hi, I am Patricia, a passionate Backend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "Node.js",
+        "Go",
+        "GraphQL",
+        "Vue.js",
+        "Docker",
+        "Express",
+        "PostgreSQL"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "UI/UX Designer",
+          "startDate": "2020-08-31T18:30:00.000Z",
+          "endDate": "2023-09-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/patriciarodriguez11",
+      "linkedIn": "https://linkedin.com/in/patriciarodriguez11"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "karenrobinson12",
+    "email": "karenrobinson12@example.com",
+    "phone": "+15555967808",
+    "password": "password123",
+    "profile": {
+      "displayName": "Karen Robinson",
+      "bio": "Hi, I am Karen, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "skills": [
+        "Python",
+        "Git",
+        "CSS"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2023-07-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/karenrobinson12",
+      "linkedIn": "https://linkedin.com/in/karenrobinson12"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "markwilson13",
+    "email": "markwilson13@example.com",
+    "phone": "+15551760724",
+    "password": "password123",
+    "profile": {
+      "displayName": "Mark Wilson",
+      "bio": "Hi, I am Mark, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "Java",
+        "C++",
+        "CSS",
+        "Python"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Systems Architect",
+          "startDate": "2020-03-31T18:30:00.000Z",
+          "endDate": "2023-02-28T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/markwilson13",
+      "linkedIn": "https://linkedin.com/in/markwilson13"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "elizabethwilliams14",
+    "email": "elizabethwilliams14@example.com",
+    "phone": "+15557192035",
+    "password": "password123",
+    "profile": {
+      "displayName": "Elizabeth Williams",
+      "bio": "Hi, I am Elizabeth, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "UI/UX Designer",
+      "skills": [
+        "Go",
+        "Express",
+        "Java",
+        "AWS",
+        "TypeScript",
+        "Node.js",
+        "Docker"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2023-06-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/elizabethwilliams14",
+      "linkedIn": "https://linkedin.com/in/elizabethwilliams14"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jessicaharris15",
+    "email": "jessicaharris15@example.com",
+    "phone": "+15558959496",
+    "password": "password123",
+    "profile": {
+      "displayName": "Jessica Harris",
+      "bio": "Hi, I am Jessica, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "C++",
+        "TypeScript",
+        "Jest",
+        "Node.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-09-30T18:30:00.000Z",
+          "endDate": "2023-06-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jessicaharris15",
+      "linkedIn": "https://linkedin.com/in/jessicaharris15"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jamesthompson16",
+    "email": "jamesthompson16@example.com",
+    "phone": "+15554155057",
+    "password": "password123",
+    "profile": {
+      "displayName": "James Thompson",
+      "bio": "Hi, I am James, a passionate Product Manager with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "QA Engineer",
+      "skills": [
+        "Python",
+        "AWS",
+        "Figma"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jamesthompson16",
+      "linkedIn": "https://linkedin.com/in/jamesthompson16"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jenniferanderson17",
+    "email": "jenniferanderson17@example.com",
+    "phone": "+15559134337",
+    "password": "password123",
+    "profile": {
+      "displayName": "Jennifer Anderson",
+      "bio": "Hi, I am Jennifer, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "Jest",
+        "Figma",
+        "Vue.js",
+        "JavaScript",
+        "Docker"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-02-29T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jenniferanderson17",
+      "linkedIn": "https://linkedin.com/in/jenniferanderson17"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charlesdavis18",
+    "email": "charlesdavis18@example.com",
+    "phone": "+15557402039",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Davis",
+      "bio": "Hi, I am Charles, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "Redis",
+        "Kubernetes",
+        "GraphQL",
+        "HTML",
+        "Jest",
+        "Python"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-02-29T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charlesdavis18",
+      "linkedIn": "https://linkedin.com/in/charlesdavis18"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "josephgarcia19",
+    "email": "josephgarcia19@example.com",
+    "phone": "+15550420372",
+    "password": "password123",
+    "profile": {
+      "displayName": "Joseph Garcia",
+      "bio": "Hi, I am Joseph, a passionate Backend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "CSS",
+        "AWS",
+        "Vue.js",
+        "Express"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/josephgarcia19",
+      "linkedIn": "https://linkedin.com/in/josephgarcia19"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "richardmartinez20",
+    "email": "richardmartinez20@example.com",
+    "phone": "+15558767498",
+    "password": "password123",
+    "profile": {
+      "displayName": "Richard Martinez",
+      "bio": "Hi, I am Richard, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Express",
+        "PostgreSQL",
+        "GraphQL",
+        "Docker",
+        "Figma"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-09-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/richardmartinez20",
+      "linkedIn": "https://linkedin.com/in/richardmartinez20"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "thomashernandez21",
+    "email": "thomashernandez21@example.com",
+    "phone": "+15558481406",
+    "password": "password123",
+    "profile": {
+      "displayName": "Thomas Hernandez",
+      "bio": "Hi, I am Thomas, a passionate DevOps Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Systems Architect",
+      "skills": [
+        "AWS",
+        "Java",
+        "Jest",
+        "Docker"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/thomashernandez21",
+      "linkedIn": "https://linkedin.com/in/thomashernandez21"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "lindamartinez22",
+    "email": "lindamartinez22@example.com",
+    "phone": "+15559896645",
+    "password": "password123",
+    "profile": {
+      "displayName": "Linda Martinez",
+      "bio": "Hi, I am Linda, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "React",
+        "Figma",
+        "PostgreSQL",
+        "TypeScript"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2020-03-31T18:30:00.000Z",
+          "endDate": "2023-11-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/lindamartinez22",
+      "linkedIn": "https://linkedin.com/in/lindamartinez22"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "patriciabrown23",
+    "email": "patriciabrown23@example.com",
+    "phone": "+15551339142",
+    "password": "password123",
+    "profile": {
+      "displayName": "Patricia Brown",
+      "bio": "Hi, I am Patricia, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "JavaScript",
+        "AWS",
+        "Express",
+        "Python",
+        "Angular",
+        "GraphQL",
+        "C++"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-09-30T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/patriciabrown23",
+      "linkedIn": "https://linkedin.com/in/patriciabrown23"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnmartinez24",
+    "email": "johnmartinez24@example.com",
+    "phone": "+15554915272",
+    "password": "password123",
+    "profile": {
+      "displayName": "John Martinez",
+      "bio": "Hi, I am John, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "Git",
+        "Kubernetes",
+        "HTML",
+        "Redis"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2020-04-30T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnmartinez24",
+      "linkedIn": "https://linkedin.com/in/johnmartinez24"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "marklee25",
+    "email": "marklee25@example.com",
+    "phone": "+15552902489",
+    "password": "password123",
+    "profile": {
+      "displayName": "Mark Lee",
+      "bio": "Hi, I am Mark, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "Figma",
+        "HTML",
+        "Python"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-11-30T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/marklee25",
+      "linkedIn": "https://linkedin.com/in/marklee25"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "danielrobinson26",
+    "email": "danielrobinson26@example.com",
+    "phone": "+15556880502",
+    "password": "password123",
+    "profile": {
+      "displayName": "Daniel Robinson",
+      "bio": "Hi, I am Daniel, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "React",
+        "TypeScript",
+        "Kubernetes"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/danielrobinson26",
+      "linkedIn": "https://linkedin.com/in/danielrobinson26"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charlesjohnson27",
+    "email": "charlesjohnson27@example.com",
+    "phone": "+15559770348",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Johnson",
+      "bio": "Hi, I am Charles, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "skills": [
+        "Jest",
+        "AWS",
+        "C++",
+        "Express",
+        "GraphQL",
+        "Node.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-09-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charlesjohnson27",
+      "linkedIn": "https://linkedin.com/in/charlesjohnson27"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "robertjackson28",
+    "email": "robertjackson28@example.com",
+    "phone": "+15556043743",
+    "password": "password123",
+    "profile": {
+      "displayName": "Robert Jackson",
+      "bio": "Hi, I am Robert, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "Go",
+        "HTML",
+        "JavaScript",
+        "C++"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-10-31T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/robertjackson28",
+      "linkedIn": "https://linkedin.com/in/robertjackson28"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "elizabeththomas29",
+    "email": "elizabeththomas29@example.com",
+    "phone": "+15553303955",
+    "password": "password123",
+    "profile": {
+      "displayName": "Elizabeth Thomas",
+      "bio": "Hi, I am Elizabeth, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Product Manager",
+      "skills": [
+        "Angular",
+        "Git",
+        "Figma"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/elizabeththomas29",
+      "linkedIn": "https://linkedin.com/in/elizabeththomas29"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charlesthomas30",
+    "email": "charlesthomas30@example.com",
+    "phone": "+15552956676",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Thomas",
+      "bio": "Hi, I am Charles, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "UI/UX Designer",
+      "skills": [
+        "HTML",
+        "C++",
+        "AWS",
+        "CSS"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Systems Architect",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-07-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charlesthomas30",
+      "linkedIn": "https://linkedin.com/in/charlesthomas30"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "elizabethperez31",
+    "email": "elizabethperez31@example.com",
+    "phone": "+15554523061",
+    "password": "password123",
+    "profile": {
+      "displayName": "Elizabeth Perez",
+      "bio": "Hi, I am Elizabeth, a passionate Product Manager with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Redis",
+        "Express",
+        "PostgreSQL",
+        "MongoDB",
+        "HTML",
+        "Figma",
+        "Git"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2020-10-31T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/elizabethperez31",
+      "linkedIn": "https://linkedin.com/in/elizabethperez31"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "karenjones32",
+    "email": "karenjones32@example.com",
+    "phone": "+15551541676",
+    "password": "password123",
+    "profile": {
+      "displayName": "Karen Jones",
+      "bio": "Hi, I am Karen, a passionate Product Manager with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "Angular",
+        "React",
+        "Python",
+        "Figma",
+        "GraphQL",
+        "Redis"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-04-30T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/karenjones32",
+      "linkedIn": "https://linkedin.com/in/karenjones32"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jessicamartin33",
+    "email": "jessicamartin33@example.com",
+    "phone": "+15556658219",
+    "password": "password123",
+    "profile": {
+      "displayName": "Jessica Martin",
+      "bio": "Hi, I am Jessica, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Systems Architect",
+      "skills": [
+        "React",
+        "AWS",
+        "Go",
+        "Java",
+        "Kubernetes",
+        "Jest",
+        "PostgreSQL"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-10-31T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jessicamartin33",
+      "linkedIn": "https://linkedin.com/in/jessicamartin33"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "michaelgarcia34",
+    "email": "michaelgarcia34@example.com",
+    "phone": "+15551438119",
+    "password": "password123",
+    "profile": {
+      "displayName": "Michael Garcia",
+      "bio": "Hi, I am Michael, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "skills": [
+        "Redis",
+        "JavaScript",
+        "Go",
+        "React",
+        "CSS",
+        "Angular"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Systems Architect",
+          "startDate": "2020-09-30T18:30:00.000Z",
+          "endDate": "2023-11-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/michaelgarcia34",
+      "linkedIn": "https://linkedin.com/in/michaelgarcia34"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "matthewtaylor35",
+    "email": "matthewtaylor35@example.com",
+    "phone": "+15556851063",
+    "password": "password123",
+    "profile": {
+      "displayName": "Matthew Taylor",
+      "bio": "Hi, I am Matthew, a passionate Backend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "UI/UX Designer",
+      "skills": [
+        "PostgreSQL",
+        "TypeScript",
+        "Angular"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-08-31T18:30:00.000Z",
+          "endDate": "2023-02-28T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/matthewtaylor35",
+      "linkedIn": "https://linkedin.com/in/matthewtaylor35"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "robertrobinson36",
+    "email": "robertrobinson36@example.com",
+    "phone": "+15553397938",
+    "password": "password123",
+    "profile": {
+      "displayName": "Robert Robinson",
+      "bio": "Hi, I am Robert, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Angular",
+        "GraphQL",
+        "CSS",
+        "Kubernetes"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2023-02-28T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/robertrobinson36",
+      "linkedIn": "https://linkedin.com/in/robertrobinson36"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "williamsmith37",
+    "email": "williamsmith37@example.com",
+    "phone": "+15554961004",
+    "password": "password123",
+    "profile": {
+      "displayName": "William Smith",
+      "bio": "Hi, I am William, a passionate Backend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Systems Architect",
+      "skills": [
+        "Git",
+        "Python",
+        "React"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "UI/UX Designer",
+          "startDate": "2020-09-30T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/williamsmith37",
+      "linkedIn": "https://linkedin.com/in/williamsmith37"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "thomasgonzalez38",
+    "email": "thomasgonzalez38@example.com",
+    "phone": "+15554314337",
+    "password": "password123",
+    "profile": {
+      "displayName": "Thomas Gonzalez",
+      "bio": "Hi, I am Thomas, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "Vue.js",
+        "Git",
+        "Angular",
+        "Go",
+        "Jest",
+        "JavaScript"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "UI/UX Designer",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2023-04-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/thomasgonzalez38",
+      "linkedIn": "https://linkedin.com/in/thomasgonzalez38"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charlesjackson39",
+    "email": "charlesjackson39@example.com",
+    "phone": "+15552815350",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Jackson",
+      "bio": "Hi, I am Charles, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "QA Engineer",
+      "skills": [
+        "C++",
+        "Redis",
+        "Git",
+        "Node.js",
+        "HTML",
+        "Vue.js",
+        "JavaScript"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-07-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charlesjackson39",
+      "linkedIn": "https://linkedin.com/in/charlesjackson39"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "karenanderson40",
+    "email": "karenanderson40@example.com",
+    "phone": "+15553292132",
+    "password": "password123",
+    "profile": {
+      "displayName": "Karen Anderson",
+      "bio": "Hi, I am Karen, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "MongoDB",
+        "Express",
+        "Kubernetes",
+        "HTML",
+        "Java",
+        "Git"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Systems Architect",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/karenanderson40",
+      "linkedIn": "https://linkedin.com/in/karenanderson40"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "michaelthomas41",
+    "email": "michaelthomas41@example.com",
+    "phone": "+15551911539",
+    "password": "password123",
+    "profile": {
+      "displayName": "Michael Thomas",
+      "bio": "Hi, I am Michael, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "Redis",
+        "Jest",
+        "CSS",
+        "React",
+        "GraphQL"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-10-31T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/michaelthomas41",
+      "linkedIn": "https://linkedin.com/in/michaelthomas41"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nancygarcia42",
+    "email": "nancygarcia42@example.com",
+    "phone": "+15551479798",
+    "password": "password123",
+    "profile": {
+      "displayName": "Nancy Garcia",
+      "bio": "Hi, I am Nancy, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Product Manager",
+      "skills": [
+        "Kubernetes",
+        "Java",
+        "Express",
+        "MongoDB",
+        "HTML",
+        "Redis",
+        "Docker"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "UI/UX Designer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-01-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nancygarcia42",
+      "linkedIn": "https://linkedin.com/in/nancygarcia42"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "margaretwilson43",
+    "email": "margaretwilson43@example.com",
+    "phone": "+15553405277",
+    "password": "password123",
+    "profile": {
+      "displayName": "Margaret Wilson",
+      "bio": "Hi, I am Margaret, a passionate Backend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Jest",
+        "TypeScript",
+        "Kubernetes"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Systems Architect",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/margaretwilson43",
+      "linkedIn": "https://linkedin.com/in/margaretwilson43"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "anthonyclark44",
+    "email": "anthonyclark44@example.com",
+    "phone": "+15558540743",
+    "password": "password123",
+    "profile": {
+      "displayName": "Anthony Clark",
+      "bio": "Hi, I am Anthony, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "C++",
+        "Docker",
+        "Python"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2020-07-31T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/anthonyclark44",
+      "linkedIn": "https://linkedin.com/in/anthonyclark44"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "matthewlopez45",
+    "email": "matthewlopez45@example.com",
+    "phone": "+15550413473",
+    "password": "password123",
+    "profile": {
+      "displayName": "Matthew Lopez",
+      "bio": "Hi, I am Matthew, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Express",
+        "MongoDB",
+        "React",
+        "GraphQL",
+        "Jest",
+        "PostgreSQL"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2020-04-30T18:30:00.000Z",
+          "endDate": "2023-01-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/matthewlopez45",
+      "linkedIn": "https://linkedin.com/in/matthewlopez45"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charleslewis46",
+    "email": "charleslewis46@example.com",
+    "phone": "+15559323989",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Lewis",
+      "bio": "Hi, I am Charles, a passionate DevOps Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "QA Engineer",
+      "skills": [
+        "AWS",
+        "JavaScript",
+        "Go",
+        "Vue.js",
+        "Redis",
+        "TypeScript",
+        "Jest"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2020-07-31T18:30:00.000Z",
+          "endDate": "2023-04-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charleslewis46",
+      "linkedIn": "https://linkedin.com/in/charleslewis46"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charlesmiller47",
+    "email": "charlesmiller47@example.com",
+    "phone": "+15558453516",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Miller",
+      "bio": "Hi, I am Charles, a passionate Product Manager with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Product Manager",
+      "skills": [
+        "Redis",
+        "Jest",
+        "Git",
+        "Node.js",
+        "Go",
+        "Java"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2020-04-30T18:30:00.000Z",
+          "endDate": "2023-02-28T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charlesmiller47",
+      "linkedIn": "https://linkedin.com/in/charlesmiller47"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "danieljohnson48",
+    "email": "danieljohnson48@example.com",
+    "phone": "+15552585945",
+    "password": "password123",
+    "profile": {
+      "displayName": "Daniel Johnson",
+      "bio": "Hi, I am Daniel, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "Angular",
+        "Java",
+        "Redis",
+        "TypeScript",
+        "Python"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/danieljohnson48",
+      "linkedIn": "https://linkedin.com/in/danieljohnson48"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jenniferbrown49",
+    "email": "jenniferbrown49@example.com",
+    "phone": "+15554384887",
+    "password": "password123",
+    "profile": {
+      "displayName": "Jennifer Brown",
+      "bio": "Hi, I am Jennifer, a passionate QA Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "JavaScript",
+        "Git",
+        "HTML"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Systems Architect",
+          "startDate": "2020-03-31T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jenniferbrown49",
+      "linkedIn": "https://linkedin.com/in/jenniferbrown49"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnmartinez50",
+    "email": "johnmartinez50@example.com",
+    "phone": "+15553053087",
+    "password": "password123",
+    "profile": {
+      "displayName": "John Martinez",
+      "bio": "Hi, I am John, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "HTML",
+        "AWS",
+        "JavaScript",
+        "MongoDB",
+        "Kubernetes"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2020-10-31T18:30:00.000Z",
+          "endDate": "2023-02-28T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnmartinez50",
+      "linkedIn": "https://linkedin.com/in/johnmartinez50"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "christopherrodriguez51",
+    "email": "christopherrodriguez51@example.com",
+    "phone": "+15553279539",
+    "password": "password123",
+    "profile": {
+      "displayName": "Christopher Rodriguez",
+      "bio": "Hi, I am Christopher, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "QA Engineer",
+      "skills": [
+        "Angular",
+        "Java",
+        "Go",
+        "HTML",
+        "C++",
+        "Redis"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2020-04-30T18:30:00.000Z",
+          "endDate": "2023-07-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/christopherrodriguez51",
+      "linkedIn": "https://linkedin.com/in/christopherrodriguez51"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nancyjones52",
+    "email": "nancyjones52@example.com",
+    "phone": "+15557286584",
+    "password": "password123",
+    "profile": {
+      "displayName": "Nancy Jones",
+      "bio": "Hi, I am Nancy, a passionate DevOps Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "skills": [
+        "Docker",
+        "Go",
+        "Kubernetes",
+        "Python",
+        "Vue.js",
+        "Redis"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nancyjones52",
+      "linkedIn": "https://linkedin.com/in/nancyjones52"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "danielwilson53",
+    "email": "danielwilson53@example.com",
+    "phone": "+15557228260",
+    "password": "password123",
+    "profile": {
+      "displayName": "Daniel Wilson",
+      "bio": "Hi, I am Daniel, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "TypeScript",
+        "CSS",
+        "Go"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-09-30T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/danielwilson53",
+      "linkedIn": "https://linkedin.com/in/danielwilson53"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "lisalewis54",
+    "email": "lisalewis54@example.com",
+    "phone": "+15553493695",
+    "password": "password123",
+    "profile": {
+      "displayName": "Lisa Lewis",
+      "bio": "Hi, I am Lisa, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Go",
+        "React",
+        "Vue.js",
+        "Redis",
+        "Jest",
+        "GraphQL"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2020-02-29T18:30:00.000Z",
+          "endDate": "2023-02-28T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/lisalewis54",
+      "linkedIn": "https://linkedin.com/in/lisalewis54"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jenniferanderson55",
+    "email": "jenniferanderson55@example.com",
+    "phone": "+15550203243",
+    "password": "password123",
+    "profile": {
+      "displayName": "Jennifer Anderson",
+      "bio": "Hi, I am Jennifer, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "Figma",
+        "Angular",
+        "GraphQL"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2020-08-31T18:30:00.000Z",
+          "endDate": "2023-04-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jenniferanderson55",
+      "linkedIn": "https://linkedin.com/in/jenniferanderson55"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "patriciabrown56",
+    "email": "patriciabrown56@example.com",
+    "phone": "+15559161886",
+    "password": "password123",
+    "profile": {
+      "displayName": "Patricia Brown",
+      "bio": "Hi, I am Patricia, a passionate QA Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "QA Engineer",
+      "skills": [
+        "Docker",
+        "Vue.js",
+        "MongoDB"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2020-10-31T18:30:00.000Z",
+          "endDate": "2023-06-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/patriciabrown56",
+      "linkedIn": "https://linkedin.com/in/patriciabrown56"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "karenthomas57",
+    "email": "karenthomas57@example.com",
+    "phone": "+15551907745",
+    "password": "password123",
+    "profile": {
+      "displayName": "Karen Thomas",
+      "bio": "Hi, I am Karen, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "C++",
+        "Kubernetes",
+        "MongoDB",
+        "Go"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-03-31T18:30:00.000Z",
+          "endDate": "2023-11-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/karenthomas57",
+      "linkedIn": "https://linkedin.com/in/karenthomas57"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "christopherthomas58",
+    "email": "christopherthomas58@example.com",
+    "phone": "+15558899572",
+    "password": "password123",
+    "profile": {
+      "displayName": "Christopher Thomas",
+      "bio": "Hi, I am Christopher, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "C++",
+        "Vue.js",
+        "Node.js",
+        "Redis",
+        "React",
+        "HTML"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/christopherthomas58",
+      "linkedIn": "https://linkedin.com/in/christopherthomas58"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jenniferjackson59",
+    "email": "jenniferjackson59@example.com",
+    "phone": "+15553762256",
+    "password": "password123",
+    "profile": {
+      "displayName": "Jennifer Jackson",
+      "bio": "Hi, I am Jennifer, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "Jest",
+        "React",
+        "JavaScript"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2023-04-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jenniferjackson59",
+      "linkedIn": "https://linkedin.com/in/jenniferjackson59"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sandrajackson60",
+    "email": "sandrajackson60@example.com",
+    "phone": "+15558836514",
+    "password": "password123",
+    "profile": {
+      "displayName": "Sandra Jackson",
+      "bio": "Hi, I am Sandra, a passionate DevOps Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "Python",
+        "Redis",
+        "Git"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-09-30T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sandrajackson60",
+      "linkedIn": "https://linkedin.com/in/sandrajackson60"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "jamesthompson61",
+    "email": "jamesthompson61@example.com",
+    "phone": "+15553419829",
+    "password": "password123",
+    "profile": {
+      "displayName": "James Thompson",
+      "bio": "Hi, I am James, a passionate DevOps Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "Vue.js",
+        "PostgreSQL",
+        "CSS",
+        "MongoDB"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "UI/UX Designer",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/jamesthompson61",
+      "linkedIn": "https://linkedin.com/in/jamesthompson61"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "susanrodriguez62",
+    "email": "susanrodriguez62@example.com",
+    "phone": "+15552328126",
+    "password": "password123",
+    "profile": {
+      "displayName": "Susan Rodriguez",
+      "bio": "Hi, I am Susan, a passionate QA Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "QA Engineer",
+      "skills": [
+        "Vue.js",
+        "Jest",
+        "TypeScript",
+        "Kubernetes"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2023-07-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/susanrodriguez62",
+      "linkedIn": "https://linkedin.com/in/susanrodriguez62"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidsanchez63",
+    "email": "davidsanchez63@example.com",
+    "phone": "+15559131711",
+    "password": "password123",
+    "profile": {
+      "displayName": "David Sanchez",
+      "bio": "Hi, I am David, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "QA Engineer",
+      "skills": [
+        "React",
+        "HTML",
+        "Angular",
+        "Python",
+        "Figma"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "UI/UX Designer",
+          "startDate": "2020-11-30T18:30:00.000Z",
+          "endDate": "2023-06-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidsanchez63",
+      "linkedIn": "https://linkedin.com/in/davidsanchez63"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "christopherjones64",
+    "email": "christopherjones64@example.com",
+    "phone": "+15551933931",
+    "password": "password123",
+    "profile": {
+      "displayName": "Christopher Jones",
+      "bio": "Hi, I am Christopher, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "CSS",
+        "JavaScript",
+        "Angular",
+        "GraphQL",
+        "Vue.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-07-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/christopherjones64",
+      "linkedIn": "https://linkedin.com/in/christopherjones64"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "elizabethharris65",
+    "email": "elizabethharris65@example.com",
+    "phone": "+15556744643",
+    "password": "password123",
+    "profile": {
+      "displayName": "Elizabeth Harris",
+      "bio": "Hi, I am Elizabeth, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "QA Engineer",
+      "skills": [
+        "Angular",
+        "MongoDB",
+        "JavaScript",
+        "HTML"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2020-03-31T18:30:00.000Z",
+          "endDate": "2023-04-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/elizabethharris65",
+      "linkedIn": "https://linkedin.com/in/elizabethharris65"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnwilliams66",
+    "email": "johnwilliams66@example.com",
+    "phone": "+15553009591",
+    "password": "password123",
+    "profile": {
+      "displayName": "John Williams",
+      "bio": "Hi, I am John, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Systems Architect",
+      "skills": [
+        "React",
+        "CSS",
+        "Git"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-10-31T18:30:00.000Z",
+          "endDate": "2023-07-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnwilliams66",
+      "linkedIn": "https://linkedin.com/in/johnwilliams66"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "bettyrobinson67",
+    "email": "bettyrobinson67@example.com",
+    "phone": "+15559104547",
+    "password": "password123",
+    "profile": {
+      "displayName": "Betty Robinson",
+      "bio": "Hi, I am Betty, a passionate QA Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "Figma",
+        "C++",
+        "AWS"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2020-04-30T18:30:00.000Z",
+          "endDate": "2023-06-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/bettyrobinson67",
+      "linkedIn": "https://linkedin.com/in/bettyrobinson67"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charlesjackson68",
+    "email": "charlesjackson68@example.com",
+    "phone": "+15557272089",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Jackson",
+      "bio": "Hi, I am Charles, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "AWS",
+        "Node.js",
+        "Figma"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-11-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charlesjackson68",
+      "linkedIn": "https://linkedin.com/in/charlesjackson68"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "thomasrobinson69",
+    "email": "thomasrobinson69@example.com",
+    "phone": "+15557206929",
+    "password": "password123",
+    "profile": {
+      "displayName": "Thomas Robinson",
+      "bio": "Hi, I am Thomas, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Redis",
+        "Java",
+        "Express",
+        "Git",
+        "Kubernetes",
+        "Python"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/thomasrobinson69",
+      "linkedIn": "https://linkedin.com/in/thomasrobinson69"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "lisadavis70",
+    "email": "lisadavis70@example.com",
+    "phone": "+15559963518",
+    "password": "password123",
+    "profile": {
+      "displayName": "Lisa Davis",
+      "bio": "Hi, I am Lisa, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "QA Engineer",
+      "skills": [
+        "C++",
+        "Go",
+        "Java",
+        "Node.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/lisadavis70",
+      "linkedIn": "https://linkedin.com/in/lisadavis70"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "richardthomas71",
+    "email": "richardthomas71@example.com",
+    "phone": "+15555898444",
+    "password": "password123",
+    "profile": {
+      "displayName": "Richard Thomas",
+      "bio": "Hi, I am Richard, a passionate QA Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "UI/UX Designer",
+      "skills": [
+        "Node.js",
+        "JavaScript",
+        "Docker",
+        "Angular",
+        "Jest"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2020-03-31T18:30:00.000Z",
+          "endDate": "2023-11-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/richardthomas71",
+      "linkedIn": "https://linkedin.com/in/richardthomas71"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "danielhernandez72",
+    "email": "danielhernandez72@example.com",
+    "phone": "+15550948214",
+    "password": "password123",
+    "profile": {
+      "displayName": "Daniel Hernandez",
+      "bio": "Hi, I am Daniel, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "PostgreSQL",
+        "Figma",
+        "Kubernetes"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-03-31T18:30:00.000Z",
+          "endDate": "2023-09-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/danielhernandez72",
+      "linkedIn": "https://linkedin.com/in/danielhernandez72"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "bettyanderson73",
+    "email": "bettyanderson73@example.com",
+    "phone": "+15550279957",
+    "password": "password123",
+    "profile": {
+      "displayName": "Betty Anderson",
+      "bio": "Hi, I am Betty, a passionate Product Manager with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "Go",
+        "CSS",
+        "React"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/bettyanderson73",
+      "linkedIn": "https://linkedin.com/in/bettyanderson73"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "lindasmith74",
+    "email": "lindasmith74@example.com",
+    "phone": "+15558323702",
+    "password": "password123",
+    "profile": {
+      "displayName": "Linda Smith",
+      "bio": "Hi, I am Linda, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "UI/UX Designer",
+      "skills": [
+        "Vue.js",
+        "TypeScript",
+        "HTML"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/lindasmith74",
+      "linkedIn": "https://linkedin.com/in/lindasmith74"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "elizabethdavis75",
+    "email": "elizabethdavis75@example.com",
+    "phone": "+15554578104",
+    "password": "password123",
+    "profile": {
+      "displayName": "Elizabeth Davis",
+      "bio": "Hi, I am Elizabeth, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "C++",
+        "TypeScript",
+        "Kubernetes",
+        "Redis"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/elizabethdavis75",
+      "linkedIn": "https://linkedin.com/in/elizabethdavis75"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "danieltaylor76",
+    "email": "danieltaylor76@example.com",
+    "phone": "+15550909621",
+    "password": "password123",
+    "profile": {
+      "displayName": "Daniel Taylor",
+      "bio": "Hi, I am Daniel, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "skills": [
+        "GraphQL",
+        "Git",
+        "Figma",
+        "Docker",
+        "CSS"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2020-07-31T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/danieltaylor76",
+      "linkedIn": "https://linkedin.com/in/danieltaylor76"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nancymartin77",
+    "email": "nancymartin77@example.com",
+    "phone": "+15552994426",
+    "password": "password123",
+    "profile": {
+      "displayName": "Nancy Martin",
+      "bio": "Hi, I am Nancy, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "AWS",
+        "Redis",
+        "PostgreSQL",
+        "React"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "UI/UX Designer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nancymartin77",
+      "linkedIn": "https://linkedin.com/in/nancymartin77"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "markmiller78",
+    "email": "markmiller78@example.com",
+    "phone": "+15558346462",
+    "password": "password123",
+    "profile": {
+      "displayName": "Mark Miller",
+      "bio": "Hi, I am Mark, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "HTML",
+        "Jest",
+        "Kubernetes",
+        "Java",
+        "Express",
+        "C++"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-03-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/markmiller78",
+      "linkedIn": "https://linkedin.com/in/markmiller78"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "michaelmoore79",
+    "email": "michaelmoore79@example.com",
+    "phone": "+15554783241",
+    "password": "password123",
+    "profile": {
+      "displayName": "Michael Moore",
+      "bio": "Hi, I am Michael, a passionate Mobile Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "Kubernetes",
+        "TypeScript",
+        "MongoDB",
+        "AWS",
+        "JavaScript",
+        "Jest"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2023-04-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/michaelmoore79",
+      "linkedIn": "https://linkedin.com/in/michaelmoore79"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "markdavis80",
+    "email": "markdavis80@example.com",
+    "phone": "+15554908758",
+    "password": "password123",
+    "profile": {
+      "displayName": "Mark Davis",
+      "bio": "Hi, I am Mark, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "TypeScript",
+        "HTML",
+        "Git",
+        "Java",
+        "C++",
+        "Go",
+        "Express"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2020-09-30T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/markdavis80",
+      "linkedIn": "https://linkedin.com/in/markdavis80"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "lisagonzalez81",
+    "email": "lisagonzalez81@example.com",
+    "phone": "+15558859877",
+    "password": "password123",
+    "profile": {
+      "displayName": "Lisa Gonzalez",
+      "bio": "Hi, I am Lisa, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Systems Architect",
+      "skills": [
+        "JavaScript",
+        "Docker",
+        "Angular",
+        "Go",
+        "Express"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "UI/UX Designer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-02-28T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/lisagonzalez81",
+      "linkedIn": "https://linkedin.com/in/lisagonzalez81"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "danielramirez82",
+    "email": "danielramirez82@example.com",
+    "phone": "+15555736149",
+    "password": "password123",
+    "profile": {
+      "displayName": "Daniel Ramirez",
+      "bio": "Hi, I am Daniel, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Product Manager",
+      "skills": [
+        "Vue.js",
+        "Python",
+        "Git",
+        "Go"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "UI/UX Designer",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/danielramirez82",
+      "linkedIn": "https://linkedin.com/in/danielramirez82"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nancydavis83",
+    "email": "nancydavis83@example.com",
+    "phone": "+15553749513",
+    "password": "password123",
+    "profile": {
+      "displayName": "Nancy Davis",
+      "bio": "Hi, I am Nancy, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "skills": [
+        "JavaScript",
+        "PostgreSQL",
+        "HTML"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2020-10-31T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nancydavis83",
+      "linkedIn": "https://linkedin.com/in/nancydavis83"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "lindamartin84",
+    "email": "lindamartin84@example.com",
+    "phone": "+15556670545",
+    "password": "password123",
+    "profile": {
+      "displayName": "Linda Martin",
+      "bio": "Hi, I am Linda, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Product Manager",
+      "skills": [
+        "Express",
+        "React",
+        "Node.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Systems Architect",
+          "startDate": "2020-02-29T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/lindamartin84",
+      "linkedIn": "https://linkedin.com/in/lindamartin84"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charleslopez85",
+    "email": "charleslopez85@example.com",
+    "phone": "+15554965946",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Lopez",
+      "bio": "Hi, I am Charles, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "UI/UX Designer",
+      "skills": [
+        "Redis",
+        "Kubernetes",
+        "MongoDB",
+        "Go",
+        "Python",
+        "Vue.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2020-09-30T18:30:00.000Z",
+          "endDate": "2023-06-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charleslopez85",
+      "linkedIn": "https://linkedin.com/in/charleslopez85"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "bettymoore86",
+    "email": "bettymoore86@example.com",
+    "phone": "+15557739272",
+    "password": "password123",
+    "profile": {
+      "displayName": "Betty Moore",
+      "bio": "Hi, I am Betty, a passionate Product Manager with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "Figma",
+        "Git",
+        "Vue.js",
+        "Angular",
+        "Express",
+        "PostgreSQL",
+        "AWS"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-02-29T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/bettymoore86",
+      "linkedIn": "https://linkedin.com/in/bettymoore86"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "bettygonzalez87",
+    "email": "bettygonzalez87@example.com",
+    "phone": "+15552383401",
+    "password": "password123",
+    "profile": {
+      "displayName": "Betty Gonzalez",
+      "bio": "Hi, I am Betty, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "Figma",
+        "Go",
+        "MongoDB",
+        "Docker",
+        "Express",
+        "React",
+        "TypeScript"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Mobile Developer",
+          "startDate": "2020-09-30T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/bettygonzalez87",
+      "linkedIn": "https://linkedin.com/in/bettygonzalez87"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charleshernandez88",
+    "email": "charleshernandez88@example.com",
+    "phone": "+15559735416",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Hernandez",
+      "bio": "Hi, I am Charles, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "skills": [
+        "Figma",
+        "HTML",
+        "GraphQL",
+        "Jest",
+        "Docker"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charleshernandez88",
+      "linkedIn": "https://linkedin.com/in/charleshernandez88"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "christophermoore89",
+    "email": "christophermoore89@example.com",
+    "phone": "+15550708015",
+    "password": "password123",
+    "profile": {
+      "displayName": "Christopher Moore",
+      "bio": "Hi, I am Christopher, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Product Manager",
+      "skills": [
+        "Angular",
+        "Vue.js",
+        "Python",
+        "React",
+        "Go",
+        "HTML"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2020-11-30T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/christophermoore89",
+      "linkedIn": "https://linkedin.com/in/christophermoore89"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "karenhernandez90",
+    "email": "karenhernandez90@example.com",
+    "phone": "+15555795262",
+    "password": "password123",
+    "profile": {
+      "displayName": "Karen Hernandez",
+      "bio": "Hi, I am Karen, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "PostgreSQL",
+        "Kubernetes",
+        "HTML",
+        "MongoDB",
+        "Vue.js",
+        "C++"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2020-11-30T18:30:00.000Z",
+          "endDate": "2023-04-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/karenhernandez90",
+      "linkedIn": "https://linkedin.com/in/karenhernandez90"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "matthewmiller91",
+    "email": "matthewmiller91@example.com",
+    "phone": "+15550986180",
+    "password": "password123",
+    "profile": {
+      "displayName": "Matthew Miller",
+      "bio": "Hi, I am Matthew, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "Angular",
+        "Go",
+        "Node.js",
+        "JavaScript",
+        "Redis",
+        "MongoDB"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Product Manager",
+          "startDate": "2020-06-30T18:30:00.000Z",
+          "endDate": "2023-03-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/matthewmiller91",
+      "linkedIn": "https://linkedin.com/in/matthewmiller91"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "robertlee92",
+    "email": "robertlee92@example.com",
+    "phone": "+15550493586",
+    "password": "password123",
+    "profile": {
+      "displayName": "Robert Lee",
+      "bio": "Hi, I am Robert, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "Kubernetes",
+        "Go",
+        "JavaScript"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2020-05-31T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/robertlee92",
+      "linkedIn": "https://linkedin.com/in/robertlee92"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "thomastaylor93",
+    "email": "thomastaylor93@example.com",
+    "phone": "+15559476066",
+    "password": "password123",
+    "profile": {
+      "displayName": "Thomas Taylor",
+      "bio": "Hi, I am Thomas, a passionate Data Scientist with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "React",
+        "HTML",
+        "Kubernetes",
+        "Angular",
+        "TypeScript"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2019-12-31T18:30:00.000Z",
+          "endDate": "2023-11-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/thomastaylor93",
+      "linkedIn": "https://linkedin.com/in/thomastaylor93"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "markwhite94",
+    "email": "markwhite94@example.com",
+    "phone": "+15557281370",
+    "password": "password123",
+    "profile": {
+      "displayName": "Mark White",
+      "bio": "Hi, I am Mark, a passionate DevOps Engineer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "UI/UX Designer",
+      "skills": [
+        "Angular",
+        "PostgreSQL",
+        "Redis",
+        "Go",
+        "React",
+        "Jest",
+        "Node.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-11-30T18:30:00.000Z",
+          "endDate": "2023-10-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/markwhite94",
+      "linkedIn": "https://linkedin.com/in/markwhite94"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "elizabethlopez95",
+    "email": "elizabethlopez95@example.com",
+    "phone": "+15556796281",
+    "password": "password123",
+    "profile": {
+      "displayName": "Elizabeth Lopez",
+      "bio": "Hi, I am Elizabeth, a passionate Frontend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "skills": [
+        "Figma",
+        "Node.js",
+        "AWS",
+        "JavaScript",
+        "Vue.js",
+        "Jest"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Backend Developer",
+          "startDate": "2020-07-31T18:30:00.000Z",
+          "endDate": "2022-12-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/elizabethlopez95",
+      "linkedIn": "https://linkedin.com/in/elizabethlopez95"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "robertjones96",
+    "email": "robertjones96@example.com",
+    "phone": "+15555563034",
+    "password": "password123",
+    "profile": {
+      "displayName": "Robert Jones",
+      "bio": "Hi, I am Robert, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Systems Architect",
+      "skills": [
+        "MongoDB",
+        "Jest",
+        "Docker",
+        "AWS",
+        "Go",
+        "HTML"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2020-11-30T18:30:00.000Z",
+          "endDate": "2023-08-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/robertjones96",
+      "linkedIn": "https://linkedin.com/in/robertjones96"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "josephsanchez97",
+    "email": "josephsanchez97@example.com",
+    "phone": "+15551140181",
+    "password": "password123",
+    "profile": {
+      "displayName": "Joseph Sanchez",
+      "bio": "Hi, I am Joseph, a passionate UI/UX Designer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "UI/UX Designer",
+      "skills": [
+        "PostgreSQL",
+        "Docker",
+        "C++",
+        "GraphQL",
+        "Redis",
+        "Python"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "QA Engineer",
+          "startDate": "2020-11-30T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/josephsanchez97",
+      "linkedIn": "https://linkedin.com/in/josephsanchez97"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "charlesjones98",
+    "email": "charlesjones98@example.com",
+    "phone": "+15550850153",
+    "password": "password123",
+    "profile": {
+      "displayName": "Charles Jones",
+      "bio": "Hi, I am Charles, a passionate Systems Architect with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "skills": [
+        "Docker",
+        "JavaScript",
+        "HTML",
+        "AWS",
+        "Python",
+        "Express"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Data Scientist",
+          "startDate": "2020-08-31T18:30:00.000Z",
+          "endDate": "2023-06-30T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/charlesjones98",
+      "linkedIn": "https://linkedin.com/in/charlesjones98"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sandrahernandez99",
+    "email": "sandrahernandez99@example.com",
+    "phone": "+15559649359",
+    "password": "password123",
+    "profile": {
+      "displayName": "Sandra Hernandez",
+      "bio": "Hi, I am Sandra, a passionate Full Stack Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "skills": [
+        "React",
+        "AWS",
+        "Vue.js"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2020-07-31T18:30:00.000Z",
+          "endDate": "2023-05-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sandrahernandez99",
+      "linkedIn": "https://linkedin.com/in/sandrahernandez99"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidsanchez100",
+    "email": "davidsanchez100@example.com",
+    "phone": "+15550782660",
+    "password": "password123",
+    "profile": {
+      "displayName": "David Sanchez",
+      "bio": "Hi, I am David, a passionate Backend Developer with a keen interest in building scalable applications."
+    },
+    "career": {
+      "targetRole": "Mobile Developer",
+      "skills": [
+        "Python",
+        "Go",
+        "PostgreSQL"
+      ],
+      "experience": [
+        {
+          "company": "Tech Corp",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2020-01-31T18:30:00.000Z",
+          "endDate": "2023-01-31T18:30:00.000Z",
+          "currentlyWorking": false
+        }
+      ],
+      "education": [
+        {
+          "institute": "Tech University",
+          "degree": "B.S. Computer Science",
+          "startDate": "2015-08-31T18:30:00.000Z",
+          "endDate": "2019-06-14T18:30:00.000Z",
+          "currentlyStudying": false
+        }
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidsanchez100",
+      "linkedIn": "https://linkedin.com/in/davidsanchez100"
+    },
+    "profileCompleted": true
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Logical Sequence of Words asks you to arrange words in a meaningful order—such as size, time, process steps, dictionary order, or natural hierarchy. These questions test structured thinking more than vocabulary depth.",
+  "explanation": "CONCEPT\n\nYou are given a set of words and must place them in the most logical sequence. Common orders include chronological (morning → noon → night), size (atom → molecule → cell), process (seed → plant → fruit), general-to-specific, or dictionary (alphabetical) order when no other logic fits.\n\nRULES\n\n• Prefer real-world process or hierarchy over forced alphabetical order.\n• All words must fit one consistent rule.\n• For life-cycle or manufacturing sequences, follow cause → effect or start → finish.\n• If two orders seem possible, choose the one used in standard exam keys: natural occurrence or increasing magnitude.\n\nTRICKS / SHORTCUT TECHNIQUES\n\n• Spot the extreme ends first (smallest/largest, first/last step).\n• Group related middle steps before finalizing positions.\n• For dictionary order, compare letter by letter.\n• For age or generation words, order from youngest to oldest or reverse as asked.\n\nSTEP-BY-STEP SOLVING METHOD\n\n1) Read all words and guess the theme (time, size, process, rank).\n2) Identify the first and last items.\n3) Arrange the middle items.\n4) Verify every adjacent pair makes sense.\n5) Match the sequence to the given options.\n\nCOMMON MISTAKES\n\n1) Defaulting to alphabetical order when a process order exists.\n2) Mixing increasing and decreasing size mid-sequence.\n3) Ignoring a word that belongs at an end.\n4) Using personal preference instead of universal order.\n5) Not checking the full option string against your arrangement.",
+  "formulas": [
+    {
+      "title": "Process order",
+      "content": "Start → Intermediate steps → End result"
+    },
+    {
+      "title": "Size / magnitude",
+      "content": "Smallest → … → Largest (or reverse if asked)"
+    },
+    {
+      "title": "Time order",
+      "content": "Earliest event → Later events → Latest event"
+    },
+    {
+      "title": "Dictionary order",
+      "content": "Alphabetical A→Z when no semantic sequence applies"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Find the ends",
+      "tip": "Lock first and last words before arranging the middle."
+    },
+    {
+      "title": "Name the theme",
+      "tip": "Say the rule aloud: size, time, or process—then sort."
+    },
+    {
+      "title": "Avoid alpha trap",
+      "tip": "Use alphabetical order only when meaning-based order fails."
+    },
+    {
+      "title": "Check options",
+      "tip": "Compare your full sequence to each option letter group carefully."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Arrange: Seed, Plant, Fruit, Flower",
+      "solution": "Seed → Plant → Flower → Fruit",
+      "steps": [
+        "Theme: plant life cycle.",
+        "Seed grows into plant; plant produces flower; flower becomes fruit.",
+        "Order: Seed, Plant, Flower, Fruit."
+      ]
+    },
+    {
+      "problem": "Arrange: Child, Infant, Adult, Adolescent",
+      "solution": "Infant → Child → Adolescent → Adult",
+      "steps": [
+        "Theme: human age stages.",
+        "Infant is youngest, then child, adolescent, adult.",
+        "Order: Infant, Child, Adolescent, Adult."
+      ]
+    },
+    {
+      "problem": "Arrange: Million, Thousand, Hundred, Billion",
+      "solution": "Hundred → Thousand → Million → Billion",
+      "steps": [
+        "Theme: increasing magnitude.",
+        "100 < 1,000 < 1,000,000 < 1,000,000,000.",
+        "Order: Hundred, Thousand, Million, Billion."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Sequencing and ordering (reasoning overview)",
+      "url": "https://en.wikipedia.org/wiki/Sequence"
+    }
+  ]
+}

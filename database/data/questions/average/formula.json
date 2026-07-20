@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Average = Sum/n, if the sum of 6 numbers is 150, what is their average?",
+    "options": [
+      { "optionId": "A", "text": "20" },
+      { "optionId": "B", "text": "25" },
+      { "optionId": "C", "text": "30" },
+      { "optionId": "D", "text": "35" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Average = Sum/n = 150/6 = 25.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Sum = n × Average, find the sum of 8 numbers whose average is 12.",
+    "options": [
+      { "optionId": "A", "text": "80" },
+      { "optionId": "B", "text": "88" },
+      { "optionId": "C", "text": "96" },
+      { "optionId": "D", "text": "104" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum = n × Average = 8 × 12 = 96.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using the formula for average of first n natural numbers, (n+1)/2, find the average of the first 9 natural numbers.",
+    "options": [
+      { "optionId": "A", "text": "4" },
+      { "optionId": "B", "text": "4.5" },
+      { "optionId": "C", "text": "5" },
+      { "optionId": "D", "text": "5.5" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Average = (n+1)/2 = (9+1)/2 = 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The average of the first n odd numbers is always n. What is the average of the first 7 odd numbers?",
+    "options": [
+      { "optionId": "A", "text": "6" },
+      { "optionId": "B", "text": "7" },
+      { "optionId": "C", "text": "8" },
+      { "optionId": "D", "text": "9" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The average of the first n odd numbers equals n, so the average is 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The average of the first n even numbers is (n+1). What is the average of the first 6 even numbers?",
+    "options": [
+      { "optionId": "A", "text": "6" },
+      { "optionId": "B", "text": "7" },
+      { "optionId": "C", "text": "8" },
+      { "optionId": "D", "text": "9" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Average = n + 1 = 6 + 1 = 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using New avg = Old avg + (y − x)/n, if the average of 5 numbers is 20 and a number 10 is replaced by 20, what is the new average?",
+    "options": [
+      { "optionId": "A", "text": "20" },
+      { "optionId": "B", "text": "21" },
+      { "optionId": "C", "text": "22" },
+      { "optionId": "D", "text": "23" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "New avg = 20 + (20 − 10)/5 = 20 + 2 = 22.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using combined average = (nA + mB)/(n + m), find the combined average of 20 numbers averaging 50 and 30 numbers averaging 60.",
+    "options": [
+      { "optionId": "A", "text": "54" },
+      { "optionId": "B", "text": "55" },
+      { "optionId": "C", "text": "56" },
+      { "optionId": "D", "text": "57" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Combined average = (20×50 + 30×60)/(20+30) = (1000+1800)/50 = 2800/50 = 56.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using weighted average = Σ(weight × value)/Σ(weight), find the weighted average of values 10 and 20 with weights 2 and 3 respectively.",
+    "options": [
+      { "optionId": "A", "text": "14" },
+      { "optionId": "B", "text": "15" },
+      { "optionId": "C", "text": "16" },
+      { "optionId": "D", "text": "17" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Weighted average = (2×10 + 3×20)/(2+3) = (20+60)/5 = 16.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "For a round trip with equal distances at speeds a and b, average speed = 2ab/(a+b). Find the average speed if a = 40 km/h and b = 60 km/h.",
+    "options": [
+      { "optionId": "A", "text": "45" },
+      { "optionId": "B", "text": "48" },
+      { "optionId": "C", "text": "50" },
+      { "optionId": "D", "text": "52" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Average speed = 2×40×60/(40+60) = 4800/100 = 48 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "For 5 consecutive integers starting at 10, the average equals the middle term. What is the average?",
+    "options": [
+      { "optionId": "A", "text": "11" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "13" },
+      { "optionId": "D", "text": "14" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The numbers are 10,11,12,13,14; the middle term (and average) is 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The average of 8 numbers is 15. If a number 20 is removed, what is the new average (approx)?",
+    "options": [
+      { "optionId": "A", "text": "13.5" },
+      { "optionId": "B", "text": "14" },
+      { "optionId": "C", "text": "14.29" },
+      { "optionId": "D", "text": "15" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum = 8×15 = 120. After removing 20, sum = 100, over 7 numbers: 100/7 ≈ 14.29.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A class of 40 students has an average of 60 marks. 10 new students with an average of 50 join. What is the new combined average?",
+    "options": [
+      { "optionId": "A", "text": "56" },
+      { "optionId": "B", "text": "57" },
+      { "optionId": "C", "text": "58" },
+      { "optionId": "D", "text": "59" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Total = (40×60 + 10×50)/50 = (2400+500)/50 = 2900/50 = 58.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average speed for a round trip at speeds a (going) and b (returning), for equal distances, equals the simple arithmetic mean (a+b)/2.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct formula is the harmonic mean, 2ab/(a+b), not the arithmetic mean.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["average", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Adding a value equal to the current average to a data set does not change the average.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since the new value equals the average, the sum increases proportionally with the count, keeping the average unchanged.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["average", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The average of a set of numbers always equals one of the numbers in the set.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The average can be a value not present in the data set at all, e.g., average of 1 and 4 is 2.5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["average", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following formulas correctly represent average concepts?",
+    "options": [
+      { "optionId": "A", "text": "Average = Sum/n" },
+      { "optionId": "B", "text": "Sum = n × Average" },
+      { "optionId": "C", "text": "Combined average of two groups is always the simple mean of the two averages, regardless of group sizes" },
+      { "optionId": "D", "text": "New average after replacing x with y = Old average + (y − x)/n" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A, B, and D are correct. C is false unless the two groups are of equal size; otherwise a weighted formula must be used.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["average", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A weighted average is required when which of the following are true?",
+    "options": [
+      { "optionId": "A", "text": "Groups being combined have different sizes/counts" },
+      { "optionId": "B", "text": "Different items have different importance/weights" },
+      { "optionId": "C", "text": "All groups have exactly the same size" },
+      { "optionId": "D", "text": "We need Σ(weight × value)/Σ(weight)" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A, B, and D describe when and how weighted averages are used. C describes a case where a simple average already works.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["average", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The average of 20 numbers is 34. The average of the first 10 of them is 32. What is the average of the remaining 10?",
+    "options": [
+      { "optionId": "A", "text": "34" },
+      { "optionId": "B", "text": "35" },
+      { "optionId": "C", "text": "36" },
+      { "optionId": "D", "text": "37" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Total sum = 20×34 = 680. First 10 sum = 320. Remaining sum = 360, average = 360/10 = 36.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The average of 5 consecutive even numbers is 30. What is the largest number?",
+    "options": [
+      { "optionId": "A", "text": "32" },
+      { "optionId": "B", "text": "33" },
+      { "optionId": "C", "text": "34" },
+      { "optionId": "D", "text": "36" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Numbers: 26, 28, 30, 32, 34 (middle = average = 30). The largest is 34.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A cricketer's average after 10 innings is 40. He scores 62 in the 11th innings. What is his new average?",
+    "options": [
+      { "optionId": "A", "text": "40" },
+      { "optionId": "B", "text": "41" },
+      { "optionId": "C", "text": "42" },
+      { "optionId": "D", "text": "43" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Total after 10 innings = 400. New total = 400 + 62 = 462. New average = 462/11 = 42.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["average", "formula"],
+    "questionType": "MCQ"
+  }
+]

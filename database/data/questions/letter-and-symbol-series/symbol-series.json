@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: ★, ★★, ★★★, ★★★★, ?",
+    "options": [
+      { "optionId": "A", "text": "4 stars" },
+      { "optionId": "B", "text": "5 stars" },
+      { "optionId": "C", "text": "6 stars" },
+      { "optionId": "D", "text": "3 stars" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The number of stars increases by 1 each time: 1, 2, 3, 4, next 5 stars.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next symbol in the sequence: ○, ●, ○, ●, ○, ?",
+    "options": [
+      { "optionId": "A", "text": "○" },
+      { "optionId": "B", "text": "●" },
+      { "optionId": "C", "text": "△" },
+      { "optionId": "D", "text": "□" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The symbols strictly alternate between ○ and ●. Since the last symbol shown is ○, the next one must be ●.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: ▲(1 triangle), ▲▲(2 triangles), ▲▲▲▲(4 triangles), ▲▲▲▲▲▲▲▲(8 triangles), ?",
+    "options": [
+      { "optionId": "A", "text": "10 triangles" },
+      { "optionId": "B", "text": "12 triangles" },
+      { "optionId": "C", "text": "16 triangles" },
+      { "optionId": "D", "text": "9 triangles" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The count of triangles doubles each time: 1, 2, 4, 8, next 16.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the sequence of symbol groups with counts 2, 3, 4, 5, what is the count of the next group in this pattern?",
+    "options": [
+      { "optionId": "A", "text": "5" },
+      { "optionId": "B", "text": "6" },
+      { "optionId": "C", "text": "7" },
+      { "optionId": "D", "text": "8" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The count of symbols in each group increases by 1 each time: 2, 3, 4, 5, next 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next figure in the series: △, □, △△, □□, △△△, ?",
+    "options": [
+      { "optionId": "A", "text": "△△△△" },
+      { "optionId": "B", "text": "□□□" },
+      { "optionId": "C", "text": "△△" },
+      { "optionId": "D", "text": "□□" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The shapes alternate between △ and □, and the count for each shape increases by 1 every time it reappears: △(1), □(1), △(2), □(2), △(3), next □(3), i.e. □□□.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A sequence follows this rule: each term has 3 more symbols than the previous term, alternating between ○ and ●. If the 1st term is ○ (1 symbol), what is the 4th term?",
+    "options": [
+      { "optionId": "A", "text": "7 ● symbols" },
+      { "optionId": "B", "text": "10 ● symbols" },
+      { "optionId": "C", "text": "10 ○ symbols" },
+      { "optionId": "D", "text": "13 ● symbols" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Term 1: ○ ×1. Term 2: ● ×4 (1+3). Term 3: ○ ×7 (4+3). Term 4: ● ×10 (7+3). So the 4th term is 10 ● symbols.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing term in the pattern: 1 circle, 3 circles, 5 circles, 7 circles, ?",
+    "options": [
+      { "optionId": "A", "text": "8 circles" },
+      { "optionId": "B", "text": "9 circles" },
+      { "optionId": "C", "text": "10 circles" },
+      { "optionId": "D", "text": "11 circles" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The count of circles increases by 2 each time (odd numbers): 1, 3, 5, 7, next 9.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: □(1), ○○(2), □□□(3), ○○○○(4), ?",
+    "options": [
+      { "optionId": "A", "text": "5 circles" },
+      { "optionId": "B", "text": "5 squares" },
+      { "optionId": "C", "text": "4 squares" },
+      { "optionId": "D", "text": "6 squares" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The shape alternates between □ and ○, while the count increases by 1 each step: 1, 2, 3, 4, next 5. Since the shape alternates back to □, the answer is 5 squares.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Observe the pattern: ●(1), ○○(2), ●●●(3), ○○○○(4), ●●●●●(5). What symbol and count comes next?",
+    "options": [
+      { "optionId": "A", "text": "5 ●" },
+      { "optionId": "B", "text": "6 ○" },
+      { "optionId": "C", "text": "6 ●" },
+      { "optionId": "D", "text": "7 ○" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The symbol alternates between ● and ○ while the count increases by 1 each step: 1, 2, 3, 4, 5, next 6. Since the shape alternates back to ○, the answer is 6 ○.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: ★☆, ★★☆☆, ★★★☆☆☆, ?",
+    "options": [
+      { "optionId": "A", "text": "★★★☆☆☆☆" },
+      { "optionId": "B", "text": "★★★★☆☆☆☆" },
+      { "optionId": "C", "text": "★★★★☆☆☆" },
+      { "optionId": "D", "text": "★★★★★☆☆☆☆" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each term has n filled stars followed by n hollow stars, where n increases by 1: 1, 2, 3, next 4 filled stars followed by 4 hollow stars.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the doubling pattern: ▲(1), ▲▲(2), ▲▲▲▲(4), ▲▲▲▲▲(5), ▲▲▲▲▲▲▲▲(8).",
+    "options": [
+      { "optionId": "A", "text": "1" },
+      { "optionId": "B", "text": "2" },
+      { "optionId": "C", "text": "4" },
+      { "optionId": "D", "text": "5" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The counts should double each time: 1, 2, 4, 8, 16. The 4th term shown is 5, which breaks the doubling pattern; it should be 8.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A pattern shows groups of '2 circles + 1 square', '4 circles + 2 squares', '6 circles + 3 squares'. What comes next?",
+    "options": [
+      { "optionId": "A", "text": "7 circles + 3 squares" },
+      { "optionId": "B", "text": "8 circles + 4 squares" },
+      { "optionId": "C", "text": "8 circles + 3 squares" },
+      { "optionId": "D", "text": "6 circles + 4 squares" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For the nth group, circles = 2n and squares = n. For n = 1, 2, 3, the counts are (2,1), (4,2), (6,3). For n = 4, this gives 8 circles + 4 squares.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: ◇(1), ◇◇◇(3), ◇◇◇◇◇(5), ◇◇◇◇◇◇◇(7), ?",
+    "options": [
+      { "optionId": "A", "text": "8 diamonds" },
+      { "optionId": "B", "text": "9 diamonds" },
+      { "optionId": "C", "text": "10 diamonds" },
+      { "optionId": "D", "text": "11 diamonds" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The count of diamonds increases by 2 each time (odd numbers): 1, 3, 5, 7, next 9.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the sequence where the nth term has n triangles followed by n circles, what is the count of each symbol in the 5th term?",
+    "options": [
+      { "optionId": "A", "text": "4 triangles and 4 circles" },
+      { "optionId": "B", "text": "5 triangles and 5 circles" },
+      { "optionId": "C", "text": "5 triangles and 4 circles" },
+      { "optionId": "D", "text": "6 triangles and 6 circles" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "By the rule, the nth term has n triangles and n circles. For n = 5, this gives 5 triangles and 5 circles.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: ★(1), ★★★(3), ★★★★★★(6), ★★★★★★★★★★(10), ?",
+    "options": [
+      { "optionId": "A", "text": "13 stars" },
+      { "optionId": "B", "text": "14 stars" },
+      { "optionId": "C", "text": "15 stars" },
+      { "optionId": "D", "text": "16 stars" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The counts are triangular numbers (1, 3, 6, 10), where each term adds one more than the previous addition (+2, +3, +4, next +5). 10 + 5 = 15.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the pattern ○, ●, ○, ●, ○, the symbols strictly alternate between two types.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The sequence switches between ○ and ● at every single step with no repetition, so the statement is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the pattern ▲(1), ▲▲(2), ▲▲▲▲(4), ▲▲▲▲▲▲▲▲(8), the number of triangles increases by adding a constant number each time.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The count doubles each time (1, 2, 4, 8) rather than increasing by a fixed addition, so the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following symbol count sequences correctly represent a doubling pattern throughout?",
+    "options": [
+      { "optionId": "A", "text": "1, 2, 4, 8 (★ counts)" },
+      { "optionId": "B", "text": "1, 2, 3, 4 (○ counts)" },
+      { "optionId": "C", "text": "1, 2, 4, 16 (▲ counts)" },
+      { "optionId": "D", "text": "1, 2, 4, 8 (◇ counts)" }
+    ],
+    "correctAnswer": ["A", "D"],
+    "explanation": "1, 2, 4, 8 doubles consistently at every step in both A and D. 1, 2, 3, 4 is an arithmetic pattern, not doubling. 1, 2, 4, 16 breaks the doubling rule at the last step (should be 8, not 16).",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "symbol-series"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

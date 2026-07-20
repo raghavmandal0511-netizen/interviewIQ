@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A two-digit number has tens digit x and units digit y. How is the number represented algebraically?",
+    "options": [
+      { "optionId": "A", "text": "x + y" },
+      { "optionId": "B", "text": "10x + y" },
+      { "optionId": "C", "text": "10y + x" },
+      { "optionId": "D", "text": "xy" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In a two-digit number, the tens digit contributes 10x and the units digit contributes y, giving 10x + y.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If a two-digit number is 10x + y, how is the number obtained by reversing its digits represented?",
+    "options": [
+      { "optionId": "A", "text": "10x + y" },
+      { "optionId": "B", "text": "10y + x" },
+      { "optionId": "C", "text": "xy" },
+      { "optionId": "D", "text": "x + y" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reversing the digits swaps their place values, giving 10y + x.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the difference between a two-digit number (10x + y) and the number obtained by reversing its digits?",
+    "options": [
+      { "optionId": "A", "text": "9(x − y)" },
+      { "optionId": "B", "text": "9(x + y)" },
+      { "optionId": "C", "text": "11(x − y)" },
+      { "optionId": "D", "text": "11(x + y)" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(10x+y) − (10y+x) = 9x − 9y = 9(x − y).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the sum of a two-digit number (10x + y) and its digit-reversed form?",
+    "options": [
+      { "optionId": "A", "text": "9(x + y)" },
+      { "optionId": "B", "text": "10(x + y)" },
+      { "optionId": "C", "text": "11(x + y)" },
+      { "optionId": "D", "text": "12(x + y)" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "(10x+y) + (10y+x) = 11x + 11y = 11(x + y).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The sum of two numbers is 50 and their difference is 10. Using larger = (Sum + Difference)/2, find the larger number.",
+    "options": [
+      { "optionId": "A", "text": "25" },
+      { "optionId": "B", "text": "28" },
+      { "optionId": "C", "text": "30" },
+      { "optionId": "D", "text": "32" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Larger = (50 + 10)/2 = 30.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The sum of two numbers is 50 and their difference is 10. Using smaller = (Sum − Difference)/2, find the smaller number.",
+    "options": [
+      { "optionId": "A", "text": "18" },
+      { "optionId": "B", "text": "20" },
+      { "optionId": "C", "text": "22" },
+      { "optionId": "D", "text": "24" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Smaller = (50 − 10)/2 = 20.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The sum of three consecutive integers is 72. Using Sum = 3n where n is the middle integer, find the middle integer.",
+    "options": [
+      { "optionId": "A", "text": "22" },
+      { "optionId": "B", "text": "23" },
+      { "optionId": "C", "text": "24" },
+      { "optionId": "D", "text": "25" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Middle integer = 72/3 = 24.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The sum of three consecutive even numbers is 90. Using Sum = 3n where n is the middle number, find the largest number.",
+    "options": [
+      { "optionId": "A", "text": "28" },
+      { "optionId": "B", "text": "30" },
+      { "optionId": "C", "text": "32" },
+      { "optionId": "D", "text": "34" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Middle number = 90/3 = 30, so the numbers are 28, 30, 32. Largest = 32.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A two-digit number exceeds the number formed by reversing its digits by 27. Using 9(x − y) = 27, find (x − y).",
+    "options": [
+      { "optionId": "A", "text": "2" },
+      { "optionId": "B", "text": "3" },
+      { "optionId": "C", "text": "4" },
+      { "optionId": "D", "text": "5" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "9(x − y) = 27 → x − y = 3.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A two-digit number equals 7 times the sum of its digits. If the tens digit is x and units digit is y, this gives 10x + y = 7(x + y). Simplifying, which relation between x and y holds?",
+    "options": [
+      { "optionId": "A", "text": "x = y" },
+      { "optionId": "B", "text": "x = 2y" },
+      { "optionId": "C", "text": "x = 3y" },
+      { "optionId": "D", "text": "y = 2x" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "10x + y = 7x + 7y → 3x = 6y → x = 2y.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two numbers differ by 8 and their sum is 44. Using smaller = (Sum − Difference)/2, find the smaller number.",
+    "options": [
+      { "optionId": "A", "text": "16" },
+      { "optionId": "B", "text": "18" },
+      { "optionId": "C", "text": "20" },
+      { "optionId": "D", "text": "22" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Smaller = (44 − 8)/2 = 18.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A number plus its reciprocal equals 26/5. Using the quadratic 5x² − 26x + 5 = 0, which of the following is a valid value of the number?",
+    "options": [
+      { "optionId": "A", "text": "3" },
+      { "optionId": "B", "text": "4" },
+      { "optionId": "C", "text": "5" },
+      { "optionId": "D", "text": "6" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solving 5x² − 26x + 5 = 0 gives x = 5 or x = 1/5; among the options, 5 is valid.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "For a two-digit number 10x + y, the reversed number is always 10y + x.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reversing the digits simply swaps the place values of the tens and units digits.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The difference between a two-digit number and the number obtained by reversing its digits is always divisible by 9.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The difference equals 9(x − y), which is always a multiple of 9.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the sum and difference of two numbers are known, the smaller number equals (Sum + Difference)/2.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(Sum + Difference)/2 gives the larger number; the smaller number equals (Sum − Difference)/2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which formulas are correctly stated for two-digit number problems?",
+    "options": [
+      { "optionId": "A", "text": "Original number = 10x + y" },
+      { "optionId": "B", "text": "Reversed number = 10y + x" },
+      { "optionId": "C", "text": "Sum of number and reverse = 11(x + y)" },
+      { "optionId": "D", "text": "Difference of number and reverse = 11(x − y)" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C are correct. D is false; the correct difference formula is 9(x − y).",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the sum S and difference D of two numbers, which of the following are correct?",
+    "options": [
+      { "optionId": "A", "text": "Larger number = (S + D)/2" },
+      { "optionId": "B", "text": "Smaller number = (S − D)/2" },
+      { "optionId": "C", "text": "Larger number = (S − D)/2" },
+      { "optionId": "D", "text": "Sum of the two numbers = S" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A, B, and D are correct. C incorrectly swaps the formula for the larger number.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A two-digit number has digits summing to 10. If 36 is subtracted from the number, the digits interchange. Using 9(x − y) = 36, find the original number.",
+    "options": [
+      { "optionId": "A", "text": "63" },
+      { "optionId": "B", "text": "73" },
+      { "optionId": "C", "text": "83" },
+      { "optionId": "D", "text": "93" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "9(x − y) = 36 → x − y = 4. With x + y = 10, solving gives x = 7, y = 3, so the number is 73.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The sum of two consecutive odd numbers is 36. Using the pair n and n+2, find the larger number.",
+    "options": [
+      { "optionId": "A", "text": "17" },
+      { "optionId": "B", "text": "19" },
+      { "optionId": "C", "text": "21" },
+      { "optionId": "D", "text": "23" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "2n + 2 = 36 → n = 17, so the numbers are 17 and 19. Larger = 19.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two numbers have a sum of 58 and a difference of 28. Using smaller = (Sum − Difference)/2, find the smaller number.",
+    "options": [
+      { "optionId": "A", "text": "12" },
+      { "optionId": "B", "text": "13" },
+      { "optionId": "C", "text": "14" },
+      { "optionId": "D", "text": "15" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Smaller = (58 − 28)/2 = 15.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["problems-on-numbers", "formula"],
+    "questionType": "MCQ"
+  }
+]

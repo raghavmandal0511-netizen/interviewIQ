@@ -1,0 +1,95 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Odd Man Out and Series questions test your ability to detect underlying patterns in number sequences and identify the element that breaks the rule. Success depends on recognising common patterns — arithmetic and geometric progressions, squares, cubes, primes, alternating rules, and combined differences — and applying systematic elimination.",
+  "explanation": "CONCEPT EXPLANATION\n\nNumber series questions fall into three main types:\n\n1) Find the next (or missing) term: Analyse consecutive differences, ratios, or layered patterns until a consistent rule emerges.\n\n2) Find the wrong number: Apply the detected pattern to each term; the one that violates the rule is the error.\n\n3) Odd one out: Compare all terms against a single property (all primes, all squares, all multiples of 3, etc.) and pick the exception.\n\nCommon patterns:\n• Arithmetic progression (AP): constant difference.\n• Geometric progression (GP): constant ratio.\n• Squares/cubes: 1, 4, 9, 16… or 1, 8, 27, 64…\n• Combined differences: second-order differences are constant.\n• Alternating series: two interleaved sub-series.\n• Fibonacci-type: each term = sum of previous two.\n• n² ± k, 2ⁿ − 1, n(n+1), and similar formula-based rules.\n\nREAL-LIFE APPLICATIONS\n\nPattern recognition mirrors data trend analysis in business forecasting, quality-control anomaly detection, algorithm design, financial time-series analysis, and any field where spotting irregularities in sequential data is essential.\n\nCOMMON MISTAKES\n\n1) Stopping at the first pattern that fits two or three terms without verifying the full series.\n2) Ignoring alternating or interleaved sub-series.\n3) Confusing \"wrong number in series\" with \"odd one out\" — wrong number breaks a sequential rule; odd one out breaks a category rule.\n4) Overlooking second-order (difference of differences) patterns.\n5) Assuming arithmetic progression when the series is geometric or polynomial.\n\nIMPORTANT NOTES\n\n• Always check differences first, then ratios, then squares/cubes.\n• For mixed series, try splitting into odd-position and even-position sub-series.\n• In odd-one-out, state the common property before picking the exception.\n• Verify your answer fits every term, not just most of them.\n• Typical exam series use integers; fractional or negative terms signal a different approach.\n• When stuck, test simple patterns: +n, ×2, n², n²+n before exotic rules.",
+  "formulas": [
+    {
+      "title": "Arithmetic progression (nth term)",
+      "content": "aₙ = a + (n − 1)d, where a = first term, d = common difference"
+    },
+    {
+      "title": "Geometric progression (nth term)",
+      "content": "aₙ = a × r^(n−1), where r = common ratio"
+    },
+    {
+      "title": "Sum of first n natural numbers",
+      "content": "1 + 2 + 3 + … + n = n(n + 1)/2"
+    },
+    {
+      "title": "Squares pattern",
+      "content": "1, 4, 9, 16, 25, … → n²"
+    },
+    {
+      "title": "Cubes pattern",
+      "content": "1, 8, 27, 64, 125, … → n³"
+    },
+    {
+      "title": "Second-order difference",
+      "content": "If first differences form an AP, the series follows a quadratic (n²-type) rule"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Difference first",
+      "tip": "Compute first differences; if not constant, compute second differences for polynomial patterns."
+    },
+    {
+      "title": "Split alternating series",
+      "tip": "For 3, 5, 6, 10, 9, 15… check odd positions (3, 6, 9) and even positions (5, 10, 15) separately."
+    },
+    {
+      "title": "Square and cube check",
+      "tip": "If terms grow fast, test whether each term is a perfect square or cube."
+    },
+    {
+      "title": "Prime quick scan",
+      "tip": "In odd-one-out, check if all but one are prime, square, or divisible by a fixed number."
+    },
+    {
+      "title": "Verify every term",
+      "tip": "For wrong-number questions, your rule must explain all terms except one."
+    },
+    {
+      "title": "Ratio for GP",
+      "tip": "Divide consecutive terms; a constant ratio signals geometric progression."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Find the next term in the series: 2, 6, 12, 20, 30, ?",
+      "solution": "The next term is 42.",
+      "steps": [
+        "First differences: 4, 6, 8, 10 — increasing by 2 each time.",
+        "Next difference = 12.",
+        "Next term = 30 + 12 = 42."
+      ]
+    },
+    {
+      "problem": "Find the wrong number in the series: 2, 4, 8, 16, 32, 62.",
+      "solution": "62 is the wrong number; it should be 64.",
+      "steps": [
+        "Each term doubles the previous: 2×2=4, 4×2=8, 8×2=16, 16×2=32.",
+        "Next should be 32×2 = 64, not 62.",
+        "62 breaks the ×2 geometric pattern."
+      ]
+    },
+    {
+      "problem": "Find the odd one out: 2, 3, 5, 9, 11.",
+      "solution": "9 is the odd one out.",
+      "steps": [
+        "Check each number: 2, 3, 5, and 11 are prime numbers.",
+        "9 = 3 × 3 is composite, not prime.",
+        "9 does not belong with the other prime numbers."
+      ]
+    },
+    {
+      "problem": "Find the next term in the series: 1, 4, 9, 16, 25, ?",
+      "solution": "The next term is 36.",
+      "steps": [
+        "Terms are perfect squares: 1², 2², 3², 4², 5².",
+        "Next term = 6² = 36."
+      ]
+    }
+  ],
+  "references": []
+}

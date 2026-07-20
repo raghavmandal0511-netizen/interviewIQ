@@ -1,0 +1,18 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-artificial-language-translation",
+    "title": "Language Translation",
+    "description": "Decode artificial language phrases",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-artificial-language-code-interpretation",
+    "title": "Code Interpretation",
+    "description": "Interpret and encode artificial language",
+    "order": 2,
+    "isPublished": true
+  }
+]

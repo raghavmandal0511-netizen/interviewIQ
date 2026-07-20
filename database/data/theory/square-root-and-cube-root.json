@@ -1,0 +1,94 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Square Root and Cube Root questions test your ability to recognize perfect squares and cubes, simplify radical expressions, compare irrational roots, and apply root properties in arithmetic shortcuts. These skills appear frequently in simplification, number-series, and data interpretation problems.",
+  "explanation": "CONCEPT EXPLANATION\n\nThe square root of a non-negative number a, written √a, is the non-negative value whose square equals a. The cube root of any real number a, written ∛a, is the value whose cube equals a. Perfect squares (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400) and perfect cubes (1, 8, 27, 64, 125, 216, 343, 512, 729, 1000) should be memorized for speed.\n\nKey properties: √(ab) = √a × √b for a, b ≥ 0; √(a/b) = √a/√b for a ≥ 0, b > 0; (√a)² = a; ∛(a³) = a; ∛(ab) = ∛a × ∛b. To simplify √n, factor n into perfect square × remainder: √72 = √(36×2) = 6√2.\n\nTo compare roots like √50 and √72, compare the radicands directly. For cube roots of large numbers, group digits in threes from the right and use estimation.\n\nREAL-LIFE APPLICATIONS\n\nSquare roots appear in geometry (Pythagorean theorem side lengths), standard deviation in statistics, and scaling blueprints. Cube roots model volume-to-edge conversions (finding the side of a cube given its volume) and engineering tolerances for three-dimensional objects.\n\nCOMMON MISTAKES\n\n1) Taking √(a + b) as √a + √b — this is false in general.\n2) Forgetting that √a is defined as non-negative for real numbers.\n3) Confusing square-root and cube-root digit-grouping rules.\n4) Not simplifying fully: √128 = 8√2, not 4√8.\n5) Misidentifying perfect squares near large numbers (e.g., 289 vs 291).\n\nIMPORTANT NOTES\n\n• √0 = 0 and ∛0 = 0.\n• √1 = 1 and ∛1 = 1.\n• Perfect squares never end in 2, 3, 7, or 8.\n• Numbers ending in 2, 3, 7, 8 are never perfect cubes.\n• When comparing √a and √b with a < b, always √a < √b for non-negative values.",
+  "formulas": [
+    {
+      "title": "Definition of square root",
+      "content": "If x² = a and a ≥ 0, then x = √a (principal, non-negative root)"
+    },
+    {
+      "title": "Definition of cube root",
+      "content": "If x³ = a, then x = ∛a"
+    },
+    {
+      "title": "Product under square root",
+      "content": "√(a × b) = √a × √b for a, b ≥ 0"
+    },
+    {
+      "title": "Quotient under square root",
+      "content": "√(a / b) = √a / √b for a ≥ 0, b > 0"
+    },
+    {
+      "title": "Simplify using perfect square factor",
+      "content": "√n = √(p² × r) = p√r where p² is the largest perfect square dividing n"
+    },
+    {
+      "title": "Cube root of a product",
+      "content": "∛(a × b) = ∛a × ∛b for all real a, b"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Memorize squares up to 30²",
+      "tip": "Know 11² = 121 through 30² = 900 to spot perfect squares instantly."
+    },
+    {
+      "title": "Unit digit check for squares",
+      "tip": "Perfect squares never end in 2, 3, 7, or 8."
+    },
+    {
+      "title": "Nearest perfect square",
+      "tip": "For √n, find the nearest perfect squares below and above n to estimate quickly."
+    },
+    {
+      "title": "Cube root by grouping",
+      "tip": "For ∛ of large numbers, group digits in threes from the decimal point rightward."
+    },
+    {
+      "title": "Compare roots via radicands",
+      "tip": "To compare √a and √b, compare a and b directly when both are non-negative."
+    },
+    {
+      "title": "Factor before simplifying",
+      "tip": "Always pull out the largest perfect square factor before leaving a surd."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Simplify √450.",
+      "solution": "√450 = 15√2.",
+      "steps": [
+        "450 = 225 × 2 = 15² × 2.",
+        "√450 = √(15² × 2) = 15√2."
+      ]
+    },
+    {
+      "problem": "Find the cube root of 9261.",
+      "solution": "∛9261 = 21.",
+      "steps": [
+        "9261 ends in 1, so the cube root ends in 1.",
+        "9261 has four digits, so the root is two digits near ∛9000 ≈ 20.",
+        "Try 21: 21³ = 9261. Hence ∛9261 = 21."
+      ]
+    },
+    {
+      "problem": "Which is greater: √50 or 7?",
+      "solution": "√50 is greater than 7.",
+      "steps": [
+        "Compare squares: 7² = 49 and (√50)² = 50.",
+        "Since 50 > 49, we have √50 > 7."
+      ]
+    },
+    {
+      "problem": "Evaluate √0.16 + ∛0.008.",
+      "solution": "The value is 0.6.",
+      "steps": [
+        "√0.16 = 0.4.",
+        "∛0.008 = 0.2.",
+        "Sum = 0.4 + 0.2 = 0.6."
+      ]
+    }
+  ],
+  "references": []
+}

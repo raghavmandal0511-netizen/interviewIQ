@@ -1,0 +1,88 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Permutation counts ordered arrangements; combination counts unordered selections. Factorials, nPr = n!/(n−r)! and nCr = n!/[r!(n−r)!] underpin most counting problems in aptitude exams.",
+  "explanation": "CONCEPT EXPLANATION\n\nFactorial: n! = n × (n−1) × … × 1; 0! = 1.\n\nPermutation ⁿPᵣ = n!/(n−r)! — order matters.\n\nCombination ⁿCᵣ = n!/[r!(n−r)!] — order does not matter.\n\nRelationship: ⁿPᵣ = ⁿCᵣ × r!\n\nCircular permutation of n distinct objects = (n−1)!\n\nArrangements with repetition: n^r (r slots, n choices each).\n\nArrangements of n objects with duplicates n!/(p!q!…).\n\nSelection with conditions: use complementary counting or split into cases.\n\nREAL-LIFE APPLICATIONS\n\nPassword strength, committee formation, seating plans, lottery draws, and DNA sequence counting in bioinformatics basics.\n\nCOMMON MISTAKES\n\n1) Using permutation when order does not matter.\n2) Forgetting to divide by factorials for repeated letters.\n3) Treating circular like linear (not using (n−1)!).\n4) Double-counting in complementary problems.\n5) Confusing ⁿCᵣ with ⁿCₙ₋ᵣ (they are equal — use the smaller r for easier calculation).\n\nIMPORTANT NOTES\n\n• ⁿC₀ = ⁿCₙ = 1.\n• ⁿCᵣ = ⁿCₙ₋ᵣ.\n• At least one problems: total − none.\n• Words with all letters: n! divided by factorial of each repeat count.\n• Committee with mandatory member: fix that member, choose rest.",
+  "formulas": [
+    {
+      "title": "Permutation",
+      "content": "ⁿPᵣ = n! / (n − r)!"
+    },
+    {
+      "title": "Combination",
+      "content": "ⁿCᵣ = n! / [r! × (n − r)!]"
+    },
+    {
+      "title": "Circular permutation",
+      "content": "(n − 1)! for n distinct objects"
+    },
+    {
+      "title": "With repetition",
+      "content": "n^r arrangements"
+    },
+    {
+      "title": "Repeated objects",
+      "content": "n! / (p! × q! × …)"
+    },
+    {
+      "title": "Complement",
+      "content": "At least 1 = Total − None"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Order test",
+      "tip": "If swapping two picks changes the outcome, use permutation."
+    },
+    {
+      "title": "Smaller r",
+      "tip": "Compute ⁿCᵣ using the smaller of r and n−r."
+    },
+    {
+      "title": "Circular fix",
+      "tip": "Fix one position in a circle to avoid overcounting rotations."
+    },
+    {
+      "title": "At least one",
+      "tip": "Total arrangements minus arrangements with zero of that type."
+    },
+    {
+      "title": "Repeated letters",
+      "tip": "Divide by factorial of each repeated letter count."
+    },
+    {
+      "title": "nCr on calculator",
+      "tip": "ⁿCᵣ = ⁿPᵣ / r! — divide permutation by r!."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "In how many ways can 5 people sit in a row?",
+      "solution": "120.",
+      "steps": [
+        "⁵P₅ = 5! = 120"
+      ]
+    },
+    {
+      "problem": "Choose 3 students from 10.",
+      "solution": "120.",
+      "steps": [
+        "¹⁰C₃ = 10×9×8/(3×2×1) = 120"
+      ]
+    },
+    {
+      "problem": "Arrange letters of BOOK.",
+      "solution": "12.",
+      "steps": [
+        "4!/(2!) = 24/2 = 12"
+      ]
+    },
+    {
+      "problem": "5 people around a round table.",
+      "solution": "24.",
+      "steps": [
+        "(5−1)! = 4! = 24"
+      ]
+    }
+  ],
+  "references": []
+}

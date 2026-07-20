@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: A1, B2, C3, D4, ?",
+    "options": [
+      { "optionId": "A", "text": "D5" },
+      { "optionId": "B", "text": "E4" },
+      { "optionId": "C", "text": "E5" },
+      { "optionId": "D", "text": "F5" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Both the letter and the attached number advance by 1 each time: A1, B2, C3, D4, next E5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: A1, C3, E5, G7, ?",
+    "options": [
+      { "optionId": "A", "text": "H8" },
+      { "optionId": "B", "text": "I9" },
+      { "optionId": "C", "text": "I8" },
+      { "optionId": "D", "text": "H9" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The letter skips one position each time (A, C, E, G, next I — the 9th letter), and the number is always the odd number matching the letter's position (1, 3, 5, 7, next 9). This gives I9.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing term in the series: Z26, Y25, X24, ?, V22",
+    "options": [
+      { "optionId": "A", "text": "W23" },
+      { "optionId": "B", "text": "W24" },
+      { "optionId": "C", "text": "V23" },
+      { "optionId": "D", "text": "X23" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Both the letter and the number decrease by 1 each time: Z26, Y25, X24, W23, V22. The missing term is W23.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: B2★, D4★★, F6★★★, H8★★★★, ?",
+    "options": [
+      { "optionId": "A", "text": "I9★★★★★" },
+      { "optionId": "B", "text": "J10★★★★" },
+      { "optionId": "C", "text": "J10★★★★★" },
+      { "optionId": "D", "text": "J9★★★★★" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The letter advances by 2 positions (B, D, F, H, next J), the number advances by 2 (2, 4, 6, 8, next 10), and the star count increases by 1 each step (1, 2, 3, 4, next 5). This gives J10★★★★★.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 1A, 2C, 3E, 4G, ?",
+    "options": [
+      { "optionId": "A", "text": "5H" },
+      { "optionId": "B", "text": "5I" },
+      { "optionId": "C", "text": "6I" },
+      { "optionId": "D", "text": "5J" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The number increases by 1 (1, 2, 3, 4, next 5), and the letter skips one position each time (A, C, E, G, next I — the 9th letter). This gives 5I.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: A1, B4, C9, D16, ?",
+    "options": [
+      { "optionId": "A", "text": "E20" },
+      { "optionId": "B", "text": "E25" },
+      { "optionId": "C", "text": "F25" },
+      { "optionId": "D", "text": "E22" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The letters are sequential (A, B, C, D, next E), and the numbers are perfect squares (1, 4, 9, 16, next 25). This gives E25.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing term in the series: M13, K11, I9, ?, E5",
+    "options": [
+      { "optionId": "A", "text": "G7" },
+      { "optionId": "B", "text": "H8" },
+      { "optionId": "C", "text": "G8" },
+      { "optionId": "D", "text": "F6" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Both the letter position and the number decrease by 2 each time: M13, K11, I9, G7, E5. The missing term is G7.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: A★, B★★, C★★★, D★★★★, ?",
+    "options": [
+      { "optionId": "A", "text": "E★★★★" },
+      { "optionId": "B", "text": "F★★★★★" },
+      { "optionId": "C", "text": "E★★★★★" },
+      { "optionId": "D", "text": "D★★★★★" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The letters are sequential (A, B, C, D, next E), and the star count matches the letter's position (1, 2, 3, 4, next 5). This gives E★★★★★.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: A2, C4, E6, H8, I10.",
+    "options": [
+      { "optionId": "A", "text": "C4" },
+      { "optionId": "B", "text": "E6" },
+      { "optionId": "C", "text": "H8" },
+      { "optionId": "D", "text": "I10" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The letter should skip one position each time (A, C, E, G, I) while the number increases by 2 (2, 4, 6, 8, 10). The term H8 breaks the letter pattern; it should be G8.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 3B, 6D, 9F, 12H, ?",
+    "options": [
+      { "optionId": "A", "text": "15I" },
+      { "optionId": "B", "text": "15J" },
+      { "optionId": "C", "text": "14J" },
+      { "optionId": "D", "text": "15K" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The number is a multiple of 3 (3, 6, 9, 12, next 15), and the letter skips one position each time (B, D, F, H, next J). This gives 15J.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next pair in the series: (A,Z), (B,Y), (C,X), (D,W), ?",
+    "options": [
+      { "optionId": "A", "text": "(E,V)" },
+      { "optionId": "B", "text": "(E,U)" },
+      { "optionId": "C", "text": "(F,V)" },
+      { "optionId": "D", "text": "(E,W)" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The first letter of each pair moves forward by 1 (A, B, C, D, next E), while the second letter moves backward by 1 (Z, Y, X, W, next V). Each pair's positions also sum to 27, confirming (E,V).",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: P16, N14, L12, J10, ?",
+    "options": [
+      { "optionId": "A", "text": "I9" },
+      { "optionId": "B", "text": "H8" },
+      { "optionId": "C", "text": "G7" },
+      { "optionId": "D", "text": "H9" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Both the letter position and the number decrease by 2 each time: P16, N14, L12, J10, next H8.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing term in the series: A1B2, C3D4, E5F6, ?",
+    "options": [
+      { "optionId": "A", "text": "G7H8" },
+      { "optionId": "B", "text": "G8H9" },
+      { "optionId": "C", "text": "F7G8" },
+      { "optionId": "D", "text": "G7H7" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each block has two sequential letters (A,B / C,D / E,F / next G,H) each paired with sequential numbers (1,2 / 3,4 / 5,6 / next 7,8). This gives G7H8.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: Z1, X2, V4, T8, ?",
+    "options": [
+      { "optionId": "A", "text": "R16" },
+      { "optionId": "B", "text": "S16" },
+      { "optionId": "C", "text": "R15" },
+      { "optionId": "D", "text": "Q16" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The letter moves backward by 2 positions each time (Z, X, V, T, next R), while the number doubles each time (1, 2, 4, 8, next 16). This gives R16.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: A5, D10, G15, J20, ?",
+    "options": [
+      { "optionId": "A", "text": "M25" },
+      { "optionId": "B", "text": "L25" },
+      { "optionId": "C", "text": "M20" },
+      { "optionId": "D", "text": "N25" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The letter advances by 3 positions each time (A, D, G, J, next M), while the number increases by 5 each time (5, 10, 15, 20, next 25). This gives M25.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series A1, B2, C3, D4, both the letter position and the attached number increase by 1 at each step.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A(1), B(2), C(3), D(4) — the letter position matches the attached number exactly, and both increase by 1, so the statement is true.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series Z26, Y25, X24, the letters move forward through the alphabet while the numbers decrease.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Z, Y, X move backward through the alphabet (not forward), even though the attached numbers do decrease, so the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following combined letter-number terms correctly continue their respective series?",
+    "options": [
+      { "optionId": "A", "text": "A1, B2, C3, D4 → next is E5" },
+      { "optionId": "B", "text": "Z26, Y25, X24 → next is W22" },
+      { "optionId": "C", "text": "A1, C3, E5, G7 → next is I9" },
+      { "optionId": "D", "text": "P16, N14, L12, J10 → next is G8" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "A1,B2,C3,D4 correctly continues with E5, and A1,C3,E5,G7 (letters skip one position, numbers are odd) correctly continues with I9. Z26,Y25,X24 should continue with W23 (not W22), and P16,N14,L12,J10 should continue with H8 (not G8).",
+    "difficulty": "hard",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "mixed-pattern"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

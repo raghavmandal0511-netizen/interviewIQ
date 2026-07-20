@@ -1,0 +1,338 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Sum = n(n+1)/2, find the sum of the first 20 natural numbers.",
+    "options": [
+      { "optionId": "A", "text": "190" },
+      { "optionId": "B", "text": "200" },
+      { "optionId": "C", "text": "210" },
+      { "optionId": "D", "text": "220" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum = 20×21/2 = 210.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Sum of squares = n(n+1)(2n+1)/6, find the sum of squares of the first 5 natural numbers.",
+    "options": [
+      { "optionId": "A", "text": "45" },
+      { "optionId": "B", "text": "50" },
+      { "optionId": "C", "text": "55" },
+      { "optionId": "D", "text": "60" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum = 5×6×11/6 = 55.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Sum of cubes = [n(n+1)/2]², find the sum of cubes of the first 4 natural numbers.",
+    "options": [
+      { "optionId": "A", "text": "80" },
+      { "optionId": "B", "text": "90" },
+      { "optionId": "C", "text": "100" },
+      { "optionId": "D", "text": "110" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum = [4×5/2]² = 10² = 100.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A number is divisible by 3 if?",
+    "options": [
+      { "optionId": "A", "text": "Its last digit is divisible by 3" },
+      { "optionId": "B", "text": "The sum of its digits is divisible by 3" },
+      { "optionId": "C", "text": "The number of digits is divisible by 3" },
+      { "optionId": "D", "text": "The product of its digits is divisible by 3" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The standard divisibility rule for 3 is that the sum of the digits must be divisible by 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A number is divisible by 4 if?",
+    "options": [
+      { "optionId": "A", "text": "Its last digit is divisible by 4" },
+      { "optionId": "B", "text": "The sum of its digits is divisible by 4" },
+      { "optionId": "C", "text": "Its last two digits form a number divisible by 4" },
+      { "optionId": "D", "text": "Its first digit is even" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The divisibility rule for 4 states that the number formed by the last two digits must be divisible by 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A number is divisible by 11 if?",
+    "options": [
+      { "optionId": "A", "text": "The sum of all its digits is divisible by 11" },
+      { "optionId": "B", "text": "The difference between the sum of digits at odd places and the sum of digits at even places is 0 or divisible by 11" },
+      { "optionId": "C", "text": "Its last digit is 0 or 11" },
+      { "optionId": "D", "text": "It ends in two identical digits" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The divisibility rule for 11 uses the alternating sum of digits from odd and even positions.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is a prime number?",
+    "options": [
+      { "optionId": "A", "text": "21" },
+      { "optionId": "B", "text": "29" },
+      { "optionId": "C", "text": "33" },
+      { "optionId": "D", "text": "51" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "21 = 3×7, 33 = 3×11, 51 = 3×17; only 29 has no divisors other than 1 and itself.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The sum of digits of 4653 is 18, which is divisible by 3. Hence, 4653 is divisible by 3.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "4+6+5+3 = 18, and since 18 is divisible by 3, 4653 is divisible by 3 (4653 = 3 × 1551).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["numbers", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Sum of first n odd numbers = n², find the sum of the first 6 odd numbers.",
+    "options": [
+      { "optionId": "A", "text": "30" },
+      { "optionId": "B", "text": "33" },
+      { "optionId": "C", "text": "36" },
+      { "optionId": "D", "text": "39" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum = n² = 6² = 36.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Sum of first n even numbers = n(n+1), find the sum of the first 5 even numbers.",
+    "options": [
+      { "optionId": "A", "text": "25" },
+      { "optionId": "B", "text": "28" },
+      { "optionId": "C", "text": "30" },
+      { "optionId": "D", "text": "32" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum = n(n+1) = 5×6 = 30.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using HCF × LCM = product of two numbers, find the LCM of 12 and 18, given their HCF is 6.",
+    "options": [
+      { "optionId": "A", "text": "30" },
+      { "optionId": "B", "text": "33" },
+      { "optionId": "C", "text": "36" },
+      { "optionId": "D", "text": "40" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "LCM = (12×18)/HCF = 216/6 = 36.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the number 5847, what is the place value of the digit 8?",
+    "options": [
+      { "optionId": "A", "text": "8" },
+      { "optionId": "B", "text": "80" },
+      { "optionId": "C", "text": "800" },
+      { "optionId": "D", "text": "8000" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The digit 8 is in the hundreds place, so its place value is 8 × 100 = 800.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Every even number greater than 2 is composite.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Any even number greater than 2 has at least three factors (1, 2, and itself), making it composite.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["numbers", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "1 is considered a prime number.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "By definition, a prime number has exactly two distinct factors, 1 and itself. Since 1 has only one factor, it is not prime.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["numbers", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following are prime numbers?",
+    "options": [
+      { "optionId": "A", "text": "17" },
+      { "optionId": "B", "text": "21" },
+      { "optionId": "C", "text": "23" },
+      { "optionId": "D", "text": "27" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "17 and 23 are prime. 21 = 3×7 and 27 = 3³ are composite.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["numbers", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which divisibility rules are correctly stated?",
+    "options": [
+      { "optionId": "A", "text": "Divisible by 2: last digit is even" },
+      { "optionId": "B", "text": "Divisible by 5: last digit is 0 or 5" },
+      { "optionId": "C", "text": "Divisible by 6: divisible by both 2 and 3" },
+      { "optionId": "D", "text": "Divisible by 9: last digit is 9" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C are correct. D is false; the rule for 9 is that the sum of digits must be divisible by 9.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["numbers", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Sum = n(n+1)/2, find the sum of the first 15 natural numbers.",
+    "options": [
+      { "optionId": "A", "text": "110" },
+      { "optionId": "B", "text": "115" },
+      { "optionId": "C", "text": "120" },
+      { "optionId": "D", "text": "125" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum = 15×16/2 = 120.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Sum of squares = n(n+1)(2n+1)/6, find the sum of squares of the first 3 natural numbers.",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "14" },
+      { "optionId": "D", "text": "16" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum = 3×4×7/6 = 14 (verified: 1²+2²+3² = 1+4+9 = 14).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If a number N leaves a remainder of 3 when divided by 7, what remainder does 2N leave when divided by 7?",
+    "options": [
+      { "optionId": "A", "text": "3" },
+      { "optionId": "B", "text": "5" },
+      { "optionId": "C", "text": "6" },
+      { "optionId": "D", "text": "7" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using modular arithmetic, 2N mod 7 = (2×3) mod 7 = 6 mod 7 = 6.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["numbers", "formula"],
+    "questionType": "MCQ"
+  }
+]

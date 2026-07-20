@@ -139,6 +139,6 @@ const theorySchema = new mongoose.Schema(
     }
 );
 
-theorySchema.index({ topicId: 1 }, { unique: true });
+// topicId unique index comes from field `unique: true`
 
 export default mongoose.model("Theory", theorySchema);

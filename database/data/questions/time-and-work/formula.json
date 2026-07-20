@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A can finish a work in 20 days. What is A's one-day work?",
+    "options": [
+      { "optionId": "A", "text": "1/10" },
+      { "optionId": "B", "text": "1/15" },
+      { "optionId": "C", "text": "1/20" },
+      { "optionId": "D", "text": "1/25" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "If A finishes the work in a days, A's one-day work is 1/a. Here, 1/20 is A's one-day work.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A can complete a job in 10 days and B can complete it in 15 days. In how many days will they finish it together?",
+    "options": [
+      { "optionId": "A", "text": "5 days" },
+      { "optionId": "B", "text": "6 days" },
+      { "optionId": "C", "text": "7 days" },
+      { "optionId": "D", "text": "7.5 days" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Together time = ab/(a+b) = (10 × 15)/(10+15) = 150/25 = 6 days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which formula gives the time taken by two workers to complete a job together, if they individually take a and b days?",
+    "options": [
+      { "optionId": "A", "text": "a + b" },
+      { "optionId": "B", "text": "ab / (a + b)" },
+      { "optionId": "C", "text": "(a + b) / 2" },
+      { "optionId": "D", "text": "a − b" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Combined rate = 1/a + 1/b = (a+b)/ab, so together time = ab/(a+b).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A is thrice as efficient as B. If B alone takes 24 days to finish a job, how many days does A take alone?",
+    "options": [
+      { "optionId": "A", "text": "6 days" },
+      { "optionId": "B", "text": "8 days" },
+      { "optionId": "C", "text": "10 days" },
+      { "optionId": "D", "text": "12 days" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Being thrice as efficient means A takes one-third the time: 24/3 = 8 days.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A, B, and C can complete a job in 10, 15, and 30 days respectively. In how many days can they finish it working together?",
+    "options": [
+      { "optionId": "A", "text": "4 days" },
+      { "optionId": "B", "text": "5 days" },
+      { "optionId": "C", "text": "6 days" },
+      { "optionId": "D", "text": "7.5 days" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Combined rate = 1/10 + 1/15 + 1/30 = 3/30 + 2/30 + 1/30 = 6/30 = 1/5. Time = 5 days.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A pipe fills a tank in 5 hours and another pipe empties it in 10 hours. If both are opened together, in how much time will the tank be filled?",
+    "options": [
+      { "optionId": "A", "text": "7.5 hours" },
+      { "optionId": "B", "text": "8 hours" },
+      { "optionId": "C", "text": "10 hours" },
+      { "optionId": "D", "text": "12 hours" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Net rate = 1/5 − 1/10 = 2/10 − 1/10 = 1/10 per hour. Time to fill = 10 hours.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "8 men can complete a job in 12 days. How many men are needed to complete the same job in 6 days?",
+    "options": [
+      { "optionId": "A", "text": "12 men" },
+      { "optionId": "B", "text": "14 men" },
+      { "optionId": "C", "text": "16 men" },
+      { "optionId": "D", "text": "18 men" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using M1D1 = M2D2: 8 × 12 = M2 × 6 ⇒ M2 = 96/6 = 16 men.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A can complete a job alone in 12 days. Working together with B, they complete it in 8 days. Find the time B alone would take.",
+    "options": [
+      { "optionId": "A", "text": "18 days" },
+      { "optionId": "B", "text": "20 days" },
+      { "optionId": "C", "text": "24 days" },
+      { "optionId": "D", "text": "30 days" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "1/8 = 1/12 + 1/x ⇒ 1/x = 1/8 − 1/12 = (3−2)/24 = 1/24 ⇒ x = 24 days.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A can do a job in 15 days and B in 10 days. They work together for 2 days, then A leaves. How many more days does B alone need to finish the remaining work?",
+    "options": [
+      { "optionId": "A", "text": "5 days" },
+      { "optionId": "B", "text": "6 days" },
+      { "optionId": "C", "text": "20/3 days" },
+      { "optionId": "D", "text": "7 days" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Combined rate = 1/15 + 1/10 = 2/30 + 3/30 = 5/30 = 1/6 per day. Work done in 2 days = 2/6 = 1/3. Remaining work = 2/3. B's rate = 1/10, so time = (2/3) ÷ (1/10) = 20/3 ≈ 6.67 days.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "15 men working 8 hours a day can complete a job in 20 days. How many days will 10 men working 6 hours a day take to complete the same job?",
+    "options": [
+      { "optionId": "A", "text": "30 days" },
+      { "optionId": "B", "text": "35 days" },
+      { "optionId": "C", "text": "40 days" },
+      { "optionId": "D", "text": "45 days" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using M1D1H1 = M2D2H2: 15×20×8 = 2400 = 10×D2×6 = 60×D2 ⇒ D2 = 2400/60 = 40 days.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A's efficiency is twice that of B. Working together they finish a job in 8 days. Find A's time alone.",
+    "options": [
+      { "optionId": "A", "text": "10 days" },
+      { "optionId": "B", "text": "12 days" },
+      { "optionId": "C", "text": "14 days" },
+      { "optionId": "D", "text": "16 days" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let B's rate = x, A's rate = 2x. Combined rate = 3x = 1/8 ⇒ x = 1/24. A's rate = 2/24 = 1/12, so A alone takes 12 days.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the efficiency ratio of A to B is m:n for the same work, what is the ratio of the time A and B take?",
+    "options": [
+      { "optionId": "A", "text": "m : n" },
+      { "optionId": "B", "text": "n : m" },
+      { "optionId": "C", "text": "m × n" },
+      { "optionId": "D", "text": "1 : 1" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Time is inversely proportional to efficiency for the same work, so if efficiency ratio is m:n, time ratio is n:m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Pipe A fills a tank in 6 hours and pipe B fills it in 9 hours. If both are opened together, find the time to fill the tank.",
+    "options": [
+      { "optionId": "A", "text": "3 hours" },
+      { "optionId": "B", "text": "3.6 hours" },
+      { "optionId": "C", "text": "4 hours" },
+      { "optionId": "D", "text": "4.5 hours" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Combined rate = 1/6 + 1/9 = 3/18 + 2/18 = 5/18 per hour. Time = 18/5 = 3.6 hours.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A tank is filled by pipe A in 12 hours and emptied by pipe B in 20 hours. If both pipes are opened together on an empty tank, how long will it take to fill?",
+    "options": [
+      { "optionId": "A", "text": "24 hours" },
+      { "optionId": "B", "text": "28 hours" },
+      { "optionId": "C", "text": "30 hours" },
+      { "optionId": "D", "text": "36 hours" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Net rate = 1/12 − 1/20 = 5/60 − 3/60 = 2/60 = 1/30 per hour. Time to fill = 30 hours.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rate of work is defined as:",
+    "options": [
+      { "optionId": "A", "text": "Work × Time" },
+      { "optionId": "B", "text": "Work / Time" },
+      { "optionId": "C", "text": "Time / Work" },
+      { "optionId": "D", "text": "1 / Work" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Rate is defined as the amount of work done per unit time, so Rate = Work / Time.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If A is twice as efficient as B, A takes twice the time B takes to finish the same work.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Efficiency and time are inversely related. If A is twice as efficient, A takes half the time B takes, not twice.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Man-days is a way of measuring total work capacity as the product of the number of men and the number of days they work.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Man-days combines workforce size and duration into a single measure of total work capacity, used in the relation M1D1 = M2D2 for equal total work.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "When two pipes fill a tank, their rates are always added regardless of whether one of them is an outlet pipe.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An outlet (emptying) pipe's rate must be subtracted from the inlet rate to find the net rate, not added.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following statements about time and work are correct? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "If A takes a days alone, A's one-day work is 1/a" },
+      { "optionId": "B", "text": "Two workers with individual times a and b together take (a + b) days" },
+      { "optionId": "C", "text": "Two workers with individual times a and b together take ab/(a + b) days" },
+      { "optionId": "D", "text": "Outlet pipe rates are subtracted from inlet pipe rates to get the net rate" }
+    ],
+    "correctAnswer": ["A", "C", "D"],
+    "explanation": "A worker's one-day work is 1/a (A correct). Two workers together take ab/(a+b) days, not (a+b) days, so B is wrong and C is correct. Outlet rates must be subtracted from inlet rates (D correct).",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Select all valid uses of the man-days formula M1D1H1/W1 = M2D2H2/W2.",
+    "options": [
+      { "optionId": "A", "text": "Comparing total work capacity when hours per day change" },
+      { "optionId": "B", "text": "Comparing total work capacity when only wages change" },
+      { "optionId": "C", "text": "Finding the number of men needed for a different number of days" },
+      { "optionId": "D", "text": "Finding the number of days needed for a different number of workers" }
+    ],
+    "correctAnswer": ["A", "C", "D"],
+    "explanation": "The man-days formula relates workforce, days, and hours to total work, so it applies to A, C, and D. Wages are unrelated to work capacity, so B is incorrect.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["time-and-work", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

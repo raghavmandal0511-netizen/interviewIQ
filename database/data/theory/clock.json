@@ -1,0 +1,84 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Clock problems test your ability to relate the motion of the hour and minute hands on a 12-hour dial. The minute hand completes 360° in 60 minutes while the hour hand moves only 30° in that time, so their relative speed is 5.5° per minute.",
+  "explanation": "CONCEPT EXPLANATION\n\nMinute hand speed = 6°/min. Hour hand speed = 0.5°/min. Relative speed = 5.5°/min.\n\nAngle at H:M → θ = |30H − 5.5M|°. Use 360° − θ if θ > 180° for the smaller angle.\n\nHands coincide after H o'clock at 60H/11 minutes past H.\n\nHands opposite: solve |30H − 5.5M| = 180.\n\nMirror time: actual = 11:60 − mirror reading (in minutes on 12-hour dial).\n\nFaulty clock: ratio of faulty time to true time stays constant.\n\nREAL-LIFE APPLICATIONS\n\nScheduling, analog display design, gear-ratio analysis, and mirror/reflection puzzles.\n\nCOMMON MISTAKES\n\n1) Using 30M instead of 5.5M.\n2) Ignoring hour-hand movement with minutes.\n3) Not reducing reflex angles.\n4) Assuming coincidence every 60 minutes.\n5) Wrong mirror subtraction base.\n\nIMPORTANT NOTES\n\n• 11 coincidences and 11 opposites in 12 hours.\n• 22 right angles in 12 hours.\n• Coincidence interval = 720/11 ≈ 65.45 min.\n• Minute hand is 12× faster than hour hand.",
+  "formulas": [
+    {
+      "title": "Angle",
+      "content": "θ = |30H − 5.5M|°"
+    },
+    {
+      "title": "Coincidence",
+      "content": "H o'clock + 60H/11 minutes"
+    },
+    {
+      "title": "Mirror",
+      "content": "Actual = 11:60 − mirror time"
+    },
+    {
+      "title": "Relative speed",
+      "content": "5.5° per minute"
+    },
+    {
+      "title": "Faulty clock",
+      "content": "Faulty duration / True duration = k (constant)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "5.5° rule",
+      "tip": "Each minute the minute hand gains 5.5° on the hour hand."
+    },
+    {
+      "title": "At H:00",
+      "tip": "Angle at H:00 is simply 30H degrees."
+    },
+    {
+      "title": "Coincidence gap",
+      "tip": "Hands meet every 720/11 minutes, not 60."
+    },
+    {
+      "title": "Mirror trick",
+      "tip": "Subtract mirror time from 11:60 (720 minutes)."
+    },
+    {
+      "title": "12× speed",
+      "tip": "Minute hand moves 12 times as fast as the hour hand."
+    },
+    {
+      "title": "Smaller angle",
+      "tip": "If θ > 180°, smaller angle = 360° − θ."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Angle at 4:20?",
+      "solution": "10°.",
+      "steps": [
+        "θ = |120 − 110| = 10°"
+      ]
+    },
+    {
+      "problem": "Coincidence between 2 and 3?",
+      "solution": "2:10 10/11.",
+      "steps": [
+        "60×2/11 = 10 10/11 min past 2"
+      ]
+    },
+    {
+      "problem": "Mirror shows 7:20. Actual?",
+      "solution": "4:40.",
+      "steps": [
+        "720 − 440 = 280 min = 4:40"
+      ]
+    },
+    {
+      "problem": "Coincidences in 12 hours?",
+      "solution": "11.",
+      "steps": [
+        "Every 720/11 min → 11 times in 720 min"
+      ]
+    }
+  ],
+  "references": []
+}

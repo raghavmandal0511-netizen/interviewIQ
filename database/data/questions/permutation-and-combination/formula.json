@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the value of 6! (6 factorial)?",
+    "options": [
+      { "optionId": "A", "text": "600" },
+      { "optionId": "B", "text": "650" },
+      { "optionId": "C", "text": "700" },
+      { "optionId": "D", "text": "720" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "6! = 6×5×4×3×2×1 = 720.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using ⁿPᵣ = n!/(n−r)!, evaluate ⁵P₃.",
+    "options": [
+      { "optionId": "A", "text": "50" },
+      { "optionId": "B", "text": "55" },
+      { "optionId": "C", "text": "60" },
+      { "optionId": "D", "text": "65" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "⁵P₃ = 5×4×3 = 60.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using ⁿCᵣ = n!/[r!(n−r)!], evaluate ⁶C₂.",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "15" },
+      { "optionId": "D", "text": "18" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "⁶C₂ = 6×5/(2×1) = 15.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using circular permutation = (n−1)!, find the number of ways to arrange 6 distinct people around a circular table.",
+    "options": [
+      { "optionId": "A", "text": "100" },
+      { "optionId": "B", "text": "110" },
+      { "optionId": "C", "text": "120" },
+      { "optionId": "D", "text": "130" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Circular arrangements of n distinct objects = (n−1)! = 5! = 120.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using arrangements-with-repetition = n^r, find the number of 4-digit codes possible using 5 choices for each digit, repetition allowed.",
+    "options": [
+      { "optionId": "A", "text": "500" },
+      { "optionId": "B", "text": "600" },
+      { "optionId": "C", "text": "625" },
+      { "optionId": "D", "text": "650" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "With repetition allowed, total codes = 5⁴ = 625.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using n!/(p!×q!×...) for repeated letters, find the number of distinct arrangements of the letters of the word BANANA (A repeats 3 times, N repeats 2 times).",
+    "options": [
+      { "optionId": "A", "text": "50" },
+      { "optionId": "B", "text": "55" },
+      { "optionId": "C", "text": "60" },
+      { "optionId": "D", "text": "65" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "BANANA has 6 letters with A×3 and N×2: arrangements = 6!/(3!×2!) = 720/12 = 60.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the value of ⁿC₀ for any positive integer n?",
+    "options": [
+      { "optionId": "A", "text": "0" },
+      { "optionId": "B", "text": "1" },
+      { "optionId": "C", "text": "n" },
+      { "optionId": "D", "text": "Undefined" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "By definition, choosing 0 items from n always has exactly 1 way, so ⁿC₀ = 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using ⁿCᵣ = ⁿCₙ₋ᵣ, evaluate ⁹C₂ (equivalent to ⁹C₇).",
+    "options": [
+      { "optionId": "A", "text": "32" },
+      { "optionId": "B", "text": "34" },
+      { "optionId": "C", "text": "36" },
+      { "optionId": "D", "text": "38" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "⁹C₂ = 9×8/(2×1) = 36.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using ⁿPᵣ = ⁿCᵣ × r!, if ⁿCᵣ = 35 and r = 3, what is ⁿPᵣ?",
+    "options": [
+      { "optionId": "A", "text": "200" },
+      { "optionId": "B", "text": "205" },
+      { "optionId": "C", "text": "210" },
+      { "optionId": "D", "text": "215" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "ⁿPᵣ = ⁿCᵣ × r! = 35 × 6 = 210.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A set has 5 elements, giving 32 total subsets (including the empty set). Using the complement rule, how many non-empty subsets exist?",
+    "options": [
+      { "optionId": "A", "text": "28" },
+      { "optionId": "B", "text": "30" },
+      { "optionId": "C", "text": "31" },
+      { "optionId": "D", "text": "32" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Non-empty subsets = Total subsets − empty set = 32 − 1 = 31.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using circular permutation = (n−1)!, find the number of ways to arrange 7 distinct people around a circular table.",
+    "options": [
+      { "optionId": "A", "text": "600" },
+      { "optionId": "B", "text": "660" },
+      { "optionId": "C", "text": "720" },
+      { "optionId": "D", "text": "740" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Circular arrangements of n distinct objects = (n−1)! = 6! = 720.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If repetition is allowed, how many 3-letter codes can be formed from 26 letters?",
+    "options": [
+      { "optionId": "A", "text": "16000" },
+      { "optionId": "B", "text": "17000" },
+      { "optionId": "C", "text": "17576" },
+      { "optionId": "D", "text": "18000" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "With repetition allowed, total codes = 26³ = 17,576.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "ⁿCᵣ = ⁿCₙ₋ᵣ for all valid values of r.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This is a standard combination identity: choosing r items is equivalent to leaving out (n−r) items.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In permutations, the order of selection matters, but in combinations, it does not.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This is the fundamental distinction between permutations (ordered) and combinations (unordered).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Circular permutations of n distinct objects equal n!, the same as linear arrangements.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Circular permutations equal (n−1)!, since rotations of the same arrangement are considered identical.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following combinatorial identities are correct?",
+    "options": [
+      { "optionId": "A", "text": "ⁿPᵣ = n!/(n−r)!" },
+      { "optionId": "B", "text": "ⁿCᵣ = n!/[r!(n−r)!]" },
+      { "optionId": "C", "text": "ⁿPᵣ = ⁿCᵣ × r!" },
+      { "optionId": "D", "text": "ⁿCᵣ = ⁿPᵣ × r!" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C are correct standard identities. D is false; the correct relation is ⁿCᵣ = ⁿPᵣ / r!.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which statements about arrangements are correct?",
+    "options": [
+      { "optionId": "A", "text": "Arrangements of n objects with p and q repeated items = n!/(p!×q!)" },
+      { "optionId": "B", "text": "Number of ways to arrange n distinct objects in a row = n!" },
+      { "optionId": "C", "text": "With repetition allowed, r selections from n options = nʳ" },
+      { "optionId": "D", "text": "Circular arrangement of n distinct objects = n!" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C are correct. D is false; circular arrangements equal (n−1)!, not n!.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using ⁿCᵣ = n!/[r!(n−r)!], evaluate ¹⁰C₄.",
+    "options": [
+      { "optionId": "A", "text": "200" },
+      { "optionId": "B", "text": "205" },
+      { "optionId": "C", "text": "210" },
+      { "optionId": "D", "text": "215" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "¹⁰C₄ = 10×9×8×7/(4×3×2×1) = 5040/24 = 210.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using the diagonal formula ⁿC₂ − n, find the number of diagonals in a hexagon (n = 6).",
+    "options": [
+      { "optionId": "A", "text": "6" },
+      { "optionId": "B", "text": "8" },
+      { "optionId": "C", "text": "9" },
+      { "optionId": "D", "text": "10" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Diagonals = ⁶C₂ − 6 = 15 − 6 = 9.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In how many ways can a committee of 5 be selected from 6 men and 4 women (no restrictions), using ¹⁰C₅?",
+    "options": [
+      { "optionId": "A", "text": "242" },
+      { "optionId": "B", "text": "248" },
+      { "optionId": "C", "text": "252" },
+      { "optionId": "D", "text": "256" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Total people = 10. ¹⁰C₅ = 252.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["permutation-and-combination", "formula"],
+    "questionType": "MCQ"
+  }
+]

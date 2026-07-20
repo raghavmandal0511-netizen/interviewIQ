@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Father : Son :: Mother : ?",
+    "options": [
+      { "optionId": "A", "text": "Daughter" },
+      { "optionId": "B", "text": "Sister" },
+      { "optionId": "C", "text": "Aunt" },
+      { "optionId": "D", "text": "Niece" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A father's male child is his son, so by the same parent-to-child relationship, a mother's female child is her daughter. The relationship is 'parent : child of matching gender'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Uncle : Nephew :: Aunt : ?",
+    "options": [
+      { "optionId": "A", "text": "Niece" },
+      { "optionId": "B", "text": "Cousin" },
+      { "optionId": "C", "text": "Sister" },
+      { "optionId": "D", "text": "Grandmother" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An uncle's sibling's son is referred to as his nephew, so following the same family relationship, an aunt's sibling's daughter is referred to as her niece.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "King : Queen :: Prince : ?",
+    "options": [
+      { "optionId": "A", "text": "Princess" },
+      { "optionId": "B", "text": "Duke" },
+      { "optionId": "C", "text": "Emperor" },
+      { "optionId": "D", "text": "Knight" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A king's female royal counterpart is a queen, so following the same pattern, a prince's female royal counterpart is a princess. The relationship is 'male royal title : corresponding female royal title'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Manager : Employee :: Teacher : ?",
+    "options": [
+      { "optionId": "A", "text": "Student" },
+      { "optionId": "B", "text": "Principal" },
+      { "optionId": "C", "text": "Classroom" },
+      { "optionId": "D", "text": "Syllabus" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A manager holds authority over and guides an employee, just as a teacher holds authority over and guides a student. The relationship is 'person in authority : person they guide or supervise'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Doctor : Patient :: Lawyer : ?",
+    "options": [
+      { "optionId": "A", "text": "Client" },
+      { "optionId": "B", "text": "Judge" },
+      { "optionId": "C", "text": "Court" },
+      { "optionId": "D", "text": "Witness" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A doctor provides professional service to a patient, just as a lawyer provides professional service to a client. The relationship is 'professional : person they serve'. A judge and court relate to the legal setting, not the person being served.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Captain : Team :: Principal : ?",
+    "options": [
+      { "optionId": "A", "text": "School" },
+      { "optionId": "B", "text": "Teacher" },
+      { "optionId": "C", "text": "Classroom" },
+      { "optionId": "D", "text": "Student" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A captain is the leader who heads a team, just as a principal is the leader who heads a school. The relationship is 'leader : the group or institution they lead'. Teacher, classroom, and student are parts within the school, not the institution as a whole.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Grandfather : Grandson :: Grandmother : ?",
+    "options": [
+      { "optionId": "A", "text": "Granddaughter" },
+      { "optionId": "B", "text": "Daughter" },
+      { "optionId": "C", "text": "Niece" },
+      { "optionId": "D", "text": "Mother" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A grandfather's male grandchild is his grandson, so following the same relationship, a grandmother's female grandchild is her granddaughter.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Husband : Wife :: Groom : ?",
+    "options": [
+      { "optionId": "A", "text": "Bride" },
+      { "optionId": "B", "text": "Bridesmaid" },
+      { "optionId": "C", "text": "Fiancee" },
+      { "optionId": "D", "text": "Widow" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A husband's female marital counterpart is his wife, just as a groom's female marital counterpart, at the time of the wedding itself, is the bride. Fiancee refers to the period before marriage, and widow refers to a wife whose husband has died, so neither fits as precisely.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Predator : Prey :: Lion : ?",
+    "options": [
+      { "optionId": "A", "text": "Deer" },
+      { "optionId": "B", "text": "Tiger" },
+      { "optionId": "C", "text": "Cub" },
+      { "optionId": "D", "text": "Zoo" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A predator hunts its prey for food, and a lion, being a predator, hunts an animal such as a deer as its prey. Tiger is another predator, not prey, and cub and zoo do not fit the hunter-hunted relationship at all.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Employer : Employee :: Landlord : ?",
+    "options": [
+      { "optionId": "A", "text": "Tenant" },
+      { "optionId": "B", "text": "Agent" },
+      { "optionId": "C", "text": "Neighbour" },
+      { "optionId": "D", "text": "Owner" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An employer provides work to an employee in exchange for service, just as a landlord provides accommodation to a tenant in exchange for rent. The relationship is 'provider of a resource : person to whom it is provided, under an agreement'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "General : Soldiers :: Conductor : ?",
+    "options": [
+      { "optionId": "A", "text": "Orchestra" },
+      { "optionId": "B", "text": "Baton" },
+      { "optionId": "C", "text": "Concert hall" },
+      { "optionId": "D", "text": "Audience" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A general directs and leads a group of soldiers, just as a conductor directs and leads a group of musicians forming an orchestra. A baton is merely the tool used by the conductor, not the group being led.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Author : Reader :: Speaker : ?",
+    "options": [
+      { "optionId": "A", "text": "Listener" },
+      { "optionId": "B", "text": "Microphone" },
+      { "optionId": "C", "text": "Stage" },
+      { "optionId": "D", "text": "Applause" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "An author communicates ideas to a reader, just as a speaker communicates ideas to a listener. The relationship is 'communicator : the person receiving the communication'. A microphone and stage are tools or settings, not the receiving party.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Judge : Court :: Referee : ?",
+    "options": [
+      { "optionId": "A", "text": "Playing field" },
+      { "optionId": "B", "text": "Whistle" },
+      { "optionId": "C", "text": "Opposing team" },
+      { "optionId": "D", "text": "Trophy" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A judge exercises authority within the setting of a court, just as a referee exercises authority within the setting of a playing field. A whistle is a tool the referee uses, and a trophy is unrelated to the authority relationship being tested.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Bee : Hive :: Ant : ?",
+    "options": [
+      { "optionId": "A", "text": "Anthill" },
+      { "optionId": "B", "text": "Web" },
+      { "optionId": "C", "text": "Nest" },
+      { "optionId": "D", "text": "Burrow" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A bee lives and works within a colony housed in a hive, just as an ant lives and works within a colony housed in an anthill. A web belongs to a spider, a nest typically to a bird, and a burrow to a rabbit or similar animal.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Predecessor : Successor :: Senior : ?",
+    "options": [
+      { "optionId": "A", "text": "Junior" },
+      { "optionId": "B", "text": "Colleague" },
+      { "optionId": "C", "text": "Boss" },
+      { "optionId": "D", "text": "Elder" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A predecessor comes before and is followed by a successor, just as a senior ranks above and is contrasted with a junior. The relationship is 'one position or rank : its direct counterpart on the opposite end of the same scale'.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In the analogy 'Shepherd : Sheep :: Cowherd : Cattle', the relationship shown is 'caretaker : the animals they take care of'.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A shepherd is a person who takes care of sheep, and a cowherd is a person who takes care of cattle, so both pairs correctly express the 'caretaker : animals cared for' relationship, making the statement true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In the analogy 'Pilot : Aeroplane :: Sailor : Car', the relationship of 'operator : vehicle they operate' is correctly maintained.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A pilot operates an aeroplane, but a sailor operates a ship or boat, not a car; a car is instead operated by a driver. Since the second pair does not match the same 'operator : vehicle' relationship, the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following pairs share the same relationship as 'Chef : Restaurant' (professional : primary workplace)? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "Surgeon : Operating room" },
+      { "optionId": "B", "text": "Farmer : Field" },
+      { "optionId": "C", "text": "Pilot : Passenger" },
+      { "optionId": "D", "text": "Librarian : Library" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A surgeon primarily works in an operating room, a farmer primarily works in a field, and a librarian primarily works in a library, so each of these pairs matches the 'professional : primary workplace' relationship. Pilot : Passenger instead expresses a 'service provider : person served' relationship, so it does not fit.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["analogies", "relationship-analogies"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

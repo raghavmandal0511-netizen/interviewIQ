@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 1, 1, 2, 3, 5, 8, ?",
+    "options": [
+      { "optionId": "A", "text": "11" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "13" },
+      { "optionId": "D", "text": "14" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This is a Fibonacci series where each term is the sum of the two preceding terms. 5 + 8 = 13.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 2, 4, 8, 16, 32, ?",
+    "options": [
+      { "optionId": "A", "text": "60" },
+      { "optionId": "B", "text": "62" },
+      { "optionId": "C", "text": "64" },
+      { "optionId": "D", "text": "66" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is double the previous term. 32 × 2 = 64.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 3, 7, 11, 15, 19, ?",
+    "options": [
+      { "optionId": "A", "text": "21" },
+      { "optionId": "B", "text": "22" },
+      { "optionId": "C", "text": "23" },
+      { "optionId": "D", "text": "24" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term increases by 4. 19 + 4 = 23.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 1, 2, 4, 7, 11, 16, ?",
+    "options": [
+      { "optionId": "A", "text": "20" },
+      { "optionId": "B", "text": "21" },
+      { "optionId": "C", "text": "22" },
+      { "optionId": "D", "text": "23" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The differences between terms increase by 1 each time: 1, 2, 3, 4, 5, next 6. 16 + 6 = 22.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 2, 5, 10, 17, 26, ?",
+    "options": [
+      { "optionId": "A", "text": "35" },
+      { "optionId": "B", "text": "36" },
+      { "optionId": "C", "text": "37" },
+      { "optionId": "D", "text": "38" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term equals n² + 1 for position n (1²+1, 2²+1, 3²+1...). For n = 6: 6² + 1 = 37.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 1, 2, 6, 24, 120, ?",
+    "options": [
+      { "optionId": "A", "text": "600" },
+      { "optionId": "B", "text": "700" },
+      { "optionId": "C", "text": "720" },
+      { "optionId": "D", "text": "740" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This series is factorials: 1!, 2!, 3!, 4!, 5!. Next is 6! = 720.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 5, 11, 23, 47, ?",
+    "options": [
+      { "optionId": "A", "text": "90" },
+      { "optionId": "B", "text": "93" },
+      { "optionId": "C", "text": "94" },
+      { "optionId": "D", "text": "95" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each term is obtained by doubling the previous term and adding 1. 47 × 2 + 1 = 95.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 100, 99, 97, 94, 90, ?",
+    "options": [
+      { "optionId": "A", "text": "83" },
+      { "optionId": "B", "text": "84" },
+      { "optionId": "C", "text": "85" },
+      { "optionId": "D", "text": "86" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The amount subtracted increases by 1 each time: 1, 2, 3, 4, next 5. 90 − 5 = 85.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 12, 24, 36, 48, ?",
+    "options": [
+      { "optionId": "A", "text": "54" },
+      { "optionId": "B", "text": "58" },
+      { "optionId": "C", "text": "60" },
+      { "optionId": "D", "text": "62" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term increases by 12. 48 + 12 = 60.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 2, 3, 5, 8, 13, 21, ?",
+    "options": [
+      { "optionId": "A", "text": "32" },
+      { "optionId": "B", "text": "33" },
+      { "optionId": "C", "text": "34" },
+      { "optionId": "D", "text": "36" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This is a Fibonacci-style series where each term is the sum of the two preceding terms. 13 + 21 = 34.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 8, 16, 24, 32, ?",
+    "options": [
+      { "optionId": "A", "text": "36" },
+      { "optionId": "B", "text": "38" },
+      { "optionId": "C", "text": "40" },
+      { "optionId": "D", "text": "42" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The series lists multiples of 8. 32 + 8 = 40.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 1, 8, 27, 64, ?",
+    "options": [
+      { "optionId": "A", "text": "100" },
+      { "optionId": "B", "text": "110" },
+      { "optionId": "C", "text": "120" },
+      { "optionId": "D", "text": "125" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The series lists perfect cubes (1³, 2³, 3³, 4³). Next is 5³ = 125.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 6, 12, 24, 48, 96, ?",
+    "options": [
+      { "optionId": "A", "text": "172" },
+      { "optionId": "B", "text": "182" },
+      { "optionId": "C", "text": "192" },
+      { "optionId": "D", "text": "202" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is double the previous term. 96 × 2 = 192.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 40, 35, 30, 25, ?",
+    "options": [
+      { "optionId": "A", "text": "15" },
+      { "optionId": "B", "text": "18" },
+      { "optionId": "C", "text": "20" },
+      { "optionId": "D", "text": "22" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term decreases by 5. 25 − 5 = 20.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 3, 6, 11, 18, 27, ?",
+    "options": [
+      { "optionId": "A", "text": "36" },
+      { "optionId": "B", "text": "37" },
+      { "optionId": "C", "text": "38" },
+      { "optionId": "D", "text": "40" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The differences form the odd numbers 3, 5, 7, 9, next 11. 27 + 11 = 38.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series 1, 1, 2, 3, 5, 8, 13, each term (from the third onward) is the sum of the two preceding terms.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This is the defining rule of a Fibonacci series, so the statement is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series 5, 11, 23, 47, 95, the next term is obtained by adding a fixed constant to the previous term.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each term is obtained by doubling the previous term and adding 1 (×2 + 1), not by adding a constant, so the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following correctly give the actual next number in their respective series?",
+    "options": [
+      { "optionId": "A", "text": "2, 4, 8, 16, 32 → next is 64" },
+      { "optionId": "B", "text": "100, 99, 97, 94, 90 → next is 84" },
+      { "optionId": "C", "text": "12, 24, 36, 48 → next is 60" },
+      { "optionId": "D", "text": "1, 8, 27, 64 → next is 100" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "2, 4, 8, 16, 32 doubles to give 64, and 12, 24, 36, 48 (multiples of 12) gives 60 next — both correct. The subtraction series 100, 99, 97, 94, 90 actually continues by subtracting 5 to give 85 (not 84), and the cube series 1, 8, 27, 64 continues with 5³ = 125 (not 100).",
+    "difficulty": "hard",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["number-series", "find-next-number"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

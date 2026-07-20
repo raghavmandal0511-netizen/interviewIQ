@@ -1,0 +1,182 @@
+[
+  {
+    "_seedKey": "test-arithmetic-test-1",
+    "title": "Arithmetic Test 1",
+    "slug": "arithmetic-test-1",
+    "description": "Practice test covering core arithmetic aptitude topics such as percentages, averages, profit and loss, and time-speed-distance.",
+    "category": "REPLACE_CATEGORY_GENERAL_APTITUDE_ID",
+    "duration": 30,
+    "totalQuestions": 20,
+    "totalMarks": 20,
+    "passingMarks": 8,
+    "instructions": [
+      "Read every question carefully.",
+      "No negative marking unless specified.",
+      "Each question has only one correct answer.",
+      "Complete within the allotted time.",
+      "Results will be available immediately after submission."
+    ],
+    "difficulty": "medium",
+    "isPublished": true
+  },
+  {
+    "_seedKey": "test-arithmetic-test-2",
+    "title": "Arithmetic Test 2",
+    "slug": "arithmetic-test-2",
+    "description": "Second arithmetic aptitude practice paper with questions drawn from interest, work, trains, and related quantitative topics.",
+    "category": "REPLACE_CATEGORY_GENERAL_APTITUDE_ID",
+    "duration": 30,
+    "totalQuestions": 20,
+    "totalMarks": 20,
+    "passingMarks": 8,
+    "instructions": [
+      "Read every question carefully.",
+      "No negative marking unless specified.",
+      "Each question has only one correct answer.",
+      "Complete within the allotted time.",
+      "Results will be available immediately after submission."
+    ],
+    "difficulty": "medium",
+    "isPublished": true
+  },
+  {
+    "_seedKey": "test-arithmetic-test-3",
+    "title": "Arithmetic Test 3",
+    "slug": "arithmetic-test-3",
+    "description": "Third arithmetic aptitude demo test mixing easy, medium, and hard quantitative problems for interview preparation.",
+    "category": "REPLACE_CATEGORY_GENERAL_APTITUDE_ID",
+    "duration": 30,
+    "totalQuestions": 20,
+    "totalMarks": 21,
+    "passingMarks": 9,
+    "instructions": [
+      "Read every question carefully.",
+      "No negative marking unless specified.",
+      "Each question has only one correct answer.",
+      "Complete within the allotted time.",
+      "Results will be available immediately after submission."
+    ],
+    "difficulty": "hard",
+    "isPublished": true
+  },
+  {
+    "_seedKey": "test-logical-test-1",
+    "title": "Logical Test 1",
+    "slug": "logical-test-1",
+    "description": "Logical reasoning practice test covering number series, analogies, essential part, and related reasoning patterns.",
+    "category": "REPLACE_CATEGORY_GENERAL_APTITUDE_ID",
+    "duration": 30,
+    "totalQuestions": 20,
+    "totalMarks": 20,
+    "passingMarks": 8,
+    "instructions": [
+      "Read every question carefully.",
+      "No negative marking unless specified.",
+      "Each question has only one correct answer.",
+      "Complete within the allotted time.",
+      "Results will be available immediately after submission."
+    ],
+    "difficulty": "medium",
+    "isPublished": true
+  },
+  {
+    "_seedKey": "test-logical-test-2",
+    "title": "Logical Test 2",
+    "slug": "logical-test-2",
+    "description": "Second logical reasoning paper with letter series, classification, artificial language, and deduction-style questions.",
+    "category": "REPLACE_CATEGORY_GENERAL_APTITUDE_ID",
+    "duration": 30,
+    "totalQuestions": 20,
+    "totalMarks": 21,
+    "passingMarks": 9,
+    "instructions": [
+      "Read every question carefully.",
+      "No negative marking unless specified.",
+      "Each question has only one correct answer.",
+      "Complete within the allotted time.",
+      "Results will be available immediately after submission."
+    ],
+    "difficulty": "medium",
+    "isPublished": true
+  },
+  {
+    "_seedKey": "test-verbal-test-1",
+    "title": "Verbal Test 1",
+    "slug": "verbal-test-1",
+    "description": "Verbal reasoning practice test including sequence of words, syllogism, series completion, and cause-effect items.",
+    "category": "REPLACE_CATEGORY_GENERAL_APTITUDE_ID",
+    "duration": 30,
+    "totalQuestions": 20,
+    "totalMarks": 20,
+    "passingMarks": 8,
+    "instructions": [
+      "Read every question carefully.",
+      "No negative marking unless specified.",
+      "Each question has only one correct answer.",
+      "Complete within the allotted time.",
+      "Results will be available immediately after submission."
+    ],
+    "difficulty": "medium",
+    "isPublished": true
+  },
+  {
+    "_seedKey": "test-verbal-test-2",
+    "title": "Verbal Test 2",
+    "slug": "verbal-test-2",
+    "description": "Second verbal reasoning demo test focused on blood relations, syllogisms, and verbal series patterns.",
+    "category": "REPLACE_CATEGORY_GENERAL_APTITUDE_ID",
+    "duration": 30,
+    "totalQuestions": 20,
+    "totalMarks": 20,
+    "passingMarks": 8,
+    "instructions": [
+      "Read every question carefully.",
+      "No negative marking unless specified.",
+      "Each question has only one correct answer.",
+      "Complete within the allotted time.",
+      "Results will be available immediately after submission."
+    ],
+    "difficulty": "medium",
+    "isPublished": true
+  },
+  {
+    "_seedKey": "test-mock-interviewiq-test-1",
+    "title": "Mock InterviewIQ Test 1",
+    "slug": "mock-interviewiq-test-1",
+    "description": "Full mixed mock test combining arithmetic, logical, and verbal aptitude questions for end-to-end Online Test module demonstration.",
+    "category": "REPLACE_CATEGORY_GENERAL_APTITUDE_ID",
+    "duration": 45,
+    "totalQuestions": 30,
+    "totalMarks": 31,
+    "passingMarks": 13,
+    "instructions": [
+      "Read every question carefully.",
+      "No negative marking unless specified.",
+      "Each question has only one correct answer.",
+      "Complete within the allotted time.",
+      "Results will be available immediately after submission."
+    ],
+    "difficulty": "medium",
+    "isPublished": true
+  },
+  {
+    "_seedKey": "test-mock-interviewiq-test-2",
+    "title": "Mock InterviewIQ Test 2",
+    "slug": "mock-interviewiq-test-2",
+    "description": "Second mixed InterviewIQ mock covering quantitative, logical, and verbal sections under a 45-minute timed format.",
+    "category": "REPLACE_CATEGORY_GENERAL_APTITUDE_ID",
+    "duration": 45,
+    "totalQuestions": 30,
+    "totalMarks": 30,
+    "passingMarks": 12,
+    "instructions": [
+      "Read every question carefully.",
+      "No negative marking unless specified.",
+      "Each question has only one correct answer.",
+      "Complete within the allotted time.",
+      "Results will be available immediately after submission."
+    ],
+    "difficulty": "hard",
+    "isPublished": true
+  }
+]

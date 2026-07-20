@@ -1,0 +1,56 @@
+[
+  {
+    "categoryId": "REPLACE_CATEGORY_ID",
+    "name": "Arithmetic Aptitude",
+    "slug": "arithmetic-aptitude",
+    "description": "Quantitative arithmetic topics for placement aptitude preparation.",
+    "icon": "calculator",
+    "order": 1,
+    "isActive": true
+  },
+  {
+    "categoryId": "REPLACE_CATEGORY_ID",
+    "name": "Logical Reasoning",
+    "slug": "logical-reasoning",
+    "description": "Logical reasoning topics including series, analogies, and deduction.",
+    "icon": "puzzle",
+    "order": 2,
+    "isActive": true
+  },
+  {
+    "categoryId": "REPLACE_CATEGORY_ID",
+    "name": "Verbal Reasoning",
+    "slug": "verbal-reasoning",
+    "description": "Verbal reasoning topics including syllogism, blood relations, and sequence.",
+    "icon": "book",
+    "order": 3,
+    "isActive": true
+  },
+  {
+    "categoryId": "REPLACE_CATEGORY_ID",
+    "name": "Online Tests",
+    "slug": "online-tests",
+    "description": "Practice and mock tests covering arithmetic, logical, and verbal aptitude.",
+    "icon": "clipboard",
+    "order": 4,
+    "isActive": true
+  },
+  {
+    "categoryId": "REPLACE_CATEGORY_ID",
+    "name": "HR Interview",
+    "slug": "hr-interview",
+    "description": "HR interview preparation for freshers and experienced candidates.",
+    "icon": "users",
+    "order": 1,
+    "isActive": true
+  },
+  {
+    "categoryId": "REPLACE_CATEGORY_ID",
+    "name": "AI Interview",
+    "slug": "ai-interview",
+    "description": "AI-powered mock interview practice.",
+    "icon": "bot",
+    "order": 2,
+    "isActive": true
+  }
+]

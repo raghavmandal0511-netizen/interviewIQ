@@ -1,0 +1,18 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-analogies-word-analogies",
+    "title": "Word Analogies",
+    "description": "Complete word analogy pairs",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-analogies-relationship-analogies",
+    "title": "Relationship Analogies",
+    "description": "Match analogous relationships",
+    "order": 2,
+    "isPublished": true
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-number-series-basic-series",
+    "title": "Basic Number Series",
+    "description": "Simple arithmetic and geometric series practice",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-number-series-find-next-number",
+    "title": "Find Next Number",
+    "description": "Find the next term in a number series",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-number-series-pattern-recognition",
+    "title": "Pattern Recognition",
+    "description": "Identify the underlying pattern in number series",
+    "order": 3,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-number-series-mixed-series",
+    "title": "Mixed Number Series",
+    "description": "Mixed and interleaved number series",
+    "order": 4,
+    "isPublished": true
+  }
+]

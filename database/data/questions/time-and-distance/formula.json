@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Convert 90 km/h into m/s.",
+    "options": [
+      { "optionId": "A", "text": "20 m/s" },
+      { "optionId": "B", "text": "22 m/s" },
+      { "optionId": "C", "text": "25 m/s" },
+      { "optionId": "D", "text": "30 m/s" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "To convert km/h to m/s, multiply by 5/18: 90 × 5/18 = 25 m/s.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A car travels 150 km in 3 hours. Find its speed.",
+    "options": [
+      { "optionId": "A", "text": "40 km/h" },
+      { "optionId": "B", "text": "45 km/h" },
+      { "optionId": "C", "text": "50 km/h" },
+      { "optionId": "D", "text": "55 km/h" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Speed = Distance / Time = 150 / 3 = 50 km/h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A vehicle moves at 40 km/h for 2.5 hours. Find the distance covered.",
+    "options": [
+      { "optionId": "A", "text": "90 km" },
+      { "optionId": "B", "text": "95 km" },
+      { "optionId": "C", "text": "100 km" },
+      { "optionId": "D", "text": "110 km" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Distance = Speed × Time = 40 × 2.5 = 100 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A person travels a certain distance at 20 km/h and returns the same distance at 30 km/h. Find the average speed for the whole journey.",
+    "options": [
+      { "optionId": "A", "text": "24 km/h" },
+      { "optionId": "B", "text": "25 km/h" },
+      { "optionId": "C", "text": "26 km/h" },
+      { "optionId": "D", "text": "28 km/h" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For equal distances covered at speeds a and b, average speed = 2ab/(a+b) = (2 × 20 × 30)/(20+30) = 1200/50 = 24 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A cyclist rides at 20 km/h for half the total time and at 30 km/h for the other half of the time. Find the average speed.",
+    "options": [
+      { "optionId": "A", "text": "24 km/h" },
+      { "optionId": "B", "text": "25 km/h" },
+      { "optionId": "C", "text": "26 km/h" },
+      { "optionId": "D", "text": "27 km/h" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When equal time is spent at two speeds a and b, average speed = (a+b)/2 = (20+30)/2 = 25 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two towns are 300 km apart. Two cars start toward each other from the towns at 40 km/h and 60 km/h. After how many hours will they meet?",
+    "options": [
+      { "optionId": "A", "text": "2 hours" },
+      { "optionId": "B", "text": "2.5 hours" },
+      { "optionId": "C", "text": "3 hours" },
+      { "optionId": "D", "text": "3.5 hours" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since they move toward each other, relative speed = 40 + 60 = 100 km/h. Time to meet = 300/100 = 3 hours.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two cars start from the same point in the same direction at 50 km/h and 70 km/h. After how many hours will they be 100 km apart?",
+    "options": [
+      { "optionId": "A", "text": "4 hours" },
+      { "optionId": "B", "text": "4.5 hours" },
+      { "optionId": "C", "text": "5 hours" },
+      { "optionId": "D", "text": "5.5 hours" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Same direction ⇒ relative speed = 70 − 50 = 20 km/h. Time to be 100 km apart = 100/20 = 5 hours.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A boat's downstream speed is 16 km/h and its upstream speed is 8 km/h. Find its speed in still water.",
+    "options": [
+      { "optionId": "A", "text": "10 km/h" },
+      { "optionId": "B", "text": "11 km/h" },
+      { "optionId": "C", "text": "12 km/h" },
+      { "optionId": "D", "text": "13 km/h" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Speed in still water = (Downstream + Upstream)/2 = (16 + 8)/2 = 12 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A boat's downstream speed is 16 km/h and its upstream speed is 8 km/h. Find the speed of the stream.",
+    "options": [
+      { "optionId": "A", "text": "3 km/h" },
+      { "optionId": "B", "text": "4 km/h" },
+      { "optionId": "C", "text": "5 km/h" },
+      { "optionId": "D", "text": "6 km/h" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Speed of stream = (Downstream − Upstream)/2 = (16 − 8)/2 = 4 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A boat's speed in still water is 10 km/h and the stream's speed is 2 km/h. Find the time taken to cover 24 km downstream.",
+    "options": [
+      { "optionId": "A", "text": "1.5 hours" },
+      { "optionId": "B", "text": "2 hours" },
+      { "optionId": "C", "text": "2.5 hours" },
+      { "optionId": "D", "text": "3 hours" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Downstream speed = u + v = 10 + 2 = 12 km/h. Time = Distance/Speed = 24/12 = 2 hours.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using the same boat (still-water speed 10 km/h, stream speed 2 km/h), find the time taken to cover 24 km upstream.",
+    "options": [
+      { "optionId": "A", "text": "2.5 hours" },
+      { "optionId": "B", "text": "3 hours" },
+      { "optionId": "C", "text": "3.5 hours" },
+      { "optionId": "D", "text": "4 hours" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Upstream speed = u − v = 10 − 2 = 8 km/h. Time = Distance/Speed = 24/8 = 3 hours.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which formula finds the average speed when equal distances are covered at two different speeds a and b?",
+    "options": [
+      { "optionId": "A", "text": "(a + b) / 2" },
+      { "optionId": "B", "text": "2ab / (a + b)" },
+      { "optionId": "C", "text": "ab / (a + b)" },
+      { "optionId": "D", "text": "a + b" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For equal distances at speeds a and b, average speed is the harmonic mean, given by 2ab/(a+b), not the arithmetic mean.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The relative speed of two objects moving in opposite directions is given by:",
+    "options": [
+      { "optionId": "A", "text": "|S1 − S2|" },
+      { "optionId": "B", "text": "S1 + S2" },
+      { "optionId": "C", "text": "S1 × S2" },
+      { "optionId": "D", "text": "S1 / S2" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When two objects move toward or away from each other, their relative speed equals the sum of their individual speeds.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man covers a certain distance at 12 km/h and returns the same distance at 8 km/h, taking a total of 5 hours. Find the one-way distance.",
+    "options": [
+      { "optionId": "A", "text": "20 km" },
+      { "optionId": "B", "text": "22 km" },
+      { "optionId": "C", "text": "24 km" },
+      { "optionId": "D", "text": "26 km" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let distance = d. Total time = d/12 + d/8 = 5. Taking LCM 24: 2d/24 + 3d/24 = 5d/24 = 5 ⇒ d = 24 km.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Convert 15 m/s into km/h.",
+    "options": [
+      { "optionId": "A", "text": "48 km/h" },
+      { "optionId": "B", "text": "50 km/h" },
+      { "optionId": "C", "text": "54 km/h" },
+      { "optionId": "D", "text": "56 km/h" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "To convert m/s to km/h, multiply by 18/5: 15 × 18/5 = 54 km/h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The average speed for a journey is always the simple arithmetic mean of the speeds used, regardless of the distances or times involved.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The arithmetic mean applies only when equal time is spent at each speed. For equal distances, the harmonic mean formula 2ab/(a+b) must be used instead.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The downstream speed of a boat equals the sum of the boat's speed in still water and the stream's speed.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Downstream, the current assists the boat, so downstream speed = u + v, where u is still-water speed and v is stream speed.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The relative speed for two bodies moving in the same direction is the sum of their individual speeds.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For motion in the same direction, relative speed is the absolute difference of the speeds, not the sum.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following statements about boats and streams are correct? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "Downstream speed = u + v" },
+      { "optionId": "B", "text": "Upstream speed = u + v" },
+      { "optionId": "C", "text": "Still-water speed u = (Downstream + Upstream) / 2" },
+      { "optionId": "D", "text": "Stream speed v = (Downstream − Upstream) / 2" }
+    ],
+    "correctAnswer": ["A", "C", "D"],
+    "explanation": "Downstream speed is u+v (A correct). Upstream speed is u−v, not u+v, so B is wrong. Still-water speed is the average of downstream and upstream speeds (C correct), and stream speed is half their difference (D correct).",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Select all the correct unit conversion statements.",
+    "options": [
+      { "optionId": "A", "text": "1 km/h = 5/18 m/s" },
+      { "optionId": "B", "text": "1 m/s = 18/5 km/h" },
+      { "optionId": "C", "text": "36 km/h = 36 m/s" },
+      { "optionId": "D", "text": "10 m/s = 36 km/h" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "1 km/h equals 5/18 m/s (A correct) and 1 m/s equals 18/5 km/h (B correct). 36 km/h equals 10 m/s, not 36 m/s, so C is wrong. Since 10 m/s = 10 × 18/5 = 36 km/h, D is correct.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["time-and-distance", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

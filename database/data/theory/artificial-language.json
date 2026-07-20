@@ -1,0 +1,75 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Artificial Language problems invent a tiny coded language. Given translations of a few phrases, you deduce which code word maps to which English word, then translate a new phrase.",
+  "explanation": "CONCEPT\n\nYou receive several coded statements and their English meanings. By comparing overlapping phrases, you isolate the code for each word (or root). Then you build or decode a new sentence.\n\nHOW TO SOLVE\n\n1) Align phrases that share an English word and find the shared code token.\n2) Eliminate codes already assigned.\n3) Watch for plurals, tense, or adjective endings if the puzzle uses them.\n4) Order in the code may or may not match English order—follow evidence from examples.\n5) Translate the target using only confirmed mappings.\n\nIMPORTANT RULES\n\n• Shared meaning ⇒ shared code element.\n• Unique meaning in one phrase helps assign leftover codes.\n• Do not assume English word order unless examples prove it.\n• One code word usually maps to one English word (unless stated otherwise).\n\nCOMMON MISTAKES\n\n1) Matching by position alone without overlap checks.\n2) Assigning two English words to one code.\n3) Ignoring a word that appears in only one sentence until the end.\n4) Changing a confirmed mapping to fit a wrong option.\n5) Forgetting articles (a/the) if they are coded separately.",
+  "formulas": [
+    {
+      "title": "Overlap rule",
+      "content": "If phrase1 and phrase2 share English word W, their shared code token is likely W"
+    },
+    {
+      "title": "Elimination",
+      "content": "After assigning known codes, remaining code ↔ remaining word"
+    },
+    {
+      "title": "Consistency check",
+      "content": "Every occurrence of a code must match the same English word"
+    },
+    {
+      "title": "Build translation",
+      "content": "Replace each English word by its code (or reverse) using the map"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Start with repeats",
+      "tip": "Words that appear in two phrases are the easiest to decode first."
+    },
+    {
+      "title": "Make a table",
+      "tip": "Write English word → code in a small list as you confirm each pair."
+    },
+    {
+      "title": "Use leftovers",
+      "tip": "When only one word and one code remain in a phrase, they match."
+    },
+    {
+      "title": "Order last",
+      "tip": "Decide word order only after meanings are fixed."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "If \"pit na sa\" means \"you are welcome\", \"na dig pit\" means \"you are good\", and \"sa ti\" means \"welcome friend\", what is the code for \"friend\"?",
+      "solution": "ti",
+      "steps": [
+        "\"you are\" appears in first two → shared codes pit, na.",
+        "\"welcome\" in first and third → sa.",
+        "Third phrase \"sa ti\" = welcome friend → ti = friend."
+      ]
+    },
+    {
+      "problem": "If \"la mi\" means \"red apple\" and \"mi to\" means \"sweet apple\", code for red?",
+      "solution": "la",
+      "steps": [
+        "Shared word apple → shared code mi.",
+        "Therefore la = red and to = sweet."
+      ]
+    },
+    {
+      "problem": "Given map: sun=kor, bright=vel, day=nip. Encode \"bright sun\".",
+      "solution": "vel kor (order as English unless examples say otherwise).",
+      "steps": [
+        "bright → vel.",
+        "sun → kor.",
+        "Combine as vel kor."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Substitution ciphers and coded language logic",
+      "url": "https://en.wikipedia.org/wiki/Substitution_cipher"
+    }
+  ]
+}

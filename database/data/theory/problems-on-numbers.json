@@ -1,0 +1,88 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Problems on Numbers are word problems that describe a relationship between digits of a number, or between several unknown numbers, and ask you to find the actual value(s). The main technique is representing an unknown two-digit or three-digit number algebraically using place value, then translating the word conditions into equations.",
+  "explanation": "CONCEPT EXPLANATION\n\nA two-digit number with tens digit a and units digit b is written as 10a + b (not simply \"ab\"). If the digits are reversed, the new number becomes 10b + a. The difference between the original and reversed number is always (10a + b) − (10b + a) = 9(a − b), a multiple of 9 — a very useful fact.\n\nFor three consecutive integers, represent them as (x − 1), x, (x + 1) so their sum simplifies to 3x, making equations easier to solve. For three consecutive even or odd numbers, use (x − 2), x, (x + 2).\n\nWhen a problem states a relationship like \"a number exceeds another by 15\" or \"one number is thrice another,\" assign a variable to the smaller or simpler quantity and express the rest in terms of it.\n\nSome problems mix number properties with digit conditions, such as \"the sum of the digits of a two-digit number is 9, and the number is 4 times the sum of its digits\" — such problems require combining a digit-sum equation with a place-value equation.\n\nREAL-LIFE APPLICATIONS\n\nThis type of algebraic translation is foundational for programming logic (digit manipulation), cryptographic checksums, and everyday problem-solving where verbal conditions must be converted into calculations.\n\nCOMMON MISTAKES\n\n1) Writing a two-digit number as \"ab\" (concatenation) instead of 10a + b.\n2) Forgetting digits must be between 0 and 9, and the leading digit cannot be 0.\n3) Losing track of which digit is tens and which is units after reversal.\n4) Not checking that the solution digits are valid single-digit integers.\n5) Setting up the wrong sign when a number \"exceeds\" or \"is less than\" another.\n\nIMPORTANT NOTES\n\n• Reversing a two-digit number's digits changes its value by a multiple of 9.\n\n• For consecutive integers, always use a symmetric variable (x−1, x, x+1) to simplify sums.\n\n• A number's digit sum can be used to check divisibility by 3 or 9 as a validation step.\n\n• Always verify the final digits satisfy 0 ≤ digit ≤ 9 and the number is realistic (e.g., leading digit ≥ 1 for a genuine two-digit number).",
+  "formulas": [
+    {
+      "title": "Two-digit number representation",
+      "content": "Number with tens digit a, units digit b = 10a + b"
+    },
+    {
+      "title": "Reversed two-digit number",
+      "content": "Reversed number = 10b + a"
+    },
+    {
+      "title": "Difference on reversal",
+      "content": "Original − Reversed = 9(a − b); always a multiple of 9"
+    },
+    {
+      "title": "Consecutive integers",
+      "content": "Three consecutive integers: (x−1), x, (x+1); sum = 3x"
+    },
+    {
+      "title": "Consecutive even/odd numbers",
+      "content": "Three consecutive even or odd numbers: (x−2), x, (x+2); sum = 3x"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Always use place value",
+      "tip": "Never write a two-digit number as the concatenation of digits — use 10a + b to keep the algebra valid."
+    },
+    {
+      "title": "Reversal is a multiple of 9",
+      "tip": "If a problem involves reversing digits, expect the difference of the two numbers to be a multiple of 9 — use this to sanity-check your answer."
+    },
+    {
+      "title": "Centre your variable",
+      "tip": "For consecutive number sums, use x as the middle term so the sum simplifies to a clean multiple of x."
+    },
+    {
+      "title": "Validate digit range",
+      "tip": "After solving, confirm each digit lies between 0 and 9 (and the leading digit is non-zero) — invalid digits mean an arithmetic slip."
+    },
+    {
+      "title": "Translate word by word",
+      "tip": "Break long sentences into small phrases ('exceeds by', 'thrice', 'sum of digits') and convert each into its own equation piece."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A two-digit number is 4 times the sum of its digits. The units digit is 3 more than the tens digit. Find the number.",
+      "solution": "The number is 36.",
+      "steps": [
+        "Let tens digit = a, units digit = a + 3.",
+        "Number = 10a + (a + 3) = 11a + 3.",
+        "Digit sum = a + (a + 3) = 2a + 3.",
+        "Condition: 11a + 3 = 4(2a + 3) = 8a + 12 ⟹ 3a = 9 ⟹ a = 3.",
+        "Tens digit = 3, units digit = 6, so the number is 36.",
+        "Verify: digit sum = 3 + 6 = 9, and 4 × 9 = 36. ✓"
+      ]
+    },
+    {
+      "problem": "The sum of a two-digit number and the number formed by reversing its digits is 132. If the difference between the digits is 2, find the number.",
+      "solution": "The number is 57 (or 75).",
+      "steps": [
+        "Let the number be 10a + b, reversed is 10b + a.",
+        "Sum: (10a+b) + (10b+a) = 11(a+b) = 132, so a + b = 12.",
+        "Given a − b = ±2. Taking a − b = 2: a = 7, b = 5, giving 75; taking b − a = 2 gives 57.",
+        "Both 57 and 75 satisfy the conditions."
+      ]
+    },
+    {
+      "problem": "Find three consecutive odd numbers whose sum is 51.",
+      "solution": "The numbers are 15, 17, and 19.",
+      "steps": [
+        "Let the numbers be (x−2), x, (x+2).",
+        "Sum = 3x = 51, so x = 17.",
+        "Numbers are 15, 17, 19."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Math is Fun — Algebra Word Problems",
+      "url": "https://www.mathsisfun.com/algebra/word-questions-solving.html"
+    }
+  ]
+}

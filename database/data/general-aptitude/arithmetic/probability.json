@@ -1,0 +1,574 @@
+{
+  "_seedKey": "topic-probability",
+  "topic": {
+    "moduleId": "REPLACE_MODULE_ARITHMETIC_ID",
+    "name": "Probability",
+    "slug": "probability",
+    "description": "Fundamental and compound probability, complementary events, conditional probability, and counting-based probability for competitive exams. Estimated reading 30 min; practice 45 min.",
+    "estimatedTime": 75,
+    "difficulty": "medium",
+    "order": 32,
+    "isPublished": true
+  },
+  "theory": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "introduction": "Probability measures how likely an event is to occur, expressed as a number between 0 and 1. In aptitude exams, questions combine basic counting (permutations and combinations) with rules for independent events, complementary events, and conditional probability. A solid grasp of sample space construction and the addition and multiplication rules is essential.",
+    "explanation": "CONCEPT EXPLANATION\n\nThe probability of an event E is defined as P(E) = Number of favourable outcomes / Total number of equally likely outcomes, provided the sample space is finite and each outcome is equally likely.\n\nKey rules:\n• 0 ≤ P(E) ≤ 1; P(certain event) = 1; P(impossible event) = 0.\n• Complementary rule: P(not E) = 1 − P(E).\n• Addition rule: P(A or B) = P(A) + P(B) − P(A and B).\n• Multiplication rule (independent events): P(A and B) = P(A) × P(B).\n• Conditional probability: P(A|B) = P(A and B) / P(B), when P(B) > 0.\n\nWhen outcomes are not equally likely by simple counting, use combinations: P(E) = favourable combinations / total combinations.\n\nREAL-LIFE APPLICATIONS\n\nWeather forecasting, insurance premium calculation, quality control in manufacturing, medical test accuracy, sports analytics, and game design all rely on probability to quantify uncertainty and make informed decisions under incomplete information.\n\nCOMMON MISTAKES\n\n1) Forgetting that probabilities must lie between 0 and 1.\n2) Treating dependent events as independent (e.g., drawing cards without replacement).\n3) Counting ordered and unordered outcomes inconsistently.\n4) Using the addition rule without subtracting P(A and B) for overlapping events.\n5) Confusing \"at least one\" with \"exactly one\" — use complement for \"at least one\" when easier.\n\nIMPORTANT NOTES\n\n• \"At least one\" often simplifies as 1 − P(none).\n• With replacement → events are independent; without replacement → dependent.\n• For two dice, total outcomes = 36 (ordered pairs).\n• In a standard deck: 52 cards, 4 suits, 13 ranks per suit.\n• Mutually exclusive events: P(A and B) = 0, so P(A or B) = P(A) + P(B).\n• Always define the sample space before counting favourable cases.",
+    "formulas": [
+      {
+        "title": "Classical probability",
+        "content": "P(E) = Favourable outcomes / Total equally likely outcomes"
+      },
+      {
+        "title": "Complementary events",
+        "content": "P(not E) = 1 − P(E)"
+      },
+      {
+        "title": "Addition rule",
+        "content": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)"
+      },
+      {
+        "title": "Independent events",
+        "content": "P(A ∩ B) = P(A) × P(B)"
+      },
+      {
+        "title": "Conditional probability",
+        "content": "P(A|B) = P(A ∩ B) / P(B)"
+      },
+      {
+        "title": "Combination-based probability",
+        "content": "P(E) = ⁿCᵣ favourable / ⁿCᵣ total selections"
+      },
+      {
+        "title": "At least one (independent trials)",
+        "content": "P(at least one) = 1 − P(none)"
+      }
+    ],
+    "shortcutTips": [
+      {
+        "title": "Use the complement",
+        "tip": "For \"at least one\" problems, compute 1 − P(no success) instead of adding many cases."
+      },
+      {
+        "title": "Two dice sums",
+        "tip": "Memorise: sum 7 has 6 ways (most common); sum 2 and 12 each have 1 way."
+      },
+      {
+        "title": "Cards quick facts",
+        "tip": "P(one specific rank) = 4/52 = 1/13; P(one suit) = 13/52 = 1/4."
+      },
+      {
+        "title": "With vs without replacement",
+        "tip": "With replacement → multiply probabilities; without → adjust remaining counts after each draw."
+      },
+      {
+        "title": "Mutually exclusive shortcut",
+        "tip": "If A and B cannot happen together, P(A or B) = P(A) + P(B) directly."
+      },
+      {
+        "title": "Verify reasonableness",
+        "tip": "If your answer exceeds 1 or is negative, recheck the sample space or rule applied."
+      }
+    ],
+    "solvedExamples": [
+      {
+        "problem": "A bag contains 4 red and 6 blue balls. One ball is drawn at random. Find the probability that it is red.",
+        "solution": "The probability of drawing a red ball is 2/5.",
+        "steps": [
+          "Total balls = 4 + 6 = 10.",
+          "Favourable outcomes (red) = 4.",
+          "P(red) = 4/10 = 2/5."
+        ]
+      },
+      {
+        "problem": "Two fair dice are thrown. Find the probability that the sum is 7.",
+        "solution": "The probability that the sum is 7 is 1/6.",
+        "steps": [
+          "Total outcomes when two dice are thrown = 6 × 6 = 36.",
+          "Favourable pairs for sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 outcomes.",
+          "P(sum = 7) = 6/36 = 1/6."
+        ]
+      },
+      {
+        "problem": "A card is drawn from a well-shuffled deck of 52 cards. Find the probability that it is not a king.",
+        "solution": "The probability of not drawing a king is 12/13.",
+        "steps": [
+          "Number of kings = 4, so non-kings = 52 − 4 = 48.",
+          "P(not king) = 48/52 = 12/13.",
+          "Alternatively: P(not king) = 1 − P(king) = 1 − 4/52 = 12/13."
+        ]
+      },
+      {
+        "problem": "Two coins are tossed. Find the probability of getting at least one head.",
+        "solution": "The probability of at least one head is 3/4.",
+        "steps": [
+          "Sample space: HH, HT, TH, TT → 4 equally likely outcomes.",
+          "Favourable (at least one head): HH, HT, TH → 3 outcomes.",
+          "P(at least one head) = 3/4.",
+          "Check via complement: P(at least one head) = 1 − P(both tails) = 1 − 1/4 = 3/4."
+        ]
+      }
+    ],
+    "references": []
+  },
+  "exercise": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-probability-general",
+    "title": "General Questions",
+    "description": "MCQ practice set on Probability covering classical probability, complementary events, dice, cards, and independent events.",
+    "order": 1,
+    "isPublished": true
+  },
+  "questions": [
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A fair coin is tossed once. What is the probability of getting a head?",
+      "options": [
+        { "optionId": "A", "text": "1/4" },
+        { "optionId": "B", "text": "1/3" },
+        { "optionId": "C", "text": "1/2" },
+        { "optionId": "D", "text": "2/3" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A fair coin has 2 equally likely outcomes. P(head) = 1/2.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["probability", "basic"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A bag contains 3 red, 5 blue, and 2 green balls. One ball is drawn at random. What is the probability that it is blue?",
+      "options": [
+        { "optionId": "A", "text": "1/2" },
+        { "optionId": "B", "text": "3/10" },
+        { "optionId": "C", "text": "1/5" },
+        { "optionId": "D", "text": "2/5" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Total balls = 10. P(blue) = 5/10 = 1/2.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["probability", "balls"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Two dice are thrown simultaneously. What is the probability that the sum of the numbers on the two dice is 7?",
+      "options": [
+        { "optionId": "A", "text": "1/12" },
+        { "optionId": "B", "text": "1/9" },
+        { "optionId": "C", "text": "1/6" },
+        { "optionId": "D", "text": "5/36" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Sum 7 occurs in 6 ways out of 36 total outcomes. P = 6/36 = 1/6.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["probability", "dice"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Two coins are tossed. What is the probability of getting at least one head?",
+      "options": [
+        { "optionId": "A", "text": "1/4" },
+        { "optionId": "B", "text": "1/2" },
+        { "optionId": "C", "text": "3/4" },
+        { "optionId": "D", "text": "1" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Favourable outcomes: HH, HT, TH (3 out of 4). P = 3/4.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["probability", "coins"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "One card is drawn from a standard deck of 52 cards. What is the probability of drawing a king?",
+      "options": [
+        { "optionId": "A", "text": "1/52" },
+        { "optionId": "B", "text": "1/26" },
+        { "optionId": "C", "text": "1/13" },
+        { "optionId": "D", "text": "4/13" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "There are 4 kings in 52 cards. P(king) = 4/52 = 1/13.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["probability", "cards"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A die is thrown once. What is the probability of getting an even number?",
+      "options": [
+        { "optionId": "A", "text": "1/6" },
+        { "optionId": "B", "text": "1/3" },
+        { "optionId": "C", "text": "1/2" },
+        { "optionId": "D", "text": "2/3" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Even numbers on a die: 2, 4, 6 → 3 outcomes. P = 3/6 = 1/2.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["probability", "dice"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A die is thrown once. What is the probability of NOT getting a 6?",
+      "options": [
+        { "optionId": "A", "text": "1/6" },
+        { "optionId": "B", "text": "1/3" },
+        { "optionId": "C", "text": "5/6" },
+        { "optionId": "D", "text": "2/3" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "P(not 6) = 1 − P(6) = 1 − 1/6 = 5/6.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["probability", "complement"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Three fair coins are tossed. What is the probability of getting exactly two heads?",
+      "options": [
+        { "optionId": "A", "text": "1/8" },
+        { "optionId": "B", "text": "1/4" },
+        { "optionId": "C", "text": "3/8" },
+        { "optionId": "D", "text": "1/2" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Favourable outcomes: HHT, HTH, THH → 3 out of 8. P = 3/8.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["probability", "coins"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A letter is chosen at random from the word MATHEMATICS. What is the probability that the letter is M?",
+      "options": [
+        { "optionId": "A", "text": "1/11" },
+        { "optionId": "B", "text": "2/11" },
+        { "optionId": "C", "text": "1/5" },
+        { "optionId": "D", "text": "3/11" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "MATHEMATICS has 11 letters with M appearing twice. P(M) = 2/11.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["probability", "letters"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If P(A) = 0.35, P(B) = 0.45, and P(A and B) = 0.15, find P(A or B).",
+      "options": [
+        { "optionId": "A", "text": "0.55" },
+        { "optionId": "B", "text": "0.65" },
+        { "optionId": "C", "text": "0.75" },
+        { "optionId": "D", "text": "0.80" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "P(A or B) = P(A) + P(B) − P(A and B) = 0.35 + 0.45 − 0.15 = 0.65.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["probability", "addition-rule"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Two dice are thrown. What is the probability of getting a sum of 8?",
+      "options": [
+        { "optionId": "A", "text": "1/9" },
+        { "optionId": "B", "text": "5/36" },
+        { "optionId": "C", "text": "1/6" },
+        { "optionId": "D", "text": "7/36" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sum 8 occurs in 5 ways: (2,6), (3,5), (4,4), (5,3), (6,2). P = 5/36.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["probability", "dice"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A bag has 4 white and 6 black balls. Two balls are drawn with replacement. What is the probability that both are white?",
+      "options": [
+        { "optionId": "A", "text": "2/25" },
+        { "optionId": "B", "text": "4/25" },
+        { "optionId": "C", "text": "8/45" },
+        { "optionId": "D", "text": "16/100" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With replacement: P(both white) = (4/10) × (4/10) = 16/100 = 4/25.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["probability", "independent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Two dice are thrown. What is the probability of getting at least one 6?",
+      "options": [
+        { "optionId": "A", "text": "1/6" },
+        { "optionId": "B", "text": "5/36" },
+        { "optionId": "C", "text": "11/36" },
+        { "optionId": "D", "text": "25/36" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "P(at least one 6) = 1 − P(no 6 on either die) = 1 − (5/6 × 5/6) = 1 − 25/36 = 11/36.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["probability", "complement", "dice"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "From a group of 5 men and 3 women, a committee of 2 is formed at random. What is the probability that both members are women?",
+      "options": [
+        { "optionId": "A", "text": "3/28" },
+        { "optionId": "B", "text": "1/7" },
+        { "optionId": "C", "text": "3/56" },
+        { "optionId": "D", "text": "5/28" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Total ways = ⁸C₂ = 28. Favourable = ³C₂ = 3. P = 3/28.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["probability", "combinations"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "One card is drawn from a deck of 52 cards. What is the probability that it is a red card or a queen?",
+      "options": [
+        { "optionId": "A", "text": "1/2" },
+        { "optionId": "B", "text": "7/13" },
+        { "optionId": "C", "text": "15/26" },
+        { "optionId": "D", "text": "8/13" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "P(red) = 26/52, P(queen) = 4/52, P(red queen) = 2/52. P(red or queen) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["probability", "cards", "addition-rule"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Two dice are thrown. What is the probability that the product of the two numbers is even?",
+      "options": [
+        { "optionId": "A", "text": "1/4" },
+        { "optionId": "B", "text": "1/2" },
+        { "optionId": "C", "text": "3/4" },
+        { "optionId": "D", "text": "5/6" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Product is odd only when both dice show odd (3×3 = 9 ways). P(odd product) = 9/36 = 1/4. P(even product) = 1 − 1/4 = 3/4.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["probability", "dice"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A number is chosen at random from 1 to 20. What is the probability that it is a prime number?",
+      "options": [
+        { "optionId": "A", "text": "2/5" },
+        { "optionId": "B", "text": "3/10" },
+        { "optionId": "C", "text": "9/20" },
+        { "optionId": "D", "text": "1/2" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primes from 1 to 20: 2, 3, 5, 7, 11, 13, 17, 19 → 8 numbers. P = 8/20 = 2/5.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["probability", "numbers"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Events A and B are independent with P(A) = 1/3 and P(B) = 1/4. What is P(A and B)?",
+      "options": [
+        { "optionId": "A", "text": "1/12" },
+        { "optionId": "B", "text": "7/12" },
+        { "optionId": "C", "text": "1/7" },
+        { "optionId": "D", "text": "5/12" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "For independent events, P(A and B) = P(A) × P(B) = (1/3) × (1/4) = 1/12.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["probability", "independent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Two dice are thrown. What is the probability that the sum is divisible by 3?",
+      "options": [
+        { "optionId": "A", "text": "1/4" },
+        { "optionId": "B", "text": "1/3" },
+        { "optionId": "C", "text": "5/12" },
+        { "optionId": "D", "text": "7/18" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sums divisible by 3: 3, 6, 9, 12. Total favourable outcomes = 2+5+4+1 = 12. P = 12/36 = 1/3.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["probability", "dice"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A box contains 2 red, 3 green, and 5 blue balls. One ball is drawn at random. What is the probability that it is NOT blue?",
+      "options": [
+        { "optionId": "A", "text": "1/2" },
+        { "optionId": "B", "text": "3/5" },
+        { "optionId": "C", "text": "2/5" },
+        { "optionId": "D", "text": "7/10" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Non-blue balls = 2 + 3 = 5. Total = 10. P(not blue) = 5/10 = 1/2.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["probability", "balls"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Two dice are thrown. Given that the first die shows 6, what is the probability that the sum is 11?",
+      "options": [
+        { "optionId": "A", "text": "1/6" },
+        { "optionId": "B", "text": "1/12" },
+        { "optionId": "C", "text": "1/36" },
+        { "optionId": "D", "text": "5/36" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Given first die is 6, second die must be 5 for sum 11. Only 1 favourable outcome out of 6 possible values for the second die. P = 1/6.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["probability", "conditional"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A spinner divided into 8 equal sections has 3 red, 2 yellow, and 3 green sections. What is the probability of landing on red?",
+      "options": [
+        { "optionId": "A", "text": "1/8" },
+        { "optionId": "B", "text": "3/8" },
+        { "optionId": "C", "text": "1/3" },
+        { "optionId": "D", "text": "5/8" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "P(red) = 3 favourable sections / 8 total sections = 3/8.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["probability", "basic"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A bag contains 5 red and 3 black balls. Two balls are drawn without replacement. What is the probability that both are red?",
+      "options": [
+        { "optionId": "A", "text": "25/64" },
+        { "optionId": "B", "text": "5/14" },
+        { "optionId": "C", "text": "10/28" },
+        { "optionId": "D", "text": "15/56" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "P(both red) = (5/8) × (4/7) = 20/56 = 5/14.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["probability", "without-replacement"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "What is the probability of a certain event?",
+      "options": [
+        { "optionId": "A", "text": "0" },
+        { "optionId": "B", "text": "1/2" },
+        { "optionId": "C", "text": "1" },
+        { "optionId": "D", "text": "Undefined" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A certain event always occurs, so its probability is 1.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 30,
+      "tags": ["probability", "basic"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Three cards are drawn at random from a deck of 52 cards. What is the probability that all three are aces?",
+      "options": [
+        { "optionId": "A", "text": "1/5525" },
+        { "optionId": "B", "text": "1/22100" },
+        { "optionId": "C", "text": "1/1326" },
+        { "optionId": "D", "text": "1/169" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "P(all three aces) = (4/52) × (3/51) × (2/50) = 24/132600 = 1/5525.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["probability", "cards", "without-replacement"],
+      "questionType": "MCQ"
+    }
+  ]
+}

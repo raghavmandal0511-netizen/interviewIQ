@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A standard die has how many faces?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "4"
+      },
+      {
+        "optionId": "C",
+        "text": "8"
+      },
+      {
+        "optionId": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A cube has six faces.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "On a standard numbered die, faces are numbered:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 to 6"
+      },
+      {
+        "optionId": "B",
+        "text": "0 to 5"
+      },
+      {
+        "optionId": "C",
+        "text": "1 to 8"
+      },
+      {
+        "optionId": "D",
+        "text": "2 to 7"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Standard dice show 1 through 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many faces are adjacent to a given face on a die?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4"
+      },
+      {
+        "optionId": "B",
+        "text": "1"
+      },
+      {
+        "optionId": "C",
+        "text": "5"
+      },
+      {
+        "optionId": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Four sides touch; one is opposite.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many faces are opposite a given face?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1"
+      },
+      {
+        "optionId": "B",
+        "text": "2"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Exactly one opposite face.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Three faces meeting at a corner are:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "All adjacent to each other"
+      },
+      {
+        "optionId": "B",
+        "text": "All opposite each other"
+      },
+      {
+        "optionId": "C",
+        "text": "Summing to 7 always"
+      },
+      {
+        "optionId": "D",
+        "text": "Invisible always"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Corner faces are pairwise adjacent.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If face 3 is on top, the bottom face is opposite 3. On a standard die bottom is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4"
+      },
+      {
+        "optionId": "B",
+        "text": "3"
+      },
+      {
+        "optionId": "C",
+        "text": "1"
+      },
+      {
+        "optionId": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Standard opposites: 3 opposite 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A die is a:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cube"
+      },
+      {
+        "optionId": "B",
+        "text": "Sphere"
+      },
+      {
+        "optionId": "C",
+        "text": "Cylinder"
+      },
+      {
+        "optionId": "D",
+        "text": "Cone"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ordinary dice are cubes.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which cannot be true for one position of a physical die?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 and 6 both on the front face together"
+      },
+      {
+        "optionId": "B",
+        "text": "1 on top"
+      },
+      {
+        "optionId": "C",
+        "text": "2 on front"
+      },
+      {
+        "optionId": "D",
+        "text": "3 on right"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "One face shows one number.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "When two faces are shown adjacent in a view, they:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cannot be opposite"
+      },
+      {
+        "optionId": "B",
+        "text": "Must be opposite"
+      },
+      {
+        "optionId": "C",
+        "text": "Must sum to 7 always even if nonstandard"
+      },
+      {
+        "optionId": "D",
+        "text": "Must both be top"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adjacent ⇒ not opposite.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Unfolded pattern of a die is called a:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Net"
+      },
+      {
+        "optionId": "B",
+        "text": "Knot"
+      },
+      {
+        "optionId": "C",
+        "text": "Chord"
+      },
+      {
+        "optionId": "D",
+        "text": "Arc"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cube nets show face layout.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "On a standard die, 1 is opposite:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "2"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "1+6=7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "On a standard die, 2 is opposite:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5"
+      },
+      {
+        "optionId": "B",
+        "text": "3"
+      },
+      {
+        "optionId": "C",
+        "text": "4"
+      },
+      {
+        "optionId": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "2+5=7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If a problem does not say the die is standard, sum-7 rule:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Should not be assumed blindly"
+      },
+      {
+        "optionId": "B",
+        "text": "Always applies worldwide"
+      },
+      {
+        "optionId": "C",
+        "text": "Always false"
+      },
+      {
+        "optionId": "D",
+        "text": "Applies only to coins"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Use sum-7 only when standard numbering is implied.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Maximum faces you can see at once on a opaque die from one corner view is typically:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3"
+      },
+      {
+        "optionId": "B",
+        "text": "6"
+      },
+      {
+        "optionId": "C",
+        "text": "5"
+      },
+      {
+        "optionId": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Three faces meet at a corner.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Dice reasoning mainly tests:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Spatial face relations"
+      },
+      {
+        "optionId": "B",
+        "text": "Spelling of numbers"
+      },
+      {
+        "optionId": "C",
+        "text": "Blood relations"
+      },
+      {
+        "optionId": "D",
+        "text": "Syllogism conversion"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "It is about faces and orientations.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A cube has six faces and twelve edges.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Standard cube geometry.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Opposite faces on a die can also be adjacent.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Opposite faces never share an edge.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Basic die facts include:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6 faces"
+      },
+      {
+        "optionId": "B",
+        "text": "1 opposite per face"
+      },
+      {
+        "optionId": "C",
+        "text": "4 adjacent per face"
+      },
+      {
+        "optionId": "D",
+        "text": "8 numbers on one face"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Six faces, one opposite, four adjacent; not eight numbers on one face.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "dice",
+      "basics"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

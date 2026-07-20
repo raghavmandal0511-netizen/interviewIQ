@@ -1,0 +1,549 @@
+{
+  "_seedKey": "topic-bankers-discount",
+  "topic": {
+    "moduleId": "REPLACE_MODULE_ARITHMETIC_ID",
+    "name": "Banker's Discount",
+    "slug": "bankers-discount",
+    "description": "Banker's discount, true discount, present worth, and banker's gain in bill discounting problems. Estimated reading 30 min; practice 45 min.",
+    "estimatedTime": 75,
+    "difficulty": "hard",
+    "order": 34,
+    "isPublished": true
+  },
+  "theory": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "introduction": "Banker's Discount (BD) is the simple interest on the face value (amount due) of a bill for the unexpired time. It differs from True Discount (TD), which is interest on the present worth. Banks use BD when discounting bills, and the difference between BD and TD is called Banker's Gain. This topic is closely linked to True Discount and frequently tested together in aptitude exams.",
+    "explanation": "CONCEPT EXPLANATION\n\nWhen a bill of Amount A is due after T years at rate R% per annum:\n\n• Banker's Discount: BD = A × R × T / 100 (SI on the face value)\n• True Discount: TD = A × R × T / (100 + R × T) (based on present worth)\n• Present Worth: PW = A − TD = A × 100 / (100 + R × T)\n• Banker's Gain: BG = BD − TD\n\nKey relation: BG = TD² / PW\n\nAlso: Amount = PW + TD = PW + BD − BG\n\nBanker's discount is always greater than true discount for the same amount, rate, and time because BD is calculated on the larger principal (amount) rather than present worth.\n\nREAL-LIFE APPLICATIONS\n\nCommercial banks discount bills of exchange and promissory notes before maturity, charging banker's discount. Understanding BD versus TD helps merchants compare early payment offers, evaluate trade credit terms, and assess the effective cost of bill discounting facilities.\n\nCOMMON MISTAKES\n\n1) Using the true discount formula (100 + RT in denominator) for banker's discount.\n2) Confusing present worth with amount minus banker's discount (should subtract true discount).\n3) Forgetting that BD > TD always for positive rate and time.\n4) Computing banker's gain as a percentage of amount instead of BD − TD.\n5) Mixing up which discount is charged on face value versus present worth.\n\nIMPORTANT NOTES\n\n• BD = SI on Amount; TD = SI on Present Worth.\n• BG = BD − TD = TD² / PW.\n• If rate or time is zero, BD = TD = BG = 0.\n• Amount = PW × (100 + RT) / 100.\n• To find rate: R = 100 × BD / (A × T).\n• To find time: T = 100 × BD / (A × R).\n• Always verify BG using both BD − TD and TD²/PW for consistency.",
+    "formulas": [
+      {
+        "title": "Banker's Discount",
+        "content": "BD = Amount × R × T / 100"
+      },
+      {
+        "title": "True Discount",
+        "content": "TD = Amount × R × T / (100 + R × T)"
+      },
+      {
+        "title": "Present Worth",
+        "content": "PW = Amount − TD = Amount × 100 / (100 + R × T)"
+      },
+      {
+        "title": "Banker's Gain",
+        "content": "BG = BD − TD = TD² / PW"
+      },
+      {
+        "title": "Amount from Banker's Discount",
+        "content": "Amount = BD × 100 / (R × T)"
+      },
+      {
+        "title": "Rate from Banker's Discount",
+        "content": "R = 100 × BD / (Amount × T)"
+      }
+    ],
+    "shortcutTips": [
+      {
+        "title": "Denominator difference",
+        "tip": "BD uses ÷100 only; TD uses ÷(100+RT). This is the fastest way to tell them apart."
+      },
+      {
+        "title": "Find TD after BD",
+        "tip": "Compute both from Amount, then BG = BD − TD without memorising extra formulas."
+      },
+      {
+        "title": "Verify with BG formula",
+        "tip": "Cross-check: BG should equal TD²/PW after finding PW and TD."
+      },
+      {
+        "title": "Reverse amount problems",
+        "tip": "If BD, R, and T are known, Amount = BD × 100 / (R × T)."
+      },
+      {
+        "title": "Compare discounts quickly",
+        "tip": "BD is always larger than TD; if your TD exceeds BD, swap the formulas."
+      },
+      {
+        "title": "Link to present worth",
+        "tip": "PW = Amount − TD, not Amount − BD. The bank collects BD but the true value today is PW."
+      }
+    ],
+    "solvedExamples": [
+      {
+        "problem": "Find the banker's discount on a bill of Rs. 1000 due 1 year hence at 10% per annum.",
+        "solution": "The banker's discount is Rs. 100.",
+        "steps": [
+          "BD = Amount × R × T / 100",
+          "BD = 1000 × 10 × 1 / 100 = 100."
+        ]
+      },
+      {
+        "problem": "The banker's discount on a bill due 2 years hence at 5% is Rs. 126. Find the amount of the bill.",
+        "solution": "The amount of the bill is Rs. 1260.",
+        "steps": [
+          "BD = A × R × T / 100 ⇒ 126 = A × 5 × 2 / 100",
+          "126 = 10A / 100 ⇒ A = 126 × 10 = 1260."
+        ]
+      },
+      {
+        "problem": "Find the banker's gain on a bill of Rs. 1260 due 2 years hence at 5% per annum.",
+        "solution": "The banker's gain is Rs. 11.45 (approximately).",
+        "steps": [
+          "BD = 1260 × 10 / 100 = 126.",
+          "TD = 1260 × 10 / 110 = 114.55.",
+          "BG = BD − TD = 126 − 114.55 = 11.45."
+        ]
+      },
+      {
+        "problem": "The true discount on a bill of Rs. 1100 due 1 year hence at 10% is Rs. 100. Find the banker's discount.",
+        "solution": "The banker's discount is Rs. 110.",
+        "steps": [
+          "Amount = 1100, TD = 100, so PW = 1100 − 100 = 1000.",
+          "BD = Amount × R × T / 100 = 1100 × 10 / 100 = 110.",
+          "Check: BG = 110 − 100 = 10; TD²/PW = 10000/1000 = 10. ✓"
+        ]
+      }
+    ],
+    "references": []
+  },
+  "exercise": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-bankers-discount-general",
+    "title": "General Questions",
+    "description": "MCQ practice set on Banker's Discount covering BD, TD, present worth, banker's gain, and reverse calculations.",
+    "order": 1,
+    "isPublished": true
+  },
+  "questions": [
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find the banker's discount on a bill of Rs. 1000 due 1 year hence at 10% per annum.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 90" },
+        { "optionId": "B", "text": "Rs. 100" },
+        { "optionId": "C", "text": "Rs. 110" },
+        { "optionId": "D", "text": "Rs. 120" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "BD = 1000 × 10 × 1 / 100 = 100.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on a bill due 2 years hence at 5% per annum is Rs. 126. Find the amount of the bill.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 1200" },
+        { "optionId": "B", "text": "Rs. 1260" },
+        { "optionId": "C", "text": "Rs. 1300" },
+        { "optionId": "D", "text": "Rs. 1360" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "126 = A × 10/100 ⇒ A = 1260.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount", "amount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find the banker's gain on a bill of Rs. 1260 due 2 years hence at 5% per annum.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 10.45" },
+        { "optionId": "B", "text": "Rs. 11.45" },
+        { "optionId": "C", "text": "Rs. 12.45" },
+        { "optionId": "D", "text": "Rs. 14.55" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "BD = 126, TD = 114.55. BG = 126 − 114.55 = 11.45.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["bankers-discount", "bankers-gain"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on a bill of Rs. 1100 due 1 year hence at 10% per annum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs. 100" },
+        { "optionId": "B", "text": "Rs. 110" },
+        { "optionId": "C", "text": "Rs. 120" },
+        { "optionId": "D", "text": "Rs. 90" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "BD = 1100 × 10 / 100 = 110.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "On a bill of Rs. 1100 due 1 year hence at 10%, the true discount is Rs. 100. Find the banker's gain.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 5" },
+        { "optionId": "B", "text": "Rs. 10" },
+        { "optionId": "C", "text": "Rs. 15" },
+        { "optionId": "D", "text": "Rs. 20" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "BD = 110, TD = 100. BG = 110 − 100 = 10.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount", "bankers-gain"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on a bill of Rs. 800 due 2 years hence at 5% per annum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs. 60" },
+        { "optionId": "B", "text": "Rs. 70" },
+        { "optionId": "C", "text": "Rs. 80" },
+        { "optionId": "D", "text": "Rs. 90" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "BD = 800 × 10 / 100 = 80.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If the banker's discount on a bill due 1 year hence at 12% is Rs. 120, find the amount.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 900" },
+        { "optionId": "B", "text": "Rs. 1000" },
+        { "optionId": "C", "text": "Rs. 1100" },
+        { "optionId": "D", "text": "Rs. 1200" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "120 = A × 12/100 ⇒ A = 120 × 100/12 = 1000.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on Rs. 2400 due 1 year hence at 5% per annum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs. 100" },
+        { "optionId": "B", "text": "Rs. 110" },
+        { "optionId": "C", "text": "Rs. 120" },
+        { "optionId": "D", "text": "Rs. 130" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "BD = 2400 × 5 / 100 = 120.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find the rate percent per annum if the banker's discount on Rs. 500 for 1 year is Rs. 50.",
+      "options": [
+        { "optionId": "A", "text": "8%" },
+        { "optionId": "B", "text": "10%" },
+        { "optionId": "C", "text": "12%" },
+        { "optionId": "D", "text": "15%" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "R = 100 × BD/(A × T) = 100 × 50/(500 × 1) = 10%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount", "rate"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on a bill is Rs. 80 and the banker's gain is Rs. 8. Find the true discount.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 64" },
+        { "optionId": "B", "text": "Rs. 72" },
+        { "optionId": "C", "text": "Rs. 76" },
+        { "optionId": "D", "text": "Rs. 88" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "TD = BD − BG = 80 − 8 = 72.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount", "bankers-gain"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on Rs. 3300 due 2 years hence at 10% per annum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs. 550" },
+        { "optionId": "B", "text": "Rs. 600" },
+        { "optionId": "C", "text": "Rs. 660" },
+        { "optionId": "D", "text": "Rs. 700" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "BD = 3300 × 20 / 100 = 660.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "On a bill of Rs. 3300 due 2 years at 10%, BD = 660 and TD = 550. Find the banker's gain.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 100" },
+        { "optionId": "B", "text": "Rs. 110" },
+        { "optionId": "C", "text": "Rs. 120" },
+        { "optionId": "D", "text": "Rs. 130" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "BG = BD − TD = 660 − 550 = 110.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["bankers-discount", "bankers-gain"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The present worth of a bill of Rs. 1260 due 2 years hence at 5% is Rs. 1145.45. Find the banker's discount.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 114.55" },
+        { "optionId": "B", "text": "Rs. 120" },
+        { "optionId": "C", "text": "Rs. 126" },
+        { "optionId": "D", "text": "Rs. 130" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "BD = Amount × RT/100 = 1260 × 10/100 = 126.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find the time for which a bill of Rs. 600 is discounted at 10% per annum if the banker's discount is Rs. 60.",
+      "options": [
+        { "optionId": "A", "text": "6 months" },
+        { "optionId": "B", "text": "1 year" },
+        { "optionId": "C", "text": "18 months" },
+        { "optionId": "D", "text": "2 years" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "T = 100 × BD/(A × R) = 100 × 60/(600 × 10) = 1 year.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount", "time"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on Rs. 880 due 2 years hence at 5% per annum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs. 80" },
+        { "optionId": "B", "text": "Rs. 84" },
+        { "optionId": "C", "text": "Rs. 88" },
+        { "optionId": "D", "text": "Rs. 90" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "BD = 880 × 10 / 100 = 88.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "On a bill of Rs. 880 due 2 years at 5%, find the banker's gain if TD = 80.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 6" },
+        { "optionId": "B", "text": "Rs. 8" },
+        { "optionId": "C", "text": "Rs. 10" },
+        { "optionId": "D", "text": "Rs. 12" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "BD = 88, TD = 80. BG = 88 − 80 = 8.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount", "bankers-gain"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on a bill due 3 years hence at 4% is Rs. 72. Find the amount.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 500" },
+        { "optionId": "B", "text": "Rs. 550" },
+        { "optionId": "C", "text": "Rs. 600" },
+        { "optionId": "D", "text": "Rs. 650" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "72 = A × 12/100 ⇒ A = 7200/12 = 600.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If TD = 72 and PW = 528 on a bill, find the banker's gain using BG = TD²/PW.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 8.82" },
+        { "optionId": "B", "text": "Rs. 9.82" },
+        { "optionId": "C", "text": "Rs. 10.82" },
+        { "optionId": "D", "text": "Rs. 11.82" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "BG = 72²/528 = 5184/528 = 9.818 ≈ 9.82.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["bankers-discount", "bankers-gain"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on Rs. 1500 due 1 year hence at 8% per annum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs. 100" },
+        { "optionId": "B", "text": "Rs. 110" },
+        { "optionId": "C", "text": "Rs. 120" },
+        { "optionId": "D", "text": "Rs. 130" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "BD = 1500 × 8 / 100 = 120.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Which is always true for positive rate and time?",
+      "options": [
+        { "optionId": "A", "text": "TD > BD" },
+        { "optionId": "B", "text": "BD > TD" },
+        { "optionId": "C", "text": "BD = TD" },
+        { "optionId": "D", "text": "BG = TD" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Banker's discount is SI on amount; true discount is SI on present worth. Since amount > PW, BD > TD.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["bankers-discount", "concept"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on Rs. 2000 due 6 months hence at 10% per annum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs. 50" },
+        { "optionId": "B", "text": "Rs. 100" },
+        { "optionId": "C", "text": "Rs. 150" },
+        { "optionId": "D", "text": "Rs. 200" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "T = 0.5 year. BD = 2000 × 10 × 0.5 / 100 = 100.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "On a bill of Rs. 1200 due 2 years at 10%, find TD and then BG if BD = 240.",
+      "options": [
+        { "optionId": "A", "text": "Rs. 30" },
+        { "optionId": "B", "text": "Rs. 40" },
+        { "optionId": "C", "text": "Rs. 50" },
+        { "optionId": "D", "text": "Rs. 60" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "TD = 1200 × 20/120 = 200. BG = 240 − 200 = 40.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["bankers-discount", "bankers-gain"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on Rs. 990 due 2 years hence at 5% per annum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs. 90" },
+        { "optionId": "B", "text": "Rs. 95" },
+        { "optionId": "C", "text": "Rs. 99" },
+        { "optionId": "D", "text": "Rs. 100" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "BD = 990 × 10 / 100 = 99.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["bankers-discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The banker's discount on a bill of Rs. 550 due 2 years hence at 5% is Rs. 55. The true discount is:",
+      "options": [
+        { "optionId": "A", "text": "Rs. 48" },
+        { "optionId": "B", "text": "Rs. 50" },
+        { "optionId": "C", "text": "Rs. 52" },
+        { "optionId": "D", "text": "Rs. 54" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "TD = 550 × 10/110 = 5500/110 = 50.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["bankers-discount", "true-discount"],
+      "questionType": "MCQ"
+    }
+  ]
+}

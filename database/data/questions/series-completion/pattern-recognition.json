@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing term in the pattern: 1, 1, 2, 3, 5, 8, ?, 21",
+    "options": [
+      { "optionId": "A", "text": "11" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "13" },
+      { "optionId": "D", "text": "14" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This is the Fibonacci pattern, where each term is the sum of the two preceding terms (1+1=2, 1+2=3, 2+3=5, 3+5=8). The missing term is 8+5=13, and indeed 13+8=21 confirms the pattern.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: AB, CD, EF, GH, ?",
+    "options": [
+      { "optionId": "A", "text": "GI" },
+      { "optionId": "B", "text": "HI" },
+      { "optionId": "C", "text": "IJ" },
+      { "optionId": "D", "text": "JK" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each pair consists of two consecutive letters, and each new pair starts where the alphabet left off: AB, CD, EF, GH. Continuing the pattern after H, the next pair is IJ.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing term in the pattern: 2, 6, 3, 12, 4, 20, 5, ?",
+    "options": [
+      { "optionId": "A", "text": "25" },
+      { "optionId": "B", "text": "28" },
+      { "optionId": "C", "text": "30" },
+      { "optionId": "D", "text": "32" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The pattern consists of pairs (n, n x (n+1)): 2 pairs with 6 (2x3), 3 pairs with 12 (3x4), 4 pairs with 20 (4x5). Following the pattern, 5 pairs with 5x6 = 30.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: Z1, X2, V3, T4, ?",
+    "options": [
+      { "optionId": "A", "text": "R5" },
+      { "optionId": "B", "text": "S5" },
+      { "optionId": "C", "text": "R4" },
+      { "optionId": "D", "text": "Q5" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This pattern combines two independent sequences: the letters move backward through the alphabet in steps of 2 (Z, X, V, T, R), while the numbers increase by 1 each time (1, 2, 3, 4, 5). Combining both gives R5.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: 3A, 6B, 9C, 12D, ?",
+    "options": [
+      { "optionId": "A", "text": "14E" },
+      { "optionId": "B", "text": "15D" },
+      { "optionId": "C", "text": "15E" },
+      { "optionId": "D", "text": "16E" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This pattern combines a number sequence increasing by 3 each time (3, 6, 9, 12, 15) with a letter sequence advancing by one position each time (A, B, C, D, E). Combining both gives 15E.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing number in the pattern: 8, 27, 64, 125, ?, 343",
+    "options": [
+      { "optionId": "A", "text": "196" },
+      { "optionId": "B", "text": "200" },
+      { "optionId": "C", "text": "216" },
+      { "optionId": "D", "text": "224" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This series consists of cubes of consecutive integers starting from 2: 2^3, 3^3, 4^3, 5^3, 6^3, 7^3, i.e. 8, 27, 64, 125, 216, 343. The missing term is 6^3 = 216.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: J2, L4, N6, P8, ?",
+    "options": [
+      { "optionId": "A", "text": "Q9" },
+      { "optionId": "B", "text": "Q10" },
+      { "optionId": "C", "text": "R9" },
+      { "optionId": "D", "text": "R10" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This pattern combines a letter sequence that skips one letter each time (J, L, N, P, R) with a number sequence that increases by 2 each time (2, 4, 6, 8, 10). Combining both gives R10.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: 5, 8, 13, 20, 29, ?",
+    "options": [
+      { "optionId": "A", "text": "36" },
+      { "optionId": "B", "text": "38" },
+      { "optionId": "C", "text": "40" },
+      { "optionId": "D", "text": "42" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term follows the rule n^2 + 4, for n = 1, 2, 3, 4, 5, 6: 1+4=5, 4+4=8, 9+4=13, 16+4=20, 25+4=29, 36+4=40. The next term is 40.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Three of the following number pairs follow the pattern \"second number = square of the first number\" and one does not. Which pair does not follow the pattern?",
+    "options": [
+      { "optionId": "A", "text": "(3, 9)" },
+      { "optionId": "B", "text": "(4, 16)" },
+      { "optionId": "C", "text": "(5, 20)" },
+      { "optionId": "D", "text": "(6, 36)" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "3^2=9, 4^2=16, and 6^2=36 all correctly follow the \"square of the first number\" pattern. However, 5^2=25, not 20, so the pair (5, 20) does not follow the pattern.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next pair in the pattern: (B, D), (C, E), (D, F), (E, G), ?",
+    "options": [
+      { "optionId": "A", "text": "(F, G)" },
+      { "optionId": "B", "text": "(F, H)" },
+      { "optionId": "C", "text": "(G, I)" },
+      { "optionId": "D", "text": "(F, I)" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In each pair, the first letter advances by one position from the previous pair's first letter (B, C, D, E, F), and the second letter is always two positions after the first letter. This gives the next pair as (F, H).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing number in the pattern: (2, 4), (6, 8), (10, ?)",
+    "options": [
+      { "optionId": "A", "text": "11" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "13" },
+      { "optionId": "D", "text": "14" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each pair consists of two consecutive even numbers, and each new pair starts 4 more than the previous pair's first number: (2,4), (6,8), (10,12). The missing number is 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the pattern CAT-3, DOG-3, LION-4, TIGER-?, the number represents the count of letters in the word. What is the missing number?",
+    "options": [
+      { "optionId": "A", "text": "4" },
+      { "optionId": "B", "text": "5" },
+      { "optionId": "C", "text": "6" },
+      { "optionId": "D", "text": "7" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each number represents the number of letters in the preceding word: CAT has 3 letters, DOG has 3 letters, LION has 4 letters. TIGER has 5 letters (T-I-G-E-R), so the missing number is 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing number in the pattern: 10, 3, 20, 6, 30, 9, 40, ?",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "11" },
+      { "optionId": "C", "text": "12" },
+      { "optionId": "D", "text": "13" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This pattern interleaves two separate series: 10, 20, 30, 40 (increasing by 10) and 3, 6, 9, ? (increasing by 3). The missing term belongs to the second series, so it is 9 + 3 = 12.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: A1, C3, E5, G7, ?",
+    "options": [
+      { "optionId": "A", "text": "H8" },
+      { "optionId": "B", "text": "H9" },
+      { "optionId": "C", "text": "I8" },
+      { "optionId": "D", "text": "I9" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This pattern combines a letter sequence that skips one letter each time (A, C, E, G, I) with the sequence of odd numbers (1, 3, 5, 7, 9). Combining both gives I9.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern: Triangle, Square, Pentagon, Hexagon, ?",
+    "options": [
+      { "optionId": "A", "text": "Octagon" },
+      { "optionId": "B", "text": "Heptagon" },
+      { "optionId": "C", "text": "Nonagon" },
+      { "optionId": "D", "text": "Rhombus" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This pattern lists polygons in order of increasing number of sides: Triangle (3), Square (4), Pentagon (5), Hexagon (6). The next polygon, with 7 sides, is the Heptagon.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In the pattern 1, 4, 9, 16, 25, the underlying rule is that each term equals the square of its position number in the series.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The 1st term is 1^2=1, the 2nd term is 2^2=4, the 3rd term is 3^2=9, the 4th term is 4^2=16, and the 5th term is 5^2=25. Each term does equal the square of its position, so the statement is True.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In the pattern J2, L4, N6, P8, R10, the letters advance by exactly one alphabetical position between each consecutive term.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The letters J, L, N, P, R each skip one letter in between, meaning they advance by two alphabetical positions each time, not one. So the statement is False.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Consider the series: 3, 5, 9, 15, 23, 33. Which of the following statements about this series are correct? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "The differences between consecutive terms form the sequence of even numbers 2, 4, 6, 8, 10" },
+      { "optionId": "B", "text": "The next term after 33 would be 45" },
+      { "optionId": "C", "text": "Each term equals n^2 - n + 3, where n is its position in the series" },
+      { "optionId": "D", "text": "The series decreases after the third term" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "The differences 5-3=2, 9-5=4, 15-9=6, 23-15=8, 33-23=10 form the even number sequence (A is correct), so the next difference is 12, giving 33+12=45 (B is correct). The formula n^2-n+3 also fits every term exactly, e.g. for n=6: 36-6+3=33 (C is correct). The series is strictly increasing throughout, so D is incorrect.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "pattern-recognition"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

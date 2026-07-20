@@ -1,0 +1,76 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Cause and Effect questions present two statements and ask whether one causes the other, whether both are effects of a common cause, or whether they are independent.",
+  "explanation": "CONCEPT\n\nYou decide the relationship between Statement I and Statement II: I causes II, II causes I, both effects of a common cause, or independent (unrelated / opposite effects).\n\nRULES\n\n• Cause must be able to produce the effect logically and typically.\n• If both follow from a broader event, prefer \"common cause\".\n• If either could cause the other equally, options may say effects of independent causes or data inadequate—follow the exact option wording.\n• Do not invent facts beyond the statements.\n\nTRICKS / SHORTCUT TECHNIQUES\n\n• Ask: Does A naturally lead to B?\n• Check timing: cause precedes effect.\n• Look for a hidden third event that explains both.\n• Independent events often belong to unrelated domains.\n\nSTEP-BY-STEP SOLVING METHOD\n\n1) Read both statements carefully.\n2) Test I→II and II→I.\n3) Test whether a common cause fits better.\n4) If neither causal link works, mark independent.\n5) Match the standard option pattern used in the question.\n\nCOMMON MISTAKES\n\n1) Assuming correlation means causation.\n2) Reversing cause and effect.\n3) Ignoring a clear common cause.\n4) Using personal opinions instead of stated facts.\n5) Overcomplicating independent news-like statements.",
+  "formulas": [
+    {
+      "title": "Direct cause",
+      "content": "I causes II if I can naturally produce II"
+    },
+    {
+      "title": "Reverse cause",
+      "content": "II causes I if II can naturally produce I"
+    },
+    {
+      "title": "Common cause",
+      "content": "Both I and II are effects of the same underlying event"
+    },
+    {
+      "title": "Independent",
+      "content": "No causal link between I and II"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Direction check",
+      "tip": "Cause happens first and can produce the effect."
+    },
+    {
+      "title": "Common-cause lens",
+      "tip": "If both are results (e.g. two market effects), look for a shared driver."
+    },
+    {
+      "title": "Stay on text",
+      "tip": "Do not add news knowledge beyond the statements."
+    },
+    {
+      "title": "Match options",
+      "tip": "Learn the standard five/four option phrasings used in exams."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "I: The school declared a holiday. II: It rained heavily all morning in the city.",
+      "solution": "II may cause I (rain → holiday), if that is the intended link; often treated as II causes I when holidays follow heavy rain.",
+      "steps": [
+        "Heavy rain can lead schools to declare holidays.",
+        "A holiday does not cause rain.",
+        "So II is the cause and I the effect (when options allow)."
+      ]
+    },
+    {
+      "problem": "I: Prices of onions rose sharply. II: The government banned onion exports.",
+      "solution": "Often II causes I (export ban → domestic supply/price effects) or both relate to shortage policy—choose per options; classic reading: government action (II) can cause price rise (I).",
+      "steps": [
+        "Export ban can tighten domestic supply and raise prices.",
+        "Price rise alone does not cause an export ban necessarily in the reverse direction as strongly.",
+        "Prefer II→I when that option exists."
+      ]
+    },
+    {
+      "problem": "I: A popular film released this Friday. II: Local trains ran late due to a signal fault.",
+      "solution": "Independent statements.",
+      "steps": [
+        "Film release and train signal fault share no causal link.",
+        "Neither causes the other.",
+        "They are independent."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Causality",
+      "url": "https://en.wikipedia.org/wiki/Causality"
+    }
+  ]
+}

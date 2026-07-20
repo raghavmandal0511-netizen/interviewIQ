@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange in a meaningful order: Seed, Tree, Plant, Fruit",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Seed, Plant, Tree, Fruit"
+      },
+      {
+        "optionId": "B",
+        "text": "Seed, Tree, Plant, Fruit"
+      },
+      {
+        "optionId": "C",
+        "text": "Plant, Seed, Tree, Fruit"
+      },
+      {
+        "optionId": "D",
+        "text": "Fruit, Seed, Plant, Tree"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Seed grows into a plant, then a tree, which yields fruit.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Morning, Night, Noon, Evening",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Morning, Noon, Evening, Night"
+      },
+      {
+        "optionId": "B",
+        "text": "Night, Morning, Noon, Evening"
+      },
+      {
+        "optionId": "C",
+        "text": "Morning, Evening, Noon, Night"
+      },
+      {
+        "optionId": "D",
+        "text": "Noon, Morning, Evening, Night"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chronological order through a day.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Infant, Adult, Child, Adolescent",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Infant, Child, Adolescent, Adult"
+      },
+      {
+        "optionId": "B",
+        "text": "Child, Infant, Adult, Adolescent"
+      },
+      {
+        "optionId": "C",
+        "text": "Infant, Adolescent, Child, Adult"
+      },
+      {
+        "optionId": "D",
+        "text": "Adult, Adolescent, Child, Infant"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Age stages from youngest to oldest.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Hundred, Thousand, Ten, Million",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Ten, Hundred, Thousand, Million"
+      },
+      {
+        "optionId": "B",
+        "text": "Hundred, Ten, Thousand, Million"
+      },
+      {
+        "optionId": "C",
+        "text": "Ten, Thousand, Hundred, Million"
+      },
+      {
+        "optionId": "D",
+        "text": "Million, Thousand, Hundred, Ten"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Increasing magnitude.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Meaningful order: Cotton, Cloth, Yarn, Shirt",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cotton, Yarn, Cloth, Shirt"
+      },
+      {
+        "optionId": "B",
+        "text": "Yarn, Cotton, Cloth, Shirt"
+      },
+      {
+        "optionId": "C",
+        "text": "Cotton, Cloth, Yarn, Shirt"
+      },
+      {
+        "optionId": "D",
+        "text": "Shirt, Cloth, Yarn, Cotton"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cotton → yarn → cloth → shirt is the production sequence.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Egg, Butterfly, Larva, Pupa",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Egg, Larva, Pupa, Butterfly"
+      },
+      {
+        "optionId": "B",
+        "text": "Egg, Pupa, Larva, Butterfly"
+      },
+      {
+        "optionId": "C",
+        "text": "Larva, Egg, Pupa, Butterfly"
+      },
+      {
+        "optionId": "D",
+        "text": "Butterfly, Egg, Larva, Pupa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Life cycle of a butterfly.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: A, C, B, D (dictionary order of letters as words)",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "A, B, C, D"
+      },
+      {
+        "optionId": "B",
+        "text": "A, C, B, D"
+      },
+      {
+        "optionId": "C",
+        "text": "B, A, C, D"
+      },
+      {
+        "optionId": "D",
+        "text": "D, C, B, A"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Alphabetical order.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Cut, Wear, Measure, Stitch (making clothes)",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Measure, Cut, Stitch, Wear"
+      },
+      {
+        "optionId": "B",
+        "text": "Cut, Measure, Stitch, Wear"
+      },
+      {
+        "optionId": "C",
+        "text": "Measure, Stitch, Cut, Wear"
+      },
+      {
+        "optionId": "D",
+        "text": "Wear, Measure, Cut, Stitch"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Measure fabric, cut, stitch, then wear.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Country, Continent, City, District",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Continent, Country, District, City"
+      },
+      {
+        "optionId": "B",
+        "text": "Country, Continent, City, District"
+      },
+      {
+        "optionId": "C",
+        "text": "City, District, Country, Continent"
+      },
+      {
+        "optionId": "D",
+        "text": "Continent, District, Country, City"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Largest region to smaller administrative units (city after district).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Study, Exam, Result, Admission",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Admission, Study, Exam, Result"
+      },
+      {
+        "optionId": "B",
+        "text": "Study, Exam, Result, Admission"
+      },
+      {
+        "optionId": "C",
+        "text": "Study, Admission, Exam, Result"
+      },
+      {
+        "optionId": "D",
+        "text": "Exam, Study, Result, Admission"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Typical academic flow: study → exam → result → admission (to next stage).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Bud, Seed, Flower, Fruit",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Seed, Bud, Flower, Fruit"
+      },
+      {
+        "optionId": "B",
+        "text": "Bud, Seed, Flower, Fruit"
+      },
+      {
+        "optionId": "C",
+        "text": "Seed, Flower, Bud, Fruit"
+      },
+      {
+        "optionId": "D",
+        "text": "Flower, Seed, Bud, Fruit"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Seed → bud → flower → fruit.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Doctor, Diagnosis, Medicine, Recovery",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Doctor, Diagnosis, Medicine, Recovery"
+      },
+      {
+        "optionId": "B",
+        "text": "Diagnosis, Doctor, Medicine, Recovery"
+      },
+      {
+        "optionId": "C",
+        "text": "Medicine, Doctor, Diagnosis, Recovery"
+      },
+      {
+        "optionId": "D",
+        "text": "Recovery, Doctor, Diagnosis, Medicine"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Patient sees doctor, gets diagnosis, takes medicine, then recovers.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Letter, Paragraph, Sentence, Word",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Letter, Word, Sentence, Paragraph"
+      },
+      {
+        "optionId": "B",
+        "text": "Word, Letter, Sentence, Paragraph"
+      },
+      {
+        "optionId": "C",
+        "text": "Letter, Sentence, Word, Paragraph"
+      },
+      {
+        "optionId": "D",
+        "text": "Paragraph, Sentence, Word, Letter"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Building blocks of text from letter up.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Polio, Vaccine, Infection, Immunity (logical health sequence starting from vaccine use)",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Vaccine, Immunity, Infection, Polio"
+      },
+      {
+        "optionId": "B",
+        "text": "Infection, Polio, Vaccine, Immunity"
+      },
+      {
+        "optionId": "C",
+        "text": "Vaccine, Infection, Polio, Immunity"
+      },
+      {
+        "optionId": "D",
+        "text": "Polio, Vaccine, Infection, Immunity"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Infection with polio leads to disease context; vaccine creates immunity—best standard set often: disease awareness then prevention. Prefer Infection → Polio (disease) is weak. Better: Polio (disease) → Vaccine → Immunity protecting against Infection. Use: Polio, Vaccine, Infection, Immunity is option D. Correct meaningful prevention chain after disease known: Vaccine provides Immunity against Infection by Polio. Closest: B if framed as infection causes polio then vaccine immunity—accept B as infection→polio→vaccine→immunity.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Root, Stem, Leaf, Flower (plant upward)",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Root, Stem, Leaf, Flower"
+      },
+      {
+        "optionId": "B",
+        "text": "Stem, Root, Leaf, Flower"
+      },
+      {
+        "optionId": "C",
+        "text": "Leaf, Stem, Root, Flower"
+      },
+      {
+        "optionId": "D",
+        "text": "Flower, Leaf, Stem, Root"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "From bottom of plant upward to flower.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In logical sequence questions, alphabetical order is always preferred over process order.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Process or meaningful order is preferred when available.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Chronological sequences arrange events from earlier to later time.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Time order goes from earlier to later unless asked otherwise.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which themes are commonly used for word arrangement?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Size and time"
+      },
+      {
+        "optionId": "B",
+        "text": "Process steps"
+      },
+      {
+        "optionId": "C",
+        "text": "Dictionary order"
+      },
+      {
+        "optionId": "D",
+        "text": "Random rhyme only"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Size, time, process, and dictionary order are common; rhyme alone is not a standard rule.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "logical-sequence-of-words",
+      "introduction"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using V = a³, find the volume of a cube with edge 6 cm.",
+    "options": [
+      { "optionId": "A", "text": "196" },
+      { "optionId": "B", "text": "206" },
+      { "optionId": "C", "text": "216" },
+      { "optionId": "D", "text": "226" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "V = 6³ = 216 cm³.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using TSA = 6a², find the total surface area of a cube with edge 5 cm.",
+    "options": [
+      { "optionId": "A", "text": "140" },
+      { "optionId": "B", "text": "145" },
+      { "optionId": "C", "text": "150" },
+      { "optionId": "D", "text": "155" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "TSA = 6 × 5² = 6 × 25 = 150 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using V = l × b × h, find the volume of a cuboid 10 cm × 5 cm × 4 cm.",
+    "options": [
+      { "optionId": "A", "text": "190" },
+      { "optionId": "B", "text": "195" },
+      { "optionId": "C", "text": "200" },
+      { "optionId": "D", "text": "205" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "V = 10 × 5 × 4 = 200 cm³.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using V = πr²h, find the volume of a cylinder with r = 7 cm, h = 6 cm (π = 22/7).",
+    "options": [
+      { "optionId": "A", "text": "900" },
+      { "optionId": "B", "text": "912" },
+      { "optionId": "C", "text": "924" },
+      { "optionId": "D", "text": "936" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "V = 22/7 × 49 × 6 = 924 cm³.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using CSA = 2πrh, find the curved surface area of a cylinder with r = 7 cm, h = 10 cm (π = 22/7).",
+    "options": [
+      { "optionId": "A", "text": "420" },
+      { "optionId": "B", "text": "430" },
+      { "optionId": "C", "text": "440" },
+      { "optionId": "D", "text": "450" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "CSA = 2 × 22/7 × 7 × 10 = 440 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using V = ⅓πr²h, find the volume of a cone with r = 6 cm, h = 7 cm (π = 22/7).",
+    "options": [
+      { "optionId": "A", "text": "254" },
+      { "optionId": "B", "text": "264" },
+      { "optionId": "C", "text": "270" },
+      { "optionId": "D", "text": "280" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "V = ⅓ × 22/7 × 36 × 7 = 264 cm³.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using V = ⁴⁄₃πr³, find the volume of a sphere with r = 3 cm (π = 22/7).",
+    "options": [
+      { "optionId": "A", "text": "110" },
+      { "optionId": "B", "text": "112" },
+      { "optionId": "C", "text": "113.14" },
+      { "optionId": "D", "text": "115" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "V = 4/3 × 22/7 × 27 = 792/7 ≈ 113.14 cm³.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using SA = 4πr², find the surface area of a sphere with r = 7 cm (π = 22/7).",
+    "options": [
+      { "optionId": "A", "text": "600" },
+      { "optionId": "B", "text": "610" },
+      { "optionId": "C", "text": "616" },
+      { "optionId": "D", "text": "620" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SA = 4 × 22/7 × 49 = 616 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using V = ⅔πr³, find the volume of a hemisphere with r = 6 cm (π = 22/7).",
+    "options": [
+      { "optionId": "A", "text": "440.57" },
+      { "optionId": "B", "text": "452.57" },
+      { "optionId": "C", "text": "460.57" },
+      { "optionId": "D", "text": "470.57" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "V = 2/3 × 22/7 × 216 = 9504/21 ≈ 452.57 cm³.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using TSA = 3πr², find the total surface area of a hemisphere with r = 7 cm (π = 22/7).",
+    "options": [
+      { "optionId": "A", "text": "450" },
+      { "optionId": "B", "text": "456" },
+      { "optionId": "C", "text": "462" },
+      { "optionId": "D", "text": "468" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "TSA = 3 × 22/7 × 49 = 462 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "1 litre is equal to how many cm³?",
+    "options": [
+      { "optionId": "A", "text": "100" },
+      { "optionId": "B", "text": "500" },
+      { "optionId": "C", "text": "1000" },
+      { "optionId": "D", "text": "10000" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "1 litre = 1000 cm³ = 1 dm³.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the ratio of volumes of a cylinder and a cone with the same radius and height?",
+    "options": [
+      { "optionId": "A", "text": "1:1" },
+      { "optionId": "B", "text": "2:1" },
+      { "optionId": "C", "text": "3:1" },
+      { "optionId": "D", "text": "4:1" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cone volume = ⅓πr²h is one-third of cylinder volume πr²h, so the ratio is 3:1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The volume of a cone is one-third the volume of a cylinder with the same base radius and height.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cone volume = ⅓πr²h, exactly one-third of the cylinder volume πr²h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Curved Surface Area (CSA) and Total Surface Area (TSA) of a solid are always equal.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CSA excludes flat faces (like the base), while TSA includes all faces; they are equal only for solids with no flat faces exposed.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "When a solid is melted and recast into another shape, the volume before and after remains the same.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Melting and recasting conserves the material's volume; only the shape changes.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following volume formulas are correct?",
+    "options": [
+      { "optionId": "A", "text": "Cube Volume = a³" },
+      { "optionId": "B", "text": "Sphere Volume = 4/3 πr³" },
+      { "optionId": "C", "text": "Cone Volume = πr²h (without the ⅓ factor)" },
+      { "optionId": "D", "text": "Cylinder Volume = πr²h" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A, B, and D are correct. C is missing the ⅓ factor; the correct cone volume is ⅓πr²h.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following surface area formulas are correct?",
+    "options": [
+      { "optionId": "A", "text": "TSA of cube = 6a²" },
+      { "optionId": "B", "text": "CSA of cylinder = 2πrh" },
+      { "optionId": "C", "text": "TSA of cylinder = 2πr(r + h)" },
+      { "optionId": "D", "text": "TSA of sphere = 2πr²" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C are correct. D is false; the correct formula for a sphere's surface area is 4πr².",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A cube has a volume of 343 cm³. Using V = a³, what is its edge length?",
+    "options": [
+      { "optionId": "A", "text": "6" },
+      { "optionId": "B", "text": "7" },
+      { "optionId": "C", "text": "8" },
+      { "optionId": "D", "text": "9" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Edge = ∛343 = 7 cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the radius of a sphere is doubled, the new volume becomes how many times the original?",
+    "options": [
+      { "optionId": "A", "text": "2" },
+      { "optionId": "B", "text": "4" },
+      { "optionId": "C", "text": "6" },
+      { "optionId": "D", "text": "8" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since V ∝ r³, doubling r scales volume by 2³ = 8.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A cylindrical tank has radius 3.5 m and height 4 m. Using V = πr²h (π = 22/7), how many litres does it hold?",
+    "options": [
+      { "optionId": "A", "text": "140000" },
+      { "optionId": "B", "text": "150000" },
+      { "optionId": "C", "text": "154000" },
+      { "optionId": "D", "text": "160000" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "V = 22/7 × 12.25 × 4 = 154 m³ = 154,000 litres (since 1 m³ = 1000 litres).",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["volume-and-surface-area", "formula"],
+    "questionType": "MCQ"
+  }
+]

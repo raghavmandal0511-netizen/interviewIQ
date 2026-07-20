@@ -1,0 +1,92 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Simple Interest (SI) is interest calculated only on the original principal for the full time period. The interest earned each year stays the same because the base amount never grows. This topic is common in banking aptitude tests and requires fluent use of SI = (P × R × T)/100 and its rearrangements.",
+  "explanation": "CONCEPT EXPLANATION\n\nPrincipal (P) is the sum borrowed or invested. Rate (R) is the annual interest percentage. Time (T) is usually in years unless stated otherwise. Simple interest for the period is SI = (P × R × T)/100.\n\nAmount (A) is what is repaid or received at the end: A = P + SI.\n\nAny unknown can be found by rearranging: P = 100 × SI / (R × T); R = 100 × SI / (P × T); T = 100 × SI / (P × R).\n\nIf time is in months, convert to years (6 months = 0.5 year) before substituting, unless using the monthly form SI = (P × R × T)/1200 when T is in months.\n\nREAL-LIFE APPLICATIONS\n\nShort-term loans, fixed simple-interest schemes, quick penalty calculations, and basic savings estimates often use simple interest.\n\nCOMMON MISTAKES\n\n1) Using months directly in the yearly formula without converting to years.\n2) Confusing amount with interest (forgetting to add principal).\n3) Treating rate as a decimal instead of percentage in SI = PRT/100.\n4) Doubling time does not double rate—check which variable changes.\n5) Mixing simple and compound interest formulas.\n\nIMPORTANT NOTES\n\n• SI is proportional to P, R, and T each separately.\n\n• If P doubles, SI doubles for the same R and T.\n\n• For monthly time with annual rate: SI = (P × R × T)/1200.\n\n• Amount − Principal = SI.\n\n• When sum doubles under SI, SI equals P and R × T = 100.",
+  "formulas": [
+    {
+      "title": "Simple interest",
+      "content": "SI = (P × R × T) / 100"
+    },
+    {
+      "title": "Amount",
+      "content": "Amount A = P + SI = P(1 + RT/100)"
+    },
+    {
+      "title": "Principal",
+      "content": "P = (100 × SI) / (R × T)"
+    },
+    {
+      "title": "Rate",
+      "content": "R = (100 × SI) / (P × T)"
+    },
+    {
+      "title": "Time",
+      "content": "T = (100 × SI) / (P × R)"
+    },
+    {
+      "title": "Monthly time form",
+      "content": "SI = (P × R × T) / 1200 when T is in months and R is annual percent"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "One-year interest",
+      "tip": "For T = 1 year, SI equals P × R / 100 directly."
+    },
+    {
+      "title": "Double check units",
+      "tip": "Convert months to years before using SI = PRT/100."
+    },
+    {
+      "title": "Find rate quickly",
+      "tip": "If SI equals P in T years, then R = 100/T percent per annum."
+    },
+    {
+      "title": "Amount shortcut",
+      "tip": "Amount = Principal + SI; never report amount when only interest is asked."
+    },
+    {
+      "title": "Proportional reasoning",
+      "tip": "If time triples with same P and R, SI triples—no full recalculation needed."
+    },
+    {
+      "title": "Monthly formula",
+      "tip": "Use denominator 1200 when time is given in months and rate is yearly."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Find the simple interest on Rs 5,000 at 8% per annum for 3 years.",
+      "solution": "The simple interest is Rs 1,200.",
+      "steps": [
+        "SI = (5000 × 8 × 3)/100.",
+        "SI = 120,000/100 = Rs 1,200."
+      ]
+    },
+    {
+      "problem": "In what time will Rs 8,000 yield Rs 2,400 as SI at 10% per annum?",
+      "solution": "The time is 3 years.",
+      "steps": [
+        "T = (100 × SI)/(P × R) = (100 × 2400)/(8000 × 10).",
+        "T = 240,000/80,000 = 3 years."
+      ]
+    },
+    {
+      "problem": "At what rate percent will Rs 6,000 amount to Rs 7,500 in 5 years at simple interest?",
+      "solution": "The rate is 5% per annum.",
+      "steps": [
+        "SI = 7500 − 6000 = 1500.",
+        "R = (100 × 1500)/(6000 × 5) = 150,000/30,000 = 5%."
+      ]
+    },
+    {
+      "problem": "The SI on a sum at 12% for 2 years is Rs 960. Find the principal.",
+      "solution": "The principal is Rs 4,000.",
+      "steps": [
+        "P = (100 × SI)/(R × T) = (100 × 960)/(12 × 2).",
+        "P = 96,000/24 = Rs 4,000."
+      ]
+    }
+  ],
+  "references": []
+}

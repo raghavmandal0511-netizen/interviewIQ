@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 1, 2, 4, 5, 7, 8, ?",
+    "options": [
+      { "optionId": "A", "text": "9" },
+      { "optionId": "B", "text": "10" },
+      { "optionId": "C", "text": "11" },
+      { "optionId": "D", "text": "12" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The pattern alternates adding 1 and adding 2: +1, +2, +1, +2, +1, next +2. 8 + 2 = 10.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 3, 6, 5, 10, 9, 18, ?",
+    "options": [
+      { "optionId": "A", "text": "15" },
+      { "optionId": "B", "text": "16" },
+      { "optionId": "C", "text": "17" },
+      { "optionId": "D", "text": "19" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The pattern alternates ×2 and −1: 3×2=6, 6−1=5, 5×2=10, 10−1=9, 9×2=18, next 18−1=17.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 2, 3, 6, 7, 14, 15, ?",
+    "options": [
+      { "optionId": "A", "text": "28" },
+      { "optionId": "B", "text": "29" },
+      { "optionId": "C", "text": "30" },
+      { "optionId": "D", "text": "31" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The pattern alternates +1 and ×2: 2+1=3, 3×2=6, 6+1=7, 7×2=14, 14+1=15, next 15×2=30.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 100, 50, 52, 26, 28, 14, ?",
+    "options": [
+      { "optionId": "A", "text": "14" },
+      { "optionId": "B", "text": "15" },
+      { "optionId": "C", "text": "16" },
+      { "optionId": "D", "text": "18" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The pattern alternates ÷2 and +2: 100÷2=50, 50+2=52, 52÷2=26, 26+2=28, 28÷2=14, next 14+2=16.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing term in the series: 5, 9, 7, 11, 9, 13, ?",
+    "options": [
+      { "optionId": "A", "text": "9" },
+      { "optionId": "B", "text": "10" },
+      { "optionId": "C", "text": "11" },
+      { "optionId": "D", "text": "12" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The pattern alternates +4 and −2: 5+4=9, 9−2=7, 7+4=11, 11−2=9, 9+4=13, next 13−2=11.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two interleaved series form the sequence: 1, 10, 4, 20, 7, 30, 10, 40, ? Find the next term.",
+    "options": [
+      { "optionId": "A", "text": "12" },
+      { "optionId": "B", "text": "13" },
+      { "optionId": "C", "text": "14" },
+      { "optionId": "D", "text": "50" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Odd positions form 1, 4, 7, 10 (adding 3 each time) and even positions form 10, 20, 30, 40 (adding 10 each time). The 9th term continues the first sub-series: 10 + 3 = 13.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 2, 6, 12, 20, 30, 42, ?",
+    "options": [
+      { "optionId": "A", "text": "50" },
+      { "optionId": "B", "text": "52" },
+      { "optionId": "C", "text": "54" },
+      { "optionId": "D", "text": "56" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each term equals n × (n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42, next 7×8=56.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 1, 2, 4, 5, 7, 8, 11.",
+    "options": [
+      { "optionId": "A", "text": "4" },
+      { "optionId": "B", "text": "7" },
+      { "optionId": "C", "text": "8" },
+      { "optionId": "D", "text": "11" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The pattern alternates +1 and +2: 1, 2, 4, 5, 7, 8, 10. The term 11 breaks the pattern; it should be 10.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 4, 5, 9, 14, 23, 37, ?",
+    "options": [
+      { "optionId": "A", "text": "55" },
+      { "optionId": "B", "text": "58" },
+      { "optionId": "C", "text": "60" },
+      { "optionId": "D", "text": "63" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is the sum of the two preceding terms (Fibonacci-style): 23 + 37 = 60.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing term in the series: 7, 14, 12, 24, 22, 44, ?",
+    "options": [
+      { "optionId": "A", "text": "40" },
+      { "optionId": "B", "text": "41" },
+      { "optionId": "C", "text": "42" },
+      { "optionId": "D", "text": "46" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The pattern alternates ×2 and −2: 7×2=14, 14−2=12, 12×2=24, 24−2=22, 22×2=44, next 44−2=42.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 8, 16, 12, 24, 20, 42, 38.",
+    "options": [
+      { "optionId": "A", "text": "16" },
+      { "optionId": "B", "text": "24" },
+      { "optionId": "C", "text": "42" },
+      { "optionId": "D", "text": "38" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The pattern alternates ×2 and −4: 8×2=16, 16−4=12, 12×2=24, 24−4=20, 20×2=40, 40−4=36. The term 42 breaks the pattern; it should be 40.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 1, 4, 10, 22, 46, ?",
+    "options": [
+      { "optionId": "A", "text": "88" },
+      { "optionId": "B", "text": "90" },
+      { "optionId": "C", "text": "92" },
+      { "optionId": "D", "text": "94" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each term follows the rule ×2 + 2: 1×2+2=4, 4×2+2=10, 10×2+2=22, 22×2+2=46, next 46×2+2=94.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 90, 80, 72, 66, 62, ?",
+    "options": [
+      { "optionId": "A", "text": "58" },
+      { "optionId": "B", "text": "59" },
+      { "optionId": "C", "text": "60" },
+      { "optionId": "D", "text": "61" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The amount subtracted decreases by 2 each time: −10, −8, −6, −4, next −2. 62 − 2 = 60.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing term in the series: 6, 3, 9, 4.5, 13.5, ?",
+    "options": [
+      { "optionId": "A", "text": "6" },
+      { "optionId": "B", "text": "6.5" },
+      { "optionId": "C", "text": "6.75" },
+      { "optionId": "D", "text": "7" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The pattern alternates ×0.5 and ×3: 6×0.5=3, 3×3=9, 9×0.5=4.5, 4.5×3=13.5, next 13.5×0.5=6.75.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 2, 3, 5, 9, 17, 33, ?",
+    "options": [
+      { "optionId": "A", "text": "61" },
+      { "optionId": "B", "text": "63" },
+      { "optionId": "C", "text": "65" },
+      { "optionId": "D", "text": "67" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term follows the rule ×2 − 1: 2×2−1=3, 3×2−1=5, 5×2−1=9, 9×2−1=17, 17×2−1=33, next 33×2−1=65.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the mixed series 3, 6, 5, 10, 9, 18, the operations alternate between multiplying by 2 and subtracting 1.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "3×2=6, 6−1=5, 5×2=10, 10−1=9, 9×2=18, confirming the alternating ×2 and −1 pattern, so the statement is true.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In an interleaved series formed from two independent sub-series, both sub-series must always have the same common difference.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each sub-series in an interleaved series can follow its own independent rule (different common differences or even different operations), so the statement is false.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series 1, 2, 4, 5, 7, 8, 10, which of the following statements about the pattern are true?",
+    "options": [
+      { "optionId": "A", "text": "The pattern alternates between adding 1 and adding 2" },
+      { "optionId": "B", "text": "The 4th term of the series is 5" },
+      { "optionId": "C", "text": "The term after 10 would be 11" },
+      { "optionId": "D", "text": "The series is strictly geometric" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "The series follows an alternating +1, +2 pattern (confirming A), the 4th term is indeed 5 (confirming B), and since the last step was +2, the next step is +1 giving 10+1=11 (confirming C). The series is not geometric since there is no constant ratio, so D is false.",
+    "difficulty": "hard",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["number-series", "mixed-series"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

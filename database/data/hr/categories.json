@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Freshers",
+    "slug": "freshers",
+    "description": "Entry-level HR interview questions for fresh graduates and campus placement candidates",
+    "isPublished": true
+  },
+  {
+    "title": "Experienced",
+    "slug": "experienced",
+    "description": "HR interview questions for experienced professionals changing roles or companies",
+    "isPublished": true
+  }
+]

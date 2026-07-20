@@ -1,0 +1,324 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Ink : Pen :: Fuel : ?",
+    "options": [
+      { "optionId": "A", "text": "Road" },
+      { "optionId": "B", "text": "Vehicle" },
+      { "optionId": "C", "text": "Wheel" },
+      { "optionId": "D", "text": "Petrol pump" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A pen needs ink to write, just as a vehicle needs fuel to run. The relationship is 'substance needed to make the object perform its function'. A road, wheel, or petrol pump does not fit this exact relationship.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Doctor : Hospital :: Teacher : ?",
+    "options": [
+      { "optionId": "A", "text": "Student" },
+      { "optionId": "B", "text": "School" },
+      { "optionId": "C", "text": "Blackboard" },
+      { "optionId": "D", "text": "Examination" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A doctor's usual place of work is a hospital, just as a teacher's usual place of work is a school. The relationship is 'person : workplace'. Student and blackboard are related to teaching but are not the workplace itself.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Author : Book :: Sculptor : ?",
+    "options": [
+      { "optionId": "A", "text": "Chisel" },
+      { "optionId": "B", "text": "Statue" },
+      { "optionId": "C", "text": "Museum" },
+      { "optionId": "D", "text": "Marble" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An author creates a book, just as a sculptor creates a statue. The relationship is 'creator : creation'. A chisel and marble are tools or raw materials, not the finished creation, and a museum is merely where it may be displayed.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Puppy : Dog :: Cub : ?",
+    "options": [
+      { "optionId": "A", "text": "Lion" },
+      { "optionId": "B", "text": "Kitten" },
+      { "optionId": "C", "text": "Sheep" },
+      { "optionId": "D", "text": "Deer" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A puppy is the young one of a dog, just as a cub is the young one of a lion. The relationship is 'young animal : adult animal'. Kitten is itself a young animal, not an adult one, so it does not fit.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Word : Sentence :: Brick : ?",
+    "options": [
+      { "optionId": "A", "text": "Cement" },
+      { "optionId": "B", "text": "Wall" },
+      { "optionId": "C", "text": "House" },
+      { "optionId": "D", "text": "Mason" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A word is a basic unit that combines with others to form a sentence, just as a brick is a basic unit that combines with others to form a wall. The relationship is 'basic unit : structure built directly from it'. A house is a larger structure built from walls, not directly from bricks.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Thermometer : Temperature :: Speedometer : ?",
+    "options": [
+      { "optionId": "A", "text": "Distance" },
+      { "optionId": "B", "text": "Speed" },
+      { "optionId": "C", "text": "Fuel" },
+      { "optionId": "D", "text": "Direction" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A thermometer is an instrument used to measure temperature, just as a speedometer is an instrument used to measure speed. The relationship is 'measuring instrument : quantity it measures'. Distance, fuel, and direction are measured by other instruments.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Optimistic : Pessimistic :: Generous : ?",
+    "options": [
+      { "optionId": "A", "text": "Kind" },
+      { "optionId": "B", "text": "Stingy" },
+      { "optionId": "C", "text": "Wealthy" },
+      { "optionId": "D", "text": "Careful" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Optimistic and pessimistic are direct opposites, just as generous and stingy are direct opposites. The relationship is 'word : its antonym'. Kind is close in meaning to generous rather than opposite to it.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Fish : Water :: Bird : ?",
+    "options": [
+      { "optionId": "A", "text": "Nest" },
+      { "optionId": "B", "text": "Air" },
+      { "optionId": "C", "text": "Tree" },
+      { "optionId": "D", "text": "Cage" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A fish's natural medium of movement is water, just as a bird's natural medium of movement is air. The relationship is 'animal : medium it naturally moves through'. A nest, tree, or cage may be where a bird rests or is kept, but is not the medium it moves through.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Novel : Chapters :: Building : ?",
+    "options": [
+      { "optionId": "A", "text": "Bricks" },
+      { "optionId": "B", "text": "Floors" },
+      { "optionId": "C", "text": "Architect" },
+      { "optionId": "D", "text": "Roof" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A novel is divided into chapters as its major sub-units, just as a building is divided into floors as its major sub-units. Bricks are too small a unit to match 'chapters' in scale, making floors the correct match.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Coward : Bravery :: Miser : ?",
+    "options": [
+      { "optionId": "A", "text": "Wealth" },
+      { "optionId": "B", "text": "Generosity" },
+      { "optionId": "C", "text": "Greed" },
+      { "optionId": "D", "text": "Money" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A coward is a person who lacks bravery, just as a miser is a person who lacks generosity. The relationship is 'a person defined by the lack of a particular quality'. Greed is a quality the miser has, not one he lacks, so it does not fit.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Pediatrician : Children :: Geriatrician : ?",
+    "options": [
+      { "optionId": "A", "text": "Elderly people" },
+      { "optionId": "B", "text": "Infants" },
+      { "optionId": "C", "text": "Athletes" },
+      { "optionId": "D", "text": "Animals" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A pediatrician is a specialist who treats children, just as a geriatrician is a specialist who treats elderly people. The relationship is 'medical specialist : patient group they treat'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Library : Books :: Museum : ?",
+    "options": [
+      { "optionId": "A", "text": "Entry tickets" },
+      { "optionId": "B", "text": "Artifacts" },
+      { "optionId": "C", "text": "Security guards" },
+      { "optionId": "D", "text": "Gift shop" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A library is a place that houses a collection of books, just as a museum is a place that houses a collection of artifacts. Tickets, guards, and gift shops are incidental to the venue, not its primary contents.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Tailor : Cloth :: Carpenter : ?",
+    "options": [
+      { "optionId": "A", "text": "Hammer" },
+      { "optionId": "B", "text": "Wood" },
+      { "optionId": "C", "text": "Nail" },
+      { "optionId": "D", "text": "Furniture" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A tailor works with cloth as the primary raw material to create garments, just as a carpenter works with wood as the primary raw material to create items. A hammer and nail are tools, and furniture is the finished product, not the raw material.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Diligent : Lazy :: Frugal : ?",
+    "options": [
+      { "optionId": "A", "text": "Wealthy" },
+      { "optionId": "B", "text": "Extravagant" },
+      { "optionId": "C", "text": "Careful" },
+      { "optionId": "D", "text": "Poor" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Diligent and lazy are direct opposites, just as frugal and extravagant are direct opposites. The relationship is 'word : its antonym'. Careful is close in meaning to frugal rather than its opposite.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Tadpole : Frog :: Caterpillar : ?",
+    "options": [
+      { "optionId": "A", "text": "Moth" },
+      { "optionId": "B", "text": "Butterfly" },
+      { "optionId": "C", "text": "Cocoon" },
+      { "optionId": "D", "text": "Larva" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A tadpole is the immature form that develops into an adult frog, just as a caterpillar is the immature form that develops into an adult butterfly. A cocoon is a stage of the process, not the final adult form, and a moth, though possible biologically, is not the conventional pairing used with 'caterpillar' in this analogy.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Pen : Write :: Scissors : ?",
+    "options": [
+      { "optionId": "A", "text": "Sharp" },
+      { "optionId": "B", "text": "Cut" },
+      { "optionId": "C", "text": "Paper" },
+      { "optionId": "D", "text": "Blade" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A pen is a tool used to write, just as scissors are a tool used to cut. The relationship is 'tool : action it performs'. Sharp and blade describe scissors themselves, and paper is merely a common material acted upon.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In the analogy 'Kitten : Cat :: Puppy : Dog', the relationship expressed is 'the young one of the animal : the adult animal'.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A kitten is the young one of a cat, and similarly a puppy is the young one of a dog, so both pairs correctly express the same 'young one : adult' relationship, making the statement true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following pairs express an antonym relationship, the same as 'Generous : Stingy'? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "Diligent : Lazy" },
+      { "optionId": "B", "text": "Frugal : Extravagant" },
+      { "optionId": "C", "text": "Tall : Short" },
+      { "optionId": "D", "text": "Author : Book" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "Diligent : Lazy, Frugal : Extravagant, and Tall : Short are all pairs of words with directly opposite meanings, matching the antonym relationship shown in 'Generous : Stingy'. Author : Book instead expresses a 'creator : creation' relationship, so it does not fit.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["analogies", "word-analogies"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

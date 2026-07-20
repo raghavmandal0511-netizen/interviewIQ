@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All roses are flowers. All flowers are plants.\nConclusions:\nI. All roses are plants.\nII. Some plants are roses.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since all roses are flowers and all flowers are plants, all roses must be plants, so conclusion I follows. Since all roses are plants and roses exist, it must also be true that some plants are roses, so conclusion II follows as well.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All engineers are graduates. Some graduates are employed.\nConclusions:\nI. Some engineers are employed.\nII. Some employed people are graduates.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The engineers who are employed and the graduates who are employed are not guaranteed to be the same group, so conclusion I does not necessarily follow. However, 'some graduates are employed' can simply be restated as 'some employed people are graduates', so conclusion II follows.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No mango is a citrus fruit. All oranges are citrus fruits.\nConclusions:\nI. No orange is a mango.\nII. Some oranges are not mangoes.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since all oranges are citrus fruits and no mango is a citrus fruit, no orange can be a mango, so conclusion I follows. Since no orange is a mango and oranges exist, it is also true that some oranges are not mangoes, so conclusion II follows too.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some pens are gifts. All gifts are wrapped items.\nConclusions:\nI. Some pens are wrapped items.\nII. Some wrapped items are pens.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since some pens are gifts and all gifts are wrapped items, those pens that are gifts must also be wrapped items, so conclusion I follows. This same fact can be restated as 'some wrapped items are pens', so conclusion II also follows.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All tigers are carnivores. No carnivore is herbivorous.\nConclusions:\nI. No tiger is herbivorous.\nII. No herbivorous animal is a tiger.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since all tigers are carnivores and no carnivore is herbivorous, no tiger can be herbivorous, so conclusion I follows. A statement of the form 'no X is Y' can always be restated as 'no Y is X', so conclusion II also follows.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some artists are not musicians. All musicians are performers.\nConclusions:\nI. Some artists are not performers.\nII. Some artists are performers.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The statements tell us only about artists who are not musicians; nothing is said about whether those particular artists are performers through some other route, so conclusion I does not necessarily follow. Since we are not told that any artist is a musician at all, we also cannot be sure any artist is a performer, so conclusion II does not follow either.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All lawyers are professionals. Some clerks are not professionals.\nConclusions:\nI. Some clerks are not lawyers.\nII. No clerk is a lawyer.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since all lawyers are professionals, anyone who is not a professional cannot be a lawyer. As some clerks are not professionals, those particular clerks cannot be lawyers, so conclusion I follows. However, this does not rule out other clerks being lawyers, so the stronger conclusion II does not necessarily follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No pilot is a mechanic. Some mechanics are engineers.\nConclusions:\nI. Some engineers are not pilots.\nII. Some pilots are not engineers.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The engineers who are mechanics cannot be pilots, since no pilot is a mechanic, so at least some engineers are not pilots, and conclusion I follows. However, nothing in the statements describes pilots in relation to engineers directly, so conclusion II does not necessarily follow.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All squares are rectangles. All squares are quadrilaterals.\nConclusions:\nI. Some rectangles are quadrilaterals.\nII. All rectangles are quadrilaterals.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since all squares are both rectangles and quadrilaterals, squares belong to both groups, which guarantees that at least some rectangles are quadrilaterals, so conclusion I follows. However, this does not tell us anything about rectangles that are not squares, so the stronger conclusion II does not necessarily follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some books are novels. Some books are magazines.\nConclusions:\nI. Some novels are magazines.\nII. All books are novels.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The books that are novels and the books that are magazines need not be the same books, so conclusion I does not necessarily follow. Since only 'some' books are described as novels, not 'all', conclusion II is also unsupported.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All cats are mammals. All dogs are mammals.\nConclusions:\nI. All cats are dogs.\nII. Some cats are dogs.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Both cats and dogs are described only in relation to mammals, and nothing links cats to dogs directly. Since cats and dogs could well be entirely separate groups of mammals, neither conclusion I nor conclusion II can be said to definitely follow.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No fish is a mammal. No mammal is a reptile.\nConclusions:\nI. No fish is a reptile.\nII. Some fish are reptiles.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Two negative statements about a common middle term, mammals, tell us nothing definite about the relationship between the two outer terms, fish and reptiles, since both groups are simply excluded from mammals. Neither conclusion I nor conclusion II can be guaranteed from this information.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All pilots are trained professionals. Some pilots are women.\nConclusions:\nI. Some trained professionals are women.\nII. Some women are trained professionals.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since all pilots are trained professionals and some pilots are women, those women who are pilots must be trained professionals, so conclusion I follows. This can equally be restated as 'some women are trained professionals', so conclusion II follows as well.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some teachers are writers. All writers are readers.\nConclusions:\nI. Some teachers are readers.\nII. All teachers are readers.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since some teachers are writers and all writers are readers, those teachers who are writers must also be readers, so conclusion I follows. However, teachers who are not writers are not accounted for, so the stronger conclusion II does not necessarily follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All buses are vehicles. No vehicle is powered by sail.\nConclusions:\nI. No bus is powered by sail.\nII. Some buses are not powered by sail.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both conclusions I and II follow" },
+      { "optionId": "D", "text": "Neither conclusion I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since all buses are vehicles and no vehicle is powered by sail, no bus can be powered by sail, so conclusion I follows. Given that no bus is powered by sail and buses exist, it is also true that some buses are not powered by sail, so conclusion II follows as well.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False.\nStatements: All coins are round objects. All round objects are metallic.\nConclusion: All coins are metallic.\nThis conclusion logically follows from the given statements.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since all coins are round objects and all round objects are metallic, it follows directly that all coins are metallic, so the conclusion is valid and the statement is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False.\nStatements: Some flowers are red. Some red things are fruits.\nConclusion: Some flowers are fruits.\nThis conclusion logically follows from the given statements.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The red things that are flowers and the red things that are fruits need not overlap at all, since both statements only describe a 'some' relationship with the common term 'red things'. This is a classic case of an undistributed middle term, so the conclusion does not follow, making the statement false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All students are hardworking. All hardworking people are successful.\nWhich of the following conclusions definitely follow from the statements? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "All students are successful" },
+      { "optionId": "B", "text": "Some successful people are students" },
+      { "optionId": "C", "text": "All successful people are students" },
+      { "optionId": "D", "text": "Some hardworking people are students" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "Since all students are hardworking and all hardworking people are successful, all students are successful, so option A follows. This also means some successful people are students, so option B follows. Since all students are hardworking and students exist, some hardworking people are students, so option D follows too. However, option C is too strong, since there could be successful people who are not students at all.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["logical-deduction", "statements-conclusions"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

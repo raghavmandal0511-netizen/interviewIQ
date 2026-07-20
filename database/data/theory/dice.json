@@ -1,0 +1,76 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Dice problems in reasoning ask about faces, opposite faces, and positions after rotations or when multiple dice are shown. Standard cubic dice have six faces with opposite faces summing to 7 on common numbered dice (1 opposite 6, 2 opposite 5, 3 opposite 4)—but always verify what the problem states.",
+  "explanation": "CONCEPT\n\nA die is a cube. Only four faces can be adjacent to a given face; one face is opposite. Unfolded nets and adjacent-face clues help find opposites. Multiple-dice problems compare visible faces across figures.\n\nRULES\n\n• A face has four adjacent faces and one opposite face.\n• If A, B, C are adjacent to X, then the remaining face is opposite X (among 1–6).\n• Two faces that appear adjacent in a valid view cannot be opposite.\n• On a standard sum-7 die, opposites add to 7—use only if the question implies a standard die.\n• When a die is rotated, track which face moves to top/front/right.\n\nTRICKS / SHORTCUT TECHNIQUES\n\n• List faces adjacent to a known face from different views.\n• The face never adjacent and never shown with X is often opposite X.\n• For three faces meeting at a corner, none are opposite each other.\n• Keep a small sketch of the cube.\n\nSTEP-BY-STEP SOLVING METHOD\n\n1) Note which faces touch which.\n2) Eliminate impossible opposites (faces shown adjacent).\n3) Deduce the opposite of the asked face.\n4) For rotation items, follow one face through the turns.\n5) For multiple dice, compare corresponding positions.\n\nCOMMON MISTAKES\n\n1) Assuming sum-7 when the die is not standard.\n2) Calling adjacent faces opposite.\n3) Losing track after two rotations.\n4) Mixing left/right orientations.\n5) Ignoring that top and bottom are opposite.",
+  "formulas": [
+    {
+      "title": "Opposite on standard die",
+      "content": "1↔6, 2↔5, 3↔4 (sum 7) when standard numbering is assumed"
+    },
+    {
+      "title": "Adjacent count",
+      "content": "Each face is adjacent to 4 faces; opposite to 1"
+    },
+    {
+      "title": "Corner rule",
+      "content": "Three faces meeting at a corner are pairwise adjacent (not opposite)"
+    },
+    {
+      "title": "Elimination",
+      "content": "Opposite of X = the face never shown adjacent to X"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Adjacent ⇒ not opposite",
+      "tip": "If two faces appear together on one view as neighbors, they are not opposite."
+    },
+    {
+      "title": "Standard check",
+      "tip": "Apply sum-7 only when the problem uses a standard dice numbering."
+    },
+    {
+      "title": "Sketch the cube",
+      "tip": "A quick net or 3D sketch reduces rotation errors."
+    },
+    {
+      "title": "Track one face",
+      "tip": "Follow a single face through each rotation step."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "On a standard die, which face is opposite 2?",
+      "solution": "5",
+      "steps": [
+        "Standard opposites sum to 7.",
+        "2 + 5 = 7.",
+        "Opposite of 2 is 5."
+      ]
+    },
+    {
+      "problem": "Faces 1, 2, 3 meet at a corner. Can 1 be opposite 2?",
+      "solution": "No",
+      "steps": [
+        "Faces meeting at a corner are adjacent to each other.",
+        "Adjacent faces cannot be opposite.",
+        "So 1 is not opposite 2."
+      ]
+    },
+    {
+      "problem": "Two positions of a die show faces: (i) 2 on top, 3 in front (ii) 5 on top, 3 in front. Which is opposite 2?",
+      "solution": "5 (commonly), if 3 stays front and top changes from 2 to 5 by rotation keeping front fixed—then 2 and 5 are opposite.",
+      "steps": [
+        "Front face 3 is unchanged while top changes 2→5.",
+        "That rotation typically swaps top with bottom, implying 2 was opposite 5.",
+        "Hence opposite of 2 is 5."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Dice",
+      "url": "https://en.wikipedia.org/wiki/Dice"
+    }
+  ]
+}

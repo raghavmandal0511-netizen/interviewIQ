@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, each letter of a word is replaced by the letter that comes immediately after it in the alphabet (A→B, B→C, ..., Z→A). How is the word 'CAT' written in this code?",
+    "options": [
+      { "optionId": "A", "text": "DBU" },
+      { "optionId": "B", "text": "BZS" },
+      { "optionId": "C", "text": "DCU" },
+      { "optionId": "D", "text": "CBU" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shifting each letter one step forward: C→D, A→B, T→U, giving the code 'DBU'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, each letter of a word is replaced by the letter that comes immediately before it in the alphabet (A→Z, B→A, ..., Z→Y). How is the word 'DOG' written in this code?",
+    "options": [
+      { "optionId": "A", "text": "CNF" },
+      { "optionId": "B", "text": "ENH" },
+      { "optionId": "C", "text": "CMF" },
+      { "optionId": "D", "text": "CNG" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shifting each letter one step backward: D→C, O→N, G→F, giving the code 'CNF'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, each letter of a word is replaced by the letter that is 2 positions after it in the alphabet. How is the word 'MANGO' written in this code?",
+    "options": [
+      { "optionId": "A", "text": "OCPIQ" },
+      { "optionId": "B", "text": "NBOHP" },
+      { "optionId": "C", "text": "PDQJR" },
+      { "optionId": "D", "text": "OBQIP" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shifting each letter two steps forward: M→O, A→C, N→P, G→I, O→Q, giving the code 'OCPIQ'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, each letter is paired with the letter at the same distance from the opposite end of the alphabet, so that A↔Z, B↔Y, C↔X, and so on. How is the word 'CAB' written in this code?",
+    "options": [
+      { "optionId": "A", "text": "XZY" },
+      { "optionId": "B", "text": "YZX" },
+      { "optionId": "C", "text": "XYZ" },
+      { "optionId": "D", "text": "ZXY" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Under this reversal, C pairs with X, A pairs with Z, and B pairs with Y, so 'CAB' becomes 'XZY'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, a word is written with its letters in exactly reverse order. If 'TABLE' is coded as 'ELBAT', how would 'CHAIR' be coded?",
+    "options": [
+      { "optionId": "A", "text": "RIAHC" },
+      { "optionId": "B", "text": "CHARI" },
+      { "optionId": "C", "text": "RAIHC" },
+      { "optionId": "D", "text": "RIHAC" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The rule simply reverses the order of the letters. Reversing 'CHAIR' letter by letter gives 'RIAHC'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, a word is written as the alphabetical positions of its letters (A=1, B=2, ..., Z=26), separated by hyphens. What is the code for 'DOG'?",
+    "options": [
+      { "optionId": "A", "text": "4-15-7" },
+      { "optionId": "B", "text": "4-14-7" },
+      { "optionId": "C", "text": "3-15-7" },
+      { "optionId": "D", "text": "4-15-8" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "D is the 4th letter, O is the 15th letter, and G is the 7th letter of the alphabet, giving the code '4-15-7'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, a word is written as the sum of the alphabetical positions of its letters (A=1, B=2, ..., Z=26). What is the code for 'CAB'?",
+    "options": [
+      { "optionId": "A", "text": "6" },
+      { "optionId": "B", "text": "5" },
+      { "optionId": "C", "text": "7" },
+      { "optionId": "D", "text": "4" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "C=3, A=1, and B=2, so the sum of their positions is 3+1+2 = 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, GARDEN is written as TZIWVM. How is FLOWER written in the same code?",
+    "options": [
+      { "optionId": "A", "text": "UOLDVI" },
+      { "optionId": "B", "text": "OLDUVI" },
+      { "optionId": "C", "text": "UOLVDI" },
+      { "optionId": "D", "text": "ULODVI" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Comparing GARDEN with TZIWVM shows each letter is replaced by the letter that is the same distance from the opposite end of the alphabet (A↔Z, B↔Y, C↔X, and so on: G↔T, A↔Z, R↔I, D↔W, E↔V, N↔M). Applying the same rule to FLOWER: F↔U, L↔O, O↔L, W↔D, E↔V, R↔I, which gives 'UOLDVI'.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, PENCIL is written as RGPEKN. How is MARKER written in the same code?",
+    "options": [
+      { "optionId": "A", "text": "OCTMGT" },
+      { "optionId": "B", "text": "OBTMGT" },
+      { "optionId": "C", "text": "OCTNGT" },
+      { "optionId": "D", "text": "OCSMGT" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Comparing PENCIL with RGPEKN shows every letter has been shifted 2 positions forward in the alphabet (P→R, E→G, N→P, C→E, I→K, L→N). Applying the same +2 shift to MARKER: M→O, A→C, R→T, K→M, E→G, R→T, which gives 'OCTMGT'.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, each letter of a word is written as its alphabetical position using two digits (A=01, B=02, ..., Z=26), concatenated together. If 'SUN' is written as '192114', how is 'MOON' written using the same rule?",
+    "options": [
+      { "optionId": "A", "text": "13151514" },
+      { "optionId": "B", "text": "13141514" },
+      { "optionId": "C", "text": "13151513" },
+      { "optionId": "D", "text": "12151514" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "M=13, O=15, O=15, N=14; concatenating these two-digit positions in order gives '13151514'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In a code where each letter is replaced by the next letter in the alphabet, the word 'HELLO' would be written as 'IFMMP'.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shifting each letter of HELLO one step forward: H→I, E→F, L→M, L→M, O→P, gives 'IFMMP', which matches the statement, so it is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In a code where each letter is replaced by the previous letter in the alphabet, the word 'WATER' is coded as 'XBUFS'.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Shifting each letter of WATER one step backward gives W→V, A→Z, T→S, E→D, R→Q, that is 'VZSDQ'. The code 'XBUFS' shown in the statement is actually what results from shifting forward by one step instead, so the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, only the vowels of a word are each replaced by the next vowel in the sequence A→E→I→O→U→A, while all consonants remain unchanged. How is the word 'TIGER' written in this code?",
+    "options": [
+      { "optionId": "A", "text": "TOGIR" },
+      { "optionId": "B", "text": "TIGOR" },
+      { "optionId": "C", "text": "TAGER" },
+      { "optionId": "D", "text": "TUGIR" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In 'TIGER', the vowels are I and E. Following the sequence A→E→I→O→U→A, I is replaced by O, and E is replaced by I, while T, G, and R stay unchanged, giving 'TOGIR'.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, letters are represented by symbols as follows: A=@, B=#, C=$, D=%, E=&. How is the word 'BAD' written using this code?",
+    "options": [
+      { "optionId": "A", "text": "#@%" },
+      { "optionId": "B", "text": "@#%" },
+      { "optionId": "C", "text": "#%@" },
+      { "optionId": "D", "text": "%@#" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Using the given table, B=#, A=@, and D=%, so 'BAD' is written as '#@%'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, each letter is given a value counted from the end of the alphabet instead of the start (Z=1, Y=2, ..., A=26). What is the code for 'BAD', with each letter's value separated by a hyphen?",
+    "options": [
+      { "optionId": "A", "text": "25-26-23" },
+      { "optionId": "B", "text": "24-26-23" },
+      { "optionId": "C", "text": "25-25-23" },
+      { "optionId": "D", "text": "25-26-22" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Counting from the end, B is the 25th letter (27-2), A is the 26th letter (27-1), and D is the 23rd letter (27-4), giving the code '25-26-23'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, each letter is replaced by the letter that is the same distance from the end of the alphabet as the original letter is from the start (A↔Z, B↔Y, C↔X, and so on). How is the word 'BOOK' written in this code?",
+    "options": [
+      { "optionId": "A", "text": "YLLP" },
+      { "optionId": "B", "text": "YLLO" },
+      { "optionId": "C", "text": "XLLP" },
+      { "optionId": "D", "text": "YKLP" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Under this reversal, B↔Y, O↔L, O↔L, K↔P, so 'BOOK' becomes 'YLLP'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, all vowels are dropped from a word and the remaining consonants are written in reverse order. How would 'COMPUTER' be coded?",
+    "options": [
+      { "optionId": "A", "text": "RTPMC" },
+      { "optionId": "B", "text": "CPMTR" },
+      { "optionId": "C", "text": "RPTMC" },
+      { "optionId": "D", "text": "RTMPC" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Removing the vowels O, U, and E from COMPUTER leaves the consonants C, M, P, T, R in that order. Reversing this sequence of consonants gives 'RTPMC'.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, each letter is replaced by the letter 3 positions after it in the alphabet, wrapping around so that X→A, Y→B, Z→C. Which of the following coded words are correctly derived from their given original words? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "CAT is coded as FDW" },
+      { "optionId": "B", "text": "DOG is coded as GRJ" },
+      { "optionId": "C", "text": "SUN is coded as VXR" },
+      { "optionId": "D", "text": "BEE is coded as EHH" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "Shifting each letter 3 positions forward: CAT gives C→F, A→D, T→W, that is 'FDW', so A is correct. DOG gives D→G, O→R, G→J, that is 'GRJ', so B is correct. SUN gives S→V, U→X, N→Q, that is 'VXQ', not 'VXR', so C is incorrect. BEE gives B→E, E→H, E→H, that is 'EHH', so D is correct.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["artificial-language", "code-interpretation"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

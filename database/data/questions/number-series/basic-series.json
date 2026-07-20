@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 3, 6, 9, 12, 15, ?",
+    "options": [
+      { "optionId": "A", "text": "16" },
+      { "optionId": "B", "text": "17" },
+      { "optionId": "C", "text": "18" },
+      { "optionId": "D", "text": "20" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term increases by 3 (multiples of 3). 15 + 3 = 18.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 5, 10, 15, 20, ?",
+    "options": [
+      { "optionId": "A", "text": "22" },
+      { "optionId": "B", "text": "24" },
+      { "optionId": "C", "text": "25" },
+      { "optionId": "D", "text": "30" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term increases by 5. 20 + 5 = 25.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 2, 4, 6, 8, 10, ?",
+    "options": [
+      { "optionId": "A", "text": "11" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "13" },
+      { "optionId": "D", "text": "14" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The series lists consecutive even numbers. 10 + 2 = 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 7, 14, 21, 28, ?",
+    "options": [
+      { "optionId": "A", "text": "32" },
+      { "optionId": "B", "text": "33" },
+      { "optionId": "C", "text": "35" },
+      { "optionId": "D", "text": "36" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The series lists multiples of 7. 28 + 7 = 35.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 100, 90, 80, 70, ?",
+    "options": [
+      { "optionId": "A", "text": "50" },
+      { "optionId": "B", "text": "55" },
+      { "optionId": "C", "text": "60" },
+      { "optionId": "D", "text": "65" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term decreases by 10. 70 − 10 = 60.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 1, 3, 5, 7, 9, ?",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "11" },
+      { "optionId": "C", "text": "12" },
+      { "optionId": "D", "text": "13" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The series lists consecutive odd numbers. 9 + 2 = 11.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 4, 8, 16, 32, ?",
+    "options": [
+      { "optionId": "A", "text": "48" },
+      { "optionId": "B", "text": "56" },
+      { "optionId": "C", "text": "64" },
+      { "optionId": "D", "text": "72" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is double the previous term. 32 × 2 = 64.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 81, 27, 9, 3, ?",
+    "options": [
+      { "optionId": "A", "text": "0" },
+      { "optionId": "B", "text": "1" },
+      { "optionId": "C", "text": "2" },
+      { "optionId": "D", "text": "1/3" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each term is divided by 3. 3 ÷ 3 = 1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 2, 6, 18, 54, ?",
+    "options": [
+      { "optionId": "A", "text": "108" },
+      { "optionId": "B", "text": "144" },
+      { "optionId": "C", "text": "162" },
+      { "optionId": "D", "text": "180" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is multiplied by 3. 54 × 3 = 162.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 200, 100, 50, 25, ?",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "12.5" },
+      { "optionId": "D", "text": "15" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is divided by 2. 25 ÷ 2 = 12.5.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 10, 20, 30, 40, ?",
+    "options": [
+      { "optionId": "A", "text": "45" },
+      { "optionId": "B", "text": "48" },
+      { "optionId": "C", "text": "50" },
+      { "optionId": "D", "text": "55" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term increases by 10. 40 + 10 = 50.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 3, 9, 27, 81, ?",
+    "options": [
+      { "optionId": "A", "text": "162" },
+      { "optionId": "B", "text": "216" },
+      { "optionId": "C", "text": "243" },
+      { "optionId": "D", "text": "270" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is multiplied by 3 (powers of 3). 81 × 3 = 243.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 50, 45, 40, 35, ?",
+    "options": [
+      { "optionId": "A", "text": "25" },
+      { "optionId": "B", "text": "28" },
+      { "optionId": "C", "text": "30" },
+      { "optionId": "D", "text": "32" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term decreases by 5. 35 − 5 = 30.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 1, 4, 9, 16, 25, ?",
+    "options": [
+      { "optionId": "A", "text": "30" },
+      { "optionId": "B", "text": "32" },
+      { "optionId": "C", "text": "35" },
+      { "optionId": "D", "text": "36" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The series lists perfect squares (1², 2², 3², 4², 5²). Next is 6² = 36.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next number in the series: 6, 11, 16, 21, ?",
+    "options": [
+      { "optionId": "A", "text": "24" },
+      { "optionId": "B", "text": "25" },
+      { "optionId": "C", "text": "26" },
+      { "optionId": "D", "text": "28" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term increases by 5. 21 + 5 = 26.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series 2, 4, 6, 8, 10, each term is obtained by adding 2 to the previous term.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The series is an arithmetic progression with a common difference of 2, so the statement is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series 5, 10, 20, 40, 80, the difference between consecutive terms is constant.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The differences are 5, 10, 20, 40 — not constant. This series is geometric (ratio 2), not arithmetic, so the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following series follow a pattern of adding a constant value to reach the next term?",
+    "options": [
+      { "optionId": "A", "text": "2, 4, 6, 8, 10" },
+      { "optionId": "B", "text": "3, 9, 27, 81" },
+      { "optionId": "C", "text": "5, 10, 15, 20" },
+      { "optionId": "D", "text": "1, 2, 4, 8" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "2, 4, 6, 8, 10 adds 2 each time and 5, 10, 15, 20 adds 5 each time — both arithmetic. 3, 9, 27, 81 and 1, 2, 4, 8 are geometric (multiplied by a constant ratio), not additive.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["number-series", "basic-series"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

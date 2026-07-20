@@ -1,0 +1,525 @@
+{
+  "_seedKey": "topic-boats-and-streams",
+  "topic": {
+    "moduleId": "REPLACE_MODULE_ARITHMETIC_ID",
+    "name": "Boats and Streams",
+    "slug": "boats-and-streams",
+    "description": "Relative motion of boats in still water and flowing streams. Downstream and upstream speeds, time and distance on rivers. Estimated reading 20 min; practice 35 min.",
+    "estimatedTime": 55,
+    "difficulty": "medium",
+    "order": 27,
+    "isPublished": true
+  },
+  "theory": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "introduction": "Boats and Streams problems combine the boat's speed in still water with the stream's current. Downstream motion adds the stream speed; upstream motion subtracts it. Competitive exams frequently test finding still-water speed, stream speed, or travel time using the relations between downstream and upstream speeds.",
+    "explanation": "CONCEPT EXPLANATION\n\nLet the speed of the boat in still water be u (km/h or m/s) and the speed of the stream be v. When the boat moves downstream (with the current), effective speed = u + v. When it moves upstream (against the current), effective speed = u − v.\n\nFrom any two of downstream speed, upstream speed, u, and v, the others follow: u = (downstream + upstream) / 2 and v = (downstream − upstream) / 2. Time = Distance / Effective speed. For a round trip on the same route, total time = D/(u+v) + D/(u−v).\n\nREAL-LIFE APPLICATIONS\n\nFerry scheduling, cargo transport on rivers, estimating fuel consumption against currents, and navigation in tidal waters all use these relative-speed ideas.\n\nCOMMON MISTAKES\n\n1) Adding stream speed when moving upstream instead of subtracting.\n2) Using still-water speed directly without adjusting for the stream.\n3) Forgetting that average speed for a round trip is NOT the arithmetic mean of downstream and upstream speeds.\n4) Mixing km/h with m/s without conversion.\n5) Assuming equal times for downstream and upstream legs of equal distance.\n\nIMPORTANT NOTES\n\n• Downstream → add stream speed; upstream → subtract stream speed.\n• u and v must both be positive; u > v for upstream travel to be possible.\n• Round-trip average speed = 2D / (t_down + t_up), not (u+v+u−v)/2.\n• If only times for equal distances are given, use t_down and t_up to find u and v.\n• Relative speed against current always reduces effective speed.",
+    "formulas": [
+      {
+        "title": "Downstream speed",
+        "content": "Speed downstream = Speed in still water + Speed of stream = u + v"
+      },
+      {
+        "title": "Upstream speed",
+        "content": "Speed upstream = Speed in still water − Speed of stream = u − v"
+      },
+      {
+        "title": "Speed in still water",
+        "content": "u = (Downstream speed + Upstream speed) / 2"
+      },
+      {
+        "title": "Speed of stream",
+        "content": "v = (Downstream speed − Upstream speed) / 2"
+      },
+      {
+        "title": "Time for a journey",
+        "content": "Time = Distance / Effective speed (use u + v or u − v as appropriate)"
+      },
+      {
+        "title": "Round-trip time (equal distance D)",
+        "content": "Total time = D/(u + v) + D/(u − v)"
+      }
+    ],
+    "shortcutTips": [
+      {
+        "title": "Halve the sum and difference",
+        "tip": "Still-water speed is half the sum of downstream and upstream speeds; stream speed is half their difference."
+      },
+      {
+        "title": "Round-trip trap",
+        "tip": "Never average downstream and upstream speeds for equal distances — use total distance divided by total time."
+      },
+      {
+        "title": "Equal distance shortcut",
+        "tip": "If downstream and upstream times for the same distance are t1 and t2, then u/v = (t1 + t2)/(t2 − t1)."
+      },
+      {
+        "title": "Check upstream feasibility",
+        "tip": "If upstream speed is negative or zero in your setup, the boat cannot travel upstream — recheck signs."
+      },
+      {
+        "title": "Convert early",
+        "tip": "Convert all speeds to the same unit before forming u ± v."
+      },
+      {
+        "title": "Man in stream analogy",
+        "tip": "A swimmer or boat in a stream follows the same downstream/upstream rules as trains with wind — add or subtract the current."
+      }
+    ],
+    "solvedExamples": [
+      {
+        "problem": "A boat travels 24 km downstream in 2 hours and 16 km upstream in 4 hours. Find the speed of the boat in still water and the speed of the stream.",
+        "solution": "Still-water speed = 8 km/h; stream speed = 2 km/h.",
+        "steps": [
+          "Downstream speed = 24/2 = 12 km/h.",
+          "Upstream speed = 16/4 = 4 km/h.",
+          "Still-water speed u = (12 + 4)/2 = 8 km/h.",
+          "Stream speed v = (12 − 4)/2 = 2 km/h."
+        ]
+      },
+      {
+        "problem": "A man can row 6 km/h in still water. If the stream runs at 2 km/h, how long will he take to row 20 km downstream and return?",
+        "solution": "Total time = 7.5 hours.",
+        "steps": [
+          "Downstream speed = 6 + 2 = 8 km/h; time downstream = 20/8 = 2.5 h.",
+          "Upstream speed = 6 − 2 = 4 km/h; time upstream = 20/4 = 5 h.",
+          "Total time = 2.5 + 5 = 7.5 hours."
+        ]
+      },
+      {
+        "problem": "The speed of a boat in still water is 10 km/h. It takes 5 hours to travel 48 km downstream and return. Find the speed of the stream.",
+        "solution": "Stream speed = 2 km/h.",
+        "steps": [
+          "Let stream speed = v km/h. Downstream = 10 + v; upstream = 10 − v.",
+          "48/(10+v) + 48/(10−v) = 5.",
+          "Solving: 480(10−v) + 480(10+v) = 5(100−v²) ⇒ 9600 = 500 − 5v² ⇒ v² = 4 ⇒ v = 2 km/h."
+        ]
+      }
+    ],
+    "references": []
+  },
+  "exercise": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-boats-and-streams-general",
+    "title": "General Questions",
+    "description": "MCQ practice on downstream/upstream speeds, still-water speed, stream speed, and round-trip problems.",
+    "order": 1,
+    "isPublished": true
+  },
+  "questions": [
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat goes 30 km downstream in 3 hours and returns upstream in 5 hours. What is the speed of the stream?",
+      "options": [
+        { "optionId": "A", "text": "1 km/h" },
+        { "optionId": "B", "text": "2 km/h" },
+        { "optionId": "C", "text": "3 km/h" },
+        { "optionId": "D", "text": "4 km/h" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Downstream = 10 km/h, upstream = 6 km/h. Stream = (10−6)/2 = 2 km/h.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A man rows at 8 km/h in still water. The stream flows at 2 km/h. What is his downstream speed?",
+      "options": [
+        { "optionId": "A", "text": "6 km/h" },
+        { "optionId": "B", "text": "8 km/h" },
+        { "optionId": "C", "text": "10 km/h" },
+        { "optionId": "D", "text": "12 km/h" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Downstream speed = 8 + 2 = 10 km/h.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Still-water speed is 12 km/h and stream speed is 3 km/h. What is the upstream speed?",
+      "options": [
+        { "optionId": "A", "text": "9 km/h" },
+        { "optionId": "B", "text": "12 km/h" },
+        { "optionId": "C", "text": "15 km/h" },
+        { "optionId": "D", "text": "18 km/h" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Upstream speed = 12 − 3 = 9 km/h.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Downstream speed is 18 km/h and upstream speed is 6 km/h. Find the speed in still water.",
+      "options": [
+        { "optionId": "A", "text": "6 km/h" },
+        { "optionId": "B", "text": "10 km/h" },
+        { "optionId": "C", "text": "12 km/h" },
+        { "optionId": "D", "text": "14 km/h" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Still-water speed = (18 + 6)/2 = 12 km/h.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat covers 40 km downstream in 4 hours. If the stream speed is 3 km/h, find the still-water speed.",
+      "options": [
+        { "optionId": "A", "text": "7 km/h" },
+        { "optionId": "B", "text": "10 km/h" },
+        { "optionId": "C", "text": "13 km/h" },
+        { "optionId": "D", "text": "16 km/h" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Downstream = 10 km/h = u + 3 ⇒ u = 7 km/h.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat takes 3 hours to travel 36 km downstream and 6 hours to return. What is the speed of the boat in still water?",
+      "options": [
+        { "optionId": "A", "text": "6 km/h" },
+        { "optionId": "B", "text": "7 km/h" },
+        { "optionId": "C", "text": "8 km/h" },
+        { "optionId": "D", "text": "9 km/h" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Downstream = 12 km/h, upstream = 6 km/h. u = (12+6)/2 = 9 km/h.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A man can row 5 km/h in still water. With a current of 1 km/h, how long to row 12 km upstream?",
+      "options": [
+        { "optionId": "A", "text": "2 hours" },
+        { "optionId": "B", "text": "2.5 hours" },
+        { "optionId": "C", "text": "3 hours" },
+        { "optionId": "D", "text": "4 hours" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Upstream speed = 5 − 1 = 4 km/h. Time = 12/4 = 3 hours.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The ratio of downstream to upstream speed of a boat is 5 : 3. If the stream speed is 4 km/h, find the still-water speed.",
+      "options": [
+        { "optionId": "A", "text": "12 km/h" },
+        { "optionId": "B", "text": "14 km/h" },
+        { "optionId": "C", "text": "16 km/h" },
+        { "optionId": "D", "text": "18 km/h" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Let u = still water, v = 4. (u+4)/(u−4) = 5/3 ⇒ 3u+12 = 5u−20 ⇒ u = 16 km/h.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat rows 15 km downstream in 2 hours and the same distance upstream in 3 hours. Find the stream speed.",
+      "options": [
+        { "optionId": "A", "text": "1.25 km/h" },
+        { "optionId": "B", "text": "2.5 km/h" },
+        { "optionId": "C", "text": "3.75 km/h" },
+        { "optionId": "D", "text": "5 km/h" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Downstream = 7.5 km/h, upstream = 5 km/h. v = (7.5−5)/2 = 1.25 km/h.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat's speed in still water is 15 km/h. It goes 60 km downstream and back in 8 hours. Find the stream speed.",
+      "options": [
+        { "optionId": "A", "text": "3 km/h" },
+        { "optionId": "B", "text": "5 km/h" },
+        { "optionId": "C", "text": "7 km/h" },
+        { "optionId": "D", "text": "9 km/h" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "60/(15+v) + 60/(15−v) = 8 ⇒ solving gives v = 5 km/h.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat travels 28 km downstream in 2 hours and 12 km upstream in 2 hours. What is the ratio of still-water speed to stream speed?",
+      "options": [
+        { "optionId": "A", "text": "5 : 1" },
+        { "optionId": "B", "text": "4 : 1" },
+        { "optionId": "C", "text": "3 : 1" },
+        { "optionId": "D", "text": "2 : 1" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Down = 14, up = 6. u = 10, v = 4. Ratio u:v = 10:4 = 5:1.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A man rows 10 km/h in still water. He takes 1 hour more to row 24 km upstream than downstream. Find the stream speed.",
+      "options": [
+        { "optionId": "A", "text": "1 km/h" },
+        { "optionId": "B", "text": "2 km/h" },
+        { "optionId": "C", "text": "3 km/h" },
+        { "optionId": "D", "text": "4 km/h" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "24/(10−v) − 24/(10+v) = 1 ⇒ solving gives v = 2 km/h.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Downstream speed is 20 km/h and upstream speed is 12 km/h. How long to go 32 km downstream?",
+      "options": [
+        { "optionId": "A", "text": "1.2 hours" },
+        { "optionId": "B", "text": "1.4 hours" },
+        { "optionId": "C", "text": "1.6 hours" },
+        { "optionId": "D", "text": "1.8 hours" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Time = 32/20 = 1.6 hours.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat goes 48 km downstream in 4 hours. The return journey takes 8 hours. Find the average speed for the round trip.",
+      "options": [
+        { "optionId": "A", "text": "6 km/h" },
+        { "optionId": "B", "text": "8 km/h" },
+        { "optionId": "C", "text": "9 km/h" },
+        { "optionId": "D", "text": "10 km/h" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total distance = 96 km, total time = 12 h. Average = 96/12 = 8 km/h.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Speed in still water is 18 km/h. Stream is 6 km/h. Time to travel 48 km downstream and 48 km upstream?",
+      "options": [
+        { "optionId": "A", "text": "6 hours" },
+        { "optionId": "B", "text": "7 hours" },
+        { "optionId": "C", "text": "8 hours" },
+        { "optionId": "D", "text": "9 hours" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Downstream: 48/(18+6) = 2 h. Upstream: 48/(18−6) = 4 h. Total = 6 hours.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat covers a certain distance downstream in 2 hours and returns in 3 hours. If the stream speed is 2 km/h, find the distance.",
+      "options": [
+        { "optionId": "A", "text": "20 km" },
+        { "optionId": "B", "text": "24 km" },
+        { "optionId": "C", "text": "28 km" },
+        { "optionId": "D", "text": "30 km" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let D be distance, u still water. D/(u+2)=2, D/(u−2)=3. From these u=10, D=24 km.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The speed of a boat in still water is 10 km/h. A man rows to a place 30 km away and back in 7 hours. Find the stream speed.",
+      "options": [
+        { "optionId": "A", "text": "1 km/h" },
+        { "optionId": "B", "text": "2 km/h" },
+        { "optionId": "C", "text": "3 km/h" },
+        { "optionId": "D", "text": "4 km/h" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "30/(10+v) + 30/(10−v) = 7 ⇒ v = 2 km/h.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat running downstream covers 16 km in 2 hours, while upstream it covers the same distance in 4 hours. What is the speed of the stream?",
+      "options": [
+        { "optionId": "A", "text": "1 km/h" },
+        { "optionId": "B", "text": "2 km/h" },
+        { "optionId": "C", "text": "3 km/h" },
+        { "optionId": "D", "text": "4 km/h" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Down = 8 km/h, up = 4 km/h. Stream = (8−4)/2 = 2 km/h.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat takes twice as long to row 20 km upstream as to row 20 km downstream. If stream speed is 3 km/h, find still-water speed.",
+      "options": [
+        { "optionId": "A", "text": "7 km/h" },
+        { "optionId": "B", "text": "8 km/h" },
+        { "optionId": "C", "text": "9 km/h" },
+        { "optionId": "D", "text": "10 km/h" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "20/(u−3) = 2 × 20/(u+3) ⇒ u+3 = 2u−6 ⇒ u = 9 km/h.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat goes 21 km downstream and 9 km upstream in 3 hours. It goes 12 km downstream and 18 km upstream in 3 hours. Find still-water speed.",
+      "options": [
+        { "optionId": "A", "text": "6 km/h" },
+        { "optionId": "B", "text": "7 km/h" },
+        { "optionId": "C", "text": "8 km/h" },
+        { "optionId": "D", "text": "9 km/h" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "21/(u+v)+9/(u−v)=3 and 12/(u+v)+18/(u−v)=3. Solving: u=8, v=1 km/h.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A man rows at 4 km/h in still water. He rows to a point 12 km away and back in 6 hours 40 minutes. Find the stream speed.",
+      "options": [
+        { "optionId": "A", "text": "0.5 km/h" },
+        { "optionId": "B", "text": "1 km/h" },
+        { "optionId": "C", "text": "1.5 km/h" },
+        { "optionId": "D", "text": "2 km/h" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "20/3 h total. 12/(4+v)+12/(4−v)=20/3 ⇒ v=1 km/h.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If downstream speed is 24 km/h and upstream speed is 16 km/h, what distance is covered downstream in 45 minutes?",
+      "options": [
+        { "optionId": "A", "text": "16 km" },
+        { "optionId": "B", "text": "18 km" },
+        { "optionId": "C", "text": "20 km" },
+        { "optionId": "D", "text": "22 km" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "45 min = 0.75 h. Distance = 24 × 0.75 = 18 km.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A boat can travel with a speed of 13 km/h in still water. If the speed of the stream is 4 km/h, find the time taken to go 68 km downstream.",
+      "options": [
+        { "optionId": "A", "text": "3 hours" },
+        { "optionId": "B", "text": "4 hours" },
+        { "optionId": "C", "text": "5 hours" },
+        { "optionId": "D", "text": "6 hours" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Downstream = 17 km/h. Time = 68/17 = 4 hours.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["boats-and-streams"],
+      "questionType": "MCQ"
+    }
+  ]
+}

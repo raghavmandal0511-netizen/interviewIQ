@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If A + B means A is the father of B, what does P + Q mean?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "P is father of Q"
+      },
+      {
+        "optionId": "B",
+        "text": "Q is father of P"
+      },
+      {
+        "optionId": "C",
+        "text": "P is mother of Q"
+      },
+      {
+        "optionId": "D",
+        "text": "P is brother of Q"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By definition A + B → A is father of B, so P is father of Q.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Codes: X × Y means X is sister of Y; X + Y means X is brother of Y. What is A to C in A × B + C?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Sister"
+      },
+      {
+        "optionId": "B",
+        "text": "Brother"
+      },
+      {
+        "optionId": "C",
+        "text": "Mother"
+      },
+      {
+        "optionId": "D",
+        "text": "Father"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B + C → B brother of C (siblings). A × B → A sister of B → A sister of C.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "P @ Q means P is wife of Q; P $ Q means P is father of Q. In A @ B $ C, A is C's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Mother"
+      },
+      {
+        "optionId": "B",
+        "text": "Father"
+      },
+      {
+        "optionId": "C",
+        "text": "Aunt"
+      },
+      {
+        "optionId": "D",
+        "text": "Sister"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B $ C → B father of C. A @ B → A wife of B → mother of C.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A © B means A is mother of B; A # B means A is father of B. A © B # C means A is C's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Grandmother"
+      },
+      {
+        "optionId": "B",
+        "text": "Mother"
+      },
+      {
+        "optionId": "C",
+        "text": "Sister"
+      },
+      {
+        "optionId": "D",
+        "text": "Aunt"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B # C → B father of C. A © B → A mother of B → grandmother of C.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A ÷ B means A is son of B. In P ÷ Q ÷ R, P is R's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Grandson"
+      },
+      {
+        "optionId": "B",
+        "text": "Son"
+      },
+      {
+        "optionId": "C",
+        "text": "Father"
+      },
+      {
+        "optionId": "D",
+        "text": "Uncle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P son of Q and Q son of R → P grandson of R.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A * B means A is brother of B; A − B means A is sister of B. A * B − C: A is C's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Brother"
+      },
+      {
+        "optionId": "B",
+        "text": "Sister"
+      },
+      {
+        "optionId": "C",
+        "text": "Father"
+      },
+      {
+        "optionId": "D",
+        "text": "Mother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B − C → siblings. A * B → A brother of B → brother of C.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "M + N means M is husband of N; M × N means M is son of N. A + B × C: A is C's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Son-in-law"
+      },
+      {
+        "optionId": "B",
+        "text": "Son"
+      },
+      {
+        "optionId": "C",
+        "text": "Brother"
+      },
+      {
+        "optionId": "D",
+        "text": "Father"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B × C → B son of C. A + B → A husband of B → son-in-law of C.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "X Δ Y means X is father of Y; X Ω Y means X is mother of Y. A Δ B Ω C: A is C's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Maternal grandfather"
+      },
+      {
+        "optionId": "B",
+        "text": "Father"
+      },
+      {
+        "optionId": "C",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "D",
+        "text": "Brother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B Ω C → B mother of C. A Δ B → A father of B → maternal grandfather of C.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "P % Q means P is daughter of Q; P & Q means P is son of Q. A % B & C: A is C's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Granddaughter"
+      },
+      {
+        "optionId": "B",
+        "text": "Daughter"
+      },
+      {
+        "optionId": "C",
+        "text": "Niece"
+      },
+      {
+        "optionId": "D",
+        "text": "Mother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B & C → B son of C. A % B → A daughter of B → granddaughter of C.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "L @ M means L is sister of M; L ! M means L is brother of M. G ! H @ I: G is I's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Brother"
+      },
+      {
+        "optionId": "B",
+        "text": "Sister"
+      },
+      {
+        "optionId": "C",
+        "text": "Father"
+      },
+      {
+        "optionId": "D",
+        "text": "Mother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "H @ I → H sister of I. G ! H → G brother of H → brother of I.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A $ B = A is father of B; A # B = A is mother of B; A * B = A is brother of B. P $ Q * R # S. P is S's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Maternal grandfather"
+      },
+      {
+        "optionId": "B",
+        "text": "Father"
+      },
+      {
+        "optionId": "C",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "D",
+        "text": "Brother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "R # S → R mother of S. Q * R → Q brother of R. P $ Q → P father of Q → maternal grandfather of S.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "P × Q = P is son of Q; P + Q = P is daughter of Q. A × B + C: A is C's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Grandson"
+      },
+      {
+        "optionId": "B",
+        "text": "Son"
+      },
+      {
+        "optionId": "C",
+        "text": "Daughter"
+      },
+      {
+        "optionId": "D",
+        "text": "Niece"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B + C → B daughter of C. A × B → A son of B → grandson of C.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If A ⊕ B means A is father of B, which must be true?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "A is male"
+      },
+      {
+        "optionId": "B",
+        "text": "B is male"
+      },
+      {
+        "optionId": "C",
+        "text": "A is female"
+      },
+      {
+        "optionId": "D",
+        "text": "B is father of A"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A father is male.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "First step in a coded blood-relation question is to:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Decode each symbol using the legend"
+      },
+      {
+        "optionId": "B",
+        "text": "Assume everyone is male"
+      },
+      {
+        "optionId": "C",
+        "text": "Ignore the codes"
+      },
+      {
+        "optionId": "D",
+        "text": "Answer from real family"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Convert codes to English using the given meanings.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A ↑ B means A is parent of B; A ↓ B means A is child of B. If A ↑ B and C ↑ B, A and C are most likely:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "The two parents of B"
+      },
+      {
+        "optionId": "B",
+        "text": "Siblings of B"
+      },
+      {
+        "optionId": "C",
+        "text": "Children of B"
+      },
+      {
+        "optionId": "D",
+        "text": "Unrelated strangers only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Both are parents of B (mother and father), unless A and C are the same person.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In symbol problems, you must use only the meanings given in that question's legend.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each question defines its own code.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If A + B means A is father of B, then B + A means B is father of A.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The operator meaning stays; names swap roles.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Useful steps for symbol-based blood relations include:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rewrite as English"
+      },
+      {
+        "optionId": "B",
+        "text": "Draw a family tree"
+      },
+      {
+        "optionId": "C",
+        "text": "Mark genders when known"
+      },
+      {
+        "optionId": "D",
+        "text": "Ignore the legend"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Decode, draw, and mark genders; never ignore the legend.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "blood-relation-test",
+      "symbol-relations"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

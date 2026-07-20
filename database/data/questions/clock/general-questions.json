@@ -1,0 +1,794 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Angle at 3:00?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "60°"
+      },
+      {
+        "optionId": "B",
+        "text": "75°"
+      },
+      {
+        "optionId": "C",
+        "text": "90°"
+      },
+      {
+        "optionId": "D",
+        "text": "120°"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "θ = 90°.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "clock",
+      "angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Angle at 6:00?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "90°"
+      },
+      {
+        "optionId": "B",
+        "text": "120°"
+      },
+      {
+        "optionId": "C",
+        "text": "150°"
+      },
+      {
+        "optionId": "D",
+        "text": "180°"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "θ = 180°.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "clock",
+      "angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Angle at 4:20?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "0°"
+      },
+      {
+        "optionId": "B",
+        "text": "10°"
+      },
+      {
+        "optionId": "C",
+        "text": "20°"
+      },
+      {
+        "optionId": "D",
+        "text": "30°"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "|120−110|=10°.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "clock",
+      "angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Smaller angle at 9:30?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "90°"
+      },
+      {
+        "optionId": "B",
+        "text": "105°"
+      },
+      {
+        "optionId": "C",
+        "text": "120°"
+      },
+      {
+        "optionId": "D",
+        "text": "135°"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "|270−165|=105°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "clock",
+      "angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Smaller angle at 1:50?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "85°"
+      },
+      {
+        "optionId": "B",
+        "text": "95°"
+      },
+      {
+        "optionId": "C",
+        "text": "105°"
+      },
+      {
+        "optionId": "D",
+        "text": "115°"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "245° → smaller 115°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "clock",
+      "angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Coincide between 1 and 2?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1:05 5/11"
+      },
+      {
+        "optionId": "B",
+        "text": "1:06 6/11"
+      },
+      {
+        "optionId": "C",
+        "text": "1:07 7/11"
+      },
+      {
+        "optionId": "D",
+        "text": "1:08 8/11"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "60/11 min past 1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "clock",
+      "coincidence"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Coincide between 2 and 3?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2:09 1/11"
+      },
+      {
+        "optionId": "B",
+        "text": "2:10 10/11"
+      },
+      {
+        "optionId": "C",
+        "text": "2:11 9/11"
+      },
+      {
+        "optionId": "D",
+        "text": "2:12 8/11"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "120/11 min past 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "clock",
+      "coincidence"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Opposite between 4 and 5?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4:54 6/11"
+      },
+      {
+        "optionId": "B",
+        "text": "5:00"
+      },
+      {
+        "optionId": "C",
+        "text": "4:48 4/11"
+      },
+      {
+        "optionId": "D",
+        "text": "4:50 5/11"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "M=54 6/11 from |120−5.5M|=180.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "clock",
+      "opposite"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Mirror shows 8:25. Actual?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3:25"
+      },
+      {
+        "optionId": "B",
+        "text": "3:35"
+      },
+      {
+        "optionId": "C",
+        "text": "4:25"
+      },
+      {
+        "optionId": "D",
+        "text": "4:35"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "720−505=215 min=3:35.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "clock",
+      "mirror"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Mirror shows 1:30. Actual?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10:30"
+      },
+      {
+        "optionId": "B",
+        "text": "10:20"
+      },
+      {
+        "optionId": "C",
+        "text": "11:30"
+      },
+      {
+        "optionId": "D",
+        "text": "11:20"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "720−90=10:30.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "clock",
+      "mirror"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Mirror shows 6:10. Actual?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5:40"
+      },
+      {
+        "optionId": "B",
+        "text": "5:50"
+      },
+      {
+        "optionId": "C",
+        "text": "6:40"
+      },
+      {
+        "optionId": "D",
+        "text": "6:50"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "720−370=5:50.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "clock",
+      "mirror"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Coincidences in 12 hours?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10"
+      },
+      {
+        "optionId": "B",
+        "text": "11"
+      },
+      {
+        "optionId": "C",
+        "text": "12"
+      },
+      {
+        "optionId": "D",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "11 times.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "clock",
+      "coincidence"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Opposite positions in 12 hours?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10"
+      },
+      {
+        "optionId": "B",
+        "text": "11"
+      },
+      {
+        "optionId": "C",
+        "text": "12"
+      },
+      {
+        "optionId": "D",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "11 times.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "clock",
+      "opposite"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Right angles in 12 hours?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "11"
+      },
+      {
+        "optionId": "B",
+        "text": "22"
+      },
+      {
+        "optionId": "C",
+        "text": "24"
+      },
+      {
+        "optionId": "D",
+        "text": "44"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "22 times.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "clock",
+      "right-angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Smaller angle at 5:15?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "45°"
+      },
+      {
+        "optionId": "B",
+        "text": "52.5°"
+      },
+      {
+        "optionId": "C",
+        "text": "67.5°"
+      },
+      {
+        "optionId": "D",
+        "text": "75°"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "|150−82.5|=67.5°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "clock",
+      "angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Smaller angle at 8:00?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "90°"
+      },
+      {
+        "optionId": "B",
+        "text": "100°"
+      },
+      {
+        "optionId": "C",
+        "text": "110°"
+      },
+      {
+        "optionId": "D",
+        "text": "120°"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "240° → smaller 120°.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "clock",
+      "angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Loses 6 min/hr; set at 6 AM. Shows when true is noon?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "11:18"
+      },
+      {
+        "optionId": "B",
+        "text": "11:24"
+      },
+      {
+        "optionId": "C",
+        "text": "11:30"
+      },
+      {
+        "optionId": "D",
+        "text": "11:36"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Loses 36 min in 6 hr.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "clock",
+      "faulty"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "First right angle between 8 and 9?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8:16 4/11"
+      },
+      {
+        "optionId": "B",
+        "text": "8:21 9/11"
+      },
+      {
+        "optionId": "C",
+        "text": "8:27 3/11"
+      },
+      {
+        "optionId": "D",
+        "text": "8:32 8/11"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "M=27 3/11.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "clock",
+      "right-angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Minutes after 3 when hands first coincide?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "16 4/11"
+      },
+      {
+        "optionId": "B",
+        "text": "18 2/11"
+      },
+      {
+        "optionId": "C",
+        "text": "19 1/11"
+      },
+      {
+        "optionId": "D",
+        "text": "21 9/11"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "180/11 min.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "clock",
+      "coincidence"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Smaller angle at 10:15?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "142.5°"
+      },
+      {
+        "optionId": "B",
+        "text": "157.5°"
+      },
+      {
+        "optionId": "C",
+        "text": "172.5°"
+      },
+      {
+        "optionId": "D",
+        "text": "187.5°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "217.5° → 142.5°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "clock",
+      "angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Straight line (not coincident) between 9 and 10?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "9:15"
+      },
+      {
+        "optionId": "B",
+        "text": "9:32 8/11"
+      },
+      {
+        "optionId": "C",
+        "text": "9:43 7/11"
+      },
+      {
+        "optionId": "D",
+        "text": "9:49 1/11"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Opposite at 9:32 8/11.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "clock",
+      "opposite"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Minute hand is how many times faster than hour hand?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "10"
+      },
+      {
+        "optionId": "C",
+        "text": "12"
+      },
+      {
+        "optionId": "D",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "6÷0.5=12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "clock",
+      "concept"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Smaller angle at 11:20?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "110°"
+      },
+      {
+        "optionId": "B",
+        "text": "120°"
+      },
+      {
+        "optionId": "C",
+        "text": "130°"
+      },
+      {
+        "optionId": "D",
+        "text": "140°"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "220° → 140°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "clock",
+      "angle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Gains 4 min/hr; set at noon. Shows when true is 3 PM?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3:12"
+      },
+      {
+        "optionId": "B",
+        "text": "3:15"
+      },
+      {
+        "optionId": "C",
+        "text": "3:16"
+      },
+      {
+        "optionId": "D",
+        "text": "3:20"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Gains 12 min in 3 hr.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "clock",
+      "faulty"
+    ],
+    "questionType": "MCQ"
+  }
+]

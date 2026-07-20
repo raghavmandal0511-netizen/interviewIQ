@@ -1,0 +1,761 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Volume of cube edge 4 cm?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "48"
+      },
+      {
+        "optionId": "B",
+        "text": "56"
+      },
+      {
+        "optionId": "C",
+        "text": "64"
+      },
+      {
+        "optionId": "D",
+        "text": "72"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "4³=64 cm³.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "volume",
+      "cube"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "TSA of cube edge 3 cm?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "36"
+      },
+      {
+        "optionId": "B",
+        "text": "48"
+      },
+      {
+        "optionId": "C",
+        "text": "54"
+      },
+      {
+        "optionId": "D",
+        "text": "72"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "6×9=54 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "surface-area",
+      "cube"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cuboid 10×8×6 cm. Volume?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "460"
+      },
+      {
+        "optionId": "B",
+        "text": "470"
+      },
+      {
+        "optionId": "C",
+        "text": "480"
+      },
+      {
+        "optionId": "D",
+        "text": "490"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "480 cm³.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "volume",
+      "cuboid"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cylinder r=7 cm, h=5 cm (π=22/7). Volume?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "720"
+      },
+      {
+        "optionId": "B",
+        "text": "740"
+      },
+      {
+        "optionId": "C",
+        "text": "770"
+      },
+      {
+        "optionId": "D",
+        "text": "800"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "22/7×49×5=770 cm³.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "volume",
+      "cylinder"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cylinder r=7 cm, h=10 cm. CSA (π=22/7)?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "400"
+      },
+      {
+        "optionId": "B",
+        "text": "420"
+      },
+      {
+        "optionId": "C",
+        "text": "440"
+      },
+      {
+        "optionId": "D",
+        "text": "460"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "2×22/7×7×10=440 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "surface-area",
+      "cylinder"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cone r=6 cm, h=7 cm (π=22/7). Volume?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "254"
+      },
+      {
+        "optionId": "B",
+        "text": "264"
+      },
+      {
+        "optionId": "C",
+        "text": "274"
+      },
+      {
+        "optionId": "D",
+        "text": "284"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "⅓×22/7×36×7=264 cm³.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "volume",
+      "cone"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Sphere r=7 cm (π=22/7). Volume?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1437"
+      },
+      {
+        "optionId": "B",
+        "text": "1440"
+      },
+      {
+        "optionId": "C",
+        "text": "1437 1/3"
+      },
+      {
+        "optionId": "D",
+        "text": "1540"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "4/3×22/7×343=1437 1/3 cm³.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "volume",
+      "sphere"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Sphere r=7 cm. Surface area (π=22/7)?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "600"
+      },
+      {
+        "optionId": "B",
+        "text": "616"
+      },
+      {
+        "optionId": "C",
+        "text": "628"
+      },
+      {
+        "optionId": "D",
+        "text": "644"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "4×22/7×49=616 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "surface-area",
+      "sphere"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Hemisphere r=7 cm. CSA (π=22/7)?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "300"
+      },
+      {
+        "optionId": "B",
+        "text": "308"
+      },
+      {
+        "optionId": "C",
+        "text": "316"
+      },
+      {
+        "optionId": "D",
+        "text": "324"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "2×22/7×49=308 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "surface-area",
+      "hemisphere"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Hemisphere r=7 cm. TSA (π=22/7)?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "462"
+      },
+      {
+        "optionId": "B",
+        "text": "472"
+      },
+      {
+        "optionId": "C",
+        "text": "482"
+      },
+      {
+        "optionId": "D",
+        "text": "492"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "308+154=462 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "surface-area",
+      "hemisphere"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many litres in a 50 cm × 40 cm × 30 cm tank?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "50"
+      },
+      {
+        "optionId": "B",
+        "text": "55"
+      },
+      {
+        "optionId": "C",
+        "text": "60"
+      },
+      {
+        "optionId": "D",
+        "text": "65"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "60000 cm³=60 L.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "volume",
+      "application"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cube volume 512 cm³. Edge?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "7"
+      },
+      {
+        "optionId": "C",
+        "text": "8"
+      },
+      {
+        "optionId": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "∛512=8 cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "volume",
+      "cube"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cylinder and cone same r,h. Volume ratio cylinder:cone?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1:1"
+      },
+      {
+        "optionId": "B",
+        "text": "2:1"
+      },
+      {
+        "optionId": "C",
+        "text": "3:1"
+      },
+      {
+        "optionId": "D",
+        "text": "4:1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cone is one-third of cylinder.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "volume",
+      "cone"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Metal sphere r=3 cm melted into cylinder r=3 cm. Height?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2"
+      },
+      {
+        "optionId": "B",
+        "text": "3"
+      },
+      {
+        "optionId": "C",
+        "text": "4"
+      },
+      {
+        "optionId": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "4/3×27=π×9×h → h=4 cm.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "volume",
+      "application"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Open-top cylindrical drum r=7 cm, h=10 cm. Material area (π=22/7)?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "594"
+      },
+      {
+        "optionId": "B",
+        "text": "604"
+      },
+      {
+        "optionId": "C",
+        "text": "614"
+      },
+      {
+        "optionId": "D",
+        "text": "624"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "πr²+2πrh=154+440=594 cm².",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "surface-area",
+      "cylinder"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cuboid TSA 94 cm²; l=5,b=4. Height?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2"
+      },
+      {
+        "optionId": "B",
+        "text": "2.5"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "3.5"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "2(20+4h+5h)=94 → h=3.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "surface-area",
+      "cuboid"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Sphere SA 616 cm² (π=22/7). Radius?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "7"
+      },
+      {
+        "optionId": "C",
+        "text": "8"
+      },
+      {
+        "optionId": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "4πr²=616 → r=7.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "surface-area",
+      "sphere"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cube edge doubled. Volume becomes?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2×"
+      },
+      {
+        "optionId": "B",
+        "text": "4×"
+      },
+      {
+        "optionId": "C",
+        "text": "6×"
+      },
+      {
+        "optionId": "D",
+        "text": "8×"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Volume scales as cube of edge.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "volume",
+      "cube"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Pipe inner r=2 cm, length 50 cm (π=3.14). Volume?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "520"
+      },
+      {
+        "optionId": "B",
+        "text": "600"
+      },
+      {
+        "optionId": "C",
+        "text": "628"
+      },
+      {
+        "optionId": "D",
+        "text": "720"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "3.14×4×50=628 cm³.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "volume",
+      "cylinder"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cone slant l=13, r=5. Height?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10"
+      },
+      {
+        "optionId": "B",
+        "text": "11"
+      },
+      {
+        "optionId": "C",
+        "text": "12"
+      },
+      {
+        "optionId": "D",
+        "text": "13"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "h=√(169−25)=12 cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "volume",
+      "cone"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Three cubes of edge 3 cm glued in a row. Outer TSA?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "108 cm²"
+      },
+      {
+        "optionId": "B",
+        "text": "126 cm²"
+      },
+      {
+        "optionId": "C",
+        "text": "144 cm²"
+      },
+      {
+        "optionId": "D",
+        "text": "162 cm²"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Three cubes TSA 162 cm² minus 4 hidden faces (36 cm²) = 126 cm².",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "surface-area",
+      "composite"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Hemisphere volume 723.33 cm³ (π=3.14). Radius approx?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "7"
+      },
+      {
+        "optionId": "C",
+        "text": "8"
+      },
+      {
+        "optionId": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "2/3×3.14×r³=723.33 → r≈7.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "volume",
+      "hemisphere"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cuboid volume 360 cm³; base 12×5. Height?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5"
+      },
+      {
+        "optionId": "B",
+        "text": "6"
+      },
+      {
+        "optionId": "C",
+        "text": "7"
+      },
+      {
+        "optionId": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "360/60=6 cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "volume",
+      "cuboid"
+    ],
+    "questionType": "MCQ"
+  }
+]

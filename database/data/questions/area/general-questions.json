@@ -1,0 +1,794 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Area of rectangle 15 cm × 6 cm?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "80"
+      },
+      {
+        "optionId": "B",
+        "text": "85"
+      },
+      {
+        "optionId": "C",
+        "text": "90"
+      },
+      {
+        "optionId": "D",
+        "text": "95"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "15×6=90 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "area",
+      "rectangle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Area of square of side 9 m?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "72"
+      },
+      {
+        "optionId": "B",
+        "text": "81"
+      },
+      {
+        "optionId": "C",
+        "text": "90"
+      },
+      {
+        "optionId": "D",
+        "text": "99"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "9²=81 m².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "area",
+      "square"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Triangle base 14 cm, height 5 cm. Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "30"
+      },
+      {
+        "optionId": "B",
+        "text": "35"
+      },
+      {
+        "optionId": "C",
+        "text": "40"
+      },
+      {
+        "optionId": "D",
+        "text": "45"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "½×14×5=35 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "area",
+      "triangle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Circle radius 7 cm (π=22/7). Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "144"
+      },
+      {
+        "optionId": "B",
+        "text": "154"
+      },
+      {
+        "optionId": "C",
+        "text": "164"
+      },
+      {
+        "optionId": "D",
+        "text": "174"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "22/7×49=154 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "area",
+      "circle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Circle diameter 10 cm (π=3.14). Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "31.4"
+      },
+      {
+        "optionId": "B",
+        "text": "62.8"
+      },
+      {
+        "optionId": "C",
+        "text": "78.5"
+      },
+      {
+        "optionId": "D",
+        "text": "314"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "r=5; 3.14×25=78.5 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "area",
+      "circle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rhombus diagonals 12 cm and 16 cm. Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "84"
+      },
+      {
+        "optionId": "B",
+        "text": "92"
+      },
+      {
+        "optionId": "C",
+        "text": "96"
+      },
+      {
+        "optionId": "D",
+        "text": "104"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "½×12×16=96 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "area",
+      "rhombus"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Trapezium parallel sides 10 cm, 14 cm; height 8 cm. Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "88"
+      },
+      {
+        "optionId": "B",
+        "text": "92"
+      },
+      {
+        "optionId": "C",
+        "text": "96"
+      },
+      {
+        "optionId": "D",
+        "text": "100"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "½×24×8=96 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "area",
+      "trapezium"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Parallelogram base 11 cm, height 7 cm. Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "67"
+      },
+      {
+        "optionId": "B",
+        "text": "72"
+      },
+      {
+        "optionId": "C",
+        "text": "77"
+      },
+      {
+        "optionId": "D",
+        "text": "82"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "11×7=77 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "area",
+      "parallelogram"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Equilateral triangle side 4 cm. Area (√3≈1.732)?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6.0"
+      },
+      {
+        "optionId": "B",
+        "text": "6.9"
+      },
+      {
+        "optionId": "C",
+        "text": "7.8"
+      },
+      {
+        "optionId": "D",
+        "text": "8.7"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "√3/4×16≈6.93 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "area",
+      "triangle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Semicircle radius 14 cm (π=22/7). Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "154"
+      },
+      {
+        "optionId": "B",
+        "text": "264"
+      },
+      {
+        "optionId": "C",
+        "text": "308"
+      },
+      {
+        "optionId": "D",
+        "text": "616"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "½×22/7×196=308 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "area",
+      "circle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A room 5 m × 4 m needs tiles of 20 cm × 20 cm. Tiles required?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "400"
+      },
+      {
+        "optionId": "B",
+        "text": "450"
+      },
+      {
+        "optionId": "C",
+        "text": "500"
+      },
+      {
+        "optionId": "D",
+        "text": "550"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Room 500×400 cm; tile 400 cm²; 500 tiles.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "area",
+      "application"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Square and circle have equal perimeter 44 cm. Which has larger area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Square"
+      },
+      {
+        "optionId": "B",
+        "text": "Circle"
+      },
+      {
+        "optionId": "C",
+        "text": "Equal"
+      },
+      {
+        "optionId": "D",
+        "text": "Cannot determine"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Circle encloses maximum area for given perimeter.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "area",
+      "circle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Area of circle is 154 cm² (π=22/7). Radius?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5"
+      },
+      {
+        "optionId": "B",
+        "text": "6"
+      },
+      {
+        "optionId": "C",
+        "text": "7"
+      },
+      {
+        "optionId": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "πr²=154 → r=7 cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "area",
+      "circle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rectangle length doubled, breadth halved. Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Halved"
+      },
+      {
+        "optionId": "B",
+        "text": "Doubled"
+      },
+      {
+        "optionId": "C",
+        "text": "Unchanged"
+      },
+      {
+        "optionId": "D",
+        "text": "Quadrupled"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "2l × b/2 = lb.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "area",
+      "rectangle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Triangle sides 3,4,5 cm. Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5"
+      },
+      {
+        "optionId": "B",
+        "text": "6"
+      },
+      {
+        "optionId": "C",
+        "text": "7"
+      },
+      {
+        "optionId": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Right triangle: ½×3×4=6 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "area",
+      "triangle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Annulus: outer r=5 cm, inner r=3 cm (π=3.14). Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "40.0"
+      },
+      {
+        "optionId": "B",
+        "text": "45.2"
+      },
+      {
+        "optionId": "C",
+        "text": "50.24"
+      },
+      {
+        "optionId": "D",
+        "text": "55.4"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "3.14×(25−9)=50.24 cm².",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "area",
+      "circle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Field 80 m × 60 m with pond 20 m × 10 m. Grassy area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4400 m²"
+      },
+      {
+        "optionId": "B",
+        "text": "4600 m²"
+      },
+      {
+        "optionId": "C",
+        "text": "4700 m²"
+      },
+      {
+        "optionId": "D",
+        "text": "4800 m²"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "4800 − 200 = 4600 m².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "area",
+      "composite"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Square area 144 cm². Perimeter?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "36"
+      },
+      {
+        "optionId": "B",
+        "text": "42"
+      },
+      {
+        "optionId": "C",
+        "text": "48"
+      },
+      {
+        "optionId": "D",
+        "text": "52"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Side=12; perimeter=48 cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "area",
+      "square"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Triangle area 48 cm², base 12 cm. Height?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "7"
+      },
+      {
+        "optionId": "C",
+        "text": "8"
+      },
+      {
+        "optionId": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "48=6h → h=8 cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "area",
+      "triangle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Wheel radius 35 cm (π=22/7). Area of one rotation cover?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3850"
+      },
+      {
+        "optionId": "B",
+        "text": "3950"
+      },
+      {
+        "optionId": "C",
+        "text": "4050"
+      },
+      {
+        "optionId": "D",
+        "text": "4150"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "πr²=22/7×1225=3850 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "area",
+      "circle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "L-shape: rectangle 10×6 minus corner 4×3. Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "48"
+      },
+      {
+        "optionId": "B",
+        "text": "52"
+      },
+      {
+        "optionId": "C",
+        "text": "56"
+      },
+      {
+        "optionId": "D",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "60−12=48 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "area",
+      "composite"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If side of square increased by 20%, area increases by?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "20%"
+      },
+      {
+        "optionId": "B",
+        "text": "40%"
+      },
+      {
+        "optionId": "C",
+        "text": "44%"
+      },
+      {
+        "optionId": "D",
+        "text": "48%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "1.2²=1.44 → 44% increase.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "area",
+      "square"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Circle circumference 44 cm (π=22/7). Area?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "144"
+      },
+      {
+        "optionId": "B",
+        "text": "154"
+      },
+      {
+        "optionId": "C",
+        "text": "164"
+      },
+      {
+        "optionId": "D",
+        "text": "174"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "r=7; area 154 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "area",
+      "circle"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two squares of sides 3 cm and 4 cm. Difference in areas?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5"
+      },
+      {
+        "optionId": "B",
+        "text": "6"
+      },
+      {
+        "optionId": "C",
+        "text": "7"
+      },
+      {
+        "optionId": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "16−9=7 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "area",
+      "square"
+    ],
+    "questionType": "MCQ"
+  }
+]

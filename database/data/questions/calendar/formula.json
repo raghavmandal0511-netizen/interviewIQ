@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many odd days are there in an ordinary (non-leap) year?",
+    "options": [
+      { "optionId": "A", "text": "0" },
+      { "optionId": "B", "text": "1" },
+      { "optionId": "C", "text": "2" },
+      { "optionId": "D", "text": "3" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An ordinary year has 365 days = 52 weeks + 1 day, so it has 1 odd day.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many odd days are there in a leap year?",
+    "options": [
+      { "optionId": "A", "text": "1" },
+      { "optionId": "B", "text": "2" },
+      { "optionId": "C", "text": "3" },
+      { "optionId": "D", "text": "4" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A leap year has 366 days = 52 weeks + 2 days, so it has 2 odd days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many odd days are there in 100 years?",
+    "options": [
+      { "optionId": "A", "text": "3" },
+      { "optionId": "B", "text": "4" },
+      { "optionId": "C", "text": "5" },
+      { "optionId": "D", "text": "6" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "100 years = 76 ordinary years + 24 leap years → 76×1 + 24×2 = 124 odd days; 124 mod 7 = 5.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many odd days are there in 200 years?",
+    "options": [
+      { "optionId": "A", "text": "2" },
+      { "optionId": "B", "text": "3" },
+      { "optionId": "C", "text": "4" },
+      { "optionId": "D", "text": "5" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "200 years = 2 × 100 years → 2 × 5 = 10 odd days; 10 mod 7 = 3.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many odd days are there in 300 years?",
+    "options": [
+      { "optionId": "A", "text": "0" },
+      { "optionId": "B", "text": "1" },
+      { "optionId": "C", "text": "2" },
+      { "optionId": "D", "text": "3" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "300 years = 3 × 100 years → 3 × 5 = 15 odd days; 15 mod 7 = 1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many odd days are there in 400 years?",
+    "options": [
+      { "optionId": "A", "text": "0" },
+      { "optionId": "B", "text": "1" },
+      { "optionId": "C", "text": "2" },
+      { "optionId": "D", "text": "6" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "400 years include one extra leap day, so odd days = (5×4 + 1) mod 7 = 21 mod 7 = 0.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A year is a leap year if it is divisible by 4, but a century year (ending in 00) must be divisible by ___ to be a leap year.",
+    "options": [
+      { "optionId": "A", "text": "4" },
+      { "optionId": "B", "text": "40" },
+      { "optionId": "C", "text": "100" },
+      { "optionId": "D", "text": "400" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Century years are leap years only when divisible by 400 (e.g., 2000 is a leap year, but 1900 is not).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If today is Wednesday, what day will it be after 15 days?",
+    "options": [
+      { "optionId": "A", "text": "Tuesday" },
+      { "optionId": "B", "text": "Wednesday" },
+      { "optionId": "C", "text": "Thursday" },
+      { "optionId": "D", "text": "Friday" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "15 mod 7 = 1 odd day, so the day advances by 1: Wednesday + 1 = Thursday.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using the convention Sunday = 0, Monday = 1, ..., Saturday = 6, which day corresponds to an odd-day code of 3?",
+    "options": [
+      { "optionId": "A", "text": "Tuesday" },
+      { "optionId": "B", "text": "Wednesday" },
+      { "optionId": "C", "text": "Thursday" },
+      { "optionId": "D", "text": "Saturday" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "With Sunday = 0, code 3 maps to Wednesday.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "To find the day of the week from total odd days, we take the total modulo which number?",
+    "options": [
+      { "optionId": "A", "text": "5" },
+      { "optionId": "B", "text": "6" },
+      { "optionId": "C", "text": "7" },
+      { "optionId": "D", "text": "12" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A week has 7 days, so total odd days are reduced modulo 7 to find the weekday.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which statement correctly defines a leap year?",
+    "options": [
+      { "optionId": "A", "text": "Every year divisible by 4" },
+      { "optionId": "B", "text": "Years divisible by 4, but century years only if divisible by 400" },
+      { "optionId": "C", "text": "Every even year" },
+      { "optionId": "D", "text": "Years divisible by 100" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A year is a leap year if divisible by 4; for century years, it must also be divisible by 400.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the total number of odd days across one ordinary year immediately followed by one leap year?",
+    "options": [
+      { "optionId": "A", "text": "2" },
+      { "optionId": "B", "text": "3" },
+      { "optionId": "C", "text": "4" },
+      { "optionId": "D", "text": "5" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ordinary year (1 odd day) + leap year (2 odd days) = 3 odd days total.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A leap year has 2 odd days.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "366 days = 52 weeks + 2 days, giving 2 odd days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["calendar", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Every year divisible by 4 is always a leap year, with no exceptions.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Century years divisible by 4 but not by 400 (e.g., 1900) are exceptions and are not leap years.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["calendar", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Odd days are always calculated using modulo 7 because a week has 7 days.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since the calendar repeats every 7 days, odd days are found using modulo 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["calendar", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following are leap years?",
+    "options": [
+      { "optionId": "A", "text": "2000" },
+      { "optionId": "B", "text": "1900" },
+      { "optionId": "C", "text": "2024" },
+      { "optionId": "D", "text": "2100" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "2000 is divisible by 400 → leap. 2024 is divisible by 4 and is not a century year → leap. 1900 and 2100 are century years not divisible by 400 → not leap.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["calendar", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following odd-day counts are correct?",
+    "options": [
+      { "optionId": "A", "text": "100 years → 5 odd days" },
+      { "optionId": "B", "text": "200 years → 3 odd days" },
+      { "optionId": "C", "text": "300 years → 1 odd day" },
+      { "optionId": "D", "text": "400 years → 2 odd days" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, C are the standard results. D is incorrect; 400 years give 0 odd days.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["calendar", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If 1st January of an ordinary (non-leap) year is Monday, what day is 1st January of the next year?",
+    "options": [
+      { "optionId": "A", "text": "Monday" },
+      { "optionId": "B", "text": "Tuesday" },
+      { "optionId": "C", "text": "Wednesday" },
+      { "optionId": "D", "text": "Thursday" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An ordinary year has 1 odd day, so the next 1st January shifts forward by 1 day: Monday + 1 = Tuesday.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If 1st January of a leap year is Monday, what day is 1st January of the next year?",
+    "options": [
+      { "optionId": "A", "text": "Tuesday" },
+      { "optionId": "B", "text": "Wednesday" },
+      { "optionId": "C", "text": "Thursday" },
+      { "optionId": "D", "text": "Friday" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A leap year has 2 odd days, so the next 1st January shifts forward by 2 days: Monday + 2 = Wednesday.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the formula to convert total accumulated odd days into the actual day of the week?",
+    "options": [
+      { "optionId": "A", "text": "Total odd days mod 7, mapped to Sun = 0 ... Sat = 6" },
+      { "optionId": "B", "text": "Total odd days × 7" },
+      { "optionId": "C", "text": "Quotient of total odd days ÷ 7" },
+      { "optionId": "D", "text": "Total odd days − 7" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The remainder after dividing total odd days by 7 gives the weekday code, mapped starting from Sunday = 0.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["calendar", "formula"],
+    "questionType": "MCQ"
+  }
+]

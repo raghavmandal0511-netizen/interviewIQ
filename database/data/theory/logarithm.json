@@ -1,0 +1,91 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Logarithms are the inverse of exponentiation: if a^x = N, then log_a(N) = x. Exam questions test product/quotient/power rules, change of base, comparing logs, and solving equations by converting between exponential and logarithmic form.",
+  "explanation": "CONCEPT EXPLANATION\n\nFor base a > 0, a ≠ 1: log_a(N) is defined only when N > 0. Fundamental identity: a^(log_a N) = N and log_a(a^x) = x.\n\nKey properties: log(MN) = log M + log N; log(M/N) = log M − log N; log(M^k) = k log M. Change of base: log_a b = (log_c b)/(log_c a) for any valid base c. Common bases: log_10 (common log) and log_e = ln (natural log).\n\nREAL-LIFE APPLICATIONS\n\nLogarithmic scales measure earthquake magnitude (Richter), sound intensity (decibels), pH in chemistry, and exponential growth/decay in finance and biology.\n\nCOMMON MISTAKES\n\n1) Applying log(a + b) = log a + log b (false).\n2) Forgetting domain: argument of log must be positive.\n3) Dropping base when equating logarithms — bases must match.\n4) Sign errors when log(M/N) = log M − log N.\n5) Misusing change of base by inverting numerator and denominator.\n\nIMPORTANT NOTES\n\n• log_a 1 = 0; log_a a = 1; log_a (1/a) = −1.\n• If log_a x = log_a y then x = y (same base).\n• Compare logs by comparing arguments only when base > 1 and both arguments positive.\n• log without subscript usually means base 10.\n• ln means base e ≈ 2.718.",
+  "formulas": [
+    {
+      "title": "Definition",
+      "content": "If a^x = N (a > 0, a ≠ 1, N > 0), then x = log_a(N)"
+    },
+    {
+      "title": "Product rule",
+      "content": "log_a(MN) = log_a M + log_a N"
+    },
+    {
+      "title": "Quotient rule",
+      "content": "log_a(M/N) = log_a M − log_a N"
+    },
+    {
+      "title": "Power rule",
+      "content": "log_a(M^k) = k × log_a M"
+    },
+    {
+      "title": "Change of base",
+      "content": "log_a b = (log_c b) / (log_c a) = (ln b) / (ln a)"
+    },
+    {
+      "title": "Exponential–logarithmic inverse",
+      "content": "a^(log_a N) = N and log_a(a^x) = x"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Same base equality",
+      "tip": "If log_a x = log_a y, then x = y directly — no need to expand."
+    },
+    {
+      "title": "Convert to single log",
+      "tip": "Combine sums and differences into one log before equating to a constant."
+    },
+    {
+      "title": "Change of base choice",
+      "tip": "Use ln or log_10 for change of base — pick whichever appears in the question."
+    },
+    {
+      "title": "Compare arguments",
+      "tip": "For base > 1, larger argument means larger log value."
+    },
+    {
+      "title": "Watch the domain",
+      "tip": "Reject solutions that make any log argument zero or negative."
+    },
+    {
+      "title": "Memorize small values",
+      "tip": "log_10 2 ≈ 0.3010, log_10 3 ≈ 0.4771, ln 2 ≈ 0.693, ln 10 ≈ 2.303."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "If log_2 8 = x, find x.",
+      "solution": "x = 3.",
+      "steps": [
+        "2^x = 8.",
+        "2^x = 2^3 ⇒ x = 3."
+      ]
+    },
+    {
+      "problem": "Evaluate log_10 1000 + log_10 0.001.",
+      "solution": "The sum equals 0.",
+      "steps": [
+        "log_10 1000 = 3 and log_10 0.001 = −3.",
+        "Sum = 3 + (−3) = 0."
+      ]
+    },
+    {
+      "problem": "If log_3 x = 2, find x.",
+      "solution": "x = 9.",
+      "steps": [
+        "Convert to exponential form: x = 3^2 = 9."
+      ]
+    },
+    {
+      "problem": "Express log_8 64 in terms of log_2.",
+      "solution": "log_8 64 = 2.",
+      "steps": [
+        "8^2 = 64, so log_8 64 = 2.",
+        "Alternatively: log_8 64 = log_2 64 / log_2 8 = 6/3 = 2."
+      ]
+    }
+  ],
+  "references": []
+}

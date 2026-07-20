@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All roses are flowers. All flowers are plants. Conclusion: All roses are plants.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only if some roses exist"
+      },
+      {
+        "optionId": "D",
+        "text": "Data inadequate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Roses ⊆ flowers ⊆ plants.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some doctors are teachers. All teachers are engineers. Conclusion: All doctors are engineers.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows definitely"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows from reality"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Only some doctors are teachers.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All pens are pencils. Some pencils are erasers. Conclusion: Some pens are erasers.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows always"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows if erasers exist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pen region may miss the eraser overlap.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No car is a bike. All bikes are vehicles. Conclusion: No car is a vehicle.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows by conversion"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows from All"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cars avoid bikes but may still be vehicles.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All mangoes are fruits. Some fruits are sweet. Conclusion: Some mangoes are sweet.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows necessarily"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows by All"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sweet fruits need not include mangoes.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All A are B. All A are C. Conclusion: Some B are C.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows (if A exists)"
+      },
+      {
+        "optionId": "B",
+        "text": "Never follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Means All B are C"
+      },
+      {
+        "optionId": "D",
+        "text": "Means No B are C"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In exam logic with existential import for All, some B are C via A; many keys mark follows.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some A are B. Some B are C. Conclusion: Some A are C.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows always"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows by chain"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Two particulars do not force A–C overlap.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All cups are plates. No plate is spoon. Conclusion: No cup is spoon.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only sometimes"
+      },
+      {
+        "optionId": "D",
+        "text": "Cannot say"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cups ⊆ plates, plates disjoint spoons ⇒ cups disjoint spoons.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All students are learners. Some learners are athletes. Conclusion: Some students are athletes.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows definitely"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows from All"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Athletes may be non-student learners.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No bird is insect. All sparrows are birds. Conclusion: No sparrow is insect.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only if insects exist"
+      },
+      {
+        "optionId": "D",
+        "text": "Data inadequate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sparrows ⊆ birds, birds ∩ insects = ∅.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All keys are locks. All locks are metals. Conclusion: All keys are metals.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only converse"
+      },
+      {
+        "optionId": "D",
+        "text": "Does not chain"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Keys ⊆ locks ⊆ metals.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some books are novels. All novels are stories. Conclusion: Some books are stories.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only All books"
+      },
+      {
+        "optionId": "D",
+        "text": "Never"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Those books that are novels are stories.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All wars are destructive. Some destructive things are natural. Conclusion: Some wars are natural.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows by Some"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows always"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Natural destructive things need not be wars.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All phones are devices. All devices are gadgets. Conclusion: Some gadgets are phones.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Never"
+      },
+      {
+        "optionId": "D",
+        "text": "Only if no phones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Phones ⊆ gadgets ⇒ some gadgets are phones (existential).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Basic syllogism usually uses how many statement lines?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Two (commonly)"
+      },
+      {
+        "optionId": "B",
+        "text": "Ten always"
+      },
+      {
+        "optionId": "C",
+        "text": "Zero"
+      },
+      {
+        "optionId": "D",
+        "text": "Only conclusions"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Classic items give two premises.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From All A are B you can definitely conclude All B are A.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Converse is not definite.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "No A are B allows the conclusion No B are A.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "E-type converts simply.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which conclusions can follow from All A are B and All B are C?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "All A are C"
+      },
+      {
+        "optionId": "B",
+        "text": "Some A are C"
+      },
+      {
+        "optionId": "C",
+        "text": "Some C are A"
+      },
+      {
+        "optionId": "D",
+        "text": "No A are C"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Chain gives All A are C and thus some relations; No A are C contradicts.",
+    "difficulty": "hard",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "syllogism",
+      "basic"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

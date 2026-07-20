@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A says of B: \"B's mother is the only daughter of my mother.\" A is B's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Mother"
+      },
+      {
+        "optionId": "B",
+        "text": "Father"
+      },
+      {
+        "optionId": "C",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "D",
+        "text": "Brother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Only daughter of A's mother is A (female). She is B's mother.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Pointing to a lady, a man says, \"Her son's mother is my daughter's mother.\" The lady is the man's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Wife"
+      },
+      {
+        "optionId": "B",
+        "text": "Sister"
+      },
+      {
+        "optionId": "C",
+        "text": "Mother"
+      },
+      {
+        "optionId": "D",
+        "text": "Daughter"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "My daughter's mother is my wife; she is the lady's son's mother → lady is his wife.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A is B's brother. C is A's mother. D is C's father. E is B's son. How is D related to E?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Great-grandfather"
+      },
+      {
+        "optionId": "B",
+        "text": "Grandfather"
+      },
+      {
+        "optionId": "C",
+        "text": "Father"
+      },
+      {
+        "optionId": "D",
+        "text": "Uncle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "D → C → A/B → E: D is great-grandfather of E.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "P is brother of Q. R is sister of Q. S is brother of T. T is daughter of Q. Who is uncle of T?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "P"
+      },
+      {
+        "optionId": "B",
+        "text": "R"
+      },
+      {
+        "optionId": "C",
+        "text": "S"
+      },
+      {
+        "optionId": "D",
+        "text": "Q"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "T's parent is Q; P is brother of Q → uncle of T. S is brother of T (sibling).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If A is sister of B, B is married to C, C is father of D, how is A related to D?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Aunt"
+      },
+      {
+        "optionId": "B",
+        "text": "Mother"
+      },
+      {
+        "optionId": "C",
+        "text": "Sister"
+      },
+      {
+        "optionId": "D",
+        "text": "Niece"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A is sister of D's parent B → aunt.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "X's father's only sister's son is X's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cousin"
+      },
+      {
+        "optionId": "B",
+        "text": "Brother"
+      },
+      {
+        "optionId": "C",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "D",
+        "text": "Nephew"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Father's sister's son = cousin.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A + B means A is father of B; A − B means A is sister of B; A × B means A is brother of B. What is P to R in P × Q − R?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Brother"
+      },
+      {
+        "optionId": "B",
+        "text": "Sister"
+      },
+      {
+        "optionId": "C",
+        "text": "Father"
+      },
+      {
+        "optionId": "D",
+        "text": "Uncle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Q − R → Q sister of R. P × Q → P brother of Q → brother of R.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "There are 6 people A–F. A is father of C but C is not son of A. B is mother of F and D. D is brother of C. How is C related to A?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Daughter"
+      },
+      {
+        "optionId": "B",
+        "text": "Son"
+      },
+      {
+        "optionId": "C",
+        "text": "Wife"
+      },
+      {
+        "optionId": "D",
+        "text": "Sister"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A is father of C; C not son → C is daughter.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "M is son of N. O is brother of N. P is brother of O. How is P related to M?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "B",
+        "text": "Father"
+      },
+      {
+        "optionId": "C",
+        "text": "Brother"
+      },
+      {
+        "optionId": "D",
+        "text": "Cousin"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P brother of N; N parent of M → P uncle of M.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man has 3 daughters. Each daughter has 1 brother. How many sons does the man have?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1"
+      },
+      {
+        "optionId": "B",
+        "text": "3"
+      },
+      {
+        "optionId": "C",
+        "text": "2"
+      },
+      {
+        "optionId": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "All daughters share the same one brother.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "B is husband of A. C is daughter of A. D is brother of B. How is D related to C?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "B",
+        "text": "Father"
+      },
+      {
+        "optionId": "C",
+        "text": "Brother"
+      },
+      {
+        "optionId": "D",
+        "text": "Cousin"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "D is brother of C's father B → uncle.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Introducing a boy, a girl says: \"He is the son of my mother's only brother.\" The boy is the girl's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cousin"
+      },
+      {
+        "optionId": "B",
+        "text": "Brother"
+      },
+      {
+        "optionId": "C",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "D",
+        "text": "Nephew"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mother's only brother is maternal uncle; his son is cousin.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A is father of B and C. B is father of D. E is wife of A. How is E related to D?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Grandmother"
+      },
+      {
+        "optionId": "B",
+        "text": "Mother"
+      },
+      {
+        "optionId": "C",
+        "text": "Aunt"
+      },
+      {
+        "optionId": "D",
+        "text": "Sister"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "E wife of A → grandmother of D.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "P's mother is Q's sister. R is father of P. How is R related to Q?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Brother-in-law"
+      },
+      {
+        "optionId": "B",
+        "text": "Brother"
+      },
+      {
+        "optionId": "C",
+        "text": "Father"
+      },
+      {
+        "optionId": "D",
+        "text": "Uncle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "R married Q's sister → brother-in-law of Q.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which puzzle type mixes coded symbols with plain English clues?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Mixed blood-relation problems"
+      },
+      {
+        "optionId": "B",
+        "text": "Only pure syllogism"
+      },
+      {
+        "optionId": "C",
+        "text": "Only dice nets"
+      },
+      {
+        "optionId": "D",
+        "text": "Only word order"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mixed sets combine codes and verbal clues.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "\"Only son\" means the parent has no daughters.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Only son means exactly one son; daughters may exist.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Drawing a tree helps when statements mention many people.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diagrams reduce confusion in multi-person puzzles.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Strategies that help in mixed blood-relation sets:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Draw generations"
+      },
+      {
+        "optionId": "B",
+        "text": "Mark M/F"
+      },
+      {
+        "optionId": "C",
+        "text": "Decode symbols first"
+      },
+      {
+        "optionId": "D",
+        "text": "Ignore \"only\" words"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Draw, mark gender, decode; do not ignore \"only\".",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "blood-relation-test",
+      "mixed"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

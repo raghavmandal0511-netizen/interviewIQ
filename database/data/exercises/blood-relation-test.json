@@ -1,0 +1,34 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-blood-relation-test-introduction",
+    "title": "Introduction",
+    "description": "Introductory blood relation practice",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-blood-relation-test-symbol-relations",
+    "title": "Symbol Based Relations",
+    "description": "Coded symbol blood relation problems",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-blood-relation-test-family-tree",
+    "title": "Family Tree Problems",
+    "description": "Family tree based relationship questions",
+    "order": 3,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-blood-relation-test-mixed",
+    "title": "Mixed Problems",
+    "description": "Mixed blood relation puzzles",
+    "order": 4,
+    "isPublished": true
+  }
+]

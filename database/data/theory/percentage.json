@@ -1,0 +1,98 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "A percentage is simply a fraction whose denominator is fixed at 100, used to compare parts to a whole in a standard way. It shows up everywhere in aptitude tests — discounts, profit and loss, population change, exam marks — because it lets you compare different quantities on the same scale. Mastering percentage conversions and the increase/decrease shortcuts speeds up dozens of other topics too.",
+  "explanation": "CONCEPT EXPLANATION\n\nx percent (written x%) means x out of every 100, i.e., x/100. To find x% of a number N, compute (x/100) × N. To express a number as a percentage of another, divide and multiply by 100: (part/whole) × 100.\n\nPercentage increase or decrease compares a new value to an old one: Percentage change = ((New − Old)/Old) × 100. A positive result is an increase, a negative result is a decrease.\n\nWhen a value changes twice in succession (e.g., price rises 10% then falls 20%), the two percentages do not simply add. Use the successive change formula: Net% = a + b + (ab/100), where a and b carry their own sign (negative for a decrease).\n\nIf a quantity is increased by x% and you want to restore the original value by decreasing it, the required decrease is [x/(100+x)] × 100%. Similarly, to restore after a decrease of x%, increase by [x/(100−x)] × 100%.\n\nREAL-LIFE APPLICATIONS\n\nDiscounts and markups in shopping, tax and interest calculations, exam scoring, population growth or decline, inflation rates, and reading statistics in news reports all rely on percentages.\n\nCOMMON MISTAKES\n\n1) Using the new value as the denominator instead of the original value when computing percentage change.\n2) Adding two successive percentage changes directly instead of using the ab/100 correction term.\n3) Forgetting that a percentage decrease followed by an equal percentage increase does not return to the original value.\n4) Confusing \"percentage of\" with \"percentage more/less than.\"\n5) Not converting percentage to a decimal or fraction correctly before multiplying.\n\nIMPORTANT NOTES\n\n• x% = x/100 as a fraction, and can be simplified (e.g., 25% = 1/4, 12.5% = 1/8).\n\n• If A is x% more than B, then B is not x% less than A — recompute using A as new base.\n\n• A 100% increase means the value doubles; a 50% decrease means it halves.\n\n• Percentage points and percentage change are different — a rise from 20% to 25% is a 5 percentage-point rise but a 25% relative increase.",
+  "formulas": [
+    {
+      "title": "Percentage of a number",
+      "content": "x% of N = (x / 100) × N"
+    },
+    {
+      "title": "Express as percentage",
+      "content": "Percentage = (Part / Whole) × 100"
+    },
+    {
+      "title": "Percentage change",
+      "content": "Percentage change = [(New − Old) / Old] × 100"
+    },
+    {
+      "title": "Successive percentage change",
+      "content": "Net% = a + b + (ab / 100), where a, b are signed percentage changes"
+    },
+    {
+      "title": "Restore after increase",
+      "content": "Required decrease% = [x / (100 + x)] × 100, to undo an x% increase"
+    },
+    {
+      "title": "Restore after decrease",
+      "content": "Required increase% = [x / (100 − x)] × 100, to undo an x% decrease"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Memorise common fractions",
+      "tip": "Know 50%=1/2, 25%=1/4, 33.33%=1/3, 20%=1/5, 12.5%=1/8, 10%=1/10 to calculate mentally without long multiplication."
+    },
+    {
+      "title": "Use successive change formula",
+      "tip": "For two back-to-back percentage changes a% and b%, compute a + b + ab/100 instead of applying them one at a time."
+    },
+    {
+      "title": "Increase-decrease trap",
+      "tip": "An x% increase followed by an x% decrease always gives a net decrease of x²/100 percent, never zero."
+    },
+    {
+      "title": "Base matters",
+      "tip": "Always identify whether the question asks 'percentage of A over B' or 'A is what percent more than B' — the denominator changes."
+    },
+    {
+      "title": "Convert early",
+      "tip": "Turn percentages into fractions before multiplying large numbers; it is faster than decimal multiplication by hand."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Find 15% of 800.",
+      "solution": "15% of 800 is 120.",
+      "steps": [
+        "15% of 800 = (15/100) × 800.",
+        "= 15 × 8 = 120."
+      ]
+    },
+    {
+      "problem": "A worker's salary increased from Rs 20,000 to Rs 23,000. Find the percentage increase.",
+      "solution": "The salary increased by 15%.",
+      "steps": [
+        "Percentage change = [(New − Old)/Old] × 100.",
+        "= [(23000 − 20000)/20000] × 100 = (3000/20000) × 100 = 15%."
+      ]
+    },
+    {
+      "problem": "The price of an item is increased by 20% and then decreased by 10%. Find the net percentage change.",
+      "solution": "The net change is an 8% increase.",
+      "steps": [
+        "Use Net% = a + b + ab/100 with a = 20, b = −10.",
+        "Net% = 20 + (−10) + (20 × −10)/100 = 10 − 2 = 8%.",
+        "So the net effect is an 8% increase."
+      ]
+    },
+    {
+      "problem": "If the price of sugar rises by 25%, by what percent should a family reduce consumption to keep expenditure unchanged?",
+      "solution": "Consumption should be reduced by 20%.",
+      "steps": [
+        "Required decrease% = [x/(100+x)] × 100 with x = 25.",
+        "= [25/125] × 100 = 20%."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Khan Academy — Percentages",
+      "url": "https://www.khanacademy.org/math/pre-algebra/pre-algebra-ratios-rates/pre-algebra-percent-word-problems/a/percent-word-problems"
+    },
+    {
+      "title": "Math is Fun — Percentage",
+      "url": "https://www.mathsisfun.com/percentage.html"
+    }
+  ]
+}

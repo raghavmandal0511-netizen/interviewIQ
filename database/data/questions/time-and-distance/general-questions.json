@@ -1,0 +1,770 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A bus travels 150 km in 3 hours. What is its speed?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "45 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "50 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "55 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "60 km/h"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Speed = 150 / 3 = 50 km/h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "At 48 km/h, how far does a car travel in 5 hours?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "200 km"
+      },
+      {
+        "optionId": "B",
+        "text": "220 km"
+      },
+      {
+        "optionId": "C",
+        "text": "240 km"
+      },
+      {
+        "optionId": "D",
+        "text": "260 km"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Distance = 48 × 5 = 240 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How long does it take to cover 360 km at 72 km/h?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4 hours"
+      },
+      {
+        "optionId": "B",
+        "text": "5 hours"
+      },
+      {
+        "optionId": "C",
+        "text": "6 hours"
+      },
+      {
+        "optionId": "D",
+        "text": "7 hours"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Time = 360 / 72 = 5 hours.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Convert 36 km/h into m/s.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8 m/s"
+      },
+      {
+        "optionId": "B",
+        "text": "10 m/s"
+      },
+      {
+        "optionId": "C",
+        "text": "12 m/s"
+      },
+      {
+        "optionId": "D",
+        "text": "15 m/s"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "36 × (5/18) = 10 m/s.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two cars at 55 km/h and 45 km/h travel toward each other from points 300 km apart. After how many hours do they meet?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2 hours"
+      },
+      {
+        "optionId": "B",
+        "text": "3 hours"
+      },
+      {
+        "optionId": "C",
+        "text": "4 hours"
+      },
+      {
+        "optionId": "D",
+        "text": "5 hours"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Relative speed = 100 km/h. Time = 300/100 = 3 hours.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A cyclist rides 18 km in 54 minutes. Find the speed in km/h.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "18 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "20 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "22 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "24 km/h"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "54 min = 0.9 hr. Speed = 18/0.9 = 20 km/h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Convert 25 m/s into km/h.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "80 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "85 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "90 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "95 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "25 × (18/5) = 90 km/h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man covers equal distances at 40 km/h and 60 km/h. What is his average speed for the whole journey?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "45 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "48 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "50 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "52 km/h"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Equal distances → 2×40×60/(40+60) = 4800/100 = 48 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A car runs at 30 km/h for 2 hours and at 50 km/h for 2 hours. What is the average speed?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "35 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "38 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "40 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "42 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Equal times → (30+50)/2 = 40 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two vehicles move in the same direction at 80 km/h and 50 km/h. The faster is 150 km behind. After how many hours does it catch up?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4 hours"
+      },
+      {
+        "optionId": "B",
+        "text": "5 hours"
+      },
+      {
+        "optionId": "C",
+        "text": "6 hours"
+      },
+      {
+        "optionId": "D",
+        "text": "7 hours"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Relative speed = 30 km/h. Time = 150/30 = 5 hours.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A journey of 400 km is completed: first 200 km at 50 km/h and next 200 km at 100 km/h. Find the average speed.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "60 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "66.67 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "70 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "75 km/h"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Time = 200/50 + 200/100 = 6 hr. Average = 400/6 ≈ 66.67 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A boat covers 20 km downstream in 2 hours and 12 km upstream in 3 hours. Find the speed of the stream.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "1.5 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "2 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "3 km/h"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Downstream = 10 km/h, upstream = 4 km/h. Stream = (10 − 4)/2 = 3 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A thief starts at 8:00 pm at 40 km/h. Police start at 8:40 pm at 60 km/h from the same place. At what time is the thief caught?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "9:40 pm"
+      },
+      {
+        "optionId": "B",
+        "text": "10:00 pm"
+      },
+      {
+        "optionId": "C",
+        "text": "10:20 pm"
+      },
+      {
+        "optionId": "D",
+        "text": "10:40 pm"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Thief lead in 40 min = 40×(2/3) = 80/3 km. Relative speed = 20 km/h. Time = (80/3)/20 = 4/3 hr = 80 min after 8:40 → 10:00 pm.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Walking at 3/4 of his usual speed, a man is 15 minutes late. What is his usual time (in minutes)?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "40 minutes"
+      },
+      {
+        "optionId": "B",
+        "text": "45 minutes"
+      },
+      {
+        "optionId": "C",
+        "text": "50 minutes"
+      },
+      {
+        "optionId": "D",
+        "text": "60 minutes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "New time = 4/3 of usual. Extra 1/3 T = 15 ⇒ T = 45 minutes.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two towns are 420 km apart. Cars start toward each other at 60 km/h and 90 km/h. After how many hours do they meet?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2.6 hours"
+      },
+      {
+        "optionId": "B",
+        "text": "2.8 hours"
+      },
+      {
+        "optionId": "C",
+        "text": "3.0 hours"
+      },
+      {
+        "optionId": "D",
+        "text": "3.2 hours"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Relative speed = 150 km/h. Time = 420/150 = 2.8 hours.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man walks 6 km in 1 hour 12 minutes. Find his speed in km/h.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "5 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "6 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "7 km/h"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "1 hr 12 min = 1.2 hr. Speed = 6/1.2 = 5 km/h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A car travelling at 80 km/h takes 1 hour less for a 200 km trip when speed is increased by 20 km/h. Find the original speed.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "30 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "40 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "50 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "60 km/h"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "200/S − 200/(S+20) = 1 ⇒ 4000 = S(S+20) ⇒ S = 40 km/h.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A person goes 20 km at 10 km/h and returns at 5 km/h. What is the average speed for the round trip?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "6.67 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "7 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "7.5 km/h"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Equal distances → 2×10×5/(10+5) = 100/15 ≈ 6.67 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A and B start from the same place. A leaves at 8:00 am at 8 km/h; B leaves at 8:30 am at 12 km/h on the same route. When does B overtake A?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "9:00 am"
+      },
+      {
+        "optionId": "B",
+        "text": "9:30 am"
+      },
+      {
+        "optionId": "C",
+        "text": "10:00 am"
+      },
+      {
+        "optionId": "D",
+        "text": "10:30 am"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "At 8:30 am A is 4 km ahead. 4 + 8t = 12t ⇒ t = 1 hr after 8:30 → 9:30 am.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A motorboat's speed in still water is 15 km/h. If the stream runs at 3 km/h, how long to go 36 km downstream?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2 hours"
+      },
+      {
+        "optionId": "B",
+        "text": "2.5 hours"
+      },
+      {
+        "optionId": "C",
+        "text": "3 hours"
+      },
+      {
+        "optionId": "D",
+        "text": "3.5 hours"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Downstream speed = 18 km/h. Time = 36/18 = 2 hours.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train 180 m long passes a pole in 9 seconds. Find its speed in km/h.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "60 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "68 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "72 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "80 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Speed = 180/9 = 20 m/s = 20×(18/5) = 72 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A 600 km journey at 75 km/h takes 8 hours excluding stops. With a 30-minute stop, total time is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8 hours"
+      },
+      {
+        "optionId": "B",
+        "text": "8.5 hours"
+      },
+      {
+        "optionId": "C",
+        "text": "9 hours"
+      },
+      {
+        "optionId": "D",
+        "text": "9.5 hours"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Moving time 8 hr + 0.5 hr stop = 8.5 hours total.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Relative speed of two bodies at 72 km/h and 54 km/h moving in the same direction is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "126 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "18 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "9 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "36 km/h"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Same direction → |72 − 54| = 18 km/h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A car covers the first half of a 300 km trip at 40 km/h and the second half at 60 km/h. Total time taken is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6 hours"
+      },
+      {
+        "optionId": "B",
+        "text": "6.25 hours"
+      },
+      {
+        "optionId": "C",
+        "text": "6.5 hours"
+      },
+      {
+        "optionId": "D",
+        "text": "7 hours"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Time = 150/40 + 150/60 = 3.75 + 2.5 = 6.25 hours.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "time-and-distance"
+    ],
+    "questionType": "MCQ"
+  }
+]

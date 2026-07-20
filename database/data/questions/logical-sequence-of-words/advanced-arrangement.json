@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Presentation, Concept, Feedback, Prototype, Research",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Research, Concept, Prototype, Presentation, Feedback"
+      },
+      {
+        "optionId": "B",
+        "text": "Concept, Research, Prototype, Presentation, Feedback"
+      },
+      {
+        "optionId": "C",
+        "text": "Research, Prototype, Concept, Feedback, Presentation"
+      },
+      {
+        "optionId": "D",
+        "text": "Research, Concept, Presentation, Prototype, Feedback"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Research → concept → prototype → present → feedback.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Income, Job, Application, Education, Salary",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Education, Application, Job, Income, Salary"
+      },
+      {
+        "optionId": "B",
+        "text": "Education, Application, Job, Salary, Income"
+      },
+      {
+        "optionId": "C",
+        "text": "Application, Education, Job, Salary, Income"
+      },
+      {
+        "optionId": "D",
+        "text": "Education, Job, Application, Salary, Income"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Education → apply → job → salary/income; Salary then Income as earnings labels—Education, Application, Job, Salary, Income.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Judgment, Hearing, Arrest, Crime, Appeal",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Crime, Arrest, Hearing, Judgment, Appeal"
+      },
+      {
+        "optionId": "B",
+        "text": "Arrest, Crime, Hearing, Judgment, Appeal"
+      },
+      {
+        "optionId": "C",
+        "text": "Crime, Hearing, Arrest, Judgment, Appeal"
+      },
+      {
+        "optionId": "D",
+        "text": "Crime, Arrest, Judgment, Hearing, Appeal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Crime → arrest → hearing → judgment → appeal.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Serving, Kneading, Baking, Mixing, Eating (bread)",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Mixing, Kneading, Baking, Serving, Eating"
+      },
+      {
+        "optionId": "B",
+        "text": "Kneading, Mixing, Baking, Serving, Eating"
+      },
+      {
+        "optionId": "C",
+        "text": "Mixing, Baking, Kneading, Eating, Serving"
+      },
+      {
+        "optionId": "D",
+        "text": "Baking, Mixing, Kneading, Serving, Eating"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mix → knead → bake → serve → eat.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Galaxy, Planet, Universe, Star, Satellite",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Universe, Galaxy, Star, Planet, Satellite"
+      },
+      {
+        "optionId": "B",
+        "text": "Galaxy, Universe, Star, Planet, Satellite"
+      },
+      {
+        "optionId": "C",
+        "text": "Universe, Star, Galaxy, Planet, Satellite"
+      },
+      {
+        "optionId": "D",
+        "text": "Universe, Galaxy, Planet, Star, Satellite"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Universe → galaxy → star → planet → satellite.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Treatment, Infection, Diagnosis, Symptoms, Recovery",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Infection, Symptoms, Diagnosis, Treatment, Recovery"
+      },
+      {
+        "optionId": "B",
+        "text": "Symptoms, Infection, Diagnosis, Treatment, Recovery"
+      },
+      {
+        "optionId": "C",
+        "text": "Infection, Diagnosis, Symptoms, Treatment, Recovery"
+      },
+      {
+        "optionId": "D",
+        "text": "Infection, Symptoms, Treatment, Diagnosis, Recovery"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Infection → symptoms → diagnosis → treatment → recovery.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Print, Edit, Draft, Publish, Idea",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Idea, Draft, Edit, Print, Publish"
+      },
+      {
+        "optionId": "B",
+        "text": "Draft, Idea, Edit, Print, Publish"
+      },
+      {
+        "optionId": "C",
+        "text": "Idea, Edit, Draft, Publish, Print"
+      },
+      {
+        "optionId": "D",
+        "text": "Idea, Draft, Print, Edit, Publish"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Idea → draft → edit → print → publish.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Deposit, Account, Withdraw, ATM, Bank",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Bank, Account, Deposit, ATM, Withdraw"
+      },
+      {
+        "optionId": "B",
+        "text": "Account, Bank, Deposit, ATM, Withdraw"
+      },
+      {
+        "optionId": "C",
+        "text": "Bank, Deposit, Account, ATM, Withdraw"
+      },
+      {
+        "optionId": "D",
+        "text": "Bank, Account, ATM, Deposit, Withdraw"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Open bank account, deposit, use ATM, withdraw.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Nest, Egg, Bird, Feather (development)",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Egg, Bird, Nest, Feather"
+      },
+      {
+        "optionId": "B",
+        "text": "Bird, Egg, Nest, Feather"
+      },
+      {
+        "optionId": "C",
+        "text": "Egg, Nest, Bird, Feather"
+      },
+      {
+        "optionId": "D",
+        "text": "Nest, Egg, Bird, Feather"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Egg in nest → bird → feathers develop—Egg, Nest, Bird, Feather is reasonable; option C.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Software, Requirement, Testing, Coding, Deployment",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Requirement, Coding, Software, Testing, Deployment"
+      },
+      {
+        "optionId": "B",
+        "text": "Requirement, Coding, Testing, Software, Deployment"
+      },
+      {
+        "optionId": "C",
+        "text": "Requirement, Software, Coding, Testing, Deployment"
+      },
+      {
+        "optionId": "D",
+        "text": "Coding, Requirement, Testing, Software, Deployment"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Requirement → coding → testing → software product → deployment.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Thunder, Heat, Lightning, Cloud, Rain",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cloud, Rain, Lightning, Thunder, Heat"
+      },
+      {
+        "optionId": "B",
+        "text": "Heat, Cloud, Rain, Lightning, Thunder"
+      },
+      {
+        "optionId": "C",
+        "text": "Cloud, Lightning, Thunder, Rain, Heat"
+      },
+      {
+        "optionId": "D",
+        "text": "Heat, Cloud, Lightning, Thunder, Rain"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Heat forms cloud; lightning; thunder; rain—Heat, Cloud, Lightning, Thunder, Rain.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Orbit, Launch, Design, Landing, Astronaut training (mission)",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Design, Astronaut training, Launch, Orbit, Landing"
+      },
+      {
+        "optionId": "B",
+        "text": "Launch, Design, Orbit, Landing, Astronaut training"
+      },
+      {
+        "optionId": "C",
+        "text": "Design, Launch, Astronaut training, Orbit, Landing"
+      },
+      {
+        "optionId": "D",
+        "text": "Astronaut training, Design, Launch, Orbit, Landing"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Design craft, train crew, launch, orbit, land.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Vocabulary, Alphabet, Essay, Sentence, Grammar",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Alphabet, Vocabulary, Grammar, Sentence, Essay"
+      },
+      {
+        "optionId": "B",
+        "text": "Vocabulary, Alphabet, Grammar, Sentence, Essay"
+      },
+      {
+        "optionId": "C",
+        "text": "Alphabet, Grammar, Vocabulary, Sentence, Essay"
+      },
+      {
+        "optionId": "D",
+        "text": "Alphabet, Vocabulary, Sentence, Grammar, Essay"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Alphabet → vocabulary → grammar → sentence → essay.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Refund, Purchase, Complaint, Delivery, Order",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Order, Purchase, Delivery, Complaint, Refund"
+      },
+      {
+        "optionId": "B",
+        "text": "Purchase, Order, Delivery, Complaint, Refund"
+      },
+      {
+        "optionId": "C",
+        "text": "Order, Delivery, Purchase, Complaint, Refund"
+      },
+      {
+        "optionId": "D",
+        "text": "Order, Purchase, Complaint, Delivery, Refund"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Order/purchase → delivery → complaint → refund.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Coal, Electricity, Steam, Power plant, Bulb",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Coal, Power plant, Steam, Electricity, Bulb"
+      },
+      {
+        "optionId": "B",
+        "text": "Coal, Steam, Power plant, Electricity, Bulb"
+      },
+      {
+        "optionId": "C",
+        "text": "Power plant, Coal, Steam, Electricity, Bulb"
+      },
+      {
+        "optionId": "D",
+        "text": "Coal, Power plant, Electricity, Steam, Bulb"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coal at plant → steam turbines → electricity → bulb.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Advanced arrangements may combine process and hierarchy in one sequence.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Complex items often mix stages and categories.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The last word in a manufacturing sequence is usually the raw material.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Raw material comes first; finished product last.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which checks help verify an advanced word sequence?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Ends make sense as start/finish"
+      },
+      {
+        "optionId": "B",
+        "text": "Each adjacent pair is plausible"
+      },
+      {
+        "optionId": "C",
+        "text": "One consistent theme"
+      },
+      {
+        "optionId": "D",
+        "text": "First letters must form a word"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Start/finish, adjacency, and theme matter; acronym of initials is not required.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "logical-sequence-of-words",
+      "advanced-arrangement"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

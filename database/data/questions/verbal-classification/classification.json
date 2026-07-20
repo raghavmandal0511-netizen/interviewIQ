@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Precious Metals', which of the following belongs to it: Iron, Gold, Copper, Aluminium?",
+    "options": [
+      { "optionId": "A", "text": "Iron" },
+      { "optionId": "B", "text": "Gold" },
+      { "optionId": "C", "text": "Copper" },
+      { "optionId": "D", "text": "Aluminium" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gold is classified as a precious metal, while Iron, Copper, and Aluminium are common base metals.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Amphibians', which of the following belongs to it: Crocodile, Frog, Turtle, Lizard?",
+    "options": [
+      { "optionId": "A", "text": "Crocodile" },
+      { "optionId": "B", "text": "Frog" },
+      { "optionId": "C", "text": "Turtle" },
+      { "optionId": "D", "text": "Lizard" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Frog is an amphibian, while Crocodile, Turtle, and Lizard are reptiles.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Renewable Energy Sources', which of the following belongs to it: Coal, Petroleum, Solar, Natural Gas?",
+    "options": [
+      { "optionId": "A", "text": "Coal" },
+      { "optionId": "B", "text": "Petroleum" },
+      { "optionId": "C", "text": "Solar" },
+      { "optionId": "D", "text": "Natural Gas" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Solar energy is renewable, while Coal, Petroleum, and Natural Gas are non-renewable fossil fuels.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Prime Numbers', which of the following belongs to it: 15, 21, 23, 33?",
+    "options": [
+      { "optionId": "A", "text": "15" },
+      { "optionId": "B", "text": "21" },
+      { "optionId": "C", "text": "23" },
+      { "optionId": "D", "text": "33" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "23 is a prime number (divisible only by 1 and itself), while 15 (3×5), 21 (3×7), and 33 (3×11) are all composite.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Perfect Squares', which of the following belongs to it: 48, 64, 90, 110?",
+    "options": [
+      { "optionId": "A", "text": "48" },
+      { "optionId": "B", "text": "64" },
+      { "optionId": "C", "text": "90" },
+      { "optionId": "D", "text": "110" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "64 = 8² is a perfect square, while 48, 90, and 110 are not perfect squares.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Two-wheelers', which of the following belongs to it: Car, Bicycle, Truck, Bus?",
+    "options": [
+      { "optionId": "A", "text": "Car" },
+      { "optionId": "B", "text": "Bicycle" },
+      { "optionId": "C", "text": "Truck" },
+      { "optionId": "D", "text": "Bus" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bicycle has two wheels, while Car, Truck, and Bus have four or more wheels.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Classical Dance Forms of India', which of the following belongs to it: Bharatanatyam, Ballet, Salsa, Tango?",
+    "options": [
+      { "optionId": "A", "text": "Bharatanatyam" },
+      { "optionId": "B", "text": "Ballet" },
+      { "optionId": "C", "text": "Salsa" },
+      { "optionId": "D", "text": "Tango" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Bharatanatyam is a classical Indian dance form, while Ballet, Salsa, and Tango originate from other countries.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Noble Gases', which of the following belongs to it: Oxygen, Nitrogen, Neon, Hydrogen?",
+    "options": [
+      { "optionId": "A", "text": "Oxygen" },
+      { "optionId": "B", "text": "Nitrogen" },
+      { "optionId": "C", "text": "Neon" },
+      { "optionId": "D", "text": "Hydrogen" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Neon is a noble gas, while Oxygen, Nitrogen, and Hydrogen are not classified as noble gases.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Odd Numbers', which of the following belongs to it: 42, 55, 68, 74?",
+    "options": [
+      { "optionId": "A", "text": "42" },
+      { "optionId": "B", "text": "55" },
+      { "optionId": "C", "text": "68" },
+      { "optionId": "D", "text": "74" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "55 is odd (not divisible by 2), while 42, 68, and 74 are all even numbers.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Freshwater Bodies', which of the following belongs to it: Sea, Ocean, Lake, Bay?",
+    "options": [
+      { "optionId": "A", "text": "Sea" },
+      { "optionId": "B", "text": "Ocean" },
+      { "optionId": "C", "text": "Lake" },
+      { "optionId": "D", "text": "Bay" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A Lake is typically a freshwater body, while Sea, Ocean, and Bay contain saltwater.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Herbivores', which of the following belongs to it: Lion, Tiger, Deer, Wolf?",
+    "options": [
+      { "optionId": "A", "text": "Lion" },
+      { "optionId": "B", "text": "Tiger" },
+      { "optionId": "C", "text": "Deer" },
+      { "optionId": "D", "text": "Wolf" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Deer is a herbivore (plant-eater), while Lion, Tiger, and Wolf are carnivores.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Musical String Instruments', which of the following belongs to it: Drum, Sitar, Flute, Trumpet?",
+    "options": [
+      { "optionId": "A", "text": "Drum" },
+      { "optionId": "B", "text": "Sitar" },
+      { "optionId": "C", "text": "Flute" },
+      { "optionId": "D", "text": "Trumpet" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sitar is a string instrument, while Drum is percussion and Flute and Trumpet are wind instruments.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Composite Numbers', which of the following belongs to it: 17, 19, 21, 29?",
+    "options": [
+      { "optionId": "A", "text": "17" },
+      { "optionId": "B", "text": "19" },
+      { "optionId": "C", "text": "21" },
+      { "optionId": "D", "text": "29" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "21 = 3 × 7 is a composite number, while 17, 19, and 29 are all prime numbers.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Cold-blooded Animals', which of the following belongs to it: Elephant, Snake, Dog, Horse?",
+    "options": [
+      { "optionId": "A", "text": "Elephant" },
+      { "optionId": "B", "text": "Snake" },
+      { "optionId": "C", "text": "Dog" },
+      { "optionId": "D", "text": "Horse" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Snake is cold-blooded (a reptile), while Elephant, Dog, and Horse are warm-blooded mammals.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Given the category 'Natural Satellites', which of the following belongs to it: Sun, Moon, Mars, Comet?",
+    "options": [
+      { "optionId": "A", "text": "Sun" },
+      { "optionId": "B", "text": "Moon" },
+      { "optionId": "C", "text": "Mars" },
+      { "optionId": "D", "text": "Comet" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Moon is a natural satellite (it orbits a planet), while the Sun is a star, Mars is a planet, and a Comet is an icy body orbiting the Sun.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Sparrow, Eagle, and Peacock belong to the same class (Birds), while Bat belongs to the class Mammals.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sparrow, Eagle, and Peacock are birds, whereas a Bat, despite flying, is a mammal, so the statement is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Gold, Silver, and Platinum are classified as noble gases.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gold, Silver, and Platinum are precious metals, not noble gases, so the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following are correctly classified as 'Noble Gases'?",
+    "options": [
+      { "optionId": "A", "text": "Neon" },
+      { "optionId": "B", "text": "Argon" },
+      { "optionId": "C", "text": "Nitrogen" },
+      { "optionId": "D", "text": "Helium" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "Neon, Argon, and Helium are all noble gases belonging to Group 18 of the periodic table. Nitrogen is not a noble gas; it is a diatomic non-metal gas.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["verbal-classification", "classification"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

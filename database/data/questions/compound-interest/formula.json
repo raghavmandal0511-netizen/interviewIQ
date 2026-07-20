@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the compound interest on Rs 10,000 at 10% per annum for 2 years, compounded annually.",
+    "options": [
+      { "optionId": "A", "text": "Rs 2,000" },
+      { "optionId": "B", "text": "Rs 2,050" },
+      { "optionId": "C", "text": "Rs 2,100" },
+      { "optionId": "D", "text": "Rs 2,200" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = 10000 × (1.1)^2 = 10000 × 1.21 = 12,100. CI = A − P = 12,100 − 10,000 = Rs 2,100.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which formula gives the amount A when a principal P is compounded annually at rate R% for T years?",
+    "options": [
+      { "optionId": "A", "text": "A = P(1 + RT/100)" },
+      { "optionId": "B", "text": "A = P(1 + R/100)^T" },
+      { "optionId": "C", "text": "A = P + PRT/100" },
+      { "optionId": "D", "text": "A = PRT/100" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Under annual compounding, the amount grows by a factor of (1 + R/100) each year, giving A = P(1 + R/100)^T.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the compound interest on Rs 5,000 at 20% per annum for 2 years, compounded annually.",
+    "options": [
+      { "optionId": "A", "text": "Rs 2,000" },
+      { "optionId": "B", "text": "Rs 2,100" },
+      { "optionId": "C", "text": "Rs 2,200" },
+      { "optionId": "D", "text": "Rs 2,400" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = 5000 × (1.2)^2 = 5000 × 1.44 = 7,200. CI = 7,200 − 5,000 = Rs 2,200.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the amount on Rs 4,000 at 10% per annum for 1.5 years, compounded half-yearly.",
+    "options": [
+      { "optionId": "A", "text": "Rs 4,500" },
+      { "optionId": "B", "text": "Rs 4,600" },
+      { "optionId": "C", "text": "Rs 4,630.50" },
+      { "optionId": "D", "text": "Rs 4,700" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Half-yearly rate = 5%, number of periods = 1.5 × 2 = 3. A = 4000 × (1.05)^3 = 4000 × 1.157625 = Rs 4,630.50.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "For 2 years of annual compounding at rate R%, the difference between compound interest and simple interest on a principal P is given by:",
+    "options": [
+      { "optionId": "A", "text": "P(R/100)" },
+      { "optionId": "B", "text": "P(R/100)^2" },
+      { "optionId": "C", "text": "2P × R/100" },
+      { "optionId": "D", "text": "2P(R/100)" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Expanding A = P(1+R/100)^2 shows CI = 2P(R/100) + P(R/100)^2, while SI = 2P(R/100). Subtracting gives CI − SI = P(R/100)^2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the difference between compound interest and simple interest on Rs 8,000 for 2 years at 5% per annum.",
+    "options": [
+      { "optionId": "A", "text": "Rs 15" },
+      { "optionId": "B", "text": "Rs 18" },
+      { "optionId": "C", "text": "Rs 20" },
+      { "optionId": "D", "text": "Rs 25" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "CI − SI = P(R/100)^2 = 8000 × (0.05)^2 = 8000 × 0.0025 = Rs 20.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "At what rate percent per annum will a sum become 1.21 times itself in 2 years, compounded annually?",
+    "options": [
+      { "optionId": "A", "text": "8%" },
+      { "optionId": "B", "text": "9%" },
+      { "optionId": "C", "text": "10%" },
+      { "optionId": "D", "text": "12%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "(1 + R/100)^2 = 1.21 ⇒ 1 + R/100 = 1.1 ⇒ R = 10%.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The compound interest on a sum for 2 years at 10% per annum (compounded annually) is Rs 210. Find the sum.",
+    "options": [
+      { "optionId": "A", "text": "Rs 900" },
+      { "optionId": "B", "text": "Rs 1,000" },
+      { "optionId": "C", "text": "Rs 1,100" },
+      { "optionId": "D", "text": "Rs 1,200" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CI = P[(1.1)^2 − 1] = 0.21P. Setting 0.21P = 210 gives P = Rs 1,000.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A sum amounts to Rs 6,655 in 3 years at 10% per annum compounded annually. Find the principal.",
+    "options": [
+      { "optionId": "A", "text": "Rs 4,500" },
+      { "optionId": "B", "text": "Rs 5,000" },
+      { "optionId": "C", "text": "Rs 5,500" },
+      { "optionId": "D", "text": "Rs 6,000" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A = P(1.1)^3 = P × 1.331. Setting P × 1.331 = 6,655 gives P = Rs 5,000.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the compound interest on Rs 12,000 for 3 years at 10% per annum, compounded annually.",
+    "options": [
+      { "optionId": "A", "text": "Rs 3,600" },
+      { "optionId": "B", "text": "Rs 3,800" },
+      { "optionId": "C", "text": "Rs 3,972" },
+      { "optionId": "D", "text": "Rs 4,200" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = 12000 × (1.1)^3 = 12000 × 1.331 = 15,972. CI = 15,972 − 12,000 = Rs 3,972.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "For half-yearly compounding at an annual rate R% over T years, how many compounding periods are there?",
+    "options": [
+      { "optionId": "A", "text": "T" },
+      { "optionId": "B", "text": "2T" },
+      { "optionId": "C", "text": "T/2" },
+      { "optionId": "D", "text": "4T" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Half-yearly compounding happens twice a year, so over T years there are 2T compounding periods.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "For half-yearly compounding at an annual rate R%, what is the effective rate applied per compounding period?",
+    "options": [
+      { "optionId": "A", "text": "R" },
+      { "optionId": "B", "text": "R/2" },
+      { "optionId": "C", "text": "2R" },
+      { "optionId": "D", "text": "R/4" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since compounding occurs twice a year, half of the annual rate, R/2, is applied at each period.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the compound interest on Rs 15,000 for 2 years at 8% per annum, compounded annually.",
+    "options": [
+      { "optionId": "A", "text": "Rs 2,200" },
+      { "optionId": "B", "text": "Rs 2,400" },
+      { "optionId": "C", "text": "Rs 2,496" },
+      { "optionId": "D", "text": "Rs 2,600" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = 15000 × (1.08)^2 = 15000 × 1.1664 = 17,496. CI = 17,496 − 15,000 = Rs 2,496.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The compound interest on a sum for 2 years at 10% per annum (compounded annually) is Rs 420. Find the simple interest on the same sum for 2 years at the same rate.",
+    "options": [
+      { "optionId": "A", "text": "Rs 350" },
+      { "optionId": "B", "text": "Rs 380" },
+      { "optionId": "C", "text": "Rs 400" },
+      { "optionId": "D", "text": "Rs 420" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "CI = 0.21P = 420 ⇒ P = 2,000. SI = PRT/100 = (2000 × 10 × 2)/100 = Rs 400.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "For the same principal and rate, which grows faster over a period of more than one year?",
+    "options": [
+      { "optionId": "A", "text": "Simple interest" },
+      { "optionId": "B", "text": "Compound interest" },
+      { "optionId": "C", "text": "Both grow equally" },
+      { "optionId": "D", "text": "It depends only on the principal" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Compound interest earns interest on accumulated interest as well, so it grows faster than simple interest whenever the time period exceeds one year.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "For a time period of exactly 1 year with annual compounding, the compound interest equals the simple interest for the same principal and rate.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "With only one compounding period, there is no accumulated interest to compound on, so CI and SI give the same result for T = 1 year.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In compound interest, interest is calculated only on the original principal every period.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Compound interest is calculated on the principal plus all previously accumulated interest, unlike simple interest which uses only the original principal.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Quarterly compounding uses R/4 as the rate per period and 4T as the number of periods, for an annual rate R% over T years.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since compounding occurs four times a year, the rate per period is R/4 and the number of periods is 4T.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following compound interest relations are correct? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "A = P(1 + R/100)^T" },
+      { "optionId": "B", "text": "CI = A − P" },
+      { "optionId": "C", "text": "CI equals SI for any T greater than 1 year" },
+      { "optionId": "D", "text": "P = A / (1 + R/100)^T" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A, B, and D are valid compound interest relations and rearrangements. CI exceeds SI whenever T > 1 year under annual compounding, so C is false.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Select the correct statements about compounding frequency.",
+    "options": [
+      { "optionId": "A", "text": "More frequent compounding (e.g., quarterly vs annual) yields a higher amount for the same nominal rate and time" },
+      { "optionId": "B", "text": "Half-yearly compounding uses periods = 2T and rate = R/2" },
+      { "optionId": "C", "text": "Annual compounding always gives a higher amount than half-yearly compounding for the same R and T" },
+      { "optionId": "D", "text": "Quarterly compounding uses periods = 4T and rate = R/4" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "More frequent compounding increases the final amount (A correct). Half-yearly and quarterly compounding use 2T/R2 and 4T/R4 respectively (B and D correct). Annual compounding actually gives a lower amount than more frequent compounding, so C is false.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["compound-interest", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

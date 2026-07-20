@@ -1,0 +1,713 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the true discount on Rs. 1260 due 2 years hence at 5% per annum.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 100"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 114.55"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 126"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 115.50"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "TD = 1260 × 10 / 110 = 12600/110 = 114.55.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the present worth of Rs. 880 due 4 years hence at 5% per annum.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 700"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 720"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 733.33"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 750"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "PW = 880 × 100 / (100 + 20) = 88000/120 = 733.33.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount",
+      "present-worth"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The true discount on a sum due 3 years hence at 4% per annum is Rs. 60. Find the present worth.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 400"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 450"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 500"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 560"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "60 = PW × 12/100 ⇒ PW = 6000/12 = 500.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the true discount on Rs. 1662 due 2 years hence at 10% per annum.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 262"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 277"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 302"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 332"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "TD = 1662 × 20 / 120 = 33240/120 = 277.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present worth of Rs. 1032 due 2 years hence is Rs. 920. Find the rate of interest per annum.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5%"
+      },
+      {
+        "optionId": "B",
+        "text": "6%"
+      },
+      {
+        "optionId": "C",
+        "text": "7%"
+      },
+      {
+        "optionId": "D",
+        "text": "8%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "TD = 1032 − 920 = 112. R = 100 × TD/(PW × T) = 100 × 112/(920 × 2) = 11200/1840 = 6.087% ≈ 6%.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "true-discount",
+      "rate"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the present worth of Rs. 620 due 4 years hence at 6% per annum.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 480"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 500"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 520"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 540"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "PW = 620 × 100 / (100 + 24) = 62000/124 = 500.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount",
+      "present-worth"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The true discount on Rs. 880 due 2 years hence at 5% per annum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 80"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 84.57"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 88"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 96"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "TD = 880 × 10 / 110 = 8800/110 = 80.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the present worth of a sum due 3 years hence at 8% per annum is Rs. 1000, find the amount.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 1200"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 1240"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 1280"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 1300"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Amount = PW × (100 + RT)/100 = 1000 × 124/100 = 1240.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount",
+      "amount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The true discount on Rs. 2480 due 2 years hence at 5% per annum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 220"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 225.45"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 230"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 248"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "TD = 2480 × 10 / 110 = 24800/110 = 225.45.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the sum due if the present worth is Rs. 800 and the true discount is Rs. 100.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 850"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 900"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 950"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 1000"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Amount = PW + TD = 800 + 100 = 900.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present worth of Rs. 1200 due 2 years hence at 10% per annum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 960"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 980"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 1000"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 1020"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "PW = 1200 × 100 / 120 = 1000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "true-discount",
+      "present-worth"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The true discount on a bill due 1 year hence at 12% per annum is Rs. 120. Find the amount of the bill.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 1000"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 1120"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 1200"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 1344"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "TD = A × RT/(100+RT). 120 = A × 12/112 ⇒ A = 120 × 112/12 = 1120.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the true discount on Rs. 1540 due 2 years hence at 10% per annum.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 256.67"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 280"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 308"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 270"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "TD = 1540 × 20 / 120 = 30800/120 = 256.67.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present worth of Rs. 756 due 3 years hence at 4% per annum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 650"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 675"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 700"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 720"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "PW = 756 × 100 / 112 = 75600/112 = 675.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A sum of Rs. 550 is due 2 years hence. If the true discount is Rs. 50, find the rate of interest per annum.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4%"
+      },
+      {
+        "optionId": "B",
+        "text": "5%"
+      },
+      {
+        "optionId": "C",
+        "text": "6%"
+      },
+      {
+        "optionId": "D",
+        "text": "8%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "PW = 550 − 50 = 500. R = 100 × TD/(PW × T) = 100 × 50/(500 × 2) = 5000/1000 = 5%.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "true-discount",
+      "rate"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The true discount on Rs. 3300 due 2 years hence at 10% per annum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 500"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 550"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 600"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 660"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "TD = 3300 × 20 / 120 = 66000/120 = 550.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the present worth of Rs. 462 due 1 year hence at 5% per annum.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 420"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 430"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 440"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 450"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "PW = 462 × 100 / 105 = 46200/105 = 440.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The true discount on Rs. 1050 due 2 years hence at 5% per annum is Rs. 95.45. The true discount on Rs. 840 due 1 year hence at 5% per annum is Rs. 40. The difference between the two true discounts is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 45.45"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 50.45"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 55.45"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 60.45"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "TD₁ = 1050×10/110 = 95.45. TD₂ = 840×5/105 = 40. Difference = 95.45 − 40 = 55.45.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the true discount on a sum due 2 years hence at 8% per annum is Rs. 96, find the present worth.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 550"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 575"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 600"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 625"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "96 = PW × 16/100 ⇒ PW = 9600/16 = 600.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the true discount on Rs. 990 due 2 years hence at 5% per annum.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 80"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 85"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 90"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 99"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "TD = 990 × 10 / 110 = 9900/110 = 90.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present worth of Rs. 529 due 3 years hence at 5% per annum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 440"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 460"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 480"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 500"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "PW = 529 × 100 / 115 = 52900/115 = 460.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present worth of Rs. 972 due 2 years hence at 4% per annum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 850"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 875"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 900"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 910"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "PW = 972 × 100 / 108 = 97200/108 = 900.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "true-discount",
+      "present-worth"
+    ],
+    "questionType": "MCQ"
+  }
+]

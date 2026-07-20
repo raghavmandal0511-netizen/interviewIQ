@@ -1,0 +1,262 @@
+{
+  "topics": [
+    {
+      "name": "Problems on Trains",
+      "slug": "problems-on-trains",
+      "order": 1
+    },
+    {
+      "name": "Time and Distance",
+      "slug": "time-and-distance",
+      "order": 2
+    },
+    {
+      "name": "Height and Distance",
+      "slug": "height-and-distance",
+      "order": 3
+    },
+    {
+      "name": "Time and Work",
+      "slug": "time-and-work",
+      "order": 4
+    },
+    {
+      "name": "Simple Interest",
+      "slug": "simple-interest",
+      "order": 5
+    },
+    {
+      "name": "Compound Interest",
+      "slug": "compound-interest",
+      "order": 6
+    },
+    {
+      "name": "Profit and Loss",
+      "slug": "profit-and-loss",
+      "order": 7
+    },
+    {
+      "name": "Partnership",
+      "slug": "partnership",
+      "order": 8
+    },
+    {
+      "name": "Percentage",
+      "slug": "percentage",
+      "order": 9
+    },
+    {
+      "name": "Problems on Ages",
+      "slug": "problems-on-ages",
+      "order": 10
+    },
+    {
+      "name": "Calendar",
+      "slug": "calendar",
+      "order": 11
+    },
+    {
+      "name": "Clock",
+      "slug": "clock",
+      "order": 12
+    },
+    {
+      "name": "Average",
+      "slug": "average",
+      "order": 13
+    },
+    {
+      "name": "Area",
+      "slug": "area",
+      "order": 14
+    },
+    {
+      "name": "Volume and Surface Area",
+      "slug": "volume-and-surface-area",
+      "order": 15
+    },
+    {
+      "name": "Permutation and Combination",
+      "slug": "permutation-and-combination",
+      "order": 16
+    },
+    {
+      "name": "Numbers",
+      "slug": "numbers",
+      "order": 17
+    },
+    {
+      "name": "Problems on Numbers",
+      "slug": "problems-on-numbers",
+      "order": 18
+    },
+    {
+      "name": "Problems on HCF and LCM",
+      "slug": "problems-on-hcf-and-lcm",
+      "order": 19
+    },
+    {
+      "name": "Decimal Fraction",
+      "slug": "decimal-fraction",
+      "order": 20
+    },
+    {
+      "name": "Simplification",
+      "slug": "simplification",
+      "order": 21
+    },
+    {
+      "name": "Square Root and Cube Root",
+      "slug": "square-root-and-cube-root",
+      "order": 22
+    },
+    {
+      "name": "Surds and Indices",
+      "slug": "surds-and-indices",
+      "order": 23
+    },
+    {
+      "name": "Ratio and Proportion",
+      "slug": "ratio-and-proportion",
+      "order": 24
+    },
+    {
+      "name": "Chain Rule",
+      "slug": "chain-rule",
+      "order": 25
+    },
+    {
+      "name": "Pipes and Cistern",
+      "slug": "pipes-and-cistern",
+      "order": 26
+    },
+    {
+      "name": "Boats and Streams",
+      "slug": "boats-and-streams",
+      "order": 27
+    },
+    {
+      "name": "Alligation or Mixture",
+      "slug": "alligation-or-mixture",
+      "order": 28
+    },
+    {
+      "name": "Logarithm",
+      "slug": "logarithm",
+      "order": 29
+    },
+    {
+      "name": "Races and Games",
+      "slug": "races-and-games",
+      "order": 30
+    },
+    {
+      "name": "Stocks and Shares",
+      "slug": "stocks-and-shares",
+      "order": 31
+    },
+    {
+      "name": "Probability",
+      "slug": "probability",
+      "order": 32
+    },
+    {
+      "name": "True Discount",
+      "slug": "true-discount",
+      "order": 33
+    },
+    {
+      "name": "Banker's Discount",
+      "slug": "bankers-discount",
+      "order": 34
+    },
+    {
+      "name": "Odd Man Out and Series",
+      "slug": "odd-man-out-and-series",
+      "order": 35
+    }
+  ],
+  "exerciseDefs": [
+    {
+      "key": "formula",
+      "title": "Formula Practice",
+      "description": "Practice core formulas, conversions, and identity checks.",
+      "order": 1,
+      "file": "formula.json"
+    },
+    {
+      "key": "general-questions",
+      "title": "General Questions",
+      "description": "Standard aptitude MCQs for this topic.",
+      "order": 2,
+      "file": "general-questions.json"
+    },
+    {
+      "key": "data-sufficiency-1",
+      "title": "Data Sufficiency 1",
+      "description": "Data sufficiency set 1 — decide which statements are enough.",
+      "order": 3,
+      "file": "data-sufficiency-1.json"
+    },
+    {
+      "key": "data-sufficiency-2",
+      "title": "Data Sufficiency 2",
+      "description": "Data sufficiency set 2 — mixed difficulty DS practice.",
+      "order": 4,
+      "file": "data-sufficiency-2.json"
+    }
+  ],
+  "extracted": [
+    "problems-on-trains",
+    "time-and-distance",
+    "height-and-distance",
+    "time-and-work",
+    "simple-interest",
+    "compound-interest",
+    "profit-and-loss",
+    "partnership",
+    "clock",
+    "average",
+    "area",
+    "volume-and-surface-area",
+    "permutation-and-combination",
+    "square-root-and-cube-root",
+    "surds-and-indices",
+    "boats-and-streams",
+    "alligation-or-mixture",
+    "logarithm",
+    "races-and-games",
+    "probability",
+    "true-discount",
+    "bankers-discount",
+    "odd-man-out-and-series"
+  ],
+  "missingTheory": [
+    "percentage",
+    "problems-on-ages",
+    "calendar",
+    "numbers",
+    "problems-on-numbers",
+    "problems-on-hcf-and-lcm",
+    "decimal-fraction",
+    "simplification",
+    "ratio-and-proportion",
+    "chain-rule",
+    "pipes-and-cistern",
+    "stocks-and-shares"
+  ],
+  "missingGeneral": [
+    "percentage",
+    "problems-on-ages",
+    "calendar",
+    "numbers",
+    "problems-on-numbers",
+    "problems-on-hcf-and-lcm",
+    "decimal-fraction",
+    "simplification",
+    "ratio-and-proportion",
+    "chain-rule",
+    "pipes-and-cistern",
+    "stocks-and-shares"
+  ]
+}

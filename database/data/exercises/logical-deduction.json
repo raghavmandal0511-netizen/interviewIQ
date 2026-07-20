@@ -1,0 +1,18 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-logical-deduction-statements-conclusions",
+    "title": "Statements & Conclusions",
+    "description": "Decide which conclusions follow from statements",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-logical-deduction-multiple-conclusions",
+    "title": "Multiple Conclusions",
+    "description": "Evaluate multiple conclusions and combination options",
+    "order": 2,
+    "isPublished": true
+  }
+]

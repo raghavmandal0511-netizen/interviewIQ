@@ -1,0 +1,96 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Profit and Loss measures how much money is gained or lost when an article is sold compared with its cost price. Competitive exams test direct percentage calculations, reverse problems (finding CP from SP), successive discounts, false weights, and marked-price scenarios. The key is always identifying CP, SP, profit or loss, and whether percentages are on CP or SP.",
+  "explanation": "CONCEPT EXPLANATION\n\nCost Price (CP) is what the seller pays to acquire an item. Selling Price (SP) is what the buyer pays. If SP > CP, there is Profit = SP − CP. If SP < CP, there is Loss = CP − SP.\n\nProfit % is always calculated on CP unless stated otherwise: Profit % = (Profit / CP) × 100. Loss % = (Loss / CP) × 100.\n\nWhen gain or loss percent is given, SP = CP × (100 ± gain or loss %) / 100. To find CP from SP after a known gain: CP = SP × 100 / (100 + gain %).\n\nMarked Price (MP) is the tagged price before discount. Discount is usually on MP: SP = MP × (100 − discount %) / 100.\n\nSuccessive discounts of a% and b% combine as a single equivalent discount: 100 − [(100 − a)(100 − b) / 100], not a + b.\n\nREAL-LIFE APPLICATIONS\n\nShopkeepers set markup and discount during sales, businesses analyse margins on inventory, and investors compare returns on purchases versus resale value using the same profit-percent framework.\n\nCOMMON MISTAKES\n\n1) Calculating profit % on SP instead of CP.\n2) Adding successive discounts instead of multiplying remaining price fractions.\n3) Forgetting that a 20% loss followed by 20% gain does not break even.\n4) Confusing MP with CP when only discount is given.\n5) Ignoring extra charges (transport, tax) that should be added to CP.\n\nIMPORTANT NOTES\n\n• Profit % and Loss % are on CP by convention in aptitude exams.\n• Equal profit and loss percentages do not cancel; net result is always a loss.\n• If CP of x articles equals SP of y articles, profit % = [(x − y) / y] × 100 when x > y.\n• False weight problems: treat declared weight as SP basis and actual weight as CP basis.\n• Always write CP and SP in the same currency unit before comparing.",
+  "formulas": [
+    {
+      "title": "Profit and Loss",
+      "content": "Profit = SP − CP; Loss = CP − SP"
+    },
+    {
+      "title": "Profit and Loss Percentage",
+      "content": "Profit % = (Profit / CP) × 100; Loss % = (Loss / CP) × 100"
+    },
+    {
+      "title": "SP from CP and gain or loss",
+      "content": "SP = CP × (100 + gain %) / 100 or SP = CP × (100 − loss %) / 100"
+    },
+    {
+      "title": "CP from SP and gain or loss",
+      "content": "CP = SP × 100 / (100 + gain %) or CP = SP × 100 / (100 − loss %)"
+    },
+    {
+      "title": "Discount and Marked Price",
+      "content": "Discount = MP − SP; SP = MP × (100 − discount %) / 100"
+    },
+    {
+      "title": "Successive discounts",
+      "content": "Equivalent single discount after a% and b% = 100 − [(100 − a)(100 − b) / 100]"
+    },
+    {
+      "title": "CP equals SP of fewer articles",
+      "content": "If CP of x items = SP of y items (x > y), Profit % = [(x − y) / y] × 100"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "CP anchor",
+      "tip": "Assume CP = ₹100 whenever only percentages are given; profit or loss amount equals the percentage directly."
+    },
+    {
+      "title": "Reverse gain",
+      "tip": "SP at x% gain means CP = SP × 100 / (100 + x); at x% loss, CP = SP × 100 / (100 − x)."
+    },
+    {
+      "title": "Successive discounts",
+      "tip": "Multiply remaining fractions: 10% then 20% off means pay 0.9 × 0.8 = 0.72 of MP (28% total off)."
+    },
+    {
+      "title": "Equal % swing",
+      "tip": "Same % profit then loss on CP gives net loss of (x/10)² percent — e.g. 10% each way → 1% net loss."
+    },
+    {
+      "title": "Article ratio trick",
+      "tip": "CP of 5 sold at SP of 4 → loss of 1 on 5, i.e. 20% loss on CP."
+    },
+    {
+      "title": "False weight",
+      "tip": "Gain % from false weight = [(True weight − False weight) / False weight] × 100 when selling at declared weight price."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A shopkeeper buys an article for ₹450 and sells it for ₹540. Find the profit percentage.",
+      "solution": "The profit percentage is 20%.",
+      "steps": [
+        "Profit = SP − CP = 540 − 450 = ₹90.",
+        "Profit % = (90 / 450) × 100 = 20%."
+      ]
+    },
+    {
+      "problem": "By selling an article for ₹920, a man gains 15%. What is the cost price?",
+      "solution": "The cost price is ₹800.",
+      "steps": [
+        "SP = CP × (100 + 15) / 100 = 1.15 × CP.",
+        "920 = 1.15 × CP ⇒ CP = 920 / 1.15 = ₹800."
+      ]
+    },
+    {
+      "problem": "The marked price of a shirt is ₹800. After two successive discounts of 10% and 15%, find the selling price.",
+      "solution": "The selling price is ₹612.",
+      "steps": [
+        "After 10% discount: 800 × 0.9 = ₹720.",
+        "After 15% on 720: 720 × 0.85 = ₹612."
+      ]
+    },
+    {
+      "problem": "A trader sells rice using a weight 900 g instead of 1 kg but charges the price of 1 kg. Find his gain percent.",
+      "solution": "The gain percentage is 11.11% (approx.).",
+      "steps": [
+        "CP corresponds to 900 g; SP corresponds to 1000 g.",
+        "Gain % = [(1000 − 900) / 900] × 100 = (100/900) × 100 = 11.11%."
+      ]
+    }
+  ],
+  "references": []
+}

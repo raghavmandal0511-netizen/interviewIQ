@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 2, 4, 6, 8, 10, ?",
+    "options": [
+      { "optionId": "A", "text": "11" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "13" },
+      { "optionId": "D", "text": "14" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each term increases by 2 (an arithmetic progression with common difference 2). After 10, the next term is 10 + 2 = 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 5, 10, 15, 20, ?",
+    "options": [
+      { "optionId": "A", "text": "22" },
+      { "optionId": "B", "text": "24" },
+      { "optionId": "C", "text": "25" },
+      { "optionId": "D", "text": "30" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is a multiple of 5, increasing by 5 each time. After 20, the next term is 20 + 5 = 25.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 3, 6, 12, 24, ?",
+    "options": [
+      { "optionId": "A", "text": "36" },
+      { "optionId": "B", "text": "44" },
+      { "optionId": "C", "text": "48" },
+      { "optionId": "D", "text": "50" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is double the previous term (3 x 2 = 6, 6 x 2 = 12, 12 x 2 = 24). Following the same rule, 24 x 2 = 48.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 1, 4, 9, 16, 25, ?",
+    "options": [
+      { "optionId": "A", "text": "30" },
+      { "optionId": "B", "text": "32" },
+      { "optionId": "C", "text": "36" },
+      { "optionId": "D", "text": "49" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This is the series of perfect squares: 1^2, 2^2, 3^2, 4^2, 5^2. The next term is 6^2 = 36.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 2, 3, 5, 8, 13, ?",
+    "options": [
+      { "optionId": "A", "text": "18" },
+      { "optionId": "B", "text": "20" },
+      { "optionId": "C", "text": "21" },
+      { "optionId": "D", "text": "24" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is the sum of the two preceding terms (2 + 3 = 5, 3 + 5 = 8, 5 + 8 = 13). Following the same rule, 8 + 13 = 21.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 1, 8, 27, 64, ?",
+    "options": [
+      { "optionId": "A", "text": "100" },
+      { "optionId": "B", "text": "121" },
+      { "optionId": "C", "text": "125" },
+      { "optionId": "D", "text": "144" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This is the series of perfect cubes: 1^3, 2^3, 3^3, 4^3. The next term is 5^3 = 125.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the letter series: A, C, E, G, ?",
+    "options": [
+      { "optionId": "A", "text": "H" },
+      { "optionId": "B", "text": "I" },
+      { "optionId": "C", "text": "J" },
+      { "optionId": "D", "text": "K" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The series skips one letter each time (A, skip B, C, skip D, E, skip F, G). Skipping the next letter H gives the next term, I.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the letter series: B, D, F, H, ?",
+    "options": [
+      { "optionId": "A", "text": "I" },
+      { "optionId": "B", "text": "J" },
+      { "optionId": "C", "text": "K" },
+      { "optionId": "D", "text": "L" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The series consists of alternate letters, each two positions after the previous one (B, D, F, H). Continuing the pattern, the next letter is J.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the letter series: Z, Y, X, W, ?",
+    "options": [
+      { "optionId": "A", "text": "U" },
+      { "optionId": "B", "text": "T" },
+      { "optionId": "C", "text": "V" },
+      { "optionId": "D", "text": "S" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The series moves backward through the alphabet one letter at a time (Z, Y, X, W). The next letter in this descending sequence is V.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 3, 6, 11, 18, 27, ?",
+    "options": [
+      { "optionId": "A", "text": "35" },
+      { "optionId": "B", "text": "36" },
+      { "optionId": "C", "text": "38" },
+      { "optionId": "D", "text": "40" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The differences between consecutive terms are 3, 5, 7, 9 (successive odd numbers). The next difference is 11, so the next term is 27 + 11 = 38.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 7, 26, 63, 124, ?",
+    "options": [
+      { "optionId": "A", "text": "200" },
+      { "optionId": "B", "text": "210" },
+      { "optionId": "C", "text": "215" },
+      { "optionId": "D", "text": "225" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term follows the pattern n^3 - 1 for n = 2, 3, 4, 5: 2^3 - 1 = 7, 3^3 - 1 = 26, 4^3 - 1 = 63, 5^3 - 1 = 124. The next term, for n = 6, is 6^3 - 1 = 215.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      { "optionId": "A", "text": "36" },
+      { "optionId": "B", "text": "40" },
+      { "optionId": "C", "text": "42" },
+      { "optionId": "D", "text": "44" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term equals n x (n+1): 1x2=2, 2x3=6, 3x4=12, 4x5=20, 5x6=30. The next term, for n=6, is 6x7=42.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the letter series: A, D, I, P, ?",
+    "options": [
+      { "optionId": "A", "text": "T" },
+      { "optionId": "B", "text": "W" },
+      { "optionId": "C", "text": "X" },
+      { "optionId": "D", "text": "Y" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The letters occupy positions equal to perfect squares in the alphabet: 1st (A), 4th (D), 9th (I), 16th (P). The next perfect square is 25, and the 25th letter of the alphabet is Y.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 10, 20, 30, 40, ?",
+    "options": [
+      { "optionId": "A", "text": "45" },
+      { "optionId": "B", "text": "50" },
+      { "optionId": "C", "text": "55" },
+      { "optionId": "D", "text": "60" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each term increases by 10. After 40, the next term is 40 + 10 = 50.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the letter series: A, C, F, J, ?",
+    "options": [
+      { "optionId": "A", "text": "M" },
+      { "optionId": "B", "text": "N" },
+      { "optionId": "C", "text": "O" },
+      { "optionId": "D", "text": "P" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The gaps between letters increase by one each time: A to C is a gap of 2, C to F is a gap of 3, F to J is a gap of 4. The next gap is 5, so from J (10th letter), moving 5 positions ahead gives the 15th letter, O.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In the series 5, 10, 20, 40, 80, the next term is 160.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each term in this series is double the previous term (5, 10, 20, 40, 80). Following this rule, the next term is 80 x 2 = 160, so the statement is True.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In the series 1, 3, 6, 10, 15, the next term is 20.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This is the series of triangular numbers, where the difference between consecutive terms increases by 1 each time: +2, +3, +4, +5. The next difference should be +6, giving 15 + 6 = 21, not 20. So the statement is False.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Consider two series: (i) 3, 9, 27, 81, ... and (ii) 4, 8, 16, 32, .... Which of the following statements are correct? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "The next term of series (i) is 243" },
+      { "optionId": "B", "text": "The next term of series (ii) is 64" },
+      { "optionId": "C", "text": "Series (i) follows a multiply-by-4 pattern" },
+      { "optionId": "D", "text": "Series (ii) follows a multiply-by-2 pattern" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "Series (i) is formed by multiplying by 3 each time (3, 9, 27, 81, 243), so the next term is 243 (A is correct) and the multiplier is 3, not 4 (C is incorrect). Series (ii) is formed by multiplying by 2 each time (4, 8, 16, 32, 64), so the next term is 64 (B is correct) and it does follow a multiply-by-2 pattern (D is correct).",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "next-term"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

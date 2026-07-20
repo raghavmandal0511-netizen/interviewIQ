@@ -1,0 +1,95 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Races and Games problems relate distances covered, speeds, and winning margins. When A beats B by d metres in a race of L metres, A runs L while B runs (L − d) in the same time, giving speed ratio L : (L − d). Games of skill ask how many consecutive wins are needed under a point system.",
+  "explanation": "CONCEPT EXPLANATION\n\nIn a race of L metres, if A beats B by d metres, then when A completes L metres, B has run (L − d) metres. Since time is equal, speed ratio A : B = L : (L − d). Similarly, if A beats B by t seconds, compute distances each runs in time t to relate speeds.\n\nA head start of h metres means the advantaged runner begins h metres ahead. For games of skill: if A needs a wins and B needs b wins, and A wins m games while B wins n games with m < a and n < b, find remaining games or probability as stated.\n\nREAL-LIFE APPLICATIONS\n\nTrack athletics handicapping, relay team selection, tournament knockout formats, and gaming tournament rules use these proportional reasoning patterns.\n\nCOMMON MISTAKES\n\n1) Using d/L as the speed ratio instead of L/(L−d).\n2) Ignoring head start when computing effective race length.\n3) Confusing beating by time with beating by distance without conversion.\n4) Adding head start to winning margin incorrectly.\n5) Miscounting games needed in skill-game problems.\n\nIMPORTANT NOTES\n\n• Same time ⇒ distance ratio equals speed ratio.\n• Head start reduces the distance the favoured runner must cover.\n• Dead heat means both reach the finish together — speeds equal over that distance.\n• In circular track problems, first meeting uses relative speed on lap length.\n• Always identify who runs full distance L when beaten by d metres.",
+  "formulas": [
+    {
+      "title": "Beating by distance",
+      "content": "If A beats B by d m in a race of L m, then Speed A : Speed B = L : (L − d)"
+    },
+    {
+      "title": "Beating by time",
+      "content": "If A finishes L metres and B is d metres behind at that instant, then B has run (L − d) metres in the same time"
+    },
+    {
+      "title": "Head start",
+      "content": "With head start h, the other runner must cover L metres while the favoured runner covers (L − h) metres to win"
+    },
+    {
+      "title": "Time-based speeds",
+      "content": "If A runs L1 in time T and B runs L2 in the same time T, then Speed A : Speed B = L1 : L2"
+    },
+    {
+      "title": "Games of skill",
+      "content": "If A needs a wins and B needs b wins, after A wins m and B wins n games, A needs (a − m) more wins and B needs (b − n) more wins"
+    },
+    {
+      "title": "Circular track first meeting",
+      "content": "Time to first meet (same direction) = Track length / |Speed A − Speed B|"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "L and L−d",
+      "tip": "When A beats B by d in L metres, write speed ratio as L : (L − d) immediately."
+    },
+    {
+      "title": "Head start first",
+      "tip": "Subtract the head start from the race length for the runner who gets it before comparing speeds."
+    },
+    {
+      "title": "Time beat conversion",
+      "tip": "If beaten by t seconds, find how far B runs while A completes L using equal-time distance ratios."
+    },
+    {
+      "title": "Equal time principle",
+      "tip": "All race ratio problems assume both run for the same time when the winner finishes."
+    },
+    {
+      "title": "Games remaining",
+      "tip": "In skill games, subtract games already won from the target wins for each player."
+    },
+    {
+      "title": "Check ratio direction",
+      "tip": "Always put the faster runner's distance on the left side of the speed ratio."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A beats B by 20 metres in a 200 m race. In a 100 m race, by how many metres will A beat B?",
+      "solution": "A beats B by 10 metres.",
+      "steps": [
+        "Speed ratio A : B = 200 : 180 = 10 : 9.",
+        "When A runs 100 m, B runs 100 × 9/10 = 90 m.",
+        "Beat distance = 100 − 90 = 10 metres."
+      ]
+    },
+    {
+      "problem": "A beats B by 10 m in a 100 m race. If A runs at 5 m/s, find B's speed.",
+      "solution": "B's speed = 4.5 m/s.",
+      "steps": [
+        "When A runs 100 m, B runs 90 m in the same time.",
+        "Time taken = 100/5 = 20 seconds.",
+        "B's speed = 90/20 = 4.5 m/s."
+      ]
+    },
+    {
+      "problem": "A can run 1 km in 5 minutes and B in 6 minutes. By what distance does A beat B in a 1 km race?",
+      "solution": "A beats B by 166⅔ metres (approximately 167 m).",
+      "steps": [
+        "When A completes 1000 m, time elapsed = 5 minutes.",
+        "In 5 minutes B runs (1000/6) × 5 = 5000/6 = 833⅓ m.",
+        "Beat distance = 1000 − 833⅓ = 166⅔ m."
+      ]
+    },
+    {
+      "problem": "A and B play a game where the first to win 3 games wins. If A has won 2 games and B has won 1, how many more games must A win to win the match?",
+      "solution": "A needs 1 more win.",
+      "steps": [
+        "A needs 3 wins total and already has 2.",
+        "Remaining wins needed = 3 − 2 = 1."
+      ]
+    }
+  ],
+  "references": []
+}

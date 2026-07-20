@@ -1,0 +1,108 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Problems on Trains apply the basic relation Distance = Speed × Time to moving objects of measurable length. Unlike a point object, a train has its own length, so the distance covered while crossing a pole, a person, another train, or a platform includes that length. Mastering unit conversion (km/h ↔ m/s) and relative speed for same/opposite directions is the core of this topic for competitive exams.",
+  "explanation": "CONCEPT EXPLANATION\n\nA train is treated as a line segment of known length. When it crosses a stationary point object (pole, tree, standing person), the distance equals the train’s length. When it crosses a platform, bridge, or tunnel of length L_p, the distance equals L_train + L_p. When two trains cross each other, distance equals the sum of their lengths.\n\nRelative speed depends on direction: same direction → |S1 − S2|; opposite direction → S1 + S2. Always keep units consistent. Convert km/h to m/s by multiplying by 5/18, and m/s to km/h by multiplying by 18/5.\n\nTime to cross = Distance / Relative speed. Speed = Distance / Time. Length (distance) = Speed × Time.\n\nREAL-LIFE APPLICATIONS\n\nRailway timetable planning, estimating how long a train occupies a platform or level crossing, designing safe signalling distances, and logistics for freight trains sharing tracks all rely on these relative-motion ideas.\n\nCOMMON MISTAKES\n\n1) Forgetting to add platform length when a train crosses a platform.\n2) Mixing km/h with metres and seconds without conversion.\n3) Using sum of speeds when trains move in the same direction.\n4) Treating a moving person like a pole without adjusting relative speed.\n5) Using only one train’s length when two trains cross each other.\n\nIMPORTANT NOTES\n\n• A man/pole has negligible length → distance = length of train only.\n• Platform/bridge has significant length → add both lengths.\n• Same direction → subtract speeds; opposite → add speeds.\n• If a train overtakes a man walking in the same direction, relative speed = train speed − man speed.\n• If they move toward each other, relative speed = train speed + man speed.\n• Always convert before dividing when mixed units appear.",
+  "formulas": [
+    {
+      "title": "Basic relation",
+      "content": "Distance = Speed × Time"
+    },
+    {
+      "title": "km/h to m/s",
+      "content": "x km/h = x × (5/18) m/s"
+    },
+    {
+      "title": "m/s to km/h",
+      "content": "y m/s = y × (18/5) km/h"
+    },
+    {
+      "title": "Time to cross a pole or standing person",
+      "content": "Time = Length of train / Speed of train"
+    },
+    {
+      "title": "Time to cross a platform or bridge",
+      "content": "Time = (Length of train + Length of platform) / Speed of train"
+    },
+    {
+      "title": "Two trains opposite directions",
+      "content": "Time = (L1 + L2) / (S1 + S2)"
+    },
+    {
+      "title": "Two trains same direction",
+      "content": "Time = (L1 + L2) / |S1 − S2|"
+    },
+    {
+      "title": "Train crossing a man walking same direction",
+      "content": "Time = Length of train / (Speed of train − Speed of man)"
+    },
+    {
+      "title": "Train crossing a man walking opposite direction",
+      "content": "Time = Length of train / (Speed of train + Speed of man)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Convert first",
+      "tip": "If length is in metres and time in seconds, convert speed to m/s before dividing."
+    },
+    {
+      "title": "Pole vs platform",
+      "tip": "Pole or tree → use train length only; platform or bridge → add both lengths."
+    },
+    {
+      "title": "Same vs opposite",
+      "tip": "Same direction: subtract speeds; opposite direction: add speeds."
+    },
+    {
+      "title": "Quick 5/18 check",
+      "tip": "Multiply km/h by 5 and divide by 18 to get m/s; reverse with 18/5."
+    },
+    {
+      "title": "Overtake rule",
+      "tip": "Overtaking always uses relative speed as the difference of speeds."
+    },
+    {
+      "title": "Two-train distance",
+      "tip": "Whenever two trains meet or cross, distance is always L1 + L2."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A train 150 m long runs at 54 km/h. How many seconds does it take to cross a standing pole?",
+      "solution": "The train takes 10 seconds to cross the pole.",
+      "steps": [
+        "Convert speed: 54 × (5/18) = 15 m/s.",
+        "Distance to cross a pole = length of train = 150 m.",
+        "Time = Distance / Speed = 150 / 15 = 10 seconds."
+      ]
+    },
+    {
+      "problem": "A 120 m train crosses a 180 m platform in 20 seconds. Find the speed of the train in km/h.",
+      "solution": "The speed of the train is 54 km/h.",
+      "steps": [
+        "Total distance = 120 + 180 = 300 m.",
+        "Speed in m/s = 300 / 20 = 15 m/s.",
+        "Convert to km/h: 15 × (18/5) = 54 km/h."
+      ]
+    },
+    {
+      "problem": "Two trains 110 m and 90 m long run at 36 km/h and 54 km/h in opposite directions. In how many seconds do they cross each other?",
+      "solution": "They cross each other in 8 seconds.",
+      "steps": [
+        "Relative speed = 36 + 54 = 90 km/h = 90 × (5/18) = 25 m/s.",
+        "Total length = 110 + 90 = 200 m.",
+        "Time = 200 / 25 = 8 seconds."
+      ]
+    },
+    {
+      "problem": "A train 200 m long overtakes a man walking at 5 km/h in the same direction in 20 seconds. Find the speed of the train.",
+      "solution": "The speed of the train is 41 km/h.",
+      "steps": [
+        "Let train speed be S km/h. Relative speed = (S − 5) km/h = (S − 5) × (5/18) m/s.",
+        "Distance = 200 m; Time = 20 s → relative speed = 200/20 = 10 m/s.",
+        "10 = (S − 5) × (5/18) ⇒ S − 5 = 36 ⇒ S = 41 km/h."
+      ]
+    }
+  ],
+  "references": []
+}

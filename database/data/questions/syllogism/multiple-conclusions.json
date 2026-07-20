@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All roses are flowers. All flowers are plants.\nConclusions:\nI. All roses are plants.\nII. Some plants are roses.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since all roses are flowers and all flowers are plants, by transitivity all roses are plants (I). Because roses are assumed to exist, \"all roses are plants\" also guarantees that some plants are roses (II, by subalternation and conversion). Both conclusions follow.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All squares are rectangles. All rectangles are quadrilaterals.\nConclusions:\nI. All squares are quadrilaterals.\nII. All quadrilaterals are squares.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Transitivity gives \"all squares are quadrilaterals\" (I), which is valid. The reverse, \"all quadrilaterals are squares\" (II), is an illicit conversion of a universal statement; many quadrilaterals, such as ordinary rectangles, are not squares, so II does not follow.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No fish are mammals. All whales are mammals.\nConclusions:\nI. No fish are whales.\nII. No whales are fish.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Whales are entirely contained within mammals, and fish share nothing in common with mammals, so fish and whales cannot overlap either. \"No fish are whales\" and its logically equivalent statement \"no whales are fish\" both follow, since a universal negative is symmetric.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All engineers are graduates. Some graduates are unemployed.\nConclusions:\nI. Some engineers are unemployed.\nII. Some unemployed people are graduates.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The term \"graduates\" is undistributed in both premises (it is the predicate of a universal in the first and the subject of a particular in the second), so no valid link between engineers and unemployed people can be drawn — I does not follow. However, \"some graduates are unemployed\" converts directly and validly to \"some unemployed people are graduates\" (II), which always follows from a particular affirmative statement.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some teachers are artists. All artists are creative.\nConclusions:\nI. Some teachers are creative.\nII. Some creative people are teachers.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since some teachers are artists and all artists are creative, those teacher-artists must be creative, so some teachers are creative (I). Because \"some teachers are creative\" is a particular affirmative statement, it converts validly to \"some creative people are teachers\" (II). Both conclusions follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All poets are dreamers. Some dreamers are not realistic.\nConclusions:\nI. Some poets are not realistic.\nII. All dreamers are poets.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The dreamers who are not realistic need not include any poets at all, so conclusion I is not guaranteed. Conclusion II reverses a universal statement without justification, which is an illicit conversion. Neither conclusion is validly established by the given statements.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some doctors are surgeons. No surgeon is careless.\nConclusions:\nI. Some doctors are not careless.\nII. All doctors are surgeons.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since some doctors are surgeons and no surgeon is careless, those doctor-surgeons are not careless, so \"some doctors are not careless\" (I) validly follows. Conclusion II overstates the relationship, since the premises only establish that some, not all, doctors are surgeons, so II does not follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All actors are famous. Some famous people are rich.\nConclusions:\nI. Some actors are rich.\nII. Some rich people are famous.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"Famous\" is undistributed in both premises, so no valid link between actors and rich people can be drawn, meaning I does not follow. However, converting \"some famous people are rich\" directly gives \"some rich people are famous\" (II), which is always a valid conversion of a particular affirmative statement.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No committee member is inefficient. All inefficient people are careless.\nConclusions:\nI. No committee member is careless.\nII. No careless person is a committee member.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Although no committee member is inefficient, inefficient people form only part of the larger group of careless people, so committee members could still be careless for other reasons. Since \"inefficient\" does not properly connect committee members to the entire careless category, neither conclusion is validly established.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement: No snake is a mammal.\nConclusions:\nI. No mammal is a snake.\nII. Some mammals are snakes.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"No snake is a mammal\" is a universal negative statement, which is symmetric, so \"no mammal is a snake\" (I) follows directly. Conclusion II directly contradicts the given statement, so it cannot follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement: All parrots are birds.\nConclusions:\nI. All birds are parrots.\nII. Some birds are parrots.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since all parrots are birds, and parrots are assumed to exist, it validly follows that some birds are parrots (II). Conclusion I claims the reverse for the entire class of birds, which is an illicit conversion of a universal statement and does not follow.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some pens are costly. Some costly items are rare.\nConclusions:\nI. Some pens are rare.\nII. Some rare items are pens.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Both premises are particular (\"some\") statements, so the middle term \"costly items\" is undistributed in both. This is the fallacy of the undistributed middle, and no conclusion connecting pens and rare items can be validly drawn from these premises alone.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All balls are round objects. No round object is a cube.\nConclusions:\nI. No ball is a cube.\nII. No cube is a ball.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since all balls are round objects and no round object is a cube, no ball can be a cube (I). Because a universal negative statement is symmetric, \"no cube is a ball\" (II) is simply the equivalent restatement of the same fact. Both conclusions follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some singers are dancers. All dancers are performers.\nConclusions:\nI. Some singers are performers.\nII. All performers are dancers.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since some singers are dancers and all dancers are performers, those singer-dancers must be performers, so \"some singers are performers\" (I) validly follows. Conclusion II reverses the second premise's direction without any logical basis; performers need not all be dancers, so II does not follow.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: Given the statements \"All metals conduct electricity\" and \"Copper is a metal,\" the conclusion \"Copper conducts electricity\" validly follows.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This is a standard valid syllogism: all members of a class (metals) have a property (conducting electricity), and copper belongs to that class, so copper must have that property. The conclusion follows validly, so the statement is True.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: Given the statements \"All lawyers are logical\" and \"Some logical people are impatient,\" the conclusion \"Some lawyers are impatient\" necessarily follows.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"Logical\" is undistributed in both premises (predicate of a universal, then subject of a particular), which is the fallacy of the undistributed middle. The impatient logical people need not include any lawyers, so the conclusion is not guaranteed, making the statement False.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All chefs are artists. All artists are perfectionists.\nWhich of the following conclusions can be validly drawn from the statements above? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "All chefs are perfectionists" },
+      { "optionId": "B", "text": "Some perfectionists are chefs" },
+      { "optionId": "C", "text": "All perfectionists are chefs" },
+      { "optionId": "D", "text": "No chef is a perfectionist" }
+    ],
+    "correctAnswer": ["A", "B"],
+    "explanation": "By transitivity, all chefs are perfectionists (A). Since chefs are assumed to exist, this universal statement also guarantees that some perfectionists are chefs (B), by subalternation and conversion. Option C is an illicit conversion — not every perfectionist need be a chef — and option D directly contradicts option A, so both are incorrect.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some fruits are sweet. All sweet things are enjoyed.\nConclusions:\nI. Some fruits are enjoyed.\nII. All fruits are enjoyed.",
+    "options": [
+      { "optionId": "A", "text": "Only conclusion I follows" },
+      { "optionId": "B", "text": "Only conclusion II follows" },
+      { "optionId": "C", "text": "Both I and II follow" },
+      { "optionId": "D", "text": "Neither I nor II follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since some fruits are sweet and all sweet things are enjoyed, those sweet fruits must be enjoyed, so \"some fruits are enjoyed\" (I) validly follows. Conclusion II overgeneralises to \"all\" fruits, but the premises only establish that some fruits are sweet, so II does not follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["syllogism", "multiple-conclusions"],
+    "questionType": "MCQ"
+  }
+]

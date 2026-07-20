@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a school?",
+    "options": [
+      { "optionId": "A", "text": "A playground" },
+      { "optionId": "B", "text": "Students" },
+      { "optionId": "C", "text": "A uniform" },
+      { "optionId": "D", "text": "A school bus" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A school exists to impart education, and this is only possible if there are students to be taught. Playgrounds, uniforms, and buses are common facilities but a school can still be a school without them; without students, however, it ceases to be a school at all.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a book?",
+    "options": [
+      { "optionId": "A", "text": "A decorative cover" },
+      { "optionId": "B", "text": "Pages containing written content" },
+      { "optionId": "C", "text": "A price tag" },
+      { "optionId": "D", "text": "An author's photograph" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A book is defined by the written or printed content it carries. Without pages bearing that content, there is nothing to read, so it cannot be called a book. Covers, price tags, and author photos are add-ons that do not define the object itself.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a clock?",
+    "options": [
+      { "optionId": "A", "text": "An alarm feature" },
+      { "optionId": "B", "text": "A decorative case" },
+      { "optionId": "C", "text": "A mechanism that indicates time" },
+      { "optionId": "D", "text": "A battery cover" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The sole purpose of a clock is to indicate the time. A mechanism or display that shows time is therefore essential; without it, the object cannot function as a clock. Alarms, decorative cases, and battery covers are optional features found in some clocks but not all.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: A uniform is an essential part of an army, because without it, soldiers cannot be identified as belonging to an army.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An army is essentially a body of soldiers organised to fight; the soldiers themselves are the essential component. A uniform is a common identifying feature, but historically and even today, forces have existed and fought without standardised uniforms, so it is not the necessary component.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a letter (mail)?",
+    "options": [
+      { "optionId": "A", "text": "A postage stamp" },
+      { "optionId": "B", "text": "An envelope" },
+      { "optionId": "C", "text": "A written message" },
+      { "optionId": "D", "text": "A signature at the end" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A letter's entire purpose is to convey a message from the writer to the reader. The written message is therefore essential; without it, there is nothing being communicated. Stamps and envelopes relate to how it is sent, and a signature is not always present.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a football match?",
+    "options": [
+      { "optionId": "A", "text": "A cheering crowd" },
+      { "optionId": "B", "text": "Two competing teams" },
+      { "optionId": "C", "text": "A digital scoreboard" },
+      { "optionId": "D", "text": "A trained referee" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A match, by definition, is a contest between two sides. Two competing teams are therefore essential to it. A match can be played without spectators, an electronic scoreboard, or even a formal referee, but it cannot exist without two sides contesting it.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a hospital?",
+    "options": [
+      { "optionId": "A", "text": "Patients requiring treatment" },
+      { "optionId": "B", "text": "An ambulance fleet" },
+      { "optionId": "C", "text": "A pharmacy counter" },
+      { "optionId": "D", "text": "Private consultation cabins" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A hospital exists to provide care to the sick, so patients are the essential component that gives it its purpose. Ambulances, pharmacies, and private cabins are useful facilities that many hospitals have, but a facility caring for patients remains a hospital even without them.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a democracy?",
+    "options": [
+      { "optionId": "A", "text": "Multiple political parties" },
+      { "optionId": "B", "text": "A printed copy of the constitution" },
+      { "optionId": "C", "text": "The right of the people to elect their rulers" },
+      { "optionId": "D", "text": "A grand parliament building" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Democracy literally means rule by the people, exercised through their right to elect representatives. This right is the essential, defining feature. A democracy can technically function with just one dominant party or without an ornate parliament building, but not without the people's right to choose their rulers.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a restaurant?",
+    "options": [
+      { "optionId": "A", "text": "A printed menu card" },
+      { "optionId": "B", "text": "Food served to customers" },
+      { "optionId": "C", "text": "Uniformed waiters" },
+      { "optionId": "D", "text": "Seating tables" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A restaurant's basic purpose is to serve food to people. Food is therefore essential to it; without food, it cannot function as a restaurant. Menu cards, waiters, and tables are conveniences that support the service but are not the core of what makes it a restaurant.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a newspaper?",
+    "options": [
+      { "optionId": "A", "text": "Advertisements" },
+      { "optionId": "B", "text": "News content" },
+      { "optionId": "C", "text": "Photographs" },
+      { "optionId": "D", "text": "An editorial column" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A newspaper exists to inform readers about current events, so news content is its essential component. Advertisements, photographs, and editorial columns are frequently included but a sheet reporting news remains a newspaper even without them.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: Mutual consent of both individuals is an essential part of a marriage.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A marriage is fundamentally a union entered into willingly by two individuals. Without their mutual consent, the union cannot be considered a genuine marriage, regardless of any ceremony performed. Rings, receptions, and guests are customary but not essential.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a triangle?",
+    "options": [
+      { "optionId": "A", "text": "Three equal angles" },
+      { "optionId": "B", "text": "Three straight sides enclosing a space" },
+      { "optionId": "C", "text": "One right angle" },
+      { "optionId": "D", "text": "A particular colour" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A triangle is defined as a closed plane figure bounded by exactly three straight sides. This structural feature is essential to its identity. Equal angles and right angles describe only special types of triangles, and colour is irrelevant to the geometric definition.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of an examination?",
+    "options": [
+      { "optionId": "A", "text": "An invigilator" },
+      { "optionId": "B", "text": "A question paper to assess knowledge" },
+      { "optionId": "C", "text": "A result sheet" },
+      { "optionId": "D", "text": "A dedicated exam hall" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An examination exists to test a candidate's knowledge, which requires questions to be posed and answered. The question paper is therefore essential. Invigilators, result sheets, and dedicated halls support the process but a knowledge check can occur without them, for example in an oral or online test.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a government?",
+    "options": [
+      { "optionId": "A", "text": "A national flag" },
+      { "optionId": "B", "text": "The authority to make and enforce laws" },
+      { "optionId": "C", "text": "A dedicated parliament building" },
+      { "optionId": "D", "text": "A police force" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A government is, by definition, the body that holds the authority to make and enforce laws over a territory. This authority is its essential feature. Flags, buildings, and police forces are common symbols and instruments of governance, but not the defining essence of government itself.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a bridge?",
+    "options": [
+      { "optionId": "A", "text": "Decorative railings" },
+      { "optionId": "B", "text": "A structure spanning a gap between two points" },
+      { "optionId": "C", "text": "Streetlights along its length" },
+      { "optionId": "D", "text": "A toll collection booth" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A bridge is defined by its function of spanning a gap, such as a river or valley, to connect two points. This spanning structure is essential; without it, there is no bridge at all. Railings, lights, and toll booths are additional features seen on many, but not all, bridges.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following are essential elements of a valid contract? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "Mutual agreement between the parties" },
+      { "optionId": "B", "text": "Lawful consideration exchanged" },
+      { "optionId": "C", "text": "A notarised stamp paper" },
+      { "optionId": "D", "text": "The presence of a lawyer during signing" }
+    ],
+    "correctAnswer": ["A", "B"],
+    "explanation": "A contract, at its core, requires that the parties mutually agree to its terms and that something of lawful value is exchanged (consideration). These two elements are essential and can even make an oral agreement legally binding. Notarisation and a lawyer's presence may be advisable in practice but are not required for a contract to be valid.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a team?",
+    "options": [
+      { "optionId": "A", "text": "A common goal shared by its members" },
+      { "optionId": "B", "text": "A matching uniform" },
+      { "optionId": "C", "text": "An appointed captain" },
+      { "optionId": "D", "text": "A trophy to win" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A team is a group of individuals who come together to work towards a shared purpose. This common goal is what binds them into a team; without it, they are merely a group of unrelated people. Uniforms, captains, and trophies are common in organised teams but are not what fundamentally defines one.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a photograph?",
+    "options": [
+      { "optionId": "A", "text": "A decorative frame" },
+      { "optionId": "B", "text": "An image captured of a subject" },
+      { "optionId": "C", "text": "A camera flash" },
+      { "optionId": "D", "text": "An album to store it in" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A photograph is, in essence, a recorded image of a subject captured through light. This captured image is what makes it a photograph in the first place. Frames, flashes, and albums relate to how it is displayed, stored, or produced, not to its fundamental identity.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "necessary-component"],
+    "questionType": "MCQ"
+  }
+]

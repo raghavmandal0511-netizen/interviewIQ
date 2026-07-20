@@ -1,0 +1,26 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-logical-sequence-of-words-introduction",
+    "title": "Introduction",
+    "description": "Introductory practice on logical word order",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-logical-sequence-of-words-basic-arrangement",
+    "title": "Basic Arrangement",
+    "description": "Basic meaningful sequences of words",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-logical-sequence-of-words-advanced-arrangement",
+    "title": "Advanced Arrangement",
+    "description": "Advanced and multi-step word arrangements",
+    "order": 3,
+    "isPublished": true
+  }
+]

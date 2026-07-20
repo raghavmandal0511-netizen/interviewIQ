@@ -1,0 +1,76 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Syllogism questions give categorical statements (All/Some/No) and ask which conclusions follow. Treat the statements as true and use Venn-style reasoning—not real-world knowledge.",
+  "explanation": "CONCEPT\n\nA syllogism links categories with quantifiers: All A are B, Some A are B, No A are B, Some A are not B. Conclusions follow only if they are true in every diagram allowed by the statements.\n\nRULES\n\n• All A are B → A is entirely inside B; converse \"All B are A\" does not follow.\n• Some A are B → at least one A is B; not all.\n• No A are B ↔ No B are A.\n• From All A are B and All B are C → All A are C.\n• From All A are B and Some A are C → Some B are C (typically follows).\n• Possibility cases (\"some not\") need care with complementary conclusions.\n\nTRICKS / SHORTCUT TECHNIQUES\n\n• Draw 2–3 circles quickly.\n• Mark definite regions vs possible regions.\n• For multiple conclusions, test each alone, then match option codes (only I, only II, both, either, neither).\n• \"Either I or II\" applies when exactly one of two complementary conclusions must be true.\n\nSTEP-BY-STEP SOLVING METHOD\n\n1) Accept statements as fully true.\n2) Sketch Venn relations.\n3) Check each conclusion for necessity (not mere possibility).\n4) Select the option describing which conclusions follow.\n\nCOMMON MISTAKES\n\n1) Using outside knowledge.\n2) Converting \"All A are B\" to \"All B are A\".\n3) Treating \"some\" as \"all\".\n4) Calling a possible conclusion definite.\n5) Misreading combination options.",
+  "formulas": [
+    {
+      "title": "Universal affirmative",
+      "content": "All A are B → every A is B"
+    },
+    {
+      "title": "Particular affirmative",
+      "content": "Some A are B → at least one A is B"
+    },
+    {
+      "title": "Universal negative",
+      "content": "No A are B ↔ sets A and B are disjoint"
+    },
+    {
+      "title": "Chain rule",
+      "content": "All A are B and All B are C ⇒ All A are C"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Draw circles",
+      "tip": "A 10-second Venn sketch prevents most conversion errors."
+    },
+    {
+      "title": "Necessity test",
+      "tip": "If you can draw a valid case where the conclusion fails, it does not follow."
+    },
+    {
+      "title": "Ignore reality",
+      "tip": "If statements say all dogs are cats, accept it for the question."
+    },
+    {
+      "title": "Check each conclusion",
+      "tip": "Decide I and II separately before reading combination choices."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Statements: All books are papers. All papers are files. Conclusion: All books are files.",
+      "solution": "Follows.",
+      "steps": [
+        "Books ⊂ papers ⊂ files.",
+        "Therefore books ⊂ files.",
+        "Conclusion follows."
+      ]
+    },
+    {
+      "problem": "Statements: Some doctors are teachers. All teachers are engineers. Conclusion: All doctors are engineers.",
+      "solution": "Does not follow.",
+      "steps": [
+        "Only some doctors are teachers.",
+        "Those teachers are engineers, so some doctors may be engineers.",
+        "\"All doctors are engineers\" is not forced."
+      ]
+    },
+    {
+      "problem": "Statements: No pen is pencil. All pencils are erasers. Conclusions: (I) No pen is eraser. (II) Some erasers are pencils.",
+      "solution": "Only II follows.",
+      "steps": [
+        "All pencils are erasers ⇒ some erasers are pencils (II).",
+        "Pens are disjoint from pencils but may still overlap other erasers, so I need not follow.",
+        "Only II follows."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Syllogism",
+      "url": "https://en.wikipedia.org/wiki/Syllogism"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "A ratio compares two quantities of the same kind by division, written as a:b, while a proportion states that two ratios are equal, written as a:b = c:d. These ideas let you scale recipes, mix solutions, divide money fairly, and compare rates — and they form the backbone of many other aptitude topics like partnership, mixtures, and time-speed-distance.",
+  "explanation": "CONCEPT EXPLANATION\n\nThe ratio a:b represents the fraction a/b, so ratios can be simplified just like fractions by dividing both terms by their HCF. A ratio has no fixed unit — it only expresses relative size, so 4:6 and 2:3 represent the same ratio.\n\nA proportion a:b = c:d means the ratios are equal, which is equivalent to a×d = b×c (cross multiplication, also called \"product of extremes equals product of means\").\n\nWhen a quantity Q is divided in the ratio a:b, the two parts are (a/(a+b))×Q and (b/(a+b))×Q. For three parts in ratio a:b:c, the shares are (a/(a+b+c))×Q, and so on for each term.\n\nMean proportional between two numbers a and b is √(ab). Third proportional to a and b is the value c such that a:b = b:c, giving c = b²/a. Fourth proportional to a, b, c is the value d such that a:b = c:d, giving d = (b×c)/a.\n\nComponendo and dividendo is a useful proportion manipulation: if a/b = c/d, then (a+b)/(a−b) = (c+d)/(c−d), which often simplifies otherwise messy proportion equations.\n\nREAL-LIFE APPLICATIONS\n\nRecipe scaling, map scales, mixing paint or concrete in fixed ratios, splitting profits in a partnership, and currency exchange rates all rely on ratio and proportion.\n\nCOMMON MISTAKES\n\n1) Treating a ratio as having units when it is actually unit-less (a pure comparison).\n2) Forgetting to add all parts of the ratio before dividing a quantity (using a+b+c, not just the largest term).\n3) Cross-multiplying incorrectly by mixing up which terms are extremes and which are means.\n4) Confusing mean proportional (√(ab)) with the simple average ((a+b)/2).\n5) Not simplifying the ratio to lowest terms before comparing with another ratio.\n\nIMPORTANT NOTES\n\n• If a:b = c:d, then a:b:c:d relationships can be combined using compounding (multiplying corresponding ratios) when scales match.\n\n• Ratios can be compared by converting to a common second term or by cross multiplication.\n\n• Duplicate ratio of a:b is a²:b²; sub-duplicate ratio is √a:√b.\n\n• Inverse (or reciprocal) ratio of a:b is 1/a : 1/b, equivalent to b:a.",
+  "formulas": [
+    {
+      "title": "Cross multiplication in proportion",
+      "content": "If a:b = c:d, then a × d = b × c"
+    },
+    {
+      "title": "Dividing a quantity in ratio",
+      "content": "For Q divided in ratio a:b, parts = [a/(a+b)]×Q and [b/(a+b)]×Q"
+    },
+    {
+      "title": "Mean proportional",
+      "content": "Mean proportional between a and b = √(a × b)"
+    },
+    {
+      "title": "Third proportional",
+      "content": "Third proportional to a, b = b² / a"
+    },
+    {
+      "title": "Fourth proportional",
+      "content": "Fourth proportional to a, b, c = (b × c) / a"
+    },
+    {
+      "title": "Componendo and dividendo",
+      "content": "If a/b = c/d, then (a+b)/(a−b) = (c+d)/(c−d)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Simplify first",
+      "tip": "Always reduce a ratio to lowest terms using HCF before performing further calculations — smaller numbers mean fewer errors."
+    },
+    {
+      "title": "Assign a common multiplier",
+      "tip": "For a ratio a:b:c, represent quantities as ak, bk, ck and solve for k using any additional condition given."
+    },
+    {
+      "title": "Use cross multiplication for proportions",
+      "tip": "Whenever you see a:b = c:d, immediately convert to a×d = b×c to solve for an unknown term."
+    },
+    {
+      "title": "Mean proportional shortcut",
+      "tip": "Recall √(ab), not (a+b)/2, whenever a question asks for the 'mean proportional' between two numbers."
+    },
+    {
+      "title": "Combine ratios via LCM",
+      "tip": "To combine a:b and b:c into a:b:c, scale each ratio so the common term (b) matches using LCM before merging."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Divide Rs 3,600 between A and B in the ratio 5:4.",
+      "solution": "A gets Rs 2,000 and B gets Rs 1,600.",
+      "steps": [
+        "Total parts = 5 + 4 = 9.",
+        "A's share = (5/9) × 3600 = 2,000.",
+        "B's share = (4/9) × 3600 = 1,600."
+      ]
+    },
+    {
+      "problem": "Find the mean proportional between 4 and 25.",
+      "solution": "The mean proportional is 10.",
+      "steps": [
+        "Mean proportional = √(4 × 25) = √100 = 10."
+      ]
+    },
+    {
+      "problem": "If a:b = 2:3 and b:c = 4:5, find a:b:c.",
+      "solution": "a:b:c = 8:12:15.",
+      "steps": [
+        "a:b = 2:3 = 8:12 (multiplying both terms by 4 to match b's value with the next ratio).",
+        "b:c = 4:5 = 12:15 (multiplying both terms by 3 so b matches 12).",
+        "Combined: a:b:c = 8:12:15."
+      ]
+    },
+    {
+      "problem": "If (x+3):(x−3) = 5:3, find x using componendo and dividendo.",
+      "solution": "x = 12.",
+      "steps": [
+        "Given a/b = c/d form with a=(x+3), b=(x−3), matching 5/3.",
+        "Cross multiply directly: 3(x+3) = 5(x−3).",
+        "3x + 9 = 5x − 15 ⟹ 24 = 2x ⟹ x = 12."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Khan Academy — Ratios, rates, and proportions",
+      "url": "https://www.khanacademy.org/math/pre-algebra/pre-algebra-ratios-rates"
+    },
+    {
+      "title": "Math is Fun — Ratios",
+      "url": "https://www.mathsisfun.com/numbers/ratio.html"
+    }
+  ]
+}

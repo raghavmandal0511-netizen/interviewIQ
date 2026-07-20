@@ -1,0 +1,511 @@
+{
+  "_seedKey": "topic-surds-and-indices",
+  "topic": {
+    "moduleId": "REPLACE_MODULE_ARITHMETIC_ID",
+    "name": "Surds and Indices",
+    "slug": "surds-and-indices",
+    "description": "Laws of indices, fractional and negative exponents, surd simplification, and rationalization for aptitude exams. Estimated reading 22 min; practice 38 min.",
+    "estimatedTime": 60,
+    "difficulty": "medium",
+    "order": 23,
+    "isPublished": true
+  },
+  "theory": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "introduction": "Surds and Indices form the backbone of algebraic simplification in quantitative aptitude. Index laws let you manipulate powers efficiently, while surds deal with irrational roots that cannot be expressed as exact rationals. Mastery here speeds up simplification, comparison, and equation-solving across arithmetic and algebra.",
+    "explanation": "CONCEPT EXPLANATION\n\nIndices (exponents) represent repeated multiplication. For base a > 0 and integers m, n: a^m × a^n = a^(m+n); a^m ÷ a^n = a^(m−n); (a^m)^n = a^(mn); (ab)^n = a^n b^n; a^0 = 1; a^(−n) = 1/a^n; a^(1/n) = ⁿ√a.\n\nSurds are irrational roots such as √2, √3, ∛5. Like surds can be combined: 3√2 + 5√2 = 8√2. Unlike surds (√2 and √3) cannot be added directly. To rationalize a denominator containing √a, multiply numerator and denominator by √a (or the conjugate for binomial denominators).\n\nFractional indices bridge surds and powers: x^(1/2) = √x, x^(2/3) = (∛x)². Always express terms with the same base before applying index laws.\n\nREAL-LIFE APPLICATIONS\n\nCompound interest formulas use fractional and negative exponents. Engineering tolerances, signal decay, pH calculations, and scientific notation all rely on index manipulation. Surds appear in geometry (diagonal of a square) and physics formulas involving square roots.\n\nCOMMON MISTAKES\n\n1) Adding exponents when bases differ: 2³ × 3² ≠ 6⁵.\n2) Treating (a + b)^n as a^n + b^n.\n3) Forgetting a^0 = 1 for a ≠ 0.\n4) Incorrect rationalization: missing the conjugate for (√a − √b) denominators.\n5) Simplifying √(a + b) as √a + √b.\n\nIMPORTANT NOTES\n\n• For comparisons, convert to the same base or compare logarithms/decimals.\n• Surd multiplication: √a × √b = √(ab).\n• (√a)² = a for a ≥ 0.\n• Rationalize denominators to eliminate surds from the bottom fraction.\n• Negative exponent means reciprocal: x^(−2) = 1/x².",
+    "formulas": [
+      { "title": "Product law of indices", "content": "a^m × a^n = a^(m + n) for a > 0" },
+      { "title": "Quotient law of indices", "content": "a^m ÷ a^n = a^(m − n) for a > 0" },
+      { "title": "Power of a power", "content": "(a^m)^n = a^(mn) for a > 0" },
+      { "title": "Negative index", "content": "a^(−n) = 1 / a^n for a ≠ 0" },
+      { "title": "Fractional index", "content": "a^(m/n) = ⁿ√(a^m) = (ⁿ√a)^m for a > 0" },
+      { "title": "Surd product", "content": "√a × √b = √(ab) for a, b ≥ 0" }
+    ],
+    "shortcutTips": [
+      { "title": "Same base first", "tip": "Rewrite all terms with a common base before applying index laws." },
+      { "title": "Compare powers via exponents", "tip": "For a > 1, larger exponent means larger value; for 0 < a < 1, the reverse holds." },
+      { "title": "Rationalize quickly", "tip": "For 1/√a, multiply top and bottom by √a to get √a/a." },
+      { "title": "Conjugate for binomial surds", "tip": "Denominator (a + √b)? Multiply by (a − √b)." },
+      { "title": "Zero exponent", "tip": "Any non-zero number to power 0 equals 1 — spot this to simplify fast." },
+      { "title": "Factor under the root", "tip": "Pull out perfect squares from surds before combining like terms." }
+    ],
+    "solvedExamples": [
+      {
+        "problem": "Simplify (2³ × 2⁵) ÷ 2⁴.",
+        "solution": "The value is 16.",
+        "steps": [
+          "Numerator: 2³ × 2⁵ = 2⁸.",
+          "2⁸ ÷ 2⁴ = 2⁴ = 16."
+        ]
+      },
+      {
+        "problem": "Evaluate 27^(2/3).",
+        "solution": "27^(2/3) = 9.",
+        "steps": [
+          "27^(2/3) = (∛27)² = 3² = 9."
+        ]
+      },
+      {
+        "problem": "Rationalize 5/(√3 − 1).",
+        "solution": "The rationalized form is 5(√3 + 1)/2.",
+        "steps": [
+          "Multiply numerator and denominator by (√3 + 1).",
+          "Denominator: (√3 − 1)(√3 + 1) = 3 − 1 = 2.",
+          "Result: 5(√3 + 1)/2."
+        ]
+      },
+      {
+        "problem": "Simplify √12 + √27 − √75.",
+        "solution": "The simplified result is 0.",
+        "steps": [
+          "√12 = 2√3, √27 = 3√3, √75 = 5√3.",
+          "Sum: 2√3 + 3√3 − 5√3 = 0."
+        ]
+      }
+    ],
+    "references": []
+  },
+  "exercise": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-surds-and-indices-general",
+    "title": "General Questions",
+    "description": "MCQ practice on index laws, fractional exponents, surd simplification, and rationalization.",
+    "order": 1,
+    "isPublished": true
+  },
+  "questions": [
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify 2⁵ × 2³.",
+      "options": [
+        { "optionId": "A", "text": "2⁸" },
+        { "optionId": "B", "text": "2¹⁵" },
+        { "optionId": "C", "text": "4⁸" },
+        { "optionId": "D", "text": "4¹⁵" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "2⁵ × 2³ = 2^(5+3) = 2⁸.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["surds-and-indices", "index-laws"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Evaluate (3²)³.",
+      "options": [
+        { "optionId": "A", "text": "3⁵" },
+        { "optionId": "B", "text": "3⁶" },
+        { "optionId": "C", "text": "9³" },
+        { "optionId": "D", "text": "3⁹" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "(3²)³ = 3^(2×3) = 3⁶.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["surds-and-indices", "index-laws"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find the value of 5⁰.",
+      "options": [
+        { "optionId": "A", "text": "0" },
+        { "optionId": "B", "text": "1" },
+        { "optionId": "C", "text": "5" },
+        { "optionId": "D", "text": "Undefined" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Any non-zero number raised to power 0 equals 1.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 30,
+      "tags": ["surds-and-indices", "zero-exponent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify 2⁻³.",
+      "options": [
+        { "optionId": "A", "text": "−8" },
+        { "optionId": "B", "text": "1/6" },
+        { "optionId": "C", "text": "1/8" },
+        { "optionId": "D", "text": "−1/8" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "2⁻³ = 1/2³ = 1/8.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["surds-and-indices", "negative-exponent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Evaluate 16^(1/4).",
+      "options": [
+        { "optionId": "A", "text": "2" },
+        { "optionId": "B", "text": "4" },
+        { "optionId": "C", "text": "8" },
+        { "optionId": "D", "text": "16" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "16^(1/4) = ∜16 = 2.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["surds-and-indices", "fractional-exponent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find 8^(2/3).",
+      "options": [
+        { "optionId": "A", "text": "2" },
+        { "optionId": "B", "text": "4" },
+        { "optionId": "C", "text": "6" },
+        { "optionId": "D", "text": "16" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "8^(2/3) = (∛8)² = 2² = 4.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["surds-and-indices", "fractional-exponent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify √18 + √8.",
+      "options": [
+        { "optionId": "A", "text": "5√2" },
+        { "optionId": "B", "text": "7√2" },
+        { "optionId": "C", "text": "√26" },
+        { "optionId": "D", "text": "10√2" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "√18 = 3√2 and √8 = 2√2. Sum = 5√2.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["surds-and-indices", "simplification"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Rationalize 1/√2.",
+      "options": [
+        { "optionId": "A", "text": "√2" },
+        { "optionId": "B", "text": "√2/2" },
+        { "optionId": "C", "text": "2/√2" },
+        { "optionId": "D", "text": "1/2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Multiply by √2/√2: √2/2.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["surds-and-indices", "rationalization"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Which is the greatest: 2⁵, 5², 10¹, and 4³?",
+      "options": [
+        { "optionId": "A", "text": "2⁵" },
+        { "optionId": "B", "text": "5²" },
+        { "optionId": "C", "text": "10¹" },
+        { "optionId": "D", "text": "4³" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "2⁵ = 32, 5² = 25, 10¹ = 10, 4³ = 64. The greatest is 64 = 4³.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["surds-and-indices", "comparison"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify (125)^(−2/3).",
+      "options": [
+        { "optionId": "A", "text": "1/25" },
+        { "optionId": "B", "text": "1/5" },
+        { "optionId": "C", "text": "25" },
+        { "optionId": "D", "text": "5" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "125^(2/3) = 25, so 125^(−2/3) = 1/25.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["surds-and-indices", "negative-exponent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If 2^x = 32, find x.",
+      "options": [
+        { "optionId": "A", "text": "4" },
+        { "optionId": "B", "text": "5" },
+        { "optionId": "C", "text": "6" },
+        { "optionId": "D", "text": "16" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "32 = 2⁵, so x = 5.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["surds-and-indices", "equations"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify √50 × √2.",
+      "options": [
+        { "optionId": "A", "text": "5" },
+        { "optionId": "B", "text": "10" },
+        { "optionId": "C", "text": "10√2" },
+        { "optionId": "D", "text": "50√2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "√50 × √2 = √100 = 10.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["surds-and-indices", "surd-product"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Express ³√x² in index form.",
+      "options": [
+        { "optionId": "A", "text": "x^(2/3)" },
+        { "optionId": "B", "text": "x^(3/2)" },
+        { "optionId": "C", "text": "x^6" },
+        { "optionId": "D", "text": "x^(1/6)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "³√x² = x^(2/3).",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["surds-and-indices", "fractional-exponent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify (3 × 3³) ÷ 3².",
+      "options": [
+        { "optionId": "A", "text": "3" },
+        { "optionId": "B", "text": "9" },
+        { "optionId": "C", "text": "27" },
+        { "optionId": "D", "text": "81" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "3 × 3³ = 3⁴. Then 3⁴ ÷ 3² = 3² = 9.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["surds-and-indices", "index-laws"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Rationalize 3/(√5 + 2).",
+      "options": [
+        { "optionId": "A", "text": "3(√5 − 2)" },
+        { "optionId": "B", "text": "√5 − 2" },
+        { "optionId": "C", "text": "3(√5 + 2)" },
+        { "optionId": "D", "text": "3/(√5 − 2)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Multiply by (√5 − 2)/(√5 − 2). Denominator = 5 − 4 = 1. Result = 3(√5 − 2).",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["surds-and-indices", "rationalization"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find the value of (0.04)^(−1/2).",
+      "options": [
+        { "optionId": "A", "text": "0.2" },
+        { "optionId": "B", "text": "2" },
+        { "optionId": "C", "text": "5" },
+        { "optionId": "D", "text": "25" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "0.04^(1/2) = 0.2, so 0.04^(−1/2) = 1/0.2 = 5.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["surds-and-indices", "decimal"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify 4√3 × 2√12.",
+      "options": [
+        { "optionId": "A", "text": "24" },
+        { "optionId": "B", "text": "48" },
+        { "optionId": "C", "text": "24√3" },
+        { "optionId": "D", "text": "48√3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "4√3 × 2√12 = 8√36 = 8 × 6 = 48.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["surds-and-indices", "simplification"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If 9^x = 81, find x.",
+      "options": [
+        { "optionId": "A", "text": "1" },
+        { "optionId": "B", "text": "2" },
+        { "optionId": "C", "text": "3" },
+        { "optionId": "D", "text": "4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "81 = 9², so x = 2.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["surds-and-indices", "equations"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Which is equal to 2^(−1) + 3^(−1)?",
+      "options": [
+        { "optionId": "A", "text": "5/6" },
+        { "optionId": "B", "text": "1/5" },
+        { "optionId": "C", "text": "6/5" },
+        { "optionId": "D", "text": "5/36" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "2^(−1) + 3^(−1) = 1/2 + 1/3 = 5/6.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["surds-and-indices", "negative-exponent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify (√7 + √7)(√7 − √7).",
+      "options": [
+        { "optionId": "A", "text": "0" },
+        { "optionId": "B", "text": "7" },
+        { "optionId": "C", "text": "14" },
+        { "optionId": "D", "text": "49" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "(√7 + √7)(√7 − √7) = (2√7)(0) = 0.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["surds-and-indices", "identity"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find (64)^(1/2) × (64)^(1/3).",
+      "options": [
+        { "optionId": "A", "text": "8" },
+        { "optionId": "B", "text": "16" },
+        { "optionId": "C", "text": "32" },
+        { "optionId": "D", "text": "64" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "√64 = 8 and ∛64 = 4. Product = 8 × 4 = 32.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["surds-and-indices", "fractional-exponent"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify √(1/16).",
+      "options": [
+        { "optionId": "A", "text": "1/4" },
+        { "optionId": "B", "text": "1/8" },
+        { "optionId": "C", "text": "4" },
+        { "optionId": "D", "text": "16" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "√(1/16) = 1/4.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["surds-and-indices", "fraction"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If a^(1/2) = 5, find a.",
+      "options": [
+        { "optionId": "A", "text": "10" },
+        { "optionId": "B", "text": "25" },
+        { "optionId": "C", "text": "50" },
+        { "optionId": "D", "text": "125" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Square both sides: a = 5² = 25.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["surds-and-indices", "equations"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify (2√5)².",
+      "options": [
+        { "optionId": "A", "text": "10" },
+        { "optionId": "B", "text": "20" },
+        { "optionId": "C", "text": "4√5" },
+        { "optionId": "D", "text": "25" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "(2√5)² = 4 × 5 = 20.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["surds-and-indices", "simplification"],
+      "questionType": "MCQ"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "True Discount (TD) is the difference between the amount due at a future date and its Present Worth (PW) — the sum that, if paid today, would grow to the amount due at the given rate and time. Unlike simple interest calculated on the full amount, true discount is based on interest earned on the present worth. This topic frequently appears alongside Banker's Discount in competitive exams.",
+  "explanation": "CONCEPT EXPLANATION\n\nWhen a sum of money A (Amount) is due after T years at rate R% per annum, the Present Worth (PW) is the principal that would amount to A in T years at rate R.\n\nKey relations:\n• Amount (A) = Present Worth (PW) + True Discount (TD)\n• TD = PW × R × T / 100\n• PW = A × 100 / (100 + R × T)\n• TD = A × R × T / (100 + R × T)\n\nThe denominator (100 + RT) appears because true discount is calculated on present worth, not on the face amount. If SI on PW equals TD, then A = PW + TD and PW × (100 + RT)/100 = A.\n\nREAL-LIFE APPLICATIONS\n\nTrue discount concepts underpin present-value calculations in finance: evaluating whether to accept early payment at a discount, comparing investment returns, settling bills before due dates, and determining fair value of future receivables in accounting and commerce.\n\nCOMMON MISTAKES\n\n1) Using SI formula SI = PRT/100 with P = Amount instead of Present Worth.\n2) Forgetting that TD is always less than the simple interest on the amount for the same period.\n3) Confusing True Discount with Banker's Discount (which uses the amount as principal).\n4) Not converting time to years when rate is per annum.\n5) Computing PW as A − (A×R×T/100) — that subtracts simple interest on amount, not true discount.\n\nIMPORTANT NOTES\n\n• TD < SI on Amount for the same R and T.\n• PW + TD = Amount always.\n• If rate or time is zero, TD = 0 and PW = Amount.\n• For equal true discounts on two sums due at different times, use the product formula: P₁T₁ = P₂T₂ (under certain conditions).\n• Always identify whether the question asks for PW, TD, or Amount before applying formulas.\n• TD grows with rate and time, but PW decreases as rate or time increases.",
+  "formulas": [
+    {
+      "title": "Amount relation",
+      "content": "Amount = Present Worth + True Discount"
+    },
+    {
+      "title": "True Discount",
+      "content": "TD = PW × R × T / 100"
+    },
+    {
+      "title": "Present Worth",
+      "content": "PW = Amount × 100 / (100 + R × T)"
+    },
+    {
+      "title": "True Discount from Amount",
+      "content": "TD = Amount × R × T / (100 + R × T)"
+    },
+    {
+      "title": "Amount from PW",
+      "content": "Amount = PW × (100 + R × T) / 100"
+    },
+    {
+      "title": "Rate from PW and Amount",
+      "content": "R = 100 × (Amount − PW) / (PW × T)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Memorise the denominator",
+      "tip": "True discount always has (100 + RT) in the denominator; Banker's Discount uses 100 only."
+    },
+    {
+      "title": "Find PW first",
+      "tip": "When Amount is given, compute PW = A × 100/(100+RT), then TD = A − PW."
+    },
+    {
+      "title": "Cross-check with TD formula",
+      "tip": "Verify: TD should equal PW × RT/100 after finding PW."
+    },
+    {
+      "title": "Compare TD and SI",
+      "tip": "SI on Amount = A×RT/100 is always greater than TD for the same values."
+    },
+    {
+      "title": "Unit consistency",
+      "tip": "Convert months to years (÷12) or days to years (÷365) before substituting into formulas."
+    },
+    {
+      "title": "Reverse problems",
+      "tip": "If PW and TD are given, Amount = PW + TD and R = 100×TD/(PW×T)."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Find the true discount on Rs. 1260 due 2 years hence at 5% per annum.",
+      "solution": "The true discount is Rs. 114.55 (approximately Rs. 114.55).",
+      "steps": [
+        "TD = Amount × R × T / (100 + R × T)",
+        "TD = 1260 × 5 × 2 / (100 + 5 × 2) = 12600 / 110",
+        "TD = 114.55 (approx)."
+      ]
+    },
+    {
+      "problem": "Find the present worth of Rs. 880 due 4 years hence at 5% per annum.",
+      "solution": "The present worth is Rs. 733.33 (approximately).",
+      "steps": [
+        "PW = Amount × 100 / (100 + R × T)",
+        "PW = 880 × 100 / (100 + 5 × 4) = 88000 / 120",
+        "PW = 733.33 (approx)."
+      ]
+    },
+    {
+      "problem": "The true discount on a sum due 3 years hence at 4% per annum is Rs. 60. Find the present worth.",
+      "solution": "The present worth is Rs. 500.",
+      "steps": [
+        "TD = PW × R × T / 100 ⇒ 60 = PW × 4 × 3 / 100",
+        "60 = 12 × PW / 100 ⇒ PW = 60 × 100 / 12 = 500.",
+        "Check: Amount = PW + TD = 500 + 60 = 560."
+      ]
+    },
+    {
+      "problem": "Find the true discount on Rs. 1662 due 2 years hence at 10% per annum.",
+      "solution": "The true discount is Rs. 277.",
+      "steps": [
+        "RT = 10 × 2 = 20.",
+        "TD = 1662 × 20 / (100 + 20) = 33240 / 120 = 277.",
+        "Present worth = 1662 − 277 = 1385.",
+        "Verify: TD = PW × RT/100 = 1385 × 20/100 = 277."
+      ]
+    }
+  ],
+  "references": []
+}

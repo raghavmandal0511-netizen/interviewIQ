@@ -1,0 +1,569 @@
+{
+  "_seedKey": "topic-profit-and-loss",
+  "topic": {
+    "moduleId": "REPLACE_MODULE_ARITHMETIC_ID",
+    "name": "Profit and Loss",
+    "slug": "profit-and-loss",
+    "description": "Cost price, selling price, profit, loss, discount, and marked price calculations for retail and exam scenarios. Estimated reading 22 min; practice 38 min.",
+    "estimatedTime": 60,
+    "difficulty": "medium",
+    "order": 7,
+    "isPublished": true
+  },
+  "theory": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "introduction": "Profit and Loss measures how much money is gained or lost when an article is sold compared with its cost price. Competitive exams test direct percentage calculations, reverse problems (finding CP from SP), successive discounts, false weights, and marked-price scenarios. The key is always identifying CP, SP, profit or loss, and whether percentages are on CP or SP.",
+    "explanation": "CONCEPT EXPLANATION\n\nCost Price (CP) is what the seller pays to acquire an item. Selling Price (SP) is what the buyer pays. If SP > CP, there is Profit = SP − CP. If SP < CP, there is Loss = CP − SP.\n\nProfit % is always calculated on CP unless stated otherwise: Profit % = (Profit / CP) × 100. Loss % = (Loss / CP) × 100.\n\nWhen gain or loss percent is given, SP = CP × (100 ± gain or loss %) / 100. To find CP from SP after a known gain: CP = SP × 100 / (100 + gain %).\n\nMarked Price (MP) is the tagged price before discount. Discount is usually on MP: SP = MP × (100 − discount %) / 100.\n\nSuccessive discounts of a% and b% combine as a single equivalent discount: 100 − [(100 − a)(100 − b) / 100], not a + b.\n\nREAL-LIFE APPLICATIONS\n\nShopkeepers set markup and discount during sales, businesses analyse margins on inventory, and investors compare returns on purchases versus resale value using the same profit-percent framework.\n\nCOMMON MISTAKES\n\n1) Calculating profit % on SP instead of CP.\n2) Adding successive discounts instead of multiplying remaining price fractions.\n3) Forgetting that a 20% loss followed by 20% gain does not break even.\n4) Confusing MP with CP when only discount is given.\n5) Ignoring extra charges (transport, tax) that should be added to CP.\n\nIMPORTANT NOTES\n\n• Profit % and Loss % are on CP by convention in aptitude exams.\n• Equal profit and loss percentages do not cancel; net result is always a loss.\n• If CP of x articles equals SP of y articles, profit % = [(x − y) / y] × 100 when x > y.\n• False weight problems: treat declared weight as SP basis and actual weight as CP basis.\n• Always write CP and SP in the same currency unit before comparing.",
+    "formulas": [
+      {
+        "title": "Profit and Loss",
+        "content": "Profit = SP − CP; Loss = CP − SP"
+      },
+      {
+        "title": "Profit and Loss Percentage",
+        "content": "Profit % = (Profit / CP) × 100; Loss % = (Loss / CP) × 100"
+      },
+      {
+        "title": "SP from CP and gain or loss",
+        "content": "SP = CP × (100 + gain %) / 100 or SP = CP × (100 − loss %) / 100"
+      },
+      {
+        "title": "CP from SP and gain or loss",
+        "content": "CP = SP × 100 / (100 + gain %) or CP = SP × 100 / (100 − loss %)"
+      },
+      {
+        "title": "Discount and Marked Price",
+        "content": "Discount = MP − SP; SP = MP × (100 − discount %) / 100"
+      },
+      {
+        "title": "Successive discounts",
+        "content": "Equivalent single discount after a% and b% = 100 − [(100 − a)(100 − b) / 100]"
+      },
+      {
+        "title": "CP equals SP of fewer articles",
+        "content": "If CP of x items = SP of y items (x > y), Profit % = [(x − y) / y] × 100"
+      }
+    ],
+    "shortcutTips": [
+      {
+        "title": "CP anchor",
+        "tip": "Assume CP = ₹100 whenever only percentages are given; profit or loss amount equals the percentage directly."
+      },
+      {
+        "title": "Reverse gain",
+        "tip": "SP at x% gain means CP = SP × 100 / (100 + x); at x% loss, CP = SP × 100 / (100 − x)."
+      },
+      {
+        "title": "Successive discounts",
+        "tip": "Multiply remaining fractions: 10% then 20% off means pay 0.9 × 0.8 = 0.72 of MP (28% total off)."
+      },
+      {
+        "title": "Equal % swing",
+        "tip": "Same % profit then loss on CP gives net loss of (x/10)² percent — e.g. 10% each way → 1% net loss."
+      },
+      {
+        "title": "Article ratio trick",
+        "tip": "CP of 5 sold at SP of 4 → loss of 1 on 5, i.e. 20% loss on CP."
+      },
+      {
+        "title": "False weight",
+        "tip": "Gain % from false weight = [(True weight − False weight) / False weight] × 100 when selling at declared weight price."
+      }
+    ],
+    "solvedExamples": [
+      {
+        "problem": "A shopkeeper buys an article for ₹450 and sells it for ₹540. Find the profit percentage.",
+        "solution": "The profit percentage is 20%.",
+        "steps": [
+          "Profit = SP − CP = 540 − 450 = ₹90.",
+          "Profit % = (90 / 450) × 100 = 20%."
+        ]
+      },
+      {
+        "problem": "By selling an article for ₹920, a man gains 15%. What is the cost price?",
+        "solution": "The cost price is ₹800.",
+        "steps": [
+          "SP = CP × (100 + 15) / 100 = 1.15 × CP.",
+          "920 = 1.15 × CP ⇒ CP = 920 / 1.15 = ₹800."
+        ]
+      },
+      {
+        "problem": "The marked price of a shirt is ₹800. After two successive discounts of 10% and 15%, find the selling price.",
+        "solution": "The selling price is ₹612.",
+        "steps": [
+          "After 10% discount: 800 × 0.9 = ₹720.",
+          "After 15% on 720: 720 × 0.85 = ₹612."
+        ]
+      },
+      {
+        "problem": "A trader sells rice using a weight 900 g instead of 1 kg but charges the price of 1 kg. Find his gain percent.",
+        "solution": "The gain percentage is 11.11% (approx.).",
+        "steps": [
+          "CP corresponds to 900 g; SP corresponds to 1000 g.",
+          "Gain % = [(1000 − 900) / 900] × 100 = (100/900) × 100 = 11.11%."
+        ]
+      }
+    ],
+    "references": []
+  },
+  "exercise": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-profit-and-loss-general",
+    "title": "General Questions",
+    "description": "MCQ practice on profit, loss, discount, marked price, successive discounts, and false-weight problems.",
+    "order": 1,
+    "isPublished": true
+  },
+  "questions": [
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "An article is bought for ₹250 and sold for ₹300. What is the profit percentage?",
+      "options": [
+        { "optionId": "A", "text": "15%" },
+        { "optionId": "B", "text": "18%" },
+        { "optionId": "C", "text": "20%" },
+        { "optionId": "D", "text": "25%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Profit = 50. Profit % = (50/250) × 100 = 20%.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A man sells an article at a loss of 10%. If the cost price is ₹600, what is the selling price?",
+      "options": [
+        { "optionId": "A", "text": "₹540" },
+        { "optionId": "B", "text": "₹550" },
+        { "optionId": "C", "text": "₹560" },
+        { "optionId": "D", "text": "₹570" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "SP = 600 × (100 − 10)/100 = 600 × 0.9 = ₹540.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If the selling price of an article is ₹1,380 and the profit is 15%, find the cost price.",
+      "options": [
+        { "optionId": "A", "text": "₹1,150" },
+        { "optionId": "B", "text": "₹1,200" },
+        { "optionId": "C", "text": "₹1,250" },
+        { "optionId": "D", "text": "₹1,300" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "CP = 1380 × 100/115 = 1380/1.15 = ₹1,200.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A shopkeeper marks his goods 25% above cost price and allows a discount of 10%. What is his profit percent?",
+      "options": [
+        { "optionId": "A", "text": "10%" },
+        { "optionId": "B", "text": "12.5%" },
+        { "optionId": "C", "text": "15%" },
+        { "optionId": "D", "text": "17.5%" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let CP = 100. MP = 125. SP = 125 × 0.9 = 112.5. Profit % = 12.5%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss", "marked-price"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Successive discounts of 20% and 10% are equivalent to a single discount of:",
+      "options": [
+        { "optionId": "A", "text": "28%" },
+        { "optionId": "B", "text": "30%" },
+        { "optionId": "C", "text": "32%" },
+        { "optionId": "D", "text": "35%" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Remaining price = 0.8 × 0.9 = 0.72. Equivalent discount = 28%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss", "discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A dealer sells an article at a gain of 20%. If he had bought it at 10% less and sold it for ₹18 less, he would have gained 25%. Find the cost price.",
+      "options": [
+        { "optionId": "A", "text": "₹200" },
+        { "optionId": "B", "text": "₹240" },
+        { "optionId": "C", "text": "₹300" },
+        { "optionId": "D", "text": "₹360" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let CP = x. Original SP = 1.2x. New CP = 0.9x, new SP = 1.2x − 18 = 1.25 × 0.9x ⇒ 1.2x − 18 = 1.125x ⇒ x = ₹240.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The cost price of 12 pens equals the selling price of 10 pens. The profit percent is:",
+      "options": [
+        { "optionId": "A", "text": "15%" },
+        { "optionId": "B", "text": "18%" },
+        { "optionId": "C", "text": "20%" },
+        { "optionId": "D", "text": "25%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "CP of 12 = SP of 10 ⇒ profit on 10 = 2 units on CP of 12, i.e. (2/10)×100 = 20% on SP basis; standard: profit % = [(12−10)/10]×100 = 20%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "An article is sold at 5% profit. If it were sold for ₹35 more, the profit would be 12%. Find the cost price.",
+      "options": [
+        { "optionId": "A", "text": "₹400" },
+        { "optionId": "B", "text": "₹450" },
+        { "optionId": "C", "text": "₹500" },
+        { "optionId": "D", "text": "₹550" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "1.05CP + 35 = 1.12CP ⇒ 0.07CP = 35 ⇒ CP = ₹500.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A man buys a cycle for ₹1,400 and sells it at a loss of 12.5%. What is the selling price?",
+      "options": [
+        { "optionId": "A", "text": "₹1,225" },
+        { "optionId": "B", "text": "₹1,250" },
+        { "optionId": "C", "text": "₹1,275" },
+        { "optionId": "D", "text": "₹1,300" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "SP = 1400 × (100 − 12.5)/100 = 1400 × 0.875 = ₹1,225.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If an article is sold at 20% profit and then the new selling price is discounted by 10%, the net profit percent on original CP is:",
+      "options": [
+        { "optionId": "A", "text": "6%" },
+        { "optionId": "B", "text": "8%" },
+        { "optionId": "C", "text": "10%" },
+        { "optionId": "D", "text": "12%" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let CP = 100. SP after profit = 120. After 10% discount = 108. Net profit = 8%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A trader uses 850 g weight instead of 1 kg while selling at cost price. His gain percent is approximately:",
+      "options": [
+        { "optionId": "A", "text": "15.76%" },
+        { "optionId": "B", "text": "17.65%" },
+        { "optionId": "C", "text": "18.50%" },
+        { "optionId": "D", "text": "20.00%" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Gain % = [(1000 − 850)/850] × 100 = 150/850 × 100 ≈ 17.65%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss", "false-weight"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The marked price of a book is ₹560. If a discount of 15% is allowed, what is the selling price?",
+      "options": [
+        { "optionId": "A", "text": "₹462" },
+        { "optionId": "B", "text": "₹476" },
+        { "optionId": "C", "text": "₹484" },
+        { "optionId": "D", "text": "₹504" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "SP = 560 × 0.85 = ₹476.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss", "discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A shopkeeper incurs 5% loss by selling an article. If the selling price is ₹760, the cost price is:",
+      "options": [
+        { "optionId": "A", "text": "₹780" },
+        { "optionId": "B", "text": "₹790" },
+        { "optionId": "C", "text": "₹800" },
+        { "optionId": "D", "text": "₹820" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "CP = 760 × 100/95 = 760/0.95 = ₹800.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "An article is sold at 10% profit. If the cost price were ₹50 less, the profit percent would be 12.5%. The original cost price is:",
+      "options": [
+        { "optionId": "A", "text": "₹200" },
+        { "optionId": "B", "text": "₹250" },
+        { "optionId": "C", "text": "₹300" },
+        { "optionId": "D", "text": "₹350" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "0.1x/(x − 50) = 0.125 ⇒ 0.1x = 0.125x − 6.25 ⇒ 0.025x = 6.25 ⇒ CP = ₹250.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A retailer buys goods at 20% discount on the marked price. He wants a 25% profit on his cost. If the marked price is ₹1,000, what should be his selling price?",
+      "options": [
+        { "optionId": "A", "text": "₹900" },
+        { "optionId": "B", "text": "₹950" },
+        { "optionId": "C", "text": "₹1,000" },
+        { "optionId": "D", "text": "₹1,050" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "CP = 1000 × 0.8 = 800. SP = 800 × 1.25 = ₹1,000.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A man sells two articles each for ₹990. On one he gains 10% and on the other he loses 10%. Overall he:",
+      "options": [
+        { "optionId": "A", "text": "Gains ₹20" },
+        { "optionId": "B", "text": "Loses ₹20" },
+        { "optionId": "C", "text": "Neither gains nor loses" },
+        { "optionId": "D", "text": "Loses ₹10" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "CP1 = 900, CP2 = 1100. Total CP = 2000, total SP = 1980. Net loss = ₹20.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If the cost price of 20 articles equals the selling price of 25 articles, the loss percent is:",
+      "options": [
+        { "optionId": "A", "text": "15%" },
+        { "optionId": "B", "text": "18%" },
+        { "optionId": "C", "text": "20%" },
+        { "optionId": "D", "text": "25%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "CP of 20 = SP of 25 ⇒ loss of 5 on 25 sold, loss % = (5/25)×100 = 20% on SP; standard formula: [(25−20)/25]×100 = 20%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "After allowing a discount of 12%, a trader still makes a profit of 10%. What percent above cost price did he mark the goods?",
+      "options": [
+        { "optionId": "A", "text": "22%" },
+        { "optionId": "B", "text": "24%" },
+        { "optionId": "C", "text": "25%" },
+        { "optionId": "D", "text": "28%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "SP = 1.1 × CP = 0.88 × MP ⇒ MP = 1.1/0.88 × CP = 1.25 × CP. Markup = 25%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss", "marked-price"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A shopkeeper sells an article at ₹483 after giving a 15% discount on the marked price. The marked price is:",
+      "options": [
+        { "optionId": "A", "text": "₹540" },
+        { "optionId": "B", "text": "₹555" },
+        { "optionId": "C", "text": "₹560" },
+        { "optionId": "D", "text": "₹568" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "MP = 483 × 100/85 = 483/0.85 = ₹568.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss", "discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A person gains 25% by selling an article. If the cost price increases by ₹10 and the selling price remains unchanged, the profit becomes 20%. The original cost price is:",
+      "options": [
+        { "optionId": "A", "text": "₹200" },
+        { "optionId": "B", "text": "₹240" },
+        { "optionId": "C", "text": "₹250" },
+        { "optionId": "D", "text": "₹300" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "1.25x = 1.2(x + 10) ⇒ 0.05x = 12 ⇒ CP = ₹240.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Three successive discounts of 10%, 15%, and 20% are offered on an item. The single equivalent discount is:",
+      "options": [
+        { "optionId": "A", "text": "38.8%" },
+        { "optionId": "B", "text": "40.2%" },
+        { "optionId": "C", "text": "42.4%" },
+        { "optionId": "D", "text": "45.0%" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Remaining fraction = 0.9 × 0.85 × 0.8 = 0.612. Discount = 100 − 61.2 = 38.8%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss", "discount"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "By selling 33 metres of cloth, a person gains the cost price of 11 metres. His profit percent is:",
+      "options": [
+        { "optionId": "A", "text": "25%" },
+        { "optionId": "B", "text": "30%" },
+        { "optionId": "C", "text": "33.33%" },
+        { "optionId": "D", "text": "40%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Profit = CP of 11 m on CP of 33 m sold. Profit % = (11/33) × 100 = 33.33%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "An article is bought for ₹720 and sold at a profit equal to the selling price of 6 articles. If all articles are sold at the same SP, how many articles were bought?",
+      "options": [
+        { "optionId": "A", "text": "24" },
+        { "optionId": "B", "text": "30" },
+        { "optionId": "C", "text": "36" },
+        { "optionId": "D", "text": "42" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let n articles at SP s each. Total profit ns − 720 = 6s ⇒ s(n − 6) = 720. For n = 30, CP per article = 24 and s = 30 satisfies 30×30 − 720 = 180 = 6×30.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A man sells an article at 16⅔% profit. If he had sold it for ₹50 more, he would have gained 25%. The cost price is:",
+      "options": [
+        { "optionId": "A", "text": "₹500" },
+        { "optionId": "B", "text": "₹550" },
+        { "optionId": "C", "text": "₹600" },
+        { "optionId": "D", "text": "₹650" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "16⅔% = 50/3 %. SP = CP × 7/6. CP × 7/6 + 50 = CP × 5/4 ⇒ 50 = CP(5/4 − 7/6) = CP/12 ⇒ CP = ₹600.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "The profit on an article is 20% of the cost price. If the profit were ₹6 more, it would be 25% of the cost price. The cost price is:",
+      "options": [
+        { "optionId": "A", "text": "₹100" },
+        { "optionId": "B", "text": "₹120" },
+        { "optionId": "C", "text": "₹150" },
+        { "optionId": "D", "text": "₹180" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "25% CP − 20% CP = 5% CP = ₹6 ⇒ CP = 6/0.05 = ₹120.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["profit-and-loss"],
+      "questionType": "MCQ"
+    }
+  ]
+}

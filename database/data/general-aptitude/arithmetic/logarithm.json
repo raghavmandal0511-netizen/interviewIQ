@@ -1,0 +1,528 @@
+{
+  "_seedKey": "topic-logarithm",
+  "topic": {
+    "moduleId": "REPLACE_MODULE_ARITHMETIC_ID",
+    "name": "Logarithm",
+    "slug": "logarithm",
+    "description": "Properties of logarithms, change of base, and solving exponential equations for competitive exams. Estimated reading 25 min; practice 45 min.",
+    "estimatedTime": 70,
+    "difficulty": "hard",
+    "order": 29,
+    "isPublished": true
+  },
+  "theory": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "introduction": "Logarithms are the inverse of exponentiation: if a^x = N, then log_a(N) = x. Exam questions test product/quotient/power rules, change of base, comparing logs, and solving equations by converting between exponential and logarithmic form.",
+    "explanation": "CONCEPT EXPLANATION\n\nFor base a > 0, a ≠ 1: log_a(N) is defined only when N > 0. Fundamental identity: a^(log_a N) = N and log_a(a^x) = x.\n\nKey properties: log(MN) = log M + log N; log(M/N) = log M − log N; log(M^k) = k log M. Change of base: log_a b = (log_c b)/(log_c a) for any valid base c. Common bases: log_10 (common log) and log_e = ln (natural log).\n\nREAL-LIFE APPLICATIONS\n\nLogarithmic scales measure earthquake magnitude (Richter), sound intensity (decibels), pH in chemistry, and exponential growth/decay in finance and biology.\n\nCOMMON MISTAKES\n\n1) Applying log(a + b) = log a + log b (false).\n2) Forgetting domain: argument of log must be positive.\n3) Dropping base when equating logarithms — bases must match.\n4) Sign errors when log(M/N) = log M − log N.\n5) Misusing change of base by inverting numerator and denominator.\n\nIMPORTANT NOTES\n\n• log_a 1 = 0; log_a a = 1; log_a (1/a) = −1.\n• If log_a x = log_a y then x = y (same base).\n• Compare logs by comparing arguments only when base > 1 and both arguments positive.\n• log without subscript usually means base 10.\n• ln means base e ≈ 2.718.",
+    "formulas": [
+      {
+        "title": "Definition",
+        "content": "If a^x = N (a > 0, a ≠ 1, N > 0), then x = log_a(N)"
+      },
+      {
+        "title": "Product rule",
+        "content": "log_a(MN) = log_a M + log_a N"
+      },
+      {
+        "title": "Quotient rule",
+        "content": "log_a(M/N) = log_a M − log_a N"
+      },
+      {
+        "title": "Power rule",
+        "content": "log_a(M^k) = k × log_a M"
+      },
+      {
+        "title": "Change of base",
+        "content": "log_a b = (log_c b) / (log_c a) = (ln b) / (ln a)"
+      },
+      {
+        "title": "Exponential–logarithmic inverse",
+        "content": "a^(log_a N) = N and log_a(a^x) = x"
+      }
+    ],
+    "shortcutTips": [
+      {
+        "title": "Same base equality",
+        "tip": "If log_a x = log_a y, then x = y directly — no need to expand."
+      },
+      {
+        "title": "Convert to single log",
+        "tip": "Combine sums and differences into one log before equating to a constant."
+      },
+      {
+        "title": "Change of base choice",
+        "tip": "Use ln or log_10 for change of base — pick whichever appears in the question."
+      },
+      {
+        "title": "Compare arguments",
+        "tip": "For base > 1, larger argument means larger log value."
+      },
+      {
+        "title": "Watch the domain",
+        "tip": "Reject solutions that make any log argument zero or negative."
+      },
+      {
+        "title": "Memorize small values",
+        "tip": "log_10 2 ≈ 0.3010, log_10 3 ≈ 0.4771, ln 2 ≈ 0.693, ln 10 ≈ 2.303."
+      }
+    ],
+    "solvedExamples": [
+      {
+        "problem": "If log_2 8 = x, find x.",
+        "solution": "x = 3.",
+        "steps": [
+          "2^x = 8.",
+          "2^x = 2^3 ⇒ x = 3."
+        ]
+      },
+      {
+        "problem": "Evaluate log_10 1000 + log_10 0.001.",
+        "solution": "The sum equals 0.",
+        "steps": [
+          "log_10 1000 = 3 and log_10 0.001 = −3.",
+          "Sum = 3 + (−3) = 0."
+        ]
+      },
+      {
+        "problem": "If log_3 x = 2, find x.",
+        "solution": "x = 9.",
+        "steps": [
+          "Convert to exponential form: x = 3^2 = 9."
+        ]
+      },
+      {
+        "problem": "Express log_8 64 in terms of log_2.",
+        "solution": "log_8 64 = 2.",
+        "steps": [
+          "8^2 = 64, so log_8 64 = 2.",
+          "Alternatively: log_8 64 = log_2 64 / log_2 8 = 6/3 = 2."
+        ]
+      }
+    ],
+    "references": []
+  },
+  "exercise": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-logarithm-general",
+    "title": "General Questions",
+    "description": "MCQ practice on logarithm properties, change of base, and exponential–log equations.",
+    "order": 1,
+    "isPublished": true
+  },
+  "questions": [
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "What is the value of log_2 32?",
+      "options": [
+        { "optionId": "A", "text": "4" },
+        { "optionId": "B", "text": "5" },
+        { "optionId": "C", "text": "6" },
+        { "optionId": "D", "text": "8" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "2^5 = 32, so log_2 32 = 5.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If log_10 2 = 0.3010, find log_10 5.",
+      "options": [
+        { "optionId": "A", "text": "0.4771" },
+        { "optionId": "B", "text": "0.6990" },
+        { "optionId": "C", "text": "0.7781" },
+        { "optionId": "D", "text": "0.8451" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "log 5 = log(10/2) = 1 − 0.3010 = 0.6990.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Evaluate log_3 81.",
+      "options": [
+        { "optionId": "A", "text": "3" },
+        { "optionId": "B", "text": "4" },
+        { "optionId": "C", "text": "5" },
+        { "optionId": "D", "text": "6" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "3^4 = 81, so log_3 81 = 4.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If log_a 16 = 2, find a.",
+      "options": [
+        { "optionId": "A", "text": "2" },
+        { "optionId": "B", "text": "3" },
+        { "optionId": "C", "text": "4" },
+        { "optionId": "D", "text": "8" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "a^2 = 16 ⇒ a = 4 (positive base).",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify: log_10 50 − log_10 2.",
+      "options": [
+        { "optionId": "A", "text": "log_10 48" },
+        { "optionId": "B", "text": "log_10 25" },
+        { "optionId": "C", "text": "1" },
+        { "optionId": "D", "text": "2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "log 50 − log 2 = log(50/2) = log_10 25.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "What is log_5 125?",
+      "options": [
+        { "optionId": "A", "text": "2" },
+        { "optionId": "B", "text": "3" },
+        { "optionId": "C", "text": "4" },
+        { "optionId": "D", "text": "5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "5^3 = 125, so log_5 125 = 3.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If log_2 x = 5, find x.",
+      "options": [
+        { "optionId": "A", "text": "16" },
+        { "optionId": "B", "text": "25" },
+        { "optionId": "C", "text": "32" },
+        { "optionId": "D", "text": "64" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "x = 2^5 = 32.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Evaluate log_10 1.",
+      "options": [
+        { "optionId": "A", "text": "0" },
+        { "optionId": "B", "text": "1" },
+        { "optionId": "C", "text": "10" },
+        { "optionId": "D", "text": "Undefined" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "10^0 = 1, so log_10 1 = 0.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 30,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Using change of base, log_4 16 equals:",
+      "options": [
+        { "optionId": "A", "text": "1" },
+        { "optionId": "B", "text": "2" },
+        { "optionId": "C", "text": "3" },
+        { "optionId": "D", "text": "4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "4^2 = 16, so log_4 16 = 2.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If log x = 0.4771 (base 10), find x.",
+      "options": [
+        { "optionId": "A", "text": "2" },
+        { "optionId": "B", "text": "3" },
+        { "optionId": "C", "text": "5" },
+        { "optionId": "D", "text": "7" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "log_10 3 ≈ 0.4771, so x = 3.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify: 2 log_3 9.",
+      "options": [
+        { "optionId": "A", "text": "2" },
+        { "optionId": "B", "text": "3" },
+        { "optionId": "C", "text": "4" },
+        { "optionId": "D", "text": "6" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "2 log_3 9 = log_3 9^2 = log_3 81 = 4.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If log_2 (x − 1) = 3, find x.",
+      "options": [
+        { "optionId": "A", "text": "7" },
+        { "optionId": "B", "text": "8" },
+        { "optionId": "C", "text": "9" },
+        { "optionId": "D", "text": "10" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "x − 1 = 2^3 = 8 ⇒ x = 9.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Which is greater: log_10 7 or log_10 5?",
+      "options": [
+        { "optionId": "A", "text": "log_10 7" },
+        { "optionId": "B", "text": "log_10 5" },
+        { "optionId": "C", "text": "Both are equal" },
+        { "optionId": "D", "text": "Cannot be determined" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Base 10 > 1 and 7 > 5, so log_10 7 > log_10 5.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Evaluate log_2 8 + log_2 4.",
+      "options": [
+        { "optionId": "A", "text": "3" },
+        { "optionId": "B", "text": "4" },
+        { "optionId": "C", "text": "5" },
+        { "optionId": "D", "text": "6" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "log_2 8 + log_2 4 = log_2 32 = 5.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If log_3 2 = m and log_3 5 = n, then log_3 10 equals:",
+      "options": [
+        { "optionId": "A", "text": "m + n" },
+        { "optionId": "B", "text": "m − n" },
+        { "optionId": "C", "text": "mn" },
+        { "optionId": "D", "text": "m/n" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "log_3 10 = log_3(2×5) = log_3 2 + log_3 5 = m + n.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find the value of log_10 0.0001.",
+      "options": [
+        { "optionId": "A", "text": "−2" },
+        { "optionId": "B", "text": "−3" },
+        { "optionId": "C", "text": "−4" },
+        { "optionId": "D", "text": "−5" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "10^(−4) = 0.0001, so log_10 0.0001 = −4.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Solve: log_5 x + log_5 (x − 4) = 1.",
+      "options": [
+        { "optionId": "A", "text": "3" },
+        { "optionId": "B", "text": "4" },
+        { "optionId": "C", "text": "5" },
+        { "optionId": "D", "text": "6" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "x(x−4) = 5 ⇒ x² − 4x − 5 = 0 ⇒ (x−5)(x+1)=0. Valid: x = 5.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "log_2 10 in terms of log_2 5 equals:",
+      "options": [
+        { "optionId": "A", "text": "1 + log_2 5" },
+        { "optionId": "B", "text": "1 − log_2 5" },
+        { "optionId": "C", "text": "2 log_2 5" },
+        { "optionId": "D", "text": "log_2 5 + 2" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "log_2 10 = log_2(2×5) = 1 + log_2 5.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If log_10 3 = 0.4771 and log_10 7 = 0.8451, find log_10 21.",
+      "options": [
+        { "optionId": "A", "text": "0.3680" },
+        { "optionId": "B", "text": "1.3222" },
+        { "optionId": "C", "text": "1.7994" },
+        { "optionId": "D", "text": "2.1765" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "log 21 = log 3 + log 7 = 0.4771 + 0.8451 = 1.3222.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "What is the value of log_a a^3?",
+      "options": [
+        { "optionId": "A", "text": "1" },
+        { "optionId": "B", "text": "2" },
+        { "optionId": "C", "text": "3" },
+        { "optionId": "D", "text": "a^3" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "log_a a^3 = 3 by the power–inverse property.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Express log_2 5 × log_5 8 in simplest form.",
+      "options": [
+        { "optionId": "A", "text": "2" },
+        { "optionId": "B", "text": "3" },
+        { "optionId": "C", "text": "log_2 8" },
+        { "optionId": "D", "text": "log_5 2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "log_2 5 × log_5 8 = log_2 8 = 3 (change-of-base chain).",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If 2^x = 10, then x equals:",
+      "options": [
+        { "optionId": "A", "text": "log_2 10" },
+        { "optionId": "B", "text": "log_10 2" },
+        { "optionId": "C", "text": "10^2" },
+        { "optionId": "D", "text": "2^10" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "By definition, x = log_2 10.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Evaluate: (log_10 100) × (log_10 1000).",
+      "options": [
+        { "optionId": "A", "text": "6" },
+        { "optionId": "B", "text": "9" },
+        { "optionId": "C", "text": "10" },
+        { "optionId": "D", "text": "30" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "2 × 3 = 6.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["logarithm"],
+      "questionType": "MCQ"
+    }
+  ]
+}

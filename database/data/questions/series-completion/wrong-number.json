@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 2, 4, 6, 9, 10, 12",
+    "options": [
+      { "optionId": "A", "text": "4" },
+      { "optionId": "B", "text": "6" },
+      { "optionId": "C", "text": "9" },
+      { "optionId": "D", "text": "12" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The series should increase by 2 each time: 2, 4, 6, 8, 10, 12. The term 9 breaks this pattern; it should have been 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 3, 6, 9, 12, 16, 18",
+    "options": [
+      { "optionId": "A", "text": "9" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "16" },
+      { "optionId": "D", "text": "18" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The series should increase by 3 each time: 3, 6, 9, 12, 15, 18. The term 16 breaks this pattern; it should have been 15.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 1, 4, 9, 16, 24, 36",
+    "options": [
+      { "optionId": "A", "text": "9" },
+      { "optionId": "B", "text": "16" },
+      { "optionId": "C", "text": "24" },
+      { "optionId": "D", "text": "36" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This series should consist of perfect squares: 1^2, 2^2, 3^2, 4^2, 5^2, 6^2, i.e. 1, 4, 9, 16, 25, 36. The term 24 breaks this pattern; it should have been 25.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 5, 10, 20, 40, 90, 160",
+    "options": [
+      { "optionId": "A", "text": "20" },
+      { "optionId": "B", "text": "40" },
+      { "optionId": "C", "text": "90" },
+      { "optionId": "D", "text": "160" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term should be double the previous term: 5, 10, 20, 40, 80, 160. The term 90 breaks this pattern; it should have been 80.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 2, 3, 5, 8, 12, 18, 23",
+    "options": [
+      { "optionId": "A", "text": "8" },
+      { "optionId": "B", "text": "12" },
+      { "optionId": "C", "text": "18" },
+      { "optionId": "D", "text": "23" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The differences between consecutive terms should increase by 1 each time: +1, +2, +3, +4, +5, +6, giving 2, 3, 5, 8, 12, 17, 23. The term 18 breaks this pattern; it should have been 17.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the letter series: B, D, G, K, O, V",
+    "options": [
+      { "optionId": "A", "text": "D" },
+      { "optionId": "B", "text": "G" },
+      { "optionId": "C", "text": "O" },
+      { "optionId": "D", "text": "V" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The gap between consecutive letters should increase by 1 each time: +2, +3, +4, +5, +6, giving B, D, G, K, P, V. The term O breaks this pattern; it should have been P.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 4, 9, 25, 48, 121, 169",
+    "options": [
+      { "optionId": "A", "text": "9" },
+      { "optionId": "B", "text": "25" },
+      { "optionId": "C", "text": "48" },
+      { "optionId": "D", "text": "121" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This series should consist of squares of consecutive prime numbers: 2^2, 3^2, 5^2, 7^2, 11^2, 13^2, i.e. 4, 9, 25, 49, 121, 169. The term 48 breaks this pattern; it should have been 49.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 1, 2, 6, 24, 120, 600",
+    "options": [
+      { "optionId": "A", "text": "6" },
+      { "optionId": "B", "text": "24" },
+      { "optionId": "C", "text": "120" },
+      { "optionId": "D", "text": "600" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This series should be the factorials: 1!, 2!, 3!, 4!, 5!, 6!, i.e. 1, 2, 6, 24, 120, 720. The term 600 breaks this pattern; it should have been 720.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 10, 14, 18, 23, 26, 30",
+    "options": [
+      { "optionId": "A", "text": "14" },
+      { "optionId": "B", "text": "18" },
+      { "optionId": "C", "text": "23" },
+      { "optionId": "D", "text": "26" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term should increase by 4: 10, 14, 18, 22, 26, 30. The term 23 breaks this pattern; it should have been 22.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 7, 14, 28, 57, 112, 224",
+    "options": [
+      { "optionId": "A", "text": "14" },
+      { "optionId": "B", "text": "28" },
+      { "optionId": "C", "text": "57" },
+      { "optionId": "D", "text": "112" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term should be double the previous term: 7, 14, 28, 56, 112, 224. The term 57 breaks this pattern; it should have been 56.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 2, 5, 11, 23, 46, 95",
+    "options": [
+      { "optionId": "A", "text": "11" },
+      { "optionId": "B", "text": "23" },
+      { "optionId": "C", "text": "46" },
+      { "optionId": "D", "text": "95" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term should follow the rule \"multiply by 2 and add 1\": 2, 5, 11, 23, 47, 95 (2x2+1=5, 5x2+1=11, 11x2+1=23, 23x2+1=47, 47x2+1=95). The term 46 breaks this pattern; it should have been 47.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 6, 12, 21, 33, 48, 65",
+    "options": [
+      { "optionId": "A", "text": "21" },
+      { "optionId": "B", "text": "33" },
+      { "optionId": "C", "text": "48" },
+      { "optionId": "D", "text": "65" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The differences between consecutive terms should increase by 3 each time: +6, +9, +12, +15, +18, giving 6, 12, 21, 33, 48, 66. The term 65 breaks this pattern; it should have been 66.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the letter series: Z, X, V, S, R, P",
+    "options": [
+      { "optionId": "A", "text": "X" },
+      { "optionId": "B", "text": "V" },
+      { "optionId": "C", "text": "S" },
+      { "optionId": "D", "text": "R" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The letters should move backward through the alphabet in steps of 2: Z, X, V, T, R, P. The term S breaks this pattern; it should have been T.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 3, 8, 15, 24, 35, 47",
+    "options": [
+      { "optionId": "A", "text": "15" },
+      { "optionId": "B", "text": "24" },
+      { "optionId": "C", "text": "35" },
+      { "optionId": "D", "text": "47" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each term should follow the rule n^2 + 2n for n = 1, 2, 3, 4, 5, 6: 3, 8, 15, 24, 35, 48. The term 47 breaks this pattern; it should have been 48.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 5, 11, 20, 32, 47, 63",
+    "options": [
+      { "optionId": "A", "text": "20" },
+      { "optionId": "B", "text": "32" },
+      { "optionId": "C", "text": "47" },
+      { "optionId": "D", "text": "63" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The differences between consecutive terms should increase by 3 each time: +6, +9, +12, +15, +18, giving 5, 11, 20, 32, 47, 65. The term 63 breaks this pattern; it should have been 65.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In the series 4, 8, 12, 17, 20, the number 17 is the wrong term.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each term should increase by 4: 4, 8, 12, 16, 20. The number 17 does not fit this pattern; it should have been 16, so the statement is True.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: In the series 2, 4, 8, 16, 30, 64, the number 64 is the wrong term.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each term should double the previous term: 2, 4, 8, 16, 32, 64. The number 30 is the one that breaks the pattern (it should be 32); 64 correctly fits as double of 32. So the statement is False.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Consider the series: 1, 4, 10, 22, 46, 95. Which of the following statements about this series are correct? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "The wrong number in the series is 95" },
+      { "optionId": "B", "text": "The correct value at that position should be 94" },
+      { "optionId": "C", "text": "The series follows the rule \"multiply by 2 and add 2\"" },
+      { "optionId": "D", "text": "The wrong number in the series is 46" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "The series follows the rule \"multiply the previous term by 2 and add 2\": 1x2+2=4, 4x2+2=10, 10x2+2=22, 22x2+2=46, 46x2+2=94 (C is correct). The given term 95 does not match this, so 95 is the wrong number (A is correct) and it should have been 94 (B is correct). The term 46 fits the pattern correctly, so D is incorrect.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["series-completion", "wrong-number"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

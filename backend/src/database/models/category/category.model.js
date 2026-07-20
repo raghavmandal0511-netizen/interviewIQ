@@ -49,7 +49,7 @@ const categorySchema = new mongoose.Schema(
     }
 );
 
-categorySchema.index({ slug: 1 }, { unique: true });
+// slug unique index comes from field `unique: true`
 categorySchema.index({ order: 1, isActive: 1 });
 
 export default mongoose.model("Category", categorySchema);

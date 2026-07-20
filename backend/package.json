@@ -9,7 +9,9 @@
   "scripts": {
     "start": "node ./src/index.js",
     "dev": "nodemon ./src/index.js",
-    "seed": "node ./src/database/seeds/user.seed.js",
+    "seed": "node ../database/seeders/seed.js",
+    "seed:clear": "node ../database/seeders/clear.js",
+    "seed:reset": "node ../database/seeders/clear.js && node ../database/seeders/seed.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {

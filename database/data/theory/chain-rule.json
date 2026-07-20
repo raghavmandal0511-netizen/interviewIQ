@@ -1,0 +1,84 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "The Chain Rule (also called the Rule of Three when only three quantities are involved) is a method for solving problems where several quantities vary together — like men, days, and work, or speed, time, and distance. It works by identifying whether each pair of quantities is directly or inversely proportional, then chaining the relationships into a single equation to find the unknown.",
+  "explanation": "CONCEPT EXPLANATION\n\nTwo quantities are in direct proportion if an increase in one causes a proportional increase in the other (e.g., more workers finish more work in the same time). Two quantities are in inverse (indirect) proportion if an increase in one causes a proportional decrease in the other (e.g., more workers need fewer days for the same work).\n\nThe chain rule extends the simple rule of three to more than two varying quantities. List all the given quantities in a table with two rows (given case, required case). For each pair of columns, decide direct or indirect proportion, then set up the relationship: for a direct relation the ratio stays the same way, and for an indirect relation, the ratio is inverted before multiplying into the chain.\n\nA practical way to combine everything: multiply all directly proportional ratios in their normal orientation, and multiply all inversely proportional ratios in their inverted orientation, then solve for the unknown.\n\nMany \"men-days-wages\" or \"men-days-work\" problems combine multiple pairs of proportionality: for example, work done ∝ (number of men) × (number of days) × (number of hours per day), assuming constant efficiency per person.\n\nREAL-LIFE APPLICATIONS\n\nThis rule is applied in workforce planning, budgeting (cost proportional to quantity and time), scaling production lines, and any scenario with multiple simultaneously varying quantities.\n\nCOMMON MISTAKES\n\n1) Treating an inversely proportional pair as directly proportional (or vice versa) without checking the relationship logically first.\n2) Forgetting to invert the ratio for indirect relationships when setting up the chain equation.\n3) Mixing units (e.g., hours vs days) between the two cases without converting consistently.\n4) Applying the chain rule to quantities that are not actually proportional (some relationships are more complex than simple direct/indirect proportion).\n5) Not double-checking the final answer's direction (should it be larger or smaller than the reference value, based on the relationships).\n\nIMPORTANT NOTES\n\n• Always ask: 'If this quantity increases, does the unknown increase (direct) or decrease (indirect)?' before setting up each ratio.\n\n• The rule of three (two quantities) is a special, simpler case of the general chain rule.\n\n• Efficiency or rate per unit (per person, per hour) is often the hidden constant that keeps the proportionality valid.\n\n• Always keep the unknown quantity on one side alone before solving.",
+  "formulas": [
+    {
+      "title": "Direct proportion",
+      "content": "If a increases, b increases proportionally: a₁/a₂ = b₁/b₂"
+    },
+    {
+      "title": "Inverse proportion",
+      "content": "If a increases, b decreases proportionally: a₁ × b₁ = a₂ × b₂"
+    },
+    {
+      "title": "Combined variation (men-days-work)",
+      "content": "M₁ × D₁ × H₁ / W₁ = M₂ × D₂ × H₂ / W₂"
+    },
+    {
+      "title": "Rule of three (basic)",
+      "content": "If a corresponds to b, and c corresponds to unknown x, with direct proportion: x = (c × b)/a"
+    },
+    {
+      "title": "Rule of three (inverse)",
+      "content": "For inverse proportion: x = (a × b)/c"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Classify before calculating",
+      "tip": "For every pair of quantities in the problem, decide direct or inverse proportion first — this prevents setting up the wrong equation."
+    },
+    {
+      "title": "Invert only inverse pairs",
+      "tip": "Keep direct-proportion ratios as given, but flip (invert) the ratio for any inversely proportional pair before multiplying the chain."
+    },
+    {
+      "title": "Use the man-days-work formula directly",
+      "tip": "For workforce problems with men, days, hours, and work, plug values straight into M₁D₁H₁/W₁ = M₂D₂H₂/W₂ instead of building the chain manually."
+    },
+    {
+      "title": "Sanity check direction",
+      "tip": "After solving, verify whether the unknown value makes sense — e.g., more workers should mean fewer days, not more."
+    },
+    {
+      "title": "Keep units consistent",
+      "tip": "Convert all time-based quantities (hours, days) to the same unit throughout both cases before setting up the chain."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "If 6 men can build a wall in 20 days, how many days will 8 men take to build the same wall?",
+      "solution": "8 men will take 15 days.",
+      "steps": [
+        "Men and days are inversely proportional for the same work.",
+        "6 × 20 = 8 × x.",
+        "x = 120/8 = 15 days."
+      ]
+    },
+    {
+      "problem": "If the cost of 15 pens is Rs 225, find the cost of 24 pens.",
+      "solution": "The cost of 24 pens is Rs 360.",
+      "steps": [
+        "Cost and number of pens are directly proportional.",
+        "15 pens → Rs 225, so 1 pen → Rs 15.",
+        "24 pens → 24 × 15 = Rs 360."
+      ]
+    },
+    {
+      "problem": "If 12 men working 8 hours a day can complete a job in 10 days, how many days will 16 men working 6 hours a day take to complete the same job?",
+      "solution": "16 men will take 10 days.",
+      "steps": [
+        "Use M₁D₁H₁ = M₂D₂H₂ (work constant, W₁ = W₂).",
+        "12 × 10 × 8 = 16 × D₂ × 6.",
+        "960 = 96 × D₂ ⟹ D₂ = 10 days."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Math is Fun — Direct and Inverse Proportion",
+      "url": "https://www.mathsisfun.com/algebra/directly-inversely-proportional.html"
+    }
+  ]
+}

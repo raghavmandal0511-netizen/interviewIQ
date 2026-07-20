@@ -1,0 +1,89 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "HCF (Highest Common Factor, also called GCD) and LCM (Least Common Multiple) describe how numbers relate through their common factors and multiples. HCF finds the largest number that divides two or more numbers exactly, while LCM finds the smallest number that all of them divide into exactly. These concepts are essential for simplifying fractions, solving remainder problems, and scheduling repeating events.",
+  "explanation": "CONCEPT EXPLANATION\n\nThe HCF of two or more numbers is the greatest number that divides each of them without leaving a remainder. It can be found by prime factorization (take the lowest power of each common prime factor) or by the division method (repeated Euclidean division).\n\nThe LCM of two or more numbers is the smallest number that is exactly divisible by each of them. By prime factorization, take the highest power of every prime factor appearing in any of the numbers.\n\nA key relationship links HCF and LCM for exactly two numbers: the product of the two numbers equals the product of their HCF and LCM. This lets you find one value quickly if the other three quantities (both numbers, or one number plus HCF and LCM) are known.\n\nFor fractions, HCF of fractions = HCF of numerators / LCM of denominators, and LCM of fractions = LCM of numerators / HCF of denominators.\n\nTwo classic problem types: (1) finding the greatest number that divides given numbers leaving specified remainders — subtract the remainders first, then find the HCF of the differences; (2) finding the least number divisible by given numbers, possibly leaving a common remainder — find the LCM, then add or adjust for the remainder.\n\nREAL-LIFE APPLICATIONS\n\nHCF is used to simplify fractions to lowest terms and to divide items into equal groups of maximum size. LCM is used in scheduling (e.g., when do two repeating events coincide again), and in adding fractions with different denominators.\n\nCOMMON MISTAKES\n\n1) Confusing HCF and LCM formulas — HCF uses lowest powers, LCM uses highest powers of prime factors.\n2) Applying the product formula (a×b = HCF×LCM) to more than two numbers, where it does not hold directly.\n3) Forgetting to subtract remainders before finding HCF in \"leaves remainder\" problems.\n4) Not adding the common remainder back after computing LCM in \"least number\" problems.\n5) Errors in the division (Euclidean) method by not repeating until remainder is zero.\n\nIMPORTANT NOTES\n\n• For two numbers a and b: a × b = HCF(a,b) × LCM(a,b).\n\n• HCF of a set of numbers is always ≤ the smallest number; LCM is always ≥ the largest number.\n\n• Co-prime numbers have HCF = 1, and their LCM equals their product.\n\n• The Euclidean algorithm (repeated division) is the fastest manual method for HCF of large numbers.",
+  "formulas": [
+    {
+      "title": "Product relation (two numbers)",
+      "content": "Product of two numbers = HCF × LCM"
+    },
+    {
+      "title": "HCF by prime factorization",
+      "content": "HCF = product of common prime factors raised to their lowest powers"
+    },
+    {
+      "title": "LCM by prime factorization",
+      "content": "LCM = product of all prime factors raised to their highest powers"
+    },
+    {
+      "title": "HCF of fractions",
+      "content": "HCF of fractions = HCF(numerators) / LCM(denominators)"
+    },
+    {
+      "title": "LCM of fractions",
+      "content": "LCM of fractions = LCM(numerators) / HCF(denominators)"
+    },
+    {
+      "title": "Greatest number dividing with remainders",
+      "content": "Required HCF = HCF of (numbers − their respective remainders)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Use the Euclidean method for large numbers",
+      "tip": "Repeated division (divide larger by smaller, replace larger with remainder, repeat) finds HCF much faster than full factorization for big numbers."
+    },
+    {
+      "title": "Product shortcut",
+      "tip": "For two numbers, if you know their product and one of HCF/LCM, find the other instantly using Product = HCF × LCM."
+    },
+    {
+      "title": "Co-prime recognition",
+      "tip": "If HCF of two numbers is 1, they are co-prime, and their LCM is simply their product."
+    },
+    {
+      "title": "Remainder subtraction trick",
+      "tip": "For 'divides leaving remainder r each time', subtract r from every number before computing HCF."
+    },
+    {
+      "title": "Add-back trick for LCM problems",
+      "tip": "For 'least number that leaves remainder r when divided by each of several numbers', compute LCM first, then add r."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Find the HCF and LCM of 24 and 36.",
+      "solution": "HCF = 12, LCM = 72.",
+      "steps": [
+        "24 = 2³ × 3; 36 = 2² × 3².",
+        "HCF = 2² × 3 = 12 (lowest powers of common primes).",
+        "LCM = 2³ × 3² = 72 (highest powers of all primes).",
+        "Check: 24 × 36 = 864 = 12 × 72. ✓"
+      ]
+    },
+    {
+      "problem": "Find the greatest number that divides 63 and 84 leaving remainders 3 and 4 respectively.",
+      "solution": "The greatest number is 20.",
+      "steps": [
+        "Subtract remainders: 63 − 3 = 60, 84 − 4 = 80.",
+        "Find HCF of 60 and 80: 60 = 2²×3×5, 80 = 2⁴×5.",
+        "HCF = 2² × 5 = 20."
+      ]
+    },
+    {
+      "problem": "Find the least number which when divided by 6, 8, and 12 leaves a remainder of 5 in each case.",
+      "solution": "The least number is 29.",
+      "steps": [
+        "LCM of 6, 8, 12: 6=2×3, 8=2³, 12=2²×3 ⟹ LCM = 2³×3 = 24.",
+        "Add the common remainder: 24 + 5 = 29.",
+        "Check: 29 ÷ 6 = 4 remainder 5; 29 ÷ 8 = 3 remainder 5; 29 ÷ 12 = 2 remainder 5. ✓"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Khan Academy — Greatest common factor & Least common multiple",
+      "url": "https://www.khanacademy.org/math/pre-algebra/pre-algebra-factors-multiples"
+    }
+  ]
+}

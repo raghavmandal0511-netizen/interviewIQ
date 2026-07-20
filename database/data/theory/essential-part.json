@@ -1,0 +1,76 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Essential Part questions ask which component is necessary for an object or idea to exist as named. You must distinguish what is required from what is merely common, useful, or related.",
+  "explanation": "CONCEPT\n\nAn essential part is a necessary feature: without it, the thing cannot be what it is called. A book needs pages (or a readable medium); a triangle needs three sides. Non-essential items are frequent companions (a bookmark with a book) but not definitional.\n\nHOW TO SOLVE\n\n1) Define the word in the simplest accurate way.\n2) Ask: If I remove this part, can the thing still exist under that name?\n3) Reject options that are optional accessories, materials that can vary, or related objects.\n4) Prefer the feature that is true in all normal cases of the concept.\n\nIMPORTANT RULES\n\n• Essential ≠ most common. Shoes often have laces, but laces are not essential to \"shoe\".\n• Essential ≠ purpose alone if the stem asks for a part/component.\n• Abstract nouns: essential part may be a defining quality (e.g. risk for \"gamble\").\n• Object relationship variants link a whole to a necessary piece.\n\nCOMMON MISTAKES\n\n1) Choosing a popular accessory instead of a defining part.\n2) Confusing material (wood, metal) with structure.\n3) Picking a synonym of the whole object.\n4) Over-narrowing (requiring a brand or modern feature).\n5) Ignoring abstract essentials for idea-based stems.",
+  "formulas": [
+    {
+      "title": "Necessity test",
+      "content": "X is essential to Y if Y cannot be Y without X"
+    },
+    {
+      "title": "Accessory filter",
+      "content": "If X can be absent and Y still remains Y, X is not essential"
+    },
+    {
+      "title": "Definition anchor",
+      "content": "Start from a one-line dictionary-style definition of Y"
+    },
+    {
+      "title": "Object–part link",
+      "content": "Whole → necessary component (book→pages, wheel→rim/hub concept)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Remove it test",
+      "tip": "Mentally delete the option; if the object still makes sense, reject it."
+    },
+    {
+      "title": "Avoid materials",
+      "tip": "Wood/metal/plastic are rarely essential unless the object is defined by that material."
+    },
+    {
+      "title": "Avoid extras",
+      "tip": "Covers, cases, decorations, and optional tools are usually wrong."
+    },
+    {
+      "title": "Think minimal",
+      "tip": "The essential part is the smallest necessary piece of the definition."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Essential part of Book: (A) Pictures (B) Pages (C) Learning (D) Eraser",
+      "solution": "Pages — a book is a bound set of pages (or equivalent readable sheets); pictures and learning are optional; eraser is unrelated.",
+      "steps": [
+        "Definition: a book consists of written/printed pages bound together.",
+        "Without pages (or a page-like medium), it is not a book.",
+        "Pictures/learning may be present but are not required."
+      ]
+    },
+    {
+      "problem": "Essential part of Shoes: (A) Laces (B) Sole (C) Polish (D) Socks",
+      "solution": "Sole — footwear needs a sole; laces/polish/socks are optional.",
+      "steps": [
+        "A shoe must have a bottom that contacts the ground.",
+        "Laces are absent in many shoes.",
+        "Polish and socks are not parts of the shoe itself."
+      ]
+    },
+    {
+      "problem": "Essential part of Triangle: (A) Area (B) Angle (C) Three sides (D) Color",
+      "solution": "Three sides — by definition a triangle is a three-sided polygon.",
+      "steps": [
+        "Definition requires three sides (and three angles).",
+        "Among options, three sides is the clearest necessary structural part.",
+        "Area and color are not required to be a triangle; \"angle\" alone is incomplete versus three sides."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Necessary and sufficient conditions",
+      "url": "https://en.wikipedia.org/wiki/Necessity_and_sufficiency"
+    }
+  ]
+}

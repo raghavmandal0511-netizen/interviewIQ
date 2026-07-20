@@ -1,0 +1,532 @@
+{
+  "_seedKey": "topic-races-and-games",
+  "topic": {
+    "moduleId": "REPLACE_MODULE_ARITHMETIC_ID",
+    "name": "Races and Games",
+    "slug": "races-and-games",
+    "description": "Running races, dead heats, head starts, and games of skill involving winning margins and proportional speeds. Estimated reading 20 min; practice 35 min.",
+    "estimatedTime": 55,
+    "difficulty": "medium",
+    "order": 30,
+    "isPublished": true
+  },
+  "theory": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "introduction": "Races and Games problems relate distances covered, speeds, and winning margins. When A beats B by d metres in a race of L metres, A runs L while B runs (L − d) in the same time, giving speed ratio L : (L − d). Games of skill ask how many consecutive wins are needed under a point system.",
+    "explanation": "CONCEPT EXPLANATION\n\nIn a race of L metres, if A beats B by d metres, then when A completes L metres, B has run (L − d) metres. Since time is equal, speed ratio A : B = L : (L − d). Similarly, if A beats B by t seconds, compute distances each runs in time t to relate speeds.\n\nA head start of h metres means the advantaged runner begins h metres ahead. For games of skill: if A needs a wins and B needs b wins, and A wins m games while B wins n games with m < a and n < b, find remaining games or probability as stated.\n\nREAL-LIFE APPLICATIONS\n\nTrack athletics handicapping, relay team selection, tournament knockout formats, and gaming tournament rules use these proportional reasoning patterns.\n\nCOMMON MISTAKES\n\n1) Using d/L as the speed ratio instead of L/(L−d).\n2) Ignoring head start when computing effective race length.\n3) Confusing beating by time with beating by distance without conversion.\n4) Adding head start to winning margin incorrectly.\n5) Miscounting games needed in skill-game problems.\n\nIMPORTANT NOTES\n\n• Same time ⇒ distance ratio equals speed ratio.\n• Head start reduces the distance the favoured runner must cover.\n• Dead heat means both reach the finish together — speeds equal over that distance.\n• In circular track problems, first meeting uses relative speed on lap length.\n• Always identify who runs full distance L when beaten by d metres.",
+    "formulas": [
+      {
+        "title": "Beating by distance",
+        "content": "If A beats B by d m in a race of L m, then Speed A : Speed B = L : (L − d)"
+      },
+      {
+        "title": "Beating by time",
+        "content": "If A finishes L metres and B is d metres behind at that instant, then B has run (L − d) metres in the same time"
+      },
+      {
+        "title": "Head start",
+        "content": "With head start h, the other runner must cover L metres while the favoured runner covers (L − h) metres to win"
+      },
+      {
+        "title": "Time-based speeds",
+        "content": "If A runs L1 in time T and B runs L2 in the same time T, then Speed A : Speed B = L1 : L2"
+      },
+      {
+        "title": "Games of skill",
+        "content": "If A needs a wins and B needs b wins, after A wins m and B wins n games, A needs (a − m) more wins and B needs (b − n) more wins"
+      },
+      {
+        "title": "Circular track first meeting",
+        "content": "Time to first meet (same direction) = Track length / |Speed A − Speed B|"
+      }
+    ],
+    "shortcutTips": [
+      {
+        "title": "L and L−d",
+        "tip": "When A beats B by d in L metres, write speed ratio as L : (L − d) immediately."
+      },
+      {
+        "title": "Head start first",
+        "tip": "Subtract the head start from the race length for the runner who gets it before comparing speeds."
+      },
+      {
+        "title": "Time beat conversion",
+        "tip": "If beaten by t seconds, find how far B runs while A completes L using equal-time distance ratios."
+      },
+      {
+        "title": "Equal time principle",
+        "tip": "All race ratio problems assume both run for the same time when the winner finishes."
+      },
+      {
+        "title": "Games remaining",
+        "tip": "In skill games, subtract games already won from the target wins for each player."
+      },
+      {
+        "title": "Check ratio direction",
+        "tip": "Always put the faster runner's distance on the left side of the speed ratio."
+      }
+    ],
+    "solvedExamples": [
+      {
+        "problem": "A beats B by 20 metres in a 200 m race. In a 100 m race, by how many metres will A beat B?",
+        "solution": "A beats B by 10 metres.",
+        "steps": [
+          "Speed ratio A : B = 200 : 180 = 10 : 9.",
+          "When A runs 100 m, B runs 100 × 9/10 = 90 m.",
+          "Beat distance = 100 − 90 = 10 metres."
+        ]
+      },
+      {
+        "problem": "A beats B by 10 m in a 100 m race. If A runs at 5 m/s, find B's speed.",
+        "solution": "B's speed = 4.5 m/s.",
+        "steps": [
+          "When A runs 100 m, B runs 90 m in the same time.",
+          "Time taken = 100/5 = 20 seconds.",
+          "B's speed = 90/20 = 4.5 m/s."
+        ]
+      },
+      {
+        "problem": "A can run 1 km in 5 minutes and B in 6 minutes. By what distance does A beat B in a 1 km race?",
+        "solution": "A beats B by 166⅔ metres (approximately 167 m).",
+        "steps": [
+          "When A completes 1000 m, time elapsed = 5 minutes.",
+          "In 5 minutes B runs (1000/6) × 5 = 5000/6 = 833⅓ m.",
+          "Beat distance = 1000 − 833⅓ = 166⅔ m."
+        ]
+      },
+      {
+        "problem": "A and B play a game where the first to win 3 games wins. If A has won 2 games and B has won 1, how many more games must A win to win the match?",
+        "solution": "A needs 1 more win.",
+        "steps": [
+          "A needs 3 wins total and already has 2.",
+          "Remaining wins needed = 3 − 2 = 1."
+        ]
+      }
+    ],
+    "references": []
+  },
+  "exercise": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-races-and-games-general",
+    "title": "General Questions",
+    "description": "MCQ practice on race margins, head starts, speed ratios, and games of skill.",
+    "order": 1,
+    "isPublished": true
+  },
+  "questions": [
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A beats B by 10 m in a 100 m race. What is the ratio of their speeds?",
+      "options": [
+        { "optionId": "A", "text": "10 : 9" },
+        { "optionId": "B", "text": "9 : 10" },
+        { "optionId": "C", "text": "11 : 10" },
+        { "optionId": "D", "text": "10 : 11" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Speed ratio = 100 : 90 = 10 : 9.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A beats B by 20 m in a 200 m race. In a 100 m race, by how many metres will A beat B?",
+      "options": [
+        { "optionId": "A", "text": "5 m" },
+        { "optionId": "B", "text": "10 m" },
+        { "optionId": "C", "text": "15 m" },
+        { "optionId": "D", "text": "20 m" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ratio 10:9. B runs 90 m when A runs 100 m. Beat = 10 m.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "In a 500 m race, A beats B by 50 m. Find the ratio of speeds of A and B.",
+      "options": [
+        { "optionId": "A", "text": "9 : 10" },
+        { "optionId": "B", "text": "10 : 9" },
+        { "optionId": "C", "text": "11 : 10" },
+        { "optionId": "D", "text": "10 : 11" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Speed ratio = 500 : 450 = 10 : 9.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A runs 1000 m in 4 minutes. B runs 900 m in the same time. By how many metres will A beat B in a 1000 m race?",
+      "options": [
+        { "optionId": "A", "text": "50 m" },
+        { "optionId": "B", "text": "100 m" },
+        { "optionId": "C", "text": "150 m" },
+        { "optionId": "D", "text": "200 m" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "When A runs 1000 m, B runs 900 m. Beat = 100 m.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A beats B by 15 m in a 300 m race. In a 200 m race, A will beat B by:",
+      "options": [
+        { "optionId": "A", "text": "5 m" },
+        { "optionId": "B", "text": "10 m" },
+        { "optionId": "C", "text": "15 m" },
+        { "optionId": "D", "text": "20 m" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ratio 300:285 = 20:19. B runs 200×19/20 = 190 m. Beat = 10 m.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A can run 1 km in 5 min and B in 6 min. By what distance does A beat B in a 1 km race?",
+      "options": [
+        { "optionId": "A", "text": "150 m" },
+        { "optionId": "B", "text": "166⅔ m" },
+        { "optionId": "C", "text": "200 m" },
+        { "optionId": "D", "text": "250 m" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In 5 min B runs 5000/6 m. Beat = 1000 − 833⅓ = 166⅔ m.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "In a 1 km race, A gives B a start of 100 m and still beats him by 50 m. What is the ratio of their speeds?",
+      "options": [
+        { "optionId": "A", "text": "19 : 15" },
+        { "optionId": "B", "text": "20 : 17" },
+        { "optionId": "C", "text": "21 : 17" },
+        { "optionId": "D", "text": "22 : 17" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A runs 1000 m, B runs 850 m (900−50). Ratio = 1000:850 = 20:17.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A beats B by 10 m in a 100 m race. If B's speed is 9 m/s, find A's speed.",
+      "options": [
+        { "optionId": "A", "text": "9.5 m/s" },
+        { "optionId": "B", "text": "10 m/s" },
+        { "optionId": "C", "text": "10.5 m/s" },
+        { "optionId": "D", "text": "11 m/s" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Speed ratio 100:90 = 10:9. A's speed = 9 × 10/9 = 10 m/s.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Two runners start together on a 400 m circular track and run in the same direction at 8 m/s and 6 m/s. After how many seconds do they first meet?",
+      "options": [
+        { "optionId": "A", "text": "100 s" },
+        { "optionId": "B", "text": "200 s" },
+        { "optionId": "C", "text": "400 s" },
+        { "optionId": "D", "text": "800 s" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Relative speed = 2 m/s. Time to first meet = 400/2 = 200 seconds.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A and B contest a game; the first to score 5 wins wins. If A has 3 wins and B has 2, how many more wins does A need?",
+      "options": [
+        { "optionId": "A", "text": "1" },
+        { "optionId": "B", "text": "2" },
+        { "optionId": "C", "text": "3" },
+        { "optionId": "D", "text": "4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A needs 5 − 3 = 2 more wins.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "In a 800 m race, A beats B by 40 m and B beats C by 20 m. By how many metres does A beat C?",
+      "options": [
+        { "optionId": "A", "text": "54 m" },
+        { "optionId": "B", "text": "56 m" },
+        { "optionId": "C", "text": "59 m" },
+        { "optionId": "D", "text": "60 m" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When A runs 800 m, B runs 760 m. When B runs 760 m, C runs 760×780/800 = 741 m. A beats C by 59 m.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A beats B by 25 m in a 250 m race. B's time for the race is 50 seconds. Find A's time.",
+      "options": [
+        { "optionId": "A", "text": "42.5 s" },
+        { "optionId": "B", "text": "45 s" },
+        { "optionId": "C", "text": "47.5 s" },
+        { "optionId": "D", "text": "50 s" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "B runs 225 m in 50 s. A runs 250 m at ratio 250/225 × 50 = 500/9 ≈ 55.56? Ratio speed A:B=250:225=10:9. Time inverse: A time = 50×9/10 = 45 s.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "In a game, A needs 4 wins and B needs 5 wins. After 6 games A leads 4–2. Who has won the match?",
+      "options": [
+        { "optionId": "A", "text": "A" },
+        { "optionId": "B", "text": "B" },
+        { "optionId": "C", "text": "Match continues" },
+        { "optionId": "D", "text": "Draw" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A reached 4 wins — A wins the match.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A gives B a head start of 10 m in a 100 m race and beats him by 10 m. Find the ratio of their speeds.",
+      "options": [
+        { "optionId": "A", "text": "3 : 2" },
+        { "optionId": "B", "text": "4 : 3" },
+        { "optionId": "C", "text": "5 : 4" },
+        { "optionId": "D", "text": "6 : 5" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A runs 100 m. B is at 90 m when A finishes (beat by 10 from 100 m mark), so B ran 80 m from start. Ratio = 100:80 = 5:4.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A and B run at 5 m/s and 4 m/s on a 300 m circular track in the same direction. After how many seconds do they first meet?",
+      "options": [
+        { "optionId": "A", "text": "200 s" },
+        { "optionId": "B", "text": "250 s" },
+        { "optionId": "C", "text": "300 s" },
+        { "optionId": "D", "text": "350 s" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Relative speed = 1 m/s. Time = 300/1 = 300 seconds.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "In a 1500 m race, A beats B by 150 m and B beats C by 100 m. By how much does A beat C?",
+      "options": [
+        { "optionId": "A", "text": "240 m" },
+        { "optionId": "B", "text": "250 m" },
+        { "optionId": "C", "text": "260 m" },
+        { "optionId": "D", "text": "270 m" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "When A=1500, B=1350. C when B=1350: C=1350×1400/1500=1260. Beat=240 m.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A beats B by 12 m in a 120 m race. What distance does B cover when A runs 80 m?",
+      "options": [
+        { "optionId": "A", "text": "68 m" },
+        { "optionId": "B", "text": "70 m" },
+        { "optionId": "C", "text": "72 m" },
+        { "optionId": "D", "text": "74 m" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ratio 120:108 = 10:9. B runs 80×9/10 = 72 m.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "In a 100 m race, A can give B a start of 10 m and still win by 5 m. Find the ratio of speeds of A and B.",
+      "options": [
+        { "optionId": "A", "text": "19 : 15" },
+        { "optionId": "B", "text": "20 : 17" },
+        { "optionId": "C", "text": "21 : 17" },
+        { "optionId": "D", "text": "20 : 19" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A runs 100 m, B runs 85 m (95−10). Ratio = 100:85 = 20:17.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A runs twice as fast as B. By what distance will A beat B in a 400 m race?",
+      "options": [
+        { "optionId": "A", "text": "150 m" },
+        { "optionId": "B", "text": "200 m" },
+        { "optionId": "C", "text": "250 m" },
+        { "optionId": "D", "text": "300 m" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "When A runs 400 m, B runs 200 m. Beat = 200 m.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "First to win 3 games wins. Score is 2–1 in favour of A. What is the maximum number of additional games that can be played?",
+      "options": [
+        { "optionId": "A", "text": "1" },
+        { "optionId": "B", "text": "2" },
+        { "optionId": "C", "text": "3" },
+        { "optionId": "D", "text": "4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A needs 1 more win; B needs 2. Maximum games = 1 + 2 = 3? If B wins next two then A wins: could be 3 more. Max additional = 3 if B wins 2 then A wins 1. Actually max = 2 (B wins twice to 2-3, then A wins). Score 2-1, B needs 2, A needs 1. Max games = 2+1-1 = 2 additional if alternating. Answer B (2).",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A beats B by 30 m in a 600 m race. In a 300 m race, A beats B by:",
+      "options": [
+        { "optionId": "A", "text": "10 m" },
+        { "optionId": "B", "text": "15 m" },
+        { "optionId": "C", "text": "20 m" },
+        { "optionId": "D", "text": "25 m" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ratio 600:570 = 20:19. Beat in 300 m = 300 − 285 = 15 m.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A and B start a 1000 m race together. A runs at 8 m/s. When A finishes, B has 100 m to go. Find B's speed.",
+      "options": [
+        { "optionId": "A", "text": "6.8 m/s" },
+        { "optionId": "B", "text": "7.0 m/s" },
+        { "optionId": "C", "text": "7.2 m/s" },
+        { "optionId": "D", "text": "7.5 m/s" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A's time = 1000/8 = 125 s. B runs 900 m in 125 s → 7.2 m/s.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "In a 400 m race, the ratio of speeds of A and B is 5 : 4. By how many metres does A beat B?",
+      "options": [
+        { "optionId": "A", "text": "60 m" },
+        { "optionId": "B", "text": "70 m" },
+        { "optionId": "C", "text": "80 m" },
+        { "optionId": "D", "text": "100 m" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "B runs 400×4/5 = 320 m. Beat = 80 m.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["races-and-games"],
+      "questionType": "MCQ"
+    }
+  ]
+}

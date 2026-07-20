@@ -1,0 +1,499 @@
+{
+  "_seedKey": "topic-compound-interest",
+  "topic": {
+    "moduleId": "REPLACE_MODULE_ARITHMETIC_ID",
+    "name": "Compound Interest",
+    "slug": "compound-interest",
+    "description": "Compound interest, amount, annual and half-yearly compounding, and CI versus SI comparisons. Estimated reading 24 min; practice 40 min.",
+    "estimatedTime": 64,
+    "difficulty": "medium",
+    "order": 6,
+    "isPublished": true
+  },
+  "theory": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "introduction": "Compound Interest (CI) is interest calculated on the principal plus accumulated interest from earlier periods. Each period the base grows, so interest increases over time unlike simple interest. Exams test annual compounding, half-yearly compounding, finding rate or time, and comparing CI with SI.",
+    "explanation": "CONCEPT EXPLANATION\n\nFor annual compounding, Amount A = P(1 + R/100)^T and Compound Interest CI = A − P.\n\nWhen compounding is half-yearly, the rate per period becomes R/2 and the number of periods becomes 2T: A = P(1 + R/200)^(2T).\n\nFor quarterly compounding, use R/4 and 4T similarly.\n\nUseful result: difference between CI and SI on the same sum for 2 years at R% annually is P(R/100)^2.\n\nFor 3 years, CI − SI = P(R/100)^2 × (3 + R/100) when compounded annually.\n\nREAL-LIFE APPLICATIONS\n\nBank savings accounts, fixed deposits with compounding, loan EMI structures, and investment growth projections commonly use compound interest.\n\nCOMMON MISTAKES\n\n1) Forgetting to double periods when compounding half-yearly.\n2) Using R instead of R/2 in the half-yearly formula.\n3) Subtracting principal incorrectly when only CI is required.\n4) Applying simple interest for multi-year compounding problems.\n5) Rounding intermediate values too early in multi-step calculations.\n\nIMPORTANT NOTES\n\n• CI > SI for the same P, R, T when T > 1 year (annual compounding).\n\n• For 2 years, CI − SI = P(R/100)^2 exactly.\n\n• Half-yearly: n = 2T periods, rate per period = R/2%.\n\n• If amount doubles, (1 + R/100)^T = 2; solve for unknown R or T.\n\n• Effective annual rate exceeds nominal rate when compounding is more frequent than yearly.",
+    "formulas": [
+      { "title": "Amount (annual)", "content": "A = P(1 + R/100)^T" },
+      { "title": "Compound interest", "content": "CI = A − P = P[(1 + R/100)^T − 1]" },
+      { "title": "Half-yearly compounding", "content": "A = P(1 + R/200)^(2T)" },
+      { "title": "CI minus SI (2 years)", "content": "CI − SI = P(R/100)^2 for annual compounding" },
+      { "title": "Principal from amount", "content": "P = A / (1 + R/100)^T" },
+      { "title": "Two-year amount shortcut", "content": "A = P[1 + 2R/100 + (R/100)^2] when T = 2 years compounded annually" }
+    ],
+    "shortcutTips": [
+      { "title": "Half-yearly rule", "tip": "Split rate by 2 and multiply time periods by 2 for half-yearly compounding." },
+      { "title": "Two-year CI−SI", "tip": "For 2 years at R%, CI exceeds SI by P(R/100)^2 without full expansion." },
+      { "title": "Successive multipliers", "tip": "Multiply by (1 + R/100) once per compounding period instead of recomputing from scratch." },
+      { "title": "CI from amount", "tip": "Always subtract principal after calculating amount to get compound interest." },
+      { "title": "Compare growth", "tip": "For T = 1 year, CI equals SI under annual compounding." },
+      { "title": "Square small rates", "tip": "When R = 10%, use (1.1)^T; for T = 2, multiplier is 1.21 directly." }
+    ],
+    "solvedExamples": [
+      {
+        "problem": "Find the compound interest on Rs 10,000 at 10% per annum for 2 years compounded annually.",
+        "solution": "The compound interest is Rs 2,100.",
+        "steps": ["A = 10000 × (1.1)^2 = 10000 × 1.21 = 12,100.", "CI = 12,100 − 10,000 = Rs 2,100."]
+      },
+      {
+        "problem": "Find the amount on Rs 8,000 at 5% per annum for 2 years compounded half-yearly.",
+        "solution": "The amount is Rs 8,820.50.",
+        "steps": ["Rate per half-year = 2.5%, periods = 4.", "A = 8000 × (1.025)^4 ≈ 8820.50."]
+      },
+      {
+        "problem": "Difference between CI and SI on Rs 5,000 at 10% for 2 years is:",
+        "solution": "The difference is Rs 50.",
+        "steps": ["CI − SI = P(R/100)^2 = 5000 × (0.1)^2 = 5000 × 0.01 = Rs 50."]
+      },
+      {
+        "problem": "At what rate percent will Rs 16,000 amount to Rs 18,816 in 2 years compounded annually?",
+        "solution": "The rate is 8% per annum.",
+        "steps": ["A/P = 18816/16000 = 1.176 = (1 + R/100)^2.", "(1 + R/100) = √1.176 = 1.08 ⇒ R = 8%."]
+      }
+    ],
+    "references": []
+  },
+  "exercise": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-compound-interest-general",
+    "title": "General Questions",
+    "description": "MCQ practice on compound amount, CI, half-yearly compounding, and CI versus SI.",
+    "order": 1,
+    "isPublished": true
+  },
+  "questions": [
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Compound interest on Rs 5,000 at 10% per annum for 2 years (annual) is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 1,000" },
+        { "optionId": "B", "text": "Rs 1,050" },
+        { "optionId": "C", "text": "Rs 1,100" },
+        { "optionId": "D", "text": "Rs 1,150" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A = 5000 × 1.21 = 6050. CI = Rs 1,050.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Amount on Rs 8,000 at 5% for 2 years compounded annually is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 8,800" },
+        { "optionId": "B", "text": "Rs 8,820" },
+        { "optionId": "C", "text": "Rs 8,840" },
+        { "optionId": "D", "text": "Rs 8,900" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A = 8000 × (1.05)^2 = 8000 × 1.1025 = Rs 8,820.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "CI on Rs 10,000 at 20% for 1 year compounded annually is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 1,500" },
+        { "optionId": "B", "text": "Rs 1,800" },
+        { "optionId": "C", "text": "Rs 2,000" },
+        { "optionId": "D", "text": "Rs 2,200" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "One year: CI = SI = (10000 × 20)/100 = Rs 2,000.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Difference between CI and SI on Rs 4,000 at 10% for 2 years is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 20" },
+        { "optionId": "B", "text": "Rs 30" },
+        { "optionId": "C", "text": "Rs 40" },
+        { "optionId": "D", "text": "Rs 50" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "CI − SI = P(R/100)^2 = 4000 × 0.01 = Rs 40.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Rs 12,500 amounts to Rs 14,400 in 2 years at CI compounded annually. Rate is:",
+      "options": [
+        { "optionId": "A", "text": "6%" },
+        { "optionId": "B", "text": "7%" },
+        { "optionId": "C", "text": "8%" },
+        { "optionId": "D", "text": "9%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "14400/12500 = 1.152 = (1 + R/100)^2 ⇒ 1 + R/100 = 1.08 ⇒ R = 8%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "CI on Rs 10,000 at 8% for 2 years compounded annually is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 1,600" },
+        { "optionId": "B", "text": "Rs 1,664" },
+        { "optionId": "C", "text": "Rs 1,700" },
+        { "optionId": "D", "text": "Rs 1,750" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A = 10000 × (1.08)^2 = 11,664. CI = Rs 1,664.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Principal that amounts to Rs 5,290 at 6% CI in 2 years (annual) is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 4,600" },
+        { "optionId": "B", "text": "Rs 4,700" },
+        { "optionId": "C", "text": "Rs 4,800" },
+        { "optionId": "D", "text": "Rs 4,900" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "5290 = P × (1.06)^2 = P × 1.1236 ⇒ P = 5290/1.1236 ≈ Rs 4,708 ≈ Rs 4,700.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Rs 1,000 at 10% compounded half-yearly for 1 year amounts to:",
+      "options": [
+        { "optionId": "A", "text": "Rs 1,100" },
+        { "optionId": "B", "text": "Rs 1,102.50" },
+        { "optionId": "C", "text": "Rs 1,105" },
+        { "optionId": "D", "text": "Rs 1,210" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A = 1000 × (1.05)^2 = 1000 × 1.1025 = Rs 1,102.50.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "At 20% CI annually, a sum becomes Rs 14,400 in 2 years. The sum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 9,000" },
+        { "optionId": "B", "text": "Rs 10,000" },
+        { "optionId": "C", "text": "Rs 11,000" },
+        { "optionId": "D", "text": "Rs 12,000" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "14400 = P × (1.2)^2 = P × 1.44 ⇒ P = Rs 10,000.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "CI on Rs 6,000 at 5% for 3 years compounded annually is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 900" },
+        { "optionId": "B", "text": "Rs 945.75" },
+        { "optionId": "C", "text": "Rs 957.75" },
+        { "optionId": "D", "text": "Rs 975.00" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A = 6000 × (1.05)^3 = 6000 × 1.157625 = 6945.75. CI = Rs 945.75.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "For 2 years, CI exceeds SI on Rs 2,500 at 8% by:",
+      "options": [
+        { "optionId": "A", "text": "Rs 12" },
+        { "optionId": "B", "text": "Rs 14" },
+        { "optionId": "C", "text": "Rs 16" },
+        { "optionId": "D", "text": "Rs 18" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Difference = 2500 × (0.08)^2 = 2500 × 0.0064 = Rs 16.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Rs 20,000 at 10% CI for 2 years gives amount:",
+      "options": [
+        { "optionId": "A", "text": "Rs 24,000" },
+        { "optionId": "B", "text": "Rs 24,100" },
+        { "optionId": "C", "text": "Rs 24,200" },
+        { "optionId": "D", "text": "Rs 24,400" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A = 20000 × 1.21 = Rs 24,200.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A sum doubles in 3 years at CI annually. Approximate rate is:",
+      "options": [
+        { "optionId": "A", "text": "20%" },
+        { "optionId": "B", "text": "25%" },
+        { "optionId": "C", "text": "26%" },
+        { "optionId": "D", "text": "33%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "(1 + R/100)^3 = 2 ⇒ R ≈ 26% (cube root of 2 ≈ 1.26).",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "CI on Rs 4,000 at 15% for 2 years compounded annually is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 1,200" },
+        { "optionId": "B", "text": "Rs 1,290" },
+        { "optionId": "C", "text": "Rs 1,350" },
+        { "optionId": "D", "text": "Rs 1,440" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A = 4000 × (1.15)^2 = 4000 × 1.3225 = 5290. CI = Rs 1,290.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Rs 8,000 at 10% compounded half-yearly for 1 year gives CI of:",
+      "options": [
+        { "optionId": "A", "text": "Rs 800" },
+        { "optionId": "B", "text": "Rs 810" },
+        { "optionId": "C", "text": "Rs 820" },
+        { "optionId": "D", "text": "Rs 840" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A = 8000 × (1.05)^2 = 8820. CI = Rs 820.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Amount on Rs 25,000 at 4% for 2 years compounded annually is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 26,000" },
+        { "optionId": "B", "text": "Rs 26,400" },
+        { "optionId": "C", "text": "Rs 27,000" },
+        { "optionId": "D", "text": "Rs 27,040" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A = 25000 × (1.04)^2 = 25000 × 1.0816 = Rs 27,040.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If CI on a sum for 2 years at 5% is Rs 512.50, the sum is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 4,500" },
+        { "optionId": "B", "text": "Rs 4,800" },
+        { "optionId": "C", "text": "Rs 5,000" },
+        { "optionId": "D", "text": "Rs 5,200" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "CI = P[(1.05)^2 − 1] = P × 0.1025 = 512.50 ⇒ P = Rs 5,000.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Rs 3,000 at 20% CI for 2 years: CI − SI equals:",
+      "options": [
+        { "optionId": "A", "text": "Rs 60" },
+        { "optionId": "B", "text": "Rs 100" },
+        { "optionId": "C", "text": "Rs 120" },
+        { "optionId": "D", "text": "Rs 180" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "CI − SI = P(R/100)^2 = 3000 × 0.04 = Rs 120.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Rs 10,000 grows to Rs 11,664 in 2 years at CI. The rate is:",
+      "options": [
+        { "optionId": "A", "text": "6%" },
+        { "optionId": "B", "text": "7%" },
+        { "optionId": "C", "text": "8%" },
+        { "optionId": "D", "text": "9%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "11664/10000 = 1.1664 = (1.08)^2 ⇒ R = 8%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Compound amount on Rs 2,000 at 10% for 3 years compounded annually is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 2,600" },
+        { "optionId": "B", "text": "Rs 2,620" },
+        { "optionId": "C", "text": "Rs 2,662" },
+        { "optionId": "D", "text": "Rs 2,700" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A = 2000 × (1.1)^3 = 2000 × 1.331 = Rs 2,662.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Effective annual yield on Rs 4,000 at 8% compounded half-yearly for 1 year is nearest to:",
+      "options": [
+        { "optionId": "A", "text": "Rs 320" },
+        { "optionId": "B", "text": "Rs 324" },
+        { "optionId": "C", "text": "Rs 326" },
+        { "optionId": "D", "text": "Rs 330" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A = 4000 × (1.04)^2 = 4326.4. CI ≈ Rs 326.4.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Rs 6,250 at 8% CI for 2 years amounts to Rs 7,290. The compound interest is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 990" },
+        { "optionId": "B", "text": "Rs 1,040" },
+        { "optionId": "C", "text": "Rs 1,090" },
+        { "optionId": "D", "text": "Rs 1,140" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "CI = Amount − Principal = 7290 − 6250 = Rs 1,040.",
+      "difficulty": "hard",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 120,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "At what rate will Rs 5,000 amount to Rs 5,808 in 2 years at CI annually?",
+      "options": [
+        { "optionId": "A", "text": "6%" },
+        { "optionId": "B", "text": "7%" },
+        { "optionId": "C", "text": "8%" },
+        { "optionId": "D", "text": "9%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "5808/5000 = 1.1616 = (1.08)^2 ⇒ R = 8%.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "CI on Rs 1,500 at 4% for 2 years compounded annually is:",
+      "options": [
+        { "optionId": "A", "text": "Rs 120" },
+        { "optionId": "B", "text": "Rs 122.40" },
+        { "optionId": "C", "text": "Rs 124.80" },
+        { "optionId": "D", "text": "Rs 126.00" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A = 1500 × (1.04)^2 = 1622.40. CI = Rs 122.40.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["compound-interest"],
+      "questionType": "MCQ"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Series Completion in verbal/logical aptitude asks you to find the next term, spot the wrong term, or recognize the rule in letter, number, or mixed series.",
+  "explanation": "CONCEPT\n\nA series follows a hidden rule: constant difference, increasing difference, geometric ratio, letter skips, alternating patterns, or combined letter–number codes. Your task is to discover and apply that rule.\n\nRULES\n\n• One rule should explain every term.\n• Wrong-number questions: exactly one term breaks the rule.\n• Letter series use A=1 … Z=26 positions.\n• Mixed series may change letters and numbers on separate tracks.\n\nTRICKS / SHORTCUT TECHNIQUES\n\n• Write differences between consecutive terms.\n• Split odd and even positions if the series looks irregular.\n• Check squares, cubes, and primes for number series.\n• For letters, convert to positions immediately when stuck.\n\nSTEP-BY-STEP SOLVING METHOD\n\n1) Observe the given terms.\n2) Test simple arithmetic/letter skips.\n3) Try second-order differences or two interleaved series.\n4) Predict the asked term or identify the odd term.\n5) Verify on all given terms.\n\nCOMMON MISTAKES\n\n1) Stopping after matching the first two gaps.\n2) Off-by-one letter counting.\n3) Forcing a complex rule when a simple one works.\n4) Missing an alternating pattern.\n5) Arithmetic slips on growing differences.",
+  "formulas": [
+    {
+      "title": "Arithmetic series",
+      "content": "a, a+d, a+2d, …"
+    },
+    {
+      "title": "Growing difference",
+      "content": "Differences increase by a fixed k each step"
+    },
+    {
+      "title": "Letter skip",
+      "content": "Next letter = current ± n positions in alphabet"
+    },
+    {
+      "title": "Alternating series",
+      "content": "Odd terms rule A; even terms rule B"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Difference line",
+      "tip": "Always jot consecutive differences before guessing."
+    },
+    {
+      "title": "Split tracks",
+      "tip": "If messy, separate odd-position and even-position terms."
+    },
+    {
+      "title": "Position numbers",
+      "tip": "Map letters to 1–26 for skip patterns."
+    },
+    {
+      "title": "Verify fully",
+      "tip": "A rule that fails on one term is wrong."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Find next: 2, 6, 12, 20, 30, ?",
+      "solution": "42",
+      "steps": [
+        "Differences: 4, 6, 8, 10.",
+        "Next difference 12.",
+        "30+12=42."
+      ]
+    },
+    {
+      "problem": "Find wrong number: 3, 8, 15, 24, 34, 48",
+      "solution": "34 is wrong; should be 35.",
+      "steps": [
+        "Differences should be 5, 7, 9, 11, 13.",
+        "3+5=8, +7=15, +9=24, +11=35, +13=48.",
+        "34 breaks the pattern."
+      ]
+    },
+    {
+      "problem": "Find next letters: A, C, F, J, ?",
+      "solution": "O",
+      "steps": [
+        "Positions: 1, 3, 6, 10.",
+        "Differences +2, +3, +4 → next +5.",
+        "10+5=15 → O."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Integer sequences",
+      "url": "https://en.wikipedia.org/wiki/Integer_sequence"
+    }
+  ]
+}

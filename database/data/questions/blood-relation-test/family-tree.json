@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a family of 3: A is father of B, B is father of C. How many generations are shown?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3"
+      },
+      {
+        "optionId": "B",
+        "text": "2"
+      },
+      {
+        "optionId": "C",
+        "text": "1"
+      },
+      {
+        "optionId": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A → B → C are three generations.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "K is mother of L and M. L is unmarried male. M is married female with son N. How is K related to N?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Grandmother"
+      },
+      {
+        "optionId": "B",
+        "text": "Mother"
+      },
+      {
+        "optionId": "C",
+        "text": "Aunt"
+      },
+      {
+        "optionId": "D",
+        "text": "Sister"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "N is child of M; M is child of K → K grandmother of N.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "P and Q are brothers. R is mother of P. S is father of Q. How is S related to R?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Husband"
+      },
+      {
+        "optionId": "B",
+        "text": "Brother"
+      },
+      {
+        "optionId": "C",
+        "text": "Father"
+      },
+      {
+        "optionId": "D",
+        "text": "Son"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "S and R are parents of P and Q → spouses.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A has two children B and C. B has daughter D. C has son E. How is D related to E?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cousin"
+      },
+      {
+        "optionId": "B",
+        "text": "Sister"
+      },
+      {
+        "optionId": "C",
+        "text": "Aunt"
+      },
+      {
+        "optionId": "D",
+        "text": "Mother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "D and E are children of siblings → cousins.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "F is sister of G. H is father of F. I is mother of G. J is son of I. How many children do H and I have at least?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3"
+      },
+      {
+        "optionId": "B",
+        "text": "2"
+      },
+      {
+        "optionId": "C",
+        "text": "1"
+      },
+      {
+        "optionId": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "F, G, and J are children of the couple (J son of I; H father of F; same parents).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Three generations: grandparents, parents, children. A boy's paternal grandfather is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Father's father"
+      },
+      {
+        "optionId": "B",
+        "text": "Mother's father"
+      },
+      {
+        "optionId": "C",
+        "text": "Father's brother"
+      },
+      {
+        "optionId": "D",
+        "text": "Mother's brother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Paternal grandfather = father's father.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "W is wife of X. X is brother of Y. Y is mother of Z. How is W related to Z?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Aunt"
+      },
+      {
+        "optionId": "B",
+        "text": "Mother"
+      },
+      {
+        "optionId": "C",
+        "text": "Sister"
+      },
+      {
+        "optionId": "D",
+        "text": "Grandmother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Y is mother of Z; X brother of Y; W wife of X → W is aunt of Z.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A couple has 2 sons and 1 daughter. Each son has 1 daughter. How many granddaughters does the couple have from sons only?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2"
+      },
+      {
+        "optionId": "B",
+        "text": "1"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each of 2 sons has 1 daughter → 2 granddaughters.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "M is father of N. O is sister of N. P is brother of M. How is P related to O?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "B",
+        "text": "Father"
+      },
+      {
+        "optionId": "C",
+        "text": "Brother"
+      },
+      {
+        "optionId": "D",
+        "text": "Cousin"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P is brother of O's father → uncle.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a tree, A (male) married B (female). They have son C and daughter D. D married E and has son F. How is F related to A?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Grandson"
+      },
+      {
+        "optionId": "B",
+        "text": "Son"
+      },
+      {
+        "optionId": "C",
+        "text": "Nephew"
+      },
+      {
+        "optionId": "D",
+        "text": "Brother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "F is child of A's daughter → grandson.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "R's father's sister's son is R's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cousin"
+      },
+      {
+        "optionId": "B",
+        "text": "Brother"
+      },
+      {
+        "optionId": "C",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "D",
+        "text": "Nephew"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Father's sister's son = paternal cousin.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Only two brothers A and B; A has daughter C; B has son D. C is D's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cousin"
+      },
+      {
+        "optionId": "B",
+        "text": "Sister"
+      },
+      {
+        "optionId": "C",
+        "text": "Aunt"
+      },
+      {
+        "optionId": "D",
+        "text": "Mother"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Children of brothers are cousins.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "G is grandmother of H. H's father is I. I's sister is J. How is J related to H?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Aunt"
+      },
+      {
+        "optionId": "B",
+        "text": "Mother"
+      },
+      {
+        "optionId": "C",
+        "text": "Sister"
+      },
+      {
+        "optionId": "D",
+        "text": "Cousin"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "J is sister of H's father → aunt.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A family has father, mother, 2 sons, 1 daughter. Minimum people if all are distinct:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5"
+      },
+      {
+        "optionId": "B",
+        "text": "4"
+      },
+      {
+        "optionId": "C",
+        "text": "6"
+      },
+      {
+        "optionId": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Father + mother + 2 sons + 1 daughter = 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If A is brother of B, and C is daughter of B, then A is C's:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "B",
+        "text": "Father"
+      },
+      {
+        "optionId": "C",
+        "text": "Brother"
+      },
+      {
+        "optionId": "D",
+        "text": "Cousin"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Brother of parent → uncle.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a standard family tree sketch, children are drawn below their parents.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Generations go downward from parents to children.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Cousins are always in the same generation as each other.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cousins are children of siblings, same generation.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which relations appear one generation above you?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Father"
+      },
+      {
+        "optionId": "B",
+        "text": "Mother"
+      },
+      {
+        "optionId": "C",
+        "text": "Uncle"
+      },
+      {
+        "optionId": "D",
+        "text": "Cousin"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Father, mother, uncle are above; cousin is same generation.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "blood-relation-test",
+      "family-tree"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

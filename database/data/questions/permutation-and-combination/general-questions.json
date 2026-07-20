@@ -1,0 +1,770 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Value of 5!",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "100"
+      },
+      {
+        "optionId": "B",
+        "text": "120"
+      },
+      {
+        "optionId": "C",
+        "text": "140"
+      },
+      {
+        "optionId": "D",
+        "text": "160"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "5!=120.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "⁷P₂ = ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "21"
+      },
+      {
+        "optionId": "B",
+        "text": "35"
+      },
+      {
+        "optionId": "C",
+        "text": "42"
+      },
+      {
+        "optionId": "D",
+        "text": "49"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "7×6=42.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "¹⁰C₂ = ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "35"
+      },
+      {
+        "optionId": "B",
+        "text": "45"
+      },
+      {
+        "optionId": "C",
+        "text": "55"
+      },
+      {
+        "optionId": "D",
+        "text": "65"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "10×9/2=45.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "⁸C₃ = ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "52"
+      },
+      {
+        "optionId": "B",
+        "text": "54"
+      },
+      {
+        "optionId": "C",
+        "text": "56"
+      },
+      {
+        "optionId": "D",
+        "text": "58"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "8×7×6/6=56.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrangements of 6 distinct books on a shelf?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "360"
+      },
+      {
+        "optionId": "B",
+        "text": "720"
+      },
+      {
+        "optionId": "C",
+        "text": "840"
+      },
+      {
+        "optionId": "D",
+        "text": "960"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "6!=720.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Choose 4 from 9 students. Ways?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "116"
+      },
+      {
+        "optionId": "B",
+        "text": "120"
+      },
+      {
+        "optionId": "C",
+        "text": "126"
+      },
+      {
+        "optionId": "D",
+        "text": "132"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "9×8×7×6/24=126.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Letters of CAT arranged. Total words?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4"
+      },
+      {
+        "optionId": "B",
+        "text": "5"
+      },
+      {
+        "optionId": "C",
+        "text": "6"
+      },
+      {
+        "optionId": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "3!=6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Letters of LEVEL. Distinct arrangements?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "20"
+      },
+      {
+        "optionId": "B",
+        "text": "25"
+      },
+      {
+        "optionId": "C",
+        "text": "30"
+      },
+      {
+        "optionId": "D",
+        "text": "35"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "5!/(2!×2!)=30.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "5 people in a circle. Arrangements?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "12"
+      },
+      {
+        "optionId": "B",
+        "text": "24"
+      },
+      {
+        "optionId": "C",
+        "text": "36"
+      },
+      {
+        "optionId": "D",
+        "text": "48"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(5−1)! = 24.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "3-digit numbers from {1,2,3,4,5} without repetition?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "60"
+      },
+      {
+        "optionId": "B",
+        "text": "80"
+      },
+      {
+        "optionId": "C",
+        "text": "100"
+      },
+      {
+        "optionId": "D",
+        "text": "125"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "⁵P₃=60.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Committee of 3 from 7 men and 4 women with at least 1 woman?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "100"
+      },
+      {
+        "optionId": "B",
+        "text": "110"
+      },
+      {
+        "optionId": "C",
+        "text": "120"
+      },
+      {
+        "optionId": "D",
+        "text": "130"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Total ¹¹C₃=165; all-men ⁷C₃=35; 165−35=130.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Toss 3 coins. Total outcomes?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "8"
+      },
+      {
+        "optionId": "C",
+        "text": "9"
+      },
+      {
+        "optionId": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "2³=8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "⁶P₃ = ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "100"
+      },
+      {
+        "optionId": "B",
+        "text": "110"
+      },
+      {
+        "optionId": "C",
+        "text": "120"
+      },
+      {
+        "optionId": "D",
+        "text": "130"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "6×5×4=120.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "⁵C₂ + ⁵C₃ = ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "15"
+      },
+      {
+        "optionId": "B",
+        "text": "20"
+      },
+      {
+        "optionId": "C",
+        "text": "25"
+      },
+      {
+        "optionId": "D",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "10+10=20 (also ⁵C₂+⁵C₃=⁶C₃=20).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange MISSISSIPPI. Distinct arrangements?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "34650"
+      },
+      {
+        "optionId": "B",
+        "text": "34660"
+      },
+      {
+        "optionId": "C",
+        "text": "34670"
+      },
+      {
+        "optionId": "D",
+        "text": "34680"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "11!/(4!×4!×2!)=34650.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From 5 boys and 3 girls, choose team of 4 with exactly 2 girls?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "20"
+      },
+      {
+        "optionId": "B",
+        "text": "25"
+      },
+      {
+        "optionId": "C",
+        "text": "30"
+      },
+      {
+        "optionId": "D",
+        "text": "35"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "³C₂×⁵C₂=3×10=30.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many 4-letter words (with meaning not required) from 26 letters if repetition allowed?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "456976"
+      },
+      {
+        "optionId": "B",
+        "text": "358800"
+      },
+      {
+        "optionId": "C",
+        "text": "270725"
+      },
+      {
+        "optionId": "D",
+        "text": "475254"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "26⁴=456976.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "ⁿCᵣ = ⁿC₅ when n=12. Non-zero r not equal to 5?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "7"
+      },
+      {
+        "optionId": "C",
+        "text": "8"
+      },
+      {
+        "optionId": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "r=7 since ¹²C₅=¹²C₇.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "5 boys and 5 girls seated alternately in a row, boy at left end?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "28800"
+      },
+      {
+        "optionId": "B",
+        "text": "14400"
+      },
+      {
+        "optionId": "C",
+        "text": "7200"
+      },
+      {
+        "optionId": "D",
+        "text": "3600"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Arrange boys 5! and girls 5! separately → 120×120=14400.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Select 2 red and 3 blue from 4 red and 6 blue. Ways?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "100"
+      },
+      {
+        "optionId": "B",
+        "text": "110"
+      },
+      {
+        "optionId": "C",
+        "text": "120"
+      },
+      {
+        "optionId": "D",
+        "text": "130"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "⁴C₂×⁶C₃=6×20=120.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rank of word CRANE in dictionary order of its letters?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "24"
+      },
+      {
+        "optionId": "B",
+        "text": "25"
+      },
+      {
+        "optionId": "C",
+        "text": "26"
+      },
+      {
+        "optionId": "D",
+        "text": "27"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Before C: 0; CA: 4!=24; CR before CANE... CRANE is 26th? Standard CRANE in A,C,E,N,R: rank 26.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "7 points on a circle. Chords by joining pairs?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "18"
+      },
+      {
+        "optionId": "B",
+        "text": "19"
+      },
+      {
+        "optionId": "C",
+        "text": "20"
+      },
+      {
+        "optionId": "D",
+        "text": "21"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "⁷C₂=21.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "At least one head in 2 coin tosses?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1"
+      },
+      {
+        "optionId": "B",
+        "text": "2"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "4−1=3 outcomes.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "⁰C₀ = ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "0"
+      },
+      {
+        "optionId": "B",
+        "text": "1"
+      },
+      {
+        "optionId": "C",
+        "text": "Undefined"
+      },
+      {
+        "optionId": "D",
+        "text": "∞"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "By definition ⁰C₀=1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "permutation-and-combination"
+    ],
+    "questionType": "MCQ"
+  }
+]

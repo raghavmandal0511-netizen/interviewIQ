@@ -3,7 +3,7 @@ import user from '../../database/models/user/user.model.js'
 const authRegisterMiddleware = async (req, res, next) => {
     try {
 
-        const { userName,  email, password } = req.body;
+        const { userName, email, password } = req.body;
 
 
         //  all field is empty or not check
@@ -18,7 +18,7 @@ const authRegisterMiddleware = async (req, res, next) => {
         }
 
         // check if user name already exits
-        const exitenUserByUsername = await user.findOne({userName});
+        const exitenUserByUsername = await user.findOne({ userName });
         if (exitenUserByUsername) {
             return res.status(400).json({ message: "user already exist username " });
         }
@@ -27,8 +27,8 @@ const authRegisterMiddleware = async (req, res, next) => {
         if (exitenUserByEmail) {
             return res.status(400).json({ message: "user already email exit" });
         }
-            console.log("all passesd ");
-            
+
+
         //  if all correct then moved to next
         next();
     } catch (error) {
@@ -46,7 +46,7 @@ const authRegisterMiddleware = async (req, res, next) => {
 export const authLogginMiddleware = async (req, res, next) => {
     try {
 
-            console.log("all passesd s");
+
         const { email, password } = req.body;
         //  all field check 
         if (!email || !password) {
@@ -60,15 +60,15 @@ export const authLogginMiddleware = async (req, res, next) => {
 
         // check if email is exits or not 
         const exitenUserByEmail = await user.findOne({ email });
-        
-        
+
+
         if (!exitenUserByEmail) {
             return res.status(400).json({ message: "email is not exits" });
         }
 
         //  if all check complte then 
         next();
-        console.log("middleware passed login");
+
 
     } catch (error) {
         console.error(error);

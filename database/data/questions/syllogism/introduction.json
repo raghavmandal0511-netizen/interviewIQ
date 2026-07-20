@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "\"All A are B\" means:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Every A is B"
+      },
+      {
+        "optionId": "B",
+        "text": "Every B is A"
+      },
+      {
+        "optionId": "C",
+        "text": "No A is B"
+      },
+      {
+        "optionId": "D",
+        "text": "Some A are not B"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Universal affirmative: all members of A are in B.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "\"Some A are B\" means:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "At least one A is B"
+      },
+      {
+        "optionId": "B",
+        "text": "All A are B"
+      },
+      {
+        "optionId": "C",
+        "text": "No A is B"
+      },
+      {
+        "optionId": "D",
+        "text": "All B are A"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Particular affirmative requires only one overlapping case.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "\"No A are B\" also means:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "No B are A"
+      },
+      {
+        "optionId": "B",
+        "text": "All A are B"
+      },
+      {
+        "optionId": "C",
+        "text": "Some A are B"
+      },
+      {
+        "optionId": "D",
+        "text": "All B are A"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Universal negatives convert simply.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In syllogism tests, statements should be treated as:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True for the question"
+      },
+      {
+        "optionId": "B",
+        "text": "False always"
+      },
+      {
+        "optionId": "C",
+        "text": "Real-world only"
+      },
+      {
+        "optionId": "D",
+        "text": "Optional"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Accept given statements even if unrealistic.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Best quick tool for syllogisms:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Venn diagram circles"
+      },
+      {
+        "optionId": "B",
+        "text": "Long essays"
+      },
+      {
+        "optionId": "C",
+        "text": "Random guessing only"
+      },
+      {
+        "optionId": "D",
+        "text": "Ignoring \"some\""
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Circles show inclusion and overlap.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From All dogs are animals, does \"All animals are dogs\" follow?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "No"
+      },
+      {
+        "optionId": "B",
+        "text": "Yes"
+      },
+      {
+        "optionId": "C",
+        "text": "Always in biology"
+      },
+      {
+        "optionId": "D",
+        "text": "Yes if some dogs exist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Converse of All is not definite.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "All A are B and All B are C implies:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "All A are C"
+      },
+      {
+        "optionId": "B",
+        "text": "All C are A"
+      },
+      {
+        "optionId": "C",
+        "text": "No A are C"
+      },
+      {
+        "optionId": "D",
+        "text": "Some C are not A as definite"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A ⊆ B ⊆ C ⇒ A ⊆ C.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A conclusion that might be true but need not be:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Is called universal"
+      },
+      {
+        "optionId": "D",
+        "text": "Is always selected"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Only necessary conclusions follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "\"Some A are not B\" is called a:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Particular negative"
+      },
+      {
+        "optionId": "B",
+        "text": "Universal affirmative"
+      },
+      {
+        "optionId": "C",
+        "text": "Universal negative"
+      },
+      {
+        "optionId": "D",
+        "text": "Definition"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "O-type categorical proposition.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which word pair shows opposite force?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "All and No"
+      },
+      {
+        "optionId": "B",
+        "text": "Some and Some"
+      },
+      {
+        "optionId": "C",
+        "text": "All and All"
+      },
+      {
+        "optionId": "D",
+        "text": "Is and Are"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "All vs No are contrary universal forms.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If only possibility exists for a conclusion, mark it as:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Both follow always"
+      },
+      {
+        "optionId": "D",
+        "text": "Either follows always"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Possibility ≠ certainty in standard keys.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Common option style for two conclusions is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Only I follows"
+      },
+      {
+        "optionId": "B",
+        "text": "I is a statement"
+      },
+      {
+        "optionId": "C",
+        "text": "Draw nothing"
+      },
+      {
+        "optionId": "D",
+        "text": "Skip reading II"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Options name which conclusions follow.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "All books are papers. Some papers are files. Conclusion: All books are files.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows if papers exist"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows always in libraries"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Books are in papers; files overlap some papers not necessarily books.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "No pen is pencil. Conclusion: No pencil is pen.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only sometimes"
+      },
+      {
+        "optionId": "D",
+        "text": "Cannot say"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "No converts to No.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Purpose of syllogism practice is mainly to test:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Deductive validity"
+      },
+      {
+        "optionId": "B",
+        "text": "Spelling only"
+      },
+      {
+        "optionId": "C",
+        "text": "Handwriting"
+      },
+      {
+        "optionId": "D",
+        "text": "Geography facts"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "It tests what must follow from premises.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "You may use real-world knowledge to overturn given statements in syllogism.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Statements are assumed true for the question.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Venn sketches help check whether a conclusion is forced.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diagrams reveal necessary vs possible regions.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which are valid categorical forms used in syllogism?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "All A are B"
+      },
+      {
+        "optionId": "B",
+        "text": "Some A are B"
+      },
+      {
+        "optionId": "C",
+        "text": "No A are B"
+      },
+      {
+        "optionId": "D",
+        "text": "Maybe A likes B"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "All/Some/No (and some-not) are categorical; \"likes\" is not the standard form here.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "syllogism",
+      "introduction"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

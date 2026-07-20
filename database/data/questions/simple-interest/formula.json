@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the simple interest on Rs 4,000 at 5% per annum for 3 years.",
+    "options": [
+      { "optionId": "A", "text": "Rs 500" },
+      { "optionId": "B", "text": "Rs 550" },
+      { "optionId": "C", "text": "Rs 600" },
+      { "optionId": "D", "text": "Rs 650" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SI = (P × R × T)/100 = (4000 × 5 × 3)/100 = 60000/100 = Rs 600.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The principal is Rs 2,000 and the simple interest earned is Rs 300. Find the amount.",
+    "options": [
+      { "optionId": "A", "text": "Rs 2,200" },
+      { "optionId": "B", "text": "Rs 2,300" },
+      { "optionId": "C", "text": "Rs 2,400" },
+      { "optionId": "D", "text": "Rs 2,500" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Amount = Principal + SI = 2000 + 300 = Rs 2,300.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which is the correct formula for simple interest?",
+    "options": [
+      { "optionId": "A", "text": "SI = (P × R × T) / 100" },
+      { "optionId": "B", "text": "SI = (P × R) / T" },
+      { "optionId": "C", "text": "SI = P + R × T" },
+      { "optionId": "D", "text": "SI = (P × R × T) / 1000" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Simple interest is calculated as SI = (Principal × Rate × Time) / 100.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The simple interest on Rs 6,000 for 4 years is Rs 1,200. Find the rate of interest per annum.",
+    "options": [
+      { "optionId": "A", "text": "4%" },
+      { "optionId": "B", "text": "5%" },
+      { "optionId": "C", "text": "6%" },
+      { "optionId": "D", "text": "8%" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "R = (100 × SI)/(P × T) = (100 × 1200)/(6000 × 4) = 120000/24000 = 5%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In how many years will Rs 3,000 yield Rs 900 as simple interest at 6% per annum?",
+    "options": [
+      { "optionId": "A", "text": "4 years" },
+      { "optionId": "B", "text": "5 years" },
+      { "optionId": "C", "text": "6 years" },
+      { "optionId": "D", "text": "7 years" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "T = (100 × SI)/(P × R) = (100 × 900)/(3000 × 6) = 90000/18000 = 5 years.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The simple interest on a sum for 6 years at 5% per annum is Rs 750. Find the sum.",
+    "options": [
+      { "optionId": "A", "text": "Rs 2,000" },
+      { "optionId": "B", "text": "Rs 2,200" },
+      { "optionId": "C", "text": "Rs 2,500" },
+      { "optionId": "D", "text": "Rs 3,000" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "P = (100 × SI)/(R × T) = (100 × 750)/(5 × 6) = 75000/30 = Rs 2,500.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the simple interest on Rs 12,000 at 9% per annum for 8 months.",
+    "options": [
+      { "optionId": "A", "text": "Rs 600" },
+      { "optionId": "B", "text": "Rs 650" },
+      { "optionId": "C", "text": "Rs 720" },
+      { "optionId": "D", "text": "Rs 750" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Using SI = (P × R × T)/1200 with T in months: SI = (12000 × 9 × 8)/1200 = 864000/1200 = Rs 720.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A sum triples itself in 20 years at simple interest. Find the rate of interest per annum.",
+    "options": [
+      { "optionId": "A", "text": "5%" },
+      { "optionId": "B", "text": "8%" },
+      { "optionId": "C", "text": "10%" },
+      { "optionId": "D", "text": "12%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "If the sum triples, Amount = 3P, so SI = 3P − P = 2P. R = (100 × SI)/(P × T) = (100 × 2P)/(P × 20) = 200/20 = 10%.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In how many years will a sum double itself at 8% per annum simple interest?",
+    "options": [
+      { "optionId": "A", "text": "10 years" },
+      { "optionId": "B", "text": "12.5 years" },
+      { "optionId": "C", "text": "15 years" },
+      { "optionId": "D", "text": "20 years" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "If the sum doubles, SI = P. T = (100 × SI)/(P × R) = (100 × P)/(P × 8) = 100/8 = 12.5 years.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the amount on a principal of Rs 5,000 at 10% per annum simple interest for 2 years.",
+    "options": [
+      { "optionId": "A", "text": "Rs 5,500" },
+      { "optionId": "B", "text": "Rs 5,800" },
+      { "optionId": "C", "text": "Rs 6,000" },
+      { "optionId": "D", "text": "Rs 6,200" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SI = (5000 × 10 × 2)/100 = 1000. Amount = P + SI = 5000 + 1000 = Rs 6,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rs 8,000 becomes Rs 10,400 in 4 years at simple interest. Find the rate of interest per annum.",
+    "options": [
+      { "optionId": "A", "text": "6%" },
+      { "optionId": "B", "text": "7%" },
+      { "optionId": "C", "text": "7.5%" },
+      { "optionId": "D", "text": "8%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SI = 10400 − 8000 = 2400. R = (100 × 2400)/(8000 × 4) = 240000/32000 = 7.5%.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following correctly finds Time from known SI, principal, and rate?",
+    "options": [
+      { "optionId": "A", "text": "T = 100 × SI / (P × R)" },
+      { "optionId": "B", "text": "T = P × R / (100 × SI)" },
+      { "optionId": "C", "text": "T = SI / (P × R)" },
+      { "optionId": "D", "text": "T = 100 × P × R / SI" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rearranging SI = PRT/100 for T gives T = (100 × SI)/(P × R).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The simple interest on a sum for 2 years at 12% is Rs 480 more than the simple interest on the same sum for 2 years at 8%. Find the sum.",
+    "options": [
+      { "optionId": "A", "text": "Rs 5,000" },
+      { "optionId": "B", "text": "Rs 5,500" },
+      { "optionId": "C", "text": "Rs 6,000" },
+      { "optionId": "D", "text": "Rs 6,500" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Difference in rate = 12% − 8% = 4%. Difference in SI over 2 years = P × 4 × 2/100 = 8P/100 = 480 ⇒ P = 6,000.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A sum of money at simple interest amounts to Rs 850 in 3 years and Rs 925 in 4 years. Find the principal.",
+    "options": [
+      { "optionId": "A", "text": "Rs 600" },
+      { "optionId": "B", "text": "Rs 625" },
+      { "optionId": "C", "text": "Rs 650" },
+      { "optionId": "D", "text": "Rs 700" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Interest for 1 extra year = 925 − 850 = Rs 75. So SI for 3 years = 3 × 75 = Rs 225. Principal = 850 − 225 = Rs 625.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The formula A = P + SI can also be written as:",
+    "options": [
+      { "optionId": "A", "text": "A = P(1 + RT/100)" },
+      { "optionId": "B", "text": "A = P(1 + RT)" },
+      { "optionId": "C", "text": "A = P × RT/100" },
+      { "optionId": "D", "text": "A = P − SI" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since SI = PRT/100, A = P + PRT/100 = P(1 + RT/100).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In simple interest, the interest earned is the same every year for a fixed principal and rate.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since simple interest is always calculated on the original principal, the yearly interest amount does not change.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The rate R in the formula SI = (P × R × T)/100 must be substituted as a decimal, such as 0.05 instead of 5, for a 5% rate.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In this formula, R is substituted as the numeric percentage value (e.g., 5), since dividing by 100 already accounts for the percentage.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the time period is given in months, it should be converted to years before using SI = PRT/100 (or the monthly form with denominator 1200 can be used directly).",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Consistent units are essential; months must be converted to years, or the 1200-denominator monthly formula must be used instead.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following relations for simple interest are correct? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "SI = (P × R × T) / 100" },
+      { "optionId": "B", "text": "Amount = P + SI" },
+      { "optionId": "C", "text": "R = (100 × SI) / (P × T)" },
+      { "optionId": "D", "text": "P = SI × R × T / 100" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C are valid forms and rearrangements of the simple interest formula. D is not a correct rearrangement; P is obtained as P = 100 × SI / (R × T).",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Select the correct statements about simple interest.",
+    "options": [
+      { "optionId": "A", "text": "Doubling the principal doubles the SI for the same rate and time" },
+      { "optionId": "B", "text": "Doubling the time doubles the SI for the same principal and rate" },
+      { "optionId": "C", "text": "SI grows on the accumulated interest each year" },
+      { "optionId": "D", "text": "SI is directly proportional to the rate for a fixed principal and time" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "SI is directly proportional to principal, rate, and time individually, confirming A, B, and D. Growth on accumulated interest (C) is a property of compound interest, not simple interest.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["simple-interest", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Problems on ages ask you to find someone's current, past, or future age using clues about ratios, sums, or differences between people's ages at different points in time. The key skill is translating everyday phrases like \"five years ago\" or \"in the ratio 3:2\" into algebraic equations. Once set up correctly, these problems reduce to simple linear equations.",
+  "explanation": "CONCEPT EXPLANATION\n\nAlways start by assigning a variable to the present age of one person (often the one asked about, or the smaller quantity in a ratio). If a person's present age is x, then their age n years ago was (x − n) and their age n years hence (in the future) will be (x + n).\n\nWhen two present ages are in ratio a : b, represent them as ak and bk for some positive constant k. This turns a ratio statement into a single variable problem. After forming the equation from the given condition, solve for k, then substitute back to get actual ages.\n\nA very useful invariant: the difference between two people's ages never changes over time. If A is 8 years older than B today, A will still be 8 years older than B in 10 years and was 8 years older 10 years ago. This lets you skip re-deriving the difference at each time reference.\n\nFor three or more people, anchor one person's age as the variable and express the others in terms of it using the given relationships (e.g., father's age is 3 times son's age).\n\nREAL-LIFE APPLICATIONS\n\nWhile age puzzles are mostly a reasoning exercise, the underlying skill — converting relative, time-shifted statements into equations — is the same skill used in financial planning (e.g., retirement age vs. current age) and demographic analysis.\n\nCOMMON MISTAKES\n\n1) Adding or subtracting years to only one side of a ratio equation instead of to both ages consistently.\n2) Forgetting that the ratio applies at the stated time (present, past, or future), not always at present.\n3) Mixing up \"sum of ages\" with \"difference of ages\" when forming equations.\n4) Not re-checking the final answer against every condition given in the problem.\n5) Assuming age difference changes over time — it never does.\n\nIMPORTANT NOTES\n\n• Age difference between two people is constant at every point in time.\n\n• A ratio a:b becomes ak:bk; solve for k using the extra condition given.\n\n• \"n years hence\" or \"n years from now\" means add n; \"n years ago\" means subtract n.\n\n• Always verify by plugging the found ages back into every statement in the question.",
+  "formulas": [
+    {
+      "title": "Age n years ago",
+      "content": "Age n years ago = Present age − n"
+    },
+    {
+      "title": "Age n years hence",
+      "content": "Age n years hence = Present age + n"
+    },
+    {
+      "title": "Ratio representation",
+      "content": "If ages are in ratio a : b, take ages as ak and bk"
+    },
+    {
+      "title": "Constant age difference",
+      "content": "(Age of A) − (Age of B) is the same at any past, present, or future time"
+    },
+    {
+      "title": "Sum and difference to individual ages",
+      "content": "If sum = S and difference = D, larger age = (S + D)/2, smaller age = (S − D)/2"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Use the constant difference",
+      "tip": "Once you know the age difference, you never need to recompute it at other time references — reuse it directly."
+    },
+    {
+      "title": "Ratio with multiplier k",
+      "tip": "Represent ratio a:b as ak, bk; this turns the whole problem into finding a single number k."
+    },
+    {
+      "title": "Translate time phrases carefully",
+      "tip": "'n years ago' subtracts n from present age; 'after n years' or 'n years hence' adds n — apply consistently to every person mentioned."
+    },
+    {
+      "title": "Verify with all clues",
+      "tip": "After solving, substitute the ages back into every condition in the problem, not just the one used to form the equation."
+    },
+    {
+      "title": "Sum-difference shortcut",
+      "tip": "If both the sum and difference of two ages are given, use (S+D)/2 and (S−D)/2 to get each age instantly."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "The present ages of A and B are in the ratio 5:7. After 4 years, A's age will be 29 years. Find B's present age.",
+      "solution": "B's present age is 35 years.",
+      "steps": [
+        "Let present ages be 5k and 7k.",
+        "A's age after 4 years: 5k + 4 = 29, so 5k = 25, k = 5.",
+        "B's present age = 7k = 7 × 5 = 35 years."
+      ]
+    },
+    {
+      "problem": "A father is 24 years older than his son. After 6 years, the father's age will be twice the son's age. Find the son's present age.",
+      "solution": "The son's present age is 18 years.",
+      "steps": [
+        "Let son's present age = x, so father's present age = x + 24.",
+        "After 6 years: x + 24 + 6 = 2(x + 6).",
+        "x + 30 = 2x + 12, so x = 18."
+      ]
+    },
+    {
+      "problem": "The sum of the present ages of a mother and daughter is 50 years. Five years ago, the mother's age was 7 times the daughter's age. Find their present ages.",
+      "solution": "The daughter is 10 years old and the mother is 40 years old.",
+      "steps": [
+        "Let daughter's present age = x, mother's = 50 − x.",
+        "Five years ago: (50 − x − 5) = 7(x − 5).",
+        "45 − x = 7x − 35, so 80 = 8x, x = 10.",
+        "Daughter = 10 years, Mother = 50 − 10 = 40 years."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Math is Fun — Introduction to Algebra Word Problems",
+      "url": "https://www.mathsisfun.com/algebra/word-questions-solving.html"
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "40"
+      },
+      {
+        "optionId": "B",
+        "text": "42"
+      },
+      {
+        "optionId": "C",
+        "text": "44"
+      },
+      {
+        "optionId": "D",
+        "text": "48"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Differences are 4, 6, 8, 10; next difference is 12. 30 + 12 = 42.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 1, 4, 9, 16, 25, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "30"
+      },
+      {
+        "optionId": "B",
+        "text": "32"
+      },
+      {
+        "optionId": "C",
+        "text": "36"
+      },
+      {
+        "optionId": "D",
+        "text": "49"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The series consists of perfect squares: 1², 2², 3², 4², 5². Next term = 6² = 36.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 5, 10, 20, 40, 80, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "120"
+      },
+      {
+        "optionId": "B",
+        "text": "140"
+      },
+      {
+        "optionId": "C",
+        "text": "160"
+      },
+      {
+        "optionId": "D",
+        "text": "180"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is multiplied by 2. Next term = 80 × 2 = 160.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 2, 3, 5, 7, 11, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "12"
+      },
+      {
+        "optionId": "B",
+        "text": "13"
+      },
+      {
+        "optionId": "C",
+        "text": "14"
+      },
+      {
+        "optionId": "D",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The series lists consecutive prime numbers. The next prime after 11 is 13.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 3, 6, 11, 18, 27, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "36"
+      },
+      {
+        "optionId": "B",
+        "text": "38"
+      },
+      {
+        "optionId": "C",
+        "text": "40"
+      },
+      {
+        "optionId": "D",
+        "text": "42"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Differences are +3, +5, +7, +9; next difference is +11. 27 + 11 = 38.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 1, 1, 2, 3, 5, 8, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "11"
+      },
+      {
+        "optionId": "B",
+        "text": "12"
+      },
+      {
+        "optionId": "C",
+        "text": "13"
+      },
+      {
+        "optionId": "D",
+        "text": "14"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Fibonacci series: each term is the sum of the two preceding terms. 5 + 8 = 13.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 121, 100, 81, 64, 49, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "25"
+      },
+      {
+        "optionId": "B",
+        "text": "30"
+      },
+      {
+        "optionId": "C",
+        "text": "36"
+      },
+      {
+        "optionId": "D",
+        "text": "42"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Terms are descending perfect squares: 11², 10², 9², 8², 7². Next = 6² = 36.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 2, 6, 18, 54, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "108"
+      },
+      {
+        "optionId": "B",
+        "text": "128"
+      },
+      {
+        "optionId": "C",
+        "text": "162"
+      },
+      {
+        "optionId": "D",
+        "text": "216"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term is multiplied by 3. Next term = 54 × 3 = 162.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 1, 3, 7, 15, 31, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "47"
+      },
+      {
+        "optionId": "B",
+        "text": "55"
+      },
+      {
+        "optionId": "C",
+        "text": "63"
+      },
+      {
+        "optionId": "D",
+        "text": "65"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Pattern: 2ⁿ − 1. Next term = 2⁶ − 1 = 64 − 1 = 63.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 64, 32, 16, 8, 4, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1"
+      },
+      {
+        "optionId": "B",
+        "text": "2"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each term is halved. Next term = 4 ÷ 2 = 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 7, 14, 28, 56, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "84"
+      },
+      {
+        "optionId": "B",
+        "text": "98"
+      },
+      {
+        "optionId": "C",
+        "text": "112"
+      },
+      {
+        "optionId": "D",
+        "text": "128"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Geometric progression with ratio 2. Next term = 56 × 2 = 112.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 100, 95, 86, 73, 56, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "35"
+      },
+      {
+        "optionId": "B",
+        "text": "38"
+      },
+      {
+        "optionId": "C",
+        "text": "40"
+      },
+      {
+        "optionId": "D",
+        "text": "42"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Differences: −5, −9, −13, −17; next difference is −21. 56 − 21 = 35.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 2, 4, 8, 16, 32, 62.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8"
+      },
+      {
+        "optionId": "B",
+        "text": "16"
+      },
+      {
+        "optionId": "C",
+        "text": "32"
+      },
+      {
+        "optionId": "D",
+        "text": "62"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Each term doubles: 32 × 2 = 64, not 62. So 62 is the wrong number.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "odd-man-out-and-series",
+      "wrong-number"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 3, 9, 27, 81, 243, 728.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "27"
+      },
+      {
+        "optionId": "B",
+        "text": "81"
+      },
+      {
+        "optionId": "C",
+        "text": "243"
+      },
+      {
+        "optionId": "D",
+        "text": "728"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Powers of 3: 3¹, 3², 3³, 3⁴, 3⁵, 3⁶. 3⁶ = 729, not 728.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "odd-man-out-and-series",
+      "wrong-number"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 5, 10, 15, 21, 25.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10"
+      },
+      {
+        "optionId": "B",
+        "text": "15"
+      },
+      {
+        "optionId": "C",
+        "text": "21"
+      },
+      {
+        "optionId": "D",
+        "text": "25"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The series increases by 5 each time. After 15 should come 20, not 21.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "wrong-number"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 1, 4, 9, 16, 24, 36.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "9"
+      },
+      {
+        "optionId": "B",
+        "text": "16"
+      },
+      {
+        "optionId": "C",
+        "text": "24"
+      },
+      {
+        "optionId": "D",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Perfect squares: 1², 2², 3², 4², 5², 6². 5² = 25, not 24.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "odd-man-out-and-series",
+      "wrong-number"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 2, 6, 12, 20, 30, 43.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "12"
+      },
+      {
+        "optionId": "B",
+        "text": "20"
+      },
+      {
+        "optionId": "C",
+        "text": "30"
+      },
+      {
+        "optionId": "D",
+        "text": "43"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Differences +4, +6, +8, +10 imply next difference +12. 30 + 12 = 42, not 43.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "odd-man-out-and-series",
+      "wrong-number"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong number in the series: 7, 14, 21, 28, 36.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "14"
+      },
+      {
+        "optionId": "B",
+        "text": "21"
+      },
+      {
+        "optionId": "C",
+        "text": "28"
+      },
+      {
+        "optionId": "D",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Multiples of 7: 7, 14, 21, 28, 35. 36 is not a multiple of 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "wrong-number"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: 2, 3, 5, 9, 11.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2"
+      },
+      {
+        "optionId": "B",
+        "text": "5"
+      },
+      {
+        "optionId": "C",
+        "text": "9"
+      },
+      {
+        "optionId": "D",
+        "text": "11"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "2, 3, 5, and 11 are prime. 9 = 3 × 3 is composite.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "odd-one-out"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: 4, 9, 16, 25, 27.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4"
+      },
+      {
+        "optionId": "B",
+        "text": "16"
+      },
+      {
+        "optionId": "C",
+        "text": "25"
+      },
+      {
+        "optionId": "D",
+        "text": "27"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "4, 9, 16, and 25 are perfect squares. 27 is not a perfect square.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "odd-one-out"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: 11, 13, 17, 21, 23.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "11"
+      },
+      {
+        "optionId": "B",
+        "text": "17"
+      },
+      {
+        "optionId": "C",
+        "text": "21"
+      },
+      {
+        "optionId": "D",
+        "text": "23"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "11, 13, 17, and 23 are prime. 21 = 3 × 7 is composite.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "odd-one-out"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: 8, 27, 64, 100, 125.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8"
+      },
+      {
+        "optionId": "B",
+        "text": "64"
+      },
+      {
+        "optionId": "C",
+        "text": "100"
+      },
+      {
+        "optionId": "D",
+        "text": "125"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "8, 27, 64, and 125 are perfect cubes (2³, 3³, 4³, 5³). 100 is not a perfect cube.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "odd-man-out-and-series",
+      "odd-one-out"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: 3, 5, 7, 9, 11.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3"
+      },
+      {
+        "optionId": "B",
+        "text": "7"
+      },
+      {
+        "optionId": "C",
+        "text": "9"
+      },
+      {
+        "optionId": "D",
+        "text": "11"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "3, 5, 7, and 11 are prime numbers. 9 = 3 × 3 is not prime.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "odd-one-out"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 4, 8, 12, 16, 20, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "22"
+      },
+      {
+        "optionId": "B",
+        "text": "24"
+      },
+      {
+        "optionId": "C",
+        "text": "26"
+      },
+      {
+        "optionId": "D",
+        "text": "28"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Arithmetic progression with common difference 4. Next term = 20 + 4 = 24.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: 0, 1, 1, 2, 3, 5, 8, ?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "11"
+      },
+      {
+        "optionId": "B",
+        "text": "12"
+      },
+      {
+        "optionId": "C",
+        "text": "13"
+      },
+      {
+        "optionId": "D",
+        "text": "14"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Fibonacci sequence: 5 + 8 = 13.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "odd-man-out-and-series",
+      "number-series"
+    ],
+    "questionType": "MCQ"
+  }
+]

@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Copper, Zinc, Alloy, Brass",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Copper, Zinc, Alloy, Brass"
+      },
+      {
+        "optionId": "B",
+        "text": "Copper, Zinc, Brass, Alloy"
+      },
+      {
+        "optionId": "C",
+        "text": "Zinc, Copper, Brass, Alloy"
+      },
+      {
+        "optionId": "D",
+        "text": "Alloy, Copper, Zinc, Brass"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Copper and zinc make brass, which is an alloy—order materials then brass then alloy label: Copper, Zinc, Brass, Alloy.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Birth, Death, Marriage, Education",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Birth, Education, Marriage, Death"
+      },
+      {
+        "optionId": "B",
+        "text": "Birth, Marriage, Education, Death"
+      },
+      {
+        "optionId": "C",
+        "text": "Education, Birth, Marriage, Death"
+      },
+      {
+        "optionId": "D",
+        "text": "Birth, Death, Education, Marriage"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Life stages in usual order.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Honey, Bee, Flower, Honeycomb",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Flower, Bee, Honey, Honeycomb"
+      },
+      {
+        "optionId": "B",
+        "text": "Bee, Flower, Honey, Honeycomb"
+      },
+      {
+        "optionId": "C",
+        "text": "Flower, Honey, Bee, Honeycomb"
+      },
+      {
+        "optionId": "D",
+        "text": "Honeycomb, Bee, Flower, Honey"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Bee collects from flower to make honey stored in honeycomb—Flower, Bee, Honey, Honeycomb.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Table, Wood, Tree, Furniture",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Tree, Wood, Table, Furniture"
+      },
+      {
+        "optionId": "B",
+        "text": "Wood, Tree, Table, Furniture"
+      },
+      {
+        "optionId": "C",
+        "text": "Tree, Table, Wood, Furniture"
+      },
+      {
+        "optionId": "D",
+        "text": "Furniture, Table, Wood, Tree"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tree → wood → table → furniture category.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Hunger, Food, Cook, Eat",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Hunger, Food, Cook, Eat"
+      },
+      {
+        "optionId": "B",
+        "text": "Hunger, Cook, Food, Eat"
+      },
+      {
+        "optionId": "C",
+        "text": "Food, Hunger, Cook, Eat"
+      },
+      {
+        "optionId": "D",
+        "text": "Cook, Hunger, Food, Eat"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Hunger leads to cooking food then eating: Hunger, Cook, Food, Eat.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Rain, Evaporation, Cloud, Ocean",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Ocean, Evaporation, Cloud, Rain"
+      },
+      {
+        "optionId": "B",
+        "text": "Rain, Cloud, Ocean, Evaporation"
+      },
+      {
+        "optionId": "C",
+        "text": "Evaporation, Ocean, Cloud, Rain"
+      },
+      {
+        "optionId": "D",
+        "text": "Ocean, Cloud, Evaporation, Rain"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Water cycle: ocean water evaporates, forms cloud, then rain.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: College, School, Employment, Kindergarten",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Kindergarten, School, College, Employment"
+      },
+      {
+        "optionId": "B",
+        "text": "School, Kindergarten, College, Employment"
+      },
+      {
+        "optionId": "C",
+        "text": "Kindergarten, College, School, Employment"
+      },
+      {
+        "optionId": "D",
+        "text": "Employment, College, School, Kindergarten"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Education path then job.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Dig, Sow, Harvest, Irrigate",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Dig, Sow, Irrigate, Harvest"
+      },
+      {
+        "optionId": "B",
+        "text": "Sow, Dig, Irrigate, Harvest"
+      },
+      {
+        "optionId": "C",
+        "text": "Dig, Irrigate, Sow, Harvest"
+      },
+      {
+        "optionId": "D",
+        "text": "Harvest, Dig, Sow, Irrigate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Prepare soil, sow, water, harvest.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Windows, Foundation, Roof, Walls (building)",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Foundation, Walls, Windows, Roof"
+      },
+      {
+        "optionId": "B",
+        "text": "Walls, Foundation, Windows, Roof"
+      },
+      {
+        "optionId": "C",
+        "text": "Foundation, Windows, Walls, Roof"
+      },
+      {
+        "optionId": "D",
+        "text": "Roof, Walls, Windows, Foundation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Build from foundation up; windows in walls; roof last.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Book, Pulp, Timber, Paper",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Timber, Pulp, Paper, Book"
+      },
+      {
+        "optionId": "B",
+        "text": "Pulp, Timber, Paper, Book"
+      },
+      {
+        "optionId": "C",
+        "text": "Timber, Paper, Pulp, Book"
+      },
+      {
+        "optionId": "D",
+        "text": "Book, Paper, Pulp, Timber"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Timber → pulp → paper → book.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Noun, Sentence, Paragraph, Phrase",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Noun, Phrase, Sentence, Paragraph"
+      },
+      {
+        "optionId": "B",
+        "text": "Phrase, Noun, Sentence, Paragraph"
+      },
+      {
+        "optionId": "C",
+        "text": "Noun, Sentence, Phrase, Paragraph"
+      },
+      {
+        "optionId": "D",
+        "text": "Paragraph, Sentence, Phrase, Noun"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Word class → phrase → sentence → paragraph.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Attack, War, Peace, Dispute",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Dispute, Attack, War, Peace"
+      },
+      {
+        "optionId": "B",
+        "text": "War, Dispute, Attack, Peace"
+      },
+      {
+        "optionId": "C",
+        "text": "Dispute, War, Attack, Peace"
+      },
+      {
+        "optionId": "D",
+        "text": "Peace, Dispute, Attack, War"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Dispute escalates to attack/war then peace.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Yarn, Cotton, Fabric, Shirt",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cotton, Yarn, Fabric, Shirt"
+      },
+      {
+        "optionId": "B",
+        "text": "Yarn, Cotton, Fabric, Shirt"
+      },
+      {
+        "optionId": "C",
+        "text": "Cotton, Fabric, Yarn, Shirt"
+      },
+      {
+        "optionId": "D",
+        "text": "Fabric, Cotton, Yarn, Shirt"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cotton spun to yarn, woven to fabric, made into shirt.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Probation, Selection, Interview, Appointment",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Interview, Selection, Probation, Appointment"
+      },
+      {
+        "optionId": "B",
+        "text": "Selection, Interview, Probation, Appointment"
+      },
+      {
+        "optionId": "C",
+        "text": "Interview, Selection, Appointment, Probation"
+      },
+      {
+        "optionId": "D",
+        "text": "Appointment, Interview, Selection, Probation"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Interview → selection → appointment → probation is common HR order.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arrange: Tadpole, Egg, Frog, Adult frog stages starting egg",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Egg, Tadpole, Frog"
+      },
+      {
+        "optionId": "B",
+        "text": "Tadpole, Egg, Frog"
+      },
+      {
+        "optionId": "C",
+        "text": "Frog, Egg, Tadpole"
+      },
+      {
+        "optionId": "D",
+        "text": "Egg, Frog, Tadpole"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Egg → tadpole → frog (use three-word meaningful order among options).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In basic arrangement, the first item is often the starting material or earliest stage.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sequences usually start from origin or first step.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Furniture comes before wood in a production sequence from raw material.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Wood is raw material before furniture.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which orders can define a valid word sequence?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Chronological"
+      },
+      {
+        "optionId": "B",
+        "text": "Size-based"
+      },
+      {
+        "optionId": "C",
+        "text": "Manufacturing process"
+      },
+      {
+        "optionId": "D",
+        "text": "Random initials only"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Chronological, size, and process are valid; random initials are not.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "logical-sequence-of-words",
+      "basic-arrangement"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

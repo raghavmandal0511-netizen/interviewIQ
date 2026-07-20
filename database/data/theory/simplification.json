@@ -1,0 +1,88 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Simplification problems test how accurately and quickly you can evaluate expressions that mix brackets, operations, fractions, and powers. The single most important rule is the order of operations, commonly remembered as BODMAS (Brackets, Of, Division, Multiplication, Addition, Subtraction). Getting the order right — and applying a few algebraic identities — turns messy-looking expressions into quick mental calculations.",
+  "explanation": "CONCEPT EXPLANATION\n\nBODMAS specifies the sequence in which operations must be performed: first resolve Brackets (innermost first), then \"Of\" (meaning multiplication implied by the word \"of\", e.g., half of 20), then Division and Multiplication (left to right, same priority), and finally Addition and Subtraction (left to right, same priority).\n\nWithin brackets, work from the innermost bracket outward. Common bracket types in order of nesting are usually ( ), { }, [ ], though exam questions may use any nesting style — the rule is always innermost first.\n\nAlgebraic identities often shortcut simplification: (a+b)² = a² + 2ab + b²; (a−b)² = a² − 2ab + b²; a² − b² = (a+b)(a−b); (a+b)³ = a³ + 3a²b + 3ab² + b³. Recognizing these patterns in a numeric expression (e.g., 104² − 96² as (104+96)(104−96)) avoids long multiplication.\n\nFor expressions with fractions, find the LCM of denominators to combine terms rather than converting every fraction to a decimal, which is more error-prone.\n\nSurds (square roots) simplify by factoring out perfect squares: √72 = √(36×2) = 6√2.\n\nREAL-LIFE APPLICATIONS\n\nQuick simplification is used in mental arithmetic for shopping, engineering estimations, and any scenario requiring fast, accurate evaluation of formulas without a calculator.\n\nCOMMON MISTAKES\n\n1) Performing addition/subtraction before completing all multiplication/division in the same expression.\n2) Ignoring bracket nesting order and simplifying outer brackets before inner ones.\n3) Misapplying \"of\" as addition instead of multiplication.\n4) Sign errors when removing brackets preceded by a minus sign (forgetting to flip signs inside).\n5) Not recognizing algebraic identity patterns, leading to unnecessarily long calculations.\n\nIMPORTANT NOTES\n\n• A minus sign before a bracket flips the sign of every term inside when the bracket is removed.\n\n• Division and multiplication have equal priority and are evaluated left to right, not division always before multiplication.\n\n• Addition and subtraction likewise have equal priority, evaluated left to right.\n\n• Recognizing a² − b² patterns is one of the fastest simplification shortcuts in aptitude tests.",
+  "formulas": [
+    {
+      "title": "BODMAS order",
+      "content": "Brackets → Of → Division/Multiplication (left to right) → Addition/Subtraction (left to right)"
+    },
+    {
+      "title": "Square of sum",
+      "content": "(a + b)² = a² + 2ab + b²"
+    },
+    {
+      "title": "Square of difference",
+      "content": "(a − b)² = a² − 2ab + b²"
+    },
+    {
+      "title": "Difference of squares",
+      "content": "a² − b² = (a + b)(a − b)"
+    },
+    {
+      "title": "Cube of sum",
+      "content": "(a + b)³ = a³ + 3a²b + 3ab² + b³"
+    },
+    {
+      "title": "Sum/difference of cubes",
+      "content": "a³ + b³ = (a+b)(a² − ab + b²); a³ − b³ = (a−b)(a² + ab + b²)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Use difference of squares",
+      "tip": "For expressions like 97² − 93², rewrite as (97+93)(97−93) = 190 × 4 = 760 instead of squaring separately."
+    },
+    {
+      "title": "Handle brackets innermost first",
+      "tip": "Always simplify the deepest nested bracket before moving outward, regardless of bracket symbol style."
+    },
+    {
+      "title": "Flip signs carefully",
+      "tip": "When removing a bracket preceded by a minus sign, change the sign of every term inside the bracket."
+    },
+    {
+      "title": "Combine fractions with LCM",
+      "tip": "Add or subtract fractions by finding the LCM of denominators rather than converting to decimals, to avoid rounding errors."
+    },
+    {
+      "title": "Spot perfect squares in surds",
+      "tip": "Factor numbers under a square root to pull out the largest perfect square factor for faster simplification."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Simplify: 15 + 6 ÷ 3 × 2 − 4.",
+      "solution": "The result is 15.",
+      "steps": [
+        "Apply division and multiplication left to right first: 6 ÷ 3 × 2 = 2 × 2 = 4.",
+        "Now the expression is 15 + 4 − 4.",
+        "15 + 4 − 4 = 15."
+      ]
+    },
+    {
+      "problem": "Simplify: 105² − 95².",
+      "solution": "The result is 2,000.",
+      "steps": [
+        "Use a² − b² = (a+b)(a−b) with a = 105, b = 95.",
+        "(105+95)(105−95) = 200 × 10 = 2,000."
+      ]
+    },
+    {
+      "problem": "Simplify: 12 − [8 − {6 − (5 − 2)}].",
+      "solution": "The result is 7.",
+      "steps": [
+        "Innermost bracket: (5 − 2) = 3.",
+        "Next: {6 − 3} = 3.",
+        "Next: [8 − 3] = 5.",
+        "Finally: 12 − 5 = 7."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Math is Fun — Order of Operations",
+      "url": "https://www.mathsisfun.com/operation-order-bodmas.html"
+    }
+  ]
+}

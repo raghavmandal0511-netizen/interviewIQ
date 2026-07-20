@@ -1,0 +1,770 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A completes a work in 10 days. What fraction does A do in one day?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1/5"
+      },
+      {
+        "optionId": "B",
+        "text": "1/10"
+      },
+      {
+        "optionId": "C",
+        "text": "1/15"
+      },
+      {
+        "optionId": "D",
+        "text": "1/20"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "One-day work = 1/10 of the total job.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A takes 8 days and B takes 12 days. Together they finish in:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4.8 days"
+      },
+      {
+        "optionId": "B",
+        "text": "5 days"
+      },
+      {
+        "optionId": "C",
+        "text": "6 days"
+      },
+      {
+        "optionId": "D",
+        "text": "9.6 days"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Together time = 8×12/(8+12) = 96/20 = 4.8 days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A can do a piece of work in 15 days, B in 20 days. Together they take:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8 days"
+      },
+      {
+        "optionId": "B",
+        "text": "8.57 days"
+      },
+      {
+        "optionId": "C",
+        "text": "9 days"
+      },
+      {
+        "optionId": "D",
+        "text": "10 days"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Time = 15×20/35 = 300/35 ≈ 8.57 days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If A is three times as efficient as B, and B takes 30 days alone, A takes:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6 days"
+      },
+      {
+        "optionId": "B",
+        "text": "10 days"
+      },
+      {
+        "optionId": "C",
+        "text": "15 days"
+      },
+      {
+        "optionId": "D",
+        "text": "90 days"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Three times efficiency ⇒ one-third the time: 30/3 = 10 days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "6 men can finish a job in 14 days. In how many days can 12 men finish it?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5 days"
+      },
+      {
+        "optionId": "B",
+        "text": "6 days"
+      },
+      {
+        "optionId": "C",
+        "text": "7 days"
+      },
+      {
+        "optionId": "D",
+        "text": "8 days"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Men doubled ⇒ days halved: 14/2 = 7 days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A, B, and C alone take 6, 8, and 12 days. Together they finish in:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2.4 days"
+      },
+      {
+        "optionId": "B",
+        "text": "2.67 days"
+      },
+      {
+        "optionId": "C",
+        "text": "3 days"
+      },
+      {
+        "optionId": "D",
+        "text": "4 days"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Combined rate = 1/6+1/8+1/12 = 9/24 = 3/8. Time = 8/3 ≈ 2.67 days.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A pipe fills a tank in 4 hours. Part filled in 1.5 hours is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1/4"
+      },
+      {
+        "optionId": "B",
+        "text": "3/8"
+      },
+      {
+        "optionId": "C",
+        "text": "1/2"
+      },
+      {
+        "optionId": "D",
+        "text": "5/8"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Rate = 1/4 per hour. In 1.5 hr: 1.5×(1/4) = 3/8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "An inlet fills in 6 h and an outlet empties in 9 h. Both open on empty tank—fill time is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "12 h"
+      },
+      {
+        "optionId": "B",
+        "text": "15 h"
+      },
+      {
+        "optionId": "C",
+        "text": "18 h"
+      },
+      {
+        "optionId": "D",
+        "text": "24 h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Net rate = 1/6 − 1/9 = 1/18. Time = 18 h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A and B together take 12 days; A alone 20 days. B alone takes:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "25 days"
+      },
+      {
+        "optionId": "B",
+        "text": "28 days"
+      },
+      {
+        "optionId": "C",
+        "text": "30 days"
+      },
+      {
+        "optionId": "D",
+        "text": "32 days"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "1/B = 1/12 − 1/20 = (5−3)/60 = 1/30. B = 30 days.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "10 men finish work in 18 days. Men needed for 12 days:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "12"
+      },
+      {
+        "optionId": "B",
+        "text": "14"
+      },
+      {
+        "optionId": "C",
+        "text": "15"
+      },
+      {
+        "optionId": "D",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Work = 180 man-days. Men = 180/12 = 15.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A works twice as fast as B. If together they take 6 days, A alone takes:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8 days"
+      },
+      {
+        "optionId": "B",
+        "text": "9 days"
+      },
+      {
+        "optionId": "C",
+        "text": "10 days"
+      },
+      {
+        "optionId": "D",
+        "text": "12 days"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let A take x days, B take 3x days. 1/x + 1/(3x) = 4/(3x) = 1/6 ⇒ x = 8 days for A.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A does 1/4 work in 5 days. Whole work alone takes:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "15 days"
+      },
+      {
+        "optionId": "B",
+        "text": "18 days"
+      },
+      {
+        "optionId": "C",
+        "text": "20 days"
+      },
+      {
+        "optionId": "D",
+        "text": "25 days"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "If 1/4 in 5 days, full work in 5×4 = 20 days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two pipes fill in 12 min and 15 min. Together they fill in:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6 min"
+      },
+      {
+        "optionId": "B",
+        "text": "6.67 min"
+      },
+      {
+        "optionId": "C",
+        "text": "7 min"
+      },
+      {
+        "optionId": "D",
+        "text": "8 min"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Time = 12×15/27 = 180/27 = 6.67 min.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A and B can do work in 6 and 9 days. They work 2 days together; B alone finishes the rest in:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3 days"
+      },
+      {
+        "optionId": "B",
+        "text": "4 days"
+      },
+      {
+        "optionId": "C",
+        "text": "5 days"
+      },
+      {
+        "optionId": "D",
+        "text": "6 days"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Combined 2-day work = 2×(1/6+1/9) = 2×5/18 = 5/9. Remaining = 4/9. B time = (4/9)/(1/9) = 4 days.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If 8 men can complete a work in 12 days, how many days will 6 men take for the same work?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "14 days"
+      },
+      {
+        "optionId": "B",
+        "text": "15 days"
+      },
+      {
+        "optionId": "C",
+        "text": "16 days"
+      },
+      {
+        "optionId": "D",
+        "text": "18 days"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Total work = 96 man-days. Time for 6 men = 96/6 = 16 days.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A alone 16 days, B alone 24 days. After working 4 days together, A leaves. B alone completes the rest in:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10 days"
+      },
+      {
+        "optionId": "B",
+        "text": "12 days"
+      },
+      {
+        "optionId": "C",
+        "text": "14 days"
+      },
+      {
+        "optionId": "D",
+        "text": "16 days"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "4-day work = 4×(1/16+1/24) = 5/12. Remaining = 7/12. B alone needs (7/12)/(1/24) = 14 days.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "8 workers complete a job in 10 days working 6 hours/day. Same job in 15 days at 8 hours/day needs workers:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2"
+      },
+      {
+        "optionId": "B",
+        "text": "3"
+      },
+      {
+        "optionId": "C",
+        "text": "4"
+      },
+      {
+        "optionId": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "8×10×6 = W×15×8 ⇒ W = 480/120 = 4 workers.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A can finish in 10 days, B in 15 days. They work on alternate days starting with A. Total days to finish:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10 days"
+      },
+      {
+        "optionId": "B",
+        "text": "11 days"
+      },
+      {
+        "optionId": "C",
+        "text": "12 days"
+      },
+      {
+        "optionId": "D",
+        "text": "13 days"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In 2 days: 1/10+1/15 = 5/30 = 1/6. In 10 days (5 cycles): 5/6 done. Day 11 (A): +1/10 = 2/3. Day 12 (B): +1/15 = 2/3+2/30 = 7/9. Not done yet. Recalculate: 5 cycles = 10 days, work 5/6. Day 11 A adds 1/10 → 5/6+1/10 = 14/15. Day 12 B adds 1/15 → 14/15+1/15 = 1. Answer 12 days C.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Three pipes A, B, C fill in 12, 15, and 20 hours. All open together fill the tank in:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4 h"
+      },
+      {
+        "optionId": "B",
+        "text": "5 h"
+      },
+      {
+        "optionId": "C",
+        "text": "6 h"
+      },
+      {
+        "optionId": "D",
+        "text": "7 h"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Rate = 1/12+1/15+1/20 = 12/60 = 1/5. Time = 5 h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A is 50% more efficient than B. If B takes 18 days, A takes:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "9 days"
+      },
+      {
+        "optionId": "B",
+        "text": "10 days"
+      },
+      {
+        "optionId": "C",
+        "text": "12 days"
+      },
+      {
+        "optionId": "D",
+        "text": "15 days"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A is 1.5× efficient ⇒ time = 18/1.5 = 12 days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A cistern has two inlets filling in 20 and 30 minutes and an outlet emptying in 15 minutes. All open—time to fill empty cistern:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "30 min"
+      },
+      {
+        "optionId": "B",
+        "text": "45 min"
+      },
+      {
+        "optionId": "C",
+        "text": "60 min"
+      },
+      {
+        "optionId": "D",
+        "text": "Never fills"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Net rate = 1/20+1/30−1/15 = 3/60+2/60−4/60 = 1/60. Time = 60 min.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If 5 machines make 5 widgets in 5 minutes, how many minutes for 100 machines to make 100 widgets?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5 min"
+      },
+      {
+        "optionId": "B",
+        "text": "20 min"
+      },
+      {
+        "optionId": "C",
+        "text": "25 min"
+      },
+      {
+        "optionId": "D",
+        "text": "100 min"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each machine makes 1 widget in 5 min. 100 machines make 100 widgets in 5 min.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A and B together finish in 4 days; B and C in 6 days; A and C in 5 days. A alone takes:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "120/19 days"
+      },
+      {
+        "optionId": "B",
+        "text": "120/17 days"
+      },
+      {
+        "optionId": "C",
+        "text": "20/3 days"
+      },
+      {
+        "optionId": "D",
+        "text": "8 days"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A+B=1/4, B+C=1/6, A+C=1/5. Sum gives 2(A+B+C)=37/60, so A = 37/120 − 1/6 = 17/120 and A alone takes 120/17 days.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "15 workers build a wall in 24 days. After 6 days, 5 more join. Total days to finish from the start:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "18 days"
+      },
+      {
+        "optionId": "B",
+        "text": "19 days"
+      },
+      {
+        "optionId": "C",
+        "text": "20 days"
+      },
+      {
+        "optionId": "D",
+        "text": "21 days"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Total work = 360 worker-days. After 6 days, 90 units done; 270 remain. With 20 workers: 270/20 = 13.5 more days. Total ≈ 19.5 days, so the wall finishes on the 20th day.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "time-and-work"
+    ],
+    "questionType": "MCQ"
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the relative speed of the minute hand over the hour hand, in degrees per minute?",
+    "options": [
+      { "optionId": "A", "text": "4" },
+      { "optionId": "B", "text": "5" },
+      { "optionId": "C", "text": "5.5" },
+      { "optionId": "D", "text": "6" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Minute hand moves 6°/min, hour hand moves 0.5°/min. Relative speed = 6 − 0.5 = 5.5°/min.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using θ = |30H − 5.5M|, what is the angle between the hands at 3:00?",
+    "options": [
+      { "optionId": "A", "text": "60°" },
+      { "optionId": "B", "text": "75°" },
+      { "optionId": "C", "text": "90°" },
+      { "optionId": "D", "text": "120°" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "θ = |30×3 − 5.5×0| = 90°.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using θ = |30H − 5.5M|, what is the angle between the hands at 6:30?",
+    "options": [
+      { "optionId": "A", "text": "10°" },
+      { "optionId": "B", "text": "15°" },
+      { "optionId": "C", "text": "20°" },
+      { "optionId": "D", "text": "25°" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "θ = |30×6 − 5.5×30| = |180 − 165| = 15°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the speed of the minute hand in degrees per minute?",
+    "options": [
+      { "optionId": "A", "text": "5" },
+      { "optionId": "B", "text": "5.5" },
+      { "optionId": "C", "text": "6" },
+      { "optionId": "D", "text": "6.5" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The minute hand covers 360° in 60 minutes, so its speed is 360/60 = 6°/min.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the speed of the hour hand in degrees per minute?",
+    "options": [
+      { "optionId": "A", "text": "0.5" },
+      { "optionId": "B", "text": "1" },
+      { "optionId": "C", "text": "1.5" },
+      { "optionId": "D", "text": "2" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The hour hand covers 360° in 720 minutes (12 hours), so its speed is 360/720 = 0.5°/min.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many times do the hands of a clock coincide in a 12-hour period?",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "11" },
+      { "optionId": "C", "text": "12" },
+      { "optionId": "D", "text": "24" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The hands coincide 11 times in 12 hours (not 12, since 12:00 coincidence at the start and end of the cycle is counted once).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many times are the hands of a clock opposite to each other (180°) in a 12-hour period?",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "11" },
+      { "optionId": "C", "text": "12" },
+      { "optionId": "D", "text": "22" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The hands are opposite to each other exactly 11 times in a 12-hour period.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many times do the hands of a clock form a right angle (90°) in a 12-hour period?",
+    "options": [
+      { "optionId": "A", "text": "11" },
+      { "optionId": "B", "text": "20" },
+      { "optionId": "C", "text": "22" },
+      { "optionId": "D", "text": "24" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The hands form a right angle 22 times in a 12-hour period (twice in most, but not all, hours).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the time interval between two successive coincidences of the hour and minute hands?",
+    "options": [
+      { "optionId": "A", "text": "60 minutes" },
+      { "optionId": "B", "text": "65 5/11 minutes" },
+      { "optionId": "C", "text": "70 minutes" },
+      { "optionId": "D", "text": "72 minutes" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Coincidences occur every 720/11 minutes = 65 5/11 minutes.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What formula converts a mirror-image clock reading into the actual time?",
+    "options": [
+      { "optionId": "A", "text": "11:60 − mirror reading" },
+      { "optionId": "B", "text": "mirror reading − 11:60" },
+      { "optionId": "C", "text": "12:00 + mirror reading" },
+      { "optionId": "D", "text": "24:00 − mirror reading" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Actual time = 11:60 (i.e., 720 minutes) minus the mirror-image reading in minutes.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "After H o'clock, the hands of a clock coincide after how many minutes past H?",
+    "options": [
+      { "optionId": "A", "text": "55H/11" },
+      { "optionId": "B", "text": "60H/11" },
+      { "optionId": "C", "text": "65H/11" },
+      { "optionId": "D", "text": "50H/11" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The hands coincide 60H/11 minutes past H o'clock.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the formula θ = |30H − 5.5M| gives a value greater than 180°, how do you find the actual (smaller) angle?",
+    "options": [
+      { "optionId": "A", "text": "Use θ as is" },
+      { "optionId": "B", "text": "360° − θ" },
+      { "optionId": "C", "text": "180° − θ" },
+      { "optionId": "D", "text": "θ − 180°" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since the maximum meaningful angle between clock hands is 180°, subtract θ from 360° when θ > 180°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The minute hand moves 12 times as fast as the hour hand.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Minute hand speed (6°/min) ÷ hour hand speed (0.5°/min) = 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["clock", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The hands of a clock coincide exactly 12 times in a 12-hour period.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "They coincide only 11 times, because one coincidence is shared between the start and end of the cycle.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["clock", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The relative speed between the minute and hour hand is 5.5° per minute.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "6°/min − 0.5°/min = 5.5°/min is the relative closing speed of the minute hand.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["clock", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following are true about clock hands in a 12-hour period?",
+    "options": [
+      { "optionId": "A", "text": "They coincide 11 times" },
+      { "optionId": "B", "text": "They are opposite 11 times" },
+      { "optionId": "C", "text": "They are perpendicular (90°) 22 times" },
+      { "optionId": "D", "text": "They coincide 12 times" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C are the standard results for a 12-hour clock cycle. D is incorrect.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["clock", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which components are correctly used in the angle formula θ = |30H − 5.5M|?",
+    "options": [
+      { "optionId": "A", "text": "30H represents the hour hand's position in degrees" },
+      { "optionId": "B", "text": "5.5M represents the minute hand's position relative to the hour" },
+      { "optionId": "C", "text": "6H is used as the coefficient of H" },
+      { "optionId": "D", "text": "The absolute value is taken of the difference" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "The formula uses 30H, 5.5M, and an absolute value; 6H (with coefficient 6) is not part of this formula.",
+    "difficulty": "hard",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["clock", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "At what time between 4 and 5 o'clock will the hands of a clock coincide?",
+    "options": [
+      { "optionId": "A", "text": "4:20" },
+      { "optionId": "B", "text": "4:21 9/11" },
+      { "optionId": "C", "text": "4:22" },
+      { "optionId": "D", "text": "4:24" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Using 60H/11 with H = 4: 240/11 = 21 9/11 minutes past 4.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A faulty clock gains 2 minutes every hour. What is the ratio of faulty time to true time?",
+    "options": [
+      { "optionId": "A", "text": "31/30" },
+      { "optionId": "B", "text": "30/31" },
+      { "optionId": "C", "text": "61/60" },
+      { "optionId": "D", "text": "60/61" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The faulty clock shows 62 minutes for every 60 true minutes: ratio = 62:60 = 31:30.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the angle between the hands of a clock at 9:00?",
+    "options": [
+      { "optionId": "A", "text": "60°" },
+      { "optionId": "B", "text": "90°" },
+      { "optionId": "C", "text": "180°" },
+      { "optionId": "D", "text": "270°" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "θ = |30×9 − 0| = 270°; since 270° > 180°, actual angle = 360° − 270° = 90°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["clock", "formula"],
+    "questionType": "MCQ"
+  }
+]

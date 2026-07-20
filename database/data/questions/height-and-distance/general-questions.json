@@ -1,0 +1,770 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From a point 15 m from the base of a tower, the angle of elevation of the top is 45°. Find the height of the tower.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10 m"
+      },
+      {
+        "optionId": "B",
+        "text": "12 m"
+      },
+      {
+        "optionId": "C",
+        "text": "15 m"
+      },
+      {
+        "optionId": "D",
+        "text": "18 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "tan 45° = h/15 ⇒ h = 15 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A ladder 12 m long rests against a wall at 60° to the ground. What height does it reach?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6 m"
+      },
+      {
+        "optionId": "B",
+        "text": "6√3 m"
+      },
+      {
+        "optionId": "C",
+        "text": "8 m"
+      },
+      {
+        "optionId": "D",
+        "text": "10 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "h = 12 × sin 60° = 12 × (√3/2) = 6√3 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "At 30° sun elevation, a tree casts a shadow 10√3 m. Find the tree height.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5 m"
+      },
+      {
+        "optionId": "B",
+        "text": "8 m"
+      },
+      {
+        "optionId": "C",
+        "text": "10 m"
+      },
+      {
+        "optionId": "D",
+        "text": "12 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "h/10√3 = tan 30° = 1/√3 ⇒ h = 10 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From 40 m away, the angle of elevation of a building top is 30°. Height of the building is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "20 m"
+      },
+      {
+        "optionId": "B",
+        "text": "40/√3 m"
+      },
+      {
+        "optionId": "C",
+        "text": "20√3 m"
+      },
+      {
+        "optionId": "D",
+        "text": "40 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "h = 40 × tan 30° = 40/√3 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A pole 8 m high casts a shadow 8 m long. The angle of elevation of the sun is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "30°"
+      },
+      {
+        "optionId": "B",
+        "text": "45°"
+      },
+      {
+        "optionId": "C",
+        "text": "60°"
+      },
+      {
+        "optionId": "D",
+        "text": "90°"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "tan θ = 8/8 = 1 ⇒ θ = 45°.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From the top of a 30 m tower, the angle of depression of a car is 60°. How far is the car from the tower base?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10 m"
+      },
+      {
+        "optionId": "B",
+        "text": "10√3 m"
+      },
+      {
+        "optionId": "C",
+        "text": "15 m"
+      },
+      {
+        "optionId": "D",
+        "text": "30/√3 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "tan 60° = 30/d ⇒ d = 30/√3 = 10√3 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man 1.7 m tall observes a tower at 30° elevation. He stands 50 m from the base. Approximate tower height (ignore observer height)?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "25 m"
+      },
+      {
+        "optionId": "B",
+        "text": "50/√3 m"
+      },
+      {
+        "optionId": "C",
+        "text": "30 m"
+      },
+      {
+        "optionId": "D",
+        "text": "50 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "h = 50 × tan 30° = 50/√3 m ≈ 28.87 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A kite is flying with 100 m of string at 30° elevation (string treated as straight). Height of the kite is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "50 m"
+      },
+      {
+        "optionId": "B",
+        "text": "50√3 m"
+      },
+      {
+        "optionId": "C",
+        "text": "75 m"
+      },
+      {
+        "optionId": "D",
+        "text": "100 m"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Height = 100 × sin 30° = 100 × 1/2 = 50 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the angle of elevation of a cloud from a point 200 m above a lake is 30° and its reflection in the lake has depression 60°, the height of the cloud above the lake is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "200 m"
+      },
+      {
+        "optionId": "B",
+        "text": "300 m"
+      },
+      {
+        "optionId": "C",
+        "text": "400 m"
+      },
+      {
+        "optionId": "D",
+        "text": "500 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let cloud height above lake = H. Using standard reflection setup: H = 200 + 200 = 400 m (observer 200 m above lake; angles 30° and 60° give H = 400 m).",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Walking 20 m toward a tower, the angle of elevation changes from 30° to 60°. Height of the tower is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10 m"
+      },
+      {
+        "optionId": "B",
+        "text": "10√3 m"
+      },
+      {
+        "optionId": "C",
+        "text": "20 m"
+      },
+      {
+        "optionId": "D",
+        "text": "20√3 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "h = 20/(cot 30° − cot 60°) = 20/(√3 − 1/√3) = 20/(2/√3) = 10√3 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A tower subtends 60° at a point and 30° after moving 40 m toward it. Height of the tower is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "20 m"
+      },
+      {
+        "optionId": "B",
+        "text": "20√3 m"
+      },
+      {
+        "optionId": "C",
+        "text": "40 m"
+      },
+      {
+        "optionId": "D",
+        "text": "40/√3 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Same as two-position: h = 40/(√3 − 1/√3) = 20√3 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From two points 40 m apart on a straight line through the base, angles of elevation are 30° and 60° on the same side. Height of the tower is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10√3 m"
+      },
+      {
+        "optionId": "B",
+        "text": "20 m"
+      },
+      {
+        "optionId": "C",
+        "text": "20√3 m"
+      },
+      {
+        "optionId": "D",
+        "text": "40 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Standard result: h = (distance × tan 30° × tan 60°)/(tan 60° − tan 30°) = 40×(1/√3)×√3/(√3 − 1/√3) = 20√3 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A 20 m ladder reaches 10 m up a wall. The angle with the ground is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "30°"
+      },
+      {
+        "optionId": "B",
+        "text": "45°"
+      },
+      {
+        "optionId": "C",
+        "text": "60°"
+      },
+      {
+        "optionId": "D",
+        "text": "90°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "sin θ = 10/20 = 1/2 ⇒ θ = 30°.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Horizontal distance to a hilltop at 45° elevation is 25 m. Slant distance to the top is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "25 m"
+      },
+      {
+        "optionId": "B",
+        "text": "25√2 m"
+      },
+      {
+        "optionId": "C",
+        "text": "50 m"
+      },
+      {
+        "optionId": "D",
+        "text": "25/√2 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "cos 45° = 25/hyp ⇒ hyp = 25/(1/√2) = 25√2 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From a ship, the top of a lighthouse 60 m high has an angle of elevation of 30°. The ship is how far from the lighthouse base?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "30 m"
+      },
+      {
+        "optionId": "B",
+        "text": "60 m"
+      },
+      {
+        "optionId": "C",
+        "text": "60√3 m"
+      },
+      {
+        "optionId": "D",
+        "text": "120 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "tan 30° = 60/d ⇒ d = 60√3 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two buildings 40 m and 60 m high. From the top of the shorter, the angle of elevation of the taller top is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "tan⁻¹(1/2)"
+      },
+      {
+        "optionId": "B",
+        "text": "tan⁻¹(1/4)"
+      },
+      {
+        "optionId": "C",
+        "text": "tan⁻¹(1/3)"
+      },
+      {
+        "optionId": "D",
+        "text": "tan⁻¹(2/3)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Vertical difference = 20 m, horizontal separation assumed equal bases → if aligned, tan θ = 20/40 = 1/2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man 2 m tall casts a shadow 2√3 m long. The sun's elevation angle is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "30°"
+      },
+      {
+        "optionId": "B",
+        "text": "45°"
+      },
+      {
+        "optionId": "C",
+        "text": "60°"
+      },
+      {
+        "optionId": "D",
+        "text": "75°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "tan θ = 2/(2√3) = 1/√3 ⇒ θ = 30°.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Walking 20 m toward a tower, the angle of elevation changes from 30° to 45°. The height of the tower is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10 m"
+      },
+      {
+        "optionId": "B",
+        "text": "10(√3 + 1) m"
+      },
+      {
+        "optionId": "C",
+        "text": "20 m"
+      },
+      {
+        "optionId": "D",
+        "text": "20(√3 − 1) m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "h = 20/(cot 30° − cot 45°) = 20/(√3 − 1) = 10(√3 + 1) m after rationalizing.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A tower stands on a cliff 25 m high. From a boat, the cliff top has elevation 30° and tower top 60°. Height of the tower is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "25 m"
+      },
+      {
+        "optionId": "B",
+        "text": "25/3 m"
+      },
+      {
+        "optionId": "C",
+        "text": "50/3 m"
+      },
+      {
+        "optionId": "D",
+        "text": "75 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let horizontal distance = x. Cliff: tan 30° = 25/x. Tower top: tan 60° = (25+h)/x. Dividing: √3 = (25+h)/25 ⇒ h = 50/3 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The angle of depression of the base of a 50 m tower from its top is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "0°"
+      },
+      {
+        "optionId": "B",
+        "text": "30°"
+      },
+      {
+        "optionId": "C",
+        "text": "45°"
+      },
+      {
+        "optionId": "D",
+        "text": "Depends on distance from base"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Depression to the base depends on horizontal distance; it is not fixed by height alone.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From 100 m away, elevation to top is 45°. Slant distance to top is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "100 m"
+      },
+      {
+        "optionId": "B",
+        "text": "100√2 m"
+      },
+      {
+        "optionId": "C",
+        "text": "200 m"
+      },
+      {
+        "optionId": "D",
+        "text": "50√2 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Height = 100 m. Slant = 100√2 m by 45° triangle or hyp = 100/cos 45° = 100√2 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A flagstaff 6 m high casts a shadow 2√3 m. A nearby building casts a shadow 10√3 m at the same time. Height of the building is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "20 m"
+      },
+      {
+        "optionId": "B",
+        "text": "25 m"
+      },
+      {
+        "optionId": "C",
+        "text": "30 m"
+      },
+      {
+        "optionId": "D",
+        "text": "35 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sun angle same: 6/(2√3) = h/(10√3) ⇒ h = 30 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "An observer 1.5 m tall stands 25 m from a tower. The angle of elevation to the top is 30°. Total height of the tower is approximately:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "14 m"
+      },
+      {
+        "optionId": "B",
+        "text": "16 m"
+      },
+      {
+        "optionId": "C",
+        "text": "18 m"
+      },
+      {
+        "optionId": "D",
+        "text": "20 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Height above eye level = 25 × tan 30° = 25/√3 ≈ 14.43 m. Total ≈ 14.43 + 1.5 ≈ 16 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A rope tied to the top of a pole 12 m high makes 60° with the ground on taut ground support. Length of the rope is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8√3 m"
+      },
+      {
+        "optionId": "B",
+        "text": "12 m"
+      },
+      {
+        "optionId": "C",
+        "text": "8 m"
+      },
+      {
+        "optionId": "D",
+        "text": "24 m"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "sin 60° = 12/rope ⇒ rope = 12/(√3/2) = 8√3 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "height-and-distance"
+    ],
+    "questionType": "MCQ"
+  }
+]

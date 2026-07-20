@@ -1,0 +1,18 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-essential-part-necessary-component",
+    "title": "Necessary Component",
+    "description": "Identify the essential part of an object or idea",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-essential-part-object-relationship",
+    "title": "Object Relationship",
+    "description": "Relate wholes to necessary components",
+    "order": 2,
+    "isPublished": true
+  }
+]

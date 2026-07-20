@@ -1,0 +1,101 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Probability measures how likely an event is to occur, expressed as a number between 0 and 1. In aptitude exams, questions combine basic counting (permutations and combinations) with rules for independent events, complementary events, and conditional probability. A solid grasp of sample space construction and the addition and multiplication rules is essential.",
+  "explanation": "CONCEPT EXPLANATION\n\nThe probability of an event E is defined as P(E) = Number of favourable outcomes / Total number of equally likely outcomes, provided the sample space is finite and each outcome is equally likely.\n\nKey rules:\n• 0 ≤ P(E) ≤ 1; P(certain event) = 1; P(impossible event) = 0.\n• Complementary rule: P(not E) = 1 − P(E).\n• Addition rule: P(A or B) = P(A) + P(B) − P(A and B).\n• Multiplication rule (independent events): P(A and B) = P(A) × P(B).\n• Conditional probability: P(A|B) = P(A and B) / P(B), when P(B) > 0.\n\nWhen outcomes are not equally likely by simple counting, use combinations: P(E) = favourable combinations / total combinations.\n\nREAL-LIFE APPLICATIONS\n\nWeather forecasting, insurance premium calculation, quality control in manufacturing, medical test accuracy, sports analytics, and game design all rely on probability to quantify uncertainty and make informed decisions under incomplete information.\n\nCOMMON MISTAKES\n\n1) Forgetting that probabilities must lie between 0 and 1.\n2) Treating dependent events as independent (e.g., drawing cards without replacement).\n3) Counting ordered and unordered outcomes inconsistently.\n4) Using the addition rule without subtracting P(A and B) for overlapping events.\n5) Confusing \"at least one\" with \"exactly one\" — use complement for \"at least one\" when easier.\n\nIMPORTANT NOTES\n\n• \"At least one\" often simplifies as 1 − P(none).\n• With replacement → events are independent; without replacement → dependent.\n• For two dice, total outcomes = 36 (ordered pairs).\n• In a standard deck: 52 cards, 4 suits, 13 ranks per suit.\n• Mutually exclusive events: P(A and B) = 0, so P(A or B) = P(A) + P(B).\n• Always define the sample space before counting favourable cases.",
+  "formulas": [
+    {
+      "title": "Classical probability",
+      "content": "P(E) = Favourable outcomes / Total equally likely outcomes"
+    },
+    {
+      "title": "Complementary events",
+      "content": "P(not E) = 1 − P(E)"
+    },
+    {
+      "title": "Addition rule",
+      "content": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)"
+    },
+    {
+      "title": "Independent events",
+      "content": "P(A ∩ B) = P(A) × P(B)"
+    },
+    {
+      "title": "Conditional probability",
+      "content": "P(A|B) = P(A ∩ B) / P(B)"
+    },
+    {
+      "title": "Combination-based probability",
+      "content": "P(E) = ⁿCᵣ favourable / ⁿCᵣ total selections"
+    },
+    {
+      "title": "At least one (independent trials)",
+      "content": "P(at least one) = 1 − P(none)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Use the complement",
+      "tip": "For \"at least one\" problems, compute 1 − P(no success) instead of adding many cases."
+    },
+    {
+      "title": "Two dice sums",
+      "tip": "Memorise: sum 7 has 6 ways (most common); sum 2 and 12 each have 1 way."
+    },
+    {
+      "title": "Cards quick facts",
+      "tip": "P(one specific rank) = 4/52 = 1/13; P(one suit) = 13/52 = 1/4."
+    },
+    {
+      "title": "With vs without replacement",
+      "tip": "With replacement → multiply probabilities; without → adjust remaining counts after each draw."
+    },
+    {
+      "title": "Mutually exclusive shortcut",
+      "tip": "If A and B cannot happen together, P(A or B) = P(A) + P(B) directly."
+    },
+    {
+      "title": "Verify reasonableness",
+      "tip": "If your answer exceeds 1 or is negative, recheck the sample space or rule applied."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A bag contains 4 red and 6 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "solution": "The probability of drawing a red ball is 2/5.",
+      "steps": [
+        "Total balls = 4 + 6 = 10.",
+        "Favourable outcomes (red) = 4.",
+        "P(red) = 4/10 = 2/5."
+      ]
+    },
+    {
+      "problem": "Two fair dice are thrown. Find the probability that the sum is 7.",
+      "solution": "The probability that the sum is 7 is 1/6.",
+      "steps": [
+        "Total outcomes when two dice are thrown = 6 × 6 = 36.",
+        "Favourable pairs for sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 outcomes.",
+        "P(sum = 7) = 6/36 = 1/6."
+      ]
+    },
+    {
+      "problem": "A card is drawn from a well-shuffled deck of 52 cards. Find the probability that it is not a king.",
+      "solution": "The probability of not drawing a king is 12/13.",
+      "steps": [
+        "Number of kings = 4, so non-kings = 52 − 4 = 48.",
+        "P(not king) = 48/52 = 12/13.",
+        "Alternatively: P(not king) = 1 − P(king) = 1 − 4/52 = 12/13."
+      ]
+    },
+    {
+      "problem": "Two coins are tossed. Find the probability of getting at least one head.",
+      "solution": "The probability of at least one head is 3/4.",
+      "steps": [
+        "Sample space: HH, HT, TH, TT → 4 equally likely outcomes.",
+        "Favourable (at least one head): HH, HT, TH → 3 outcomes.",
+        "P(at least one head) = 3/4.",
+        "Check via complement: P(at least one head) = 1 − P(both tails) = 1 − 1/4 = 3/4."
+      ]
+    }
+  ],
+  "references": []
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Raj is the father of Meena. Meena is the sister of Suresh. How is Raj related to Suresh?",
+    "options": [
+      { "optionId": "A", "text": "Father" },
+      { "optionId": "B", "text": "Uncle" },
+      { "optionId": "C", "text": "Grandfather" },
+      { "optionId": "D", "text": "Brother" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since Meena is Suresh's sister, they share the same parents. Raj, being Meena's father, is therefore also Suresh's father.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Sita is the mother of Anil. Anil is the brother of Priya. How is Sita related to Priya?",
+    "options": [
+      { "optionId": "A", "text": "Aunt" },
+      { "optionId": "B", "text": "Mother" },
+      { "optionId": "C", "text": "Sister" },
+      { "optionId": "D", "text": "Grandmother" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Anil and Priya are siblings, sharing the same mother. Since Sita is Anil's mother, she is also Priya's mother.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Vijay is the son of Kamla. Kamla is the daughter of Mohan. How is Mohan related to Vijay?",
+    "options": [
+      { "optionId": "A", "text": "Father" },
+      { "optionId": "B", "text": "Uncle" },
+      { "optionId": "C", "text": "Grandfather" },
+      { "optionId": "D", "text": "Brother-in-law" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kamla is Mohan's daughter, so Mohan is Kamla's father. Since Vijay is Kamla's son, Mohan is Vijay's grandfather.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Neha is the daughter of Ramesh. Ramesh is the son of Devika. How is Devika related to Neha?",
+    "options": [
+      { "optionId": "A", "text": "Mother" },
+      { "optionId": "B", "text": "Grandmother" },
+      { "optionId": "C", "text": "Aunt" },
+      { "optionId": "D", "text": "Sister" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ramesh is Devika's son, so Devika is Ramesh's mother. Since Neha is Ramesh's daughter, Devika is Neha's grandmother.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Arjun is the brother of Kiran. Kiran is the daughter of Lata. How is Lata related to Arjun?",
+    "options": [
+      { "optionId": "A", "text": "Sister" },
+      { "optionId": "B", "text": "Aunt" },
+      { "optionId": "C", "text": "Grandmother" },
+      { "optionId": "D", "text": "Mother" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Arjun and Kiran are siblings, so they share the same mother. Since Lata is Kiran's mother, she is also Arjun's mother.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Suman is the wife of Deepak. Deepak is the father of Rina. How is Suman related to Rina?",
+    "options": [
+      { "optionId": "A", "text": "Aunt" },
+      { "optionId": "B", "text": "Sister" },
+      { "optionId": "C", "text": "Mother" },
+      { "optionId": "D", "text": "Grandmother" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Deepak is Rina's father, and Suman is Deepak's wife. Therefore, Suman is Rina's mother.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Karan is the son of Vimal. Vimal is the brother of Usha. How is Usha related to Karan?",
+    "options": [
+      { "optionId": "A", "text": "Mother" },
+      { "optionId": "B", "text": "Aunt" },
+      { "optionId": "C", "text": "Sister" },
+      { "optionId": "D", "text": "Grandmother" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Vimal is Karan's father, and Usha is Vimal's sister. A father's sister is one's aunt, so Usha is Karan's aunt.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Aditi is the daughter of Suresh. Suresh is the son of Ganesh. How is Aditi related to Ganesh?",
+    "options": [
+      { "optionId": "A", "text": "Daughter" },
+      { "optionId": "B", "text": "Niece" },
+      { "optionId": "C", "text": "Granddaughter" },
+      { "optionId": "D", "text": "Sister" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Suresh is Ganesh's son, and Aditi is Suresh's daughter. Therefore, Aditi is Ganesh's granddaughter.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Mahesh is the brother of Naina. Naina is the mother of Tara. How is Mahesh related to Tara?",
+    "options": [
+      { "optionId": "A", "text": "Father" },
+      { "optionId": "B", "text": "Grandfather" },
+      { "optionId": "C", "text": "Cousin" },
+      { "optionId": "D", "text": "Uncle" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Naina is Tara's mother, and Mahesh is Naina's brother. A mother's brother is one's (maternal) uncle, so Mahesh is Tara's uncle.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Reema is the sister of Vikas. Vikas is the father of Om. How is Reema related to Om?",
+    "options": [
+      { "optionId": "A", "text": "Mother" },
+      { "optionId": "B", "text": "Aunt" },
+      { "optionId": "C", "text": "Sister" },
+      { "optionId": "D", "text": "Grandmother" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Vikas is Om's father, and Reema is Vikas's sister. A father's sister is one's (paternal) aunt, so Reema is Om's aunt.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Geeta is the mother-in-law of Rakesh. Rakesh is the husband of Sunita. How is Geeta related to Sunita?",
+    "options": [
+      { "optionId": "A", "text": "Sister" },
+      { "optionId": "B", "text": "Aunt" },
+      { "optionId": "C", "text": "Mother" },
+      { "optionId": "D", "text": "Mother-in-law" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Geeta is Rakesh's mother-in-law, which means she is the mother of Rakesh's wife. Since Sunita is Rakesh's wife, Geeta is Sunita's own mother.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Farhan is the son of Iqbal. Iqbal's only sister is Shabana. How is Shabana related to Farhan?",
+    "options": [
+      { "optionId": "A", "text": "Mother" },
+      { "optionId": "B", "text": "Grandmother" },
+      { "optionId": "C", "text": "Aunt" },
+      { "optionId": "D", "text": "Cousin" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Iqbal is Farhan's father, and Shabana is Iqbal's sister. A father's sister is one's aunt, so Shabana is Farhan's aunt.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Om's father is the only son of Kishore. How is Kishore related to Om?",
+    "options": [
+      { "optionId": "A", "text": "Father" },
+      { "optionId": "B", "text": "Uncle" },
+      { "optionId": "C", "text": "Grandfather" },
+      { "optionId": "D", "text": "Brother" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Kishore's only son is Om's father, which makes Kishore the father of Om's father, i.e., Om's grandfather.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Priya's mother is the only daughter of Ranjit. How is Ranjit related to Priya?",
+    "options": [
+      { "optionId": "A", "text": "Father" },
+      { "optionId": "B", "text": "Uncle" },
+      { "optionId": "C", "text": "Grandfather" },
+      { "optionId": "D", "text": "Brother" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ranjit's only daughter is Priya's mother, which makes Ranjit the father of Priya's mother, i.e., Priya's grandfather.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Anand's father and Bina's father are the same person. How is Anand related to Bina?",
+    "options": [
+      { "optionId": "A", "text": "Cousin" },
+      { "optionId": "B", "text": "Sibling" },
+      { "optionId": "C", "text": "Uncle" },
+      { "optionId": "D", "text": "Nephew" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Since Anand and Bina have the same father, they share a parent, which makes them siblings (brother and sister, or brothers, depending on their genders).",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: If A is the son of B, and B is the daughter of C, then C is necessarily the grandmother of A.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "B is C's daughter, which only tells us that C is B's parent, not C's gender. C could be A's grandfather (if male) or grandmother (if female). Since C's gender is not specified, it is not necessarily true that C is the grandmother.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: If P is the brother of Q, and Q is the sister of R, then P and R must belong to the same generation.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P being Q's brother and Q being R's sister means P, Q, and R are all siblings with the same parents. Siblings always belong to the same generation, so the statement is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Manoj is the father of Sonal. Sonal is the mother of Tina, who is a girl. Which of the following statements are true? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "Manoj is the grandfather of Tina" },
+      { "optionId": "B", "text": "Sonal is the daughter of Manoj" },
+      { "optionId": "C", "text": "Tina is the granddaughter of Manoj" },
+      { "optionId": "D", "text": "Manoj is the father of Tina" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "Manoj is Sonal's father, making Sonal his daughter, so B is true. Since Sonal is Tina's mother, Manoj is Tina's grandfather, so A is true, and since Tina is a girl, she is specifically his granddaughter, so C is true. Manoj is Tina's grandfather, not her father, so D is false.",
+    "difficulty": "hard",
+    "marks": 2,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["blood-relation-test", "introduction"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

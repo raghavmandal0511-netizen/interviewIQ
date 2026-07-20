@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A and B invest Rs 5,000 and Rs 7,000 respectively for the same time period. If the total profit is Rs 6,000, find A's share.",
+    "options": [
+      { "optionId": "A", "text": "Rs 2,000" },
+      { "optionId": "B", "text": "Rs 2,200" },
+      { "optionId": "C", "text": "Rs 2,500" },
+      { "optionId": "D", "text": "Rs 2,800" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Capital ratio A:B = 5000:7000 = 5:7, total parts = 12. A's share = 6000 × (5/12) = Rs 2,500.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "When two partners invest for the same time period, profit is shared in the ratio of:",
+    "options": [
+      { "optionId": "A", "text": "their capitals" },
+      { "optionId": "B", "text": "their capitals multiplied by time" },
+      { "optionId": "C", "text": "equal shares regardless of capital" },
+      { "optionId": "D", "text": "the square of their capitals" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "When investment durations are equal, the time factor cancels out and profit is shared simply in the ratio of capitals.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A invests Rs 4,000 for 6 months and B invests Rs 6,000 for 4 months. Find the ratio of their profit shares.",
+    "options": [
+      { "optionId": "A", "text": "1 : 1" },
+      { "optionId": "B", "text": "2 : 3" },
+      { "optionId": "C", "text": "3 : 2" },
+      { "optionId": "D", "text": "2 : 1" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effective capital: A = 4000 × 6 = 24,000; B = 6000 × 4 = 24,000. Since both are equal, the profit-sharing ratio is 1:1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A, B, and C invest capitals in the ratio 2:3:5 for the same time period. If the total profit is Rs 20,000, find C's share.",
+    "options": [
+      { "optionId": "A", "text": "Rs 8,000" },
+      { "optionId": "B", "text": "Rs 9,000" },
+      { "optionId": "C", "text": "Rs 10,000" },
+      { "optionId": "D", "text": "Rs 12,000" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum of ratio parts = 2+3+5 = 10. C's share = 20000 × (5/10) = Rs 10,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A starts a business with Rs 10,000. After 4 months, B joins with Rs 15,000. If the profit at the end of the year is Rs 4,200, find B's share.",
+    "options": [
+      { "optionId": "A", "text": "Rs 1,800" },
+      { "optionId": "B", "text": "Rs 2,000" },
+      { "optionId": "C", "text": "Rs 2,100" },
+      { "optionId": "D", "text": "Rs 2,200" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A invests for 12 months: 10000×12 = 120,000. B invests for 8 months: 15000×8 = 120,000. Ratio A:B = 1:1. B's share = 4200 × (1/2) = Rs 2,100.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "X invests Rs 6,000 for 4 months, Y invests Rs 8,000 for 6 months, and Z invests Rs 2,000 for 8 months. The total profit is Rs 1,100. Find Y's share.",
+    "options": [
+      { "optionId": "A", "text": "Rs 500" },
+      { "optionId": "B", "text": "Rs 550" },
+      { "optionId": "C", "text": "Rs 600" },
+      { "optionId": "D", "text": "Rs 650" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Effective capitals: X = 6000×4 = 24,000; Y = 8000×6 = 48,000; Z = 2000×8 = 16,000. Ratio = 24:48:16 = 3:6:2, sum = 11. Y's share = 1100 × (6/11) = Rs 600.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A, B, and C invest Rs 20,000, Rs 30,000, and Rs 50,000. C is a working partner and receives an annual salary of Rs 3,000. If the annual profit before salary is Rs 13,000, find C's total earnings.",
+    "options": [
+      { "optionId": "A", "text": "Rs 7,000" },
+      { "optionId": "B", "text": "Rs 7,500" },
+      { "optionId": "C", "text": "Rs 8,000" },
+      { "optionId": "D", "text": "Rs 8,500" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Distributable profit = 13000 − 3000 = 10,000. Capital ratio = 2:3:5, sum = 10. C's profit share = 10000 × (5/10) = 5,000. C's total = 5000 (share) + 3000 (salary) = Rs 8,000.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A and B invested capital in the ratio 3:5 for the same duration. If B's share of the profit is Rs 2,500, find the total profit.",
+    "options": [
+      { "optionId": "A", "text": "Rs 3,500" },
+      { "optionId": "B", "text": "Rs 3,800" },
+      { "optionId": "C", "text": "Rs 4,000" },
+      { "optionId": "D", "text": "Rs 4,200" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "B's ratio part = 5 out of total 8 parts. Total profit = 2500 × (8/5) = Rs 4,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A, B, and C share a profit of Rs 9,000 in the ratio 2:3:4. Find C's share.",
+    "options": [
+      { "optionId": "A", "text": "Rs 3,000" },
+      { "optionId": "B", "text": "Rs 3,500" },
+      { "optionId": "C", "text": "Rs 4,000" },
+      { "optionId": "D", "text": "Rs 4,500" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum of ratio parts = 2+3+4 = 9. C's share = 9000 × (4/9) = Rs 4,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "P invests Rs 12,000 for the whole year. Q invests Rs 8,000 for 9 months, joining 3 months after the start. Find the profit ratio P:Q.",
+    "options": [
+      { "optionId": "A", "text": "3 : 1" },
+      { "optionId": "B", "text": "2 : 1" },
+      { "optionId": "C", "text": "3 : 2" },
+      { "optionId": "D", "text": "4 : 1" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "P's effective capital = 12000 × 12 = 144,000. Q's effective capital = 8000 × 9 = 72,000. Ratio = 144000:72000 = 2:1.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The formula for a partner's effective capital contribution is:",
+    "options": [
+      { "optionId": "A", "text": "Capital + Time" },
+      { "optionId": "B", "text": "Capital × Time" },
+      { "optionId": "C", "text": "Capital / Time" },
+      { "optionId": "D", "text": "Capital − Time" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Effective capital combines how much was invested and for how long, so it is calculated as Capital × Time.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "When investment durations of partners differ, the profit-sharing ratio should be based on:",
+    "options": [
+      { "optionId": "A", "text": "Capital alone" },
+      { "optionId": "B", "text": "Time alone" },
+      { "optionId": "C", "text": "Capital × Time" },
+      { "optionId": "D", "text": "The number of partners" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since durations differ, only the product of capital and time (effective capital) fairly represents each partner's contribution.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A invests Rs 8,000 and withdraws half of it after 4 months, in a 12-month year. Find A's total effective capital contribution (in capital-months) for the year.",
+    "options": [
+      { "optionId": "A", "text": "56,000" },
+      { "optionId": "B", "text": "60,000" },
+      { "optionId": "C", "text": "64,000" },
+      { "optionId": "D", "text": "68,000" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "First 4 months: 8000 × 4 = 32,000. Remaining 8 months at half capital (Rs 4,000): 4000 × 8 = 32,000. Total = 32,000 + 32,000 = 64,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A and B start a business investing Rs 16,000 and Rs 12,000. After 3 months, A withdraws Rs 4,000 and B adds Rs 4,000. Find the profit ratio A:B for the full 12-month year.",
+    "options": [
+      { "optionId": "A", "text": "13 : 15" },
+      { "optionId": "B", "text": "15 : 13" },
+      { "optionId": "C", "text": "12 : 13" },
+      { "optionId": "D", "text": "13 : 12" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A: first 3 months at 16000 = 48,000; remaining 9 months at 12000 = 108,000; total = 156,000. B: first 3 months at 12000 = 36,000; remaining 9 months at 16000 = 144,000; total = 180,000. Ratio A:B = 156000:180000 = 13:15.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A working partner's salary should be:",
+    "options": [
+      { "optionId": "A", "text": "Added to the profit before sharing" },
+      { "optionId": "B", "text": "Ignored during profit sharing" },
+      { "optionId": "C", "text": "Subtracted from the profit before applying the capital ratio" },
+      { "optionId": "D", "text": "Multiplied with the capital ratio" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The salary is an expense to the firm, so it must be deducted from gross profit first; the remaining distributable profit is then divided using the capital-time ratio.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In partnership problems, if the capital-time products (effective capitals) of two partners are equal, they share profit equally regardless of their nominal capital amounts.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Profit sharing depends on effective capital (capital × time), so equal effective capitals always mean an equal profit share, even if the raw capital amounts differ.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["partnership", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A working partner's salary is treated as part of their capital investment when forming the profit-sharing ratio.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Salary is a separate payment for managing the business and is deducted from profit before the ratio is applied; it is not part of the capital used to form the ratio.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["partnership", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Loss in a partnership, when not stated otherwise, is shared in the same ratio as profit would be shared.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Unless a different arrangement is specified, both profits and losses are divided using the same capital-time ratio among partners.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["partnership", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following are correctly used in compound partnership problems? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "Effective capital = Capital × Time invested" },
+      { "optionId": "B", "text": "Profit ratio = C1T1 : C2T2 : C3T3" },
+      { "optionId": "C", "text": "Salary to a working partner is deducted from profit before ratio-based division" },
+      { "optionId": "D", "text": "All partners must invest for equal durations" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C describe the standard compound partnership method. D is false — compound partnership specifically applies when durations differ; equal durations would make it a simple partnership.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Select the correct statements about partnership share calculation.",
+    "options": [
+      { "optionId": "A", "text": "Partner's share = Total profit × (partner's ratio part / sum of ratio parts)" },
+      { "optionId": "B", "text": "Sum of all partners' shares should equal the total distributable profit" },
+      { "optionId": "C", "text": "Capital ratio alone is sufficient even when investment periods differ" },
+      { "optionId": "D", "text": "Simplifying the ratio using the HCF makes calculation easier without changing the individual shares" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A and B describe correct share calculation and verification. D is true because dividing all ratio terms by their HCF preserves the same proportional shares. C is false — capital-time (effective capital) must be used when periods differ.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["partnership", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

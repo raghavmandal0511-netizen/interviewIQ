@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Apple, Banana, Carrot, Mango",
+    "options": [
+      { "optionId": "A", "text": "Apple" },
+      { "optionId": "B", "text": "Banana" },
+      { "optionId": "C", "text": "Carrot" },
+      { "optionId": "D", "text": "Mango" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Apple, Banana, and Mango are fruits, while Carrot is a vegetable.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Dog, Cat, Lion, Sparrow",
+    "options": [
+      { "optionId": "A", "text": "Dog" },
+      { "optionId": "B", "text": "Cat" },
+      { "optionId": "C", "text": "Lion" },
+      { "optionId": "D", "text": "Sparrow" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Dog, Cat, and Lion are mammals, while Sparrow is a bird.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Triangle, Square, Circle, Cube",
+    "options": [
+      { "optionId": "A", "text": "Triangle" },
+      { "optionId": "B", "text": "Square" },
+      { "optionId": "C", "text": "Circle" },
+      { "optionId": "D", "text": "Cube" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Triangle, Square, and Circle are two-dimensional (2D) shapes, while Cube is a three-dimensional (3D) solid.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: 4, 9, 16, 20, 25",
+    "options": [
+      { "optionId": "A", "text": "9" },
+      { "optionId": "B", "text": "16" },
+      { "optionId": "C", "text": "20" },
+      { "optionId": "D", "text": "25" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "4, 9, 16, and 25 are perfect squares (2², 3², 4², 5²), while 20 is not a perfect square.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Delhi, Mumbai, Kolkata, India",
+    "options": [
+      { "optionId": "A", "text": "Delhi" },
+      { "optionId": "B", "text": "Mumbai" },
+      { "optionId": "C", "text": "Kolkata" },
+      { "optionId": "D", "text": "India" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Delhi, Mumbai, and Kolkata are cities, while India is a country.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Guitar, Violin, Sitar, Flute",
+    "options": [
+      { "optionId": "A", "text": "Guitar" },
+      { "optionId": "B", "text": "Violin" },
+      { "optionId": "C", "text": "Sitar" },
+      { "optionId": "D", "text": "Flute" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Guitar, Violin, and Sitar are string instruments, while Flute is a wind instrument.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: 3, 5, 7, 9, 11",
+    "options": [
+      { "optionId": "A", "text": "5" },
+      { "optionId": "B", "text": "7" },
+      { "optionId": "C", "text": "9" },
+      { "optionId": "D", "text": "11" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "3, 5, 7, and 11 are prime numbers, while 9 is not prime (9 = 3 × 3).",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Wheat, Rice, Maize, Cotton",
+    "options": [
+      { "optionId": "A", "text": "Wheat" },
+      { "optionId": "B", "text": "Rice" },
+      { "optionId": "C", "text": "Maize" },
+      { "optionId": "D", "text": "Cotton" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Wheat, Rice, and Maize are food/cereal crops, while Cotton is a fiber crop.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Doctor, Teacher, Engineer, Hospital",
+    "options": [
+      { "optionId": "A", "text": "Doctor" },
+      { "optionId": "B", "text": "Teacher" },
+      { "optionId": "C", "text": "Engineer" },
+      { "optionId": "D", "text": "Hospital" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Doctor, Teacher, and Engineer are professions, while Hospital is a place/institution.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: 121, 144, 169, 200",
+    "options": [
+      { "optionId": "A", "text": "121" },
+      { "optionId": "B", "text": "144" },
+      { "optionId": "C", "text": "169" },
+      { "optionId": "D", "text": "200" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "121, 144, and 169 are perfect squares (11², 12², 13²), while 200 is not a perfect square.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Rose, Lotus, Jasmine, Mango",
+    "options": [
+      { "optionId": "A", "text": "Rose" },
+      { "optionId": "B", "text": "Lotus" },
+      { "optionId": "C", "text": "Jasmine" },
+      { "optionId": "D", "text": "Mango" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Rose, Lotus, and Jasmine are flowers, while Mango is a fruit.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Gold, Silver, Copper, Diamond",
+    "options": [
+      { "optionId": "A", "text": "Gold" },
+      { "optionId": "B", "text": "Silver" },
+      { "optionId": "C", "text": "Copper" },
+      { "optionId": "D", "text": "Diamond" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Gold, Silver, and Copper are metals, while Diamond is a non-metal mineral (a crystalline form of carbon).",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Football, Basketball, Volleyball, Hockey stick",
+    "options": [
+      { "optionId": "A", "text": "Football" },
+      { "optionId": "B", "text": "Basketball" },
+      { "optionId": "C", "text": "Volleyball" },
+      { "optionId": "D", "text": "Hockey stick" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Football, Basketball, and Volleyball are balls used to play sports, while Hockey stick is a piece of equipment, not a ball.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Author, Painter, Sculptor, Library",
+    "options": [
+      { "optionId": "A", "text": "Author" },
+      { "optionId": "B", "text": "Painter" },
+      { "optionId": "C", "text": "Sculptor" },
+      { "optionId": "D", "text": "Library" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Author, Painter, and Sculptor are creative professionals, while Library is a place.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the odd one out: Square, Rectangle, Rhombus, Triangle",
+    "options": [
+      { "optionId": "A", "text": "Square" },
+      { "optionId": "B", "text": "Rectangle" },
+      { "optionId": "C", "text": "Rhombus" },
+      { "optionId": "D", "text": "Triangle" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Square, Rectangle, and Rhombus are four-sided shapes (quadrilaterals), while Triangle has only three sides.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the group Apple, Banana, Mango, Grapes, Carrot, the odd one out is Carrot because it is a vegetable while the rest are fruits.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Apple, Banana, Mango, and Grapes all belong to the fruit category, while Carrot is a root vegetable, so the statement is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the group Gold, Silver, Copper, Iron, the odd one out is Iron because it is not a metal.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Iron is indeed a metal, just like Gold, Silver, and Copper, so there is no odd one out in this group and the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the list Rose, Lotus, Sunflower, Mango, Jasmine, which of the following are correctly classified as flowers (i.e., NOT the odd one out)?",
+    "options": [
+      { "optionId": "A", "text": "Rose" },
+      { "optionId": "B", "text": "Lotus" },
+      { "optionId": "C", "text": "Mango" },
+      { "optionId": "D", "text": "Jasmine" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "Rose, Lotus, and Jasmine are flowers, so they belong to the main group. Mango is a fruit, making it the odd one out and not part of the flower group.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["verbal-classification", "odd-one-out"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

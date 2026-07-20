@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a camera?",
+    "options": [
+      { "optionId": "A", "text": "A carrying strap" },
+      { "optionId": "B", "text": "A lens that forms the image" },
+      { "optionId": "C", "text": "A built-in flash" },
+      { "optionId": "D", "text": "A protective case" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A camera works by using a lens to focus light and form an image, which is its core function. Without a lens, no image can be formed at all. Straps, flashes, and cases are useful accessories but not what makes the device a camera.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of an umbrella?",
+    "options": [
+      { "optionId": "A", "text": "A wooden handle" },
+      { "optionId": "B", "text": "A waterproof canopy that covers the user" },
+      { "optionId": "C", "text": "A printed pattern" },
+      { "optionId": "D", "text": "A carrying pouch" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An umbrella's entire purpose is to shield a person from rain or sun, which requires a canopy that spreads out to cover them. This covering is essential to it. Handles, patterns, and pouches vary across designs and are not what defines an umbrella.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: Wheels are an essential part of a bicycle, since without them it cannot move forward on its own like a bicycle does.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A bicycle is defined as a two-wheeled vehicle that moves by rolling on its wheels when pedalled. The wheels enable this characteristic motion, so they are essential. Bells, baskets, and mudguards are optional fittings that do not affect whether the object functions as a bicycle.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a shoe?",
+    "options": [
+      { "optionId": "A", "text": "Laces to tie it" },
+      { "optionId": "B", "text": "A sole that contacts the ground" },
+      { "optionId": "C", "text": "A brand logo" },
+      { "optionId": "D", "text": "A particular colour" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A shoe is a covering for the foot that rests on the ground, and the sole is the part that performs this ground-contact function and provides protection while walking. Laces, logos, and colour vary widely and are not needed for the object to be a shoe, as many shoe types have no laces at all.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a wristwatch?",
+    "options": [
+      { "optionId": "A", "text": "A leather or metal strap" },
+      { "optionId": "B", "text": "A mechanism that displays the time" },
+      { "optionId": "C", "text": "Jewelled decoration" },
+      { "optionId": "D", "text": "A branded logo on the face" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The purpose of a wristwatch is to show the time, which requires an internal mechanism connected to a display of hands or digits. This time-telling mechanism is essential. Straps, decoration, and branding can differ without changing the watch's basic identity.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a table?",
+    "options": [
+      { "optionId": "A", "text": "A tablecloth" },
+      { "optionId": "B", "text": "A flat surface for placing objects" },
+      { "optionId": "C", "text": "A polished finish" },
+      { "optionId": "D", "text": "A storage drawer" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A table is fundamentally a piece of furniture with a flat top surface on which items are placed or work is done. This flat surface is the essential feature; without it, the object cannot serve as a table. Cloths, polish, and drawers are optional additions.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a window?",
+    "options": [
+      { "optionId": "A", "text": "A protective grill" },
+      { "optionId": "B", "text": "A set of curtains" },
+      { "optionId": "C", "text": "An opening that lets in light and air" },
+      { "optionId": "D", "text": "A coat of paint on the frame" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A window exists to let light and air pass into a room, which requires an opening in the wall, whether covered by glass or left bare. This opening is essential to its function. Grills, curtains, and paint are added for security, privacy, or appearance but are not the core feature.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a guitar?",
+    "options": [
+      { "optionId": "A", "text": "A plastic pick" },
+      { "optionId": "B", "text": "Strings that produce sound" },
+      { "optionId": "C", "text": "A shoulder strap" },
+      { "optionId": "D", "text": "Tuning pegs made of metal" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A guitar produces music through the vibration of its strings, which is its defining function. Without strings, it cannot produce the sound that makes it a guitar. Picks, straps, and the material of tuning pegs vary between guitars and players.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False: A ringtone is an essential part of a telephone, without which calls cannot be made or received.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A telephone's essential function is to transmit and receive voice between two points, carried out by its microphone and speaker mechanism. A ringtone merely alerts the user to an incoming call and can be switched off or silenced entirely without affecting the phone's ability to make or receive calls.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a refrigerator?",
+    "options": [
+      { "optionId": "A", "text": "Interior shelves" },
+      { "optionId": "B", "text": "A cooling mechanism" },
+      { "optionId": "C", "text": "A door handle" },
+      { "optionId": "D", "text": "An interior light bulb" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A refrigerator exists to keep its contents cold, which is achieved through its cooling mechanism. This is the essential component; without it, the appliance is merely an insulated box. Shelves, handles, and interior lights are conveniences that do not define its core function.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a thermometer?",
+    "options": [
+      { "optionId": "A", "text": "A protective plastic case" },
+      { "optionId": "B", "text": "A string to hang it" },
+      { "optionId": "C", "text": "A temperature-sensing element with a calibrated scale" },
+      { "optionId": "D", "text": "A specific colour of casing" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A thermometer is an instrument designed to measure temperature, which requires a sensing element whose change is read against a calibrated scale. This sensing-and-scale combination is essential. Cases, strings, and colour do not affect its ability to measure temperature.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a magnetic compass?",
+    "options": [
+      { "optionId": "A", "text": "A magnetic needle that points north" },
+      { "optionId": "B", "text": "Engraved direction markings" },
+      { "optionId": "C", "text": "A protective glass cover" },
+      { "optionId": "D", "text": "A carrying strap" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A compass functions by using a freely moving magnetic needle that aligns itself with the Earth's magnetic field to indicate north. This needle is the essential working part; without it, the device cannot indicate direction at all. Markings, covers, and straps merely aid its use.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a ladder?",
+    "options": [
+      { "optionId": "A", "text": "A coat of anti-slip paint" },
+      { "optionId": "B", "text": "Rungs that allow a person to climb" },
+      { "optionId": "C", "text": "A manufacturer's sticker" },
+      { "optionId": "D", "text": "Hooks for hanging tools" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A ladder exists to help a person climb to a height, which is achieved through its evenly spaced rungs or steps. These rungs are essential to its function; without them, it is just two long poles. Paint, stickers, and tool hooks are incidental features.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a curtain?",
+    "options": [
+      { "optionId": "A", "text": "A metal rod to hang it from" },
+      { "optionId": "B", "text": "A fabric panel that covers an opening" },
+      { "optionId": "C", "text": "A decorative tie-back" },
+      { "optionId": "D", "text": "A floral print pattern" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A curtain is essentially a piece of fabric hung to cover a window, doorway, or other opening, blocking light or view. This fabric panel is what makes it a curtain. Rods, tie-backs, and printed patterns are accessories that vary by installation and style.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a necklace?",
+    "options": [
+      { "optionId": "A", "text": "A pendant" },
+      { "optionId": "B", "text": "A string or chain that holds it together" },
+      { "optionId": "C", "text": "A gift box" },
+      { "optionId": "D", "text": "A specific gemstone" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A necklace is defined as an ornament worn around the neck, held in shape by a string or chain that links its parts together and allows it to be worn. This string or chain is essential; without it, the beads or stones cannot form a wearable necklace. Pendants, gift boxes, and specific gemstones are optional.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following are essential to a painting? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "A surface or canvas that holds the image" },
+      { "optionId": "B", "text": "An image or artwork created on that surface" },
+      { "optionId": "C", "text": "A wooden frame around it" },
+      { "optionId": "D", "text": "The artist's signature" }
+    ],
+    "correctAnswer": ["A", "B"],
+    "explanation": "A painting requires both a surface to hold it, such as canvas or paper, and an image or design actually created upon that surface; together these two elements are what make it a painting. A frame is added afterwards for display, and a signature, while common, is not required for the work to exist as a painting.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a key?",
+    "options": [
+      { "optionId": "A", "text": "A metal keychain" },
+      { "optionId": "B", "text": "A unique cut pattern matching its lock" },
+      { "optionId": "C", "text": "A shiny finish" },
+      { "optionId": "D", "text": "A brand engraving" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A key works by having a cut pattern that precisely matches the mechanism inside its corresponding lock, allowing it to turn and open it. This matching pattern is essential; without it, the object cannot function as that key. Keychains, finish, and engravings are cosmetic additions.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following is an essential part of a candle?",
+    "options": [
+      { "optionId": "A", "text": "A decorative holder" },
+      { "optionId": "B", "text": "A wax body and wick that burn to give light" },
+      { "optionId": "C", "text": "A pleasant fragrance" },
+      { "optionId": "D", "text": "A specific colour of wax" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A candle produces light by burning a wick embedded in wax, which is consumed as fuel for the flame. This wax-and-wick combination is essential to its function. Holders, fragrance, and colour are optional additions found in decorative or scented candles but not required for something to be a candle.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["essential-part", "object-relationship"],
+    "questionType": "MCQ"
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Analogies express a relationship between two words and ask you to find another pair with the same relationship. The skill is naming the link precisely—not just finding vaguely related words.",
+  "explanation": "CONCEPT\n\nA classic analogy is A : B :: C : ? meaning A is to B as C is to ?. Relationships include synonym, antonym, part–whole, worker–tool, cause–effect, degree, category member, and object–function.\n\nHOW TO SOLVE\n\n1) State the A–B relationship in one short sentence.\n2) Apply that exact relationship to C.\n3) Eliminate options that use a different relationship type.\n4) Prefer the option that mirrors direction (e.g. part→whole vs whole→part).\n5) Watch for grammar: noun–noun pairs usually stay noun–noun.\n\nIMPORTANT RULES\n\n• Relationship type must match, not merely topic.\n• Keep order: if A is a type of B, C must be a type of the answer.\n• Degree analogies: warm : hot :: cool : cold.\n• Tool analogies: carpenter : hammer :: surgeon : scalpel.\n\nCOMMON MISTAKES\n\n1) Choosing a word related to C but with the wrong link type.\n2) Reversing the relationship direction.\n3) Matching by first letter or rhyme.\n4) Confusing synonym with category membership.\n5) Ignoring stronger, more precise options.",
+  "formulas": [
+    {
+      "title": "Analogy form",
+      "content": "A : B :: C : D means relation(A,B) = relation(C,D)"
+    },
+    {
+      "title": "Part–whole",
+      "content": "page : book :: petal : flower"
+    },
+    {
+      "title": "Worker–tool",
+      "content": "writer : pen :: painter : brush"
+    },
+    {
+      "title": "Cause–effect",
+      "content": "fire : smoke :: rain : flood (when effect is typical)"
+    },
+    {
+      "title": "Degree",
+      "content": "warm : hot :: cool : cold"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Name the bridge",
+      "tip": "Say aloud \"A is the ___ of B\" before looking at options."
+    },
+    {
+      "title": "Same part of speech",
+      "tip": "Prefer answers that match the grammatical role of B."
+    },
+    {
+      "title": "Direction check",
+      "tip": "If A is smaller than B, C should be smaller than D."
+    },
+    {
+      "title": "Eliminate soft links",
+      "tip": "Reject options that are only thematically related."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Knife : Cut :: Pen : ?",
+      "solution": "Write — knife is used to cut; pen is used to write.",
+      "steps": [
+        "Relation: tool → primary action.",
+        "Pen's primary action among typical options is write.",
+        "So answer is Write."
+      ]
+    },
+    {
+      "problem": "Bird : Nest :: Bee : ?",
+      "solution": "Hive — bird lives in/builds a nest; bee lives in a hive.",
+      "steps": [
+        "Relation: animal → dwelling.",
+        "Bee dwelling is hive.",
+        "Confirm not \"honey\" (product) or \"flower\" (food source)."
+      ]
+    },
+    {
+      "problem": "Happy : Sad :: Tall : ?",
+      "solution": "Short — antonym relationship.",
+      "steps": [
+        "Happy and Sad are opposites.",
+        "Opposite of Tall is Short.",
+        "Reject near-synonyms like High."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Analogy (reasoning)",
+      "url": "https://en.wikipedia.org/wiki/Analogy"
+    }
+  ]
+}

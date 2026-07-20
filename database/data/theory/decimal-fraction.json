@@ -1,0 +1,88 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "A decimal fraction is a fraction whose denominator is a power of 10, written using a decimal point (like 0.75 for 75/100). This topic covers converting between fractions and decimals, operating on decimals (addition, multiplication, division), and handling recurring (repeating) decimals such as 0.333... Mastering these conversions makes calculations in percentage, interest, and ratio problems much faster.",
+  "explanation": "CONCEPT EXPLANATION\n\nA decimal fraction has a denominator that is 10, 100, 1000, and so on. For example, 0.6 = 6/10, and 0.25 = 25/100 = 1/4. To convert a fraction to a decimal, divide the numerator by the denominator; to convert a decimal to a fraction, write the digits after the decimal point over the appropriate power of 10, then simplify.\n\nWhen adding or subtracting decimals, align the decimal points vertically so each place value lines up correctly. When multiplying two decimals, multiply as whole numbers first, then place the decimal point in the result so that the total number of decimal places equals the sum of decimal places in both original numbers. When dividing, convert the divisor to a whole number by shifting the decimal point in both dividend and divisor by the same number of places.\n\nRecurring decimals repeat one or more digits infinitely. A pure recurring decimal (e.g., 0.777...) converts to a fraction by writing the repeating digits over as many 9s; a mixed recurring decimal (e.g., 0.1666...) requires separating the non-repeating and repeating parts before forming the fraction.\n\nComparing decimals: line up decimal places (padding with zeros if needed) and compare digit by digit from the leftmost decimal place.\n\nREAL-LIFE APPLICATIONS\n\nCurrency calculations, measurements (metric units), scientific data, engineering tolerances, and financial statements all use decimal fractions extensively.\n\nCOMMON MISTAKES\n\n1) Misplacing the decimal point after multiplication — always count total decimal places from both factors.\n2) Comparing decimals of different lengths without padding zeros (e.g., thinking 0.5 < 0.45 because '45' looks bigger).\n3) Incorrectly converting recurring decimals by using the wrong number of 9s in the denominator.\n4) Forgetting to shift both dividend and divisor decimal points equally during division.\n5) Rounding too early in multi-step calculations, causing accumulated error.\n\nIMPORTANT NOTES\n\n• Pure recurring decimal → fraction: repeating digits over as many 9s as there are repeating digits (e.g., 0.454545... = 45/99).\n\n• Mixed recurring decimal → fraction: (whole number formed by non-repeating and repeating digits − non-repeating part) over (9s for repeating digits followed by 0s for non-repeating digits).\n\n• Multiplying or dividing by 10, 100, 1000 simply shifts the decimal point right or left.\n\n• Always simplify the resulting fraction to lowest terms using HCF.",
+  "formulas": [
+    {
+      "title": "Fraction to decimal",
+      "content": "Decimal value = Numerator ÷ Denominator"
+    },
+    {
+      "title": "Decimal to fraction",
+      "content": "Decimal = digits after decimal point / (10^number of decimal places), then simplify"
+    },
+    {
+      "title": "Pure recurring decimal to fraction",
+      "content": "0.ababab... (repeating) = ab / 99 (as many 9s as repeating digits)"
+    },
+    {
+      "title": "Mixed recurring decimal to fraction",
+      "content": "0.abbb... (b repeating) = (ab − a) / 90 (9s for repeating part, 0s for non-repeating part)"
+    },
+    {
+      "title": "Decimal multiplication rule",
+      "content": "Decimal places in product = sum of decimal places in the two factors"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Pad zeros before comparing",
+      "tip": "When comparing decimals like 0.5 and 0.45, write them with equal decimal places (0.50 vs 0.45) to compare correctly."
+    },
+    {
+      "title": "Count total decimal places for multiplication",
+      "tip": "Multiply the digits ignoring decimals first, then count total decimal places from both numbers to place the point in the answer."
+    },
+    {
+      "title": "Convert recurring decimals quickly",
+      "tip": "Use the 9s-in-denominator rule directly instead of long algebraic derivation for pure recurring decimals."
+    },
+    {
+      "title": "Shift decimals for division",
+      "tip": "Multiply both dividend and divisor by the same power of 10 to make the divisor a whole number before dividing."
+    },
+    {
+      "title": "Recognize common decimal-fraction pairs",
+      "tip": "Memorise 0.5=1/2, 0.25=1/4, 0.2=1/5, 0.125=1/8, 0.1=1/10 to skip conversion steps entirely."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Convert 0.375 into a fraction in its lowest terms.",
+      "solution": "0.375 equals 3/8.",
+      "steps": [
+        "0.375 = 375/1000.",
+        "HCF of 375 and 1000 is 125.",
+        "375/125 = 3, 1000/125 = 8, so the fraction is 3/8."
+      ]
+    },
+    {
+      "problem": "Convert the recurring decimal 0.272727... into a fraction.",
+      "solution": "0.272727... equals 3/11.",
+      "steps": [
+        "Pure recurring decimal with 2 repeating digits: 0.272727... = 27/99.",
+        "Simplify 27/99 by dividing by HCF 9: 27/9 = 3, 99/9 = 11.",
+        "So 0.272727... = 3/11."
+      ]
+    },
+    {
+      "problem": "Evaluate 2.5 × 0.04.",
+      "solution": "2.5 × 0.04 = 0.1.",
+      "steps": [
+        "Ignore decimals: 25 × 4 = 100.",
+        "Total decimal places in factors = 1 (from 2.5) + 2 (from 0.04) = 3.",
+        "Place decimal point 3 places from the right in 100 (i.e., 0100) to get 0.100 = 0.1."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Math is Fun — Decimals",
+      "url": "https://www.mathsisfun.com/decimals-menu.html"
+    },
+    {
+      "title": "Math is Fun — Converting Repeating Decimals to Fractions",
+      "url": "https://www.mathsisfun.com/algebra/repeating-decimals-fractions.html"
+    }
+  ]
+}

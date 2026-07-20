@@ -1,0 +1,602 @@
+[
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Problems on Trains",
+    "slug": "problems-on-trains",
+    "description": "Speed, distance and relative motion problems involving trains.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Time and Distance",
+    "slug": "time-and-distance",
+    "description": "Core time, speed and distance aptitude problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Height and Distance",
+    "slug": "height-and-distance",
+    "description": "Trigonometry-based height and distance aptitude problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 3,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Time and Work",
+    "slug": "time-and-work",
+    "description": "Work rate, combined work and efficiency problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 4,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Simple Interest",
+    "slug": "simple-interest",
+    "description": "Principal, rate and time problems using simple interest.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 5,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Compound Interest",
+    "slug": "compound-interest",
+    "description": "Compound interest, growth and related aptitude problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 6,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Profit and Loss",
+    "slug": "profit-and-loss",
+    "description": "Cost price, selling price, profit and discount problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 7,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Partnership",
+    "slug": "partnership",
+    "description": "Investment, profit sharing and partnership problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 8,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Percentage",
+    "slug": "percentage",
+    "description": "Percentage increase, decrease and application problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 9,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Problems on Ages",
+    "slug": "problems-on-ages",
+    "description": "Present, past and future age relationship problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 10,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Calendar",
+    "slug": "calendar",
+    "description": "Day of the week and calendar-based reasoning problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 11,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Clock",
+    "slug": "clock",
+    "description": "Clock hands, angles and time-based aptitude problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 12,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Average",
+    "slug": "average",
+    "description": "Mean, weighted average and related aptitude problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 13,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Area",
+    "slug": "area",
+    "description": "Area of plane figures and related mensuration problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 14,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Volume and Surface Area",
+    "slug": "volume-and-surface-area",
+    "description": "Volume and surface area of solid figures.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 15,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Permutation and Combination",
+    "slug": "permutation-and-combination",
+    "description": "Counting principles using permutations and combinations.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 16,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Numbers",
+    "slug": "numbers",
+    "description": "Number system fundamentals and aptitude applications.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 17,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Problems on Numbers",
+    "slug": "problems-on-numbers",
+    "description": "Word problems based on number relationships.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 18,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Problems on HCF and LCM",
+    "slug": "problems-on-hcf-and-lcm",
+    "description": "Highest common factor and least common multiple problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 19,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Decimal Fraction",
+    "slug": "decimal-fraction",
+    "description": "Decimal and fraction conversion and calculation problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 20,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Simplification",
+    "slug": "simplification",
+    "description": "BODMAS and simplification aptitude problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 21,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Square Root and Cube Root",
+    "slug": "square-root-and-cube-root",
+    "description": "Square roots, cube roots and related calculations.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 22,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Surds and Indices",
+    "slug": "surds-and-indices",
+    "description": "Laws of indices and surd simplification problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 23,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Ratio and Proportion",
+    "slug": "ratio-and-proportion",
+    "description": "Ratio, proportion and partnership-linked problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 24,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Chain Rule",
+    "slug": "chain-rule",
+    "description": "Direct and inverse proportion chain-rule problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 25,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Pipes and Cistern",
+    "slug": "pipes-and-cistern",
+    "description": "Inlet, outlet and cistern work-rate problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 26,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Boats and Streams",
+    "slug": "boats-and-streams",
+    "description": "Upstream, downstream and relative speed problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 27,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Alligation or Mixture",
+    "slug": "alligation-or-mixture",
+    "description": "Mixture and alligation rule aptitude problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 28,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Logarithm",
+    "slug": "logarithm",
+    "description": "Logarithm properties and related aptitude problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 29,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Races and Games",
+    "slug": "races-and-games",
+    "description": "Race, game and relative performance problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 30,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Stocks and Shares",
+    "slug": "stocks-and-shares",
+    "description": "Stock, share and dividend aptitude problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 31,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Probability",
+    "slug": "probability",
+    "description": "Basic probability and event outcome problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 32,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "True Discount",
+    "slug": "true-discount",
+    "description": "True discount and present worth problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 33,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Banker's Discount",
+    "slug": "bankers-discount",
+    "description": "Banker discount, banker’s gain and related problems.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 34,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Odd Man Out and Series",
+    "slug": "odd-man-out-and-series",
+    "description": "Find the odd one out and complete number or letter series.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 35,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Number Series",
+    "slug": "number-series",
+    "description": "Find the next or missing term in number series.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Letter and Symbol Series",
+    "slug": "letter-and-symbol-series",
+    "description": "Letter and symbol pattern series problems.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Verbal Classification",
+    "slug": "verbal-classification",
+    "description": "Classify words and identify the odd one out.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 3,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Essential Part",
+    "slug": "essential-part",
+    "description": "Identify the essential part of an object or concept.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 4,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Analogies",
+    "slug": "analogies",
+    "description": "Word and concept analogy reasoning problems.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 5,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Artificial Language",
+    "slug": "artificial-language",
+    "description": "Decode artificial language word and phrase meanings.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 6,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Logical Deduction",
+    "slug": "logical-deduction",
+    "description": "Draw conclusions from given logical statements.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 7,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Logical Sequence of Words",
+    "slug": "logical-sequence-of-words",
+    "description": "Arrange words in a meaningful logical sequence.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Blood Relation Test",
+    "slug": "blood-relation-test",
+    "description": "Family relationship and blood relation puzzles.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Syllogism",
+    "slug": "syllogism",
+    "description": "Draw conclusions from categorical statements.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 3,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Series Completion",
+    "slug": "series-completion",
+    "description": "Complete letter, number or mixed series.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 4,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Cause and Effect",
+    "slug": "cause-and-effect",
+    "description": "Identify cause-effect relationships between statements.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 5,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Dice",
+    "slug": "dice",
+    "description": "Dice orientation and face-based reasoning problems.",
+    "estimatedTime": 40,
+    "difficulty": "medium",
+    "order": 6,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Freshers",
+    "slug": "freshers",
+    "description": "HR interview topics and sample answers for fresh graduates.",
+    "estimatedTime": 60,
+    "difficulty": "medium",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Experienced",
+    "slug": "experienced",
+    "description": "HR interview topics and sample answers for experienced candidates.",
+    "estimatedTime": 60,
+    "difficulty": "medium",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "AI Mock Interview",
+    "slug": "ai-mock-interview",
+    "description": "Practice AI-powered mock interview sessions.",
+    "estimatedTime": 45,
+    "difficulty": "medium",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Arithmetic Test 1",
+    "slug": "arithmetic-test-1",
+    "description": "Online arithmetic aptitude practice test 1.",
+    "estimatedTime": 50,
+    "difficulty": "medium",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Arithmetic Test 2",
+    "slug": "arithmetic-test-2",
+    "description": "Online arithmetic aptitude practice test 2.",
+    "estimatedTime": 50,
+    "difficulty": "medium",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Arithmetic Test 3",
+    "slug": "arithmetic-test-3",
+    "description": "Online arithmetic aptitude practice test 3.",
+    "estimatedTime": 50,
+    "difficulty": "medium",
+    "order": 3,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Logical Test 1",
+    "slug": "logical-test-1",
+    "description": "Online logical reasoning practice test 1.",
+    "estimatedTime": 50,
+    "difficulty": "medium",
+    "order": 4,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Logical Test 2",
+    "slug": "logical-test-2",
+    "description": "Online logical reasoning practice test 2.",
+    "estimatedTime": 50,
+    "difficulty": "medium",
+    "order": 5,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Verbal Test 1",
+    "slug": "verbal-test-1",
+    "description": "Online verbal reasoning practice test 1.",
+    "estimatedTime": 50,
+    "difficulty": "medium",
+    "order": 6,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Verbal Test 2",
+    "slug": "verbal-test-2",
+    "description": "Online verbal reasoning practice test 2.",
+    "estimatedTime": 50,
+    "difficulty": "medium",
+    "order": 7,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Mock InterviewIQ Test 1",
+    "slug": "mock-interviewiq-test-1",
+    "description": "Full InterviewIQ-style mixed mock test 1.",
+    "estimatedTime": 50,
+    "difficulty": "medium",
+    "order": 8,
+    "isPublished": true
+  },
+  {
+    "moduleId": "REPLACE_MODULE_ID",
+    "name": "Mock InterviewIQ Test 2",
+    "slug": "mock-interviewiq-test-2",
+    "description": "Full InterviewIQ-style mixed mock test 2.",
+    "estimatedTime": 50,
+    "difficulty": "medium",
+    "order": 9,
+    "isPublished": true
+  }
+]

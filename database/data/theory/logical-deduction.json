@@ -1,0 +1,76 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Logical Deduction (Statements and Conclusions) asks whether a conclusion must follow from given statements. You decide what is definitely true, what is only possible, and what does not follow.",
+  "explanation": "CONCEPT\n\nYou are given one or more statements treated as true. Conclusions must be judged only on those statements—not on real-world knowledge. A conclusion follows only if it is forced by the statements.\n\nHOW TO SOLVE\n\n1) Accept statements as 100% true for the question.\n2) For each conclusion, ask: Can I construct a case where statements hold but the conclusion fails? If yes, it does not follow.\n3) \"Some\" does not mean \"all\"; \"all\" implies \"some\" in exam logic for positive universals (careful with exam convention).\n4) Negative statements (no/none) restrict membership strongly.\n5) For multiple conclusions, evaluate each independently, then pick the option describing which ones follow.\n\nIMPORTANT RULES\n\n• Do not use outside facts.\n• Possibility ≠ certainty.\n• From \"All A are B\" you may conclude \"Some A are B\" (standard exam convention).\n• From \"Some A are B\" you cannot conclude \"All A are B\".\n• From \"No A are B\" you can conclude \"No B are A\".\n\nCOMMON MISTAKES\n\n1) Importing real-world truth.\n2) Treating \"some\" as \"most\" or \"all\".\n3) Assuming the converse of a universal affirmative (All A are B ⇏ All B are A).\n4) Marking a conclusion that is only sometimes true.\n5) Mixing up which conclusion follows when options list combinations.",
+  "formulas": [
+    {
+      "title": "Universal affirmative",
+      "content": "All A are B → every A is inside B; converse not automatic"
+    },
+    {
+      "title": "Particular",
+      "content": "Some A are B → at least one A is B; not all"
+    },
+    {
+      "title": "Universal negative",
+      "content": "No A are B ↔ No B are A"
+    },
+    {
+      "title": "Follows test",
+      "content": "Conclusion follows iff it is true in every case allowed by the statements"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Venn sketch",
+      "tip": "Draw quick circles for All/Some/No to see forced overlap."
+    },
+    {
+      "title": "Counterexample hunt",
+      "tip": "Try to break the conclusion while keeping statements true."
+    },
+    {
+      "title": "Ignore real life",
+      "tip": "If statements say all cats are red, treat that as true here."
+    },
+    {
+      "title": "Read option codes",
+      "tip": "For \"only I\", \"only II\", \"either\", \"both\", check each conclusion first, then match."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Statements: All pens are pencils. Some pencils are erasers. Conclusion: Some pens are erasers.",
+      "solution": "Does not follow — pens are inside pencils, but they may lie outside the eraser overlap.",
+      "steps": [
+        "All pens ⊂ pencils.",
+        "Some pencils overlap erasers; that overlap need not include pens.",
+        "Conclusion is possible but not necessary."
+      ]
+    },
+    {
+      "problem": "Statements: No car is a bike. All bikes are cycles. Conclusion: No car is a cycle.",
+      "solution": "Does not follow — cars are disjoint from bikes, but cycles may still include cars if cars are cycles that are not bikes.",
+      "steps": [
+        "Cars and bikes do not overlap.",
+        "Bikes ⊂ cycles.",
+        "Cars could still be cycles; statement does not forbid it."
+      ]
+    },
+    {
+      "problem": "Statements: All mangoes are fruits. All fruits are food. Conclusions: (I) All mangoes are food. (II) Some food are mangoes.",
+      "solution": "Both follow (under standard exam conventions).",
+      "steps": [
+        "Mangoes ⊂ fruits ⊂ food → all mangoes are food.",
+        "Therefore some food (namely mangoes) are mangoes → II follows.",
+        "Both I and II follow."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Categorical proposition",
+      "url": "https://en.wikipedia.org/wiki/Categorical_proposition"
+    }
+  ]
+}

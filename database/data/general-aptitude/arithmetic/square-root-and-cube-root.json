@@ -1,0 +1,513 @@
+{
+  "_seedKey": "topic-square-root-and-cube-root",
+  "topic": {
+    "moduleId": "REPLACE_MODULE_ARITHMETIC_ID",
+    "name": "Square Root and Cube Root",
+    "slug": "square-root-and-cube-root",
+    "description": "Perfect squares and cubes, simplification, estimation, and comparison of roots for competitive aptitude. Estimated reading 20 min; practice 35 min.",
+    "estimatedTime": 55,
+    "difficulty": "medium",
+    "order": 22,
+    "isPublished": true
+  },
+  "theory": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "introduction": "Square Root and Cube Root questions test your ability to recognize perfect squares and cubes, simplify radical expressions, compare irrational roots, and apply root properties in arithmetic shortcuts. These skills appear frequently in simplification, number-series, and data interpretation problems.",
+    "explanation": "CONCEPT EXPLANATION\n\nThe square root of a non-negative number a, written √a, is the non-negative value whose square equals a. The cube root of any real number a, written ∛a, is the value whose cube equals a. Perfect squares (1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400) and perfect cubes (1, 8, 27, 64, 125, 216, 343, 512, 729, 1000) should be memorized for speed.\n\nKey properties: √(ab) = √a × √b for a, b ≥ 0; √(a/b) = √a/√b for a ≥ 0, b > 0; (√a)² = a; ∛(a³) = a; ∛(ab) = ∛a × ∛b. To simplify √n, factor n into perfect square × remainder: √72 = √(36×2) = 6√2.\n\nTo compare roots like √50 and √72, compare the radicands directly. For cube roots of large numbers, group digits in threes from the right and use estimation.\n\nREAL-LIFE APPLICATIONS\n\nSquare roots appear in geometry (Pythagorean theorem side lengths), standard deviation in statistics, and scaling blueprints. Cube roots model volume-to-edge conversions (finding the side of a cube given its volume) and engineering tolerances for three-dimensional objects.\n\nCOMMON MISTAKES\n\n1) Taking √(a + b) as √a + √b — this is false in general.\n2) Forgetting that √a is defined as non-negative for real numbers.\n3) Confusing square-root and cube-root digit-grouping rules.\n4) Not simplifying fully: √128 = 8√2, not 4√8.\n5) Misidentifying perfect squares near large numbers (e.g., 289 vs 291).\n\nIMPORTANT NOTES\n\n• √0 = 0 and ∛0 = 0.\n• √1 = 1 and ∛1 = 1.\n• Perfect squares never end in 2, 3, 7, or 8.\n• Numbers ending in 2, 3, 7, 8 are never perfect cubes.\n• When comparing √a and √b with a < b, always √a < √b for non-negative values.",
+    "formulas": [
+      { "title": "Definition of square root", "content": "If x² = a and a ≥ 0, then x = √a (principal, non-negative root)" },
+      { "title": "Definition of cube root", "content": "If x³ = a, then x = ∛a" },
+      { "title": "Product under square root", "content": "√(a × b) = √a × √b for a, b ≥ 0" },
+      { "title": "Quotient under square root", "content": "√(a / b) = √a / √b for a ≥ 0, b > 0" },
+      { "title": "Simplify using perfect square factor", "content": "√n = √(p² × r) = p√r where p² is the largest perfect square dividing n" },
+      { "title": "Cube root of a product", "content": "∛(a × b) = ∛a × ∛b for all real a, b" }
+    ],
+    "shortcutTips": [
+      { "title": "Memorize squares up to 30²", "tip": "Know 11² = 121 through 30² = 900 to spot perfect squares instantly." },
+      { "title": "Unit digit check for squares", "tip": "Perfect squares never end in 2, 3, 7, or 8." },
+      { "title": "Nearest perfect square", "tip": "For √n, find the nearest perfect squares below and above n to estimate quickly." },
+      { "title": "Cube root by grouping", "tip": "For ∛ of large numbers, group digits in threes from the decimal point rightward." },
+      { "title": "Compare roots via radicands", "tip": "To compare √a and √b, compare a and b directly when both are non-negative." },
+      { "title": "Factor before simplifying", "tip": "Always pull out the largest perfect square factor before leaving a surd." }
+    ],
+    "solvedExamples": [
+      {
+        "problem": "Simplify √450.",
+        "solution": "√450 = 15√2.",
+        "steps": [
+          "450 = 225 × 2 = 15² × 2.",
+          "√450 = √(15² × 2) = 15√2."
+        ]
+      },
+      {
+        "problem": "Find the cube root of 9261.",
+        "solution": "∛9261 = 21.",
+        "steps": [
+          "9261 ends in 1, so the cube root ends in 1.",
+          "9261 has four digits, so the root is two digits near ∛9000 ≈ 20.",
+          "Try 21: 21³ = 9261. Hence ∛9261 = 21."
+        ]
+      },
+      {
+        "problem": "Which is greater: √50 or 7?",
+        "solution": "√50 is greater than 7.",
+        "steps": [
+          "Compare squares: 7² = 49 and (√50)² = 50.",
+          "Since 50 > 49, we have √50 > 7."
+        ]
+      },
+      {
+        "problem": "Evaluate √0.16 + ∛0.008.",
+        "solution": "The value is 0.6.",
+        "steps": [
+          "√0.16 = 0.4.",
+          "∛0.008 = 0.2.",
+          "Sum = 0.4 + 0.2 = 0.6."
+        ]
+      }
+    ],
+    "references": []
+  },
+  "exercise": {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-square-root-and-cube-root-general",
+    "title": "General Questions",
+    "description": "MCQ practice on square roots, cube roots, perfect powers, and root comparisons.",
+    "order": 1,
+    "isPublished": true
+  },
+  "questions": [
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "What is the value of √144?",
+      "options": [
+        { "optionId": "A", "text": "11" },
+        { "optionId": "B", "text": "12" },
+        { "optionId": "C", "text": "13" },
+        { "optionId": "D", "text": "14" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "12² = 144, so √144 = 12.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["square-root-and-cube-root", "perfect-square"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find ∛512.",
+      "options": [
+        { "optionId": "A", "text": "6" },
+        { "optionId": "B", "text": "7" },
+        { "optionId": "C", "text": "8" },
+        { "optionId": "D", "text": "9" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "8³ = 512, so ∛512 = 8.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["square-root-and-cube-root", "perfect-cube"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify √98.",
+      "options": [
+        { "optionId": "A", "text": "7√2" },
+        { "optionId": "B", "text": "2√7" },
+        { "optionId": "C", "text": "14√2" },
+        { "optionId": "D", "text": "49√2" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "98 = 49 × 2 = 7² × 2, so √98 = 7√2.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["square-root-and-cube-root", "simplification"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Which of the following is a perfect square?",
+      "options": [
+        { "optionId": "A", "text": "288" },
+        { "optionId": "B", "text": "342" },
+        { "optionId": "C", "text": "441" },
+        { "optionId": "D", "text": "450" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "441 = 21². The others are not perfect squares.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["square-root-and-cube-root", "perfect-square"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Evaluate √(49/16).",
+      "options": [
+        { "optionId": "A", "text": "7/4" },
+        { "optionId": "B", "text": "49/16" },
+        { "optionId": "C", "text": "4/7" },
+        { "optionId": "D", "text": "7/16" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "√(49/16) = √49/√16 = 7/4.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["square-root-and-cube-root", "fraction"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If √x = 13, find x.",
+      "options": [
+        { "optionId": "A", "text": "26" },
+        { "optionId": "B", "text": "130" },
+        { "optionId": "C", "text": "169" },
+        { "optionId": "D", "text": "196" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "x = 13² = 169.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["square-root-and-cube-root"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify √192.",
+      "options": [
+        { "optionId": "A", "text": "4√12" },
+        { "optionId": "B", "text": "8√3" },
+        { "optionId": "C", "text": "16√3" },
+        { "optionId": "D", "text": "6√8" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "192 = 64 × 3 = 8² × 3, so √192 = 8√3.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["square-root-and-cube-root", "simplification"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find ∛1331.",
+      "options": [
+        { "optionId": "A", "text": "9" },
+        { "optionId": "B", "text": "10" },
+        { "optionId": "C", "text": "11" },
+        { "optionId": "D", "text": "12" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "11³ = 1331, so ∛1331 = 11.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["square-root-and-cube-root", "perfect-cube"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Which is the greatest among √63, 7, √80, and 8?",
+      "options": [
+        { "optionId": "A", "text": "√63" },
+        { "optionId": "B", "text": "7" },
+        { "optionId": "C", "text": "√80" },
+        { "optionId": "D", "text": "8" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "√63 ≈ 7.94, √80 ≈ 8.94. Both exceed 7 and 8, and √80 > √63.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["square-root-and-cube-root", "comparison"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Evaluate √121 × √4.",
+      "options": [
+        { "optionId": "A", "text": "11" },
+        { "optionId": "B", "text": "15" },
+        { "optionId": "C", "text": "22" },
+        { "optionId": "D", "text": "44" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "√121 × √4 = 11 × 2 = 22.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["square-root-and-cube-root"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "If x² = 784 and x is positive, find x.",
+      "options": [
+        { "optionId": "A", "text": "26" },
+        { "optionId": "B", "text": "27" },
+        { "optionId": "C", "text": "28" },
+        { "optionId": "D", "text": "29" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "28² = 784, so x = 28.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["square-root-and-cube-root", "perfect-square"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify ∛54.",
+      "options": [
+        { "optionId": "A", "text": "3∛2" },
+        { "optionId": "B", "text": "2∛3" },
+        { "optionId": "C", "text": "6∛2" },
+        { "optionId": "D", "text": "9∛2" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "54 = 27 × 2 = 3³ × 2, so ∛54 = 3∛2.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["square-root-and-cube-root", "simplification"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find √0.81.",
+      "options": [
+        { "optionId": "A", "text": "0.09" },
+        { "optionId": "B", "text": "0.81" },
+        { "optionId": "C", "text": "0.9" },
+        { "optionId": "D", "text": "9" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "0.9² = 0.81, so √0.81 = 0.9.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["square-root-and-cube-root", "decimal"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Which of the following is a perfect cube?",
+      "options": [
+        { "optionId": "A", "text": "250" },
+        { "optionId": "B", "text": "216" },
+        { "optionId": "C", "text": "300" },
+        { "optionId": "D", "text": "350" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "216 = 6³. The other numbers are not perfect cubes.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["square-root-and-cube-root", "perfect-cube"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find ∛(-125).",
+      "options": [
+        { "optionId": "A", "text": "-25" },
+        { "optionId": "B", "text": "-5" },
+        { "optionId": "C", "text": "5" },
+        { "optionId": "D", "text": "Not a real number" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "(-5)³ = -125, so ∛(-125) = -5.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["square-root-and-cube-root", "negative"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify √180.",
+      "options": [
+        { "optionId": "A", "text": "6√5" },
+        { "optionId": "B", "text": "9√2" },
+        { "optionId": "C", "text": "10√3" },
+        { "optionId": "D", "text": "18√5" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "180 = 36 × 5 = 6² × 5, so √180 = 6√5.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["square-root-and-cube-root", "simplification"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A square field has area 289 m². Find the side length.",
+      "options": [
+        { "optionId": "A", "text": "15 m" },
+        { "optionId": "B", "text": "16 m" },
+        { "optionId": "C", "text": "17 m" },
+        { "optionId": "D", "text": "18 m" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Side = √289 = 17 m.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["square-root-and-cube-root", "application"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Which is greater: √(50 + 50) or √50 + √50?",
+      "options": [
+        { "optionId": "A", "text": "√(50 + 50)" },
+        { "optionId": "B", "text": "√50 + √50" },
+        { "optionId": "C", "text": "Both are equal" },
+        { "optionId": "D", "text": "Cannot be determined" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "√(100) = 10, while √50 + √50 ≈ 7.07 + 7.07 = 14.14. So √50 + √50 is greater.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["square-root-and-cube-root", "comparison"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find ∛0.027.",
+      "options": [
+        { "optionId": "A", "text": "0.03" },
+        { "optionId": "B", "text": "0.3" },
+        { "optionId": "C", "text": "3" },
+        { "optionId": "D", "text": "0.003" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "0.3³ = 0.027, so ∛0.027 = 0.3.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 60,
+      "tags": ["square-root-and-cube-root", "decimal"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find the least whole number n such that √n > 15.",
+      "options": [
+        { "optionId": "A", "text": "224" },
+        { "optionId": "B", "text": "225" },
+        { "optionId": "C", "text": "226" },
+        { "optionId": "D", "text": "256" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "15² = 225, so √225 = 15 exactly. The least n with √n > 15 is 226.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["square-root-and-cube-root", "estimation"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Evaluate √(2.25) + ∛(0.125).",
+      "options": [
+        { "optionId": "A", "text": "1.5" },
+        { "optionId": "B", "text": "1.6" },
+        { "optionId": "C", "text": "1.7" },
+        { "optionId": "D", "text": "2.0" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "√2.25 = 1.5 and ∛0.125 = 0.5. Sum = 1.5 + 0.5 = 2.0.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 75,
+      "tags": ["square-root-and-cube-root", "decimal"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Find ∛729.",
+      "options": [
+        { "optionId": "A", "text": "7" },
+        { "optionId": "B", "text": "8" },
+        { "optionId": "C", "text": "9" },
+        { "optionId": "D", "text": "27" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "9³ = 729, so ∛729 = 9.",
+      "difficulty": "easy",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 45,
+      "tags": ["square-root-and-cube-root", "perfect-cube"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "A cube has volume 3375 cm³. Find its edge length.",
+      "options": [
+        { "optionId": "A", "text": "13 cm" },
+        { "optionId": "B", "text": "14 cm" },
+        { "optionId": "C", "text": "15 cm" },
+        { "optionId": "D", "text": "16 cm" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "15³ = 3375, so edge = ∛3375 = 15 cm.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["square-root-and-cube-root", "application"],
+      "questionType": "MCQ"
+    },
+    {
+      "exerciseId": "REPLACE_EXERCISE_ID",
+      "question": "Simplify √(72/50).",
+      "options": [
+        { "optionId": "A", "text": "6/5" },
+        { "optionId": "B", "text": "√(36/25)" },
+        { "optionId": "C", "text": "Both A and B" },
+        { "optionId": "D", "text": "12/5" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "72/50 = 36/25. √(36/25) = 6/5.",
+      "difficulty": "medium",
+      "marks": 1,
+      "negativeMarks": 0.25,
+      "timeLimit": 90,
+      "tags": ["square-root-and-cube-root", "fraction"],
+      "questionType": "MCQ"
+    }
+  ]
+}

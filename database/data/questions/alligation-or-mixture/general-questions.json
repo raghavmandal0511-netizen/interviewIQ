@@ -1,0 +1,738 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In what ratio must wheat at Rs. 4.50 per kg be mixed with wheat at Rs. 5.25 per kg so that the mixture costs Rs. 4.95 per kg?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2 : 3"
+      },
+      {
+        "optionId": "B",
+        "text": "3 : 2"
+      },
+      {
+        "optionId": "C",
+        "text": "1 : 2"
+      },
+      {
+        "optionId": "D",
+        "text": "2 : 1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ratio = (5.25−4.95):(4.95−4.50) = 0.30:0.45 = 2:3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Tea at Rs. 60/kg is mixed with tea at Rs. 90/kg to get a mixture worth Rs. 75/kg. What is the ratio of cheaper to dearer tea?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 : 1"
+      },
+      {
+        "optionId": "B",
+        "text": "1 : 2"
+      },
+      {
+        "optionId": "C",
+        "text": "2 : 1"
+      },
+      {
+        "optionId": "D",
+        "text": "3 : 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(90−75):(75−60) = 15:15 = 1:1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A 40-litre container has pure milk. 8 litres are removed and replaced with water. How much milk remains?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "28 litres"
+      },
+      {
+        "optionId": "B",
+        "text": "30 litres"
+      },
+      {
+        "optionId": "C",
+        "text": "32 litres"
+      },
+      {
+        "optionId": "D",
+        "text": "34 litres"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Milk left = 40 × (1 − 8/40) = 40 × 0.8 = 32 litres.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Sugar at Rs. 8/kg and Rs. 12/kg are mixed in ratio 1:1. What is the mean price per kg?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 9"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 10"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 11"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 12"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mean = (8 + 12)/2 = Rs. 10 per kg.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In what ratio must a 20% alcohol solution be mixed with a 50% alcohol solution to get a 35% solution?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 : 1"
+      },
+      {
+        "optionId": "B",
+        "text": "1 : 2"
+      },
+      {
+        "optionId": "C",
+        "text": "2 : 1"
+      },
+      {
+        "optionId": "D",
+        "text": "3 : 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(50−35):(35−20) = 15:15 = 1:1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A vessel contains 50 litres of pure milk. 10 litres are drawn and replaced with water. How much milk is left?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "35 litres"
+      },
+      {
+        "optionId": "B",
+        "text": "38 litres"
+      },
+      {
+        "optionId": "C",
+        "text": "40 litres"
+      },
+      {
+        "optionId": "D",
+        "text": "42 litres"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Milk = 50 × (1 − 10/50) = 50 × 0.8 = 40 litres.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rice at Rs. 24/kg and Rs. 15/kg are mixed to obtain rice worth Rs. 18/kg. Find the ratio in which they must be mixed.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 : 2"
+      },
+      {
+        "optionId": "B",
+        "text": "2 : 1"
+      },
+      {
+        "optionId": "C",
+        "text": "1 : 3"
+      },
+      {
+        "optionId": "D",
+        "text": "3 : 1"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(24−18):(18−15) = 6:3 = 2:1 (cheaper:dearer).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many litres of a 30% acid solution must be mixed with 20 litres of a 60% acid solution to get a 45% solution?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "15 litres"
+      },
+      {
+        "optionId": "B",
+        "text": "20 litres"
+      },
+      {
+        "optionId": "C",
+        "text": "25 litres"
+      },
+      {
+        "optionId": "D",
+        "text": "30 litres"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ratio 30:60 = (60−45):(45−30) = 15:15 = 1:1. So 20 L of 30% needed.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A 80-litre cask contains pure wine. 16 litres are removed and replaced with water. This operation is repeated once. How much wine remains?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "48 litres"
+      },
+      {
+        "optionId": "B",
+        "text": "51.2 litres"
+      },
+      {
+        "optionId": "C",
+        "text": "54.4 litres"
+      },
+      {
+        "optionId": "D",
+        "text": "57.6 litres"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Wine = 80 × (1 − 16/80)² = 80 × (4/5)² = 51.2 litres.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two varieties of oil costing Rs. 50/litre and Rs. 70/litre are mixed in ratio 3:2. What is the cost of the mixture per litre?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 56"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 58"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 60"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 62"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mean = (3×50 + 2×70)/5 = (150+140)/5 = 58.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A milkman mixes water (cost Rs. 0) with milk costing Rs. 40/litre to sell at Rs. 32/litre. In what ratio are milk and water mixed?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3 : 1"
+      },
+      {
+        "optionId": "B",
+        "text": "4 : 1"
+      },
+      {
+        "optionId": "C",
+        "text": "5 : 1"
+      },
+      {
+        "optionId": "D",
+        "text": "2 : 1"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Milk:water = (32−0):(40−32) = 32:8 = 4:1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "30 kg of an alloy costing Rs. 100/kg is mixed with 20 kg of another alloy costing Rs. 160/kg. Find the mean cost per kg.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 120"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 124"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 128"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 132"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mean = (30×100 + 20×160)/50 = (3000+3200)/50 = 124.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A container has 100 litres of pure alcohol. 25 litres are replaced with water. What percentage of the mixture is alcohol?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "65%"
+      },
+      {
+        "optionId": "B",
+        "text": "70%"
+      },
+      {
+        "optionId": "C",
+        "text": "75%"
+      },
+      {
+        "optionId": "D",
+        "text": "80%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alcohol = 75 L of 100 L ⇒ 75%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In what ratio must Rs. 5 coins and Rs. 10 coins be mixed so that the average value is Rs. 7.50?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 : 1"
+      },
+      {
+        "optionId": "B",
+        "text": "2 : 1"
+      },
+      {
+        "optionId": "C",
+        "text": "1 : 2"
+      },
+      {
+        "optionId": "D",
+        "text": "3 : 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(10−7.5):(7.5−5) = 2.5:2.5 = 1:1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A 60-litre vessel of milk has 12 litres removed and replaced with water, done 3 times. How much milk remains?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "24.58 litres"
+      },
+      {
+        "optionId": "B",
+        "text": "27.65 litres"
+      },
+      {
+        "optionId": "C",
+        "text": "30.72 litres"
+      },
+      {
+        "optionId": "D",
+        "text": "33.79 litres"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Milk = 60 × (1 − 12/60)³ = 60 × (4/5)³ = 60 × 64/125 = 30.72 L.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How much water must be added to 30 litres of milk costing Rs. 4.80/litre so that the mixture is worth Rs. 3.60/litre?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8 litres"
+      },
+      {
+        "optionId": "B",
+        "text": "10 litres"
+      },
+      {
+        "optionId": "C",
+        "text": "12 litres"
+      },
+      {
+        "optionId": "D",
+        "text": "15 litres"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Milk:water = (3.60−0):(4.80−3.60) = 3.6:1.2 = 3:1. Water = 30/3 = 10 L.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A mixture of 45 litres contains milk and water in ratio 5:4. How much water must be added to make the ratio 5:6?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8 litres"
+      },
+      {
+        "optionId": "B",
+        "text": "10 litres"
+      },
+      {
+        "optionId": "C",
+        "text": "12 litres"
+      },
+      {
+        "optionId": "D",
+        "text": "15 litres"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Milk = 25 L, water = 20 L. Need 25/w = 5/6 ⇒ w = 30. Add 10 L water.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Spirit at Rs. 80/litre is mixed with water to sell at Rs. 64/litre. What is the ratio of spirit to water?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3 : 1"
+      },
+      {
+        "optionId": "B",
+        "text": "4 : 1"
+      },
+      {
+        "optionId": "C",
+        "text": "5 : 1"
+      },
+      {
+        "optionId": "D",
+        "text": "2 : 1"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(64−0):(80−64) = 64:16 = 4:1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A shopkeeper mixes two pulses in ratio 2:3 costing Rs. 40/kg and Rs. 55/kg. What is the selling price per kg if he wants 20% profit on cost?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs. 58.80"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs. 60.00"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs. 61.20"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs. 62.40"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cost = (2×40 + 3×55)/5 = 49/kg. SP with 20% profit = 49 × 1.2 = Rs. 58.80.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A 25% salt solution and 75% salt solution are mixed in ratio 2:1. What is the concentration of the mixture?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "40%"
+      },
+      {
+        "optionId": "B",
+        "text": "42%"
+      },
+      {
+        "optionId": "C",
+        "text": "45%"
+      },
+      {
+        "optionId": "D",
+        "text": "50%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Concentration = (2×25 + 1×75)/3 = 125/3 ≈ 41.67% ≈ 42%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From a 64-litre cask of wine, 8 litres are drawn and replaced with water. After 2 such operations, what fraction of the cask is wine?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "49/64"
+      },
+      {
+        "optionId": "B",
+        "text": "27/32"
+      },
+      {
+        "optionId": "C",
+        "text": "7/8"
+      },
+      {
+        "optionId": "D",
+        "text": "15/16"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fraction wine = (1 − 8/64)² = (7/8)² = 49/64.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Gold of 18 carat is mixed with gold of 24 carat to obtain 20 carat gold. Find the required ratio.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2 : 1"
+      },
+      {
+        "optionId": "B",
+        "text": "1 : 2"
+      },
+      {
+        "optionId": "C",
+        "text": "3 : 1"
+      },
+      {
+        "optionId": "D",
+        "text": "1 : 3"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(24−20):(20−18) = 4:2 = 2:1 (lower carat : higher carat).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A chemist mixes 10 litres of 15% solution with x litres of 45% solution to get a 30% solution. Find x.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8 litres"
+      },
+      {
+        "optionId": "B",
+        "text": "10 litres"
+      },
+      {
+        "optionId": "C",
+        "text": "12 litres"
+      },
+      {
+        "optionId": "D",
+        "text": "15 litres"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ratio 15:45 = (45−30):(30−15) = 15:15 = 1:1. So x = 10 L.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "alligation-or-mixture"
+    ],
+    "questionType": "MCQ"
+  }
+]

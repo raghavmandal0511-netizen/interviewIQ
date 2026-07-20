@@ -1,0 +1,34 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-simplification-formula",
+    "title": "Formula Practice",
+    "description": "Formula practice for Simplification",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-simplification-general-questions",
+    "title": "General Questions",
+    "description": "Standard MCQs on Simplification",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-simplification-data-sufficiency-1",
+    "title": "Data Sufficiency 1",
+    "description": "Data Sufficiency 1 for Simplification",
+    "order": 3,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-simplification-data-sufficiency-2",
+    "title": "Data Sufficiency 2",
+    "description": "Data Sufficiency 2 for Simplification",
+    "order": 4,
+    "isPublished": true
+  }
+]

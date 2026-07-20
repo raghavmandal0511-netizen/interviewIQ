@@ -1,0 +1,88 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Calendar problems ask you to determine the day of the week for a given date, check whether a year is a leap year, or find when a calendar repeats itself. The technique relies entirely on counting odd days — the remainder left when the total number of days is divided by 7. Once you master odd-day counting, any calendar question becomes straightforward arithmetic.",
+  "explanation": "CONCEPT EXPLANATION\n\nAn ordinary (non-leap) year has 365 days = 52 weeks + 1 day, so it contributes 1 odd day. A leap year has 366 days = 52 weeks + 2 days, contributing 2 odd days.\n\nA year is a leap year if it is divisible by 4, except century years, which must be divisible by 400 to be leap years (so 1900 is not a leap year, but 2000 is).\n\nFor counting odd days over centuries: 100 years contain 5 odd days, 200 years contain 3 odd days, 300 years contain 1 odd day, and 400 years contain 0 odd days (because 400 years have exactly 97 leap years, making the total days a multiple of 7).\n\nTo find the day of the week for any date, count the total odd days from a known reference point up to that date, then map the remainder (0 to 6) to a day using the convention: 0 = Sunday, 1 = Monday, 2 = Tuesday, 3 = Wednesday, 4 = Thursday, 5 = Friday, 6 = Saturday.\n\nFor a specific date within a year, add the odd days contributed by full months already passed (using each month's day count mod 7) plus the day number itself, then take mod 7 relative to the reference day.\n\nREAL-LIFE APPLICATIONS\n\nScheduling recurring events, verifying historical dates, determining if a particular date in the past or future falls on a weekend, and understanding why calendars \"repeat\" after certain intervals all rely on this odd-day logic.\n\nCOMMON MISTAKES\n\n1) Forgetting to check the century rule for leap years (divisible by 100 but not 400 is NOT a leap year).\n2) Counting the reference date's own day incorrectly when computing days elapsed.\n3) Using 365 days for a leap year by mistake.\n4) Mixing up the day-code convention (which number maps to which weekday).\n5) Not reducing the total odd days modulo 7 before mapping to a weekday.\n\nIMPORTANT NOTES\n\n• Leap year rule: divisible by 4 and (not divisible by 100 or divisible by 400).\n\n• 100 years → 5 odd days; 200 years → 3 odd days; 300 years → 1 odd day; 400 years → 0 odd days.\n\n• A calendar for a non-leap year repeats itself after another year with the same odd-day count and leap status; the same calendar (with same start day) typically recurs after 28 years under simple conditions, though the exact gap depends on the leap year pattern.\n\n• Always double check whether February has 28 or 29 days for the year in question.",
+  "formulas": [
+    {
+      "title": "Odd days in ordinary year",
+      "content": "Ordinary year (365 days) = 1 odd day"
+    },
+    {
+      "title": "Odd days in leap year",
+      "content": "Leap year (366 days) = 2 odd days"
+    },
+    {
+      "title": "Odd days per century block",
+      "content": "100 years = 5 odd days; 200 years = 3 odd days; 300 years = 1 odd day; 400 years = 0 odd days"
+    },
+    {
+      "title": "Leap year test",
+      "content": "Year is leap if divisible by 4 AND (not divisible by 100 OR divisible by 400)"
+    },
+    {
+      "title": "Day-of-week mapping",
+      "content": "Total odd days mod 7 → 0=Sun, 1=Mon, 2=Tue, 3=Wed, 4=Thu, 5=Fri, 6=Sat"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Memorise the 400-year cycle",
+      "tip": "Every block of exactly 400 years contributes 0 odd days, so the calendar of year Y matches year Y+400 exactly."
+    },
+    {
+      "title": "Century shortcuts",
+      "tip": "Remember 100→5, 200→3, 300→1, 400→0 odd days instead of recomputing leap years each time."
+    },
+    {
+      "title": "Month odd-day table",
+      "tip": "Precompute odd days contributed by each month (31 days = 3 odd days, 30 days = 2 odd days, 28 days = 0, 29 days = 1) to speed up within-year calculations."
+    },
+    {
+      "title": "Check century leap rule first",
+      "tip": "For any year ending in 00, check divisibility by 400 before applying the divisible-by-4 rule."
+    },
+    {
+      "title": "Use a known anchor",
+      "tip": "If you know that 1 January of a certain year falls on a known day, count forward/backward using odd days rather than starting from year 1."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Is the year 2000 a leap year? Is 1900 a leap year?",
+      "solution": "2000 is a leap year; 1900 is not.",
+      "steps": [
+        "2000 is divisible by 400, so it is a leap year.",
+        "1900 is divisible by 100 but not by 400, so it is not a leap year."
+      ]
+    },
+    {
+      "problem": "January 1, 2001 was a Monday. What day of the week was January 1, 2002?",
+      "solution": "January 1, 2002 was a Tuesday.",
+      "steps": [
+        "2001 is not a leap year, so it has 1 odd day.",
+        "Adding 1 odd day to Monday moves us to Tuesday.",
+        "So January 1, 2002 was a Tuesday."
+      ]
+    },
+    {
+      "problem": "Find the number of odd days in 400 years, and explain why the calendar repeats every 400 years.",
+      "solution": "400 years contain exactly 0 odd days, so the calendar repeats.",
+      "steps": [
+        "Odd days in 400 years = odd days in 4 blocks of 100 years combined = 5+5+5+5 = 20, but the 400th year is itself a leap year so an adjustment applies.",
+        "Using the standard rule, 400 years contain exactly 97 leap years and 303 ordinary years.",
+        "Total days = 303×365 + 97×366 = a number exactly divisible by 7, giving 0 odd days.",
+        "Since 0 odd days remain, the weekday pattern realigns exactly after 400 years."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Wikipedia — Doomsday rule (day of week calculation)",
+      "url": "https://en.wikipedia.org/wiki/Doomsday_rule"
+    },
+    {
+      "title": "Wikipedia — Leap year",
+      "url": "https://en.wikipedia.org/wiki/Leap_year"
+    }
+  ]
+}

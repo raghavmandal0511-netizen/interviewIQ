@@ -1,0 +1,18 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-verbal-classification-odd-one-out",
+    "title": "Odd One Out",
+    "description": "Find the word that does not belong",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-verbal-classification-classification",
+    "title": "Classification",
+    "description": "Group words by shared category or property",
+    "order": 2,
+    "isPublished": true
+  }
+]

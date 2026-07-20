@@ -1,0 +1,88 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Volume measures space occupied; surface area measures total outer area. Formulas for 3D solids are staples of aptitude tests, often combined with melting/recasting or tank-filling problems.",
+  "explanation": "CONCEPT EXPLANATION\n\nCube (edge a): Volume = a³; TSA = 6a²; LSA = 4a².\n\nCuboid (l,b,h): Volume = lbh; TSA = 2(lb+bh+hl); LSA = 2h(l+b).\n\nCylinder (r,h): Volume = πr²h; CSA = 2πrh; TSA = 2πr(r+h).\n\nCone (r,h,l): Volume = ⅓πr²h; CSA = πrl; TSA = πr(l+r).\n\nSphere (r): Volume = ⁴⁄₃πr³; SA = 4πr².\n\nHemisphere (r): Volume = ⅔πr³; CSA = 2πr²; TSA = 3πr².\n\nMelting/recasting: volume before = volume after.\n\nREAL-LIFE APPLICATIONS\n\nTank capacity, packaging design, metal casting, paint required for objects, and storage silo calculations.\n\nCOMMON MISTAKES\n\n1) Using diameter as radius.\n2) Forgetting factor ⅓ for cone/ pyramid volume.\n3) Confusing CSA with TSA.\n4) Unit errors (cm³ to litres: divide by 1000).\n5) Not adding top/bottom in open vs closed containers.\n\nIMPORTANT NOTES\n\n• 1 litre = 1000 cm³ = 1 dm³.\n• For open cylinder (no top), TSA = πr² + 2πrh.\n• Combined solids: add volumes; surface contact areas may be hidden.\n• 1 m³ = 1,000,000 cm³.",
+  "formulas": [
+    {
+      "title": "Cube volume",
+      "content": "V = a³"
+    },
+    {
+      "title": "Cuboid volume",
+      "content": "V = l × b × h"
+    },
+    {
+      "title": "Cylinder volume",
+      "content": "V = πr²h"
+    },
+    {
+      "title": "Cone volume",
+      "content": "V = ⅓πr²h"
+    },
+    {
+      "title": "Sphere volume",
+      "content": "V = ⁴⁄₃πr³"
+    },
+    {
+      "title": "Sphere surface area",
+      "content": "SA = 4πr²"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Radius check",
+      "tip": "Halve the diameter before substituting in πr²."
+    },
+    {
+      "title": "Cone third",
+      "tip": "Cone volume is exactly one-third of a cylinder with same base and height."
+    },
+    {
+      "title": "Litres",
+      "tip": "cm³ ÷ 1000 = litres."
+    },
+    {
+      "title": "Open vessel",
+      "tip": "Subtract the covered face from total surface area."
+    },
+    {
+      "title": "Melting problems",
+      "tip": "Equate volumes before and after recasting."
+    },
+    {
+      "title": "Hemisphere TSA",
+      "tip": "Include the circular base: 3πr²."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Cube edge 5 cm. Volume?",
+      "solution": "125 cm³.",
+      "steps": [
+        "V = 5³ = 125 cm³"
+      ]
+    },
+    {
+      "problem": "Cylinder r=7 cm, h=10 cm (π=22/7). Volume?",
+      "solution": "1540 cm³.",
+      "steps": [
+        "V = 22/7 × 49 × 10 = 1540 cm³"
+      ]
+    },
+    {
+      "problem": "Sphere radius 3 cm (π=22/7). Volume?",
+      "solution": "792/7 ≈ 113.14 cm³.",
+      "steps": [
+        "V = 4/3 × 22/7 × 27 = 792/7 cm³"
+      ]
+    },
+    {
+      "problem": "Cuboid 8×6×5 cm. TSA?",
+      "solution": "236 cm².",
+      "steps": [
+        "TSA = 2(48+30+40) = 236 cm²"
+      ]
+    }
+  ],
+  "references": []
+}

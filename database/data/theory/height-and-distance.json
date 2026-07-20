@@ -1,0 +1,92 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Height and Distance problems apply basic trigonometry to find unknown heights or horizontal distances using angles of elevation (looking up) or depression (looking down). A right triangle is formed by the vertical height, horizontal distance, and the line of sight. Standard angles 30°, 45°, and 60° appear frequently, so knowing their sine, cosine, and tangent values speeds up solutions.",
+  "explanation": "CONCEPT EXPLANATION\n\nWhen an observer at point O looks at the top T of a tower, the angle between the horizontal and line of sight OT is the angle of elevation. If the observer is above the object, the angle between the horizontal and the downward line of sight is the angle of depression; it equals the angle of elevation from the object to the observer.\n\nIn the right triangle: tan θ = Height / Horizontal distance; sin θ = Height / Slant distance (hypotenuse); cos θ = Base / Hypotenuse.\n\nShadow problems treat the sun's rays as making angle θ with the ground, so Height / Shadow length = tan θ.\n\nWhen an observer walks toward a tower and the angle of elevation changes from θ1 to θ2, the height can be found using h = d / (cot θ1 − cot θ2), where d is the distance walked toward the tower.\n\nREAL-LIFE APPLICATIONS\n\nSurveying, architecture, aviation glide paths, navigation, and estimating building or tree heights without direct measurement use these ideas.\n\nCOMMON MISTAKES\n\n1) Using sin instead of tan for height when horizontal distance is given.\n2) Confusing angle of depression with its complement.\n3) Forgetting that depression from the top equals elevation from the bottom.\n4) Mixing slant height with vertical height.\n5) Not drawing a diagram before assigning opposite and adjacent sides.\n\nIMPORTANT NOTES\n\n• tan 30° = 1/√3, tan 45° = 1, tan 60° = √3.\n• sin 30° = 1/2, sin 60° = √3/2, cos 30° = √3/2, cos 60° = 1/2.\n• Angle of depression from top = angle of elevation from foot of object to observer.\n• Ladder problems: vertical height = ladder length × sin(angle with ground).\n• Always identify the right triangle and label opposite, adjacent, and hypotenuse clearly.",
+  "formulas": [
+    {
+      "title": "Angle of elevation",
+      "content": "tan θ = Height / Horizontal distance"
+    },
+    {
+      "title": "Using sine",
+      "content": "sin θ = Height / Hypotenuse (slant distance)"
+    },
+    {
+      "title": "Using cosine",
+      "content": "cos θ = Base / Hypotenuse"
+    },
+    {
+      "title": "Shadow relation",
+      "content": "Height / Shadow length = tan(angle of elevation of sun)"
+    },
+    {
+      "title": "Angle of depression",
+      "content": "Angle of depression from top = angle of elevation from bottom to observer"
+    },
+    {
+      "title": "Two-position formula",
+      "content": "h = d / (cot θ1 − cot θ2) when observer moves distance d toward object and elevation changes from θ1 to θ2"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "45° shortcut",
+      "tip": "At 45° elevation, height equals horizontal distance because tan 45° = 1."
+    },
+    {
+      "title": "30–60 pair",
+      "tip": "Memorize: opposite 30° is half the hypotenuse; opposite 60° is (√3/2) times hypotenuse."
+    },
+    {
+      "title": "Draw first",
+      "tip": "Sketch the right triangle and mark θ before choosing sin, cos, or tan."
+    },
+    {
+      "title": "Depression equals elevation",
+      "tip": "Replace depression at the top with equal elevation at the lower point."
+    },
+    {
+      "title": "Shadow tip",
+      "tip": "Tree height equals shadow length when the sun's elevation is 45°."
+    },
+    {
+      "title": "Moving observer",
+      "tip": "When walking toward a tower, subtract cotangents: h = d/(cot θ1 − cot θ2)."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "From a point 20 m away, the angle of elevation of the top of a tower is 60°. Find the height of the tower.",
+      "solution": "The height of the tower is 20√3 m (approximately 34.64 m).",
+      "steps": [
+        "tan 60° = h/20.",
+        "h = 20 × √3 = 20√3 m."
+      ]
+    },
+    {
+      "problem": "A ladder 10 m long leans against a wall making 60° with the ground. Find the height reached on the wall.",
+      "solution": "The ladder reaches a height of 5√3 m on the wall.",
+      "steps": [
+        "Height = ladder × sin 60°.",
+        "h = 10 × (√3/2) = 5√3 m."
+      ]
+    },
+    {
+      "problem": "The angle of elevation of the sun is 45°. A pole casts a shadow 12 m long. Find the height of the pole.",
+      "solution": "The height of the pole is 12 m.",
+      "steps": [
+        "Height/Shadow = tan 45° = 1.",
+        "Height = 12 m."
+      ]
+    },
+    {
+      "problem": "From the top of a 50 m cliff, the angle of depression of a boat is 30°. How far is the boat from the base of the cliff?",
+      "solution": "The boat is 50√3 m from the base of the cliff.",
+      "steps": [
+        "Depression 30° ⇒ elevation from boat to cliff top is 30°.",
+        "tan 30° = 50/d ⇒ d = 50/(1/√3) = 50√3 m."
+      ]
+    }
+  ],
+  "references": []
+}

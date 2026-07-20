@@ -1,0 +1,770 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Simple interest on Rs 4,000 at 5% per annum for 4 years is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 600"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 700"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 800"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 900"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SI = (4000 × 5 × 4)/100 = Rs 800.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Amount on Rs 10,000 at 10% SI for 2 years is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 11,000"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 12,000"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 12,100"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 13,000"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SI = 2000. Amount = 10,000 + 2000 = Rs 12,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "SI on Rs 6,000 at 8% for 2.5 years is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 1,000"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 1,100"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 1,200"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 1,300"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SI = (6000 × 8 × 2.5)/100 = Rs 1,200.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "At what rate will Rs 5,000 yield Rs 1,500 SI in 3 years?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8%"
+      },
+      {
+        "optionId": "B",
+        "text": "9%"
+      },
+      {
+        "optionId": "C",
+        "text": "10%"
+      },
+      {
+        "optionId": "D",
+        "text": "12%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "R = (100 × 1500)/(5000 × 3) = 10%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In how many years will Rs 8,000 at 12% SI give interest of Rs 2,880?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2 years"
+      },
+      {
+        "optionId": "B",
+        "text": "2.5 years"
+      },
+      {
+        "optionId": "C",
+        "text": "3 years"
+      },
+      {
+        "optionId": "D",
+        "text": "4 years"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "T = (100 × 2880)/(8000 × 12) = 3 years.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Principal that yields Rs 900 SI at 9% in 2 years is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 4,000"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 4,500"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 5,000"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 5,500"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "P = (100 × 900)/(9 × 2) = Rs 5,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rs 12,000 amounts to Rs 15,600 in 4 years at SI. The rate is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6%"
+      },
+      {
+        "optionId": "B",
+        "text": "7%"
+      },
+      {
+        "optionId": "C",
+        "text": "7.5%"
+      },
+      {
+        "optionId": "D",
+        "text": "8%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SI = 3600. R = (100 × 3600)/(12000 × 4) = 7.5%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "SI on Rs 7,500 for 8 months at 12% per annum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 500"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 600"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 720"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 900"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "T = 8/12 year. SI = (7500 × 12 × 8/12)/100 = Rs 600.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A sum doubles in 5 years at SI. The rate is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "15%"
+      },
+      {
+        "optionId": "B",
+        "text": "18%"
+      },
+      {
+        "optionId": "C",
+        "text": "20%"
+      },
+      {
+        "optionId": "D",
+        "text": "25%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SI = P in 5 years ⇒ R × 5 = 100 ⇒ R = 20%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Difference between amount and principal on Rs 9,000 at 6% for 3 years is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 1,420"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 1,520"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 1,620"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 1,720"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Difference equals SI = (9000 × 6 × 3)/100 = Rs 1,620.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "SI on a sum at 10% for 6 months is Rs 400. The sum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 6,000"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 7,000"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 8,000"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 9,000"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "P = (100 × 400)/(10 × 0.5) = 40,000/5 = Rs 8,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rs 2,000 at 15% SI amounts to Rs 2,900 in:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2 years"
+      },
+      {
+        "optionId": "B",
+        "text": "3 years"
+      },
+      {
+        "optionId": "C",
+        "text": "4 years"
+      },
+      {
+        "optionId": "D",
+        "text": "5 years"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SI = 900. T = (100 × 900)/(2000 × 15) = 3 years.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Annual income from SI on Rs 50,000 at 8% is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 3,000"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 3,500"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 4,000"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 4,500"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "One-year SI = (50000 × 8)/100 = Rs 4,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A sum at SI amounts to Rs 6,600 in 2 years and Rs 7,200 in 5 years. The principal is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 5,000"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 5,400"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 5,800"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 6,000"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Interest for 3 years = 7200 − 6600 = 600. SI for 2 years = 400. Principal = 6600 − 400 = Rs 6,000.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rs 15,000 is lent at 10% SI. Interest for 18 months is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 2,000"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 2,250"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 2,500"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 2,750"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "T = 1.5 years. SI = (15000 × 10 × 1.5)/100 = Rs 2,250.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rate at which Rs 3,200 gives Rs 768 SI in 3 years:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6%"
+      },
+      {
+        "optionId": "B",
+        "text": "7%"
+      },
+      {
+        "optionId": "C",
+        "text": "8%"
+      },
+      {
+        "optionId": "D",
+        "text": "9%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "R = (100 × 768)/(3200 × 3) = 76,800/9600 = 8%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man invests Rs 20,000: Rs 12,000 at 6% and rest at 8% SI. Total annual interest is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 1,360"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 1,440"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 1,520"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 1,600"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Interest = (12000×6)/100 + (8000×8)/100 = 720 + 640 = Rs 1,360.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "SI on Rs 25,000 for 2 years is Rs 5,000. Rate percent is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8%"
+      },
+      {
+        "optionId": "B",
+        "text": "9%"
+      },
+      {
+        "optionId": "C",
+        "text": "10%"
+      },
+      {
+        "optionId": "D",
+        "text": "12%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "R = (100 × 5000)/(25000 × 2) = 10%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How long will Rs 4,500 take to earn Rs 1,350 SI at 15% per annum?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 year"
+      },
+      {
+        "optionId": "B",
+        "text": "1.5 years"
+      },
+      {
+        "optionId": "C",
+        "text": "2 years"
+      },
+      {
+        "optionId": "D",
+        "text": "2.5 years"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "T = (100 × 1350)/(4500 × 15) = 2 years.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A sum at SI amounts to Rs 10,600 in 4 years and Rs 11,200 in 6 years. The sum is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 9,000"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 9,400"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 9,800"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 10,200"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Interest for 2 years = 600, so yearly SI = 300. In 4 years SI = 1200. Principal = 10600 − 1200 = Rs 9,400.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Monthly SI on Rs 6,000 at 18% per annum for 5 months is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Rs 400"
+      },
+      {
+        "optionId": "B",
+        "text": "Rs 450"
+      },
+      {
+        "optionId": "C",
+        "text": "Rs 500"
+      },
+      {
+        "optionId": "D",
+        "text": "Rs 550"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SI = (6000 × 18 × 5)/1200 = Rs 450.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If SI on a sum for 4 years at 12% equals the principal, the sum is any value but rate-time product satisfies:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "RT = 50"
+      },
+      {
+        "optionId": "B",
+        "text": "RT = 75"
+      },
+      {
+        "optionId": "C",
+        "text": "RT = 100"
+      },
+      {
+        "optionId": "D",
+        "text": "RT = 120"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SI = P ⇒ PRT/100 = P ⇒ RT = 100.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rs 1,200 SI is earned on Rs 8,000 in T years at 7.5%. T equals:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 year"
+      },
+      {
+        "optionId": "B",
+        "text": "1.5 years"
+      },
+      {
+        "optionId": "C",
+        "text": "2 years"
+      },
+      {
+        "optionId": "D",
+        "text": "2.5 years"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "T = (100 × 1200)/(8000 × 7.5) = 120,000/60,000 = 2 years.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A loan of Rs 10,000 at SI is repaid as Rs 13,000 after 5 years. The annual rate is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5%"
+      },
+      {
+        "optionId": "B",
+        "text": "6%"
+      },
+      {
+        "optionId": "C",
+        "text": "7%"
+      },
+      {
+        "optionId": "D",
+        "text": "8%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SI = 3000. R = (100 × 3000)/(10000 × 5) = 6%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "simple-interest"
+    ],
+    "questionType": "MCQ"
+  }
+]

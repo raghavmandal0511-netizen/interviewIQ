@@ -1,0 +1,640 @@
+[
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Tell me about yourself.",
+    "sampleAnswer": "I am a final-year Computer Science student from [Your College], and I have built my foundation around practical problem solving rather than only classroom theory. During my academics I focused on data structures, databases, and web development, and I reinforced that learning through projects and an internship. In my third year I interned with a product team where I worked on a small module of an internal dashboard. My role included writing API endpoints, fixing bugs reported by QA, and documenting the changes so the next developer could pick them up quickly. That experience taught me how deadlines, code reviews, and clear communication matter as much as writing correct code. Outside of academics I enjoy participating in coding contests and college tech events. I also volunteered for our placement cell, where I helped juniors with resume reviews and mock interviews. That gave me a clearer sense of what recruiters look for and how to present work honestly. Looking ahead, I want to join a company where I can contribute from day one while continuing to learn from experienced engineers. I am particularly interested in roles that involve building reliable features for real users. I believe my combination of academic grounding, internship exposure, and willingness to take ownership makes me ready for an entry-level position on your team.",
+    "keyPoints": [
+      "Keep the introduction under two minutes",
+      "Cover education, skills, and one concrete project or internship",
+      "End by linking your goals to the role",
+      "Avoid personal life details that do not relate to work"
+    ],
+    "commonMistakes": [
+      "Reciting the entire resume line by line",
+      "Speaking only about personal hobbies with no professional context",
+      "Being vague about what you actually built or learned"
+    ],
+    "interviewerTips": [
+      "Practice aloud and time yourself",
+      "Customize one line for the company and role",
+      "Use a clear structure: present, past, future"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Why should I hire you?",
+    "sampleAnswer": "You should hire me because I bring a mix of readiness to learn and the discipline to deliver on assigned work. As a fresher I will not claim I know every tool your team uses, but I do know how to break a problem down, ask the right questions, and finish what I start. In my final-year project we built a web application for managing campus event registrations. Midway through, the requirements changed and we had to redesign the database schema. Instead of delaying endlessly, I proposed a phased approach, updated the models, wrote migration notes, and coordinated with my teammate so the frontend stayed in sync. We still submitted on time, and the project scored well in the review. I also bring soft skills that matter in a team. During my internship I regularly updated my mentor on progress, flagged blockers early, and accepted feedback without becoming defensive. That habit reduces surprises for managers. I am comfortable working with documentation, Git, and basic testing, and I am eager to deepen those skills under guidance. Hiring me means you get someone who is coachable, reliable on deadlines, and motivated to grow into a stronger contributor. I want this role specifically because it matches the technology stack and problem space I have been preparing for, so I will not treat it as a temporary stopgap. I am ready to start contributing while learning your processes quickly.",
+    "keyPoints": [
+      "Connect your skills to the job requirements",
+      "Give one concrete example of ownership",
+      "Show coachability and reliability",
+      "Explain why you fit this role, not any role"
+    ],
+    "commonMistakes": [
+      "Giving a generic answer that could fit any candidate",
+      "Overclaiming expertise you do not have",
+      "Focusing only on grades without work habits"
+    ],
+    "interviewerTips": [
+      "Map two or three job needs to your evidence",
+      "Keep the tone confident but humble",
+      "Close with willingness to contribute from day one"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "What are your strengths and weaknesses?",
+    "sampleAnswer": "One of my strengths is structured problem solving. When I face a task I first clarify the expected outcome, then break the work into smaller steps and check progress against those steps. During my internship this helped when I was asked to fix a login bug that appeared only on certain browsers. Instead of guessing, I reproduced the issue, checked recent commits, and isolated a cookie-handling mistake. The fix was small, but the method saved time and built trust with my mentor. Another strength is clear communication. I prefer writing short status updates and asking clarifying questions early rather than working in silence and delivering the wrong thing. My weakness is that I sometimes spend too long polishing details before sharing a first version. Early in my project work I delayed demos because I wanted everything perfect. I realized that delayed feedback costs more than an imperfect draft. I now set a personal rule to share a workable version by a checkpoint date, then improve based on comments. I also use timeboxing for research so I do not fall into endless reading. I am not claiming the weakness is fully gone, but I have a concrete improvement habit and I track whether I am meeting my own deadlines. For a fresher role I believe my strengths help me ramp up quickly, and my awareness of this weakness means I will not hide unfinished work until the last minute.",
+    "keyPoints": [
+      "State one or two real strengths with examples",
+      "Choose a genuine weakness that is not a core job killer",
+      "Show how you are actively improving",
+      "Keep the balance honest and professional"
+    ],
+    "commonMistakes": [
+      "Saying you have no weaknesses",
+      "Choosing a fake weakness like working too hard",
+      "Listing strengths with no evidence"
+    ],
+    "interviewerTips": [
+      "Prepare one strength story and one improvement story",
+      "Align strengths with the job description",
+      "Avoid weaknesses that undermine trust or integrity"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Why do you want to work at our company?",
+    "sampleAnswer": "I want to work at your company because the work you do aligns with both my skill path and the kind of environment I want to grow in. From what I have researched, your teams ship products that solve practical problems for customers, and you invest in structured training for new joiners. As a fresher that combination matters a lot. I do not want a place where I only watch from the sidelines; I want a place where I can learn production practices under guidance and still own meaningful tasks. Your technology stack and the domains mentioned in the job description match the areas I have been building through coursework and projects, especially web services and data handling. I also value how your company presents itself in campus talks and public updates. The emphasis on learning culture, code quality, and teamwork stands out compared with roles that only list tools without context. During preparation I spoke with a senior from my college who joined a similar team, and the advice I heard was that early ownership and feedback loops accelerate growth. That is exactly what I am looking for. I am not applying only because of brand name. I am applying because I can see a clear path: contribute as a junior engineer, learn your ways of working, and grow into someone who can take larger features. If I join, my goal in the first months is to understand the codebase, deliver assigned tasks reliably, and become someone my team can depend on.",
+    "keyPoints": [
+      "Show specific research about the company",
+      "Link company work to your skills and goals",
+      "Mention culture or learning opportunity sincerely",
+      "Avoid flattery without substance"
+    ],
+    "commonMistakes": [
+      "Giving a copy-paste answer usable for any company",
+      "Focusing only on salary or location",
+      "Claiming deep insider knowledge you do not have"
+    ],
+    "interviewerTips": [
+      "Pick two real company facts and connect them to you",
+      "Mention the role, not only the brand",
+      "Keep enthusiasm grounded in preparation"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "What is the difference between confidence and over confidence?",
+    "sampleAnswer": "Confidence is a calm belief in your ability based on preparation and evidence. Overconfidence is assuming you will succeed without enough preparation or without listening to others. In an interview or on a team, confidence looks like stating what you know clearly, admitting what you do not know, and still offering a plan to find the answer. Overconfidence looks like interrupting, dismissing feedback, or promising results you cannot support. I learned this difference during a college hackathon. Our team was building a small chat feature. I felt confident because I had practiced WebSockets before, so I volunteered to own that module. That confidence was useful because I had prior practice and I still checked edge cases with my teammate. In contrast, another teammate once insisted we skip testing because the demo would be fine. That was overconfidence. We later found a crash when the network dropped, and we had to scramble. The lesson stayed with me. Confidence is backed by practice, review, and humility. Overconfidence skips those steps and treats hope as a plan. As a fresher I try to stay on the confident side by preparing for interviews, validating assumptions in code, and asking seniors when I am unsure. I do not want to appear unsure about everything, but I also do not want to pretend mastery. In a workplace, confident people raise risks early; overconfident people hide them until they become failures. That difference affects trust, delivery quality, and how quickly a team can correct course.",
+    "keyPoints": [
+      "Define both terms clearly with workplace relevance",
+      "Use a short personal example",
+      "Show humility without sounding insecure",
+      "Link the idea to how you work on a team"
+    ],
+    "commonMistakes": [
+      "Sounding philosophical with no practical takeaway",
+      "Claiming you are never overconfident",
+      "Confusing confidence with arrogance"
+    ],
+    "interviewerTips": [
+      "Give a crisp definition first",
+      "Add one story that shows self-awareness",
+      "Relate the answer to teamwork and delivery"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "What is the difference between hard work and smart work?",
+    "sampleAnswer": "Hard work means putting in sustained effort and hours to complete a task. Smart work means choosing the highest-impact approach so the same goal is reached with less wasted effort. Both matter, and in real jobs they are not opposites. Hard work without direction can mean rewriting the same code for days. Smart work without effort can mean clever ideas that never get finished. During my final-year project we initially tried to build every feature ourselves from scratch. That was hard work, but progress was slow. After a review with our guide, we reused a well-tested authentication library and focused our custom effort on the core business logic. That was smart work, and it freed time for testing and documentation. In my internship I also saw this balance. When a production bug appeared, the smart first step was to reproduce it and check logs rather than randomly changing code. Then the hard work was carefully validating the fix across cases. Smart work is about prioritization, tooling, asking for clarification, and learning from previous solutions. Hard work is about persistence when the problem is genuinely difficult. As a fresher I aim to work hard on fundamentals and also work smart by planning, breaking tasks down, and seeking feedback early. Interviewers often want to know that you will not confuse busy activity with progress. My approach is to define the outcome, pick the simplest reliable method, then put full effort into executing it well.",
+    "keyPoints": [
+      "Explain that both matter and are complementary",
+      "Give a concrete academic or internship example",
+      "Mention prioritization and reuse of proven tools",
+      "Show you value outcomes over mere busyness"
+    ],
+    "commonMistakes": [
+      "Praising only smart work and dismissing effort",
+      "Equating smart work with cutting corners",
+      "Giving abstract definitions with no example"
+    ],
+    "interviewerTips": [
+      "Use a before-and-after story",
+      "Emphasize quality and deadlines together",
+      "Avoid sounding like you avoid hard work"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "How do you feel about working nights and weekends?",
+    "sampleAnswer": "I understand that software delivery sometimes requires flexibility, especially near releases, production incidents, or client deadlines. I am open to working nights or weekends when there is a genuine business need and the expectation is communicated clearly. During my college fest we had a last-minute issue with the registration portal the evening before the event. Our small team stayed late, fixed the payment callback bug, and verified registrations. I did not enjoy the stress, but I understood why it mattered and I stayed until the system was stable. That experience showed me that occasional extra hours are part of owning outcomes. At the same time, I believe sustainable performance comes from planning well during normal hours so emergencies stay rare. If I join your team, I would prefer to understand on-call or release support expectations upfront, including how workload is shared and how compensatory time or recognition works. I am not looking for a culture of constant unpaid overtime, but I am also not someone who refuses help when the team needs it. My approach is simple: communicate early if a deadline looks tight, help during critical windows, and return to a healthy rhythm afterward. As a fresher I am willing to put in the effort to learn and support the team, provided the requests are fair and not the default every week.",
+    "keyPoints": [
+      "Show flexibility for genuine business needs",
+      "Mention sustainable planning so overtime stays rare",
+      "Ask about expectations without sounding rigid",
+      "Share a short example of helping under time pressure"
+    ],
+    "commonMistakes": [
+      "Saying you will never work outside office hours",
+      "Promising unlimited overtime without boundaries",
+      "Complaining about college workload instead of answering"
+    ],
+    "interviewerTips": [
+      "Balance willingness with professionalism",
+      "Clarify you prefer planned support, not chaos",
+      "Keep the tone cooperative, not transactional"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Can you work under pressure?",
+    "sampleAnswer": "Yes, I can work under pressure, and I have practiced doing so in academic and project settings. Pressure for me usually means a fixed deadline plus incomplete information. In that situation I focus on priorities rather than panic. During end-semester submissions our project team discovered a critical defect two days before the demo. The situation was the registration form failing for some mobile browsers. I listed the highest-risk flows, reproduced the issue, and split work with my teammate so one of us fixed the UI validation while the other prepared the demo script and backup screenshots. We communicated every few hours, and we delivered a stable demo on time. I also felt pressure during placement season while balancing interviews and final-year work. What helped was planning daily targets, preparing common interview answers in advance, and sleeping enough so my thinking stayed clear. Under pressure I try not to hide status. If a task is slipping, I escalate early with options rather than surprising people at the end. I know industry pressure can be higher than college pressure, especially with production systems and customers. I am ready for that learning curve. My method is to clarify the goal, identify the must-have versus nice-to-have, execute the critical path first, and ask for help when blocked. That is how I stay effective when time is short.",
+    "keyPoints": [
+      "Confirm yes with a real example",
+      "Describe your method: prioritize, communicate, execute",
+      "Show calm problem solving, not drama",
+      "Acknowledge industry pressure may be higher and you are ready"
+    ],
+    "commonMistakes": [
+      "Simply saying yes with no evidence",
+      "Bragging that you thrive on chaos",
+      "Describing panic or blame toward teammates"
+    ],
+    "interviewerTips": [
+      "Use a short STAR-style story naturally",
+      "Highlight communication under stress",
+      "Keep the answer practical and composed"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Are you willing to relocate or travel?",
+    "sampleAnswer": "Yes, I am open to relocating and to reasonable travel based on the role. For an entry-level position I understand that joining the team in person can accelerate learning, mentoring, and collaboration. I have already discussed this with my family, and we are prepared for me to move for the right opportunity. If the role is based in a specific city, I would plan housing and logistics carefully so that my first weeks focus on work rather than last-minute personal arrangements. Travel for training, client support, or team meetings is also acceptable when it is part of the job and communicated in advance. I would appreciate clarity on how often travel is expected and whether hybrid or work-from-office policies apply after joining. That helps me plan realistically. I am not treating location as the only decision factor, but I do want to be honest: if a role requires frequent sudden travel with no schedule visibility, I would ask how the team manages that so delivery quality does not suffer. Overall my priority is joining a team where I can grow and contribute. If that means relocating, I am ready. If occasional travel is needed, I will treat it professionally and prepare so that my work remains consistent while I am away from my base location.",
+    "keyPoints": [
+      "Give a clear yes if you are genuinely open",
+      "Mention family or logistics readiness briefly",
+      "Ask for travel frequency expectations politely",
+      "Connect willingness to learning and contribution"
+    ],
+    "commonMistakes": [
+      "Saying yes when you cannot actually relocate",
+      "Making relocation sound like a huge sacrifice",
+      "Ignoring the travel part of the question"
+    ],
+    "interviewerTips": [
+      "Be honest about constraints if any exist",
+      "Show flexibility without sounding desperate",
+      "Confirm you understand early-career mobility needs"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "What are your goals?",
+    "sampleAnswer": "My short-term goal is to join a strong engineering team as a fresher and become productive quickly. In the first year I want to understand the product, write clean code with guidance, fix bugs confidently, and deliver small features end to end. I also want to build strong habits around code reviews, testing, and communication. Those habits matter more than collecting titles early. Medium term, over the next three to five years, I want to grow into an engineer who can own a module, mentor newer joiners, and contribute to design discussions with evidence rather than opinions. Academically I have already started moving toward that path through projects and an internship. Professionally I want continuity: deepen skills in the stack your team uses, learn how production systems are monitored, and improve my ability to estimate and deliver reliably. I am not chasing frequent job hops for salary alone. I prefer growing where I can see impact. My goals are also personal in a practical way: become financially independent, keep learning, and do work I can explain with pride. In this interview my immediate goal is to show that I am ready for the responsibilities of this role and that my longer goals align with contributing here rather than treating the job as a temporary placeholder.",
+    "keyPoints": [
+      "Separate short-term and medium-term goals",
+      "Keep goals realistic for a fresher",
+      "Align growth with contribution, not only titles",
+      "Show stability and learning intent"
+    ],
+    "commonMistakes": [
+      "Saying your only goal is to become CEO quickly",
+      "Having no goals beyond getting any job",
+      "Goals that conflict with the role you are interviewing for"
+    ],
+    "interviewerTips": [
+      "Make goals specific and role-relevant",
+      "Avoid unrealistic timelines",
+      "Connect goals to what you will deliver for the employer"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "What motivates you to do a good job?",
+    "sampleAnswer": "What motivates me is the combination of ownership and visible impact. When I am trusted with a task and I can see that my work helps a user or a teammate, I naturally put in extra care. During my internship I was asked to improve the loading time of a report page. It was not a glamorous feature, but when the page became noticeably faster and the analysts stopped complaining, I felt a clear sense of contribution. That feedback loop motivates me more than abstract praise. I also stay motivated by learning. Solving a problem I could not solve last month is personally satisfying, and it keeps me from treating work as only a checklist. I am motivated by clear goals and fair recognition as well. If expectations are defined, I enjoy measuring my progress against them. In college projects, weekly demos kept me accountable and pushed me to finish rather than endlessly refine. I am less motivated by fear-based pressure and more by responsibility and craftsmanship. That does not mean I need constant applause. It means I want to know that quality matters and that effort is noticed in a professional way. For this role, my motivation would be to earn trust quickly, deliver reliable work, and keep improving. When those conditions exist, I do not need external drama to perform. I show up prepared, communicate progress, and take pride in finishing well.",
+    "keyPoints": [
+      "Name intrinsic motivators: ownership, impact, learning",
+      "Support with a concrete example",
+      "Show you respond to clear goals and feedback",
+      "Avoid sounding motivated only by money or titles"
+    ],
+    "commonMistakes": [
+      "Giving a vague answer like I just love working",
+      "Focusing only on salary as motivation",
+      "Claiming you need constant praise to perform"
+    ],
+    "interviewerTips": [
+      "Be specific about what energizes your best work",
+      "Link motivation to reliability for the team",
+      "Keep the tone mature and grounded"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "What makes you angry?",
+    "sampleAnswer": "I would not say I get angry easily, but unfairness and avoidable carelessness frustrate me. In a team setting that might look like someone hiding a mistake until it becomes a bigger problem, or repeatedly missing commitments without communication. During a group assignment, one member disappeared for two weeks before the deadline. I felt frustrated because the rest of us had to absorb the work silently at first. Instead of exploding, I called a meeting, redistributed tasks, and documented what remained. We still submitted, and later I learned to set earlier checkpoints so gaps appear sooner. Professionally I try to convert irritation into action. If a process is broken, I ask whether we can improve the checklist or the handoff. If I am wrong, I want to hear it directly. What I avoid is personal attacks or silent resentment. Anger that only vents does not help delivery. As a fresher I know I will face situations that test patience: ambiguous requirements, production pressure, or conflicting feedback. My goal is to stay composed, clarify facts, and respond with solutions. Interviewers ask this question to see emotional maturity. My honest answer is that dishonesty and repeated lack of ownership bother me, but I handle those feelings by communicating early and focusing on what I can control rather than blaming people in the moment.",
+    "keyPoints": [
+      "Choose a professional trigger, not a personal rant",
+      "Show emotional control and constructive response",
+      "Give a brief example of handling frustration maturely",
+      "Avoid naming people harshly or sounding volatile"
+    ],
+    "commonMistakes": [
+      "Saying nothing makes you angry in a robotic way",
+      "Listing temper issues without self-control",
+      "Complaining about teachers, bosses, or peers bitterly"
+    ],
+    "interviewerTips": [
+      "Reframe anger as frustration you manage productively",
+      "Emphasize communication over confrontation",
+      "Keep the answer short on emotion and strong on behavior"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Give me an example of your creativity.",
+    "sampleAnswer": "One example of my creativity was during a campus project where we needed a way for students to find empty classrooms for group study. Existing approaches were mostly manual WhatsApp messages. We did not have budget for sensors, so I suggested a lightweight solution: a shared web form where class representatives could mark room status for the next two hours, combined with a simple rule that expired outdated entries automatically. It was not advanced AI, but it was creative because it solved a real friction with the resources we actually had. Adoption grew because the idea was easy to explain and easy to use. Another smaller example came during my internship. The team needed screenshots for documentation, but collecting them manually was slow. I wrote a small script that opened key pages in a test environment and saved images with consistent names. That saved repetitive effort for every release note. For me creativity is less about dramatic invention and more about finding practical alternatives when the obvious path is blocked. In interviews I prefer examples that show constraint-aware thinking. Creativity that ignores constraints is just imagination. Creativity that ships is useful. As a fresher I bring that mindset: ask what problem we are really solving, look for simpler paths, and prototype quickly enough to learn whether the idea works.",
+    "keyPoints": [
+      "Share a concrete example with a clear outcome",
+      "Show creativity under constraints, not fantasy",
+      "Explain your idea and why it helped users or the team",
+      "Keep the story work-relevant"
+    ],
+    "commonMistakes": [
+      "Giving an unrelated artistic hobby with no workplace link",
+      "Claiming creativity without describing what you did",
+      "Overstating a tiny change as a breakthrough"
+    ],
+    "interviewerTips": [
+      "Use a problem-solution-result flow",
+      "Highlight practicality and adoption",
+      "Be ready for a follow-up on your exact contribution"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "How long would you expect to work for us if hired?",
+    "sampleAnswer": "I am looking for a place where I can grow for several years, not a short stopgap. If hired, I would expect to stay as long as I am learning, contributing, and seeing a fair path to take on more responsibility. Practically that means I am thinking in terms of building a strong foundation here over the next few years rather than planning an exit before I join. As a fresher, stability matters to me because deep skill comes from staying with a codebase, a team, and a product long enough to understand them well. Of course no one can promise a lifetime at one company, and business conditions change. What I can promise is commitment: I do not join intending to leave in a few months, and I would communicate professionally if circumstances ever changed. In my academics and internship I preferred finishing what I started and leaving documentation behind rather than disappearing mid-stream. I would bring the same attitude to employment. My hope is to grow from a junior contributor into someone who can mentor newer joiners and own larger features. If this company continues to offer challenging work and a healthy culture, I see no reason to leave early. I want my first job to be a place I can speak about with pride years later, which only happens if I invest time and deliver consistently.",
+    "keyPoints": [
+      "Signal multi-year intent without unrealistic lifetime promises",
+      "Link tenure to growth and contribution",
+      "Show commitment and professional communication",
+      "Avoid sounding like you are shopping for the next offer already"
+    ],
+    "commonMistakes": [
+      "Promising you will never leave under any circumstance",
+      "Saying you will leave as soon as you get experience",
+      "Being vague or evasive about commitment"
+    ],
+    "interviewerTips": [
+      "Be honest and growth-oriented",
+      "Emphasize finishing and ownership habits",
+      "Reassure the employer you are not a flight risk"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Aren't you overqualified for this position?",
+    "sampleAnswer": "I do not see myself as overqualified for this role. I am a fresher preparing for an entry-level position, and I respect that the job has defined responsibilities I still need to master in a real production environment. College projects and an internship gave me exposure, but they are not the same as owning work in your systems with your customers and your quality bar. If anything, I am motivated by the chance to apply what I know and to close the gaps I still have. I am applying because the role matches my current level and growth path, not because I think it is beneath me. Sometimes this question is asked when a candidate has strong academics or extra certifications. In my case, those credentials mean I can ramp faster, not that I will get bored and leave. I stay engaged when I have clear goals, feedback, and a chance to take on slightly harder tasks over time. I am comfortable starting with foundational work such as bug fixes, documentation, and small features because that is how trust is built. I would rather master the basics thoroughly than claim I am ready for senior work. If you hire me, you will get someone who takes the role seriously, learns your standards, and grows with the team rather than treating the position as temporary underemployment.",
+    "keyPoints": [
+      "Reject the overqualified label politely if you are a fresher",
+      "Show respect for production-level learning still ahead",
+      "Explain why the role matches your level and interest",
+      "Reassure that you will not get bored and leave casually"
+    ],
+    "commonMistakes": [
+      "Agreeing that the job is too small for you",
+      "Sounding arrogant about grades or certificates",
+      "Implying you will leave once a better title appears"
+    ],
+    "interviewerTips": [
+      "Stay humble and role-focused",
+      "Turn credentials into faster ramp-up, not entitlement",
+      "Emphasize willingness to do foundational work well"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Describe your ideal company, location and job.",
+    "sampleAnswer": "My ideal company is one that builds useful products, invests in mentoring for new joiners, and maintains a culture of clear communication. I value teams where code reviews are constructive, deadlines are realistic, and learning is encouraged without chaos. Brand size matters less to me than whether the engineering practices are solid. Ideal location for me is a city with good connectivity and a professional tech ecosystem, and I am open to relocating for the right opportunity. I am also comfortable with hybrid arrangements if the team collaborates well, but early in my career I prefer enough in-person exposure to learn quickly from seniors. My ideal job is an entry-level software role where I can work on real features, understand how requirements become shipped code, and gradually own a module. I want a balance of guidance and independence: enough support that I am not stuck, enough ownership that I grow. I am especially interested in roles involving backend services, APIs, and reliable data handling, because that matches my project experience. Ideal does not mean perfect or stress-free. It means challenging work with fair processes. This position attracts me because it is close to that picture. If I join, I will adapt to your actual environment rather than expecting every preference to be met on day one. Ideal is a direction, and I am ready to start where the learning and contribution are strongest.",
+    "keyPoints": [
+      "Describe culture and mentoring, not luxury perks",
+      "Be flexible on location if you truly are",
+      "Define the job in terms of learning and ownership",
+      "Connect the ideal to the role you are interviewing for"
+    ],
+    "commonMistakes": [
+      "Listing unrealistic demands and perks",
+      "Describing an ideal that contradicts the open role",
+      "Focusing only on remote comfort with no growth plan"
+    ],
+    "interviewerTips": [
+      "Keep preferences professional and adaptable",
+      "Show you researched how this company fits",
+      "Avoid sounding entitled about ideal conditions"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "What are your career options right now?",
+    "sampleAnswer": "Right now my career options are centered on entry-level software and technology roles that match my education and project background. I am primarily interviewing for positions where I can contribute as a junior engineer, learn production practices, and grow within a product or services team. I have also considered related paths such as quality engineering or support engineering if they offer strong learning, but my first preference is a development role because that is where I have invested most of my practice through coursework, projects, and internship work. I am being selective about fit rather than applying randomly to every opening. Fit for me means a clear role definition, a team that mentors freshers, and technology that builds on what I already know while stretching me. I am not treating multiple offers as a game. If I receive more than one opportunity, I will choose based on learning potential, role clarity, and long-term growth rather than only the highest stipend. Sharing this honestly is important: I do have options in the campus and off-campus market, but I am here because this role is among my serious preferences. I want to make a thoughtful commitment, not collect interviews without intent. That is also why I prepared specifically for your process instead of giving generic answers.",
+    "keyPoints": [
+      "Be honest about the types of roles you are pursuing",
+      "Show focus rather than desperation",
+      "Explain how you would choose if multiple offers appear",
+      "Make clear why this interview matters to you"
+    ],
+    "commonMistakes": [
+      "Claiming you have no other options in a helpless way",
+      "Boasting about many offers to pressure the interviewer",
+      "Listing unrelated career paths that confuse your intent"
+    ],
+    "interviewerTips": [
+      "Stay calm and factual",
+      "Emphasize preference and fit",
+      "Avoid playing candidates against each other rudely"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Explain how you would be an asset to this organization.",
+    "sampleAnswer": "I would be an asset by combining reliable execution with a fast learning curve. In the early months I would focus on understanding your codebase, coding standards, and team rituals, then take ownership of well-scoped tasks and complete them with clear communication. During my internship I became useful not by knowing everything, but by reducing the mentoring burden: I wrote notes, asked focused questions, and verified my work before asking for review. I would bring the same habit here so seniors can trust that assigned work moves forward. I can also contribute through fresh energy on documentation, test coverage, and small quality improvements that busy teams sometimes postpone. In college I helped the placement cell organize mock interviews, which taught me coordination and follow-through. Those soft skills transfer to standup updates, ticket hygiene, and helping teammates when I can. Over time I want my value to shift from assisted delivery to independent ownership of features and mentoring newer joiners. An asset is someone who increases the team's capacity without creating drama. That is the standard I aim for. If hired, I will measure myself by whether my work reduces bugs, meets deadlines, and makes collaboration easier for the people around me.",
+    "keyPoints": [
+      "Explain near-term value and longer-term growth",
+      "Highlight reliability, communication, and learning speed",
+      "Mention practical contributions beyond coding alone",
+      "Show you will reduce, not increase, team friction"
+    ],
+    "commonMistakes": [
+      "Making exaggerated claims about transforming the company",
+      "Speaking only in buzzwords without examples",
+      "Ignoring teamwork and focusing only on personal brilliance"
+    ],
+    "interviewerTips": [
+      "Be concrete about how you help in the first months",
+      "Use evidence from internship or projects",
+      "Keep confidence tied to behaviors, not slogans"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "What are your outside interests?",
+    "sampleAnswer": "Outside of academics I enjoy competitive programming practice, reading about technology careers, and playing badminton a few times a week. Coding practice keeps my problem-solving sharp, while sport helps me reset after long study days. I also like writing short notes for juniors on topics I have learned, such as basic Git workflows or how to approach aptitude preparation. Teaching something simply is a good test of whether I truly understand it. Occasionally I watch product demos and engineering talks to see how real-world systems are explained. I keep outside interests because they make me a more balanced person, not because I want to distract from work. In fact, having a routine outside studies helped me manage placement pressure without burning out. If I join your company I will still protect some time for health and learning, while giving full focus during work hours. I can discuss these interests briefly in an interview, but I will not let them overshadow professional answers. The point is that I am curious, active, and able to sustain energy. Outside interests also help in team settings: shared hobbies make collaboration more human, and discipline from sport often carries into meeting commitments at work. Overall I want interviewers to see that I can manage energy and stay consistent, not that hobbies come before professional responsibility.",
+    "keyPoints": [
+      "Share a few genuine interests briefly",
+      "Link at least one interest to discipline or learning",
+      "Show balance without oversharing personal life",
+      "Keep the answer secondary to professional readiness"
+    ],
+    "commonMistakes": [
+      "Listing too many hobbies with no sincerity",
+      "Sharing controversial or inappropriate interests",
+      "Turning the whole interview into a hobby discussion"
+    ],
+    "interviewerTips": [
+      "Prepare two or three clean interests",
+      "Be ready to connect them lightly to soft skills",
+      "Stay concise and positive"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Would you lie for the company?",
+    "sampleAnswer": "No. I would not lie for the company. Integrity is not optional for me, and I believe long term trust matters more than short term convenience. If I am asked to misrepresent a product capability, hide a known defect from a customer, or falsify information in a report, I would refuse and explain why. That does not mean I would be rude or create a scene. It means I would raise the concern with my manager, suggest an honest alternative, and look for a way to communicate facts responsibly. I understand companies sometimes need careful messaging, confidentiality, and diplomacy. There is a difference between lying and protecting sensitive information. I can keep confidential data private, avoid speaking beyond my authority, and present facts professionally. What I cannot do is knowingly deceive. In college group work I have seen how small dishonest shortcuts damage trust among teammates. In employment the stakes are higher because customers, compliance, and reputation are involved. If this organization values ethical conduct, my stance should align with that culture. I want to succeed here by doing good work honestly. If a situation ever pressures me toward dishonesty, I would seek guidance through proper channels rather than comply quietly. That is how I would protect both the company and my own professional standards.",
+    "keyPoints": [
+      "Give a clear no on lying",
+      "Distinguish confidentiality from dishonesty",
+      "Show you would escalate ethically and calmly",
+      "Align integrity with long-term company trust"
+    ],
+    "commonMistakes": [
+      "Saying yes to please the interviewer",
+      "Sounding judgmental or self-righteous",
+      "Confusing secrecy policies with lying"
+    ],
+    "interviewerTips": [
+      "Be firm, polite, and practical",
+      "Offer honest communication as the alternative",
+      "Show maturity about confidentiality boundaries"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Who has inspired you in your life and why?",
+    "sampleAnswer": "One person who has inspired me is my college mentor who taught data structures. What inspired me was not only subject knowledge, but the way he explained mistakes without humiliating students. When I failed a lab evaluation early on, he asked me to walk through my logic aloud, pointed out where my assumptions broke, and made me redo the problem with a clearer approach. That experience changed how I study. I stopped memorizing solutions and started understanding trade-offs. His patience and high standards together showed me that good teaching is both kind and demanding. I am also inspired by my parents, who worked consistently and treated education as a responsibility rather than a slogan. Watching them manage constraints taught me discipline and gratitude. In a professional sense, I look up to engineers who explain complex systems simply and take responsibility when things fail. Inspiration for me means adopting useful habits: prepare thoroughly, help others without ego, and stay accountable. If I join your team, I hope to find mentors with similar qualities and eventually become that kind of teammate for someone else. I share this example because it shaped how I respond to feedback. I do not treat correction as insult. I treat it as a chance to improve, which is exactly the mindset I want to bring as a fresher.",
+    "keyPoints": [
+      "Choose a real person and a specific reason",
+      "Connect inspiration to habits you practice",
+      "Keep the story sincere and concise",
+      "Link the lesson to workplace behavior"
+    ],
+    "commonMistakes": [
+      "Naming a celebrity with no personal connection",
+      "Giving a generic answer without details",
+      "Making the story overly emotional or irrelevant"
+    ],
+    "interviewerTips": [
+      "Pick one primary example and go deep",
+      "Highlight transferable values like feedback and discipline",
+      "End by showing how it shapes you at work"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "What was the toughest decision you ever had to make?",
+    "sampleAnswer": "One of the toughest decisions I made as a student was choosing to decline a short-term freelance offer during my final year so I could focus on my major project and placement preparation. The freelance work paid quickly and felt exciting, but the timeline overlapped with critical project milestones and interview season. I spoke with my project guide and my family, listed the trade-offs, and realized that splitting attention would likely hurt both outcomes. Saying no was uncomfortable because I did not want to look ungrateful or risk-averse, yet it was the right call for long-term goals. After I decided, I communicated politely, completed my academic commitments, and used the freed time to improve my project quality and interview readiness. The project review went well, and I entered placements with clearer focus. The decision taught me that tough choices are often between two good options, not between good and bad. In those moments I try to define the criteria first: learning value, integrity of commitments already made, and future impact. As a fresher joining a company, I know I will face tougher decisions with customers and deadlines. My approach will remain the same: gather facts, seek advice when needed, decide transparently, and own the consequences. That is how I handle pressure without freezing or flipping randomly.",
+    "keyPoints": [
+      "Pick a real decision with meaningful trade-offs",
+      "Explain criteria used to decide",
+      "Share the outcome and what you learned",
+      "Keep it professional and relevant to judgment"
+    ],
+    "commonMistakes": [
+      "Choosing a trivial decision",
+      "Blaming others for a decision you made",
+      "Sharing overly personal or inappropriate situations"
+    ],
+    "interviewerTips": [
+      "Use a natural STAR flow",
+      "Show maturity in trade-off thinking",
+      "Connect the lesson to workplace decision making"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Have you considered starting your own business?",
+    "sampleAnswer": "I have thought about entrepreneurship in a curious way, mainly through college innovation cells and small project ideas with friends. I enjoy the creative side of spotting a problem and imagining a product. However, I have not decided to start a business now because I first want strong industry experience. Building a company without understanding customers, delivery discipline, and financial basics would be risky. My current priority is to join a good team, learn how real products are built and maintained, and develop depth in my craft. If someday I explore a venture, it would be after I have enough skill, savings discipline, and clarity about a real problem worth solving. For this interview, that means I am not using your company as a temporary parking place while I launch something on the side. I am looking for a serious first role. Interest in business ideas makes me more empathetic to product thinking, which can help in an employee role too. I understand customer value, constraints, and iteration. But my commitment if hired is to your organization and the responsibilities of this job. I can be ambitious about learning without treating employment as a backup plan for an immediate startup.",
+    "keyPoints": [
+      "Acknowledge interest without sounding flighty",
+      "State clearly that your priority is this job now",
+      "Explain why industry experience comes first",
+      "Reassure you will not misuse the role as a launchpad"
+    ],
+    "commonMistakes": [
+      "Saying you plan to quit soon to start a company",
+      "Dismissing entrepreneurship arrogantly",
+      "Giving a confused answer about divided loyalties"
+    ],
+    "interviewerTips": [
+      "Be honest and commitment-focused",
+      "Frame entrepreneurial curiosity as product empathy",
+      "Make your near-term priority unmistakable"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "How do you define success and how do you measure it?",
+    "sampleAnswer": "I define success as consistently meeting meaningful commitments and growing in capability over time. For a fresher that means finishing assigned work with quality, learning from feedback, and becoming more independent each quarter. Success is not only a high package or a title. Those can be outcomes, but the core is whether people can trust me with responsibility. In my final-year project, success was measured by whether the application worked for real users during the demo, whether we documented it properly, and whether I could explain design choices clearly. We tracked bugs closed, features completed, and reviewer feedback. That gave a more honest picture than just saying we worked hard. I also measure personal success through habits: Did I prepare for the interview day? Did I improve a weak topic after failing a mock test? Did I help a teammate without seeking credit? Those indicators matter because they compound. In a job I would look at delivery metrics my team cares about, such as on-time completion, defect rates, and code review quality, along with qualitative feedback from my manager. Success should be visible to others, not only felt privately. At the same time I want sustainable success. Burning out to look productive is failure in disguise. My aim is steady progress, trustworthy output, and skills that remain useful as technology changes.",
+    "keyPoints": [
+      "Define success beyond money and titles",
+      "Include measurable and behavioral indicators",
+      "Give an example from projects or academics",
+      "Mention sustainable growth, not burnout"
+    ],
+    "commonMistakes": [
+      "Defining success only as becoming rich quickly",
+      "Giving a purely philosophical answer with no measures",
+      "Ignoring team impact and focusing only on personal glory"
+    ],
+    "interviewerTips": [
+      "Blend personal growth with team outcomes",
+      "Be concrete about how you track progress",
+      "Keep the definition realistic for early career"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Tell me something about our company.",
+    "sampleAnswer": "From my research, your company is known for building technology solutions that serve real business and customer needs, and for hiring freshers into structured learning paths. I looked at your careers page, recent product or service updates, and campus recruitment messages to understand the kind of problems your teams work on. What stood out is the emphasis on practical delivery and professional growth rather than only brand marketing. I also noted the technology areas mentioned for this role, which align with the skills I have been developing through coursework, projects, and internship experience. I understand that public information is only a partial picture, and I am eager to learn the internal details from your team. Still, preparation matters. I do not want to walk into an interview knowing only the company name. I want to understand what you value, where you are growing, and how a fresher can contribute. That is why I prepared questions about the team structure, onboarding, and success metrics for the first six months. If I have any detail wrong, I am happy to be corrected. My goal in learning about your company is sincere: to confirm fit and to show respect for your time by arriving informed. I am excited about the opportunity to contribute here because the role and culture described publicly match the environment where I believe I can learn and deliver.",
+    "keyPoints": [
+      "Show genuine research from public sources",
+      "Mention role-relevant technology or culture points",
+      "Stay humble about limits of outside knowledge",
+      "Connect company facts to why you applied"
+    ],
+    "commonMistakes": [
+      "Admitting you know nothing about the company",
+      "Reciting a Wikipedia-like dump with no relevance",
+      "Inventing facts you are not sure about"
+    ],
+    "interviewerTips": [
+      "Prepare two or three accurate points before the interview",
+      "Link research to your skills and interest",
+      "Invite clarification rather than pretending omniscience"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "How much salary do you expect?",
+    "sampleAnswer": "For an entry-level role I am looking for a compensation package that is fair for the market, aligned with the responsibilities of the position, and consistent with what your company offers freshers with similar profiles. I have reviewed campus placement ranges and publicly discussed bands for this kind of role, so I am not picking a random number. At the same time, salary is not my only decision factor. Learning opportunity, role clarity, and growth path matter a lot at this stage. If you have a defined fresher package, I am open to understanding it and discussing it constructively. I would prefer not to negotiate aggressively before understanding the full offer, including benefits, probation terms, location support, and variable components if any. My expectation is to be paid fairly for the value I will work to deliver, and I am confident we can arrive at a number that works for both sides. If you need a range from me, I can share a researched band based on current fresher offers in this market, with flexibility for the right role. I want the conversation to stay professional. I am excited about the opportunity itself, and I trust your process to place compensation in a transparent and equitable way for new joiners.",
+    "keyPoints": [
+      "Stay flexible and market-aware",
+      "Avoid naming an extreme figure without research",
+      "Mention that learning and role fit also matter",
+      "Invite the company band if it is structured for freshers"
+    ],
+    "commonMistakes": [
+      "Demanding an unrealistic package with no basis",
+      "Saying money does not matter at all",
+      "Looking unprepared when asked for expectations"
+    ],
+    "interviewerTips": [
+      "Research typical fresher ranges beforehand",
+      "Speak calmly and professionally",
+      "Focus on fairness and mutual fit"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Where do you see yourself five years from now?",
+    "sampleAnswer": "In five years I see myself as a capable software engineer who can own features end to end, guide newer teammates, and contribute thoughtfully to design discussions. I am not fixated on a fancy title for its own sake. I care about depth. By then I want strong command over the stack I work in, better judgment about trade-offs, and a track record of reliable delivery. Ideally I would still be growing in an organization where I have built context, relationships, and trust, which is why I am looking for a first role with real learning potential. My plan to get there is practical. In year one I want to become productive and trustworthy on assigned work. In the next years I want to expand ownership, improve system thinking, and perhaps specialize in an area such as backend services or platform reliability, depending on business needs. I will measure progress through feedback, the complexity of problems I can solve, and the help I can offer others. Five-year visions can change with industry shifts, so I stay adaptable. What will not change is the direction: keep learning, keep delivering, and keep raising my standard of craftsmanship. That is the future I am working toward, and this role is a meaningful step on that path.",
+    "keyPoints": [
+      "Describe skill and ownership growth, not fantasy titles",
+      "Show a realistic year-by-year direction",
+      "Align with contributing inside a company, not constant hopping",
+      "Stay adaptable while clear about intent"
+    ],
+    "commonMistakes": [
+      "Saying you see yourself in the interviewer's job",
+      "Having no vision beyond getting selected",
+      "Outlining an unrelated career switch in two years"
+    ],
+    "interviewerTips": [
+      "Keep the horizon ambitious but believable",
+      "Emphasize craft and responsibility",
+      "Connect five-year growth to starting strong here"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "On a scale of one to ten, rate me as an interviewer.",
+    "sampleAnswer": "I would rate this interview as a strong eight or nine based on how clearly the questions are helping you evaluate communication, attitude, and role fit. I appreciate that the conversation has been structured and professional, with room for me to explain examples rather than only giving one-line answers. A perfect ten would mean I also had more time to go deeper on the technical environment and team expectations, but that is not a criticism of your skill. It is simply the natural limit of time in many HR rounds. I want to be honest without flattery. Inflating the rating to ten automatically can sound insincere, while giving a very low score can sound rude or defensive. My rating reflects respect for a fair process. You asked relevant questions, listened, and gave me a chance to present my background. If there is one suggestion, it would be a short wrap-up on what the next steps look like, which always helps candidates plan. Overall I feel the interview has been conducted professionally, and I am grateful for the opportunity. Regardless of the rating, what matters to me is whether I answered thoughtfully and whether I am a fit for your team.",
+    "keyPoints": [
+      "Give a high but believable rating, not automatic ten",
+      "Explain the rating with specific positives",
+      "Offer one polite, constructive observation if appropriate",
+      "Stay respectful and non-defensive"
+    ],
+    "commonMistakes": [
+      "Giving ten with empty flattery",
+      "Criticizing the interviewer harshly",
+      "Avoiding the question or looking panicked"
+    ],
+    "interviewerTips": [
+      "Use a calm tone and brief justification",
+      "Treat it as a test of diplomacy",
+      "Keep feedback professional and light"
+    ],
+    "isPublished": true
+  },
+  {
+    "categoryId": "REPLACE_HR_CATEGORY_ID",
+    "question": "Do you have any questions for me?",
+    "sampleAnswer": "Yes, I do. First, what would success look like for a fresher in this role during the first three to six months? I want to understand the skills and behaviors your team values early on so I can prepare the right way if selected. Second, could you share how mentoring and code reviews typically work for new joiners? Structured feedback is important to me, and I would like to know how learning is supported. Third, what are the main challenges the team is currently focusing on, at a high level? That helps me understand where I could contribute after ramping up. I also like to ask about next steps in the hiring process and the expected timeline, so I can stay organized and respectful of your schedule. I am not asking these questions to fill time. I am asking because I want to make a thoughtful decision and join ready to contribute. If there is documentation or an onboarding outline you recommend for selected candidates, I would be glad to review it. Thank you for the conversation today. I am genuinely interested in this opportunity and in understanding how I can add value to your team. These questions also help me confirm that my expectations about learning and ownership match what the role actually offers day to day.",
+    "keyPoints": [
+      "Ask about success metrics for the first months",
+      "Ask about mentoring, learning, or team challenges",
+      "Clarify next steps in the hiring process",
+      "Keep questions sincere and role-focused"
+    ],
+    "commonMistakes": [
+      "Saying you have no questions at all",
+      "Asking only about salary, leave, or perks too early",
+      "Asking questions already answered in the conversation"
+    ],
+    "interviewerTips": [
+      "Prepare two or three smart questions in advance",
+      "Listen carefully so you do not repeat information",
+      "End with appreciation and continued interest"
+    ],
+    "isPublished": true
+  }
+]

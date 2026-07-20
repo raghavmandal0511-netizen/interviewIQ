@@ -1,0 +1,26 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-letter-and-symbol-series-letter-series",
+    "title": "Letter Series",
+    "description": "Alphabet position and letter-skip patterns",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-letter-and-symbol-series-symbol-series",
+    "title": "Symbol Series",
+    "description": "Symbol count, shape, and cycle patterns",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-letter-and-symbol-series-mixed-pattern",
+    "title": "Mixed Pattern",
+    "description": "Combined letter and symbol pattern series",
+    "order": 3,
+    "isPublished": true
+  }
+]

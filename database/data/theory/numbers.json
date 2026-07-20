@@ -1,0 +1,95 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "The Numbers topic covers the basics of the number system: how numbers are classified (natural, whole, integers, rational, irrational, prime, composite), how place value and face value work, and the divisibility rules that let you check factors without doing full division. These fundamentals underpin almost every other quantitative aptitude topic.",
+  "explanation": "CONCEPT EXPLANATION\n\nNumbers are classified into groups: Natural numbers (1, 2, 3, ...), Whole numbers (0, 1, 2, ...), Integers (..., −2, −1, 0, 1, 2, ...), Rational numbers (expressible as p/q with q ≠ 0), and Irrational numbers (non-terminating, non-repeating decimals like √2). Prime numbers have exactly two factors (1 and itself); composite numbers have more than two factors; 1 is neither prime nor composite.\n\nIn a numeral, each digit has a face value (the digit itself) and a place value (the digit's value based on its position). For example, in the number 4,325, the digit 3 has a face value of 3 but a place value of 300, since it occupies the hundreds position.\n\nDivisibility rules let you test whether a number is divisible by a small integer without performing long division: divisible by 2 if the last digit is even; by 3 if the digit sum is divisible by 3; by 4 if the last two digits form a number divisible by 4; by 5 if the last digit is 0 or 5; by 6 if divisible by both 2 and 3; by 8 if the last three digits are divisible by 8; by 9 if the digit sum is divisible by 9; by 10 if the last digit is 0; by 11 if the difference between the sum of digits in odd and even positions is divisible by 11 (including 0).\n\nUseful summation formulas include the sum of the first n natural numbers, sum of first n squares, and sum of first n cubes, which frequently appear in number series and pattern questions.\n\nREAL-LIFE APPLICATIONS\n\nDivisibility checks are used in cryptography basics, error-checking codes (like ISBN and bank account validation), scheduling problems, and simplifying fractions quickly.\n\nCOMMON MISTAKES\n\n1) Treating 1 as a prime number (it is not — primes must have exactly two distinct factors).\n2) Confusing face value with place value.\n3) Misapplying the divisibility rule for 11 (forgetting to alternate odd/even positions correctly).\n4) Forgetting 0 counts as a whole number but not a natural number in the strict definition.\n5) Errors in summation formulas when n is not a whole number of terms.\n\nIMPORTANT NOTES\n\n• 2 is the only even prime number; all other primes are odd.\n\n• Every composite number can be uniquely expressed as a product of primes (Fundamental Theorem of Arithmetic).\n\n• A number divisible by both a and b (co-prime) is divisible by a × b.\n\n• Recognize squares and cubes of small numbers (up to 20² and 10³) instantly to save time.",
+  "formulas": [
+    {
+      "title": "Sum of first n natural numbers",
+      "content": "1 + 2 + ... + n = n(n+1)/2"
+    },
+    {
+      "title": "Sum of first n squares",
+      "content": "1² + 2² + ... + n² = n(n+1)(2n+1)/6"
+    },
+    {
+      "title": "Sum of first n cubes",
+      "content": "1³ + 2³ + ... + n³ = [n(n+1)/2]²"
+    },
+    {
+      "title": "Divisibility by 11",
+      "content": "A number is divisible by 11 if (sum of digits at odd places) − (sum of digits at even places) is 0 or a multiple of 11"
+    },
+    {
+      "title": "Divisibility by 9",
+      "content": "A number is divisible by 9 if the sum of its digits is divisible by 9"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Test divisibility fast",
+      "tip": "For 3, 6, and 9, use the digit-sum rule; for 4 and 8, only look at the last two or three digits respectively."
+    },
+    {
+      "title": "Co-prime combination",
+      "tip": "If a number is divisible by two co-prime numbers a and b, it is also divisible by a × b (e.g., divisible by 3 and 4 means divisible by 12)."
+    },
+    {
+      "title": "Memorise squares and cubes",
+      "tip": "Know squares up to 30² and cubes up to 15³ by heart to instantly recognize perfect powers in problems."
+    },
+    {
+      "title": "Alternating sum for 11",
+      "tip": "For divisibility by 11, alternately add and subtract digits from right to left and check if the result is a multiple of 11."
+    },
+    {
+      "title": "Break composite divisors",
+      "tip": "To check divisibility by a composite number like 12, split it into co-prime factors (3 and 4) and test both separately."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Check whether 4,983 is divisible by 11.",
+      "solution": "Yes, 4,983 is divisible by 11.",
+      "steps": [
+        "Digits from right: 3, 8, 9, 4. Sum at odd positions (1st, 3rd from right) = 3 + 9 = 12.",
+        "Sum at even positions (2nd, 4th from right) = 8 + 4 = 12.",
+        "Difference = 12 − 12 = 0, which is a multiple of 11, so 4,983 is divisible by 11.",
+        "Check: 4,983 ÷ 11 = 453 exactly."
+      ]
+    },
+    {
+      "problem": "Find the sum of the first 10 natural numbers.",
+      "solution": "The sum of the first 10 natural numbers is 55.",
+      "steps": [
+        "Sum = n(n+1)/2 with n = 10.",
+        "Sum = 10 × 11 / 2 = 55."
+      ]
+    },
+    {
+      "problem": "Is 4,356 divisible by 4 and by 9?",
+      "solution": "4,356 is divisible by both 4 and 9.",
+      "steps": [
+        "Last two digits are 56; 56/4 = 14, so it is divisible by 4.",
+        "Digit sum = 4+3+5+6 = 18, which is divisible by 9, so 4,356 is divisible by 9."
+      ]
+    },
+    {
+      "problem": "Find the sum of the squares of the first 5 natural numbers.",
+      "solution": "The sum is 55.",
+      "steps": [
+        "Sum of squares = n(n+1)(2n+1)/6 with n = 5.",
+        "= 5 × 6 × 11 / 6 = 330/6 = 55."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Math is Fun — Divisibility Rules",
+      "url": "https://www.mathsisfun.com/divisibility-rules.html"
+    },
+    {
+      "title": "Wikipedia — Fundamental theorem of arithmetic",
+      "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic"
+    }
+  ]
+}

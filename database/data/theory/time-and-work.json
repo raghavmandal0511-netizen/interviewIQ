@@ -1,0 +1,94 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Time and Work problems measure how quickly people, machines, or pipes complete a fixed job. The core idea is work rate: if A finishes alone in 10 days, A completes 1/10 of the job per day. Combined rates add when workers cooperate, and efficiency ratios compare how fast different agents work on the same task.",
+  "explanation": "CONCEPT EXPLANATION\n\nTreat the whole job as 1 unit. If A completes work in a days, A's one-day work = 1/a. If B takes b days, B's one-day work = 1/b. Working together, combined one-day work = 1/a + 1/b, so together they finish in ab/(a+b) days.\n\nIf A is twice as efficient as B, A takes half the time B takes for the same work. Efficiency is inversely proportional to time when work is constant.\n\nMan-days (or man-hours): Work ∝ Men × Days × Hours. More workers or more days mean more total work capacity.\n\nPipes and cisterns mirror time and work: an inlet filling in x hours fills 1/x of the tank per hour; an outlet emptying in y hours removes 1/y per hour. Net rate = sum of inlet rates minus outlet rates.\n\nREAL-LIFE APPLICATIONS\n\nProject staffing, factory production planning, scheduling maintenance crews, and water-tank filling with multiple pipes use these models.\n\nCOMMON MISTAKES\n\n1) Adding times instead of adding rates (e.g., 6 and 12 days ≠ 18 days together).\n2) Forgetting to subtract an outlet pipe's rate.\n3) Ignoring that efficiency doubles means time halves.\n4) Not converting hours to days consistently in man-hour problems.\n5) Assuming (a+b) days when two people take a and b days individually.\n\nIMPORTANT NOTES\n\n• Together time = ab/(a+b) for two workers with individual times a and b.\n• Work done = Rate × Time; Rate = Work / Time.\n• If A:B efficiency = m:n, then A:B time = n:m for the same work.\n• Remaining work after t days = 1 − (rate × t).\n• Alternate-day work: sum work done on odd and even days separately.",
+  "formulas": [
+    {
+      "title": "One-day work",
+      "content": "If A finishes in a days, one-day work of A = 1/a"
+    },
+    {
+      "title": "Combined two workers",
+      "content": "Together time = ab / (a + b); Combined one-day rate = 1/a + 1/b"
+    },
+    {
+      "title": "Work relation",
+      "content": "Work = Rate × Time; Rate = Work / Time"
+    },
+    {
+      "title": "Efficiency and time",
+      "content": "For same work, Efficiency × Time = constant; if efficiency ratio is m:n, time ratio is n:m"
+    },
+    {
+      "title": "Man-days",
+      "content": "M1 × D1 × H1 / W1 = M2 × D2 × H2 / W2 (same work proportion)"
+    },
+    {
+      "title": "Pipes net rate",
+      "content": "Net filling rate = Σ(inlet rates) − Σ(outlet rates); time to fill = 1 / net rate"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Product over sum",
+      "tip": "Two workers with times a and b alone finish together in ab/(a+b) days."
+    },
+    {
+      "title": "LCM method",
+      "tip": "Assign total work as LCM of individual times, then find per-day work units."
+    },
+    {
+      "title": "Efficiency flip",
+      "tip": "Double efficiency halves the required time for the same job."
+    },
+    {
+      "title": "Outlet subtract",
+      "tip": "An emptying pipe contributes a negative rate—subtract it from inflow."
+    },
+    {
+      "title": "Remaining work",
+      "tip": "After t days together, leftover = 1 − t × (combined daily rate)."
+    },
+    {
+      "title": "Three workers",
+      "tip": "Add all individual daily rates: 1/a + 1/b + 1/c gives combined daily work."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A can finish a work in 12 days and B in 18 days. In how many days do they finish together?",
+      "solution": "They finish together in 7.2 days (36/5 days).",
+      "steps": [
+        "A's rate = 1/12, B's rate = 1/18.",
+        "Combined rate = 1/12 + 1/18 = 5/36 per day.",
+        "Time = 1 ÷ (5/36) = 36/5 = 7.2 days."
+      ]
+    },
+    {
+      "problem": "A is twice as good a worker as B. If B alone takes 24 days, how long does A take alone?",
+      "solution": "A alone takes 12 days.",
+      "steps": [
+        "Twice efficiency ⇒ half the time.",
+        "A's time = 24/2 = 12 days."
+      ]
+    },
+    {
+      "problem": "A pipe fills a tank in 6 hours and another empties it in 8 hours. With both open, how long to fill the empty tank?",
+      "solution": "The tank fills in 24 hours.",
+      "steps": [
+        "Inlet rate = 1/6, outlet rate = 1/8.",
+        "Net rate = 1/6 − 1/8 = 1/24 per hour.",
+        "Time = 24 hours."
+      ]
+    },
+    {
+      "problem": "If 12 men can complete a job in 15 days, how many men are needed to finish it in 10 days?",
+      "solution": "18 men are needed.",
+      "steps": [
+        "Work = 12 × 15 = 180 man-days.",
+        "Men × 10 = 180 ⇒ Men = 18."
+      ]
+    }
+  ],
+  "references": []
+}

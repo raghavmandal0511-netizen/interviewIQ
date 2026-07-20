@@ -1,0 +1,338 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present age of a person is 24 years. What will be his age after 8 years?",
+    "options": [
+      { "optionId": "A", "text": "28" },
+      { "optionId": "B", "text": "30" },
+      { "optionId": "C", "text": "32" },
+      { "optionId": "D", "text": "34" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Age n years hence = Present age + n = 24 + 8 = 32.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A is 5 years older than B. If B's present age is x, what is A's present age?",
+    "options": [
+      { "optionId": "A", "text": "x - 5" },
+      { "optionId": "B", "text": "x" },
+      { "optionId": "C", "text": "x + 5" },
+      { "optionId": "D", "text": "2x" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A is older by 5 years, so A's age = B's age + 5 = x + 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The ratio of ages of A and B is 3:5 and the sum of their ages is 48 years. What is A's age?",
+    "options": [
+      { "optionId": "A", "text": "16" },
+      { "optionId": "B", "text": "18" },
+      { "optionId": "C", "text": "20" },
+      { "optionId": "D", "text": "22" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Total parts = 3 + 5 = 8, each part = 48/8 = 6. A's age = 3 × 6 = 18.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present age of a father is 3 times his son's age. If the son's present age is x, the father's present age is?",
+    "options": [
+      { "optionId": "A", "text": "x/3" },
+      { "optionId": "B", "text": "3x" },
+      { "optionId": "C", "text": "x + 3" },
+      { "optionId": "D", "text": "x - 3" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Father's age is 3 times the son's age, so Father = 3 × x = 3x.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Five years ago, a man's age was 30 years. What is his present age?",
+    "options": [
+      { "optionId": "A", "text": "30" },
+      { "optionId": "B", "text": "33" },
+      { "optionId": "C", "text": "35" },
+      { "optionId": "D", "text": "37" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Present age = Age n years ago + n = 30 + 5 = 35.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A is 10 years older than B today. After 20 years, by how many years will A be older than B?",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "20" },
+      { "optionId": "C", "text": "30" },
+      { "optionId": "D", "text": "0" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The difference between two people's ages remains constant over time, so the difference stays 10 years.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the sum of present ages of A and B is S and A is x years older than B, which formula gives B's present age?",
+    "options": [
+      { "optionId": "A", "text": "(S + x)/2" },
+      { "optionId": "B", "text": "(S - x)/2" },
+      { "optionId": "C", "text": "S/2 - x" },
+      { "optionId": "D", "text": "S - x" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let B = b, A = b + x. Sum: 2b + x = S, so b = (S - x)/2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A's present age is x years. Ten years hence, A's age will be expressed as?",
+    "options": [
+      { "optionId": "A", "text": "x - 10" },
+      { "optionId": "B", "text": "x + 10" },
+      { "optionId": "C", "text": "10x" },
+      { "optionId": "D", "text": "x/10" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Age n years hence = Present age + n, so it becomes x + 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If, n years ago, the ratio of ages of A and B was p : q with a common multiplier k, which expression gives A's age n years ago?",
+    "options": [
+      { "optionId": "A", "text": "pk" },
+      { "optionId": "B", "text": "qk" },
+      { "optionId": "C", "text": "pk + n" },
+      { "optionId": "D", "text": "qk + n" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "With ratio p:q and multiplier k, the ages n years ago are pk and qk respectively, so A's age n years ago is pk.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present ages of A and B are in the ratio 5:6, and after 4 years the ratio becomes 6:7. Which standard method is used to solve this?",
+    "options": [
+      { "optionId": "A", "text": "Assume ages as 5x and 6x, then form an equation using the new ratio" },
+      { "optionId": "B", "text": "Use the difference-is-constant rule only" },
+      { "optionId": "C", "text": "Use the average of the two ratios" },
+      { "optionId": "D", "text": "Use the LCM of the ratio terms" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Standard method: let ages be 5x and 6x, then solve (5x+4)/(6x+4) = 6/7 for x.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present ages of A and B are in the ratio 5:6 and the sum of their ages is 33 years. What is B's age?",
+    "options": [
+      { "optionId": "A", "text": "15" },
+      { "optionId": "B", "text": "16" },
+      { "optionId": "C", "text": "17" },
+      { "optionId": "D", "text": "18" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Total parts = 5 + 6 = 11, each part = 33/11 = 3. B's age = 6 × 3 = 18.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If x years ago a person's age was y, the person's present age is?",
+    "options": [
+      { "optionId": "A", "text": "y - x" },
+      { "optionId": "B", "text": "y + x" },
+      { "optionId": "C", "text": "xy" },
+      { "optionId": "D", "text": "y/x" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Present age = Age x years ago + x = y + x.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The present age of A is twice that of B. If B's present age is x, A's present age is?",
+    "options": [
+      { "optionId": "A", "text": "x/2" },
+      { "optionId": "B", "text": "x" },
+      { "optionId": "C", "text": "2x" },
+      { "optionId": "D", "text": "x + 2" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A is twice B's age, so A = 2 × x = 2x.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The sum of the present ages of a father and son is 60 years. Six years ago, the father's age was 5 times the son's age. What is the son's present age?",
+    "options": [
+      { "optionId": "A", "text": "12" },
+      { "optionId": "B", "text": "13" },
+      { "optionId": "C", "text": "14" },
+      { "optionId": "D", "text": "15" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let son = S, father = 60 - S. (60 - S - 6) = 5(S - 6) → 54 - S = 5S - 30 → 84 = 6S → S = 14.",
+    "difficulty": "hard",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 120,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The difference in ages between two people remains constant, regardless of how much time passes.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since both ages increase by the same number of years, the difference between them never changes.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the ratio of ages of two people is 2:3 now, this ratio will remain exactly 2:3 at every point in the future.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Only the difference between ages stays constant; the ratio changes as both ages increase by the same amount.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "\"n years hence\" in age problems means we add n to the present age.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Hence\" refers to the future, so n years hence means present age + n.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following statements about ages are correct?",
+    "options": [
+      { "optionId": "A", "text": "Age n years ago = Present age − n" },
+      { "optionId": "B", "text": "Age n years hence = Present age + n" },
+      { "optionId": "C", "text": "The ratio of ages of two people stays constant over time" },
+      { "optionId": "D", "text": "The difference between ages of two people remains constant over time" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A, B, and D are standard age-problem rules. C is false because only the difference, not the ratio, stays constant.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the present ages of A and B are in the ratio a:b with common multiplier k, which of the following are true?",
+    "options": [
+      { "optionId": "A", "text": "A's age = ak" },
+      { "optionId": "B", "text": "B's age = bk" },
+      { "optionId": "C", "text": "Sum of their ages = k(a + b)" },
+      { "optionId": "D", "text": "The ratio of their ages remains a:b even after n years" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C follow directly from the ratio definition. D is false since the ratio changes once both ages increase by the same n.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["problems-on-ages", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

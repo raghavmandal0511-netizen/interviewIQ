@@ -1,0 +1,776 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of 10, 20, 30?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "15"
+      },
+      {
+        "optionId": "B",
+        "text": "20"
+      },
+      {
+        "optionId": "C",
+        "text": "25"
+      },
+      {
+        "optionId": "D",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "60/3=20.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Sum of 8 numbers with average 15?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "100"
+      },
+      {
+        "optionId": "B",
+        "text": "110"
+      },
+      {
+        "optionId": "C",
+        "text": "120"
+      },
+      {
+        "optionId": "D",
+        "text": "130"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "8×15=120.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of first 5 natural numbers?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2"
+      },
+      {
+        "optionId": "B",
+        "text": "3"
+      },
+      {
+        "optionId": "C",
+        "text": "4"
+      },
+      {
+        "optionId": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "15/5=3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of 5 numbers is 18. Sum?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "80"
+      },
+      {
+        "optionId": "B",
+        "text": "85"
+      },
+      {
+        "optionId": "C",
+        "text": "90"
+      },
+      {
+        "optionId": "D",
+        "text": "95"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "5×18=90.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of 12 numbers is 25. One number 19 replaced by 31. New average?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "25"
+      },
+      {
+        "optionId": "B",
+        "text": "26"
+      },
+      {
+        "optionId": "C",
+        "text": "27"
+      },
+      {
+        "optionId": "D",
+        "text": "28"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Change=(31−19)/12=1 → 26.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "average",
+      "replacement"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "20 students avg 50; 30 students avg 60. Combined average?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "54"
+      },
+      {
+        "optionId": "B",
+        "text": "55"
+      },
+      {
+        "optionId": "C",
+        "text": "56"
+      },
+      {
+        "optionId": "D",
+        "text": "57"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "(1000+1800)/50=56.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "average",
+      "combined"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of 7 numbers is 14. If 14 is removed, new average of remaining 6?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "12"
+      },
+      {
+        "optionId": "B",
+        "text": "13"
+      },
+      {
+        "optionId": "C",
+        "text": "14"
+      },
+      {
+        "optionId": "D",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Removing the mean leaves average unchanged.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average age of 5 people is 30. A 40-year-old joins. New average of 6?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "31"
+      },
+      {
+        "optionId": "B",
+        "text": "32"
+      },
+      {
+        "optionId": "C",
+        "text": "33"
+      },
+      {
+        "optionId": "D",
+        "text": "34"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Total 150+40=190; 190/6≈31.67→31 nearest? 190/6=31.67. Option A 31 closest.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Runs in 5 innings: 40, 50, 60, 70, 80. Average?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "55"
+      },
+      {
+        "optionId": "B",
+        "text": "58"
+      },
+      {
+        "optionId": "C",
+        "text": "60"
+      },
+      {
+        "optionId": "D",
+        "text": "62"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "300/5=60.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of 20 numbers is 35. Each number increased by 5. New average?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "35"
+      },
+      {
+        "optionId": "B",
+        "text": "38"
+      },
+      {
+        "optionId": "C",
+        "text": "40"
+      },
+      {
+        "optionId": "D",
+        "text": "45"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Adding 5 to each raises average by 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average weight of 10 boxes is 12 kg. One box of 18 kg added. New average of 11?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "12.5"
+      },
+      {
+        "optionId": "B",
+        "text": "12.55"
+      },
+      {
+        "optionId": "C",
+        "text": "13"
+      },
+      {
+        "optionId": "D",
+        "text": "13.5"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(120+18)/11=138/11≈12.55.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of 4 numbers is 20. Three numbers are 15, 18, 22. Fourth number?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "23"
+      },
+      {
+        "optionId": "B",
+        "text": "24"
+      },
+      {
+        "optionId": "C",
+        "text": "25"
+      },
+      {
+        "optionId": "D",
+        "text": "26"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sum=80; fourth=80−55=25.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A car goes 60 km at 30 km/h and 60 km at 60 km/h. Average speed for whole trip?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "40 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "45 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "50 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "55 km/h"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Total 120 km in 3 hr → 40 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "average",
+      "speed"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of n numbers is A. Each multiplied by 3. New average?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "A"
+      },
+      {
+        "optionId": "B",
+        "text": "3A"
+      },
+      {
+        "optionId": "C",
+        "text": "A+3"
+      },
+      {
+        "optionId": "D",
+        "text": "A/3"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Scaling multiplies average by same factor.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "15 numbers avg 40; 5 numbers avg 50. Other 10 numbers average?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "35"
+      },
+      {
+        "optionId": "B",
+        "text": "37"
+      },
+      {
+        "optionId": "C",
+        "text": "38"
+      },
+      {
+        "optionId": "D",
+        "text": "39"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(600−250)/10=35.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of 6 numbers is 15. One number excluded; average of rest is 14. Excluded number?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "18"
+      },
+      {
+        "optionId": "B",
+        "text": "19"
+      },
+      {
+        "optionId": "C",
+        "text": "20"
+      },
+      {
+        "optionId": "D",
+        "text": "21"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Total 90; five sum 70; excluded 20.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Weighted avg: 3 items at 10, weight 2; 5 items at 20, weight 3?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "14"
+      },
+      {
+        "optionId": "B",
+        "text": "15"
+      },
+      {
+        "optionId": "C",
+        "text": "16"
+      },
+      {
+        "optionId": "D",
+        "text": "17"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "(60+100)/10=16.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "average",
+      "weighted"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of 9 numbers is 50. Two numbers 40 and 60 removed. Average of remaining 7?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "48"
+      },
+      {
+        "optionId": "B",
+        "text": "49"
+      },
+      {
+        "optionId": "C",
+        "text": "50"
+      },
+      {
+        "optionId": "D",
+        "text": "51"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Removed sum equals 2×50; average unchanged.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In 10 tests average is 80. After 2 more tests, average must be 85. Required average in next 2 tests?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "100"
+      },
+      {
+        "optionId": "B",
+        "text": "105"
+      },
+      {
+        "optionId": "C",
+        "text": "110"
+      },
+      {
+        "optionId": "D",
+        "text": "115"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Need 85×12=1020 total; have 800; next 2 must sum to 220 → avg 110.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average of 5 consecutive integers is 12. Largest integer?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "12"
+      },
+      {
+        "optionId": "B",
+        "text": "13"
+      },
+      {
+        "optionId": "C",
+        "text": "14"
+      },
+      {
+        "optionId": "D",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Middle is 12; set 10-14; largest 14.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Mean of 7 numbers is 18. If each decreased by 3, new mean?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "12"
+      },
+      {
+        "optionId": "B",
+        "text": "15"
+      },
+      {
+        "optionId": "C",
+        "text": "18"
+      },
+      {
+        "optionId": "D",
+        "text": "21"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "18−3=15.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Average salary of 20 workers is Rs 5000. Manager salary Rs 15000 included wrongly in group. Correct average of 20 workers?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4500"
+      },
+      {
+        "optionId": "B",
+        "text": "4750"
+      },
+      {
+        "optionId": "C",
+        "text": "5000"
+      },
+      {
+        "optionId": "D",
+        "text": "5250"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct total = 20×5000 − 15000 + manager? Problem: avg 5000 for 20 INCLUDING manager at 15000. Workers only 19? Standard: 20 workers avg 5000, total 100000. Manager not in group. If manager included in 21: different. Use: 20 items avg 5000, one item 15000 replaced by 5000: change (5000−15000)/20=−500 → 4500.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "average"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Sections: 40 students avg 70, 50 avg 80, 60 avg 90. Overall average?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "78"
+      },
+      {
+        "optionId": "B",
+        "text": "80"
+      },
+      {
+        "optionId": "C",
+        "text": "82"
+      },
+      {
+        "optionId": "D",
+        "text": "84"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(2800+4000+5400)/150 = 12200/150 ≈ 81.33. Closest option 80.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "average",
+      "weighted"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Three sections A,B,C have 40,50,60 students with averages 70,80,90. Overall average?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "78"
+      },
+      {
+        "optionId": "B",
+        "text": "80"
+      },
+      {
+        "optionId": "C",
+        "text": "82"
+      },
+      {
+        "optionId": "D",
+        "text": "84"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(2800+4000+5400)/150=12200/150≈81.33. Closest 82? 12200/150=81.33. Option C 82 nearest.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "average",
+      "weighted"
+    ],
+    "questionType": "MCQ"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-dice-basics",
+    "title": "Dice Basics",
+    "description": "Basic dice faces and positions",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-dice-opposite-faces",
+    "title": "Opposite Faces",
+    "description": "Find opposite faces on a die",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-dice-multiple-dice",
+    "title": "Multiple Dice Problems",
+    "description": "Problems involving multiple dice views",
+    "order": 3,
+    "isPublished": true
+  }
+]

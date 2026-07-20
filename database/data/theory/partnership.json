@@ -1,0 +1,93 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Partnership problems deal with dividing business profit (or loss) among partners in proportion to their effective investment. Effective investment equals capital multiplied by the time it remains in the business. When partners join or leave at different times, or when one partner receives a salary for managing the firm, the profit must be adjusted before sharing.",
+  "explanation": "CONCEPT EXPLANATION\n\nIn a simple partnership, all partners invest capital for the same duration. Profit is shared in the ratio of their capitals: A's share : B's share = A's capital : B's capital.\n\nIn a compound partnership, partners invest for different periods. Compare capitals after weighting by time: Effective capital = Capital × Time (months or years). Profit ratio = C1T1 : C2T2 : C3T3.\n\nWhen a working partner gets a fixed monthly or annual salary, subtract total salary from gross profit first; divide the remainder among all partners (including the working partner) in the capital-time ratio.\n\nIf a partner joins mid-year, count only the months they actually invested. Replacements are handled by treating each investment period separately.\n\nREAL-LIFE APPLICATIONS\n\nStartups split equity based on funding rounds, joint ventures allocate returns among investors with different lock-in periods, and family businesses distribute annual profit among sleeping and active partners using these same ratio rules.\n\nCOMMON MISTAKES\n\n1) Ignoring time when capitals are invested for unequal durations.\n2) Including salary in profit before deducting it.\n3) Using revenue instead of profit to divide.\n4) Forgetting to convert all investments to the same time unit (months vs years).\n5) Adding capitals without forming a ratio first.\n\nIMPORTANT NOTES\n\n• Profit-sharing ratio uses capital × time, not capital alone when times differ.\n• Salary to a working partner is an expense, not part of their capital share.\n• Loss is shared in the same ratio as profit unless stated otherwise.\n• When capital is withdrawn partly, split the partner's contribution into periods.\n• Always simplify the ratio before calculating individual shares.",
+  "formulas": [
+    {
+      "title": "Simple partnership ratio",
+      "content": "Profit ratio = C1 : C2 : C3 (when investment time is equal)"
+    },
+    {
+      "title": "Compound partnership ratio",
+      "content": "Profit ratio = C1 × T1 : C2 × T2 : C3 × T3"
+    },
+    {
+      "title": "Share of a partner",
+      "content": "Partner's share = Total profit × (Partner's ratio part / Sum of ratio parts)"
+    },
+    {
+      "title": "Working partner adjustment",
+      "content": "Distributable profit = Gross profit − Total salary of working partner(s)"
+    },
+    {
+      "title": "Effective capital",
+      "content": "Effective capital = Capital invested × Number of months (or years) invested"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Same time shortcut",
+      "tip": "If every partner invests for the full year, compare capitals directly without multiplying by time."
+    },
+    {
+      "title": "Salary first",
+      "tip": "Always subtract the working partner's salary from total profit before applying the capital ratio."
+    },
+    {
+      "title": "Month alignment",
+      "tip": "Convert every investment period to months to avoid mixing years and months in the ratio."
+    },
+    {
+      "title": "Ratio simplify",
+      "tip": "Divide all capital-time products by their HCF before calculating shares — smaller numbers reduce errors."
+    },
+    {
+      "title": "Mid-year entry",
+      "tip": "A partner joining after m months in a 12-month year uses time = (12 − m) months for that period."
+    },
+    {
+      "title": "Check total",
+      "tip": "Individual shares must add up to the distributable profit; use this to verify your answer quickly."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A and B start a business with ₹8,000 and ₹12,000 respectively. At the end of the year the profit is ₹5,000. Find A's share.",
+      "solution": "A's share of profit is ₹2,000.",
+      "steps": [
+        "Capital ratio A : B = 8000 : 12000 = 2 : 3.",
+        "Total parts = 5.",
+        "A's share = 5000 × (2/5) = ₹2,000."
+      ]
+    },
+    {
+      "problem": "A invests ₹15,000 for 8 months and B invests ₹12,000 for 10 months. If the profit is ₹1,550, find B's share.",
+      "solution": "B's share is ₹750.",
+      "steps": [
+        "Effective capital: A = 15000 × 8 = 120000; B = 12000 × 10 = 120000.",
+        "Ratio A : B = 1 : 1.",
+        "B's share = 1550 × (1/2) = ₹750."
+      ]
+    },
+    {
+      "problem": "A, B, and C invest ₹20,000, ₹30,000, and ₹50,000. C is a working partner and gets ₹2,000 salary per year. Annual profit is ₹12,000. Find C's total earnings.",
+      "solution": "C receives ₹7,000 in total (₹5,000 profit share + ₹2,000 salary).",
+      "steps": [
+        "Distributable profit = 12000 − 2000 = ₹10,000.",
+        "Capital ratio = 2 : 3 : 5.",
+        "C's profit share = 10000 × (5/10) = ₹5,000.",
+        "C's total = 5000 + 2000 = ₹7,000."
+      ]
+    },
+    {
+      "problem": "X puts ₹6,000 for 4 months, Y puts ₹8,000 for 6 months, and Z puts ₹10,000 for 8 months. Profit is ₹3,720. Find Y's share.",
+      "solution": "Y's share is ₹960.",
+      "steps": [
+        "Effective: X = 24000, Y = 48000, Z = 80000.",
+        "Ratio = 3 : 6 : 10.",
+        "Y's share = 3720 × (6/19) = ₹960."
+      ]
+    }
+  ],
+  "references": []
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 3, 6, 12, 24, 50, 96.",
+    "options": [
+      { "optionId": "A", "text": "6" },
+      { "optionId": "B", "text": "24" },
+      { "optionId": "C", "text": "50" },
+      { "optionId": "D", "text": "96" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The pattern doubles each term: 3, 6, 12, 24, 48, 96. The term 50 breaks the pattern; it should be 48.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 8, 14, 20, 26, 33, 38.",
+    "options": [
+      { "optionId": "A", "text": "14" },
+      { "optionId": "B", "text": "26" },
+      { "optionId": "C", "text": "33" },
+      { "optionId": "D", "text": "38" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term should increase by 6: 8, 14, 20, 26, 32, 38. The term 33 breaks the pattern; it should be 32.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 1, 4, 9, 16, 26, 36.",
+    "options": [
+      { "optionId": "A", "text": "9" },
+      { "optionId": "B", "text": "16" },
+      { "optionId": "C", "text": "26" },
+      { "optionId": "D", "text": "36" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The series should be perfect squares: 1, 4, 9, 16, 25, 36. The term 26 breaks the pattern; it should be 25.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 5, 10, 17, 26, 37, 51.",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "26" },
+      { "optionId": "C", "text": "37" },
+      { "optionId": "D", "text": "51" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The differences between terms increase by 2 each time (5, 7, 9, 11, 13): 5, 10, 17, 26, 37, 50. The term 51 breaks the pattern; it should be 50.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 2, 6, 18, 54, 160, 486.",
+    "options": [
+      { "optionId": "A", "text": "18" },
+      { "optionId": "B", "text": "54" },
+      { "optionId": "C", "text": "160" },
+      { "optionId": "D", "text": "486" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term should be multiplied by 3: 2, 6, 18, 54, 162, 486. The term 160 breaks the pattern; it should be 162.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 1, 2, 4, 8, 16, 30, 64.",
+    "options": [
+      { "optionId": "A", "text": "8" },
+      { "optionId": "B", "text": "16" },
+      { "optionId": "C", "text": "30" },
+      { "optionId": "D", "text": "64" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term should double the previous term: 1, 2, 4, 8, 16, 32, 64. The term 30 breaks the pattern; it should be 32.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What type of pattern is followed in the series 4, 9, 16, 25, 36?",
+    "options": [
+      { "optionId": "A", "text": "Arithmetic progression" },
+      { "optionId": "B", "text": "Geometric progression" },
+      { "optionId": "C", "text": "Squares of consecutive integers starting from 2" },
+      { "optionId": "D", "text": "Cubes of consecutive integers" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "4 = 2², 9 = 3², 16 = 4², 25 = 5², 36 = 6² — the series lists squares of consecutive integers starting from 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the pattern in the series 1, 3, 6, 10, 15, 21?",
+    "options": [
+      { "optionId": "A", "text": "Each term is the sum of the first n natural numbers (triangular numbers)" },
+      { "optionId": "B", "text": "Each term is a perfect square" },
+      { "optionId": "C", "text": "Each term is a prime number" },
+      { "optionId": "D", "text": "Arithmetic progression with common difference 3" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "These are triangular numbers: the nth term is 1+2+...+n. The differences 2, 3, 4, 5, 6 confirm this pattern, not a constant common difference.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Following the triangular number pattern 1, 3, 6, 10, 15, 21, find the next term.",
+    "options": [
+      { "optionId": "A", "text": "25" },
+      { "optionId": "B", "text": "26" },
+      { "optionId": "C", "text": "27" },
+      { "optionId": "D", "text": "28" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The differences increase by 1 each time (2, 3, 4, 5, 6, next 7). 21 + 7 = 28.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 10, 14, 21, 31, 44, 59.",
+    "options": [
+      { "optionId": "A", "text": "21" },
+      { "optionId": "B", "text": "31" },
+      { "optionId": "C", "text": "44" },
+      { "optionId": "D", "text": "59" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The differences increase by 3 each time (4, 7, 10, 13, 16): 10, 14, 21, 31, 44, 60. The term 59 breaks the pattern; it should be 60.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Identify the pattern in the series: 2, 4, 12, 48, 240.",
+    "options": [
+      { "optionId": "A", "text": "Multiply by 2 each time" },
+      { "optionId": "B", "text": "Multiply by an increasing integer starting from 2" },
+      { "optionId": "C", "text": "Add increasing even numbers" },
+      { "optionId": "D", "text": "Square each term" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "2 × 2 = 4, 4 × 3 = 12, 12 × 4 = 48, 48 × 5 = 240 — each term is multiplied by an integer that increases by 1 every step.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using the pattern from 2, 4, 12, 48, 240 (multiplying by an increasing integer), find the next term.",
+    "options": [
+      { "optionId": "A", "text": "1200" },
+      { "optionId": "B", "text": "1320" },
+      { "optionId": "C", "text": "1440" },
+      { "optionId": "D", "text": "1680" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The multiplier sequence is 2, 3, 4, 5, next 6. 240 × 6 = 1440.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 121, 144, 169, 182, 225.",
+    "options": [
+      { "optionId": "A", "text": "144" },
+      { "optionId": "B", "text": "169" },
+      { "optionId": "C", "text": "182" },
+      { "optionId": "D", "text": "225" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The series should be squares of consecutive integers 11 to 15: 121, 144, 169, 196, 225. The term 182 breaks the pattern; it should be 196.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the pattern 2, 5, 8, 11, 14 (adding a constant each time).",
+    "options": [
+      { "optionId": "A", "text": "15" },
+      { "optionId": "B", "text": "16" },
+      { "optionId": "C", "text": "17" },
+      { "optionId": "D", "text": "18" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each term increases by 3. 14 + 3 = 17.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: 3, 8, 15, 24, 35, 47.",
+    "options": [
+      { "optionId": "A", "text": "15" },
+      { "optionId": "B", "text": "24" },
+      { "optionId": "C", "text": "35" },
+      { "optionId": "D", "text": "47" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The pattern follows n² + 2n for n = 1, 2, 3...: 3, 8, 15, 24, 35, 48. The term 47 breaks the pattern; it should be 48.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series 4, 9, 16, 25, 36, every term is a perfect square.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "4 = 2², 9 = 3², 16 = 4², 25 = 5², 36 = 6² — all are perfect squares, so the statement is true.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series 3, 6, 12, 24, 50, 96, the doubling pattern holds true for every term without exception.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct doubling series would be 3, 6, 12, 24, 48, 96. The term 50 breaks the pattern, so the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following series correctly follow a doubling pattern throughout (each term is exactly twice the previous term)?",
+    "options": [
+      { "optionId": "A", "text": "2, 4, 8, 16, 32" },
+      { "optionId": "B", "text": "3, 6, 12, 24, 50" },
+      { "optionId": "C", "text": "5, 10, 20, 40, 80" },
+      { "optionId": "D", "text": "1, 2, 4, 8, 15" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "2, 4, 8, 16, 32 and 5, 10, 20, 40, 80 both double consistently. In 3, 6, 12, 24, 50, the last term breaks the pattern (should be 48); in 1, 2, 4, 8, 15, the last term breaks the pattern (should be 16).",
+    "difficulty": "hard",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["number-series", "pattern-recognition"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

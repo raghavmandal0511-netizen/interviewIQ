@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: Unemployment in the city rose last year.\nII: Several large factories in the city shut down last year.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "II is the cause and I is the effect"
+      },
+      {
+        "optionId": "B",
+        "text": "I is the cause and II is the effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Both independent"
+      },
+      {
+        "optionId": "D",
+        "text": "II is effect of I only always"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Factory shutdowns can cause unemployment to rise.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: The government reduced import duties on electronics.\nII: Prices of some imported gadgets fell in the market.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "Common cause only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lower duties can reduce retail prices.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: A viral video made the restaurant famous overnight.\nII: The restaurant's waiting list became very long.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "II causes fame"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fame from the video can increase demand/queues.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: Farmers in the region switched to organic crops.\nII: Chemical fertilizer sales in the region declined.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "Fertilizer causes organic switch only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Less chemical farming reduces fertilizer demand.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: The central bank raised interest rates.\nII: Home-loan EMIs increased for many borrowers.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "EMI causes rate hike"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Higher policy rates often raise loan EMIs.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: Heavy snowfall blocked mountain passes.\nII: Tourist arrivals in the valley dropped sharply.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "Tourism causes snowfall"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Blocked access reduces tourist inflow.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: Company X announced a major product recall.\nII: Company X's share price fell the same day.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "Price fall causes recall"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Bad news like recalls often triggers sell-offs.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: Online attendance tools were adopted by many schools.\nII: Several ed-tech firms reported higher subscriptions.\nAlso both could follow COVID-era remote learning.\nBest fit among options?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Both effects of a common cause"
+      },
+      {
+        "optionId": "B",
+        "text": "I cause II only always"
+      },
+      {
+        "optionId": "C",
+        "text": "II cause I only always"
+      },
+      {
+        "optionId": "D",
+        "text": "Completely unrelated forever"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Remote-learning shift can drive both tool adoption and ed-tech growth.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: The city banned single-use plastic bags.\nII: Sales of cloth bags increased in local stores.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "Cloth bags cause plastic ban"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ban pushes consumers toward cloth bags.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: A new metro line opened in the suburb.\nII: Average commute time for many residents fell.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "Shorter commute causes metro"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "New transit can shorten travel times.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: Sudden rumors of a fuel shortage spread online.\nII: Long queues formed at petrol pumps.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "Queues cause rumors only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Panic from rumors can create queues.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: Researchers published a breakthrough battery paper.\nII: A local bakery offered a weekend discount.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Independent / unrelated"
+      },
+      {
+        "optionId": "B",
+        "text": "I cause II"
+      },
+      {
+        "optionId": "C",
+        "text": "II cause I"
+      },
+      {
+        "optionId": "D",
+        "text": "Common scientific cause"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "No plausible causal link.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: Monsoon rainfall was far below normal.\nII: Reservoir water levels dropped in the state.\nAlso crop stress rose.\nFor I and II:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "Reservoirs cause weak monsoon"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Weak monsoon reduces reservoir inflow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "I: The airline canceled 40 flights due to crew shortage.\nII: Many passengers were stranded at the airport.\nRelationship?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "I cause, II effect"
+      },
+      {
+        "optionId": "B",
+        "text": "II cause, I effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Independent"
+      },
+      {
+        "optionId": "D",
+        "text": "Stranding causes cancel"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cancellations leave passengers stranded.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Advanced cause-effect items often involve:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Policy and market effects"
+      },
+      {
+        "optionId": "B",
+        "text": "Only alphabet series"
+      },
+      {
+        "optionId": "C",
+        "text": "Only dice opposites"
+      },
+      {
+        "optionId": "D",
+        "text": "Only blood codes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "News-style policy/market links are common.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If two statements share one underlying event, \"common cause\" can be the best choice.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Both may be effects of the same driver.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A price fall can never be an effect of bad corporate news.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bad news often causes price falls.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Valid advanced relationships include:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Direct cause→effect"
+      },
+      {
+        "optionId": "B",
+        "text": "Reverse cause→effect"
+      },
+      {
+        "optionId": "C",
+        "text": "Common cause"
+      },
+      {
+        "optionId": "D",
+        "text": "Rhyming words only"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Causal directions and common cause matter; rhyme does not.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "cause-and-effect",
+      "advanced"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

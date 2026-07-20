@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'pit lam sod' means 'sun gives light'\n'sod kap tir' means 'light and heat'\n'tir pit vun' means 'heat sun energy'\nWhat is the code for 'heat'?",
+    "options": [
+      { "optionId": "A", "text": "sod" },
+      { "optionId": "B", "text": "tir" },
+      { "optionId": "C", "text": "pit" },
+      { "optionId": "D", "text": "kap" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Heat' appears in the second and third sentences. Comparing 'sod kap tir' (light and heat) with 'tir pit vun' (heat sun energy), the only common code word is 'tir', which must therefore mean 'heat'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'dor fen jav' means 'mango tastes sweet'\n'jav mip rol' means 'sweet today fresh'\n'rol dor tuv' means 'fresh mango ripe'\nWhat is the code for 'fresh'?",
+    "options": [
+      { "optionId": "A", "text": "jav" },
+      { "optionId": "B", "text": "rol" },
+      { "optionId": "C", "text": "dor" },
+      { "optionId": "D", "text": "mip" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Fresh' appears in the second and third sentences. Comparing 'jav mip rol' (sweet today fresh) with 'rol dor tuv' (fresh mango ripe), the only common code word is 'rol', which must therefore mean 'fresh'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'biv cax quel' means 'tiger hunts silently'\n'quel plor snar' means 'silently night jungle'\n'snar biv twik' means 'jungle tiger roams'\nWhat is the code for 'jungle'?",
+    "options": [
+      { "optionId": "A", "text": "quel" },
+      { "optionId": "B", "text": "biv" },
+      { "optionId": "C", "text": "snar" },
+      { "optionId": "D", "text": "plor" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Jungle' appears in the second and third sentences. Comparing 'quel plor snar' (silently night jungle) with 'snar biv twik' (jungle tiger roams), the only common code word is 'snar', which must therefore mean 'jungle'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'vosh drin glim' means 'teacher explains lesson'\n'glim humo iva' means 'lesson daily class'\n'iva vosh jorf' means 'class teacher carefully'\nWhat is the code for 'teacher'?",
+    "options": [
+      { "optionId": "A", "text": "glim" },
+      { "optionId": "B", "text": "iva" },
+      { "optionId": "C", "text": "jorf" },
+      { "optionId": "D", "text": "vosh" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Teacher' appears in the first and third sentences. Comparing 'vosh drin glim' (teacher explains lesson) with 'iva vosh jorf' (class teacher carefully), the only common code word is 'vosh', which must therefore mean 'teacher'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'klee lorn muzz' means 'train arrives late'\n'muzz nix orv' means 'late station every'\n'orv pex quor' means 'every day morning'\n'quor klee nix' means 'morning train station'\nWhat is the code for 'arrives'?",
+    "options": [
+      { "optionId": "A", "text": "muzz" },
+      { "optionId": "B", "text": "klee" },
+      { "optionId": "C", "text": "lorn" },
+      { "optionId": "D", "text": "nix" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Comparing sentences pairwise: 'klee lorn muzz' and 'muzz nix orv' share 'muzz' (late); 'muzz nix orv' and 'orv pex quor' share 'orv' (every); 'orv pex quor' and 'quor klee nix' share 'quor' (morning); 'quor klee nix' and 'klee lorn muzz' share 'klee' (train). In the first sentence, since 'muzz' means late and 'klee' means train, the remaining word 'lorn' must mean 'arrives' by elimination.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'ril sib tox' means 'player scores goal'\n'tox unz vez' means 'goal match today'\n'vez ril wib' means 'today player wins'\nWhat is the code for 'today'?",
+    "options": [
+      { "optionId": "A", "text": "tox" },
+      { "optionId": "B", "text": "ril" },
+      { "optionId": "C", "text": "unz" },
+      { "optionId": "D", "text": "vez" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Today' appears in the second and third sentences. Comparing 'tox unz vez' (goal match today) with 'vez ril wib' (today player wins), the only common code word is 'vez', which must therefore mean 'today'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'xor yun zap' means 'sky looks blue'\n'zap bok cru' means 'blue clear evening'\n'cru xor dez' means 'evening sky calm'\nWhat is the code for 'sky'?",
+    "options": [
+      { "optionId": "A", "text": "zap" },
+      { "optionId": "B", "text": "cru" },
+      { "optionId": "C", "text": "xor" },
+      { "optionId": "D", "text": "dez" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Sky' appears in the first and third sentences. Comparing 'xor yun zap' (sky looks blue) with 'cru xor dez' (evening sky calm), the only common code word is 'xor', which must therefore mean 'sky'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'efo gip hun' means 'computer runs fast'\n'hun ilo jem' means 'fast software new'\n'jem efo kwa' means 'new computer smoothly'\nWhat is the code for 'new'?",
+    "options": [
+      { "optionId": "A", "text": "hun" },
+      { "optionId": "B", "text": "jem" },
+      { "optionId": "C", "text": "efo" },
+      { "optionId": "D", "text": "ilo" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'New' appears in the second and third sentences. Comparing 'hun ilo jem' (fast software new) with 'jem efo kwa' (new computer smoothly), the only common code word is 'jem', which must therefore mean 'new'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'lov maz nir' means 'singer sings melodiously'\n'nir opu pyx' means 'melodiously song new'\n'pyx lov qek' means 'new singer composes'\nWhat is the code for 'singer'?",
+    "options": [
+      { "optionId": "A", "text": "nir" },
+      { "optionId": "B", "text": "pyx" },
+      { "optionId": "C", "text": "lov" },
+      { "optionId": "D", "text": "maz" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Singer' appears in the first and third sentences. Comparing 'lov maz nir' (singer sings melodiously) with 'pyx lov qek' (new singer composes), the only common code word is 'lov', which must therefore mean 'singer'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'rax suv taw' means 'river flows swiftly'\n'taw ubi vov' means 'swiftly valley through'\n'vov rax wyz' means 'through river green'\nWhat is the code for 'through'?",
+    "options": [
+      { "optionId": "A", "text": "taw" },
+      { "optionId": "B", "text": "rax" },
+      { "optionId": "C", "text": "ubi" },
+      { "optionId": "D", "text": "vov" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Through' appears in the second and third sentences. Comparing 'taw ubi vov' (swiftly valley through) with 'vov rax wyz' (through river green), the only common code word is 'vov', which must therefore mean 'through'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'xib yov zun' means 'clock shows correct'\n'zun abo bic' means 'correct time always'\n'bic xib cod' means 'always clock precisely'\nWhat is the code for 'clock'?",
+    "options": [
+      { "optionId": "A", "text": "zun" },
+      { "optionId": "B", "text": "bic" },
+      { "optionId": "C", "text": "xib" },
+      { "optionId": "D", "text": "cod" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Clock' appears in the first and third sentences. Comparing 'xib yov zun' (clock shows correct) with 'bic xib cod' (always clock precisely), the only common code word is 'xib', which must therefore mean 'clock'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'dof egu fiv' means 'child feels happy'\n'fiv goj hux' means 'happy today very'\n'hux dof ipa' means 'very child cheerful'\nWhat is the code for 'very'?",
+    "options": [
+      { "optionId": "A", "text": "fiv" },
+      { "optionId": "B", "text": "hux" },
+      { "optionId": "C", "text": "dof" },
+      { "optionId": "D", "text": "ipa" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Very' appears in the second and third sentences. Comparing 'fiv goj hux' (happy today very) with 'hux dof ipa' (very child cheerful), the only common code word is 'hux', which must therefore mean 'very'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'jek kol lum' means 'manager reviews report'\n'lum mon nop' means 'report weekly carefully'\n'nop jek orq' means 'carefully manager team'\nWhat does the code 'jek' stand for?",
+    "options": [
+      { "optionId": "A", "text": "reviews" },
+      { "optionId": "B", "text": "manager" },
+      { "optionId": "C", "text": "team" },
+      { "optionId": "D", "text": "report" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'jek' appears in the first and third sentences. Comparing 'jek kol lum' (manager reviews report) with 'nop jek orq' (carefully manager team), the only word common to both English phrases is 'manager', so 'jek' must stand for 'manager'.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'pob qas rit' means 'mason builds wall'\n'rit wiv suf' means 'wall stands strong'\n'suf uga xen' means 'strong bricks used'\n'xen pob yeb' means 'used mason carefully'\nWhat is the code for 'builds'?",
+    "options": [
+      { "optionId": "A", "text": "rit" },
+      { "optionId": "B", "text": "pob" },
+      { "optionId": "C", "text": "qas" },
+      { "optionId": "D", "text": "suf" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Comparing sentences pairwise shows 'rit' means wall (shared by sentences 1 and 2), 'suf' means strong (shared by 2 and 3), 'xen' means used (shared by 3 and 4), and 'pob' means mason (shared by 4 and 1). In the first sentence 'pob qas rit' (mason builds wall), since 'pob' is mason and 'rit' is wall, the remaining word 'qas' must mean 'builds' by elimination.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'zim anj bko' means 'flower blooms beautifully'\n'bko clu dmy' means 'beautifully spring every'\n'dmy zim enz' means 'every flower season'\nWhat is the code for 'flower'?",
+    "options": [
+      { "optionId": "A", "text": "bko" },
+      { "optionId": "B", "text": "dmy" },
+      { "optionId": "C", "text": "enz" },
+      { "optionId": "D", "text": "zim" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Flower' appears in the first and third sentences. Comparing 'zim anj bko' (flower blooms beautifully) with 'dmy zim enz' (every flower season), the only common code word is 'zim', which must therefore mean 'flower'.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'fop gru hsk' means 'chef cooks delicious'\n'hsk ilv jmo' means 'delicious food every'\n'jmo fop knp' means 'every chef day'\nState whether True or False: Based on this code, the word 'chef' is coded as 'fop'.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Chef' appears in the first and third sentences. Comparing 'fop gru hsk' (chef cooks delicious) with 'jmo fop knp' (every chef day), the only common code word is 'fop', confirming that 'fop' does indeed mean 'chef'. The statement is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'lqw mrx nsy' means 'farmer ploughs field'\n'nsy otz pua' means 'field every morning'\n'pua lqw qvb' means 'morning farmer early'\nState whether True or False: Based on this code, the word 'morning' is coded as 'nsy'.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Comparing 'lqw mrx nsy' (farmer ploughs field) with 'nsy otz pua' (field every morning), the common word 'nsy' actually corresponds to 'field', not 'morning'. Comparing 'nsy otz pua' with 'pua lqw qvb' (morning farmer early), the common word 'pua' corresponds to 'morning' instead. So the statement, which wrongly assigns 'morning' to 'nsy', is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain artificial language:\n'rwc sxd tye' means 'customer buys goods'\n'tye uzf vag' means 'goods cheap price'\n'vag rwc whb' means 'price customer daily'\nWhich of the following code-meaning mappings are correct according to this language? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "goods = tye" },
+      { "optionId": "B", "text": "price = vag" },
+      { "optionId": "C", "text": "customer = whb" },
+      { "optionId": "D", "text": "buys = sxd" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "Comparing the sentences pairwise: 'tye' is common to sentences 1 and 2, so 'tye' means 'goods'; 'vag' is common to sentences 2 and 3, so 'vag' means 'price'; 'rwc' is common to sentences 3 and 1, so 'rwc' means 'customer' (not 'whb', which actually means 'daily'). In the first sentence, since 'rwc' is customer and 'tye' is goods, the remaining word 'sxd' must mean 'buys'. So A, B, and D are correct, while C is incorrect.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["artificial-language", "translation"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Blood Relation Test questions ask you to decode family relationships from descriptions or coded symbols. Drawing a quick family tree is the most reliable approach.",
+  "explanation": "CONCEPT\n\nYou translate statements like \"A is the brother of B\" into a diagram with generations (parents above children) and gender marks. Symbol-based questions encode relations with +/−, ×/÷, or other signs. Mixed problems combine several clues.\n\nRULES\n\n• Same generation: siblings, cousins, spouse.\n• One generation up: parents, uncles/aunts.\n• Two up: grandparents.\n• In-laws are by marriage; blood relations are by birth.\n• \"Only son/daughter\" constrains siblings tightly.\n• Mother’s brother = maternal uncle; father’s sister = paternal aunt.\n\nTRICKS / SHORTCUT TECHNIQUES\n\n• Draw generations as horizontal rows.\n• Mark male/female clearly (△/○ or M/F).\n• Convert coded symbols to plain English first.\n• Work from the person mentioned in the question backward to the target.\n• For \"how is X related to Y\", place both on the tree before answering.\n\nSTEP-BY-STEP SOLVING METHOD\n\n1) List every given relation in simple words.\n2) Sketch a tree with generations.\n3) Add each clue without contradiction.\n4) Locate the two people in the question.\n5) Read off the relationship from the diagram.\n\nCOMMON MISTAKES\n\n1) Confusing maternal and paternal sides.\n2) Mixing up \"A is brother of B\" with \"B is brother of A\" gender implications for B.\n3) Forgetting that spouse links join two families.\n4) Misreading coded symbol tables.\n5) Answering with X’s relation to Y when asked Y’s relation to X.",
+  "formulas": [
+    {
+      "title": "Parent link",
+      "content": "If A is child of B, B is one generation above A"
+    },
+    {
+      "title": "Sibling link",
+      "content": "Children of the same parents are siblings (same generation)"
+    },
+    {
+      "title": "Uncle / aunt",
+      "content": "Brother/sister of father or mother"
+    },
+    {
+      "title": "Cousin",
+      "content": "Child of uncle or aunt"
+    },
+    {
+      "title": "In-law",
+      "content": "Relation created by marriage (e.g. sister-in-law)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Always draw",
+      "tip": "Even short puzzles are safer with a 30-second sketch."
+    },
+    {
+      "title": "Fix genders",
+      "tip": "Write M/F next to each name as soon as known."
+    },
+    {
+      "title": "Decode symbols first",
+      "tip": "Rewrite coded statements as English before drawing."
+    },
+    {
+      "title": "Question direction",
+      "tip": "Re-read whether it asks how A is related to B or B to A."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A is the brother of B. B is the sister of C. How is C related to A?",
+      "solution": "C is sibling of A (brother or sister—gender of C unknown unless given).",
+      "steps": [
+        "A and B are siblings; B and C are siblings.",
+        "Therefore A, B, C share the same parent generation.",
+        "C is brother/sister of A depending on C’s gender."
+      ]
+    },
+    {
+      "problem": "Pointing to a man, a woman says, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+      "solution": "She is his mother.",
+      "steps": [
+        "Only daughter of the woman’s mother = the woman herself.",
+        "That daughter is the man’s mother.",
+        "So the woman is the man’s mother."
+      ]
+    },
+    {
+      "problem": "If P + Q means P is father of Q, and P × Q means P is sister of Q: what does A + B × C mean for A and C?",
+      "solution": "A is father of C (and of B).",
+      "steps": [
+        "B × C → B is sister of C → B and C are siblings.",
+        "A + B → A is father of B.",
+        "Hence A is also father of C."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Kinship terminology",
+      "url": "https://en.wikipedia.org/wiki/Kinship_terminology"
+    }
+  ]
+}

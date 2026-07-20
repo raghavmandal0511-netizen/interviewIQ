@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the value of tan 45°?",
+    "options": [
+      { "optionId": "A", "text": "1/√3" },
+      { "optionId": "B", "text": "1" },
+      { "optionId": "C", "text": "√3" },
+      { "optionId": "D", "text": "0" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "tan 45° = 1, since the opposite and adjacent sides of a 45° right triangle are equal.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the value of sin 30°?",
+    "options": [
+      { "optionId": "A", "text": "1/2" },
+      { "optionId": "B", "text": "√3/2" },
+      { "optionId": "C", "text": "1" },
+      { "optionId": "D", "text": "0" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "sin 30° = 1/2 is a standard trigonometric value.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which formula relates the angle of elevation θ, the height h of an object, and the horizontal distance d from the observer?",
+    "options": [
+      { "optionId": "A", "text": "tan θ = h / d" },
+      { "optionId": "B", "text": "tan θ = d / h" },
+      { "optionId": "C", "text": "sin θ = h / d" },
+      { "optionId": "D", "text": "cos θ = h / d" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In the right triangle formed, height is the side opposite θ and horizontal distance is the adjacent side, so tan θ = opposite/adjacent = h/d.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From a point 30 m from the base of a tower, the angle of elevation of its top is 45°. Find the height of the tower.",
+    "options": [
+      { "optionId": "A", "text": "15√3 m" },
+      { "optionId": "B", "text": "30 m" },
+      { "optionId": "C", "text": "30√3 m" },
+      { "optionId": "D", "text": "60 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "tan 45° = h/30. Since tan 45° = 1, h = 30 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From a point 50 m from the base of a tower, the angle of elevation of its top is 60°. Find the height of the tower.",
+    "options": [
+      { "optionId": "A", "text": "50 m" },
+      { "optionId": "B", "text": "50√3 m" },
+      { "optionId": "C", "text": "100 m" },
+      { "optionId": "D", "text": "25√3 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "tan 60° = h/50. Since tan 60° = √3, h = 50√3 m ≈ 86.6 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A ladder 8 m long leans against a wall, making an angle of 30° with the ground. Find the height it reaches on the wall.",
+    "options": [
+      { "optionId": "A", "text": "3 m" },
+      { "optionId": "B", "text": "4 m" },
+      { "optionId": "C", "text": "4√3 m" },
+      { "optionId": "D", "text": "8 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Height = Ladder length × sin(angle) = 8 × sin 30° = 8 × 1/2 = 4 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A pole casts a shadow of 10 m when the angle of elevation of the sun is 45°. Find the height of the pole.",
+    "options": [
+      { "optionId": "A", "text": "5 m" },
+      { "optionId": "B", "text": "10 m" },
+      { "optionId": "C", "text": "10√3 m" },
+      { "optionId": "D", "text": "20 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Height/Shadow = tan 45° = 1, so height = shadow length = 10 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The shadow of a pole is 20 m long when the sun's angle of elevation is 30°. Find the height of the pole.",
+    "options": [
+      { "optionId": "A", "text": "10 m" },
+      { "optionId": "B", "text": "20√3/3 m (≈ 11.55 m)" },
+      { "optionId": "C", "text": "17.3 m" },
+      { "optionId": "D", "text": "20 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Height/Shadow = tan 30° = 1/√3, so Height = 20 × (1/√3) = 20√3/3 ≈ 11.55 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "From the top of a 60 m cliff, the angle of depression of a boat is 30°. Find the distance of the boat from the base of the cliff.",
+    "options": [
+      { "optionId": "A", "text": "60 m" },
+      { "optionId": "B", "text": "60√3 m" },
+      { "optionId": "C", "text": "120 m" },
+      { "optionId": "D", "text": "30√3 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The angle of depression from the top equals the angle of elevation from the boat, so tan 30° = 60/d ⇒ d = 60/(1/√3) = 60√3 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "An observer walks 20 m toward a tower, and the angle of elevation of its top changes from 30° to 60°. Find the height of the tower using h = d / (cot θ1 − cot θ2).",
+    "options": [
+      { "optionId": "A", "text": "10 m" },
+      { "optionId": "B", "text": "10√3 m" },
+      { "optionId": "C", "text": "20 m" },
+      { "optionId": "D", "text": "20√3 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "h = 20 / (cot 30° − cot 60°) = 20 / (√3 − 1/√3) = 20 / (2/√3) = 20 × √3/2 = 10√3 m ≈ 17.32 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the relation between the angle of depression from the top of a tower and the angle of elevation from the base of the observer, when both lines of sight lie along the same line?",
+    "options": [
+      { "optionId": "A", "text": "Depression = 90° − Elevation" },
+      { "optionId": "B", "text": "Depression = Elevation" },
+      { "optionId": "C", "text": "Depression = 2 × Elevation" },
+      { "optionId": "D", "text": "There is no fixed relation" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "By the property of alternate angles between the horizontal line at the top and the horizontal line at the observer, the angle of depression from the top equals the angle of elevation from the bottom.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "What is the value of cos 60°?",
+    "options": [
+      { "optionId": "A", "text": "1/2" },
+      { "optionId": "B", "text": "√3/2" },
+      { "optionId": "C", "text": "1" },
+      { "optionId": "D", "text": "1/√3" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "cos 60° = 1/2 is a standard trigonometric value.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A pole 15 m high casts a shadow 15√3 m long. Find the sun's angle of elevation.",
+    "options": [
+      { "optionId": "A", "text": "30°" },
+      { "optionId": "B", "text": "45°" },
+      { "optionId": "C", "text": "60°" },
+      { "optionId": "D", "text": "90°" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "tan θ = Height/Shadow = 15/(15√3) = 1/√3, which corresponds to θ = 30°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A tower is 100 m tall. Find the angle of elevation from a point 100√3 m away from its base.",
+    "options": [
+      { "optionId": "A", "text": "30°" },
+      { "optionId": "B", "text": "45°" },
+      { "optionId": "C", "text": "60°" },
+      { "optionId": "D", "text": "75°" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "tan θ = 100/(100√3) = 1/√3, which corresponds to θ = 30°.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The angle of depression from the top of a tower to a point on the ground equals the angle of elevation from that ground point to the top of the tower, when both are measured from the respective horizontal lines.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This follows from alternate angles formed between two parallel horizontal lines cut by the same line of sight.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a right triangle, tan θ is defined as the ratio of the adjacent side to the opposite side.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "tan θ is defined as the ratio of the opposite side to the adjacent side, not the reverse.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "At an angle of elevation of 45°, the height of an object equals its horizontal distance from the observer.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since tan 45° = 1, height/distance = 1, meaning height equals horizontal distance at 45° elevation.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following standard trigonometric values are correct? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "tan 30° = 1/√3" },
+      { "optionId": "B", "text": "tan 60° = √3" },
+      { "optionId": "C", "text": "sin 90° = 1" },
+      { "optionId": "D", "text": "cos 45° = 1" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "tan 30° = 1/√3, tan 60° = √3, and sin 90° = 1 are all standard values. However, cos 45° = 1/√2, not 1, so D is incorrect.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Select the correct statements used in height-and-distance problems.",
+    "options": [
+      { "optionId": "A", "text": "tan θ = Height / Horizontal distance" },
+      { "optionId": "B", "text": "sin θ = Height / Hypotenuse (slant distance)" },
+      { "optionId": "C", "text": "The angle of depression is measured from the vertical" },
+      { "optionId": "D", "text": "cos θ = Base / Hypotenuse" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "tan θ, sin θ, and cos θ are correctly defined in A, B, and D using the right triangle's sides. The angle of depression is measured from the horizontal, not the vertical, so C is incorrect.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A kite is flying with a taut string of length 100 m making an angle of 60° with the ground. Find the height of the kite above the ground.",
+    "options": [
+      { "optionId": "A", "text": "50 m" },
+      { "optionId": "B", "text": "50√2 m" },
+      { "optionId": "C", "text": "50√3 m" },
+      { "optionId": "D", "text": "100 m" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Height = String length × sin(angle) = 100 × sin 60° = 100 × √3/2 = 50√3 m ≈ 86.6 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["height-and-distance", "formula"],
+    "questionType": "MCQ"
+  }
+]

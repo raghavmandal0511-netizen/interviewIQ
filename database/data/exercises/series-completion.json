@@ -1,0 +1,26 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-series-completion-next-term",
+    "title": "Find Next Term",
+    "description": "Find the next term in a series",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-series-completion-wrong-number",
+    "title": "Wrong Number",
+    "description": "Find the wrong term in a series",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-series-completion-pattern-recognition",
+    "title": "Pattern Recognition",
+    "description": "Recognize patterns in series completion",
+    "order": 3,
+    "isPublished": true
+  }
+]

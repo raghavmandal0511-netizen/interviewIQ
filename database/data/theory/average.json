@@ -1,0 +1,88 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Average (arithmetic mean) is the sum of values divided by the count. It appears in problems about class marks, speeds, ages, and mixtures where each group has a different size.",
+  "explanation": "CONCEPT EXPLANATION\n\nAverage = Sum of all values / Number of values.\n\nIf n numbers have average A, total sum = nA.\n\nWhen one value x is replaced by y, new average = old average + (y − x)/n.\n\nWhen a group of average A with count n is merged with average B and count m: combined average = (nA + mB)/(n + m).\n\nWeighted average = Σ(wᵢxᵢ)/Σwᵢ.\n\nREAL-LIFE APPLICATIONS\n\nGrade calculation, cricket batting averages, rainfall per day, portfolio returns, and estimating per-capita statistics.\n\nCOMMON MISTAKES\n\n1) Forgetting to update the count when adding/removing items.\n2) Averaging averages without weighting by group sizes.\n3) Arithmetic errors on total sum.\n4) Confusing average speed with average of speeds (need total distance/total time).\n5) Not using weighted average for unequal groups.\n\nIMPORTANT NOTES\n\n• Always find total sum first when the average changes.\n• Average speed = total distance ÷ total time, not mean of speeds.\n• Adding a value equal to the current average leaves the average unchanged.\n• Removing the average itself from a set of n items gives new average for (n−1) items only if that value equaled the mean.",
+  "formulas": [
+    {
+      "title": "Basic average",
+      "content": "Average = Sum / n"
+    },
+    {
+      "title": "Total sum",
+      "content": "Sum = n × Average"
+    },
+    {
+      "title": "Change on replacement",
+      "content": "New avg = Old avg + (new − old)/n"
+    },
+    {
+      "title": "Combined average",
+      "content": "(nA + mB) / (n + m)"
+    },
+    {
+      "title": "Weighted average",
+      "content": "Σ(weight × value) / Σ(weight)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Sum first",
+      "tip": "Convert average to total sum before adding or removing values."
+    },
+    {
+      "title": "Equal average add",
+      "tip": "Adding a number equal to the average does not change the average."
+    },
+    {
+      "title": "Replacement delta",
+      "tip": "Replacing x by y shifts average by (y−x)/n."
+    },
+    {
+      "title": "Don't average averages",
+      "tip": "Combine using total sums unless groups are equal size."
+    },
+    {
+      "title": "Speed trap",
+      "tip": "Average speed needs total distance and total time."
+    },
+    {
+      "title": "Weighted groups",
+      "tip": "Multiply each group average by its count before combining."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Average of 5 numbers is 20. One number 15 is replaced by 25. New average?",
+      "solution": "22.",
+      "steps": [
+        "Change = (25−15)/5 = 2",
+        "New avg = 20 + 2 = 22"
+      ]
+    },
+    {
+      "problem": "Class A: 30 students avg 60. Class B: 20 students avg 70. Combined average?",
+      "solution": "64.",
+      "steps": [
+        "Total = 30×60 + 20×70 = 3200",
+        "Avg = 3200/50 = 64"
+      ]
+    },
+    {
+      "problem": "Average of 10 numbers is 45. Sum?",
+      "solution": "450.",
+      "steps": [
+        "Sum = 10 × 45 = 450"
+      ]
+    },
+    {
+      "problem": "Average age of 8 persons is 24. One 32-year-old leaves. New average?",
+      "solution": "22.86 (approx).",
+      "steps": [
+        "Total = 192",
+        "New sum = 160",
+        "New avg = 160/7 ≈ 22.86"
+      ]
+    }
+  ],
+  "references": []
+}

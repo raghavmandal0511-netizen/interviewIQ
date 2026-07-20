@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The cost price of an article is Rs 200 and it is sold for Rs 250. Find the profit percentage.",
+    "options": [
+      { "optionId": "A", "text": "20%" },
+      { "optionId": "B", "text": "22%" },
+      { "optionId": "C", "text": "25%" },
+      { "optionId": "D", "text": "30%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Profit = SP − CP = 250 − 200 = 50. Profit % = (Profit/CP) × 100 = (50/200) × 100 = 25%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Profit percentage is calculated as:",
+    "options": [
+      { "optionId": "A", "text": "(Profit / SP) × 100" },
+      { "optionId": "B", "text": "(Profit / CP) × 100" },
+      { "optionId": "C", "text": "(SP / CP) × 100" },
+      { "optionId": "D", "text": "(CP / SP) × 100" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "By convention, profit percentage is calculated on the cost price: Profit % = (Profit/CP) × 100.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "An article is sold for Rs 690 at a gain of 15%. Find the cost price.",
+    "options": [
+      { "optionId": "A", "text": "Rs 550" },
+      { "optionId": "B", "text": "Rs 580" },
+      { "optionId": "C", "text": "Rs 600" },
+      { "optionId": "D", "text": "Rs 620" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "CP = SP × 100/(100 + gain%) = 690 × 100/115 = Rs 600.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "An article costing Rs 800 is sold at a loss of 12%. Find the selling price.",
+    "options": [
+      { "optionId": "A", "text": "Rs 680" },
+      { "optionId": "B", "text": "Rs 690" },
+      { "optionId": "C", "text": "Rs 704" },
+      { "optionId": "D", "text": "Rs 720" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SP = CP × (100 − loss%)/100 = 800 × 88/100 = Rs 704.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "An item has a marked price of Rs 1,200. A discount of 25% is given. Find the selling price.",
+    "options": [
+      { "optionId": "A", "text": "Rs 850" },
+      { "optionId": "B", "text": "Rs 875" },
+      { "optionId": "C", "text": "Rs 900" },
+      { "optionId": "D", "text": "Rs 950" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SP = MP × (100 − discount%)/100 = 1200 × 75/100 = Rs 900.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A shirt has a marked price of Rs 1,000. Two successive discounts of 20% and 10% are applied. Find the final selling price.",
+    "options": [
+      { "optionId": "A", "text": "Rs 700" },
+      { "optionId": "B", "text": "Rs 710" },
+      { "optionId": "C", "text": "Rs 720" },
+      { "optionId": "D", "text": "Rs 730" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SP = 1000 × 0.8 × 0.9 = Rs 720. The equivalent single discount is 100 − (80×90/100) = 28%.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The cost price of 6 articles equals the selling price of 5 articles. Find the profit percentage.",
+    "options": [
+      { "optionId": "A", "text": "15%" },
+      { "optionId": "B", "text": "18%" },
+      { "optionId": "C", "text": "20%" },
+      { "optionId": "D", "text": "25%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "If CP of x articles = SP of y articles with x > y, Profit % = [(x − y)/y] × 100 = [(6 − 5)/5] × 100 = 20%.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man buys a table for Rs 500 and sells it for Rs 575. Find his gain percentage.",
+    "options": [
+      { "optionId": "A", "text": "10%" },
+      { "optionId": "B", "text": "12%" },
+      { "optionId": "C", "text": "15%" },
+      { "optionId": "D", "text": "18%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Gain = 575 − 500 = 75. Gain % = (75/500) × 100 = 15%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "An article is sold at a loss of 10% for Rs 450. Find its cost price.",
+    "options": [
+      { "optionId": "A", "text": "Rs 450" },
+      { "optionId": "B", "text": "Rs 480" },
+      { "optionId": "C", "text": "Rs 500" },
+      { "optionId": "D", "text": "Rs 520" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "CP = SP × 100/(100 − loss%) = 450 × 100/90 = Rs 500.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A dishonest dealer uses a weight of 800 g instead of 1 kg but sells at the price marked for 1 kg. Find his gain percentage.",
+    "options": [
+      { "optionId": "A", "text": "20%" },
+      { "optionId": "B", "text": "22.5%" },
+      { "optionId": "C", "text": "25%" },
+      { "optionId": "D", "text": "30%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The dealer's real cost basis is 800 g (CP) while he charges as if selling 1000 g (SP). Gain % = [(1000 − 800)/800] × 100 = 25%.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A trader marks his goods 40% above cost price and gives a discount of 10% on the marked price. Find his profit percentage.",
+    "options": [
+      { "optionId": "A", "text": "24%" },
+      { "optionId": "B", "text": "26%" },
+      { "optionId": "C", "text": "28%" },
+      { "optionId": "D", "text": "30%" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let CP = 100. MP = 140. SP = 140 × 0.9 = 126. Profit = 126 − 100 = 26%.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which formula correctly relates discount, marked price (MP), and selling price (SP)?",
+    "options": [
+      { "optionId": "A", "text": "Discount = SP − MP" },
+      { "optionId": "B", "text": "Discount = MP − SP" },
+      { "optionId": "C", "text": "Discount = MP + SP" },
+      { "optionId": "D", "text": "Discount = MP / SP" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Discount is the reduction from the marked price to arrive at the selling price, so Discount = MP − SP.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man sold two horses at Rs 1,000 each, gaining 20% on one and losing 20% on the other. Find his overall gain or loss percentage.",
+    "options": [
+      { "optionId": "A", "text": "No profit no loss" },
+      { "optionId": "B", "text": "4% loss" },
+      { "optionId": "C", "text": "4% gain" },
+      { "optionId": "D", "text": "8% loss" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CP1 = 1000/1.2 = 833.33, CP2 = 1000/0.8 = 1250. Total CP = 2083.33, Total SP = 2000. Loss = 83.33, Loss % = (83.33/2083.33) × 100 = 4%. This matches the general rule that equal SP with equal % profit/loss always gives a net loss of (common%/10)² percent.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A man buys two items at Rs 1,000 each (equal cost prices). He sells one at 20% profit and the other at 20% loss. Find the net result.",
+    "options": [
+      { "optionId": "A", "text": "No profit no loss" },
+      { "optionId": "B", "text": "4% loss" },
+      { "optionId": "C", "text": "4% profit" },
+      { "optionId": "D", "text": "2% loss" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Combined SP = 1200 + 800 = 2000, and combined CP = 1000 + 1000 = 2000. Since equal CPs with equal opposite percentages always cancel exactly, there is no net profit or loss.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If two items with equal cost prices are sold at x% profit and x% loss respectively, the net result is:",
+    "options": [
+      { "optionId": "A", "text": "Net profit of x%" },
+      { "optionId": "B", "text": "Net loss of x%" },
+      { "optionId": "C", "text": "No profit no loss" },
+      { "optionId": "D", "text": "Net loss of x²/100 %" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "When cost prices are equal, an x% gain on one and an x% loss on the other exactly cancel out, resulting in no net profit or loss.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Profit percentage is conventionally calculated on the cost price unless the question specifies otherwise.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By standard convention in profit and loss problems, both profit and loss percentages are computed with cost price as the base.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Successive discounts of a% and b% are equivalent to a single discount of (a + b)%.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Successive discounts multiply the remaining price fractions; the equivalent single discount is 100 − [(100−a)(100−b)/100], which is always less than a + b.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the selling price of an article is greater than its cost price, the transaction results in a profit.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "By definition, Profit = SP − CP, so a positive value (SP > CP) means a profit.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 30,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which formulas correctly compute CP from SP given a percentage change? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "CP = SP × 100/(100 + gain%) when there is a gain" },
+      { "optionId": "B", "text": "CP = SP × 100/(100 − loss%) when there is a loss" },
+      { "optionId": "C", "text": "CP = SP × (100 + gain%)/100" },
+      { "optionId": "D", "text": "CP = SP − gain%" }
+    ],
+    "correctAnswer": ["A", "B"],
+    "explanation": "A and B correctly reverse the SP formulas to isolate CP. C mistakenly uses the SP-from-CP formula in reverse, and D is not dimensionally valid since gain% cannot be subtracted directly from a currency amount.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Select the correct statements about discounts and marked price.",
+    "options": [
+      { "optionId": "A", "text": "SP = MP × (100 − discount%)/100" },
+      { "optionId": "B", "text": "Discount is always calculated on the cost price" },
+      { "optionId": "C", "text": "Equivalent single discount for successive discounts a% then b% = 100 − [(100−a)(100−b)/100]" },
+      { "optionId": "D", "text": "A higher marked price results in a higher discount amount for the same discount percentage" }
+    ],
+    "correctAnswer": ["A", "C", "D"],
+    "explanation": "A and C give the standard discount and equivalent-discount formulas. D follows because discount amount = MP × discount%/100, which increases with MP. Discount is calculated on the marked price, not the cost price, so B is false.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 60,
+    "tags": ["profit-and-loss", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

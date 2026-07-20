@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All clocks are watches. Some clocks are towers. All towers are buildings. Conclusion: Some watches are buildings.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only All towers"
+      },
+      {
+        "optionId": "D",
+        "text": "Data inadequate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Some clocks(=watches) are towers ⊆ buildings.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some pens are books. Some books are papers. Some papers are files. Conclusion: Some pens are files.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows by three Somes"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows always"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chain of Somes is not transitive.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All trucks are vehicles. No vehicle is toy. Some toys are plastic. Conclusion: No truck is toy.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only Some"
+      },
+      {
+        "optionId": "D",
+        "text": "Cannot say"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Trucks ⊆ vehicles, vehicles ∩ toys = ∅.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All poets are writers. Some singers are poets. Conclusion: Some singers are writers.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Never"
+      },
+      {
+        "optionId": "D",
+        "text": "Only All singers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Those singers who are poets are writers.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No laptop is desktop. All desktops are computers. Some computers are servers. Conclusion: No laptop is computer.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows from No"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows always"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Laptops avoid desktops but may be computers.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All squares are rectangles. All rectangles are polygons. Some polygons are circles. Conclusion: Some squares are circles.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows by All"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows necessarily"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Circles among polygons need not include squares.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some A are B. All B are C. No C are D. Conclusion: Some A are not D.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only No A"
+      },
+      {
+        "optionId": "D",
+        "text": "Cannot say"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Some A in B ⊆ C, and C ∩ D = ∅ ⇒ those A not D.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All managers are employees. Some employees are consultants. No consultant is intern. Conclusion: Some managers are interns.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows definitely"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows from All"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "No forced manager–intern overlap.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All keys are metals. No metal is wood. All woods are trees. Conclusion: No key is tree.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows from No metal wood"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows always"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Keys not wood, but trees include woods only as subset—keys could still be non-wood trees? Actually keys ⊆ metals, metals ∩ wood=∅, woods ⊆ trees. Keys could be trees if some trees are not wood—possible. So does not follow.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some questions are easy. All easy things are solvable. Some solvable things are lengthy. Conclusion: Some questions are lengthy.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows always"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows by All easy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lengthy solvable things need not be the easy questions.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All heroes are brave. Some brave people are quiet. All quiet people are thoughtful. Conclusion: Some heroes are thoughtful.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows necessarily"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows from All heroes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Brave quiet people may exclude heroes.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No fish is mammal. All whales are mammals. Conclusion: No whale is fish.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Follows"
+      },
+      {
+        "optionId": "B",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows only Some"
+      },
+      {
+        "optionId": "D",
+        "text": "Cannot say"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Whales ⊆ mammals, mammals ∩ fish = ∅.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All exams are tests. Some tests are oral. No oral is written. Conclusion: Some exams are not written.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Does not follow"
+      },
+      {
+        "optionId": "B",
+        "text": "Follows"
+      },
+      {
+        "optionId": "C",
+        "text": "Follows definitely"
+      },
+      {
+        "optionId": "D",
+        "text": "Follows from No oral"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Exams that are oral would not be written, but exams need not be oral.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Advanced syllogism often adds:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "More overlapping \"some\" statements"
+      },
+      {
+        "optionId": "B",
+        "text": "No premises"
+      },
+      {
+        "optionId": "C",
+        "text": "Only one word"
+      },
+      {
+        "optionId": "D",
+        "text": "Dice faces"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Extra particulars increase possibility traps.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "When three sets A,B,C are chained by All, the strongest conclusion is usually:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "All A are C"
+      },
+      {
+        "optionId": "B",
+        "text": "No A are C"
+      },
+      {
+        "optionId": "C",
+        "text": "Some C are not A as forced"
+      },
+      {
+        "optionId": "D",
+        "text": "All C are A"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Universal chain yields All A are C.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Three \"Some\" statements in a row guarantee a conclusion linking the first and last sets.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Particulars are not transitive.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Combining All and No can yield a definite No between first and third sets.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "e.g., All A are B and No B are C ⇒ No A are C.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which make syllogisms harder?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Possibility vs certainty"
+      },
+      {
+        "optionId": "B",
+        "text": "Longer chains"
+      },
+      {
+        "optionId": "C",
+        "text": "Multiple \"some\""
+      },
+      {
+        "optionId": "D",
+        "text": "Shorter alphabet only"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Possibility traps, chains, and particulars add difficulty.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "syllogism",
+      "advanced"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

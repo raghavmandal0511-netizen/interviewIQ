@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two standard dice are placed with 6 on top of each. Bottoms are:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 and 1"
+      },
+      {
+        "optionId": "B",
+        "text": "6 and 6"
+      },
+      {
+        "optionId": "C",
+        "text": "2 and 5"
+      },
+      {
+        "optionId": "D",
+        "text": "3 and 4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each has 1 opposite 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Die A shows front 2; die B shows front 5. On standard dice, these fronts are:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Opposite numbers on a single die's pairing"
+      },
+      {
+        "optionId": "B",
+        "text": "Always adjacent on one die"
+      },
+      {
+        "optionId": "C",
+        "text": "The same face"
+      },
+      {
+        "optionId": "D",
+        "text": "Invalid numbers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "2 and 5 are an opposite pair (on one die), here shown on two dice fronts.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Three positions of the same die show different faces on top: 1, then 2, then 3. Which could be opposite 1?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6 on a standard die"
+      },
+      {
+        "optionId": "B",
+        "text": "2"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Top faces shown are not opposite each other necessarily; standard opposite of 1 is 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two dice show the same number on top. Their bottom faces on standard dice:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Are equal"
+      },
+      {
+        "optionId": "B",
+        "text": "Always differ"
+      },
+      {
+        "optionId": "C",
+        "text": "Sum to 12 always with tops"
+      },
+      {
+        "optionId": "D",
+        "text": "Are blank"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Same top ⇒ same opposite bottom.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a figure, four dice are shown. Common approach is to:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Compare adjacent faces across views of the same die"
+      },
+      {
+        "optionId": "B",
+        "text": "Add all visible numbers always"
+      },
+      {
+        "optionId": "C",
+        "text": "Ignore repeated faces"
+      },
+      {
+        "optionId": "D",
+        "text": "Assume sum 12"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Track one die's faces across orientations.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If die-1 has 3 adjacent to 1,2,4,5 then opposite 3 is 6. Die-2 identical standard. Opposite of 3 on die-2 is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "1"
+      },
+      {
+        "optionId": "C",
+        "text": "2"
+      },
+      {
+        "optionId": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identical standard dice share opposite pairs.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two dice are stacked. Top die shows 5 on its top. Bottom face of top die touches top face of lower die. Touching face of top die is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2 on standard"
+      },
+      {
+        "optionId": "B",
+        "text": "5"
+      },
+      {
+        "optionId": "C",
+        "text": "6"
+      },
+      {
+        "optionId": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Bottom of top die is opposite its top 5 → 2.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A question shows two views of a die: View1 top=1 front=2; View2 top=3 front=2. With front fixed as 2, tops 1 and 3 suggest:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 and 3 are adjacent to 2 (not opposite 2)"
+      },
+      {
+        "optionId": "B",
+        "text": "1 opposite 2"
+      },
+      {
+        "optionId": "C",
+        "text": "3 opposite 2"
+      },
+      {
+        "optionId": "D",
+        "text": "1 opposite 3 always from this alone"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Both 1 and 3 appear adjacent to front 2.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "When comparing multiple dice figures, faces that appear together adjacent:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Cannot be opposite on that die"
+      },
+      {
+        "optionId": "B",
+        "text": "Must be opposite"
+      },
+      {
+        "optionId": "C",
+        "text": "Must sum 7 even if nonstandard"
+      },
+      {
+        "optionId": "D",
+        "text": "Are invalid"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Same adjacency rule applies.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Four standard dice all show 6 on top. How many faces showing 1 are on the bottoms total?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4"
+      },
+      {
+        "optionId": "B",
+        "text": "1"
+      },
+      {
+        "optionId": "C",
+        "text": "6"
+      },
+      {
+        "optionId": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each bottom is 1 → four ones.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A puzzle with several dice often asks for:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "A hidden/opposite face"
+      },
+      {
+        "optionId": "B",
+        "text": "Blood uncle"
+      },
+      {
+        "optionId": "C",
+        "text": "Syllogism conclusion"
+      },
+      {
+        "optionId": "D",
+        "text": "Word order"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Typical ask is which face is opposite or hidden.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If two different dice show 4 on top and 5 on front each, on standard dice their bottoms are:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Both 3"
+      },
+      {
+        "optionId": "B",
+        "text": "Both 4"
+      },
+      {
+        "optionId": "C",
+        "text": "Both 5"
+      },
+      {
+        "optionId": "D",
+        "text": "Both 6"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Top 4 ⇒ bottom 3 each.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Rotating one die while keeping another fixed is used to:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Track where a face moves"
+      },
+      {
+        "optionId": "B",
+        "text": "Change blood relations"
+      },
+      {
+        "optionId": "C",
+        "text": "Create syllogisms"
+      },
+      {
+        "optionId": "D",
+        "text": "Arrange words"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rotation tracking finds new top/front.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Visible faces on two dice in one picture can total at most about:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Up to 6 if both show 3 faces"
+      },
+      {
+        "optionId": "B",
+        "text": "12 always"
+      },
+      {
+        "optionId": "C",
+        "text": "2 always"
+      },
+      {
+        "optionId": "D",
+        "text": "36 always"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each die can show up to 3 faces in a corner view.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Identical dice share:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "The same opposite-face pairing if standard"
+      },
+      {
+        "optionId": "B",
+        "text": "Random opposites each time"
+      },
+      {
+        "optionId": "C",
+        "text": "No faces"
+      },
+      {
+        "optionId": "D",
+        "text": "Only even numbers"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Standard identical dice match pairs.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Multiple-dice questions may show several views of the same physical die.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Different orientations of one die are common.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If two standard dice show different tops, their bottoms must be equal.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bottoms equal only if tops are equal.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Helpful tactics for multiple-dice problems:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Fix one face and rotate"
+      },
+      {
+        "optionId": "B",
+        "text": "List adjacent faces"
+      },
+      {
+        "optionId": "C",
+        "text": "Apply sum-7 if standard"
+      },
+      {
+        "optionId": "D",
+        "text": "Treat all visible faces as opposite"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Rotation, adjacency lists, and sum-7 help; visibles are not all opposite.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "dice",
+      "multiple-dice"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

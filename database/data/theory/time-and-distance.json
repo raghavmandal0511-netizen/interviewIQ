@@ -1,0 +1,96 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Time and Distance problems use the fundamental relation between how fast an object moves, how long it travels, and how far it goes. Competitive exams test unit conversion, average speed for mixed journeys, relative speed when two bodies move toward or away from each other, and boat-stream motion where current aids or opposes rowing. A clear unit system and the correct average-speed formula are essential for accuracy.",
+  "explanation": "CONCEPT EXPLANATION\n\nThe three quantities are linked by Distance = Speed × Time. Any one unknown can be found when the other two are known. Speed must match the units of distance and time (km/h with km and hours, or m/s with metres and seconds).\n\nAverage speed for a whole journey equals Total distance ÷ Total time. It is NOT always the arithmetic mean of individual speeds. When equal distances are covered at speeds a and b, average speed = 2ab/(a+b). When equal times are spent at speeds a and b, average speed = (a+b)/2.\n\nRelative speed: two objects moving in the same direction → |S1 − S2|; opposite directions → S1 + S2. Meeting-time problems use relative speed to close the gap.\n\nFor boats: downstream speed = speed in still water + stream speed; upstream speed = speed in still water − stream speed. Still-water speed = (downstream + upstream)/2; stream speed = (downstream − upstream)/2.\n\nREAL-LIFE APPLICATIONS\n\nTravel planning, fuel estimates, logistics ETAs, GPS navigation, sports timing, and river navigation all depend on speed–time–distance reasoning.\n\nCOMMON MISTAKES\n\n1) Averaging two speeds arithmetically when equal distances are covered at different speeds.\n2) Mixing km/h with metres without converting via 5/18.\n3) Adding speeds when two bodies move in the same direction.\n4) Forgetting that total time includes waiting or rest stops.\n5) Using downstream speed for upstream distance.\n\nIMPORTANT NOTES\n\n• Convert km/h to m/s: multiply by 5/18.\n• Equal-distance round trips always use harmonic mean: 2ab/(a+b).\n• Equal-time segments use arithmetic mean of speeds.\n• Relative speed answers how fast the gap changes, not absolute speed.\n• In catch-up problems, equate distances from a common reference time.",
+  "formulas": [
+    {
+      "title": "Basic relation",
+      "content": "Distance = Speed × Time"
+    },
+    {
+      "title": "Speed and time forms",
+      "content": "Speed = Distance / Time; Time = Distance / Speed"
+    },
+    {
+      "title": "km/h to m/s",
+      "content": "x km/h = x × (5/18) m/s"
+    },
+    {
+      "title": "Average speed (equal distances)",
+      "content": "Average speed = 2ab / (a + b) when each speed a and b covers the same distance"
+    },
+    {
+      "title": "Average speed (equal times)",
+      "content": "Average speed = (a + b) / 2 when equal time is spent at speeds a and b"
+    },
+    {
+      "title": "Relative speed",
+      "content": "Same direction: |S1 − S2|; Opposite direction: S1 + S2"
+    },
+    {
+      "title": "Boat and stream",
+      "content": "Downstream = u + v; Upstream = u − v; u = (Down + Up)/2; v = (Down − Up)/2"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Convert before divide",
+      "tip": "When distance is in metres and time in seconds, convert speed to m/s first."
+    },
+    {
+      "title": "Round-trip average",
+      "tip": "Same distance out and back at speeds a and b → average = 2ab/(a+b), never (a+b)/2."
+    },
+    {
+      "title": "Opposite motion",
+      "tip": "Two bodies approaching each other → add their speeds to get closing speed."
+    },
+    {
+      "title": "Catch-up gap",
+      "tip": "Overtaking time = initial gap ÷ difference of speeds when moving same way."
+    },
+    {
+      "title": "Boat shortcut",
+      "tip": "Still-water speed is half the sum of downstream and upstream speeds."
+    },
+    {
+      "title": "Total average",
+      "tip": "Always compute total distance divided by total time, including stops."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A car covers 240 km in 4 hours. Find its speed.",
+      "solution": "The speed of the car is 60 km/h.",
+      "steps": [
+        "Use Speed = Distance / Time.",
+        "Speed = 240 / 4 = 60 km/h."
+      ]
+    },
+    {
+      "problem": "A person travels 30 km at 20 km/h and returns 30 km at 30 km/h. Find the average speed for the whole journey.",
+      "solution": "The average speed is 24 km/h.",
+      "steps": [
+        "Equal distances → average = 2ab/(a+b).",
+        "Average = 2 × 20 × 30 / (20 + 30) = 1200/50 = 24 km/h."
+      ]
+    },
+    {
+      "problem": "Two cities are 350 km apart. Car A at 50 km/h and Car B at 70 km/h start toward each other. After how many hours do they meet?",
+      "solution": "They meet after approximately 2.92 hours.",
+      "steps": [
+        "Relative speed (opposite) = 50 + 70 = 120 km/h.",
+        "Time = 350 / 120 = 35/12 ≈ 2.92 hours."
+      ]
+    },
+    {
+      "problem": "A boat goes 24 km downstream in 3 hours and 16 km upstream in 4 hours. Find the speed of the boat in still water.",
+      "solution": "The speed in still water is 6 km/h.",
+      "steps": [
+        "Downstream speed = 24/3 = 8 km/h; upstream speed = 16/4 = 4 km/h.",
+        "Still-water speed u = (8 + 4) / 2 = 6 km/h."
+      ]
+    }
+  ],
+  "references": []
+}

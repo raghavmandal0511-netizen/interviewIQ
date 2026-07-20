@@ -1,0 +1,356 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using A = length × breadth, find the area of a rectangle with length 15 m and breadth 8 m.",
+    "options": [
+      { "optionId": "A", "text": "110" },
+      { "optionId": "B", "text": "115" },
+      { "optionId": "C", "text": "120" },
+      { "optionId": "D", "text": "125" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = 15 × 8 = 120 m².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using A = a², find the area of a square with side 12 cm.",
+    "options": [
+      { "optionId": "A", "text": "132" },
+      { "optionId": "B", "text": "140" },
+      { "optionId": "C", "text": "144" },
+      { "optionId": "D", "text": "150" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = 12² = 144 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using A = ½ × base × height, find the area of a triangle with base 14 cm and height 10 cm.",
+    "options": [
+      { "optionId": "A", "text": "60" },
+      { "optionId": "B", "text": "65" },
+      { "optionId": "C", "text": "70" },
+      { "optionId": "D", "text": "75" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = ½ × 14 × 10 = 70 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using A = πr², find the area of a circle with radius 14 cm (π = 22/7).",
+    "options": [
+      { "optionId": "A", "text": "600" },
+      { "optionId": "B", "text": "610" },
+      { "optionId": "C", "text": "616" },
+      { "optionId": "D", "text": "620" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = 22/7 × 14² = 22/7 × 196 = 616 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using A = base × height, find the area of a parallelogram with base 18 cm and height 7 cm.",
+    "options": [
+      { "optionId": "A", "text": "112" },
+      { "optionId": "B", "text": "120" },
+      { "optionId": "C", "text": "126" },
+      { "optionId": "D", "text": "130" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = 18 × 7 = 126 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using A = ½(a + b) × h, find the area of a trapezium with parallel sides 10 cm and 14 cm, and height 6 cm.",
+    "options": [
+      { "optionId": "A", "text": "66" },
+      { "optionId": "B", "text": "70" },
+      { "optionId": "C", "text": "72" },
+      { "optionId": "D", "text": "75" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = ½ × (10+14) × 6 = ½ × 24 × 6 = 72 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using A = ½ × d₁ × d₂, find the area of a rhombus with diagonals 16 cm and 12 cm.",
+    "options": [
+      { "optionId": "A", "text": "88" },
+      { "optionId": "B", "text": "92" },
+      { "optionId": "C", "text": "96" },
+      { "optionId": "D", "text": "100" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = ½ × 16 × 12 = 96 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using A = (√3/4) × side², find the area of an equilateral triangle with side 8 cm (√3 ≈ 1.732).",
+    "options": [
+      { "optionId": "A", "text": "24" },
+      { "optionId": "B", "text": "25.86" },
+      { "optionId": "C", "text": "27.71" },
+      { "optionId": "D", "text": "29" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = (√3/4) × 64 = 16√3 ≈ 16 × 1.732 = 27.71 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using A = ½πr², find the area of a semicircle with radius 7 cm (π = 22/7).",
+    "options": [
+      { "optionId": "A", "text": "70" },
+      { "optionId": "B", "text": "74" },
+      { "optionId": "C", "text": "77" },
+      { "optionId": "D", "text": "80" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A = ½ × 22/7 × 49 = 77 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Heron's formula A = √[s(s−a)(s−b)(s−c)], find the area of a triangle with sides 3, 4, 5.",
+    "options": [
+      { "optionId": "A", "text": "5" },
+      { "optionId": "B", "text": "6" },
+      { "optionId": "C", "text": "7" },
+      { "optionId": "D", "text": "8" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "s = (3+4+5)/2 = 6. A = √(6×3×2×1) = √36 = 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "1 m² is equal to how many cm²?",
+    "options": [
+      { "optionId": "A", "text": "100" },
+      { "optionId": "B", "text": "1,000" },
+      { "optionId": "C", "text": "10,000" },
+      { "optionId": "D", "text": "100,000" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Since 1 m = 100 cm, 1 m² = 100² = 10,000 cm².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using the formula Area = d²/2, find the area of a square with diagonal 10 cm.",
+    "options": [
+      { "optionId": "A", "text": "40" },
+      { "optionId": "B", "text": "45" },
+      { "optionId": "C", "text": "50" },
+      { "optionId": "D", "text": "55" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Area = d²/2 = 100/2 = 50 cm².",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The area of a triangle can be computed using the perpendicular height only, not the slant side.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The height in A = ½ × base × height must be perpendicular to the base, not the slant side.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["area", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Doubling both dimensions of a rectangle doubles its area.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Doubling both length and breadth makes the new area 2l × 2b = 4lb, which is four times, not double.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["area", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The area of a circle is directly proportional to the square of its radius.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since A = πr², area varies directly with r².",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["area", "formula"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following area formulas are correct?",
+    "options": [
+      { "optionId": "A", "text": "Circle = πr²" },
+      { "optionId": "B", "text": "Rhombus = ½ × d₁ × d₂" },
+      { "optionId": "C", "text": "Trapezium = (a + b) × h (without a ½ factor)" },
+      { "optionId": "D", "text": "Equilateral triangle = (√3/4) × side²" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A, B, and D are correct. C is missing the ½ factor; the correct formula is ½(a+b) × h.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["area", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which statements about area unit conversion are correct?",
+    "options": [
+      { "optionId": "A", "text": "1 m² = 10,000 cm²" },
+      { "optionId": "B", "text": "Converting linear units to area units requires squaring the conversion factor" },
+      { "optionId": "C", "text": "1 km² = 1,000,000 m²" },
+      { "optionId": "D", "text": "1 m² = 100 cm²" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "A, B, and C are correct. D is false; 1 m² actually equals 10,000 cm².",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["area", "formula"],
+    "questionType": "MULTIPLE_CORRECT"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using Heron's formula, find the area of an isosceles triangle with sides 5, 5, 6 cm.",
+    "options": [
+      { "optionId": "A", "text": "10" },
+      { "optionId": "B", "text": "11" },
+      { "optionId": "C", "text": "12" },
+      { "optionId": "D", "text": "13" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "s = (5+5+6)/2 = 8. A = √(8×3×3×2) = √144 = 12 cm².",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The area of a square is 225 cm². Using A = a², find its side length.",
+    "options": [
+      { "optionId": "A", "text": "12" },
+      { "optionId": "B", "text": "13" },
+      { "optionId": "C", "text": "14" },
+      { "optionId": "D", "text": "15" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Side = √225 = 15 cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The cost of paving a rectangular floor 20 m × 15 m at ₹50 per m² is?",
+    "options": [
+      { "optionId": "A", "text": "12000" },
+      { "optionId": "B", "text": "13500" },
+      { "optionId": "C", "text": "15000" },
+      { "optionId": "D", "text": "16500" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Area = 20 × 15 = 300 m². Cost = 300 × 50 = ₹15,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["area", "formula"],
+    "questionType": "MCQ"
+  }
+]

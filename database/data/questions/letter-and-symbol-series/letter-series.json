@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next letter in the series: A, C, E, G, ?",
+    "options": [
+      { "optionId": "A", "text": "H" },
+      { "optionId": "B", "text": "I" },
+      { "optionId": "C", "text": "J" },
+      { "optionId": "D", "text": "K" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each letter skips one letter of the alphabet (+2 positions): A(1), C(3), E(5), G(7), next I(9).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next letter in the series: B, D, F, H, ?",
+    "options": [
+      { "optionId": "A", "text": "I" },
+      { "optionId": "B", "text": "J" },
+      { "optionId": "C", "text": "K" },
+      { "optionId": "D", "text": "L" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each letter moves forward by 2 positions: B(2), D(4), F(6), H(8), next J(10).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next letter in the series: Z, X, V, T, ?",
+    "options": [
+      { "optionId": "A", "text": "Q" },
+      { "optionId": "B", "text": "R" },
+      { "optionId": "C", "text": "S" },
+      { "optionId": "D", "text": "P" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each letter moves backward by 2 positions: Z(26), X(24), V(22), T(20), next R(18).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the missing letter in the series: A, D, G, J, ?, P",
+    "options": [
+      { "optionId": "A", "text": "K" },
+      { "optionId": "B", "text": "L" },
+      { "optionId": "C", "text": "M" },
+      { "optionId": "D", "text": "N" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each letter moves forward by 3 positions: A(1), D(4), G(7), J(10), M(13), P(16). The missing letter is M.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: AZ, BY, CX, DW, ?",
+    "options": [
+      { "optionId": "A", "text": "EV" },
+      { "optionId": "B", "text": "EU" },
+      { "optionId": "C", "text": "FV" },
+      { "optionId": "D", "text": "EW" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The first letter moves forward (A, B, C, D, next E) while the second letter moves backward from Z (Z, Y, X, W, next V). The next pair is EV.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: CE, FH, IK, LN, ?",
+    "options": [
+      { "optionId": "A", "text": "OQ" },
+      { "optionId": "B", "text": "OP" },
+      { "optionId": "C", "text": "NQ" },
+      { "optionId": "D", "text": "PQ" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The first letters advance by 3 (C, F, I, L, next O) and the second letters advance by 3 (E, H, K, N, next Q). The next pair is OQ.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If the letter opposite to a given letter is found using the rule 'opposite of the nth letter = (27−n)th letter', what is opposite to M?",
+    "options": [
+      { "optionId": "A", "text": "L" },
+      { "optionId": "B", "text": "M" },
+      { "optionId": "C", "text": "N" },
+      { "optionId": "D", "text": "O" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "M is the 13th letter. Opposite position = 27 − 13 = 14, which is N.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Using the rule 'opposite of the nth letter = (27−n)th letter', find the letter opposite to D.",
+    "options": [
+      { "optionId": "A", "text": "V" },
+      { "optionId": "B", "text": "W" },
+      { "optionId": "C", "text": "X" },
+      { "optionId": "D", "text": "U" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "D is the 4th letter. Opposite position = 27 − 4 = 23, which is W.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next letter in the series: J, L, N, P, ?",
+    "options": [
+      { "optionId": "A", "text": "Q" },
+      { "optionId": "B", "text": "R" },
+      { "optionId": "C", "text": "S" },
+      { "optionId": "D", "text": "T" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each letter moves forward by 2 positions: J(10), L(12), N(14), P(16), next R(18).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: AB, DE, GH, JK, ?",
+    "options": [
+      { "optionId": "A", "text": "LM" },
+      { "optionId": "B", "text": "MN" },
+      { "optionId": "C", "text": "NO" },
+      { "optionId": "D", "text": "MO" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The starting letter of each pair advances by 3 (A, D, G, J, next M), followed by the next consecutive letter, giving the pair MN.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next letter in the series: Y, W, U, S, ?",
+    "options": [
+      { "optionId": "A", "text": "P" },
+      { "optionId": "B", "text": "Q" },
+      { "optionId": "C", "text": "R" },
+      { "optionId": "D", "text": "O" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Each letter moves backward by 2 positions: Y(25), W(23), U(21), S(19), next Q(17).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the wrong term in the series: B, E, H, K, O, Q.",
+    "options": [
+      { "optionId": "A", "text": "E" },
+      { "optionId": "B", "text": "H" },
+      { "optionId": "C", "text": "O" },
+      { "optionId": "D", "text": "Q" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each letter should advance by 3 positions: B(2), E(5), H(8), K(11), N(14), Q(17). The letter O(15) breaks the pattern; it should be N.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next letter in the series: A, B, D, G, K, ?",
+    "options": [
+      { "optionId": "A", "text": "N" },
+      { "optionId": "B", "text": "O" },
+      { "optionId": "C", "text": "P" },
+      { "optionId": "D", "text": "Q" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The gap between positions increases by 1 each time: A(1)→B(2) is +1, B(2)→D(4) is +2, D(4)→G(7) is +3, G(7)→K(11) is +4, next +5 gives K(11)→P(16).",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Find the next term in the series: HI, JL, LO, NR, ?",
+    "options": [
+      { "optionId": "A", "text": "PT" },
+      { "optionId": "B", "text": "PU" },
+      { "optionId": "C", "text": "OU" },
+      { "optionId": "D", "text": "PV" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The first letters advance by 2 (H, J, L, N, next P) and the second letters advance by 3 (I, L, O, R, next U). The next pair is PU.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In a certain code, if each letter of a word is shifted forward by 1 position (CAT becomes DBU), how would DOG be written?",
+    "options": [
+      { "optionId": "A", "text": "EPH" },
+      { "optionId": "B", "text": "EPI" },
+      { "optionId": "C", "text": "EQH" },
+      { "optionId": "D", "text": "FPH" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shift each letter forward by 1: D→E, O→P, G→H, giving EPH.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series A, C, E, G, I, each letter skips exactly one letter of the alphabet.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A to C skips B, C to E skips D, and so on — each step moves forward by 2 positions, skipping one letter, so the statement is true.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "In the series B, D, F, H, J, the letters move forward by 3 positions each time.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "B(2), D(4), F(6), H(8), J(10) — each letter moves forward by only 2 positions, not 3, so the statement is false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following letter series correctly follow a '+2 position' forward pattern throughout?",
+    "options": [
+      { "optionId": "A", "text": "A, C, E, G, I" },
+      { "optionId": "B", "text": "B, D, F, H, J" },
+      { "optionId": "C", "text": "A, D, G, J" },
+      { "optionId": "D", "text": "J, L, N, P, R" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "A, C, E, G, I (positions 1,3,5,7,9), B, D, F, H, J (positions 2,4,6,8,10), and J, L, N, P, R (positions 10,12,14,16,18) all advance by exactly 2 positions. A, D, G, J advances by 3 positions, not 2.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": ["letter-and-symbol-series", "letter-series"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

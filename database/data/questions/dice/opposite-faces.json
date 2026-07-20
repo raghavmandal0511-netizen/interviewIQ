@@ -1,0 +1,584 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "On a standard die, opposite of 1 is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "5"
+      },
+      {
+        "optionId": "C",
+        "text": "4"
+      },
+      {
+        "optionId": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "1+6=7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "On a standard die, opposite of 2 is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "5"
+      },
+      {
+        "optionId": "B",
+        "text": "6"
+      },
+      {
+        "optionId": "C",
+        "text": "4"
+      },
+      {
+        "optionId": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "2+5=7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "On a standard die, opposite of 3 is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4"
+      },
+      {
+        "optionId": "B",
+        "text": "5"
+      },
+      {
+        "optionId": "C",
+        "text": "6"
+      },
+      {
+        "optionId": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "3+4=7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Sum of numbers on opposite faces of a standard die is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "7"
+      },
+      {
+        "optionId": "B",
+        "text": "6"
+      },
+      {
+        "optionId": "C",
+        "text": "8"
+      },
+      {
+        "optionId": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pairs (1,6),(2,5),(3,4).",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If 5 is on top of a standard die, bottom is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2"
+      },
+      {
+        "optionId": "B",
+        "text": "1"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "5 opposite 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Faces 2, 3, 4 meet at a corner. Opposite of 2 cannot be:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3"
+      },
+      {
+        "optionId": "B",
+        "text": "5"
+      },
+      {
+        "optionId": "C",
+        "text": "1"
+      },
+      {
+        "optionId": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "3 is adjacent to 2 at the corner, so not opposite. (On standard die opposite of 2 is 5.)",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A die shows 1 adjacent to 2, 3, 4, and 5 in different views. Opposite of 1 is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6"
+      },
+      {
+        "optionId": "B",
+        "text": "2"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Only 6 never appears adjacent among 1–6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which pair are opposite on a standard die?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "2 and 5"
+      },
+      {
+        "optionId": "B",
+        "text": "2 and 3"
+      },
+      {
+        "optionId": "C",
+        "text": "1 and 2"
+      },
+      {
+        "optionId": "D",
+        "text": "3 and 5"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "2↔5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If two faces sum to 7 on a standard die, they are:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Opposite"
+      },
+      {
+        "optionId": "B",
+        "text": "Adjacent always"
+      },
+      {
+        "optionId": "C",
+        "text": "The same face"
+      },
+      {
+        "optionId": "D",
+        "text": "Both top"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Opposite pairs sum to 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Can 1 and 6 appear as adjacent faces on a standard die?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "No"
+      },
+      {
+        "optionId": "B",
+        "text": "Yes always"
+      },
+      {
+        "optionId": "C",
+        "text": "Yes and also opposite"
+      },
+      {
+        "optionId": "D",
+        "text": "Only if painted wrong"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "They are opposite, so not adjacent.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Top is 6, front is 2 on a standard die. Bottom is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1"
+      },
+      {
+        "optionId": "B",
+        "text": "5"
+      },
+      {
+        "optionId": "C",
+        "text": "3"
+      },
+      {
+        "optionId": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Opposite of 6 is 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A face X has adjacent faces A,B,C,D. The remaining face is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Opposite X"
+      },
+      {
+        "optionId": "B",
+        "text": "Also adjacent to X"
+      },
+      {
+        "optionId": "C",
+        "text": "Equal to X"
+      },
+      {
+        "optionId": "D",
+        "text": "Always 7"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Six faces: X + 4 adjacent + 1 opposite.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which is NOT an opposite pair on a standard die?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "1 and 5"
+      },
+      {
+        "optionId": "B",
+        "text": "1 and 6"
+      },
+      {
+        "optionId": "C",
+        "text": "2 and 5"
+      },
+      {
+        "optionId": "D",
+        "text": "3 and 4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "1 opposite 6, not 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If 4 is opposite 3, the die numbering is consistent with:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Standard sum-7 rule"
+      },
+      {
+        "optionId": "B",
+        "text": "Sum-5 rule"
+      },
+      {
+        "optionId": "C",
+        "text": "Sum-9 rule"
+      },
+      {
+        "optionId": "D",
+        "text": "No opposites"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "3+4=7 matches standard.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Opposite faces never:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Share an edge"
+      },
+      {
+        "optionId": "B",
+        "text": "Exist"
+      },
+      {
+        "optionId": "C",
+        "text": "Sum to 7 on standard dice"
+      },
+      {
+        "optionId": "D",
+        "text": "Are unique pairs"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "They do not share an edge.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "On every puzzle die, opposites must sum to 7.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Only when standard numbering is assumed.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If A is adjacent to B, A is not opposite B.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "True"
+      },
+      {
+        "optionId": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adjacent and opposite are mutually exclusive.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0,
+    "timeLimit": 30,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Ways to find an opposite face include:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "Sum-7 on standard die"
+      },
+      {
+        "optionId": "B",
+        "text": "Eliminate adjacent faces"
+      },
+      {
+        "optionId": "C",
+        "text": "Use corner adjacency"
+      },
+      {
+        "optionId": "D",
+        "text": "Assume all faces opposite each other"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Sum-7, elimination, and corner rules help; not all faces are opposite.",
+    "difficulty": "medium",
+    "marks": 2,
+    "negativeMarks": 0.5,
+    "timeLimit": 90,
+    "tags": [
+      "dice",
+      "opposite-faces"
+    ],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

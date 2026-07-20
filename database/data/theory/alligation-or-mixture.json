@@ -1,0 +1,93 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Alligation is a rapid method to find the ratio in which two or more ingredients at different prices or concentrations must be mixed to obtain a mixture at a given mean value. Mixture problems also cover replacement, successive dilution, and finding pure quantity after adulteration.",
+  "explanation": "CONCEPT EXPLANATION\n\nRule of Alligation: If two ingredients at prices (or values) A and B are mixed to give a mean price M, then\nQuantity of cheaper / Quantity of dearer = (B − M) / (M − A).\n\nThe mean price of a mixture = (C1×Q1 + C2×Q2 + …) / (Q1 + Q2 + …). For replacement problems: after replacing x litres from a vessel of capacity V containing pure liquid with water, and repeating n times, pure quantity = V × (1 − x/V)^n.\n\nREAL-LIFE APPLICATIONS\n\nBlending alloys, mixing milk and water, preparing solutions in chemistry labs, and pricing blended products use alligation and mixture logic.\n\nCOMMON MISTAKES\n\n1) Swapping the alligation ratio (putting M−A on the cheaper side incorrectly).\n2) Forgetting to add quantities when finding total mixture amount.\n3) Using replacement formula without raising to the power n for repeated operations.\n4) Mixing price per kg with price per litre without consistent units.\n5) Assuming equal quantities when only the ratio is asked.\n\nIMPORTANT NOTES\n\n• Cheaper ingredient connects to (dearer price − mean); dearer connects to (mean − cheaper price).\n• Mean must lie between the two extreme values for a valid mix.\n• In replacement, only the replaced fraction leaves each time.\n• For three ingredients, extend weighted average or apply alligation stepwise.\n• Percentage concentration = (quantity of solute / total quantity) × 100.",
+  "formulas": [
+    {
+      "title": "Rule of alligation (two ingredients)",
+      "content": "Ratio (cheaper : dearer) = (dearer price − mean price) : (mean price − cheaper price)"
+    },
+    {
+      "title": "Mean price of mixture",
+      "content": "Mean = (C1×Q1 + C2×Q2) / (Q1 + Q2)"
+    },
+    {
+      "title": "Percentage in mixture",
+      "content": "Concentration % = (Amount of component / Total amount) × 100"
+    },
+    {
+      "title": "Single replacement",
+      "content": "After replacing x from V litres of pure liquid once with water, pure left = V(1 − x/V)"
+    },
+    {
+      "title": "Repeated replacement (n times)",
+      "content": "Pure quantity remaining = V × (1 − x/V)^n"
+    },
+    {
+      "title": "Weighted average (three or more)",
+      "content": "Mean = Σ(Ci × Qi) / ΣQi"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Cross difference",
+      "tip": "Draw the alligation cross: differences from mean go on opposite sides of the ingredient."
+    },
+    {
+      "title": "Mean between extremes",
+      "tip": "If mean is not strictly between the two prices, the mixture is impossible with those ingredients alone."
+    },
+    {
+      "title": "Ratio not total",
+      "tip": "Alligation gives ratio; multiply by a common factor only when total quantity is specified."
+    },
+    {
+      "title": "Replacement power",
+      "tip": "Each replacement multiplies the pure fraction by (1 − x/V); use exponent n for n replacements."
+    },
+    {
+      "title": "Milk and water",
+      "tip": "For cost-based milk adulteration, treat water as Rs. 0 per litre when using alligation on prices."
+    },
+    {
+      "title": "Reverse from mean",
+      "tip": "Given final concentration and one component, set up (pure/total) = concentration to find unknown quantity."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "In what ratio must rice at Rs. 9 per kg be mixed with rice at Rs. 7 per kg so that the mixture is worth Rs. 8 per kg?",
+      "solution": "Required ratio = 1 : 1 (dearer : cheaper).",
+      "steps": [
+        "Cheaper = 7, dearer = 9, mean = 8.",
+        "Ratio cheaper : dearer = (9 − 8) : (8 − 7) = 1 : 1."
+      ]
+    },
+    {
+      "problem": "A 60-litre vessel contains pure milk. 12 litres are drawn off and replaced with water. This is done twice. How much milk remains?",
+      "solution": "Milk remaining = 38.4 litres.",
+      "steps": [
+        "Each replacement removes 12/60 = 1/5 of current milk.",
+        "After 2 replacements: milk = 60 × (1 − 1/5)² = 60 × 16/25 = 38.4 litres."
+      ]
+    },
+    {
+      "problem": "How many kg of sugar costing Rs. 8 per kg must be mixed with 15 kg of sugar costing Rs. 12 per kg so that the mixture costs Rs. 10 per kg?",
+      "solution": "15 kg of the cheaper sugar is required.",
+      "steps": [
+        "Cheaper = 8, dearer = 12, mean = 10.",
+        "Ratio cheaper : dearer = (12 − 10) : (10 − 8) = 2 : 2 = 1 : 1.",
+        "So x : 15 = 1 : 1 ⇒ x = 15 kg."
+      ]
+    },
+    {
+      "problem": "A merchant has two types of tea worth Rs. 60/kg and Rs. 90/kg. He mixes them to sell at Rs. 75/kg. Find the mixing ratio.",
+      "solution": "Mix in the ratio 1 : 1 (cheaper : dearer).",
+      "steps": [
+        "Cheaper = 60, dearer = 90, mean = 75.",
+        "Ratio cheaper : dearer = (90 − 75) : (75 − 60) = 15 : 15 = 1 : 1."
+      ]
+    }
+  ],
+  "references": []
+}

@@ -1,0 +1,88 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Boats and Streams problems combine the boat's speed in still water with the stream's current. Downstream motion adds the stream speed; upstream motion subtracts it. Competitive exams frequently test finding still-water speed, stream speed, or travel time using the relations between downstream and upstream speeds.",
+  "explanation": "CONCEPT EXPLANATION\n\nLet the speed of the boat in still water be u (km/h or m/s) and the speed of the stream be v. When the boat moves downstream (with the current), effective speed = u + v. When it moves upstream (against the current), effective speed = u − v.\n\nFrom any two of downstream speed, upstream speed, u, and v, the others follow: u = (downstream + upstream) / 2 and v = (downstream − upstream) / 2. Time = Distance / Effective speed. For a round trip on the same route, total time = D/(u+v) + D/(u−v).\n\nREAL-LIFE APPLICATIONS\n\nFerry scheduling, cargo transport on rivers, estimating fuel consumption against currents, and navigation in tidal waters all use these relative-speed ideas.\n\nCOMMON MISTAKES\n\n1) Adding stream speed when moving upstream instead of subtracting.\n2) Using still-water speed directly without adjusting for the stream.\n3) Forgetting that average speed for a round trip is NOT the arithmetic mean of downstream and upstream speeds.\n4) Mixing km/h with m/s without conversion.\n5) Assuming equal times for downstream and upstream legs of equal distance.\n\nIMPORTANT NOTES\n\n• Downstream → add stream speed; upstream → subtract stream speed.\n• u and v must both be positive; u > v for upstream travel to be possible.\n• Round-trip average speed = 2D / (t_down + t_up), not (u+v+u−v)/2.\n• If only times for equal distances are given, use t_down and t_up to find u and v.\n• Relative speed against current always reduces effective speed.",
+  "formulas": [
+    {
+      "title": "Downstream speed",
+      "content": "Speed downstream = Speed in still water + Speed of stream = u + v"
+    },
+    {
+      "title": "Upstream speed",
+      "content": "Speed upstream = Speed in still water − Speed of stream = u − v"
+    },
+    {
+      "title": "Speed in still water",
+      "content": "u = (Downstream speed + Upstream speed) / 2"
+    },
+    {
+      "title": "Speed of stream",
+      "content": "v = (Downstream speed − Upstream speed) / 2"
+    },
+    {
+      "title": "Time for a journey",
+      "content": "Time = Distance / Effective speed (use u + v or u − v as appropriate)"
+    },
+    {
+      "title": "Round-trip time (equal distance D)",
+      "content": "Total time = D/(u + v) + D/(u − v)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Halve the sum and difference",
+      "tip": "Still-water speed is half the sum of downstream and upstream speeds; stream speed is half their difference."
+    },
+    {
+      "title": "Round-trip trap",
+      "tip": "Never average downstream and upstream speeds for equal distances — use total distance divided by total time."
+    },
+    {
+      "title": "Equal distance shortcut",
+      "tip": "If downstream and upstream times for the same distance are t1 and t2, then u/v = (t1 + t2)/(t2 − t1)."
+    },
+    {
+      "title": "Check upstream feasibility",
+      "tip": "If upstream speed is negative or zero in your setup, the boat cannot travel upstream — recheck signs."
+    },
+    {
+      "title": "Convert early",
+      "tip": "Convert all speeds to the same unit before forming u ± v."
+    },
+    {
+      "title": "Man in stream analogy",
+      "tip": "A swimmer or boat in a stream follows the same downstream/upstream rules as trains with wind — add or subtract the current."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A boat travels 24 km downstream in 2 hours and 16 km upstream in 4 hours. Find the speed of the boat in still water and the speed of the stream.",
+      "solution": "Still-water speed = 8 km/h; stream speed = 2 km/h.",
+      "steps": [
+        "Downstream speed = 24/2 = 12 km/h.",
+        "Upstream speed = 16/4 = 4 km/h.",
+        "Still-water speed u = (12 + 4)/2 = 8 km/h.",
+        "Stream speed v = (12 − 4)/2 = 2 km/h."
+      ]
+    },
+    {
+      "problem": "A man can row 6 km/h in still water. If the stream runs at 2 km/h, how long will he take to row 20 km downstream and return?",
+      "solution": "Total time = 7.5 hours.",
+      "steps": [
+        "Downstream speed = 6 + 2 = 8 km/h; time downstream = 20/8 = 2.5 h.",
+        "Upstream speed = 6 − 2 = 4 km/h; time upstream = 20/4 = 5 h.",
+        "Total time = 2.5 + 5 = 7.5 hours."
+      ]
+    },
+    {
+      "problem": "The speed of a boat in still water is 10 km/h. It takes 5 hours to travel 48 km downstream and return. Find the speed of the stream.",
+      "solution": "Stream speed = 2 km/h.",
+      "steps": [
+        "Let stream speed = v km/h. Downstream = 10 + v; upstream = 10 − v.",
+        "48/(10+v) + 48/(10−v) = 5.",
+        "Solving: 480(10−v) + 480(10+v) = 5(100−v²) ⇒ 9600 = 500 − 5v² ⇒ v² = 4 ⇒ v = 2 km/h."
+      ]
+    }
+  ],
+  "references": []
+}

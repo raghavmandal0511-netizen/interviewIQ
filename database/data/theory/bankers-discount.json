@@ -1,0 +1,94 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Banker's Discount (BD) is the simple interest on the face value (amount due) of a bill for the unexpired time. It differs from True Discount (TD), which is interest on the present worth. Banks use BD when discounting bills, and the difference between BD and TD is called Banker's Gain. This topic is closely linked to True Discount and frequently tested together in aptitude exams.",
+  "explanation": "CONCEPT EXPLANATION\n\nWhen a bill of Amount A is due after T years at rate R% per annum:\n\n• Banker's Discount: BD = A × R × T / 100 (SI on the face value)\n• True Discount: TD = A × R × T / (100 + R × T) (based on present worth)\n• Present Worth: PW = A − TD = A × 100 / (100 + R × T)\n• Banker's Gain: BG = BD − TD\n\nKey relation: BG = TD² / PW\n\nAlso: Amount = PW + TD = PW + BD − BG\n\nBanker's discount is always greater than true discount for the same amount, rate, and time because BD is calculated on the larger principal (amount) rather than present worth.\n\nREAL-LIFE APPLICATIONS\n\nCommercial banks discount bills of exchange and promissory notes before maturity, charging banker's discount. Understanding BD versus TD helps merchants compare early payment offers, evaluate trade credit terms, and assess the effective cost of bill discounting facilities.\n\nCOMMON MISTAKES\n\n1) Using the true discount formula (100 + RT in denominator) for banker's discount.\n2) Confusing present worth with amount minus banker's discount (should subtract true discount).\n3) Forgetting that BD > TD always for positive rate and time.\n4) Computing banker's gain as a percentage of amount instead of BD − TD.\n5) Mixing up which discount is charged on face value versus present worth.\n\nIMPORTANT NOTES\n\n• BD = SI on Amount; TD = SI on Present Worth.\n• BG = BD − TD = TD² / PW.\n• If rate or time is zero, BD = TD = BG = 0.\n• Amount = PW × (100 + RT) / 100.\n• To find rate: R = 100 × BD / (A × T).\n• To find time: T = 100 × BD / (A × R).\n• Always verify BG using both BD − TD and TD²/PW for consistency.",
+  "formulas": [
+    {
+      "title": "Banker's Discount",
+      "content": "BD = Amount × R × T / 100"
+    },
+    {
+      "title": "True Discount",
+      "content": "TD = Amount × R × T / (100 + R × T)"
+    },
+    {
+      "title": "Present Worth",
+      "content": "PW = Amount − TD = Amount × 100 / (100 + R × T)"
+    },
+    {
+      "title": "Banker's Gain",
+      "content": "BG = BD − TD = TD² / PW"
+    },
+    {
+      "title": "Amount from Banker's Discount",
+      "content": "Amount = BD × 100 / (R × T)"
+    },
+    {
+      "title": "Rate from Banker's Discount",
+      "content": "R = 100 × BD / (Amount × T)"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Denominator difference",
+      "tip": "BD uses ÷100 only; TD uses ÷(100+RT). This is the fastest way to tell them apart."
+    },
+    {
+      "title": "Find TD after BD",
+      "tip": "Compute both from Amount, then BG = BD − TD without memorising extra formulas."
+    },
+    {
+      "title": "Verify with BG formula",
+      "tip": "Cross-check: BG should equal TD²/PW after finding PW and TD."
+    },
+    {
+      "title": "Reverse amount problems",
+      "tip": "If BD, R, and T are known, Amount = BD × 100 / (R × T)."
+    },
+    {
+      "title": "Compare discounts quickly",
+      "tip": "BD is always larger than TD; if your TD exceeds BD, swap the formulas."
+    },
+    {
+      "title": "Link to present worth",
+      "tip": "PW = Amount − TD, not Amount − BD. The bank collects BD but the true value today is PW."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Find the banker's discount on a bill of Rs. 1000 due 1 year hence at 10% per annum.",
+      "solution": "The banker's discount is Rs. 100.",
+      "steps": [
+        "BD = Amount × R × T / 100",
+        "BD = 1000 × 10 × 1 / 100 = 100."
+      ]
+    },
+    {
+      "problem": "The banker's discount on a bill due 2 years hence at 5% is Rs. 126. Find the amount of the bill.",
+      "solution": "The amount of the bill is Rs. 1260.",
+      "steps": [
+        "BD = A × R × T / 100 ⇒ 126 = A × 5 × 2 / 100",
+        "126 = 10A / 100 ⇒ A = 126 × 10 = 1260."
+      ]
+    },
+    {
+      "problem": "Find the banker's gain on a bill of Rs. 1260 due 2 years hence at 5% per annum.",
+      "solution": "The banker's gain is Rs. 11.45 (approximately).",
+      "steps": [
+        "BD = 1260 × 10 / 100 = 126.",
+        "TD = 1260 × 10 / 110 = 114.55.",
+        "BG = BD − TD = 126 − 114.55 = 11.45."
+      ]
+    },
+    {
+      "problem": "The true discount on a bill of Rs. 1100 due 1 year hence at 10% is Rs. 100. Find the banker's discount.",
+      "solution": "The banker's discount is Rs. 110.",
+      "steps": [
+        "Amount = 1100, TD = 100, so PW = 1100 − 100 = 1000.",
+        "BD = Amount × R × T / 100 = 1100 × 10 / 100 = 110.",
+        "Check: BG = 110 − 100 = 10; TD²/PW = 10000/1000 = 10. ✓"
+      ]
+    }
+  ],
+  "references": []
+}

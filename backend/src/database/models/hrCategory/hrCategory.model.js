@@ -39,7 +39,7 @@ const hrCategorySchema = new mongoose.Schema(
     }
 );
 
-hrCategorySchema.index({ slug: 1 }, { unique: true });
+// slug unique index comes from field `unique: true`
 hrCategorySchema.index({ isPublished: 1 });
 
 export default mongoose.model("HRCategory", hrCategorySchema);

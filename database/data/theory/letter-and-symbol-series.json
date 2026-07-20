@@ -1,0 +1,84 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Letter and Symbol Series problems hide a rule in the alphabet order, letter positions, or repeating symbol patterns. Your job is to decode the rule and continue or complete the series.",
+  "explanation": "CONCEPT\n\nLetter series use A–Z positions (A=1 … Z=26). Rules may skip letters, reverse direction, use opposite letters (A↔Z, B↔Y), or combine two letter streams. Symbol series use shapes, marks, or coded icons that change by rotation, count, or type in a fixed cycle.\n\nHOW TO SOLVE\n\n1) Convert letters to positions when gaps are unclear.\n2) Measure the skip: +1, +2, −1, +2/−2 alternating, etc.\n3) Check opposite-letter pairs: position sum = 27.\n4) For mixed letter–number or letter–symbol items, separate components.\n5) For symbols, list what changes each step: count, orientation, shading, or type.\n6) Confirm the rule across the whole series.\n\nIMPORTANT RULES\n\n• Alphabet wraps only if the problem states circular order; usually it does not wrap past Z without a clue.\n• Opposite of letter at position k is at position (27−k).\n• Two-letter groups often change first letter by one rule and second by another.\n• Symbol cycles often repeat every 3 or 4 steps.\n\nCOMMON MISTAKES\n\n1) Counting skips off-by-one (from A to C is +2 positions, one letter skipped).\n2) Forgetting opposite-letter mapping.\n3) Treating vowels/consonants specially when the rule is purely positional.\n4) Missing that symbols change in more than one attribute at once.\n5) Not checking the last given term against the proposed rule.",
+  "formulas": [
+    {
+      "title": "Letter position",
+      "content": "A=1, B=2, …, Z=26"
+    },
+    {
+      "title": "Opposite letter",
+      "content": "Opposite(k) has position 27 − k (A↔Z, B↔Y, …)"
+    },
+    {
+      "title": "Constant skip",
+      "content": "Next = current letter shifted by fixed ±n places"
+    },
+    {
+      "title": "Alternating skip",
+      "content": "Skips alternate, e.g. +1, +2, +1, +2, …"
+    },
+    {
+      "title": "Two-track series",
+      "content": "Odd terms follow rule A; even terms follow rule B"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Write positions",
+      "tip": "Jot 1–26 under letters when the pattern is not obvious by eye."
+    },
+    {
+      "title": "Opposite check",
+      "tip": "If letters jump to the other end of the alphabet, test the opposite-letter rule."
+    },
+    {
+      "title": "Pair groups",
+      "tip": "For pairs like AB, CD, EF, treat each letter of the pair separately."
+    },
+    {
+      "title": "Symbol attributes",
+      "tip": "Track one change at a time: number of marks, then rotation, then fill."
+    },
+    {
+      "title": "Vowels trap",
+      "tip": "Do not assume vowel series unless positions fail to explain the pattern."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Find the next letters: B, D, G, K, ?",
+      "solution": "The next letter is P.",
+      "steps": [
+        "Positions: B=2, D=4, G=7, K=11.",
+        "Differences: +2, +3, +4.",
+        "Next difference +5 → 11+5=16 → P."
+      ]
+    },
+    {
+      "problem": "Find the next pair: AZ, BY, CX, ?",
+      "solution": "The next pair is DW.",
+      "steps": [
+        "First letters: A, B, C → next D.",
+        "Second letters: Z, Y, X → next W (descending).",
+        "So DW."
+      ]
+    },
+    {
+      "problem": "A symbol series shows ○, ○○, ○○○, ○○○○. What comes next if each step adds one circle?",
+      "solution": "Five circles: ○○○○○.",
+      "steps": [
+        "Count of circles: 1, 2, 3, 4.",
+        "Rule: add one circle each step.",
+        "Next count = 5."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Alphabet and letter reasoning basics",
+      "url": "https://www.mathsisfun.com/algebra/sequences-series.html"
+    }
+  ]
+}

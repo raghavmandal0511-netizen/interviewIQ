@@ -1,0 +1,76 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Verbal Classification (including Odd One Out) asks which word does not belong with the others, or which group a word fits. Success depends on finding the shared category quickly and spotting the outsider.",
+  "explanation": "CONCEPT\n\nClassification groups words by a common property: category (animals, tools), function, material, part–whole relation, or abstract class (emotions, professions). Odd One Out is classification with one deliberate mismatch.\n\nHOW TO SOLVE\n\n1) Read all options before deciding.\n2) Propose a category that covers most items.\n3) Test whether exactly one item fails that category.\n4) If two outsiders appear, refine the category (e.g. from \"animals\" to \"mammals\" or \"farm animals\").\n5) Prefer the strongest, most specific shared property that uniquely isolates one word.\n\nIMPORTANT RULES\n\n• The correct odd item is the one that breaks the best common rule.\n• Synonym groups: the odd word is unrelated in meaning.\n• Homonyms or spelling tricks are rare; meaning/category usually wins.\n• In \"which belongs\" questions, choose the word that shares the defining property.\n\nCOMMON MISTAKES\n\n1) Picking an odd word based on length or first letter when meaning differs.\n2) Using a weak category that could exclude more than one word.\n3) Overthinking rare technical meanings.\n4) Ignoring part–whole vs type–of distinctions.\n5) Changing the rule midway without rechecking all options.",
+  "formulas": [
+    {
+      "title": "Odd one out rule",
+      "content": "Find property P shared by all but one item; that one is the answer"
+    },
+    {
+      "title": "Category test",
+      "content": "Ask: Are these all types of X? all parts of Y? all synonyms of Z?"
+    },
+    {
+      "title": "Function grouping",
+      "content": "Group by use (cutting tools, writing tools) rather than appearance"
+    },
+    {
+      "title": "Relation grouping",
+      "content": "Group by relation type: animal–habitat, worker–tool, object–material"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Most specific wins",
+      "tip": "Prefer \"citrus fruits\" over \"food\" when it cleanly isolates one option."
+    },
+    {
+      "title": "Eliminate pairs",
+      "tip": "If two words clearly pair as synonyms, the odd one is elsewhere."
+    },
+    {
+      "title": "Avoid alphabet traps",
+      "tip": "Letter-based oddness is almost never the intended rule in verbal classification."
+    },
+    {
+      "title": "Re-read all four",
+      "tip": "After choosing, confirm the other three truly share one property."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "Odd one out: Rose, Lily, Lotus, Potato",
+      "solution": "Potato — the others are flowers; potato is a tuber/vegetable.",
+      "steps": [
+        "Rose, Lily, Lotus are flowers.",
+        "Potato is not a flower.",
+        "So Potato is odd."
+      ]
+    },
+    {
+      "problem": "Odd one out: Pen, Pencil, Eraser, Book",
+      "solution": "Book — the others are writing/correcting stationery tools typically used to mark paper; book is reading material.",
+      "steps": [
+        "Pen, Pencil, Eraser are stationery tools for writing/erasing.",
+        "Book is not a writing tool.",
+        "Book is the odd one."
+      ]
+    },
+    {
+      "problem": "Which belongs with: Square, Rectangle, Rhombus — options: Circle, Triangle, Cube, Sphere?",
+      "solution": "Triangle — it is also a plane polygon; circle/sphere are curved, cube is 3D solid with square faces but not a simple 2D quadrilateral class mate in the same way; among options, Triangle is the clear 2D polygon peer when the set is plane figures. (Prefer Triangle as plane polygon.)",
+      "steps": [
+        "Given words are plane quadrilaterals/polygons.",
+        "Circle and Sphere are not polygons; Cube is 3D.",
+        "Triangle is a plane polygon, so it belongs best with the classification theme of plane figures."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Classification and categories (logical reasoning overview)",
+      "url": "https://en.wikipedia.org/wiki/Classification"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All doctors are educated people. Some engineers are educated people.\nConclusions:\nI. Some engineers are doctors.\nII. No engineer is a doctor.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The statements only tell us that doctors form part of the educated group and that some engineers also fall in the educated group; they do not reveal whether these two particular subgroups overlap. Since conclusion I and conclusion II are exact opposites and together cover every possibility, and the premises are consistent with either being true, exactly one of them must hold, so 'Either I or II follows'.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All mangoes are fruits. Some fruits are yellow.\nConclusions:\nI. All mangoes are yellow.\nII. Some mangoes are not yellow.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The premises leave the relationship between mangoes and the colour yellow completely open, so it is impossible to tell from them whether all mangoes are yellow or not. However, conclusion I ('all mangoes are yellow') and conclusion II ('some mangoes are not yellow') are exact complements of each other, so exactly one of them must be true, giving 'Either I or II follows'.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No teacher is a painter. Some painters are singers.\nConclusions:\nI. Some singers are teachers.\nII. No singer is a teacher.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "We know that the painters who are singers cannot be teachers, since no teacher is a painter, but this says nothing about singers who are not painters, who could or could not be teachers. Because conclusion I and conclusion II are exact opposites and the given information is consistent with either outcome, exactly one of them must be true, so 'Either I or II follows'.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No book is a magazine. Some magazines are periodicals.\nConclusions:\nI. Some periodicals are books.\nII. No periodical is a book.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The magazines that are periodicals are guaranteed not to be books, but periodicals that are not magazines are not described at all, so their relationship with books is undetermined. Since conclusion I and conclusion II are exact opposites and both remain possible given the statements, exactly one of them must be true, so 'Either I or II follows'.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All swimmers are athletes. Some swimmers are students.\nConclusions:\nI. Some athletes are students.\nII. All students are athletes.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since all swimmers are athletes and some swimmers are students, those particular students, being swimmers, are also athletes, so at least some athletes are students, and conclusion I follows. However, students who are not swimmers are not covered by the statements, so the broader conclusion II does not necessarily follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No spoon is a fork. Some spoons are steel items.\nConclusions:\nI. Some steel items are not forks.\nII. No steel item is a fork.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The steel items that are spoons cannot be forks, since no spoon is a fork, so at least some steel items are not forks, and conclusion I follows. However, steel items that are not spoons could still include forks, so the broader conclusion II does not necessarily follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All bottles are containers. Some bottles are plastic items.\nConclusions:\nI. Some containers are plastic items.\nII. All plastic items are containers.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since all bottles are containers and some bottles are plastic items, those plastic bottles are containers too, so some containers are plastic items, and conclusion I follows. However, plastic items that are not bottles are not addressed, so the broader conclusion II does not necessarily follow.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All apples are fruits. Some fruits are sour.\nConclusions:\nI. Some apples are sour.\nII. Some sour things are fruits.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The fruits that are apples and the fruits that are sour need not be the same fruits, so conclusion I does not necessarily follow. However, 'some fruits are sour' can simply be restated as 'some sour things are fruits', so conclusion II follows.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All windows are openings. Some openings are small.\nConclusions:\nI. Some windows are small.\nII. Some small things are openings.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The openings that are windows and the openings that are small need not be the same openings, so conclusion I does not necessarily follow. However, 'some openings are small' can simply be restated as 'some small things are openings', so conclusion II follows.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All rivers are water bodies. All water bodies are natural resources.\nConclusions:\nI. All rivers are natural resources.\nII. Some natural resources are rivers.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Both I and II follow" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since all rivers are water bodies and all water bodies are natural resources, all rivers must be natural resources, so conclusion I follows. Since all rivers are natural resources and rivers exist, some natural resources must be rivers, so conclusion II follows as well, making both conclusions valid.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: No insect is a mammal. All bees are insects.\nConclusions:\nI. No bee is a mammal.\nII. Some bees are not mammals.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Both I and II follow" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since all bees are insects and no insect is a mammal, no bee can be a mammal, so conclusion I follows. Given that no bee is a mammal and bees exist, it is also true that some bees are not mammals, so conclusion II follows as well.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some chairs are wooden items. All wooden items are furniture.\nConclusions:\nI. Some chairs are furniture.\nII. Some furniture items are chairs.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Both I and II follow" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Since some chairs are wooden items and all wooden items are furniture, those wooden chairs must be furniture, so conclusion I follows. This same fact can be restated as 'some furniture items are chairs', so conclusion II follows as well.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All pigeons are birds. All sparrows are birds.\nConclusions:\nI. All pigeons are sparrows.\nII. Some pigeons are sparrows.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Both pigeons and sparrows are described only in relation to birds, with no direct link between the two. As they could well be entirely separate groups of birds, neither conclusion I nor conclusion II is guaranteed to follow, and since they are not exact logical opposites of each other, the 'either/or' rule also does not apply here.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some coins are old. Some coins are valuable.\nConclusions:\nI. Some old coins are valuable.\nII. All coins are old.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The coins that are old and the coins that are valuable need not overlap at all, so conclusion I does not necessarily follow. Since the statement specifies only 'some' coins as old, not 'all', conclusion II is also unsupported.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: Some tools are not machines. All machines are equipment.\nConclusions:\nI. Some tools are not equipment.\nII. Some tools are equipment.",
+    "options": [
+      { "optionId": "A", "text": "Only I follows" },
+      { "optionId": "B", "text": "Only II follows" },
+      { "optionId": "C", "text": "Either I or II follows" },
+      { "optionId": "D", "text": "Neither follows" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The statements describe only the tools that are not machines, without saying whether those tools count as equipment through some other means, so conclusion I does not necessarily follow. We are also never told that any tool is a machine, so we cannot be sure any tool is equipment either, meaning conclusion II does not follow.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False.\nStatements: All keys are metal objects. Some metal objects are heavy.\nConclusion: Some keys are heavy.\nThis conclusion logically follows from the given statements.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The metal objects that are keys and the metal objects that are heavy need not be the same objects, so this is a case of an undistributed middle term. The conclusion does not necessarily follow, making the statement false.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False.\nStatements: No chairs are tables. All benches are tables.\nConclusion: No bench is a chair.\nThis conclusion logically follows from the given statements.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Since all benches are tables and no chairs are tables, benches cannot be chairs, so no bench is a chair. This conclusion follows directly from the statements, making it true.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statements: All pilots are professionals. Some pilots are union members.\nWhich of the following conclusions is/are logically valid given these statements? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "Some professionals are union members" },
+      { "optionId": "B", "text": "All professionals are pilots" },
+      { "optionId": "C", "text": "Some union members are professionals" },
+      { "optionId": "D", "text": "No professional is a pilot" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "Since all pilots are professionals and some pilots are union members, those union-member pilots are professionals, so some professionals are union members, and this can equally be restated as some union members are professionals, so both A and C are valid. Option B is too strong, since there may be professionals who are not pilots. Option D directly contradicts the given fact that pilots, who exist, are professionals, so it is invalid too.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["logical-deduction", "multiple-conclusions"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

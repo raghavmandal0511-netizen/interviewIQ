@@ -1,0 +1,88 @@
+{
+  "topicId": "REPLACE_TOPIC_ID",
+  "introduction": "Stocks and Shares problems deal with buying ownership units (shares) of a company through the stock market, and calculating the income (dividend) earned from holding them. The key idea is separating a share's fixed face value from its fluctuating market value, and understanding how dividend percentage, market price, and brokerage combine to determine an investor's actual return.",
+  "explanation": "CONCEPT EXPLANATION\n\nEvery share has a face value (FV, also called nominal value), which is the fixed value printed on the share certificate — commonly Rs 100 in exam problems unless stated otherwise. The market value (MV) is the price at which the share is actually bought or sold, and it fluctuates based on demand. A stock is said to be 'at par' if MV = FV, 'at a premium' if MV > FV, and 'at a discount' if MV < FV.\n\nDividend is the percentage return declared on the face value, not the market value. So annual income from one share = (Dividend% × FV) / 100. The total income from an investment depends on how many shares were bought, which is found by dividing the total investment by the market price per share (adjusted for brokerage if applicable).\n\nBrokerage is a small commission charged by the broker on each transaction, added to the cost price when buying and subtracted from the sale proceeds when selling. So effective buying price per share = MV + brokerage, and effective selling price = MV − brokerage.\n\nYield (or rate of return) tells the investor's actual percentage return based on what they paid, not the face value: Yield% = (Annual income / Investment) × 100. This is different from the declared dividend rate whenever the stock is not at par.\n\nREAL-LIFE APPLICATIONS\n\nEvaluating investment returns, comparing dividend income against fixed deposits, and understanding brokerage costs are directly useful for personal finance and are foundational to stock market literacy.\n\nCOMMON MISTAKES\n\n1) Calculating dividend income based on market value instead of face value.\n2) Forgetting to include brokerage when computing the actual investment or actual sale proceeds.\n3) Confusing dividend rate (based on FV) with yield/return rate (based on MV or investment).\n4) Not converting 'stock at a premium of Rs x' correctly into market value (MV = FV + x).\n5) Assuming number of shares equals the investment amount instead of dividing investment by price per share.\n\nIMPORTANT NOTES\n\n• Face value is fixed; market value changes with market conditions.\n\n• Income from shares is always calculated on face value, using the declared dividend percentage.\n\n• Number of shares = Total investment / (Market value per share, adjusted for brokerage).\n\n• A stock quoted as 'Rs 120' generally means the market value per share of face value Rs 100 is Rs 120 (i.e., at a premium of Rs 20).",
+  "formulas": [
+    {
+      "title": "Annual income per share",
+      "content": "Income = (Dividend% × Face Value) / 100"
+    },
+    {
+      "title": "Number of shares held",
+      "content": "Number of shares = Total Investment / Market Value per share"
+    },
+    {
+      "title": "Total annual income",
+      "content": "Total Income = Number of shares × (Dividend% × Face Value)/100"
+    },
+    {
+      "title": "Yield (rate of return)",
+      "content": "Yield% = (Annual Income / Investment) × 100"
+    },
+    {
+      "title": "Effective price with brokerage",
+      "content": "Buying price = Market Value + Brokerage; Selling price = Market Value − Brokerage"
+    }
+  ],
+  "shortcutTips": [
+    {
+      "title": "Dividend always uses face value",
+      "tip": "No matter what the market price is, dividend income is calculated strictly on the face value, typically Rs 100 per share."
+    },
+    {
+      "title": "Premium/discount conversion",
+      "tip": "'Stock at a premium of Rs x' means MV = FV + x; 'at a discount of Rs x' means MV = FV − x."
+    },
+    {
+      "title": "Find shares before income",
+      "tip": "Always compute the number of shares first (Investment ÷ Market Value) before calculating total dividend income."
+    },
+    {
+      "title": "Brokerage direction",
+      "tip": "Add brokerage when buying (it increases your cost) and subtract it when selling (it reduces your proceeds)."
+    },
+    {
+      "title": "Yield vs dividend rate",
+      "tip": "If the stock is at par, yield equals the dividend rate; otherwise, always recompute yield using actual investment, not face value."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "problem": "A person invests Rs 6,000 in a 9% stock at Rs 120. Find the annual income.",
+      "solution": "The annual income is Rs 450.",
+      "steps": [
+        "Number of shares = Investment / Market Value = 6000/120 = 50 shares.",
+        "Income per share = (9% of Rs 100 face value) = Rs 9.",
+        "Total income = 50 × 9 = Rs 450."
+      ]
+    },
+    {
+      "problem": "Find the yield percentage for a 10% stock quoted at Rs 125 (face value Rs 100).",
+      "solution": "The yield is 8%.",
+      "steps": [
+        "Income per share (on face value) = 10% of 100 = Rs 10.",
+        "Investment per share = market value = Rs 125.",
+        "Yield% = (Income/Investment) × 100 = (10/125) × 100 = 8%."
+      ]
+    },
+    {
+      "problem": "A man buys shares of face value Rs 100 at a premium of Rs 10, paying a brokerage of Rs 1 per share. If he invests Rs 4,440, how many shares does he buy?",
+      "solution": "He buys 40 shares.",
+      "steps": [
+        "Market value = FV + premium = 100 + 10 = Rs 110.",
+        "Effective buying price per share = MV + brokerage = 110 + 1 = Rs 111.",
+        "Number of shares = 4440 / 111 = 40 shares."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Investopedia — Dividend Yield",
+      "url": "https://www.investopedia.com/terms/d/dividendyield.asp"
+    },
+    {
+      "title": "Investopedia — Face Value",
+      "url": "https://www.investopedia.com/terms/f/facevalue.asp"
+    }
+  ]
+}

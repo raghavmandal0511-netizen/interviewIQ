@@ -1,0 +1,26 @@
+[
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-cause-and-effect-introduction",
+    "title": "Introduction",
+    "description": "Introductory cause and effect practice",
+    "order": 1,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-cause-and-effect-basic",
+    "title": "Basic Cause & Effect",
+    "description": "Basic cause and effect relationships",
+    "order": 2,
+    "isPublished": true
+  },
+  {
+    "topicId": "REPLACE_TOPIC_ID",
+    "_seedKey": "exercise-cause-and-effect-advanced",
+    "title": "Advanced Cause & Effect",
+    "description": "Advanced cause, effect, and common-cause cases",
+    "order": 3,
+    "isPublished": true
+  }
+]

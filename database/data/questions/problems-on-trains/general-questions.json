@@ -1,0 +1,820 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train 100 m long runs at 72 km/h. How long does it take to pass a telegraph pole?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "4 seconds"
+      },
+      {
+        "optionId": "B",
+        "text": "5 seconds"
+      },
+      {
+        "optionId": "C",
+        "text": "6 seconds"
+      },
+      {
+        "optionId": "D",
+        "text": "8 seconds"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Speed = 72 × 5/18 = 20 m/s. Time = 100/20 = 5 seconds.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "problems-on-trains",
+      "pole"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Convert 90 km/h into m/s.",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "20 m/s"
+      },
+      {
+        "optionId": "B",
+        "text": "25 m/s"
+      },
+      {
+        "optionId": "C",
+        "text": "30 m/s"
+      },
+      {
+        "optionId": "D",
+        "text": "18 m/s"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "90 × (5/18) = 25 m/s.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": [
+      "problems-on-trains",
+      "conversion"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A 150 m train crosses a 250 m platform in 20 seconds. What is the speed of the train?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "54 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "60 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "72 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "80 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Distance = 150 + 250 = 400 m. Speed = 400/20 = 20 m/s = 20 × 18/5 = 72 km/h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "problems-on-trains",
+      "platform"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train running at 36 km/h crosses a pole in 15 seconds. What is the length of the train?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "120 m"
+      },
+      {
+        "optionId": "B",
+        "text": "135 m"
+      },
+      {
+        "optionId": "C",
+        "text": "150 m"
+      },
+      {
+        "optionId": "D",
+        "text": "180 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Speed = 36 × 5/18 = 10 m/s. Length = 10 × 15 = 150 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "problems-on-trains",
+      "length"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two trains of lengths 120 m and 80 m run at 40 km/h and 50 km/h in opposite directions. Time to cross each other is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "6 seconds"
+      },
+      {
+        "optionId": "B",
+        "text": "8 seconds"
+      },
+      {
+        "optionId": "C",
+        "text": "10 seconds"
+      },
+      {
+        "optionId": "D",
+        "text": "12 seconds"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Relative speed = 90 km/h = 25 m/s. Distance = 200 m. Time = 200/25 = 8 s.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "problems-on-trains",
+      "opposite"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two trains 100 m and 150 m long run at 45 km/h and 55 km/h in the same direction. How long will the faster train take to completely overtake the slower one?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "80 seconds"
+      },
+      {
+        "optionId": "B",
+        "text": "90 seconds"
+      },
+      {
+        "optionId": "C",
+        "text": "100 seconds"
+      },
+      {
+        "optionId": "D",
+        "text": "120 seconds"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Relative speed = 10 km/h = 25/9 m/s. Distance = 250 m. Time = 250 ÷ (25/9) = 90 s.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 100,
+    "tags": [
+      "problems-on-trains",
+      "same-direction"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train 180 m long crosses a man walking at 6 km/h in the same direction in 18 seconds. Speed of the train is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "36 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "40 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "42 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "48 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relative speed = 180/18 = 10 m/s = 36 km/h. Train speed = 36 + 6 = 42 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "problems-on-trains",
+      "man-walking"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train crosses a platform 200 m long in 30 seconds and a pole in 12 seconds. Length of the train is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "100 m"
+      },
+      {
+        "optionId": "B",
+        "text": "120 m"
+      },
+      {
+        "optionId": "C",
+        "text": "140 m"
+      },
+      {
+        "optionId": "D",
+        "text": "150 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let length = L, speed = S. L/S = 12 and (L+200)/S = 30. Subtract: 200/S = 18 ⇒ S = 200/18. Then L = 12S = 120 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 100,
+    "tags": [
+      "problems-on-trains",
+      "platform-pole"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A 240 m train running at 72 km/h crosses a bridge in 30 seconds. Length of the bridge is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "300 m"
+      },
+      {
+        "optionId": "B",
+        "text": "320 m"
+      },
+      {
+        "optionId": "C",
+        "text": "360 m"
+      },
+      {
+        "optionId": "D",
+        "text": "400 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Speed = 20 m/s. Distance in 30 s = 600 m. Bridge = 600 − 240 = 360 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "problems-on-trains",
+      "bridge"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "How many seconds will a 125 m train take to cross a man walking at 5 km/h in the opposite direction if the train’s speed is 40 km/h?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "8 seconds"
+      },
+      {
+        "optionId": "B",
+        "text": "9 seconds"
+      },
+      {
+        "optionId": "C",
+        "text": "10 seconds"
+      },
+      {
+        "optionId": "D",
+        "text": "12 seconds"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relative speed = 45 km/h = 12.5 m/s. Time = 125/12.5 = 10 seconds.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "problems-on-trains",
+      "opposite-man"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train covers 360 km in 4 hours. How much distance will it cover in 2 hours 30 minutes at the same speed?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "200 km"
+      },
+      {
+        "optionId": "B",
+        "text": "215 km"
+      },
+      {
+        "optionId": "C",
+        "text": "225 km"
+      },
+      {
+        "optionId": "D",
+        "text": "240 km"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Speed = 360/4 = 90 km/h. Distance in 2.5 h = 90 × 2.5 = 225 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "problems-on-trains",
+      "distance"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two trains start at the same time from stations A and B toward each other. They take 9 hours and 16 hours respectively to reach the opposite stations after meeting. If the first train’s speed is 64 km/h, the second train’s speed is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "36 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "40 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "48 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "54 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Speeds ratio after meeting times: S1:S2 = √t2 : √t1 = 4:3. So S2 = (3/4)×64 = 48 km/h.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "problems-on-trains",
+      "meeting"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train 110 m long passes a person walking in the same direction at 6 km/h in 11 seconds. Speed of the train is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "36 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "40 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "42 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "48 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relative speed = 110/11 = 10 m/s = 36 km/h. Train speed = 36 + 6 = 42 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "problems-on-trains"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train passes two bridges of lengths 400 m and 300 m in 50 s and 40 s respectively. Length of the train is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "100 m"
+      },
+      {
+        "optionId": "B",
+        "text": "120 m"
+      },
+      {
+        "optionId": "C",
+        "text": "150 m"
+      },
+      {
+        "optionId": "D",
+        "text": "200 m"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(L+400)/50 = (L+300)/40. Cross-multiply: 40L + 16000 = 50L + 15000 ⇒ 10L = 1000 ⇒ L = 100 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "problems-on-trains",
+      "two-bridges"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A 300 m train running at 90 km/h crosses another 200 m train running at 60 km/h in the same direction. Time taken is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "50 seconds"
+      },
+      {
+        "optionId": "B",
+        "text": "55 seconds"
+      },
+      {
+        "optionId": "C",
+        "text": "60 seconds"
+      },
+      {
+        "optionId": "D",
+        "text": "65 seconds"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relative speed = 30 km/h = 25/3 m/s. Distance = 500 m. Time = 500 × 3/25 = 60 s.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 100,
+    "tags": [
+      "problems-on-trains",
+      "overtake"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "If a train 200 m long crosses a platform of equal length in 40 seconds, its speed is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "18 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "27 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "36 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "45 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Distance = 400 m. Speed = 400/40 = 10 m/s = 36 km/h.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": [
+      "problems-on-trains"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train travelling at 60 km/h enters a tunnel 3 km long. How long will it take to completely clear the tunnel if the train itself is 0.5 km long?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "3 minutes"
+      },
+      {
+        "optionId": "B",
+        "text": "3.5 minutes"
+      },
+      {
+        "optionId": "C",
+        "text": "4 minutes"
+      },
+      {
+        "optionId": "D",
+        "text": "4.5 minutes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Distance = 3 + 0.5 = 3.5 km. Time = 3.5/60 hours = 3.5 minutes.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "problems-on-trains",
+      "tunnel"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "The ratio of speeds of two trains is 3:4. If the second train covers 240 km in 4 hours, how much distance will the first train cover in 5 hours?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "200 km"
+      },
+      {
+        "optionId": "B",
+        "text": "225 km"
+      },
+      {
+        "optionId": "C",
+        "text": "250 km"
+      },
+      {
+        "optionId": "D",
+        "text": "275 km"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Second train speed = 60 km/h. First = (3/4)×60 = 45 km/h. Distance in 5 h = 225 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": [
+      "problems-on-trains",
+      "ratio"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train takes 10 seconds to cross a pole and 25 seconds to cross a 225 m platform. Speed of the train is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "45 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "50 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "54 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "60 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Extra 15 s are for 225 m ⇒ speed = 225/15 = 15 m/s = 54 km/h. Length = 15×10 = 150 m (consistent).",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 100,
+    "tags": [
+      "problems-on-trains"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Two trains of equal length take 10 seconds and 15 seconds to cross a telegraph post. If they run in opposite directions, time to cross each other is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10 seconds"
+      },
+      {
+        "optionId": "B",
+        "text": "12 seconds"
+      },
+      {
+        "optionId": "C",
+        "text": "15 seconds"
+      },
+      {
+        "optionId": "D",
+        "text": "18 seconds"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Let length = L. Speeds L/10 and L/15. Relative = L(1/10+1/15)=L/6. Time for 2L = 2L/(L/6)=12 s.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "problems-on-trains",
+      "equal-length"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A goods train 350 m long passes a standing man in 28 seconds. How long will it take to pass a platform 210 m long?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "40 seconds"
+      },
+      {
+        "optionId": "B",
+        "text": "42 seconds"
+      },
+      {
+        "optionId": "C",
+        "text": "44 seconds"
+      },
+      {
+        "optionId": "D",
+        "text": "45 seconds"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Speed = 350/28 = 12.5 m/s. Time for platform = (350+210)/12.5 = 560/12.5 = 44.8 ≈ 45 s.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "problems-on-trains"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train running at 54 km/h takes 20 seconds to pass a platform. It also takes 12 seconds to pass a man walking at 6 km/h in the same direction. Length of the platform is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "120 m"
+      },
+      {
+        "optionId": "B",
+        "text": "140 m"
+      },
+      {
+        "optionId": "C",
+        "text": "160 m"
+      },
+      {
+        "optionId": "D",
+        "text": "180 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Relative speed vs man = 48 km/h = 40/3 m/s. Train length = (40/3)×12 = 160 m. Train speed = 15 m/s, so in 20 s it covers 300 m. Platform = 300 − 160 = 140 m.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 120,
+    "tags": [
+      "problems-on-trains"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Without stopping, a train travels from A to B at 80 km/h. With stoppages it averages 64 km/h. How many minutes per hour does the train stop?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10 minutes"
+      },
+      {
+        "optionId": "B",
+        "text": "12 minutes"
+      },
+      {
+        "optionId": "C",
+        "text": "15 minutes"
+      },
+      {
+        "optionId": "D",
+        "text": "18 minutes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In 1 hour with stops it covers 64 km, which takes 64/80 = 0.8 h = 48 min of running. Stoppage = 12 minutes per hour.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 100,
+    "tags": [
+      "problems-on-trains",
+      "stoppages"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train 130 m long travelling at 45 km/h crosses another train of length 170 m travelling at 36 km/h in the opposite direction. Crossing time is:",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "10 seconds"
+      },
+      {
+        "optionId": "B",
+        "text": "12 seconds"
+      },
+      {
+        "optionId": "C",
+        "text": "13.33 seconds"
+      },
+      {
+        "optionId": "D",
+        "text": "15 seconds"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relative speed = 81 km/h = 22.5 m/s. Distance = 300 m. Time = 300/22.5 = 13.33 s.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "problems-on-trains"
+    ],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "A train crosses a stationary object in 9 seconds and a 250 m long platform in 24 seconds. What is the speed of the train in km/h?",
+    "options": [
+      {
+        "optionId": "A",
+        "text": "48 km/h"
+      },
+      {
+        "optionId": "B",
+        "text": "54 km/h"
+      },
+      {
+        "optionId": "C",
+        "text": "60 km/h"
+      },
+      {
+        "optionId": "D",
+        "text": "72 km/h"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Extra 15 s cover 250 m ⇒ speed = 250/15 = 50/3 m/s ≈ 16.67 m/s = 60 km/h.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": [
+      "problems-on-trains"
+    ],
+    "questionType": "MCQ"
+  }
+]

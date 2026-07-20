@@ -1,0 +1,322 @@
+[
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: The city's water treatment plant experienced a mechanical failure.\nStatement II: Residents in several neighborhoods received discolored tap water for two days.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A mechanical failure at the treatment plant would disrupt proper water filtration and purification, directly resulting in discolored water reaching homes. Statement I is the cause and Statement II is its effect.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: Sudden strong winds hit the coastal town overnight.\nStatement II: Several old trees were uprooted and fell onto the roads.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Strong winds exert direct physical force on trees, and older trees with weaker root systems are especially prone to being uprooted by such force. Statement I is the cause and Statement II is its effect.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: A popular actor promoted a new snack brand in a television campaign.\nStatement II: Sales of the snack brand doubled within the following month.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A celebrity endorsement increases brand visibility and consumer trust, which directly drives higher purchase interest. Statement I is the cause and Statement II is its effect.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: A local bakery ran out of flour by noon.\nStatement II: A flour mill workers' strike had halted supply deliveries for the previous week.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The strike disrupting supply deliveries happened over the preceding week, before the bakery ran out of stock, and directly explains the shortage. Statement II is the cause, and the bakery running out of flour in Statement I is its effect.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: The football match was postponed at the last minute.\nStatement II: The stadium's floodlight system suffered a complete power failure just before kickoff.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The floodlight failure occurred just before kickoff and made it impossible to safely play the match, directly forcing the postponement. Statement II is the cause, and the postponement in Statement I is its effect.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: Attendance at the community pool has doubled this summer.\nStatement II: The city built a new pool with better facilities and lower entry fees this year.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The improved facilities and lower fees were introduced this year, and such improvements naturally attract more visitors. Statement II is the cause, and the doubled attendance in Statement I is its effect.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: There has been a rise in the number of people buying air purifiers in the city.\nStatement II: There has been a rise in the number of people buying face masks in the city.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Buying an air purifier does not cause someone to also buy a face mask, or vice versa. Both purchases are best explained by a common cause, most likely worsening air pollution levels in the city that independently prompted people to protect themselves in both ways.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: Enrollment in online cooking classes surged this year.\nStatement II: Enrollment in online fitness classes also surged this year.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Signing up for an online cooking class has no direct bearing on signing up for a fitness class. The simultaneous surge in both is better explained by a common cause, such as more people spending extended time at home and turning to online classes for various hobbies and needs.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: The central bank raised interest rates sharply.\nStatement II: Demand for home loans dropped significantly in the following quarter.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Higher interest rates directly increase the cost of borrowing, making home loans less affordable and discouraging new applications. Statement I is the cause and Statement II is its effect.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: A severe frost damaged a large portion of the wheat crop this season.\nStatement II: The market price of wheat rose sharply in the following weeks.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Frost damage reduced the available supply of wheat, and a lower supply against steady demand naturally pushes prices upward. Statement I is the cause and Statement II is its effect.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: A popular singer released a new music album this month.\nStatement II: A well-known author published a new novel this month.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A singer's album release and an author's book launch are decided by entirely separate individuals and industries, following their own independent schedules. There is no causal link between them, nor any plausible common cause; their occurring in the same month is coincidental.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: The number of tourists visiting the hill station dropped sharply this monsoon.\nStatement II: The number of flights cancelled at the nearby airport also increased sharply this monsoon.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A drop in tourist numbers does not itself cause flights to be cancelled, and cancelled flights do not directly cause fewer tourists to plan a visit. Both are more plausibly the result of a common cause: unusually severe monsoon storms that both discouraged travel plans and disrupted flight operations.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: The state government banned the use of plastic bags.\nStatement II: The use of cloth and jute bags among shoppers increased noticeably.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "With plastic bags banned, shoppers needed an alternative for carrying goods, directly leading more people to switch to cloth and jute bags. Statement I is the cause and Statement II is its effect.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: A large software company announced record layoffs.\nStatement II: The company had been posting declining quarterly profits for the previous year.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The declining profits had been occurring for a full year before the layoffs and represent the financial pressure that would typically force a company to cut costs. Statement II is the cause, and the layoffs in Statement I are its effect.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False, based on these statements:\nStatement I: The city experienced a prolonged power outage during the storm.\nStatement II: Residents' refrigerated food spoiled within two days.\nClaim: Statement I is the cause and Statement II is its effect.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Without power, refrigerators cannot maintain a cold temperature, so a prolonged outage would directly cause perishable food inside to spoil within a couple of days. Statement I is indeed the cause and Statement II is its effect, so the claim is True.",
+    "difficulty": "easy",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 45,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "State whether True or False, based on these statements:\nStatement I: A famous chef opened a new restaurant in a developing neighborhood.\nStatement II: Property prices in the surrounding neighborhood rose over the next year.\nClaim: Statement I is definitely the cause of Statement II.",
+    "options": [
+      { "optionId": "A", "text": "True" },
+      { "optionId": "B", "text": "False" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A single restaurant opening is unlikely, by itself, to be the definite cause of a broader rise in property prices across a neighborhood. It is more plausible that both the restaurant's arrival and the price rise are effects of a common cause, such as overall area development or gentrification attracting new businesses and buyers alike. So the claim is False.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 60,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "TRUE_FALSE"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Statement I: A viral social media post criticized a restaurant's poor hygiene standards.\nStatement II: The restaurant's customer footfall dropped sharply in the following week.\n\nWhich of the following best describes the relationship between the two statements?",
+    "options": [
+      { "optionId": "A", "text": "Statement I is the cause and Statement II is its effect" },
+      { "optionId": "B", "text": "Statement II is the cause and Statement I is its effect" },
+      { "optionId": "C", "text": "Both statements are independent causes, unrelated to each other" },
+      { "optionId": "D", "text": "Both statements are effects of some common cause" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A widely seen negative post about hygiene would damage the restaurant's reputation and discourage potential customers, directly leading to reduced footfall the following week. Statement I is the cause and Statement II is its effect.",
+    "difficulty": "medium",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 75,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MCQ"
+  },
+  {
+    "exerciseId": "REPLACE_EXERCISE_ID",
+    "question": "Which of the following statement pairs represent a case where both statements are effects of a common underlying cause, rather than one directly causing the other? (Select all that apply)",
+    "options": [
+      { "optionId": "A", "text": "I: Sales of woolen sweaters rose sharply in November. II: Sales of room heaters also rose sharply in November." },
+      { "optionId": "B", "text": "I: A company's advertising budget was cut in half. II: The company's brand recall among consumers dropped over the next quarter." },
+      { "optionId": "C", "text": "I: School enrollment for the new academic term increased in a rapidly growing suburb. II: Demand for school bus services in the same suburb also increased." },
+      { "optionId": "D", "text": "I: A city's public library extended its working hours. II: Footfall at the library increased noticeably." }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "In A, the onset of winter independently drives people to buy both sweaters and heaters, making both statements effects of a common cause. In C, the suburb's rapid population growth independently increases both school enrollment and demand for school transport, again a common cause. In B and D, however, Statement I is a direct, deliberate cause of Statement II (a budget cut lowering brand recall, and extended hours drawing more visitors), so those are not common-cause cases.",
+    "difficulty": "hard",
+    "marks": 1,
+    "negativeMarks": 0.25,
+    "timeLimit": 90,
+    "tags": ["cause-and-effect", "basic"],
+    "questionType": "MULTIPLE_CORRECT"
+  }
+]

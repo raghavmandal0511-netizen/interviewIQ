@@ -1,9 +1,9 @@
-export default function Page() {
+import { SignupForm } from "@/features/auth/components/SignupForm";
+
+export default function SignupPage() {
   return (
-    <section>
-      <h1>Sign Up</h1>
-      <p>Create a new InterviewIQ account.</p>
-      <p>TODO: Implement this page UI.</p>
-    </section>
+    <div className="flex flex-1 flex-col items-center justify-center py-8">
+      <SignupForm />
+    </div>
   );
 }

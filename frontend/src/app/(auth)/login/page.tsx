@@ -1,9 +1,9 @@
-export default function Page() {
+import { LoginForm } from "@/features/auth/components/LoginForm";
+
+export default function LoginPage() {
   return (
-    <section>
-      <h1>Login</h1>
-      <p>Sign in to your InterviewIQ account.</p>
-      <p>TODO: Implement this page UI.</p>
-    </section>
+    <div className="flex flex-1 flex-col items-center justify-center py-8">
+      <LoginForm />
+    </div>
   );
 }

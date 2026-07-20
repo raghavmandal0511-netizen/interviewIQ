@@ -1,7 +1,73 @@
-/**
- * Placeholder: QuickActions
- * TODO: Dashboard home QuickActions
- */
+"use client";
+
+import {
+  Brain,
+  FileCheck,
+  MessageSquare,
+  Bot,
+  BarChart3,
+  UserCheck,
+} from "lucide-react";
+import { QuickActionCard } from "@/components/cards/QuickActionCard";
+import { DashboardCard } from "@/components/cards/DashboardCard";
+import { ROUTES } from "@/constants/routes";
+
 export function QuickActions() {
-  return <div>QuickActions Placeholder</div>;
+  const actions = [
+    {
+      title: "Start Aptitude Practice",
+      description: "Solve Quantitative, Logical & Verbal questions",
+      href: ROUTES.dashboard.generalAptitude,
+      icon: Brain,
+      variant: "primary" as const,
+    },
+    {
+      title: "Take Mock Test",
+      description: "Timed full-length exam simulations",
+      href: ROUTES.dashboard.tests,
+      icon: FileCheck,
+      variant: "outline" as const,
+    },
+    {
+      title: "HR Interview Prep",
+      description: "Sample answers & behavioral questions",
+      href: ROUTES.dashboard.interviewHr,
+      icon: MessageSquare,
+      variant: "outline" as const,
+    },
+    {
+      title: "Start AI Interview",
+      description: "Interactive voice & video interview simulator",
+      href: ROUTES.dashboard.interviewAi,
+      icon: Bot,
+      variant: "primary" as const,
+    },
+    {
+      title: "View Performance Reports",
+      description: "Detailed analytics & strength analysis",
+      href: ROUTES.dashboard.reports,
+      icon: BarChart3,
+      variant: "outline" as const,
+    },
+    {
+      title: "Edit Profile & Target Role",
+      description: "Update resume, target company & skills",
+      href: ROUTES.dashboard.profileEdit,
+      icon: UserCheck,
+      variant: "outline" as const,
+    },
+  ];
+
+  return (
+    <DashboardCard
+      title="Quick Actions"
+      subtitle="Jump directly into your key preparation workflows"
+    >
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {actions.map((action) => (
+          <QuickActionCard key={action.title} {...action} />
+        ))}
+      </div>
+    </DashboardCard>
+  );
 }

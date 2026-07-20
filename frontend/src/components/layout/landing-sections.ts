@@ -1,0 +1,10 @@
+export { HeroSection } from "@/components/layout/HeroSection";
+export { FeaturesSection } from "@/components/layout/FeaturesSection";
+export { HowItWorksSection } from "@/components/layout/HowItWorksSection";
+export { GeneralAptitudeSection } from "@/components/layout/GeneralAptitudeSection";
+export { HrInterviewSection } from "@/components/layout/HrInterviewSection";
+export { AiInterviewSection } from "@/components/layout/AiInterviewSection";
+export { ReportsSection } from "@/components/layout/ReportsSection";
+export { TestimonialsSection } from "@/components/layout/TestimonialsSection";
+export { FaqSection } from "@/components/layout/FaqSection";
+export { CtaSection } from "@/components/layout/CtaSection";

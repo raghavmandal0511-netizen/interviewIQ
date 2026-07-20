@@ -1,0 +1,12 @@
+export { WelcomeBanner } from "@/features/dashboard/components/WelcomeBanner";
+export { DailyStreak } from "@/features/dashboard/components/DailyStreak";
+export { OverallProgress } from "@/features/dashboard/components/OverallProgress";
+export { ContinueLearning } from "@/features/dashboard/components/ContinueLearning";
+export { QuickActions } from "@/features/dashboard/components/QuickActions";
+export { LearningProgress } from "@/features/dashboard/components/LearningProgress";
+export { RecentActivity } from "@/features/dashboard/components/RecentActivity";
+export { WeakTopics } from "@/features/dashboard/components/WeakTopics";
+export { StrongTopics } from "@/features/dashboard/components/StrongTopics";
+export { PerformanceSummary } from "@/features/dashboard/components/PerformanceSummary";
+export { RecommendedTopics } from "@/features/dashboard/components/RecommendedTopics";
+export { ReportShortcut } from "@/features/dashboard/components/ReportShortcut";

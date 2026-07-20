@@ -1,12 +1,33 @@
 # InterviewIQ
 
-InterviewIQ is an interview platform. This repository is structured as a monorepo containing the backend service and a reserved `/frontend` directory for future client work.
+InterviewIQ is an interview preparation platform (aptitude, HR interview, AI interview, tests, and reports).
 
-## Project Structure
+This repository is a monorepo:
 
-- `/frontend` - Reserved for the future frontend application.
-- `/backend` - Node.js Express server using MongoDB.
+| Path | Description |
+| --- | --- |
+| `/backend` | Node.js Express + MongoDB API |
+| `/frontend` | Next.js 15 App Router frontend foundation |
 
-## Getting Started
+## Frontend
 
-Refer to the `README.md` file within the `backend` directory for setup and running instructions.
+The frontend foundation is ready under `/frontend`.
+
+```bash
+cd frontend
+npm install
+cp .env.example .env.local
+npm run dev
+```
+
+See [`frontend/README.md`](./frontend/README.md) for architecture docs, coding standards, and conventions.
+
+## Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+See [`backend/README.md`](./backend/README.md) for API setup details.

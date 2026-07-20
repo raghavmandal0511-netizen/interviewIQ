@@ -1,37 +1,44 @@
 "use client";
 
-import { Trophy, Flame, Zap, Award, Target, Star } from "lucide-react";
+import { Trophy, Flame, Zap, Star } from "lucide-react";
 import { AchievementCard } from "@/components/cards/AchievementCard";
 import { DashboardCard } from "@/components/cards/DashboardCard";
+import { useAuthStore } from "@/store/auth.store";
 
 export function AchievementsSection() {
+  const unlocked = useAuthStore((state) => state.progress.unlockedAchievements);
+
   const achievements = [
     {
+      id: "ach-1",
       title: "Consistency Master",
-      description: "Maintained a 7-day daily learning streak",
+      description: "Maintain a 7-day daily learning streak",
       icon: Flame,
-      unlocked: true,
-      date: "Jul 20",
+      unlocked: unlocked.includes("ach-1"),
+      date: unlocked.includes("ach-1") ? "Jul 20" : undefined,
     },
     {
+      id: "ach-2",
       title: "Speed Arithmetic Ace",
-      description: "Solved 10 math questions under 5 minutes",
+      description: "Solve 10 math questions under 5 minutes",
       icon: Zap,
-      unlocked: true,
-      date: "Jul 18",
+      unlocked: unlocked.includes("ach-2"),
+      date: unlocked.includes("ach-2") ? "Jul 18" : undefined,
     },
     {
+      id: "ach-3",
       title: "Mock Exam Champion",
-      description: "Scored 85%+ in a full length placement test",
+      description: "Score 85%+ in a full length placement test",
       icon: Trophy,
-      unlocked: true,
-      date: "Jul 15",
+      unlocked: unlocked.includes("ach-3"),
+      date: unlocked.includes("ach-3") ? "Jul 15" : undefined,
     },
     {
+      id: "ach-4",
       title: "AI Interview Prodigy",
-      description: "Achieved a 4.8 rating in AI Technical Interview",
+      description: "Achieve a 4.8 rating in AI Technical Interview",
       icon: Star,
-      unlocked: false,
+      unlocked: unlocked.includes("ach-4"),
     },
   ];
 

@@ -18,8 +18,9 @@ import {
   CartesianGrid,
 } from "recharts";
 import { DashboardCard } from "@/components/cards/DashboardCard";
+import { useAuthStore } from "@/store/auth.store";
 
-const weeklyPerformance = [
+const demoWeeklyPerformance = [
   { day: "Mon", score: 65, accuracy: 70, tests: 2 },
   { day: "Tue", score: 72, accuracy: 75, tests: 3 },
   { day: "Wed", score: 68, accuracy: 72, tests: 2 },
@@ -29,20 +30,42 @@ const weeklyPerformance = [
   { day: "Sun", score: 88, accuracy: 89, tests: 4 },
 ];
 
-const categoryDistribution = [
+const zeroWeeklyPerformance = [
+  { day: "Mon", score: 0, accuracy: 0, tests: 0 },
+  { day: "Tue", score: 0, accuracy: 0, tests: 0 },
+  { day: "Wed", score: 0, accuracy: 0, tests: 0 },
+  { day: "Thu", score: 0, accuracy: 0, tests: 0 },
+  { day: "Fri", score: 0, accuracy: 0, tests: 0 },
+  { day: "Sat", score: 0, accuracy: 0, tests: 0 },
+  { day: "Sun", score: 0, accuracy: 0, tests: 0 },
+];
+
+const demoCategoryDistribution = [
   { name: "Arithmetic", value: 35, color: "#5D50EB" },
   { name: "Logical", value: 30, color: "#10b981" },
   { name: "Verbal", value: 20, color: "#f59e0b" },
   { name: "HR/AI", value: 15, color: "#ec4899" },
 ];
 
+const zeroCategoryDistribution = [
+  { name: "Arithmetic", value: 25, color: "#cbd5e1" },
+  { name: "Logical", value: 25, color: "#94a3b8" },
+  { name: "Verbal", value: 25, color: "#64748b" },
+  { name: "HR/AI", value: 25, color: "#475569" },
+];
+
 export function PerformanceSummary() {
   const [chartType, setChartType] = useState<"area" | "bar" | "pie" | "line">("area");
+  const testsTaken = useAuthStore((state) => state.progress.testsTaken);
+  const isZero = testsTaken === 0;
+
+  const weeklyPerformance = isZero ? zeroWeeklyPerformance : demoWeeklyPerformance;
+  const categoryDistribution = isZero ? zeroCategoryDistribution : demoCategoryDistribution;
 
   return (
     <DashboardCard
       title="Performance Summary & Growth Analytics"
-      subtitle="Comprehensive view of test scores, accuracy trends, and module distribution"
+      subtitle={isZero ? "No test scores recorded yet. Complete mock tests to see performance analytics." : "Comprehensive view of test scores, accuracy trends, and module distribution"}
       action={
         <div className="flex items-center space-x-1 rounded-xl bg-slate-100 p-1 dark:bg-slate-800 text-xs font-semibold">
           <button
@@ -179,7 +202,7 @@ export function PerformanceSummary() {
           {categoryDistribution.map((cat) => (
             <div key={cat.name} className="flex items-center space-x-1.5">
               <span className="h-3 w-3 rounded-full" style={{ backgroundColor: cat.color }} />
-              <span className="text-slate-600 dark:text-slate-300">{cat.name} ({cat.value}%)</span>
+              <span className="text-slate-600 dark:text-slate-300">{cat.name} ({isZero ? "0%" : `${cat.value}%`})</span>
             </div>
           ))}
         </div>

@@ -4,13 +4,17 @@ import { motion } from "framer-motion";
 import { ProgressRing } from "@/components/shared/ProgressRing";
 import { DashboardCard } from "@/components/cards/DashboardCard";
 import { Brain, FileCheck, Video, BookOpen } from "lucide-react";
+import { useAuthStore } from "@/store/auth.store";
 
 export function LearningProgress() {
+  const overall = useAuthStore((state) => state.progress.overallProgressPercent);
+  const isZero = overall === 0;
+
   const domains = [
-    { title: "General Aptitude", progress: 82, color: "#5D50EB", icon: Brain },
-    { title: "Mock Tests", progress: 65, color: "#10b981", icon: FileCheck },
-    { title: "HR Interview Prep", progress: 74, color: "#f59e0b", icon: BookOpen },
-    { title: "AI Interview Simulation", progress: 58, color: "#ec4899", icon: Video },
+    { title: "General Aptitude", progress: isZero ? 0 : 82, color: "#5D50EB", icon: Brain },
+    { title: "Mock Tests", progress: isZero ? 0 : 65, color: "#10b981", icon: FileCheck },
+    { title: "HR Interview Prep", progress: isZero ? 0 : 74, color: "#f59e0b", icon: BookOpen },
+    { title: "AI Interview Simulation", progress: isZero ? 0 : 58, color: "#ec4899", icon: Video },
   ];
 
   return (
@@ -23,15 +27,15 @@ export function LearningProgress() {
         {/* Circular Progress Ring (Span 5) */}
         <div className="md:col-span-5 flex flex-col items-center justify-center p-4 rounded-2xl bg-purple-50/50 dark:bg-purple-950/20 border border-purple-100 dark:border-purple-900/40">
           <ProgressRing
-            progress={72}
+            progress={overall}
             size={140}
             strokeWidth={12}
             color="#5D50EB"
-            label="72%"
-            sublabel="Ready for Placements"
+            label={`${overall}%`}
+            sublabel={isZero ? "Not Started Yet" : "Ready for Placements"}
           />
           <p className="mt-3 text-xs font-semibold text-center text-slate-600 dark:text-slate-300">
-            High Chance of Placement Clearance
+            {isZero ? "Complete practice quizzes & tests to increase score!" : "High Chance of Placement Clearance"}
           </p>
         </div>
 

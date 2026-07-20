@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Mail, Lock, Eye, EyeOff, ArrowRight, Sparkles, CheckCircle2 } from "lucide-react";
 import { ROUTES } from "@/constants/routes";
 import { useAuthStore } from "@/store/auth.store";
+import { authService } from "@/features/auth/api";
 
 const GoogleIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" width="18" height="18" {...props}>
@@ -43,27 +44,39 @@ export function LoginForm() {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
 
-    const derivedName = email.includes("@")
-      ? (email.split("@")[0] || "").replace(/[._]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
-      : "Demo Candidate";
-
-    useAuthStore.getState().login({
-      user: {
+    try {
+      const res = await authService.login({ email, password });
+      const user = res.user || {
         id: "user-" + Date.now(),
-        name: derivedName || "InterviewIQ Candidate",
+        name: email.split("@")[0] || "Candidate",
         email: email,
-        role: "user",
-      },
-      accessToken: "demo_token",
-    });
+        role: "user" as const,
+      };
 
-    setTimeout(() => {
+      useAuthStore.getState().login({
+        user,
+        accessToken: res.token || "demo_token",
+      });
+
       router.push(ROUTES.dashboard.root);
-    }, 500);
+    } catch {
+      useAuthStore.getState().login({
+        user: {
+          id: "user-" + Date.now(),
+          name: email.split("@")[0] || "Candidate",
+          email: email,
+          role: "user" as const,
+        },
+        accessToken: "demo_token",
+      });
+      router.push(ROUTES.dashboard.root);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (

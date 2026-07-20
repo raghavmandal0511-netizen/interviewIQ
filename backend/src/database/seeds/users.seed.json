@@ -1,0 +1,4292 @@
+[
+  {
+    "userName": "sararoy1",
+    "email": "sararoy1@example.com",
+    "phone": "9000001001",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Roy",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sararoy1",
+      "linkedIn": "https://linkedin.com/in/sararoy1",
+      "portfolio": "https://sararoy1.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitjohnson2",
+    "email": "amitjohnson2@example.com",
+    "phone": "9000001002",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Johnson",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "Cloudify",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitjohnson2",
+      "linkedIn": "https://linkedin.com/in/amitjohnson2",
+      "portfolio": "https://amitjohnson2.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidshah3",
+    "email": "davidshah3@example.com",
+    "phone": "9000001003",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Shah",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidshah3",
+      "linkedIn": "https://linkedin.com/in/davidshah3",
+      "portfolio": "https://davidshah3.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitjohnson4",
+    "email": "amitjohnson4@example.com",
+    "phone": "9000001004",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Johnson",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitjohnson4",
+      "linkedIn": "https://linkedin.com/in/amitjohnson4",
+      "portfolio": "https://amitjohnson4.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rahulsmith5",
+    "email": "rahulsmith5@example.com",
+    "phone": "9000001005",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rahul Smith",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rahulsmith5",
+      "linkedIn": "https://linkedin.com/in/rahulsmith5",
+      "portfolio": "https://rahulsmith5.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nehashah6",
+    "email": "nehashah6@example.com",
+    "phone": "9000001006",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Neha Shah",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nehashah6",
+      "linkedIn": "https://linkedin.com/in/nehashah6",
+      "portfolio": "https://nehashah6.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidroy7",
+    "email": "davidroy7@example.com",
+    "phone": "9000001007",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Roy",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidroy7",
+      "linkedIn": "https://linkedin.com/in/davidroy7",
+      "portfolio": "https://davidroy7.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rahulsmith8",
+    "email": "rahulsmith8@example.com",
+    "phone": "9000001008",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rahul Smith",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rahulsmith8",
+      "linkedIn": "https://linkedin.com/in/rahulsmith8",
+      "portfolio": "https://rahulsmith8.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nehakumar9",
+    "email": "nehakumar9@example.com",
+    "phone": "9000001009",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Neha Kumar",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nehakumar9",
+      "linkedIn": "https://linkedin.com/in/nehakumar9",
+      "portfolio": "https://nehakumar9.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nehajohnson10",
+    "email": "nehajohnson10@example.com",
+    "phone": "9000001010",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Neha Johnson",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nehajohnson10",
+      "linkedIn": "https://linkedin.com/in/nehajohnson10",
+      "portfolio": "https://nehajohnson10.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohanroy11",
+    "email": "rohanroy11@example.com",
+    "phone": "9000001011",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Roy",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohanroy11",
+      "linkedIn": "https://linkedin.com/in/rohanroy11",
+      "portfolio": "https://rohanroy11.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitshah12",
+    "email": "amitshah12@example.com",
+    "phone": "9000001012",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Shah",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitshah12",
+      "linkedIn": "https://linkedin.com/in/amitshah12",
+      "portfolio": "https://amitshah12.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitkumar13",
+    "email": "amitkumar13@example.com",
+    "phone": "9000001013",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Kumar",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitkumar13",
+      "linkedIn": "https://linkedin.com/in/amitkumar13",
+      "portfolio": "https://amitkumar13.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidbrown14",
+    "email": "davidbrown14@example.com",
+    "phone": "9000001014",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Brown",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "Cloudify",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidbrown14",
+      "linkedIn": "https://linkedin.com/in/davidbrown14",
+      "portfolio": "https://davidbrown14.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohanroy15",
+    "email": "rohanroy15@example.com",
+    "phone": "9000001015",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Roy",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohanroy15",
+      "linkedIn": "https://linkedin.com/in/rohanroy15",
+      "portfolio": "https://rohanroy15.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohanpatel16",
+    "email": "rohanpatel16@example.com",
+    "phone": "9000001016",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Patel",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohanpatel16",
+      "linkedIn": "https://linkedin.com/in/rohanpatel16",
+      "portfolio": "https://rohanpatel16.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidbrown17",
+    "email": "davidbrown17@example.com",
+    "phone": "9000001017",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Brown",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "Cloudify",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidbrown17",
+      "linkedIn": "https://linkedin.com/in/davidbrown17",
+      "portfolio": "https://davidbrown17.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnmandal18",
+    "email": "johnmandal18@example.com",
+    "phone": "9000001018",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "John Mandal",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnmandal18",
+      "linkedIn": "https://linkedin.com/in/johnmandal18",
+      "portfolio": "https://johnmandal18.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohansharma19",
+    "email": "rohansharma19@example.com",
+    "phone": "9000001019",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Sharma",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohansharma19",
+      "linkedIn": "https://linkedin.com/in/rohansharma19",
+      "portfolio": "https://rohansharma19.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitsharma20",
+    "email": "amitsharma20@example.com",
+    "phone": "9000001020",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Sharma",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitsharma20",
+      "linkedIn": "https://linkedin.com/in/amitsharma20",
+      "portfolio": "https://amitsharma20.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicesingh21",
+    "email": "alicesingh21@example.com",
+    "phone": "9000001021",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Singh",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicesingh21",
+      "linkedIn": "https://linkedin.com/in/alicesingh21",
+      "portfolio": "https://alicesingh21.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kiranroy22",
+    "email": "kiranroy22@example.com",
+    "phone": "9000001022",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Roy",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kiranroy22",
+      "linkedIn": "https://linkedin.com/in/kiranroy22",
+      "portfolio": "https://kiranroy22.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kiranroy23",
+    "email": "kiranroy23@example.com",
+    "phone": "9000001023",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Roy",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kiranroy23",
+      "linkedIn": "https://linkedin.com/in/kiranroy23",
+      "portfolio": "https://kiranroy23.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidjohnson24",
+    "email": "davidjohnson24@example.com",
+    "phone": "9000001024",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Johnson",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "Cloudify",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidjohnson24",
+      "linkedIn": "https://linkedin.com/in/davidjohnson24",
+      "portfolio": "https://davidjohnson24.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidjohnson25",
+    "email": "davidjohnson25@example.com",
+    "phone": "9000001025",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Johnson",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidjohnson25",
+      "linkedIn": "https://linkedin.com/in/davidjohnson25",
+      "portfolio": "https://davidjohnson25.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicebrown26",
+    "email": "alicebrown26@example.com",
+    "phone": "9000001026",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Brown",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicebrown26",
+      "linkedIn": "https://linkedin.com/in/alicebrown26",
+      "portfolio": "https://alicebrown26.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohansharma27",
+    "email": "rohansharma27@example.com",
+    "phone": "9000001027",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Sharma",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohansharma27",
+      "linkedIn": "https://linkedin.com/in/rohansharma27",
+      "portfolio": "https://rohansharma27.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rahulmandal28",
+    "email": "rahulmandal28@example.com",
+    "phone": "9000001028",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rahul Mandal",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rahulmandal28",
+      "linkedIn": "https://linkedin.com/in/rahulmandal28",
+      "portfolio": "https://rahulmandal28.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohansingh29",
+    "email": "rohansingh29@example.com",
+    "phone": "9000001029",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Singh",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohansingh29",
+      "linkedIn": "https://linkedin.com/in/rohansingh29",
+      "portfolio": "https://rohansingh29.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "priyamandal30",
+    "email": "priyamandal30@example.com",
+    "phone": "9000001030",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Priya Mandal",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/priyamandal30",
+      "linkedIn": "https://linkedin.com/in/priyamandal30",
+      "portfolio": "https://priyamandal30.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sarasingh31",
+    "email": "sarasingh31@example.com",
+    "phone": "9000001031",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Singh",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sarasingh31",
+      "linkedIn": "https://linkedin.com/in/sarasingh31",
+      "portfolio": "https://sarasingh31.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kiransharma32",
+    "email": "kiransharma32@example.com",
+    "phone": "9000001032",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Sharma",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kiransharma32",
+      "linkedIn": "https://linkedin.com/in/kiransharma32",
+      "portfolio": "https://kiransharma32.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnsharma33",
+    "email": "johnsharma33@example.com",
+    "phone": "9000001033",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "John Sharma",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnsharma33",
+      "linkedIn": "https://linkedin.com/in/johnsharma33",
+      "portfolio": "https://johnsharma33.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "priyamandal34",
+    "email": "priyamandal34@example.com",
+    "phone": "9000001034",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Priya Mandal",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/priyamandal34",
+      "linkedIn": "https://linkedin.com/in/priyamandal34",
+      "portfolio": "https://priyamandal34.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohansingh35",
+    "email": "rohansingh35@example.com",
+    "phone": "9000001035",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Singh",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohansingh35",
+      "linkedIn": "https://linkedin.com/in/rohansingh35",
+      "portfolio": "https://rohansingh35.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohanshah36",
+    "email": "rohanshah36@example.com",
+    "phone": "9000001036",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Shah",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohanshah36",
+      "linkedIn": "https://linkedin.com/in/rohanshah36",
+      "portfolio": "https://rohanshah36.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnsharma37",
+    "email": "johnsharma37@example.com",
+    "phone": "9000001037",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "John Sharma",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnsharma37",
+      "linkedIn": "https://linkedin.com/in/johnsharma37",
+      "portfolio": "https://johnsharma37.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sarajohnson38",
+    "email": "sarajohnson38@example.com",
+    "phone": "9000001038",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Johnson",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sarajohnson38",
+      "linkedIn": "https://linkedin.com/in/sarajohnson38",
+      "portfolio": "https://sarajohnson38.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicesharma39",
+    "email": "alicesharma39@example.com",
+    "phone": "9000001039",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Sharma",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicesharma39",
+      "linkedIn": "https://linkedin.com/in/alicesharma39",
+      "portfolio": "https://alicesharma39.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnsharma40",
+    "email": "johnsharma40@example.com",
+    "phone": "9000001040",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "John Sharma",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnsharma40",
+      "linkedIn": "https://linkedin.com/in/johnsharma40",
+      "portfolio": "https://johnsharma40.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohankumar41",
+    "email": "rohankumar41@example.com",
+    "phone": "9000001041",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Kumar",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohankumar41",
+      "linkedIn": "https://linkedin.com/in/rohankumar41",
+      "portfolio": "https://rohankumar41.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sarashah42",
+    "email": "sarashah42@example.com",
+    "phone": "9000001042",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Shah",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sarashah42",
+      "linkedIn": "https://linkedin.com/in/sarashah42",
+      "portfolio": "https://sarashah42.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rahulpatel43",
+    "email": "rahulpatel43@example.com",
+    "phone": "9000001043",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rahul Patel",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rahulpatel43",
+      "linkedIn": "https://linkedin.com/in/rahulpatel43",
+      "portfolio": "https://rahulpatel43.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sarasharma44",
+    "email": "sarasharma44@example.com",
+    "phone": "9000001044",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Sharma",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sarasharma44",
+      "linkedIn": "https://linkedin.com/in/sarasharma44",
+      "portfolio": "https://sarasharma44.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnsingh45",
+    "email": "johnsingh45@example.com",
+    "phone": "9000001045",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "John Singh",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnsingh45",
+      "linkedIn": "https://linkedin.com/in/johnsingh45",
+      "portfolio": "https://johnsingh45.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rahulsingh46",
+    "email": "rahulsingh46@example.com",
+    "phone": "9000001046",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rahul Singh",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rahulsingh46",
+      "linkedIn": "https://linkedin.com/in/rahulsingh46",
+      "portfolio": "https://rahulsingh46.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nehajohnson47",
+    "email": "nehajohnson47@example.com",
+    "phone": "9000001047",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Neha Johnson",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nehajohnson47",
+      "linkedIn": "https://linkedin.com/in/nehajohnson47",
+      "portfolio": "https://nehajohnson47.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidroy48",
+    "email": "davidroy48@example.com",
+    "phone": "9000001048",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Roy",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidroy48",
+      "linkedIn": "https://linkedin.com/in/davidroy48",
+      "portfolio": "https://davidroy48.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rahulsingh49",
+    "email": "rahulsingh49@example.com",
+    "phone": "9000001049",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rahul Singh",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rahulsingh49",
+      "linkedIn": "https://linkedin.com/in/rahulsingh49",
+      "portfolio": "https://rahulsingh49.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidroy50",
+    "email": "davidroy50@example.com",
+    "phone": "9000001050",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Roy",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidroy50",
+      "linkedIn": "https://linkedin.com/in/davidroy50",
+      "portfolio": "https://davidroy50.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitbrown51",
+    "email": "amitbrown51@example.com",
+    "phone": "9000001051",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Brown",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitbrown51",
+      "linkedIn": "https://linkedin.com/in/amitbrown51",
+      "portfolio": "https://amitbrown51.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rahulsmith52",
+    "email": "rahulsmith52@example.com",
+    "phone": "9000001052",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rahul Smith",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rahulsmith52",
+      "linkedIn": "https://linkedin.com/in/rahulsmith52",
+      "portfolio": "https://rahulsmith52.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "priyamandal53",
+    "email": "priyamandal53@example.com",
+    "phone": "9000001053",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Priya Mandal",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/priyamandal53",
+      "linkedIn": "https://linkedin.com/in/priyamandal53",
+      "portfolio": "https://priyamandal53.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sarasingh54",
+    "email": "sarasingh54@example.com",
+    "phone": "9000001054",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Singh",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sarasingh54",
+      "linkedIn": "https://linkedin.com/in/sarasingh54",
+      "portfolio": "https://sarasingh54.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kiranroy55",
+    "email": "kiranroy55@example.com",
+    "phone": "9000001055",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Roy",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kiranroy55",
+      "linkedIn": "https://linkedin.com/in/kiranroy55",
+      "portfolio": "https://kiranroy55.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sarasmith56",
+    "email": "sarasmith56@example.com",
+    "phone": "9000001056",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Smith",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sarasmith56",
+      "linkedIn": "https://linkedin.com/in/sarasmith56",
+      "portfolio": "https://sarasmith56.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nehasingh57",
+    "email": "nehasingh57@example.com",
+    "phone": "9000001057",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Neha Singh",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nehasingh57",
+      "linkedIn": "https://linkedin.com/in/nehasingh57",
+      "portfolio": "https://nehasingh57.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicesmith58",
+    "email": "alicesmith58@example.com",
+    "phone": "9000001058",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Smith",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [
+        {
+          "company": "Cloudify",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicesmith58",
+      "linkedIn": "https://linkedin.com/in/alicesmith58",
+      "portfolio": "https://alicesmith58.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sarashah59",
+    "email": "sarashah59@example.com",
+    "phone": "9000001059",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Shah",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sarashah59",
+      "linkedIn": "https://linkedin.com/in/sarashah59",
+      "portfolio": "https://sarashah59.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnpatel60",
+    "email": "johnpatel60@example.com",
+    "phone": "9000001060",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "John Patel",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnpatel60",
+      "linkedIn": "https://linkedin.com/in/johnpatel60",
+      "portfolio": "https://johnpatel60.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidshah61",
+    "email": "davidshah61@example.com",
+    "phone": "9000001061",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Shah",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidshah61",
+      "linkedIn": "https://linkedin.com/in/davidshah61",
+      "portfolio": "https://davidshah61.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nehashah62",
+    "email": "nehashah62@example.com",
+    "phone": "9000001062",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Neha Shah",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nehashah62",
+      "linkedIn": "https://linkedin.com/in/nehashah62",
+      "portfolio": "https://nehashah62.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rahulsmith63",
+    "email": "rahulsmith63@example.com",
+    "phone": "9000001063",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rahul Smith",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rahulsmith63",
+      "linkedIn": "https://linkedin.com/in/rahulsmith63",
+      "portfolio": "https://rahulsmith63.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicemandal64",
+    "email": "alicemandal64@example.com",
+    "phone": "9000001064",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Mandal",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicemandal64",
+      "linkedIn": "https://linkedin.com/in/alicemandal64",
+      "portfolio": "https://alicemandal64.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohansmith65",
+    "email": "rohansmith65@example.com",
+    "phone": "9000001065",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Smith",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohansmith65",
+      "linkedIn": "https://linkedin.com/in/rohansmith65",
+      "portfolio": "https://rohansmith65.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sarakumar66",
+    "email": "sarakumar66@example.com",
+    "phone": "9000001066",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Kumar",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sarakumar66",
+      "linkedIn": "https://linkedin.com/in/sarakumar66",
+      "portfolio": "https://sarakumar66.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitkumar67",
+    "email": "amitkumar67@example.com",
+    "phone": "9000001067",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Kumar",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitkumar67",
+      "linkedIn": "https://linkedin.com/in/amitkumar67",
+      "portfolio": "https://amitkumar67.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohansingh68",
+    "email": "rohansingh68@example.com",
+    "phone": "9000001068",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Singh",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohansingh68",
+      "linkedIn": "https://linkedin.com/in/rohansingh68",
+      "portfolio": "https://rohansingh68.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicesingh69",
+    "email": "alicesingh69@example.com",
+    "phone": "9000001069",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Singh",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicesingh69",
+      "linkedIn": "https://linkedin.com/in/alicesingh69",
+      "portfolio": "https://alicesingh69.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitkumar70",
+    "email": "amitkumar70@example.com",
+    "phone": "9000001070",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Kumar",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitkumar70",
+      "linkedIn": "https://linkedin.com/in/amitkumar70",
+      "portfolio": "https://amitkumar70.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicekumar71",
+    "email": "alicekumar71@example.com",
+    "phone": "9000001071",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Kumar",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "Cloudify",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicekumar71",
+      "linkedIn": "https://linkedin.com/in/alicekumar71",
+      "portfolio": "https://alicekumar71.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kiranmandal72",
+    "email": "kiranmandal72@example.com",
+    "phone": "9000001072",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Mandal",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kiranmandal72",
+      "linkedIn": "https://linkedin.com/in/kiranmandal72",
+      "portfolio": "https://kiranmandal72.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kirankumar73",
+    "email": "kirankumar73@example.com",
+    "phone": "9000001073",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Kumar",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kirankumar73",
+      "linkedIn": "https://linkedin.com/in/kirankumar73",
+      "portfolio": "https://kirankumar73.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohansmith74",
+    "email": "rohansmith74@example.com",
+    "phone": "9000001074",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Smith",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohansmith74",
+      "linkedIn": "https://linkedin.com/in/rohansmith74",
+      "portfolio": "https://rohansmith74.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nehapatel75",
+    "email": "nehapatel75@example.com",
+    "phone": "9000001075",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Neha Patel",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Backend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nehapatel75",
+      "linkedIn": "https://linkedin.com/in/nehapatel75",
+      "portfolio": "https://nehapatel75.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitshah76",
+    "email": "amitshah76@example.com",
+    "phone": "9000001076",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Shah",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitshah76",
+      "linkedIn": "https://linkedin.com/in/amitshah76",
+      "portfolio": "https://amitshah76.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "saramandal77",
+    "email": "saramandal77@example.com",
+    "phone": "9000001077",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Mandal",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/saramandal77",
+      "linkedIn": "https://linkedin.com/in/saramandal77",
+      "portfolio": "https://saramandal77.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicejohnson78",
+    "email": "alicejohnson78@example.com",
+    "phone": "9000001078",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Johnson",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicejohnson78",
+      "linkedIn": "https://linkedin.com/in/alicejohnson78",
+      "portfolio": "https://alicejohnson78.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kiransingh79",
+    "email": "kiransingh79@example.com",
+    "phone": "9000001079",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Singh",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kiransingh79",
+      "linkedIn": "https://linkedin.com/in/kiransingh79",
+      "portfolio": "https://kiransingh79.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicepatel80",
+    "email": "alicepatel80@example.com",
+    "phone": "9000001080",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Patel",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "Cloudify",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicepatel80",
+      "linkedIn": "https://linkedin.com/in/alicepatel80",
+      "portfolio": "https://alicepatel80.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitshah81",
+    "email": "amitshah81@example.com",
+    "phone": "9000001081",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Shah",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitshah81",
+      "linkedIn": "https://linkedin.com/in/amitshah81",
+      "portfolio": "https://amitshah81.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "nehashah82",
+    "email": "nehashah82@example.com",
+    "phone": "9000001082",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Neha Shah",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/nehashah82",
+      "linkedIn": "https://linkedin.com/in/nehashah82",
+      "portfolio": "https://nehashah82.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "davidsharma83",
+    "email": "davidsharma83@example.com",
+    "phone": "9000001083",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "David Sharma",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/davidsharma83",
+      "linkedIn": "https://linkedin.com/in/davidsharma83",
+      "portfolio": "https://davidsharma83.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohankumar84",
+    "email": "rohankumar84@example.com",
+    "phone": "9000001084",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Kumar",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohankumar84",
+      "linkedIn": "https://linkedin.com/in/rohankumar84",
+      "portfolio": "https://rohankumar84.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kiranjohnson85",
+    "email": "kiranjohnson85@example.com",
+    "phone": "9000001085",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Johnson",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kiranjohnson85",
+      "linkedIn": "https://linkedin.com/in/kiranjohnson85",
+      "portfolio": "https://kiranjohnson85.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "alicesingh86",
+    "email": "alicesingh86@example.com",
+    "phone": "9000001086",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Alice Singh",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/alicesingh86",
+      "linkedIn": "https://linkedin.com/in/alicesingh86",
+      "portfolio": "https://alicesingh86.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitkumar87",
+    "email": "amitkumar87@example.com",
+    "phone": "9000001087",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Kumar",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitkumar87",
+      "linkedIn": "https://linkedin.com/in/amitkumar87",
+      "portfolio": "https://amitkumar87.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohanroy88",
+    "email": "rohanroy88@example.com",
+    "phone": "9000001088",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Roy",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [
+        {
+          "company": "Cloudify",
+          "jobTitle": "Frontend Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohanroy88",
+      "linkedIn": "https://linkedin.com/in/rohanroy88",
+      "portfolio": "https://rohanroy88.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohankumar89",
+    "email": "rohankumar89@example.com",
+    "phone": "9000001089",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Kumar",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohankumar89",
+      "linkedIn": "https://linkedin.com/in/rohankumar89",
+      "portfolio": "https://rohankumar89.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kiranroy90",
+    "email": "kiranroy90@example.com",
+    "phone": "9000001090",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Roy",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "IIT Delhi",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kiranroy90",
+      "linkedIn": "https://linkedin.com/in/kiranroy90",
+      "portfolio": "https://kiranroy90.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "amitroy91",
+    "email": "amitroy91@example.com",
+    "phone": "9000001091",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Amit Roy",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/amitroy91",
+      "linkedIn": "https://linkedin.com/in/amitroy91",
+      "portfolio": "https://amitroy91.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kiranpatel92",
+    "email": "kiranpatel92@example.com",
+    "phone": "9000001092",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Patel",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [
+        {
+          "company": "NextGen",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kiranpatel92",
+      "linkedIn": "https://linkedin.com/in/kiranpatel92",
+      "portfolio": "https://kiranpatel92.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "sararoy93",
+    "email": "sararoy93@example.com",
+    "phone": "9000001093",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Sara Roy",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/sararoy93",
+      "linkedIn": "https://linkedin.com/in/sararoy93",
+      "portfolio": "https://sararoy93.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kirankumar94",
+    "email": "kirankumar94@example.com",
+    "phone": "9000001094",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Kumar",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "OpenSoft",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kirankumar94",
+      "linkedIn": "https://linkedin.com/in/kirankumar94",
+      "portfolio": "https://kirankumar94.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "priyasharma95",
+    "email": "priyasharma95@example.com",
+    "phone": "9000001095",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Priya Sharma",
+      "bio": "Aspiring Data Scientist passionate about technology."
+    },
+    "career": {
+      "targetRole": "Data Scientist",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Data Scientist",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "Mumbai University",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "SQL"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/priyasharma95",
+      "linkedIn": "https://linkedin.com/in/priyasharma95",
+      "portfolio": "https://priyasharma95.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "kirankumar96",
+    "email": "kirankumar96@example.com",
+    "phone": "9000001096",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Kiran Kumar",
+      "bio": "Aspiring Full Stack Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Full Stack Developer",
+      "experience": [
+        {
+          "company": "TechNova",
+          "jobTitle": "Full Stack Developer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/kirankumar96",
+      "linkedIn": "https://linkedin.com/in/kirankumar96",
+      "portfolio": "https://kirankumar96.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnjohnson97",
+    "email": "johnjohnson97@example.com",
+    "phone": "9000001097",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "John Johnson",
+      "bio": "Aspiring DevOps Engineer passionate about technology."
+    },
+    "career": {
+      "targetRole": "DevOps Engineer",
+      "experience": [
+        {
+          "company": "ByteLabs",
+          "jobTitle": "DevOps Engineer",
+          "startDate": "2023-06-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyWorking": true
+        }
+      ],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": null,
+          "currentlyStudying": true
+        }
+      ],
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnjohnson97",
+      "linkedIn": "https://linkedin.com/in/johnjohnson97",
+      "portfolio": "https://johnjohnson97.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "priyasingh98",
+    "email": "priyasingh98@example.com",
+    "phone": "9000001098",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Priya Singh",
+      "bio": "Aspiring Frontend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Frontend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "DAIICT",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/priyasingh98",
+      "linkedIn": "https://linkedin.com/in/priyasingh98",
+      "portfolio": "https://priyasingh98.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "johnroy99",
+    "email": "johnroy99@example.com",
+    "phone": "9000001099",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "John Roy",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "GTU",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/johnroy99",
+      "linkedIn": "https://linkedin.com/in/johnroy99",
+      "portfolio": "https://johnroy99.vercel.app"
+    },
+    "profileCompleted": true
+  },
+  {
+    "userName": "rohanjohnson100",
+    "email": "rohanjohnson100@example.com",
+    "phone": "9000001100",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "profile": {
+      "avatar": "",
+      "displayName": "Rohan Johnson",
+      "bio": "Aspiring Backend Developer passionate about technology."
+    },
+    "career": {
+      "targetRole": "Backend Developer",
+      "experience": [],
+      "education": [
+        {
+          "institute": "NIT Surat",
+          "degree": "B.Tech Computer Engineering",
+          "startDate": "2019-07-01T00:00:00.000Z",
+          "endDate": "2023-05-31T00:00:00.000Z",
+          "currentlyStudying": false
+        }
+      ],
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    "socialLinks": {
+      "github": "https://github.com/rohanjohnson100",
+      "linkedIn": "https://linkedin.com/in/rohanjohnson100",
+      "portfolio": "https://rohanjohnson100.vercel.app"
+    },
+    "profileCompleted": true
+  }
+]

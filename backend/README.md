@@ -2,6 +2,8 @@
 
 This is the backend service for the InterviewIQ platform. It is built with Node.js and Express, and uses MongoDB (via Mongoose) for data storage.
 
+For full architecture, API reference, data models, and testing documentation, see [backend.md](./backend.md).
+
 ## Stack
 - **Framework**: Express.js
 - **Database**: MongoDB (Mongoose)

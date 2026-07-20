@@ -1,143 +1,180 @@
 import mongoose from "mongoose";
 
-const userSchema = new mongoose.Schema({
+// =====================================
+// Sub Schemas
+// =====================================
 
-    // =====================================
-    // Authentication
-    // =====================================
-
-    userName: {
-        type: String,
-        required: true,
-        unique: true,
-        trim: true
-    },
-
-    email: {
-        type: String,
-        required: true,
-        unique: true,
-        lowercase: true
-    },
-
-    phone: {
-        type: String,
-        required: false,
-        unique: true
-    },
-
-    password: {
-        type: String,
-        required: true,
-        select: false
-    },
-
-
-
-    // =====================================
-    // Basic Profile
-    // =====================================
-
-    profile: {
-
-        avatar: {
+const educationSchema = new mongoose.Schema(
+    {
+        institute: {
             type: String,
-            default: ""
+            trim: true
         },
 
-        displayName: {
+        degree: {
             type: String,
-            default: ""
+            trim: true
         },
 
-        bio: {
-            type: String,
-            maxlength: 300,
-            default: ""
+        startDate: Date,
+
+        endDate: Date,
+
+        currentlyStudying: {
+            type: Boolean,
+            default: false
         }
-
     },
+    {
+        _id: true
+    }
+);
 
-    // =====================================
-    // Career
-    // =====================================
-
-    career: {
-
-        targetRole: {
+const experienceSchema = new mongoose.Schema(
+    {
+        company: {
             type: String,
-            default: ""
+            trim: true
         },
 
-        experience: [
-            {
-                company: String,
+        jobTitle: {
+            type: String,
+            trim: true
+        },
 
-                jobTitle: String,
+        startDate: Date,
 
-                startDate: Date,
+        endDate: Date,
 
-                endDate: Date,
-
-                currentlyWorking: {
-                    type: Boolean,
-                    default: false
-                }
-            }
-        ],
-
-        education: [
-            {
-                institute: String,
-
-                degree: String,
-
-                startDate: Date,
-
-                endDate: Date,
-
-                currentlyStudying: {
-                    type: Boolean,
-                    default: false
-                }
-            }
-        ],
-
-        skills: [
-            {
-                type: String
-            }
-        ]
-
+        currentlyWorking: {
+            type: Boolean,
+            default: false
+        }
     },
-
-    // =====================================
-    // Social Links
-    // =====================================
-
-    socialLinks: {
-
-        github: String,
-
-        linkedIn: String,
-
-        portfolio: String
-
-    },
-
-    // =====================================
-    // System
-    // =====================================
-
-    profileCompleted: {
-        type: Boolean,
-        default: false
+    {
+        _id: true
     }
+);
 
-},
-{
-    timestamps: true,
-    versionKey: false
-});
+// =====================================
+// User Schema
+// =====================================
+
+const userSchema = new mongoose.Schema(
+    {
+        // =====================================
+        // Authentication
+        // =====================================
+
+        userName: {
+            type: String,
+            required: true,
+            unique: true,
+            trim: true
+        },
+
+        email: {
+            type: String,
+            required: true,
+            unique: true,
+            lowercase: true,
+            trim: true
+        },
+
+        phone: {
+            type: String,
+            unique: true,
+            sparse: true,
+            trim: true
+        },
+
+        password: {
+            type: String,
+            required: true,
+            select: false
+        },
+
+        // =====================================
+        // Basic Profile
+        // =====================================
+
+        profile: {
+            avatar: {
+                type: String,
+                default: ""
+            },
+
+            displayName: {
+                type: String,
+                default: "",
+                trim: true
+            },
+
+            bio: {
+                type: String,
+                maxlength: 300,
+                default: "",
+                trim: true
+            }
+        },
+
+        // =====================================
+        // Career
+        // =====================================
+
+        career: {
+            targetRole: {
+                type: String,
+                default: "",
+                trim: true
+            },
+
+            experience: [experienceSchema],
+
+            education: [educationSchema],
+
+            skills: [
+                {
+                    type: String,
+                    trim: true
+                }
+            ]
+        },
+
+        // =====================================
+        // Social Links
+        // =====================================
+
+        socialLinks: {
+            github: {
+                type: String,
+                default: ""
+            },
+
+            linkedIn: {
+                type: String,
+                default: ""
+            },
+
+            portfolio: {
+                type: String,
+                default: ""
+            }
+        },
+
+        // =====================================
+        // System
+        // =====================================
+
+        profileCompleted: {
+            type: Boolean,
+            default: false
+        }
+    },
+    {
+        timestamps: true,
+        versionKey: false
+    }
+);
 
 export default mongoose.model("User", userSchema);

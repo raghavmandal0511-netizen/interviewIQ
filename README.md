@@ -1,12 +1,12 @@
 # InterviewIQ
 
-InterviewIQ is an interview platform. This repository is structured as a monorepo containing both the frontend and backend applications.
+InterviewIQ is an interview platform. This repository is structured as a monorepo containing the backend service and a reserved `/frontend` directory for future client work.
 
 ## Project Structure
 
-- `/frontend` - React 19 application built with Vite and Tailwind CSS.
+- `/frontend` - Reserved for the future frontend application.
 - `/backend` - Node.js Express server using MongoDB.
 
 ## Getting Started
 
-To run the full stack locally, you will need to start both the frontend and backend servers. Please refer to the individual `README.md` files within the `frontend` and `backend` directories for specific setup and running instructions.
+Refer to the `README.md` file within the `backend` directory for setup and running instructions.

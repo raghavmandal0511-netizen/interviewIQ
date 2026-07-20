@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { CheckCircle2, FileCheck, MessageSquare, BookOpen, Clock } from "lucide-react";
+import { CheckCircle2, FileCheck, MessageSquare, BookOpen, Clock, Activity } from "lucide-react";
 import { DashboardCard } from "@/components/cards/DashboardCard";
+import { useAuthStore } from "@/store/auth.store";
 
 const activities = [
   {
@@ -44,16 +45,17 @@ const activities = [
 ];
 
 export function RecentActivity() {
+  const testsTaken = useAuthStore((state) => state.progress.testsTaken);
+  const isZero = testsTaken === 0;
+
   return (
     <DashboardCard
       title="Recent Activity"
       subtitle="Your latest learning sessions & test submissions"
     >
-      <div className="relative space-y-4 before:absolute before:left-3.5 before:top-3 before:bottom-3 before:w-0.5 before:bg-slate-100 dark:before:bg-slate-800">
-        {activities.map((act, index) => {
-          const Icon = act.icon;
-
-          return (
+      {!isZero ? (
+        <div className="relative space-y-4 before:absolute before:left-3.5 before:top-3 before:bottom-3 before:w-0.5 before:bg-slate-100 dark:before:bg-slate-800">
+          {activities.map((act, index) => (
             <motion.div
               key={act.id}
               initial={{ opacity: 0, x: -10 }}
@@ -89,9 +91,19 @@ export function RecentActivity() {
                 </div>
               </div>
             </motion.div>
-          );
-        })}
-      </div>
+          ))}
+        </div>
+      ) : (
+        <div className="flex flex-col items-center justify-center p-6 text-center rounded-xl bg-slate-50/50 dark:bg-slate-900/40 border border-dashed border-slate-200 dark:border-slate-800">
+          <Activity className="h-8 w-8 text-slate-400 mb-2" />
+          <p className="text-xs font-bold text-slate-700 dark:text-slate-300">
+            No Recent Activity
+          </p>
+          <p className="text-[11px] text-slate-500 dark:text-slate-400 max-w-xs mt-1">
+            Your activity feed will update automatically as you attempt quizzes, tests, and AI interviews.
+          </p>
+        </div>
+      )}
     </DashboardCard>
   );
 }

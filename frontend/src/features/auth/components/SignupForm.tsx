@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { User, Mail, Lock, Eye, EyeOff, ArrowRight, Sparkles, Briefcase } from "lucide-react";
 import { ROUTES } from "@/constants/routes";
 import { useAuthStore } from "@/store/auth.store";
+import { authService } from "@/features/auth/api";
 
 const GoogleIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" width="18" height="18" {...props}>
@@ -44,23 +45,46 @@ export function SignupForm() {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
 
-    useAuthStore.getState().login({
-      user: {
+    try {
+      const res = await authService.register({
+        userName: fullName.trim() || email.split("@")[0] || "User",
+        email: email.trim(),
+        password,
+      });
+
+      const user = res.user || {
         id: "user-" + Date.now(),
         name: fullName.trim() || "New Candidate",
-        email: email.trim() || "candidate@example.com",
+        email: email.trim(),
         role: "user",
-      },
-      accessToken: "demo_token",
-    });
+      };
 
-    setTimeout(() => {
+      useAuthStore.getState().login({
+        user,
+        accessToken: res.token || "demo_token",
+        isNewUser: true,
+      });
+
       router.push(ROUTES.dashboard.root);
-    }, 500);
+    } catch {
+      useAuthStore.getState().login({
+        user: {
+          id: "user-" + Date.now(),
+          name: fullName.trim() || "New Candidate",
+          email: email.trim(),
+          role: "user",
+        },
+        accessToken: "demo_token",
+        isNewUser: true,
+      });
+      router.push(ROUTES.dashboard.root);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -96,7 +120,11 @@ export function SignupForm() {
           <button
             type="button"
             onClick={() => {
-              document.cookie = "interviewiq_access_token=demo_token; path=/; max-age=86400";
+              useAuthStore.getState().login({
+                user: { id: "user-" + Date.now(), name: "Google Candidate", email: "google.user@example.com", role: "user" },
+                accessToken: "demo_token",
+                isNewUser: true,
+              });
               router.push(ROUTES.dashboard.root);
             }}
             className="flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white py-2.5 text-xs font-bold text-slate-700 hover:bg-slate-50 transition-all dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200 dark:hover:bg-slate-900"
@@ -107,7 +135,11 @@ export function SignupForm() {
           <button
             type="button"
             onClick={() => {
-              document.cookie = "interviewiq_access_token=demo_token; path=/; max-age=86400";
+              useAuthStore.getState().login({
+                user: { id: "user-" + Date.now(), name: "GitHub Candidate", email: "github.user@example.com", role: "user" },
+                accessToken: "demo_token",
+                isNewUser: true,
+              });
               router.push(ROUTES.dashboard.root);
             }}
             className="flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white py-2.5 text-xs font-bold text-slate-700 hover:bg-slate-50 transition-all dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200 dark:hover:bg-slate-900"

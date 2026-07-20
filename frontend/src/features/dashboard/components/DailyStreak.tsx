@@ -3,18 +3,22 @@
 import { motion } from "framer-motion";
 import { Flame, Check, Sparkles } from "lucide-react";
 import { DashboardCard } from "@/components/cards/DashboardCard";
-
-const weekDays = [
-  { day: "Mon", completed: true, date: "15" },
-  { day: "Tue", completed: true, date: "16" },
-  { day: "Wed", completed: true, date: "17" },
-  { day: "Thu", completed: true, date: "18" },
-  { day: "Fri", completed: true, date: "19" },
-  { day: "Sat", completed: true, date: "20" },
-  { day: "Sun", completed: true, date: "21", isToday: true },
-];
+import { useAuthStore } from "@/store/auth.store";
 
 export function DailyStreak() {
+  const streakDays = useAuthStore((state) => state.progress.streakDays);
+  const isZero = streakDays === 0;
+
+  const weekDays = [
+    { day: "Mon", completed: !isZero, date: "15" },
+    { day: "Tue", completed: !isZero, date: "16" },
+    { day: "Wed", completed: !isZero, date: "17" },
+    { day: "Thu", completed: !isZero, date: "18" },
+    { day: "Fri", completed: !isZero, date: "19" },
+    { day: "Sat", completed: !isZero, date: "20" },
+    { day: "Sun", completed: !isZero, date: "21", isToday: true },
+  ];
+
   return (
     <DashboardCard
       title={
@@ -36,16 +40,18 @@ export function DailyStreak() {
             </div>
             <div>
               <div className="text-xl font-extrabold text-slate-900 dark:text-white">
-                7 Days Active
+                {streakDays} {streakDays === 1 ? "Day" : "Days"} Active
               </div>
               <p className="text-xs text-amber-700 dark:text-amber-300 font-semibold">
-                You&apos;re 3 days away from the 10-Day Mastery Badge!
+                {isZero
+                  ? "Solve a question today to start your streak!"
+                  : `You're ${10 - Math.min(streakDays, 9)} days away from the 10-Day Mastery Badge!`}
               </p>
             </div>
           </div>
           <div className="hidden sm:flex items-center space-x-1 text-xs font-bold text-amber-600 dark:text-amber-400 bg-amber-100 dark:bg-amber-950/60 px-3 py-1.5 rounded-xl">
             <Sparkles className="h-4 w-4" />
-            <span>2x XP Multiplier</span>
+            <span>{isZero ? "Start Streak" : "2x XP Multiplier"}</span>
           </div>
         </div>
 

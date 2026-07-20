@@ -9,7 +9,10 @@ import { useAuthStore } from "@/store/auth.store";
 export function WelcomeBanner() {
   const user = useAuthStore((state) => state.user);
   const targetRole = useAuthStore((state) => state.targetRole);
+  const streakDays = useAuthStore((state) => state.progress.streakDays);
+
   const firstName = user?.name ? user.name.split(" ")[0] : "Candidate";
+  const isZeroStreak = streakDays === 0;
 
   return (
     <motion.div
@@ -36,7 +39,15 @@ export function WelcomeBanner() {
           </h1>
 
           <p className="text-sm text-purple-100 leading-relaxed">
-            You&apos;re on a <span className="font-bold text-amber-300">7-day streak</span>! Keep pushing your boundaries today to crack your placement interviews.
+            {isZeroStreak ? (
+              <span>
+                Start your placement preparation journey today. Complete your first practice module to build your streak!
+              </span>
+            ) : (
+              <span>
+                You&apos;re on a <span className="font-bold text-amber-300">{streakDays}-day streak</span>! Keep pushing your boundaries today to crack your placement interviews.
+              </span>
+            )}
           </p>
 
           {/* Today's Goal Pill */}
@@ -47,7 +58,7 @@ export function WelcomeBanner() {
             </div>
             <div className="flex items-center gap-1.5 text-xs font-semibold text-amber-300">
               <Flame className="h-4 w-4 fill-amber-400 text-amber-400 animate-bounce" />
-              <span>Streak Bonus Active</span>
+              <span>{isZeroStreak ? "Start Streak Today" : "Streak Bonus Active"}</span>
             </div>
           </div>
         </div>

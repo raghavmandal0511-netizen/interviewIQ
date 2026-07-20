@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Play, Calculator, Brain, MessageSquare, Clock } from "lucide-react";
+import { Play, Calculator, Brain, MessageSquare, Clock, BookOpen } from "lucide-react";
 import { DashboardCard } from "@/components/cards/DashboardCard";
 import { ROUTES } from "@/constants/routes";
+import { useAuthStore } from "@/store/auth.store";
 
 const recentTopics = [
   {
@@ -15,9 +16,9 @@ const recentTopics = [
     questionsLeft: 4,
     estTime: "10 mins left",
     icon: Calculator,
-    color: "bg-[#15803d]",
     bg: "bg-emerald-50/70 border-emerald-200/80 dark:bg-emerald-950/30 dark:border-emerald-900/50",
     text: "text-emerald-700 dark:text-emerald-300",
+    color: "bg-[#15803d]",
     href: `${ROUTES.dashboard.arithmetic}/time-speed-distance`,
   },
   {
@@ -28,9 +29,9 @@ const recentTopics = [
     questionsLeft: 8,
     estTime: "15 mins left",
     icon: Brain,
-    color: "bg-[#5D50EB]",
     bg: "bg-purple-50/70 border-purple-200/80 dark:bg-purple-950/30 dark:border-purple-900/50",
     text: "text-purple-700 dark:text-purple-300",
+    color: "bg-[#5D50EB]",
     href: `${ROUTES.dashboard.logical}/blood-relations`,
   },
   {
@@ -41,14 +42,18 @@ const recentTopics = [
     questionsLeft: 1,
     estTime: "5 mins left",
     icon: MessageSquare,
-    color: "bg-[#c2410c]",
     bg: "bg-amber-50/70 border-amber-200/80 dark:bg-amber-950/30 dark:border-amber-900/50",
     text: "text-amber-700 dark:text-amber-300",
+    color: "bg-[#c2410c]",
     href: `${ROUTES.dashboard.interviewHr}/freshers`,
   },
 ];
 
 export function ContinueLearning() {
+  const topicsCompleted = useAuthStore((state) => state.progress.topicsCompleted);
+  const testsTaken = useAuthStore((state) => state.progress.testsTaken);
+  const isZero = topicsCompleted === 0 && testsTaken === 0;
+
   return (
     <DashboardCard
       title="Continue Learning"
@@ -62,11 +67,9 @@ export function ContinueLearning() {
         </Link>
       }
     >
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {recentTopics.map((topic) => {
-          const Icon = topic.icon;
-
-          return (
+      {!isZero ? (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {recentTopics.map((topic) => (
             <motion.div
               key={topic.id}
               whileHover={{ y: -4, transition: { duration: 0.2 } }}
@@ -113,9 +116,24 @@ export function ContinueLearning() {
                 </Link>
               </div>
             </motion.div>
-          );
-        })}
-      </div>
+          ))}
+        </div>
+      ) : (
+        <div className="flex flex-col items-center justify-center p-6 text-center rounded-2xl bg-slate-50/50 dark:bg-slate-900/40 border border-dashed border-slate-200 dark:border-slate-800">
+          <BookOpen className="h-8 w-8 text-slate-400 mb-2" />
+          <h4 className="text-sm font-bold text-slate-900 dark:text-white">No Active Learning Modules</h4>
+          <p className="mt-1 text-xs text-slate-500 dark:text-slate-400 max-w-sm">
+            Select any General Aptitude or Interview topic to start your preparation journey.
+          </p>
+          <Link
+            href={ROUTES.dashboard.generalAptitude}
+            className="mt-3 inline-flex items-center gap-1.5 rounded-xl bg-[#5D50EB] px-4 py-2 text-xs font-bold text-white shadow-md hover:bg-[#4d40db] transition-all"
+          >
+            <Play className="h-3.5 w-3.5 fill-white" />
+            <span>Explore Aptitude Topics</span>
+          </Link>
+        </div>
+      )}
     </DashboardCard>
   );
 }

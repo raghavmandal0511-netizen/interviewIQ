@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { Search, Menu, PanelLeftClose, PanelLeft } from "lucide-react";
-import { motion } from "framer-motion";
 import { useUiStore } from "@/store/ui.store";
 import { ThemeToggle } from "@/components/navbar/ThemeToggle";
 import { ProfileMenu } from "@/components/navbar/ProfileMenu";
@@ -19,24 +18,20 @@ export function DashboardNavbar() {
   } = useUiStore();
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-slate-200/80 bg-white/80 backdrop-blur-md dark:border-slate-800/80 dark:bg-slate-900/80">
-      <div className="flex h-16 items-center justify-between px-4 sm:px-6">
-        
-        {/* Left Side: Logo & Collapse Toggle */}
-        <div className="flex items-center space-x-3">
-          {/* Mobile Drawer Trigger */}
+    <header className="glass-panel sticky top-0 z-40 w-full border-b border-slate-200/80 dark:border-white/[0.06] dark:bg-[#111827]/90">
+      <div className="flex h-16 items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center gap-3">
           <button
             onClick={toggleSidebar}
-            className="flex h-9 w-9 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 md:hidden dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300"
+            className="flex h-9 w-9 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 md:hidden dark:border-white/[0.08] dark:bg-white/[0.04] dark:text-slate-300 dark:hover:bg-white/[0.08]"
             aria-label="Open Mobile Menu"
           >
             <Menu className="h-5 w-5" />
           </button>
 
-          {/* Desktop Sidebar Collapse Toggle */}
           <button
             onClick={toggleSidebarCollapsed}
-            className="hidden md:flex h-9 w-9 items-center justify-center rounded-xl border border-slate-200/80 bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400 dark:hover:bg-slate-800"
+            className="hidden h-9 w-9 items-center justify-center rounded-xl border border-slate-200/80 bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900 md:flex dark:border-white/[0.08] dark:bg-white/[0.04] dark:text-slate-400 dark:hover:bg-white/[0.08] dark:hover:text-slate-100"
             title={isSidebarCollapsed ? "Expand Sidebar" : "Collapse Sidebar"}
           >
             {isSidebarCollapsed ? (
@@ -46,39 +41,35 @@ export function DashboardNavbar() {
             )}
           </button>
 
-          {/* Logo (shown on mobile or when collapsed) */}
           <Link href={ROUTES.dashboard.root} className="flex items-center space-x-0.5">
-            <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">
+            <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
               Interview
             </span>
-            <span className="text-xl font-extrabold text-[#5D50EB]">
+            <span className="text-xl font-extrabold text-[#5D50EB] dark:text-indigo-400">
               IQ
             </span>
           </Link>
         </div>
 
-        {/* Center: Search Box */}
-        <div className="hidden sm:flex flex-1 max-w-md mx-6">
+        <div className="mx-2 hidden max-w-lg flex-1 sm:flex">
           <div className="relative w-full">
-            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" />
+            <Search className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400 dark:text-slate-500" />
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search topics, questions, mock tests..."
-              className="w-full rounded-xl border border-slate-200/80 bg-slate-50/80 pl-10 pr-4 py-2 text-xs font-medium text-slate-800 placeholder-slate-400 transition-all focus:border-[#5D50EB] focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-500/20 dark:border-slate-800 dark:bg-slate-950/60 dark:text-white dark:placeholder-slate-500 dark:focus:border-purple-500"
+              className="w-full rounded-xl border border-slate-200/80 bg-slate-50/80 py-2.5 pl-10 pr-4 text-xs font-medium text-slate-800 placeholder-slate-400 transition-all focus:border-[#5D50EB] focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-500/20 dark:border-white/[0.08] dark:bg-white/[0.04] dark:text-slate-100 dark:placeholder-slate-500 dark:focus:border-indigo-500/50 dark:focus:bg-white/[0.06] dark:focus:ring-indigo-500/20"
             />
           </div>
         </div>
 
-        {/* Right Side: Utilities & User Menu */}
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <NotificationDropdown />
           <ThemeToggle />
-          <div className="h-5 w-px bg-slate-200 dark:bg-slate-800 hidden sm:block" />
+          <div className="hidden h-5 w-px bg-slate-200 sm:block dark:bg-white/[0.08]" />
           <ProfileMenu />
         </div>
-
       </div>
     </header>
   );

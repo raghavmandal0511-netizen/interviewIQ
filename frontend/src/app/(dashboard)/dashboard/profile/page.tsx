@@ -1,127 +1,249 @@
 "use client";
 
 import Link from "next/link";
-import { Edit, Globe } from "lucide-react";
+import type { ComponentType, SVGProps } from "react";
+import {
+  Briefcase,
+  Edit,
+  FileCheck,
+  Globe,
+  GraduationCap,
+  LogOut,
+  MessageSquare,
+  BookOpen,
+  Target,
+} from "lucide-react";
+
 import { DashboardCard } from "@/components/cards/DashboardCard";
+import { StatCard } from "@/components/cards/StatCard";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons/social";
+import { ErrorState, PageSkeleton, EmptyState } from "@/components/shared/states";
 import { ROUTES } from "@/constants/routes";
-import { useAuthStore } from "@/store/auth.store";
+import { useLogoutMutation, useProfileQuery } from "@/features/auth/hooks";
+import { useReportsOverviewQuery } from "@/features/reports/hooks";
+import { formatPercent } from "@/utils/format";
 
-const GithubIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
-    <path d="M9 18c-4.51 2-5-2-7-2" />
-  </svg>
-);
-
-const LinkedinIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" {...props}>
-    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-    <rect x="2" y="9" width="4" height="12" />
-    <circle cx="4" cy="4" r="2" />
-  </svg>
-);
+function formatRange(start?: string, end?: string, ongoing?: boolean) {
+  const fmt = (v?: string) => {
+    if (!v) return "";
+    const d = new Date(v);
+    if (Number.isNaN(d.getTime())) return "";
+    return d.toLocaleDateString("en-IN", { month: "short", year: "numeric" });
+  };
+  const s = fmt(start);
+  if (!s) return "";
+  if (ongoing) return `${s} – Present`;
+  const e = fmt(end);
+  return e ? `${s} – ${e}` : s;
+}
 
 export default function ProfilePage() {
-  const user = useAuthStore((state) => state.user);
-  const targetRole = useAuthStore((state) => state.targetRole);
+  const { data: user, isLoading: profileLoading, isError, refetch } = useProfileQuery();
+  const { data: overview, isLoading: overviewLoading } = useReportsOverviewQuery();
+  const logout = useLogoutMutation();
 
-  const userName = user?.name || "John Doe";
-  const userEmail = user?.email || "john.doe@example.com";
-  const initials = userName
-    .split(" ")
-    .map((n) => n[0])
-    .join("")
-    .toUpperCase()
-    .slice(0, 2) || "JD";
+  if (profileLoading) {
+    return (
+      <div className="mx-auto max-w-4xl space-y-6 pb-12">
+        <PageSkeleton rows={3} />
+      </div>
+    );
+  }
+
+  if (isError || !user) {
+    return (
+      <div className="mx-auto max-w-4xl space-y-6 pb-12">
+        <ErrorState onRetry={() => void refetch()} />
+      </div>
+    );
+  }
+
+  const initials =
+    user.name
+      .split(" ")
+      .map((n) => n[0])
+      .join("")
+      .toUpperCase()
+      .slice(0, 2) || "U";
 
   return (
-    <div className="space-y-6 pb-12">
-      {/* Header Banner */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 p-6 sm:p-8 text-white shadow-xl">
-        <div className="flex flex-col sm:flex-row items-center gap-6">
-          <div className="relative flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-tr from-[#5D50EB] to-indigo-500 font-extrabold text-2xl text-white shadow-lg">
+    <div className="mx-auto max-w-4xl space-y-6 pb-12">
+      <div className="rounded-2xl border border-zinc-200 bg-white p-6 sm:p-8 dark:border-white/[0.06] dark:bg-[#161B22] dark:shadow-[var(--shadow-card)]">
+        <div className="flex flex-col items-center gap-5 sm:flex-row sm:items-start">
+          <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-blue-600 text-2xl font-semibold text-white">
             {initials}
           </div>
-          <div className="flex-1 text-center sm:text-left space-y-1">
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
-              <h1 className="text-2xl font-extrabold">{userName}</h1>
-              <span className="rounded-full bg-purple-500/20 border border-purple-400/30 px-3 py-0.5 text-xs font-bold text-purple-300">
-                Pro Plan
-              </span>
-            </div>
-            <p className="text-xs text-slate-300 font-semibold">
-              {targetRole || "Software Engineer Candidate"}
+          <div className="flex-1 space-y-1 text-center sm:text-left">
+            <h1 className="text-2xl font-semibold tracking-tight text-zinc-900 dark:text-white">
+              {user.name}
+            </h1>
+            <p className="text-sm text-zinc-500 dark:text-zinc-400">
+              {user.targetRole || "Placement Candidate"}
             </p>
-            <p className="text-xs text-slate-400">
-              {userEmail} • Active Candidate
-            </p>
+            <p className="text-xs text-zinc-400">{user.email}</p>
+            {user.userName ? (
+              <p className="text-xs text-zinc-500">@{user.userName}</p>
+            ) : null}
           </div>
-          <div>
+          <div className="flex gap-2">
             <Link
               href={ROUTES.dashboard.profileEdit}
-              className="inline-flex items-center gap-2 rounded-xl bg-[#5D50EB] px-5 py-2.5 text-xs font-bold text-white shadow-md hover:bg-[#4d40db] transition-all"
+              className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2.5 text-xs font-semibold text-white hover:bg-blue-500"
             >
               <Edit className="h-4 w-4" />
-              <span>Edit Profile</span>
+              Settings
             </Link>
+            <button
+              type="button"
+              onClick={() => logout.mutate()}
+              disabled={logout.isPending}
+              className="inline-flex items-center gap-2 rounded-xl border border-zinc-300 px-4 py-2.5 text-xs font-semibold text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-900 disabled:opacity-70"
+            >
+              <LogOut className="h-4 w-4" />
+              Logout
+            </button>
           </div>
         </div>
       </div>
 
-      {/* Grid details */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <DashboardCard title="Career Target & Skills">
-          <div className="space-y-4 text-xs">
-            <div>
-              <span className="font-bold text-slate-400 block uppercase tracking-wider text-[10px]">
-                Target Role
-              </span>
-              <span className="font-bold text-slate-900 dark:text-white text-sm">
-                {targetRole || "Senior Fullstack Engineer"}
-              </span>
-            </div>
+      {overviewLoading ? (
+        <PageSkeleton rows={2} />
+      ) : overview ? (
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+          <StatCard title="Overall Progress" value={formatPercent(overview.overallProgress ?? 0, 0)} icon={Target} />
+          <StatCard title="Tests Completed" value={overview.testsCompleted ?? 0} icon={FileCheck} />
+          <StatCard title="Topics Completed" value={overview.completedTopics ?? 0} icon={BookOpen} />
+          <StatCard title="HR Answers" value={overview.hrQuestionsAnswered ?? 0} icon={MessageSquare} />
+        </div>
+      ) : null}
 
-            <div>
-              <span className="font-bold text-slate-400 block uppercase tracking-wider text-[10px] mb-2">
-                Key Skills
-              </span>
-              <div className="flex flex-wrap gap-1.5">
-                {["Next.js 15", "TypeScript", "React 19", "Node.js", "Express", "MongoDB", "System Design", "Tailwind CSS"].map((s) => (
-                  <span
-                    key={s}
-                    className="rounded-lg bg-purple-50 dark:bg-purple-950/40 px-2.5 py-1 text-xs font-semibold text-[#5D50EB] dark:text-purple-300"
-                  >
-                    {s}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <DashboardCard title="About" hoverEffect={false}>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {user.bio || "Add a bio in Settings to tell recruiters about your goals."}
+          </p>
         </DashboardCard>
 
-        <DashboardCard title="Social Links & Portfolio">
-          <div className="space-y-3 text-xs">
-            <div className="flex items-center space-x-3 p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50">
-              <GithubIcon className="h-4 w-4 text-slate-700 dark:text-slate-300" />
-              <span className="font-semibold text-slate-800 dark:text-white">
-                github.com/{userName.toLowerCase().replace(/\s+/g, "")}
+        <DashboardCard title="Career" hoverEffect={false}>
+          <div className="space-y-3 text-sm">
+            <div>
+              <span className="block text-[10px] font-semibold uppercase tracking-wider text-zinc-400">
+                Target Role
+              </span>
+              <span className="font-medium text-zinc-900 dark:text-white">
+                {user.targetRole || "Not set"}
               </span>
             </div>
-            <div className="flex items-center space-x-3 p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50">
-              <LinkedinIcon className="h-4 w-4 text-blue-600" />
-              <span className="font-semibold text-slate-800 dark:text-white">
-                linkedin.com/in/{userName.toLowerCase().replace(/\s+/g, "")}
+            <div>
+              <span className="mb-2 block text-[10px] font-semibold uppercase tracking-wider text-zinc-400">
+                Skills
               </span>
-            </div>
-            <div className="flex items-center space-x-3 p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50">
-              <Globe className="h-4 w-4 text-[#5D50EB]" />
-              <span className="font-semibold text-slate-800 dark:text-white">
-                {userName.toLowerCase().replace(/\s+/g, "")}.dev
-              </span>
+              {user.skills && user.skills.length > 0 ? (
+                <div className="flex flex-wrap gap-1.5">
+                  {user.skills.map((skill) => (
+                    <span
+                      key={skill}
+                      className="rounded-lg bg-zinc-100 px-2.5 py-1 text-xs font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-200"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-xs text-zinc-500">No skills added yet.</p>
+              )}
             </div>
           </div>
         </DashboardCard>
       </div>
+
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <DashboardCard title="Education" hoverEffect={false}>
+          {!user.education?.length ? (
+            <EmptyState
+              title="No education added"
+              description="Add your school and degree from Settings."
+            />
+          ) : (
+            <ul className="space-y-3">
+              {user.education.map((edu) => (
+                <li key={edu._id} className="flex gap-3 text-sm">
+                  <GraduationCap className="mt-0.5 h-4 w-4 shrink-0 text-zinc-400" />
+                  <div>
+                    <p className="font-medium text-zinc-900 dark:text-white">{edu.degree}</p>
+                    <p className="text-xs text-zinc-500">{edu.institute}</p>
+                    <p className="text-[11px] text-zinc-400">
+                      {formatRange(edu.startDate, edu.endDate, edu.currentlyStudying)}
+                    </p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
+        </DashboardCard>
+
+        <DashboardCard title="Work Experience" hoverEffect={false}>
+          {!user.experience?.length ? (
+            <EmptyState
+              title="No work experience"
+              description="Add internships or jobs from Settings."
+            />
+          ) : (
+            <ul className="space-y-3">
+              {user.experience.map((exp) => (
+                <li key={exp._id} className="flex gap-3 text-sm">
+                  <Briefcase className="mt-0.5 h-4 w-4 shrink-0 text-zinc-400" />
+                  <div>
+                    <p className="font-medium text-zinc-900 dark:text-white">{exp.jobTitle}</p>
+                    <p className="text-xs text-zinc-500">{exp.company}</p>
+                    <p className="text-[11px] text-zinc-400">
+                      {formatRange(exp.startDate, exp.endDate, exp.currentlyWorking)}
+                    </p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
+        </DashboardCard>
+      </div>
+
+      <DashboardCard title="Social Links" hoverEffect={false}>
+        <div className="flex flex-col gap-2 text-sm sm:flex-row sm:flex-wrap sm:gap-4">
+          <SocialLink icon={GitHubIcon} label="GitHub" href={user.socialLinks?.github} />
+          <SocialLink icon={LinkedInIcon} label="LinkedIn" href={user.socialLinks?.linkedIn} />
+          <SocialLink icon={Globe} label="Portfolio" href={user.socialLinks?.portfolio} />
+        </div>
+      </DashboardCard>
     </div>
+  );
+}
+
+function SocialLink({
+  icon: Icon,
+  label,
+  href,
+}: {
+  icon: ComponentType<SVGProps<SVGSVGElement> & { className?: string }>;
+  label: string;
+  href?: string;
+}) {
+  if (!href) {
+    return (
+      <span className="inline-flex items-center gap-2 text-xs text-zinc-500">
+        <Icon className="h-4 w-4" />
+        {label}: Not set
+      </span>
+    );
+  }
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex items-center gap-2 text-xs font-medium text-blue-500 hover:underline"
+    >
+      <Icon className="h-4 w-4" />
+      {label}
+    </a>
   );
 }

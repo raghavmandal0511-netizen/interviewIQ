@@ -5,32 +5,21 @@ import { AlertCircle, ArrowUpRight, Lightbulb, Target } from "lucide-react";
 import Link from "next/link";
 import { DashboardCard } from "@/components/cards/DashboardCard";
 import { ROUTES } from "@/constants/routes";
-import { useAuthStore } from "@/store/auth.store";
+import { useDashboardQuery } from "@/features/dashboard/hooks";
+
+function weakSuggestion(accuracy: number): string {
+  if (accuracy < 50) {
+    return "Review basic formulas and solve introductory practice questions.";
+  }
+  if (accuracy < 70) {
+    return "Focus on core concepts and attempt more practice exercises.";
+  }
+  return "Keep practicing to push accuracy above 80%.";
+}
 
 export function WeakTopics() {
-  const testsTaken = useAuthStore((state) => state.progress.testsTaken);
-  const isZero = testsTaken === 0;
-
-  const weakAreas = [
-    {
-      topic: "Probability & Combinatorics",
-      accuracy: 45,
-      suggestion: "Review basic formulas and solve 10 introductory practice questions.",
-      href: `${ROUTES.dashboard.arithmetic}/probability`,
-    },
-    {
-      topic: "Data Sufficiency",
-      accuracy: 52,
-      suggestion: "Focus on eliminations and evaluating statements independently.",
-      href: `${ROUTES.dashboard.logical}/data-sufficiency`,
-    },
-    {
-      topic: "Reading Comprehension",
-      accuracy: 58,
-      suggestion: "Practice identifying central themes and tone in passage questions.",
-      href: `${ROUTES.dashboard.verbal}/reading-comprehension`,
-    },
-  ];
+  const { data: dashboard } = useDashboardQuery();
+  const weakAreas = dashboard?.weakTopics ?? [];
 
   return (
     <DashboardCard
@@ -42,23 +31,22 @@ export function WeakTopics() {
       }
       subtitle="Focus on these high-leverage areas to boost your overall accuracy"
     >
-      {!isZero ? (
+      {weakAreas.length > 0 ? (
         <div className="space-y-4">
           {weakAreas.map((item) => (
             <div
-              key={item.topic}
+              key={item.topicId}
               className="rounded-xl border border-rose-100 bg-rose-50/30 p-3.5 dark:border-rose-900/40 dark:bg-rose-950/20"
             >
               <div className="flex items-center justify-between">
                 <h5 className="text-xs font-bold text-slate-900 dark:text-white">
-                  {item.topic}
+                  {item.topicName}
                 </h5>
                 <span className="text-xs font-extrabold text-rose-600 dark:text-rose-400">
-                  {item.accuracy}% Accuracy
+                  {Math.round(item.accuracy)}% Accuracy
                 </span>
               </div>
 
-              {/* Progress */}
               <div className="mt-2 h-1.5 w-full rounded-full bg-slate-200/60 dark:bg-slate-800 overflow-hidden">
                 <motion.div
                   initial={{ width: 0 }}
@@ -71,11 +59,11 @@ export function WeakTopics() {
               <div className="mt-2.5 flex items-start justify-between gap-2">
                 <p className="flex items-start gap-1 text-[11px] text-slate-500 dark:text-slate-400">
                   <Lightbulb className="h-3.5 w-3.5 text-amber-500 shrink-0 mt-0.5" />
-                  <span>{item.suggestion}</span>
+                  <span>{weakSuggestion(item.accuracy)}</span>
                 </p>
                 <Link
-                  href={item.href}
-                  className="inline-flex items-center text-xs font-bold text-[#5D50EB] hover:underline shrink-0 dark:text-purple-400"
+                  href={ROUTES.dashboard.generalAptitude}
+                  className="inline-flex items-center text-xs font-bold text-[#5D50EB] hover:underline shrink-0 dark:text-indigo-400"
                 >
                   <span>Practice</span>
                   <ArrowUpRight className="h-3.5 w-3.5" />
@@ -85,7 +73,7 @@ export function WeakTopics() {
           ))}
         </div>
       ) : (
-        <div className="flex flex-col items-center justify-center p-6 text-center rounded-xl bg-slate-50/50 dark:bg-slate-900/40 border border-dashed border-slate-200 dark:border-slate-800">
+        <div className="flex flex-col items-center justify-center p-6 text-center rounded-xl bg-slate-50/50 dark:bg-white/[0.02] border border-dashed border-slate-200 dark:border-slate-800">
           <Target className="h-8 w-8 text-slate-400 mb-2" />
           <p className="text-xs font-bold text-slate-700 dark:text-slate-300">
             No Performance Data Yet

@@ -32,25 +32,21 @@ const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 export function PublicFooter() {
   return (
-    <footer className="bg-[#0f172a] text-slate-400">
-      {/* Top Part */}
+    <footer className="border-t border-slate-200 bg-white text-slate-500">
       <div className="mx-auto max-w-7xl px-6 py-12 sm:px-8 lg:py-16">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-5">
-          
-          {/* Logo & Description */}
-          <div className="lg:col-span-2 space-y-6">
+          <div className="space-y-6 lg:col-span-2">
             <Link href="/" className="flex items-center space-x-0.5">
-              <span className="text-2xl font-bold tracking-tight text-white">
+              <span className="text-2xl font-bold tracking-tight text-slate-900">
                 Interview
               </span>
-              <span className="text-2xl font-extrabold text-[#3b52f6]">
+              <span className="text-2xl font-extrabold text-blue-600">
                 IQ
               </span>
             </Link>
-            <p className="text-sm text-slate-400 max-w-sm leading-relaxed">
+            <p className="max-w-sm text-sm leading-relaxed text-slate-500">
               Your all-in-one platform to prepare smarter, practice better, and get placed faster.
             </p>
-            {/* Social Icons */}
             <div className="flex space-x-4">
               {[
                 { icon: FacebookIcon, href: "#" },
@@ -61,7 +57,7 @@ export function PublicFooter() {
                 <a
                   key={idx}
                   href={social.href}
-                  className="h-9 w-9 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-slate-700 hover:text-white transition-colors"
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 bg-slate-50 text-slate-500 transition-colors hover:border-slate-300 hover:bg-slate-100 hover:text-slate-800"
                 >
                   <social.icon className="h-4 w-4" />
                 </a>
@@ -69,12 +65,9 @@ export function PublicFooter() {
             </div>
           </div>
 
-          {/* Links Columns */}
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:col-span-3">
-            
-            {/* Column Product */}
             <div>
-              <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900">
                 Product
               </h3>
               <ul className="mt-4 space-y-2 text-sm">
@@ -86,7 +79,7 @@ export function PublicFooter() {
                   "Reports",
                 ].map((link) => (
                   <li key={link}>
-                    <a href="#" className="hover:text-white transition-colors">
+                    <a href="#" className="transition-colors hover:text-slate-900">
                       {link}
                     </a>
                   </li>
@@ -94,9 +87,8 @@ export function PublicFooter() {
               </ul>
             </div>
 
-            {/* Column Company */}
             <div>
-              <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900">
                 Company
               </h3>
               <ul className="mt-4 space-y-2 text-sm">
@@ -108,7 +100,7 @@ export function PublicFooter() {
                   "Privacy Policy",
                 ].map((link) => (
                   <li key={link}>
-                    <a href="#" className="hover:text-white transition-colors">
+                    <a href="#" className="transition-colors hover:text-slate-900">
                       {link}
                     </a>
                   </li>
@@ -116,10 +108,9 @@ export function PublicFooter() {
               </ul>
             </div>
 
-            {/* Column Support / Stay Updated (combined for layout) */}
-            <div className="col-span-2 sm:col-span-1 space-y-6">
+            <div className="col-span-2 space-y-6 sm:col-span-1">
               <div>
-                <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
+                <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900">
                   Support
                 </h3>
                 <ul className="mt-4 space-y-2 text-sm">
@@ -130,7 +121,7 @@ export function PublicFooter() {
                     "Refund Policy",
                   ].map((link) => (
                     <li key={link}>
-                      <a href="#" className="hover:text-white transition-colors">
+                      <a href="#" className="transition-colors hover:text-slate-900">
                         {link}
                       </a>
                     </li>
@@ -138,17 +129,15 @@ export function PublicFooter() {
                 </ul>
               </div>
             </div>
-
           </div>
         </div>
 
-        {/* Subscribe Section */}
-        <div className="mt-12 border-t border-slate-800 pt-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div className="mt-12 flex flex-col gap-6 border-t border-slate-200 pt-8 md:flex-row md:items-center md:justify-between">
           <div className="max-w-md">
-            <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900">
               Stay Updated
             </h3>
-            <p className="mt-1.5 text-sm text-slate-400">
+            <p className="mt-1.5 text-sm text-slate-500">
               Subscribe to get the latest updates and preparation tips.
             </p>
           </div>
@@ -157,24 +146,21 @@ export function PublicFooter() {
               type="email"
               placeholder="Enter your email"
               required
-              className="w-full rounded-l-lg border border-slate-700 bg-slate-800 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:border-[#3b52f6] focus:outline-none"
+              className="w-full rounded-l-lg border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none"
             />
             <button
               type="submit"
-              className="rounded-r-lg bg-[#3b52f6] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#2563eb] active:scale-95 transition-all shrink-0"
+              className="shrink-0 rounded-r-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-500"
             >
               Subscribe
             </button>
           </form>
         </div>
 
-        {/* Bottom copyright row */}
-        <div className="mt-8 border-t border-slate-800 pt-8 text-center text-xs">
+        <div className="mt-8 border-t border-slate-200 pt-8 text-center text-xs text-slate-400">
           <p>© 2024 InterviewIQ. All rights reserved.</p>
         </div>
-
       </div>
     </footer>
   );
 }
-

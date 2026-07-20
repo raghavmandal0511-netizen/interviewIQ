@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import type { LucideIcon } from "lucide-react";
 import {
@@ -19,7 +19,8 @@ import {
 import { useUiStore } from "@/store/ui.store";
 import { ROUTES } from "@/constants/routes";
 import { ThemeToggle } from "@/components/navbar/ThemeToggle";
-import { useAuthStore } from "@/store/auth.store";
+import { useLogoutMutation } from "@/features/auth/hooks";
+import { cn } from "@/lib/utils";
 
 interface SidebarNavLink {
   title: string;
@@ -69,14 +70,12 @@ const navLinks: SidebarNavLink[] = [
 
 export function DashboardSidebar() {
   const pathname = usePathname();
-  const router = useRouter();
-  const logout = useAuthStore((state) => state.logout);
+  const logoutMutation = useLogoutMutation();
   const { isSidebarOpen, setSidebarOpen, isSidebarCollapsed } = useUiStore();
 
   const handleLogout = () => {
     setSidebarOpen(false);
-    logout();
-    router.push(ROUTES.login);
+    logoutMutation.mutate();
   };
 
   const isLinkActive = (href: string) => {
@@ -88,17 +87,13 @@ export function DashboardSidebar() {
 
   return (
     <>
-      {/* ---------------- Desktop Sidebar ---------------- */}
       <motion.aside
         initial={false}
         animate={{ width: isSidebarCollapsed ? 72 : 240 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="hidden md:flex flex-col justify-between sticky top-16 h-[calc(100vh-4rem)] border-r border-slate-200/80 bg-white/90 backdrop-blur-md p-3 dark:border-slate-800/80 dark:bg-slate-900/90 z-30 shrink-0 select-none overflow-x-hidden"
+        className="z-30 sticky top-16 hidden h-[calc(100vh-4rem)] shrink-0 select-none flex-col justify-between overflow-x-hidden border-r border-zinc-200/80 bg-white/95 p-3 backdrop-blur-md dark:border-white/[0.06] dark:bg-[#0F172A] md:flex"
       >
-        {/* Navigation Items */}
         <div className="space-y-6">
-          
-          {/* Main Navigation List */}
           <div className="space-y-1">
             {navLinks.map((link) => {
               const active = isLinkActive(link.href);
@@ -108,46 +103,49 @@ export function DashboardSidebar() {
                 <div key={link.href} className="relative group">
                   <Link
                     href={link.href}
-                    className={`relative flex items-center gap-3 rounded-xl px-3 py-2.5 text-xs font-semibold transition-all duration-200 ${
+                    className={cn(
+                      "relative flex items-center gap-3 rounded-xl px-3 py-2.5 text-xs font-semibold transition-all duration-200",
                       active
-                        ? "bg-[#5D50EB] text-white shadow-md shadow-purple-500/25"
-                        : "text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white"
-                    } ${isSidebarCollapsed ? "justify-center px-2" : ""}`}
+                        ? "bg-[#5D50EB] text-white shadow-md shadow-purple-500/20 dark:bg-indigo-500/15 dark:text-indigo-200 dark:shadow-[0_0_20px_-6px_rgba(99,102,241,0.45)] dark:ring-1 dark:ring-indigo-500/30"
+                        : "text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-white/[0.04] dark:hover:text-slate-100",
+                      isSidebarCollapsed && "justify-center px-2",
+                    )}
                   >
                     <Icon
-                      className={`h-4 w-4 shrink-0 transition-transform duration-200 group-hover:scale-110 ${
-                        active ? "text-white" : "text-slate-400 group-hover:text-slate-600 dark:group-hover:text-slate-200"
-                      }`}
+                      className={cn(
+                        "h-4 w-4 shrink-0 transition-colors duration-200",
+                        active
+                          ? "text-white dark:text-indigo-300"
+                          : "text-slate-400 group-hover:text-slate-600 dark:text-slate-500 dark:group-hover:text-slate-200",
+                      )}
                     />
 
                     {!isSidebarCollapsed && (
                       <motion.span
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        className="truncate flex-1"
+                        className="flex-1 truncate"
                       >
                         {link.title}
                       </motion.span>
                     )}
 
                     {!isSidebarCollapsed && link.badge && (
-                      <span className="rounded-full bg-amber-400/20 px-1.5 py-0.5 text-[9px] font-bold text-amber-600 dark:text-amber-300">
+                      <span className="rounded-full bg-amber-400/20 px-1.5 py-0.5 text-[9px] font-bold text-amber-600 dark:bg-amber-500/15 dark:text-amber-300">
                         {link.badge}
                       </span>
                     )}
 
-                    {/* Active Pill Indicator */}
                     {active && !isSidebarCollapsed && (
                       <motion.div
                         layoutId="activePill"
-                        className="absolute right-2 h-1.5 w-1.5 rounded-full bg-white"
+                        className="absolute right-2 h-1.5 w-1.5 rounded-full bg-white dark:bg-indigo-300"
                       />
                     )}
                   </Link>
 
-                  {/* Tooltip when Collapsed */}
                   {isSidebarCollapsed && (
-                    <div className="absolute left-full top-1/2 -translate-y-1/2 ml-3 hidden group-hover:block z-50 rounded-lg bg-slate-900 px-2.5 py-1 text-xs font-bold text-white shadow-lg dark:bg-slate-800 whitespace-nowrap">
+                    <div className="absolute left-full top-1/2 z-50 ml-3 hidden -translate-y-1/2 whitespace-nowrap rounded-lg bg-slate-900 px-2.5 py-1 text-xs font-bold text-white shadow-lg group-hover:block dark:bg-[#1F2937] dark:ring-1 dark:ring-white/10">
                       {link.title}
                     </div>
                   )}
@@ -157,15 +155,14 @@ export function DashboardSidebar() {
           </div>
         </div>
 
-        {/* Bottom Actions: Upgrade Promo & Logout */}
-        <div className="space-y-3 pt-4 border-t border-slate-100 dark:border-slate-800">
+        <div className="space-y-3 border-t border-slate-100 pt-4 dark:border-white/[0.06]">
           {!isSidebarCollapsed && (
-            <div className="rounded-xl bg-gradient-to-br from-purple-500/10 via-indigo-500/5 to-purple-600/10 border border-purple-500/20 p-3 text-center relative overflow-hidden dark:bg-purple-950/30">
-              <div className="flex items-center justify-center space-x-1 text-xs font-bold text-[#5D50EB] dark:text-purple-300">
+            <div className="rounded-xl border border-zinc-200 bg-zinc-50 p-3 text-center dark:border-indigo-500/20 dark:bg-indigo-500/[0.07]">
+              <div className="flex items-center justify-center space-x-1 text-xs font-bold text-[#5D50EB] dark:text-indigo-300">
                 <Sparkles className="h-3.5 w-3.5" />
                 <span>InterviewIQ Pro</span>
               </div>
-              <p className="mt-1 text-[10px] text-slate-500 dark:text-slate-400 leading-tight">
+              <p className="mt-1 text-[10px] leading-tight text-slate-500 dark:text-slate-400">
                 Unlimited AI Mock Interviews & Analytics
               </p>
             </div>
@@ -175,9 +172,10 @@ export function DashboardSidebar() {
             <button
               type="button"
               onClick={handleLogout}
-              className={`flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-semibold text-rose-600 hover:bg-rose-50 dark:text-rose-400 dark:hover:bg-rose-950/40 transition-colors ${
-                isSidebarCollapsed ? "justify-center w-full" : "flex-1"
-              }`}
+              className={cn(
+                "flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-semibold text-rose-600 transition-colors hover:bg-rose-50 dark:text-rose-400 dark:hover:bg-rose-500/10",
+                isSidebarCollapsed ? "w-full justify-center" : "flex-1",
+              )}
               title="Logout"
             >
               <LogOut className="h-4 w-4 shrink-0" />
@@ -187,30 +185,26 @@ export function DashboardSidebar() {
         </div>
       </motion.aside>
 
-      {/* ---------------- Mobile Drawer Overlay ---------------- */}
       <AnimatePresence>
         {isSidebarOpen && (
           <>
-            {/* Backdrop */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setSidebarOpen(false)}
-              className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-50 md:hidden"
+              className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm md:hidden dark:bg-black/60"
             />
 
-            {/* Mobile Drawer */}
             <motion.aside
               initial={{ x: "-100%" }}
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="fixed inset-y-0 left-0 z-50 w-72 bg-white/95 backdrop-blur-md p-6 shadow-2xl dark:bg-slate-900/95 md:hidden flex flex-col justify-between"
+              className="fixed inset-y-0 left-0 z-50 flex w-72 flex-col justify-between bg-white/95 p-6 shadow-2xl backdrop-blur-md md:hidden dark:bg-[#0F172A]/98 dark:ring-1 dark:ring-white/[0.06]"
             >
               <div className="space-y-6">
-                {/* Header Logo & Close Button */}
-                <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-800">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-4 dark:border-white/[0.06]">
                   <Link
                     href={ROUTES.dashboard.root}
                     onClick={() => setSidebarOpen(false)}
@@ -219,18 +213,19 @@ export function DashboardSidebar() {
                     <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">
                       Interview
                     </span>
-                    <span className="text-xl font-extrabold text-[#5D50EB]">IQ</span>
+                    <span className="text-xl font-extrabold text-[#5D50EB] dark:text-indigo-400">
+                      IQ
+                    </span>
                   </Link>
 
                   <button
                     onClick={() => setSidebarOpen(false)}
-                    className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
+                    className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-100 dark:hover:bg-white/[0.06]"
                   >
                     <X className="h-5 w-5" />
                   </button>
                 </div>
 
-                {/* Nav Links */}
                 <div className="space-y-1">
                   {navLinks.map((link) => {
                     const active = isLinkActive(link.href);
@@ -241,11 +236,12 @@ export function DashboardSidebar() {
                         key={link.href}
                         href={link.href}
                         onClick={() => setSidebarOpen(false)}
-                        className={`flex items-center gap-3 rounded-xl px-3.5 py-3 text-sm font-semibold transition-colors ${
+                        className={cn(
+                          "flex items-center gap-3 rounded-xl px-3.5 py-3 text-sm font-semibold transition-colors",
                           active
-                            ? "bg-[#5D50EB] text-white shadow-md shadow-purple-500/20"
-                            : "text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
-                        }`}
+                            ? "bg-[#5D50EB] text-white shadow-md shadow-purple-500/20 dark:bg-indigo-500/15 dark:text-indigo-200 dark:ring-1 dark:ring-indigo-500/30"
+                            : "text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-white/[0.04]",
+                        )}
                       >
                         <Icon className="h-4 w-4 shrink-0" />
                         <span>{link.title}</span>
@@ -255,11 +251,12 @@ export function DashboardSidebar() {
                 </div>
               </div>
 
-              {/* Drawer Bottom */}
-              <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+              <div className="flex items-center justify-between border-t border-slate-100 pt-4 dark:border-white/[0.06]">
                 <div className="flex items-center space-x-2">
                   <ThemeToggle />
-                  <span className="text-xs font-semibold text-slate-600 dark:text-slate-400">Theme</span>
+                  <span className="text-xs font-semibold text-slate-600 dark:text-slate-400">
+                    Theme
+                  </span>
                 </div>
                 <button
                   type="button"

@@ -1,5 +1,1 @@
-/**
- * dashboard feature API functions.
- * TODO: Implement service calls using apiClient. Never call axios in components.
- */
-export {};
+export { dashboardService } from "@/features/dashboard/api/dashboard.service";

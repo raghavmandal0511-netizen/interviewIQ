@@ -1,89 +1,99 @@
-import apiClient from "@/lib/axios";
-import type { User } from "@/types/auth";
+import { apiClient } from "@/lib/axios";
+import { API_ENDPOINTS } from "@/constants/api";
+import { mapBackendUser, type BackendUser, type User } from "@/types/auth";
 
-export type RegisterResponse = {
-  success: boolean;
-  message: string;
-  token?: string;
-  user?: User;
-};
-
-export type LoginResponse = {
-  success: boolean;
-  message: string;
-  token?: string;
-  user?: User;
+type AuthMessageResponse = {
+  success?: boolean;
+  message?: string;
 };
 
 export const authService = {
-  async register(data: { userName: string; email: string; password: string }): Promise<RegisterResponse> {
-    try {
-      const response = await apiClient.post<RegisterResponse>("/auth/register", data);
-      return response.data;
-    } catch (error: unknown) {
-      console.warn("Backend API unavailable or error during register, proceeding with fallback mode:", error);
-      return {
-        success: true,
-        message: "Registered (Local Fallback)",
-        token: "demo_token_" + Date.now(),
-        user: {
-          id: "user-" + Date.now(),
-          name: data.userName || data.email.split("@")[0] || "User",
-          email: data.email,
-          role: "user",
-        },
-      };
-    }
+  async register(data: {
+    userName: string;
+    email: string;
+    password: string;
+  }): Promise<void> {
+    await apiClient.post<AuthMessageResponse>(
+      API_ENDPOINTS.auth.register,
+      data,
+    );
   },
 
-  async login(data: { email: string; password: string }): Promise<LoginResponse> {
-    try {
-      const response = await apiClient.post<LoginResponse>("/auth/login", data);
-      return response.data;
-    } catch (error: unknown) {
-      console.warn("Backend API unavailable or error during login, proceeding with fallback mode:", error);
-      const derivedName = data.email.includes("@")
-        ? (data.email.split("@")[0] || "").replace(/[._]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
-        : "Candidate";
-
-      return {
-        success: true,
-        message: "Logged in (Local Fallback)",
-        token: "demo_token_" + Date.now(),
-        user: {
-          id: "user-" + Date.now(),
-          name: derivedName || "Candidate",
-          email: data.email,
-          role: "user",
-        },
-      };
-    }
+  async login(data: { email: string; password: string }): Promise<void> {
+    await apiClient.post<AuthMessageResponse>(API_ENDPOINTS.auth.login, data);
   },
 
-  async fetchProfile(): Promise<User | null> {
-    try {
-      const response = await apiClient.get<{ success: boolean; data: User }>("/user/profile");
-      return response.data?.data || null;
-    } catch {
-      return null;
+  async fetchProfile(): Promise<User> {
+    const response = await apiClient.get<{ success: boolean; user: BackendUser }>(
+      API_ENDPOINTS.user.profile,
+    );
+    if (!response.data?.user) {
+      throw new Error("Profile not found");
     }
+    return mapBackendUser(response.data.user);
   },
 
-  async updateDisplayName(displayName: string): Promise<boolean> {
-    try {
-      await apiClient.patch("/user/profile/display-name", { displayName });
-      return true;
-    } catch {
-      return false;
-    }
+  async logout(): Promise<void> {
+    // Same-origin Next.js route (not proxied) clears the httpOnly cookie.
+    await fetch("/api/auth/logout", {
+      method: "POST",
+      credentials: "include",
+    });
   },
 
-  async updateTargetRole(targetRole: string): Promise<boolean> {
-    try {
-      await apiClient.patch("/user/career/target-role", { targetRole });
-      return true;
-    } catch {
-      return false;
-    }
+  async updateDisplayName(displayName: string): Promise<User> {
+    const response = await apiClient.patch<{ success: boolean; user: BackendUser }>(
+      API_ENDPOINTS.user.displayName,
+      { profile: { displayName } },
+    );
+    return mapBackendUser(response.data.user);
+  },
+
+  async updateBio(bio: string): Promise<User> {
+    const response = await apiClient.patch<{ success: boolean; user: BackendUser }>(
+      API_ENDPOINTS.user.bio,
+      { profile: { bio } },
+    );
+    return mapBackendUser(response.data.user);
+  },
+
+  async updateTargetRole(targetRole: string): Promise<User> {
+    const response = await apiClient.patch<{ success: boolean; user: BackendUser }>(
+      API_ENDPOINTS.user.targetRole,
+      { career: { targetRole } },
+    );
+    return mapBackendUser(response.data.user);
+  },
+
+  async updateSkills(skills: string[]): Promise<User> {
+    const response = await apiClient.patch<{ success: boolean; user: BackendUser }>(
+      API_ENDPOINTS.user.skills,
+      { career: { skills } },
+    );
+    return mapBackendUser(response.data.user);
+  },
+
+  async updateGithub(github: string): Promise<User> {
+    const response = await apiClient.patch<{ success: boolean; user: BackendUser }>(
+      API_ENDPOINTS.user.github,
+      { socialLinks: { github } },
+    );
+    return mapBackendUser(response.data.user);
+  },
+
+  async updateLinkedIn(linkedIn: string): Promise<User> {
+    const response = await apiClient.patch<{ success: boolean; user: BackendUser }>(
+      API_ENDPOINTS.user.linkedin,
+      { socialLinks: { linkedIn } },
+    );
+    return mapBackendUser(response.data.user);
+  },
+
+  async updatePortfolio(portfolio: string): Promise<User> {
+    const response = await apiClient.patch<{ success: boolean; user: BackendUser }>(
+      API_ENDPOINTS.user.portfolio,
+      { socialLinks: { portfolio } },
+    );
+    return mapBackendUser(response.data.user);
   },
 };

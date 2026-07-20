@@ -1,9 +1,14 @@
-export default function Page() {
-  return (
-    <section>
-      <h1>Logical Topic</h1>
-      <p>Topic overview for a logical reasoning subject.</p>
-      <p>TODO: Implement this page UI.</p>
-    </section>
-  );
+"use client";
+
+import { use } from "react";
+
+import { TopicOverviewPage } from "@/features/aptitude/components/TopicOverviewPage";
+
+export default function TopicPage({
+  params,
+}: {
+  params: Promise<{ topicSlug: string }>;
+}) {
+  const { topicSlug } = use(params);
+  return <TopicOverviewPage moduleKey="logical" topicSlug={topicSlug} />;
 }

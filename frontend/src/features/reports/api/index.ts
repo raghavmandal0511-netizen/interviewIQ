@@ -1,5 +1,2 @@
-/**
- * reports feature API functions.
- * TODO: Implement service calls using apiClient. Never call axios in components.
- */
-export {};
+export { reportsService } from "@/features/reports/api/reports.service";
+export type { ReportsOverview } from "@/features/reports/api/reports.service";

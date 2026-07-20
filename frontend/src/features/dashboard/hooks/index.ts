@@ -1,5 +1,1 @@
-/**
- * dashboard feature hooks (React Query hooks, etc.).
- * TODO: Implement feature hooks.
- */
-export {};
+export { useDashboardQuery } from "@/features/dashboard/hooks/use-dashboard";

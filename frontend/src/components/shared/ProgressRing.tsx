@@ -3,12 +3,13 @@
 import { motion } from "framer-motion";
 
 interface ProgressRingProps {
-  progress: number; // 0 to 100
+  progress: number;
   size?: number;
   strokeWidth?: number;
   label?: string;
   sublabel?: string;
   color?: string;
+  trackClassName?: string;
 }
 
 export function ProgressRing({
@@ -18,6 +19,7 @@ export function ProgressRing({
   label,
   sublabel,
   color = "#5D50EB",
+  trackClassName = "text-slate-100 dark:text-slate-800",
 }: ProgressRingProps) {
   const center = size / 2;
   const radius = center - strokeWidth / 2;
@@ -27,17 +29,15 @@ export function ProgressRing({
   return (
     <div className="relative inline-flex items-center justify-center">
       <svg width={size} height={size} className="-rotate-90 transform">
-        {/* Background Circle */}
         <circle
           cx={center}
           cy={center}
           r={radius}
           stroke="currentColor"
           strokeWidth={strokeWidth}
-          className="text-slate-100 dark:text-slate-800"
+          className={trackClassName}
           fill="transparent"
         />
-        {/* Animated Progress Circle */}
         <motion.circle
           cx={center}
           cy={center}
@@ -52,9 +52,8 @@ export function ProgressRing({
           fill="transparent"
         />
       </svg>
-      {/* Inner Label */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-        <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">
+        <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
           {label ?? `${progress}%`}
         </span>
         {sublabel && (

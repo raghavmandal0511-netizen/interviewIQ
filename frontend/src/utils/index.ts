@@ -1,4 +1,4 @@
-export { formatDate, formatPercent } from "@/utils/format";
+export { formatDate, formatPercent, formatDuration, capitalize } from "@/utils/format";
 export {
   getStorageItem,
   setStorageItem,

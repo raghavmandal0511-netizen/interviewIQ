@@ -2,12 +2,14 @@
 
 import Link from "next/link";
 import { DashboardCard } from "@/components/cards/DashboardCard";
-import { FileText, ArrowRight, Play } from "lucide-react";
+import { FileText, ArrowRight, Play, Target, Trophy } from "lucide-react";
 import { ROUTES } from "@/constants/routes";
-import { useAuthStore } from "@/store/auth.store";
+import { useDashboardQuery } from "@/features/dashboard/hooks";
 
 export function RecentTests() {
-  const recentTests = useAuthStore((state) => state.progress.recentTests);
+  const { data: dashboard } = useDashboardQuery();
+  const testStats = dashboard?.testStatistics;
+  const hasTests = (testStats?.testsAttempted ?? 0) > 0;
 
   return (
     <DashboardCard
@@ -16,61 +18,54 @@ export function RecentTests() {
       action={
         <Link
           href={ROUTES.dashboard.tests}
-          className="text-xs font-bold text-[#5D50EB] hover:underline dark:text-purple-400"
+          className="text-xs font-bold text-[#5D50EB] hover:underline dark:text-indigo-400"
         >
           View All Tests →
         </Link>
       }
     >
-      {recentTests.length > 0 ? (
-        <div className="overflow-x-auto">
-          <table className="w-full text-left text-xs">
-            <thead>
-              <tr className="border-b border-slate-100 dark:border-slate-800 text-slate-400 dark:text-slate-500 font-bold uppercase tracking-wider">
-                <th className="pb-3 pl-1">Test Name</th>
-                <th className="pb-3">Category</th>
-                <th className="pb-3">Date</th>
-                <th className="pb-3">Score</th>
-                <th className="pb-3">Status</th>
-                <th className="pb-3 text-right pr-1">Action</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-100 dark:divide-slate-800/60 font-medium text-slate-700 dark:text-slate-300">
-              {recentTests.map((test) => (
-                <tr key={test.id} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
-                  <td className="py-3.5 pl-1 font-bold text-slate-900 dark:text-white flex items-center gap-2">
-                    <FileText className="h-4 w-4 text-[#5D50EB] shrink-0" />
-                    <span>{test.name}</span>
-                  </td>
-                  <td className="py-3.5">
-                    <span className="rounded-md bg-purple-50 dark:bg-purple-950/40 px-2 py-0.5 font-semibold text-purple-700 dark:text-purple-300">
-                      {test.category}
-                    </span>
-                  </td>
-                  <td className="py-3.5 text-slate-500">{test.date}</td>
-                  <td className="py-3.5 font-bold text-slate-900 dark:text-white">{test.score}</td>
-                  <td className="py-3.5">
-                    <span className="inline-flex items-center rounded-full bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 text-[10px] font-bold text-emerald-600 dark:text-emerald-400">
-                      {test.status}
-                    </span>
-                  </td>
-                  <td className="py-3.5 text-right pr-1">
-                    <Link
-                      href={`${ROUTES.dashboard.tests}/${test.id}/result`}
-                      className="inline-flex items-center gap-1 rounded-lg bg-[#5D50EB] px-3 py-1.5 text-[11px] font-bold text-white shadow-sm hover:bg-[#4d40db] transition-colors"
-                    >
-                      <span>View Result</span>
-                      <ArrowRight className="h-3 w-3" />
-                    </Link>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+      {hasTests ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="rounded-xl border border-slate-100 bg-slate-50/50 p-4 dark:border-slate-800 dark:bg-white/[0.02]">
+            <div className="flex items-center gap-2 text-[#5D50EB] mb-2">
+              <FileText className="h-4 w-4" />
+              <span className="text-[10px] font-bold uppercase tracking-wider">Attempted</span>
+            </div>
+            <p className="text-xl font-extrabold text-slate-900 dark:text-white">
+              {testStats?.testsAttempted ?? 0}
+            </p>
+          </div>
+          <div className="rounded-xl border border-slate-100 bg-slate-50/50 p-4 dark:border-slate-800 dark:bg-white/[0.02]">
+            <div className="flex items-center gap-2 text-emerald-600 mb-2">
+              <Target className="h-4 w-4" />
+              <span className="text-[10px] font-bold uppercase tracking-wider">Completed</span>
+            </div>
+            <p className="text-xl font-extrabold text-slate-900 dark:text-white">
+              {testStats?.testsCompleted ?? 0}
+            </p>
+          </div>
+          <div className="rounded-xl border border-slate-100 bg-slate-50/50 p-4 dark:border-slate-800 dark:bg-white/[0.02]">
+            <div className="flex items-center gap-2 text-amber-500 mb-2">
+              <Trophy className="h-4 w-4" />
+              <span className="text-[10px] font-bold uppercase tracking-wider">Avg Score</span>
+            </div>
+            <p className="text-xl font-extrabold text-slate-900 dark:text-white">
+              {Math.round(testStats?.averageScore ?? 0)}%
+            </p>
+          </div>
+          <div className="rounded-xl border border-slate-100 bg-slate-50/50 p-4 dark:border-slate-800 dark:bg-white/[0.02]">
+            <div className="flex items-center gap-2 text-purple-600 mb-2">
+              <ArrowRight className="h-4 w-4" />
+              <span className="text-[10px] font-bold uppercase tracking-wider">Best Score</span>
+            </div>
+            <p className="text-xl font-extrabold text-slate-900 dark:text-white">
+              {testStats?.highestScore ?? 0}%
+            </p>
+          </div>
         </div>
       ) : (
-        <div className="flex flex-col items-center justify-center p-8 text-center rounded-2xl bg-slate-50/50 dark:bg-slate-900/40 border border-dashed border-slate-200 dark:border-slate-800">
-          <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-purple-100 dark:bg-purple-950 text-[#5D50EB] mb-3">
+        <div className="flex flex-col items-center justify-center p-8 text-center rounded-2xl bg-slate-50/50 dark:bg-white/[0.02] border border-dashed border-slate-200 dark:border-slate-800">
+          <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-purple-100 dark:bg-indigo-500/15 text-[#5D50EB] mb-3">
             <FileText className="h-6 w-6" />
           </div>
           <h4 className="text-sm font-bold text-slate-900 dark:text-white">No Mock Tests Attempted Yet</h4>

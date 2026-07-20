@@ -1,7 +1,6 @@
-"use client";
-
-import { motion } from "framer-motion";
 import type { ReactNode } from "react";
+
+import { cn } from "@/lib/utils";
 
 interface DashboardCardProps {
   title?: ReactNode;
@@ -18,32 +17,29 @@ export function DashboardCard({
   action,
   children,
   className = "",
-  hoverEffect = true,
+  hoverEffect = false,
 }: DashboardCardProps) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 15 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
-      whileHover={
-        hoverEffect
-          ? { y: -3, transition: { duration: 0.2, ease: "easeOut" } }
-          : undefined
-      }
-      className={`rounded-2xl border border-slate-200/80 bg-white p-5 shadow-sm transition-all duration-300 dark:border-slate-800/80 dark:bg-slate-900/60 dark:backdrop-blur-md dark:shadow-xl dark:shadow-purple-950/10 ${className}`}
+    <div
+      data-motion-card
+      className={cn(
+        "surface-card rounded-xl p-5 sm:p-6",
+        hoverEffect && "surface-card-interactive",
+        className,
+      )}
     >
       {(title || action) && (
-        <div className="mb-4 flex items-center justify-between gap-4 border-b border-slate-100 pb-3 dark:border-slate-800/60">
+        <div className="mb-5 flex items-center justify-between gap-4 border-b border-zinc-100 pb-4 dark:border-white/[0.06]">
           <div>
             {typeof title === "string" ? (
-              <h3 className="text-base font-bold tracking-tight text-slate-900 dark:text-white">
+              <h3 className="text-base font-semibold tracking-tight text-zinc-900 dark:text-slate-50">
                 {title}
               </h3>
             ) : (
               title
             )}
             {subtitle && (
-              <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+              <p className="mt-1 text-xs leading-relaxed text-zinc-500 dark:text-slate-400">
                 {subtitle}
               </p>
             )}
@@ -52,6 +48,6 @@ export function DashboardCard({
         </div>
       )}
       <div>{children}</div>
-    </motion.div>
+    </div>
   );
 }

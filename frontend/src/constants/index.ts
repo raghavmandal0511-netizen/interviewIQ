@@ -1,4 +1,4 @@
-export { API_ENDPOINTS } from "@/constants/api";
+export { API_ENDPOINTS, AUTH_COOKIE_NAME } from "@/constants/api";
 export {
   ROUTES,
   PROTECTED_ROUTE_PREFIXES,

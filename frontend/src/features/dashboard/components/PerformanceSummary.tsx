@@ -1,212 +1,88 @@
 "use client";
 
-import { useState } from "react";
-import {
-  ResponsiveContainer,
-  AreaChart,
-  Area,
-  BarChart,
-  Bar,
-  LineChart,
-  Line,
-  PieChart,
-  Pie,
-  Cell,
-  XAxis,
-  YAxis,
-  Tooltip,
-  CartesianGrid,
-} from "recharts";
+import { useState, useMemo } from "react";
+import dynamic from "next/dynamic";
 import { DashboardCard } from "@/components/cards/DashboardCard";
-import { useAuthStore } from "@/store/auth.store";
+import { useDashboardQuery } from "@/features/dashboard/hooks";
+import { moduleChartColor } from "@/features/dashboard/utils/dashboard-helpers";
 
-const demoWeeklyPerformance = [
-  { day: "Mon", score: 65, accuracy: 70, tests: 2 },
-  { day: "Tue", score: 72, accuracy: 75, tests: 3 },
-  { day: "Wed", score: 68, accuracy: 72, tests: 2 },
-  { day: "Thu", score: 80, accuracy: 82, tests: 4 },
-  { day: "Fri", score: 85, accuracy: 88, tests: 3 },
-  { day: "Sat", score: 90, accuracy: 92, tests: 5 },
-  { day: "Sun", score: 88, accuracy: 89, tests: 4 },
-];
-
-const zeroWeeklyPerformance = [
-  { day: "Mon", score: 0, accuracy: 0, tests: 0 },
-  { day: "Tue", score: 0, accuracy: 0, tests: 0 },
-  { day: "Wed", score: 0, accuracy: 0, tests: 0 },
-  { day: "Thu", score: 0, accuracy: 0, tests: 0 },
-  { day: "Fri", score: 0, accuracy: 0, tests: 0 },
-  { day: "Sat", score: 0, accuracy: 0, tests: 0 },
-  { day: "Sun", score: 0, accuracy: 0, tests: 0 },
-];
-
-const demoCategoryDistribution = [
-  { name: "Arithmetic", value: 35, color: "#5D50EB" },
-  { name: "Logical", value: 30, color: "#10b981" },
-  { name: "Verbal", value: 20, color: "#f59e0b" },
-  { name: "HR/AI", value: 15, color: "#ec4899" },
-];
-
-const zeroCategoryDistribution = [
-  { name: "Arithmetic", value: 25, color: "#cbd5e1" },
-  { name: "Logical", value: 25, color: "#94a3b8" },
-  { name: "Verbal", value: 25, color: "#64748b" },
-  { name: "HR/AI", value: 25, color: "#475569" },
-];
+const PerformanceCharts = dynamic(
+  () => import("@/features/dashboard/components/PerformanceCharts"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-72 w-full pt-2 animate-pulse rounded-xl bg-slate-100 dark:bg-slate-800" />
+    ),
+  },
+);
 
 export function PerformanceSummary() {
   const [chartType, setChartType] = useState<"area" | "bar" | "pie" | "line">("area");
-  const testsTaken = useAuthStore((state) => state.progress.testsTaken);
-  const isZero = testsTaken === 0;
+  const { data: dashboard } = useDashboardQuery();
 
-  const weeklyPerformance = isZero ? zeroWeeklyPerformance : demoWeeklyPerformance;
-  const categoryDistribution = isZero ? zeroCategoryDistribution : demoCategoryDistribution;
+  const testStats = dashboard?.testStatistics;
+  const learningProgress = dashboard?.learningProgress;
+  const isZero =
+    (testStats?.testsAttempted ?? 0) === 0 &&
+    (learningProgress ?? []).every((m) => m.percentage === 0);
+
+  const moduleChartData = useMemo(() => {
+    const modules = learningProgress ?? [];
+    return modules.map((item) => ({
+      day: item.moduleName.split(" ")[0] ?? item.moduleName,
+      score: item.percentage,
+      accuracy: Math.round(testStats?.averageAccuracy ?? 0),
+      tests: testStats?.testsCompleted ?? 0,
+    }));
+  }, [learningProgress, testStats]);
+
+  const categoryDistribution = useMemo(() => {
+    const modules = learningProgress ?? [];
+    return modules.map((item, index) => ({
+      name: item.moduleName.split(" ")[0] ?? item.moduleName,
+      value: item.percentage,
+      color: isZero ? "#94a3b8" : moduleChartColor(index),
+    }));
+  }, [learningProgress, isZero]);
+
+  const weeklyPerformance =
+    moduleChartData.length > 0
+      ? moduleChartData
+      : [{ day: "—", score: 0, accuracy: 0, tests: 0 }];
 
   return (
     <DashboardCard
       title="Performance Summary & Growth Analytics"
-      subtitle={isZero ? "No test scores recorded yet. Complete mock tests to see performance analytics." : "Comprehensive view of test scores, accuracy trends, and module distribution"}
+      subtitle={
+        isZero
+          ? "No test scores recorded yet. Complete mock tests to see performance analytics."
+          : "Comprehensive view of test scores, accuracy trends, and module distribution"
+      }
       action={
         <div className="flex items-center space-x-1 rounded-xl bg-slate-100 p-1 dark:bg-slate-800 text-xs font-semibold">
-          <button
-            onClick={() => setChartType("area")}
-            className={`rounded-lg px-2.5 py-1 transition-all ${
-              chartType === "area"
-                ? "bg-[#5D50EB] text-white shadow-sm"
-                : "text-slate-600 dark:text-slate-400 hover:text-slate-900"
-            }`}
-          >
-            Area
-          </button>
-          <button
-            onClick={() => setChartType("bar")}
-            className={`rounded-lg px-2.5 py-1 transition-all ${
-              chartType === "bar"
-                ? "bg-[#5D50EB] text-white shadow-sm"
-                : "text-slate-600 dark:text-slate-400 hover:text-slate-900"
-            }`}
-          >
-            Bar
-          </button>
-          <button
-            onClick={() => setChartType("line")}
-            className={`rounded-lg px-2.5 py-1 transition-all ${
-              chartType === "line"
-                ? "bg-[#5D50EB] text-white shadow-sm"
-                : "text-slate-600 dark:text-slate-400 hover:text-slate-900"
-            }`}
-          >
-            Line
-          </button>
-          <button
-            onClick={() => setChartType("pie")}
-            className={`rounded-lg px-2.5 py-1 transition-all ${
-              chartType === "pie"
-                ? "bg-[#5D50EB] text-white shadow-sm"
-                : "text-slate-600 dark:text-slate-400 hover:text-slate-900"
-            }`}
-          >
-            Distribution
-          </button>
+          {(["area", "bar", "line", "pie"] as const).map((type) => (
+            <button
+              key={type}
+              type="button"
+              onClick={() => setChartType(type)}
+              className={`rounded-lg px-2.5 py-1 transition-all ${
+                chartType === type
+                  ? "bg-[#5D50EB] text-white shadow-sm"
+                  : "text-slate-600 dark:text-slate-400 hover:text-slate-900"
+              }`}
+            >
+              {type === "pie" ? "Distribution" : type.charAt(0).toUpperCase() + type.slice(1)}
+            </button>
+          ))}
         </div>
       }
     >
-      <div className="h-72 w-full pt-2">
-        <ResponsiveContainer width="100%" height="100%">
-          {chartType === "area" ? (
-            <AreaChart data={weeklyPerformance} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-              <defs>
-                <linearGradient id="purpleGradient" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="#5D50EB" stopOpacity={0.4} />
-                  <stop offset="95%" stopColor="#5D50EB" stopOpacity={0} />
-                </linearGradient>
-              </defs>
-              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" opacity={0.5} />
-              <XAxis dataKey="day" tickLine={false} axisLine={false} tick={{ fontSize: 12, fill: "#64748b" }} />
-              <YAxis tickLine={false} axisLine={false} tick={{ fontSize: 12, fill: "#64748b" }} domain={[0, 100]} />
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: "#0f172a",
-                  borderColor: "#1e293b",
-                  borderRadius: "12px",
-                  color: "#fff",
-                  fontSize: "12px",
-                }}
-              />
-              <Area type="monotone" dataKey="score" stroke="#5D50EB" strokeWidth={3} fillOpacity={1} fill="url(#purpleGradient)" />
-            </AreaChart>
-          ) : chartType === "bar" ? (
-            <BarChart data={weeklyPerformance} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" opacity={0.5} />
-              <XAxis dataKey="day" tickLine={false} axisLine={false} tick={{ fontSize: 12, fill: "#64748b" }} />
-              <YAxis tickLine={false} axisLine={false} tick={{ fontSize: 12, fill: "#64748b" }} />
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: "#0f172a",
-                  borderColor: "#1e293b",
-                  borderRadius: "12px",
-                  color: "#fff",
-                  fontSize: "12px",
-                }}
-              />
-              <Bar dataKey="score" fill="#5D50EB" radius={[6, 6, 0, 0]} />
-            </BarChart>
-          ) : chartType === "line" ? (
-            <LineChart data={weeklyPerformance} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" opacity={0.5} />
-              <XAxis dataKey="day" tickLine={false} axisLine={false} tick={{ fontSize: 12, fill: "#64748b" }} />
-              <YAxis tickLine={false} axisLine={false} tick={{ fontSize: 12, fill: "#64748b" }} domain={[0, 100]} />
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: "#0f172a",
-                  borderColor: "#1e293b",
-                  borderRadius: "12px",
-                  color: "#fff",
-                  fontSize: "12px",
-                }}
-              />
-              <Line type="monotone" dataKey="score" stroke="#5D50EB" strokeWidth={3} dot={{ r: 4, fill: "#5D50EB" }} />
-              <Line type="monotone" dataKey="accuracy" stroke="#10b981" strokeWidth={2} strokeDasharray="4 4" />
-            </LineChart>
-          ) : (
-            <PieChart>
-              <Pie
-                data={categoryDistribution}
-                cx="50%"
-                cy="50%"
-                innerRadius={60}
-                outerRadius={90}
-                paddingAngle={5}
-                dataKey="value"
-              >
-                {categoryDistribution.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={entry.color} />
-                ))}
-              </Pie>
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: "#0f172a",
-                  borderColor: "#1e293b",
-                  borderRadius: "12px",
-                  color: "#fff",
-                  fontSize: "12px",
-                }}
-              />
-            </PieChart>
-          )}
-        </ResponsiveContainer>
-      </div>
-
-      {chartType === "pie" && (
-        <div className="mt-4 flex flex-wrap justify-center gap-4 text-xs font-semibold">
-          {categoryDistribution.map((cat) => (
-            <div key={cat.name} className="flex items-center space-x-1.5">
-              <span className="h-3 w-3 rounded-full" style={{ backgroundColor: cat.color }} />
-              <span className="text-slate-600 dark:text-slate-300">{cat.name} ({isZero ? "0%" : `${cat.value}%`})</span>
-            </div>
-          ))}
-        </div>
-      )}
+      <PerformanceCharts
+        chartType={chartType}
+        weeklyPerformance={weeklyPerformance}
+        categoryDistribution={categoryDistribution}
+        isZero={isZero}
+      />
     </DashboardCard>
   );
 }

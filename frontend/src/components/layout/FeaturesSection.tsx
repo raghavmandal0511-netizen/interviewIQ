@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { 
   BookOpen, 
   FileText, 
@@ -100,31 +99,20 @@ export function FeaturesSection() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.5 }}
-            className="text-3xl font-extrabold tracking-tight text-[#0f172a] sm:text-4xl"
-          >
+          <h2 className="text-3xl font-extrabold tracking-tight text-[#0f172a] sm:text-4xl">
             Everything You Need to Crack Placements
-          </motion.h2>
+          </h2>
         </div>
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {features.map((feature, index) => (
-            <motion.div
+          {features.map((feature) => (
+            <div
               key={feature.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              whileHover={{ y: -6, transition: { duration: 0.2 } }}
-              className="relative flex flex-col p-6 rounded-2xl border border-slate-100 bg-white transition-all hover:shadow-xl hover:shadow-slate-100/80 cursor-default group"
+              className="relative flex flex-col p-6 rounded-2xl border border-slate-100 bg-white transition-colors hover:border-slate-200 cursor-default group"
             >
               {/* Feature Icon */}
-              <div className={`flex h-11 w-11 items-center justify-center rounded-xl ${feature.iconBg} ${feature.iconColor} transition-transform duration-300 group-hover:scale-110`}>
+              <div className={`flex h-11 w-11 items-center justify-center rounded-xl ${feature.iconBg} ${feature.iconColor}`}>
                 <feature.icon className="h-5 w-5" />
               </div>
 
@@ -135,18 +123,12 @@ export function FeaturesSection() {
               <p className="mt-2 text-sm text-slate-500 leading-relaxed">
                 {feature.desc}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
 
         {/* Stats Section Banner */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-20 bg-indigo-50/40 border border-indigo-100/50 rounded-2xl p-8"
-        >
+        <div className="mt-20 bg-indigo-50/40 border border-indigo-100/50 rounded-2xl p-8">
           <div className="grid grid-cols-2 gap-y-8 gap-x-4 md:grid-cols-4 divide-y-0 divide-x-0 md:divide-x divide-indigo-100/70">
             {[
               { val: 10, suffix: "K+", label: "Active Learners" },
@@ -164,7 +146,7 @@ export function FeaturesSection() {
               </div>
             ))}
           </div>
-        </motion.div>
+        </div>
 
       </div>
     </section>

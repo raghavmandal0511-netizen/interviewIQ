@@ -3,10 +3,18 @@
 import { Trophy, Flame, Zap, Star } from "lucide-react";
 import { AchievementCard } from "@/components/cards/AchievementCard";
 import { DashboardCard } from "@/components/cards/DashboardCard";
-import { useAuthStore } from "@/store/auth.store";
+import { useDashboardQuery } from "@/features/dashboard/hooks";
 
 export function AchievementsSection() {
-  const unlocked = useAuthStore((state) => state.progress.unlockedAchievements);
+  const { data: dashboard } = useDashboardQuery();
+
+  const streak = dashboard?.dailyStreak.currentStreak ?? 0;
+  const questionsSolved = dashboard?.dashboardSummary.questionsSolved ?? 0;
+  const highestScore = dashboard?.testStatistics.highestScore ?? 0;
+  const hrAnswered = dashboard?.hrStatistics.questionsAnswered ?? 0;
+
+  const hasAnyProgress =
+    streak > 0 || questionsSolved > 0 || highestScore > 0 || hrAnswered > 0;
 
   const achievements = [
     {
@@ -14,33 +22,32 @@ export function AchievementsSection() {
       title: "Consistency Master",
       description: "Maintain a 7-day daily learning streak",
       icon: Flame,
-      unlocked: unlocked.includes("ach-1"),
-      date: unlocked.includes("ach-1") ? "Jul 20" : undefined,
+      unlocked: streak >= 7,
     },
     {
       id: "ach-2",
       title: "Speed Arithmetic Ace",
-      description: "Solve 10 math questions under 5 minutes",
+      description: "Solve 10 practice questions",
       icon: Zap,
-      unlocked: unlocked.includes("ach-2"),
-      date: unlocked.includes("ach-2") ? "Jul 18" : undefined,
+      unlocked: questionsSolved >= 10,
     },
     {
       id: "ach-3",
       title: "Mock Exam Champion",
       description: "Score 85%+ in a full length placement test",
       icon: Trophy,
-      unlocked: unlocked.includes("ach-3"),
-      date: unlocked.includes("ach-3") ? "Jul 15" : undefined,
+      unlocked: highestScore >= 85,
     },
     {
       id: "ach-4",
-      title: "AI Interview Prodigy",
-      description: "Achieve a 4.8 rating in AI Technical Interview",
+      title: "HR Interview Prodigy",
+      description: "Answer 5 HR interview practice questions",
       icon: Star,
-      unlocked: unlocked.includes("ach-4"),
+      unlocked: hrAnswered >= 5,
     },
   ];
+
+  const unlockedCount = achievements.filter((a) => a.unlocked).length;
 
   return (
     <DashboardCard
@@ -50,13 +57,29 @@ export function AchievementsSection() {
           <span>Unlocked Achievements</span>
         </div>
       }
-      subtitle="Milestones & badges earned during your placement preparation"
+      subtitle={
+        hasAnyProgress
+          ? `${unlockedCount} of ${achievements.length} milestones earned during your placement preparation`
+          : "Milestones & badges earned during your placement preparation"
+      }
     >
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {achievements.map((item) => (
-          <AchievementCard key={item.title} {...item} />
-        ))}
-      </div>
+      {hasAnyProgress ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {achievements.map((item) => (
+            <AchievementCard key={item.id} {...item} />
+          ))}
+        </div>
+      ) : (
+        <div className="flex flex-col items-center justify-center p-6 text-center rounded-xl bg-slate-50/50 dark:bg-slate-900/40 border border-dashed border-slate-200 dark:border-slate-800">
+          <Trophy className="h-8 w-8 text-slate-400 mb-2" />
+          <p className="text-xs font-bold text-slate-700 dark:text-slate-300">
+            No Achievements Unlocked Yet
+          </p>
+          <p className="text-[11px] text-slate-500 dark:text-slate-400 max-w-xs mt-1">
+            Start practicing, take mock tests, and build your streak to earn badges.
+          </p>
+        </div>
+      )}
     </DashboardCard>
   );
 }

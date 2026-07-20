@@ -1,5 +1,2 @@
-/**
- * profile feature components.
- * TODO: Implement feature UI components.
- */
-export {};
+export { SettingsPage } from "@/features/profile/components/SettingsPage";
+export { SettingsRow, SettingsSection } from "@/features/profile/components/SettingsRow";

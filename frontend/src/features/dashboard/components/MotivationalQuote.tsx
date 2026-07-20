@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Quote, Sparkles } from "lucide-react";
+import { Quote } from "lucide-react";
 
 const quotes = [
   {
@@ -26,19 +26,19 @@ export function MotivationalQuote() {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 15 }}
+      initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      className="relative overflow-hidden rounded-2xl border border-purple-200/80 bg-gradient-to-r from-purple-50/80 via-indigo-50/50 to-blue-50/80 p-5 shadow-sm dark:border-purple-900/40 dark:from-purple-950/30 dark:via-slate-900/60 dark:to-indigo-950/30 backdrop-blur-md"
+      className="relative overflow-hidden rounded-xl border border-purple-200/80 bg-gradient-to-r from-purple-50/80 via-indigo-50/50 to-blue-50/80 p-5 shadow-sm backdrop-blur-md dark:border-indigo-500/15 dark:from-indigo-500/[0.08] dark:via-[#161B22] dark:to-violet-500/[0.06] dark:shadow-[var(--shadow-card)]"
     >
       <div className="flex items-start space-x-3">
-        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#5D50EB] text-white shadow-sm">
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#5D50EB] text-white shadow-sm dark:bg-indigo-500">
           <Quote className="h-5 w-5 fill-white" />
         </div>
         <div className="space-y-1">
-          <p className="text-xs sm:text-sm font-semibold italic text-slate-800 dark:text-slate-200 leading-relaxed">
+          <p className="text-xs font-semibold italic leading-relaxed text-slate-800 dark:text-slate-200 sm:text-sm">
             &quot;{quote.text}&quot;
           </p>
-          <span className="block text-[11px] font-bold text-[#5D50EB] dark:text-purple-400">
+          <span className="block text-[11px] font-bold text-[#5D50EB] dark:text-indigo-300">
             — {quote.author}
           </span>
         </div>

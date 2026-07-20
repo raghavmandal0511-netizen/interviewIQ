@@ -3,21 +3,18 @@
 import { motion } from "framer-motion";
 import { Flame, Check, Sparkles } from "lucide-react";
 import { DashboardCard } from "@/components/cards/DashboardCard";
-import { useAuthStore } from "@/store/auth.store";
+import { useDashboardQuery } from "@/features/dashboard/hooks";
+import { getWeekDays } from "@/features/dashboard/utils/dashboard-helpers";
 
 export function DailyStreak() {
-  const streakDays = useAuthStore((state) => state.progress.streakDays);
+  const { data: dashboard } = useDashboardQuery();
+  const streakDays = dashboard?.dailyStreak.currentStreak ?? 0;
+  const longestStreak = dashboard?.dailyStreak.longestStreak ?? 0;
+  const todayCompleted = dashboard?.dailyStreak.todayCompleted ?? false;
   const isZero = streakDays === 0;
 
-  const weekDays = [
-    { day: "Mon", completed: !isZero, date: "15" },
-    { day: "Tue", completed: !isZero, date: "16" },
-    { day: "Wed", completed: !isZero, date: "17" },
-    { day: "Thu", completed: !isZero, date: "18" },
-    { day: "Fri", completed: !isZero, date: "19" },
-    { day: "Sat", completed: !isZero, date: "20" },
-    { day: "Sun", completed: !isZero, date: "21", isToday: true },
-  ];
+  const weekDays = getWeekDays(streakDays, todayCompleted);
+  const daysToMastery = Math.max(0, 10 - streakDays);
 
   return (
     <DashboardCard
@@ -32,7 +29,6 @@ export function DailyStreak() {
       subtitle="Practice every day to keep your streak multiplier active"
     >
       <div className="space-y-4">
-        {/* Streak Main Indicator */}
         <div className="flex items-center justify-between rounded-2xl bg-amber-500/10 border border-amber-500/20 p-4">
           <div className="flex items-center space-x-3">
             <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-500 text-white shadow-md shadow-amber-500/30">
@@ -45,7 +41,9 @@ export function DailyStreak() {
               <p className="text-xs text-amber-700 dark:text-amber-300 font-semibold">
                 {isZero
                   ? "Solve a question today to start your streak!"
-                  : `You're ${10 - Math.min(streakDays, 9)} days away from the 10-Day Mastery Badge!`}
+                  : daysToMastery > 0
+                    ? `You're ${daysToMastery} days away from the 10-Day Mastery Badge!`
+                    : `Longest streak: ${longestStreak} days`}
               </p>
             </div>
           </div>
@@ -55,7 +53,6 @@ export function DailyStreak() {
           </div>
         </div>
 
-        {/* Weekly Days Bar */}
         <div className="grid grid-cols-7 gap-2">
           {weekDays.map((item) => (
             <motion.div
@@ -63,10 +60,10 @@ export function DailyStreak() {
               whileHover={{ scale: 1.05 }}
               className={`flex flex-col items-center justify-between p-2.5 rounded-xl border transition-all ${
                 item.isToday
-                  ? "border-[#5D50EB] bg-purple-500/10 dark:bg-purple-950/40 ring-2 ring-[#5D50EB]/30"
+                  ? "border-[#5D50EB] bg-purple-500/10 ring-2 ring-[#5D50EB]/30 dark:border-indigo-400/50 dark:bg-indigo-500/10 dark:ring-indigo-500/25"
                   : item.completed
-                  ? "border-emerald-200 bg-emerald-50/50 dark:border-emerald-900/40 dark:bg-emerald-950/20"
-                  : "border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900"
+                    ? "border-emerald-200 bg-emerald-50/50 dark:border-emerald-500/20 dark:bg-emerald-500/10"
+                    : "border-slate-200 bg-slate-50 dark:border-white/[0.06] dark:bg-white/[0.03]"
               }`}
             >
               <span className="text-[10px] font-semibold text-slate-500 dark:text-slate-400">
@@ -82,7 +79,11 @@ export function DailyStreak() {
                     : "bg-slate-200 dark:bg-slate-700 text-slate-400"
                 }`}
               >
-                {item.completed ? <Check className="h-3 w-3 stroke-[3]" /> : <span className="h-1.5 w-1.5 rounded-full bg-slate-400" />}
+                {item.completed ? (
+                  <Check className="h-3 w-3 stroke-[3]" />
+                ) : (
+                  <span className="h-1.5 w-1.5 rounded-full bg-slate-400" />
+                )}
               </div>
             </motion.div>
           ))}

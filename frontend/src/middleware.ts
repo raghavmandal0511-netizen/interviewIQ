@@ -1,13 +1,8 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
+import { AUTH_COOKIE_NAME } from "@/constants/api";
 import { AUTH_ROUTES, PROTECTED_ROUTE_PREFIXES, ROUTES } from "@/constants/routes";
-
-/**
- * Auth cookie name used by middleware.
- * TODO: Align with backend auth cookie when integrating.
- */
-const AUTH_COOKIE_NAME = "interviewiq_access_token";
 
 function isProtectedRoute(pathname: string): boolean {
   return PROTECTED_ROUTE_PREFIXES.some(
@@ -38,9 +33,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: [
-    "/dashboard/:path*",
-    "/login",
-    "/signup",
-  ],
+  matcher: ["/dashboard/:path*", "/login", "/signup"],
 };

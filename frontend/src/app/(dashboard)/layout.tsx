@@ -10,7 +10,7 @@ type DashboardLayoutProps = {
 
 export default function DashboardLayout({ children }: DashboardLayoutProps) {
   return (
-    <div className="min-h-screen bg-slate-50/50 font-sans text-slate-900 antialiased dark:bg-[#0b0f19] dark:text-slate-100 flex flex-col">
+    <div className="flex min-h-screen flex-col bg-zinc-50 font-sans text-zinc-900 antialiased dark:bg-[#09090B] dark:text-slate-100">
       {/* Sticky Top Navbar */}
       <DashboardNavbar />
 

@@ -1,9 +1,8 @@
-"use client";
-
 import Link from "next/link";
-import { motion } from "framer-motion";
 import type { LucideIcon } from "lucide-react";
 import { ArrowRight } from "lucide-react";
+
+import { cn } from "@/lib/utils";
 
 interface QuickActionCardProps {
   title: string;
@@ -23,50 +22,58 @@ export function QuickActionCard({
   const isPrimary = variant === "primary";
 
   return (
-    <Link href={href} className="block group">
-      <motion.div
-        whileHover={{ y: -3, scale: 1.01 }}
-        whileTap={{ scale: 0.98 }}
-        className={`relative flex flex-col justify-between overflow-hidden rounded-2xl p-5 shadow-sm transition-all duration-300 ${
+    <Link href={href} className="group block">
+      <div
+        data-motion-card
+        className={cn(
+          "relative flex flex-col justify-between overflow-hidden rounded-xl p-5 transition-all duration-300",
           isPrimary
-            ? "bg-[#5D50EB] text-white shadow-purple-500/20 hover:bg-[#4d40db] hover:shadow-lg hover:shadow-purple-500/30"
-            : "border border-slate-200/80 bg-white text-slate-900 hover:border-purple-300 hover:shadow-md dark:border-slate-800/80 dark:bg-slate-900/60 dark:text-white dark:hover:border-purple-800"
-        }`}
+            ? "bg-[#5D50EB] text-white shadow-sm hover:-translate-y-0.5 hover:bg-[#4d40db] dark:bg-indigo-500 dark:shadow-[0_8px_24px_-8px_rgba(99,102,241,0.45)] dark:hover:bg-indigo-400"
+            : "surface-card surface-card-interactive text-zinc-900 dark:text-slate-50",
+        )}
       >
         <div className="flex items-start justify-between gap-4">
           <div
-            className={`flex h-10 w-10 items-center justify-center rounded-xl ${
+            className={cn(
+              "flex h-10 w-10 items-center justify-center rounded-xl",
               isPrimary
                 ? "bg-white/15 text-white"
-                : "bg-purple-50 text-[#5D50EB] dark:bg-purple-950/50 dark:text-purple-400"
-            }`}
+                : "bg-indigo-50 text-indigo-600 dark:bg-indigo-500/10 dark:text-indigo-400",
+            )}
           >
             <Icon className="h-5 w-5" />
           </div>
           <ArrowRight
-            className={`h-4 w-4 transition-transform duration-200 group-hover:translate-x-1 ${
-              isPrimary ? "text-white/80" : "text-slate-400 group-hover:text-[#5D50EB]"
-            }`}
+            className={cn(
+              "h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5",
+              isPrimary
+                ? "text-white/80"
+                : "text-zinc-400 group-hover:text-indigo-500 dark:text-slate-500 dark:group-hover:text-indigo-400",
+            )}
           />
         </div>
 
-        <div className="mt-4">
+        <div className="mt-5">
           <h4
-            className={`text-base font-bold tracking-tight ${
-              isPrimary ? "text-white" : "text-slate-900 dark:text-white"
-            }`}
+            className={cn(
+              "text-base font-semibold tracking-tight",
+              isPrimary ? "text-white" : "text-zinc-900 dark:text-slate-50",
+            )}
           >
             {title}
           </h4>
           <p
-            className={`mt-1 text-xs leading-relaxed ${
-              isPrimary ? "text-purple-100" : "text-slate-500 dark:text-slate-400"
-            }`}
+            className={cn(
+              "mt-1.5 text-xs leading-relaxed",
+              isPrimary
+                ? "text-indigo-100"
+                : "text-zinc-500 dark:text-slate-400",
+            )}
           >
             {description}
           </p>
         </div>
-      </motion.div>
+      </div>
     </Link>
   );
 }

@@ -1,9 +1,14 @@
-export default function Page() {
-  return (
-    <section>
-      <h1>Theory</h1>
-      <p>Theory content for this arithmetic topic.</p>
-      <p>TODO: Implement this page UI.</p>
-    </section>
-  );
+"use client";
+
+import { use } from "react";
+
+import { TheoryView } from "@/features/aptitude/components/TheoryView";
+
+export default function TheoryPage({
+  params,
+}: {
+  params: Promise<{ topicSlug: string }>;
+}) {
+  const { topicSlug } = use(params);
+  return <TheoryView moduleKey="arithmetic" topicSlug={topicSlug} />;
 }

@@ -10,64 +10,79 @@ import {
   Video,
 } from "lucide-react";
 import { StatCard } from "@/components/cards/StatCard";
-import { useAuthStore } from "@/store/auth.store";
+import { useDashboardQuery } from "@/features/dashboard/hooks";
 
 export function QuickStats() {
-  const progress = useAuthStore((state) => state.progress);
+  const { data: dashboard } = useDashboardQuery();
+
+  const summary = dashboard?.dashboardSummary;
+  const testStats = dashboard?.testStatistics;
+  const overall = dashboard?.overallProgress;
+  const streakDays = dashboard?.dailyStreak.currentStreak ?? 0;
+  const hrStats = dashboard?.hrStatistics;
+
+  const testsTaken = summary?.testsTaken ?? 0;
+  const accuracyRate = Math.round(testStats?.averageAccuracy ?? 0);
+  const topicsCompleted = overall?.completedTopics ?? 0;
+  const problemsSolved = summary?.questionsSolved ?? 0;
+  const mockInterviews = hrStats?.questionsAnswered ?? 0;
 
   const stats = [
     {
       title: "Tests Taken",
-      value: progress.testsTaken,
-      change: progress.testsTaken === 0 ? "Start first test" : "+4 this week",
-      isPositive: progress.testsTaken > 0,
+      value: testsTaken,
+      change: testsTaken === 0 ? "Start first test" : `${testStats?.testsCompleted ?? 0} completed`,
+      isPositive: testsTaken > 0,
       icon: FileCheck,
-      iconBg: "bg-blue-50 dark:bg-blue-950/40",
+      iconBg: "bg-blue-50 dark:bg-blue-500/10",
       iconColor: "text-blue-600 dark:text-blue-400",
     },
     {
       title: "Accuracy",
-      value: progress.accuracyRate,
+      value: accuracyRate,
       suffix: "%",
-      change: progress.accuracyRate === 0 ? "No data yet" : "+5.2%",
-      isPositive: progress.accuracyRate > 0,
+      change: accuracyRate === 0 ? "No data yet" : `Avg ${accuracyRate}%`,
+      isPositive: accuracyRate > 0,
       icon: Target,
-      iconBg: "bg-emerald-50 dark:bg-emerald-950/40",
+      iconBg: "bg-emerald-50 dark:bg-emerald-500/10",
       iconColor: "text-emerald-600 dark:text-emerald-400",
     },
     {
       title: "Topics Completed",
-      value: progress.topicsCompleted,
-      change: progress.topicsCompleted === 0 ? "0 completed" : "+2 today",
-      isPositive: progress.topicsCompleted > 0,
+      value: topicsCompleted,
+      change:
+        topicsCompleted === 0
+          ? "0 completed"
+          : `${overall?.completionPercentage ?? 0}% overall`,
+      isPositive: topicsCompleted > 0,
       icon: CheckCircle2,
-      iconBg: "bg-purple-50 dark:bg-purple-950/40",
-      iconColor: "text-[#5D50EB] dark:text-purple-400",
+      iconBg: "bg-purple-50 dark:bg-indigo-500/10",
+      iconColor: "text-[#5D50EB] dark:text-indigo-400",
     },
     {
       title: "Current Streak",
-      value: progress.streakDays,
+      value: streakDays,
       suffix: " Days",
-      change: progress.streakDays === 0 ? "Start streak today!" : "Active Streak",
-      isPositive: progress.streakDays > 0,
+      change: streakDays === 0 ? "Start streak today!" : "Active Streak",
+      isPositive: streakDays > 0,
       icon: Flame,
-      iconBg: "bg-amber-50 dark:bg-amber-950/40",
+      iconBg: "bg-amber-50 dark:bg-amber-500/10",
       iconColor: "text-amber-500 dark:text-amber-400",
     },
     {
       title: "Problems Solved",
-      value: progress.problemsSolved,
-      change: progress.problemsSolved === 0 ? "0 solved" : "+18 overall",
-      isPositive: progress.problemsSolved > 0,
+      value: problemsSolved,
+      change: problemsSolved === 0 ? "0 solved" : `${summary?.exercisesCompleted ?? 0} exercises`,
+      isPositive: problemsSolved > 0,
       icon: Code2,
-      iconBg: "bg-indigo-50 dark:bg-indigo-950/40",
+      iconBg: "bg-indigo-50 dark:bg-indigo-500/10",
       iconColor: "text-indigo-600 dark:text-indigo-400",
     },
     {
       title: "Mock Interviews",
-      value: progress.mockInterviews,
-      change: progress.mockInterviews === 0 ? "0 mock interviews" : "+3 completed",
-      isPositive: progress.mockInterviews > 0,
+      value: mockInterviews,
+      change: mockInterviews === 0 ? "0 mock interviews" : "HR questions answered",
+      isPositive: mockInterviews > 0,
       icon: Video,
       iconBg: "bg-rose-50 dark:bg-rose-950/40",
       iconColor: "text-rose-500 dark:text-rose-400",

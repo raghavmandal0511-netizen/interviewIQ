@@ -6,7 +6,7 @@ export default function Loading() {
       <div className="w-full max-w-lg">
         <div className="mb-6 text-center">
           <span className="text-2xl font-bold text-slate-900">
-            Interview<span className="text-[#5D50EB]">IQ</span>
+            Interview<span className="text-blue-600">IQ</span>
           </span>
         </div>
         <PageSkeleton rows={3} />

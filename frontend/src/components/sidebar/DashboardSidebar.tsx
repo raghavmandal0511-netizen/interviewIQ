@@ -213,7 +213,7 @@ export function DashboardSidebar() {
                     <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">
                       Interview
                     </span>
-                    <span className="text-xl font-extrabold text-[#5D50EB] dark:text-indigo-400">
+                    <span className="text-xl font-extrabold text-blue-600 dark:text-blue-400">
                       IQ
                     </span>
                   </Link>

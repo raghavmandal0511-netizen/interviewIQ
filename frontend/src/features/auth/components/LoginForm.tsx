@@ -36,7 +36,7 @@ export function LoginForm() {
           <span className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">
             Interview
           </span>
-          <span className="text-3xl font-extrabold text-[#5D50EB]">IQ</span>
+          <span className="text-3xl font-extrabold text-blue-600">IQ</span>
         </Link>
         <h2 className="mt-4 text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight">
           Welcome back!

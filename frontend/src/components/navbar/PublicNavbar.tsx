@@ -16,7 +16,7 @@ export function PublicNavbar() {
           <span className="text-2xl font-bold tracking-tight text-[#1e293b]">
             Interview
           </span>
-          <span className="text-2xl font-extrabold text-[#3b52f6]">
+          <span className="text-2xl font-extrabold text-blue-600">
             IQ
           </span>
         </Link>

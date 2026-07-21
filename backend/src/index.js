@@ -17,8 +17,12 @@ const connection_url = process.env.MONGO_URI;
 app.use(cookiesParser());
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:3000'], // Allow frontend and localhost:3000
-    credentials: true // This tells Express to accept cookies from the frontend
+    origin: [
+        'http://localhost:5173',
+        'http://localhost:3000',
+        'https://interview-iq-navy-nu.vercel.app',
+    ],
+    credentials: true,
 }));
 
 // connect to mongoose

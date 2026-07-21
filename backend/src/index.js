@@ -20,7 +20,7 @@ app.use(cors({
     origin: [
         'http://localhost:5173',
         'http://localhost:3000',
-        'https://interview-iq-navy-nu.vercel.app',
+        'https://interview-iq-one-omega.vercel.app',
     ],
     credentials: true,
 }));
@@ -28,8 +28,8 @@ app.use(cors({
 // connect to mongoose
 
 mongooes.connect(connection_url)
-.then(() => console.log("db is connected "))
-.catch(err => console.error(err))
+    .then(() => console.log("db is connected "))
+    .catch(err => console.error(err))
 // routes
 app.use(router);
 
@@ -37,7 +37,7 @@ app.use(router);
 
 
 // listner 
-app.listen(port, ()=>{
+app.listen(port, () => {
     console.log(`server start http://localhost:${port}/`);
-    
+
 })

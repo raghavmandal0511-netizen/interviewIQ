@@ -20,10 +20,12 @@ import { apiClient } from "@/lib/axios";
 
 Configured with:
 
-- `baseURL` from `@/config/env`
-- JSON headers
-- `withCredentials: true`
-- Request/response interceptor placeholders
+- `baseURL` from `@/config/env` → absolute Render origin  
+  (`https://interviewiq-backend-ecex.onrender.com`)
+- Endpoint paths from `@/constants/api` already include `/api/...`
+- JSON headers + `withCredentials: true`
+- Request interceptor attaches `Authorization: Bearer <token>`
+- Response interceptor maps errors and clears session on 401/403
 
 ## Environment
 
@@ -31,9 +33,17 @@ Configured with:
 | --- | --- |
 | `NEXT_PUBLIC_APP_NAME` | Product name |
 | `NEXT_PUBLIC_APP_URL` | Frontend origin |
-| `NEXT_PUBLIC_API_BASE_URL` | Backend API base URL |
+| `NEXT_PUBLIC_API_BASE_URL` | Backend origin (no trailing slash, no `/api` suffix) |
+
+Example:
+
+```env
+NEXT_PUBLIC_API_BASE_URL=https://interviewiq-backend-ecex.onrender.com
+```
 
 Access env only through `@/config/env`.
+
+See also: `API_AUDIT_REPORT.md`.
 
 ## Recommended Call Flow
 

@@ -4,7 +4,6 @@ import { AUTH_COOKIE_NAME } from "@/constants/api";
 
 /**
  * Clears the httpOnly auth cookie on the frontend origin.
- * Backend does not expose a logout endpoint.
  */
 export async function POST() {
   const response = NextResponse.json({

@@ -1,40 +1,14 @@
 import type { NextConfig } from "next";
 
-const backendUrl =
-  process.env.BACKEND_INTERNAL_URL ?? "http://localhost:5000";
-
-const proxy = (path: string) => ({
-  source: `/api/${path}/:path*`,
-  destination: `${backendUrl}/api/${path}/:path*`,
-});
-
+/**
+ * API calls go directly to NEXT_PUBLIC_API_BASE_URL (Render).
+ * No `/api` rewrite proxy is required for business endpoints.
+ * Only same-origin Next routes under `/api/auth/session` and
+ * `/api/auth/logout` run inside this Next.js app.
+ */
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  async rewrites() {
-    return [
-      // Exact auth login/register (backend uses nested /api/userAuth paths)
-      {
-        source: "/api/auth/api/:path*",
-        destination: `${backendUrl}/api/auth/api/:path*`,
-      },
-      proxy("user"),
-      proxy("categories"),
-      proxy("modules"),
-      proxy("topics"),
-      proxy("theories"),
-      proxy("exercises"),
-      proxy("questions"),
-      proxy("tests"),
-      proxy("test-questions"),
-      proxy("attempts"),
-      proxy("user-answers"),
-      proxy("topic-progress"),
-      proxy("hr"),
-      proxy("dashboard"),
-      proxy("reports"),
-    ];
-  },
 };
 
 export default nextConfig;

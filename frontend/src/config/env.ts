@@ -2,14 +2,20 @@
  * Environment configuration.
  * Never access process.env directly outside this module.
  */
+function normalizeApiBaseUrl(raw: string | undefined): string {
+  const fallback = "https://interviewiq-backend-ecex.onrender.com";
+  const value = (raw ?? fallback).trim().replace(/\/+$/, "");
+  return value || fallback;
+}
+
 export const env = {
   appName: process.env.NEXT_PUBLIC_APP_NAME ?? "InterviewIQ",
   appUrl: process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000",
   /**
-   * Same-origin `/api` is proxied to the Express backend via next.config rewrites.
-   * This allows the httpOnly `token` cookie to work with Next.js middleware.
+   * Absolute backend origin (no trailing slash, no `/api` suffix).
+   * Endpoint paths in `API_ENDPOINTS` already include `/api/...`.
    */
-  apiBaseUrl: process.env.NEXT_PUBLIC_API_BASE_URL ?? "/api",
+  apiBaseUrl: normalizeApiBaseUrl(process.env.NEXT_PUBLIC_API_BASE_URL),
   aiInterviewUrl:
     process.env.NEXT_PUBLIC_AI_INTERVIEW_URL ??
     "https://ai-interview.interviewiq.app",

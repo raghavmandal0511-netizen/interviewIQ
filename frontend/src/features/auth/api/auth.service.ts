@@ -1,11 +1,29 @@
 import { apiClient } from "@/lib/axios";
 import { API_ENDPOINTS } from "@/constants/api";
+import { clearAccessToken, setAccessToken } from "@/lib/auth-token";
 import { mapBackendUser, type BackendUser, type User } from "@/types/auth";
 
-type AuthMessageResponse = {
+type AuthResponse = {
   success?: boolean;
   message?: string;
+  token?: string;
+  user?: BackendUser | {
+    id: string;
+    name: string;
+    email: string;
+    role?: string;
+  };
 };
+
+async function establishSession(token: string): Promise<void> {
+  setAccessToken(token);
+  await fetch("/api/auth/session", {
+    method: "POST",
+    credentials: "include",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ token }),
+  });
+}
 
 export const authService = {
   async register(data: {
@@ -13,14 +31,25 @@ export const authService = {
     email: string;
     password: string;
   }): Promise<void> {
-    await apiClient.post<AuthMessageResponse>(
+    const { data: res } = await apiClient.post<AuthResponse>(
       API_ENDPOINTS.auth.register,
       data,
     );
+    if (!res?.token) {
+      throw new Error(res?.message || "Registration succeeded but no token returned");
+    }
+    await establishSession(res.token);
   },
 
   async login(data: { email: string; password: string }): Promise<void> {
-    await apiClient.post<AuthMessageResponse>(API_ENDPOINTS.auth.login, data);
+    const { data: res } = await apiClient.post<AuthResponse>(
+      API_ENDPOINTS.auth.login,
+      data,
+    );
+    if (!res?.token) {
+      throw new Error(res?.message || "Login succeeded but no token returned");
+    }
+    await establishSession(res.token);
   },
 
   async fetchProfile(): Promise<User> {
@@ -34,7 +63,7 @@ export const authService = {
   },
 
   async logout(): Promise<void> {
-    // Same-origin Next.js route (not proxied) clears the httpOnly cookie.
+    clearAccessToken();
     await fetch("/api/auth/logout", {
       method: "POST",
       credentials: "include",
